@@ -1,0 +1,13 @@
+/* 
+  InhibitorsCoagulationPhase.strings
+  iHemostasis
+
+  Created by Zo Rajaonarivony on 11/02/2016.
+  Copyright © 2016 Diagnostica Stago S.A.S. All rights reserved.
+*/
+
+"protein-c-s-detail" = "After thrombin (IIa) is generated as a key enzyme of the coagulation cascade, it can bind to endothelial thrombomodulin (TM).\n\nProtein C (PC), the synthesis of which requires the presence of vitamin K, can be activated either by endothelial TM – thrombin complex or via the Endothelial Protein C Receptor (EPCR) resulting in activated Protein C generation (aPC).\n\naPC has the capability to inhibit activated Factor V and activated Factor VIII either directly, or in a potentiated Protein S (PS) way.\n\nProtein S synthesis also requires the presence of vitamin K. PS mainly circulates bound to a complement system protein, C4bBP. 60% of circulating PS is bound to C4bBP. This form is inactive.\n\nOnly free PS, i.e. non C4bBP-bound PS, which accounts for 40% of circulating PS is active and acts as a cofactor to potentiate aPC activity.\n\naPC can be inhibited by an EPCR fragment released in blood from endothelial EPCR called soluble EPCR (sEPCR).\n\nActivated Factor V and activated Factor VIII inactivation results in the generation of inactivated Factor V (Vi) and inactivated Factor VIII (VIIIi) respectively.\n\nSome patients (around 5% of general Caucasian population) have a polymorphism in factor V gene, called Factor V Leiden, that decreases activated Factor V sensitivity to aPC, resulting in a procoagulant state.\n\nIn the same way, PC or PS defects result in a procoagulant state.";
+
+"protein-z-tfpi-detail" = "•	Protein Z (PZ) is another vitamin K-dependent protein. It is the cofactor of a serpin,  the Protein Z dependent Protease Inhibitor (ZPI). The complex PZ/ZPI inhibits F.Xa on phospholipid surfaces in the presence of Calcium.Membrane glycosaminoglycans (GAG) may be involved in ZPI activation to neutralize F.Xa not bound to PL.\n\n•	Another physiological Factor Xa inhibitor is Tissue Factor Pathway Inhibitor (TFPI) that is released in the presence of glycosaminoglycans.";
+
+"antithrombin-detail" = "Finally, antithrombin (AT) is the major thrombin inhibitor. Its potency is markedly increased in the presence of glycosaminoglycans or heparin. AT can also inhibit Factor Xa, Factor VIIa, Factor IXa and Factor XIa.";

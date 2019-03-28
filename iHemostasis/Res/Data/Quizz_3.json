@@ -1,0 +1,102 @@
+{
+	"q&r": [
+			{
+			"question":"According to the clinical context and the results you have obtained, what decision should the physician make?",
+			"statement": "MEDICAL HISTORY:\nMr B, 75, is undergoing long term warfarin therapy at the prescribed dose of 5 mg/ day for atrial fibrillation. His treatment is stabilized and last week, his PT/INR ordered by the physician was measured at 2.2. He presented with oral thrush and started a local antifungal treatment (fluconazole) 48 hours ago. Today, he comes for a PT/INR check before his next visit to the cardiologist scheduled for tomorrow.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 35.0 s (control: 12.9 s), 24%\n     - PT ratio: 2.71\n     - INR: 3.40",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Replace the antifungal drug (fluconazole) by miconazole for the oral thrush treatment",
+						 "correct":false
+						 },{
+						 "reponse":"Maintain the AVK (anti-vitamin K) dosage",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Increase the AVK dosage",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Decrease the AVK dosage",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Give oral Vitamin K",
+						 "correct":false
+						 },			 
+						 {
+						 "reponse":"Check the PT/INR the day after",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Antifungal drugs are among the list of known VKA interfering drugs.</br>Miconazol is known to increase the VKA anticoagulant effect. This is observed whatever the route of administration, including mucosal application. Due to drug-drug interaction this usage is contra-indicated.</br>Fluconazole is associated with a similar additive effect, although less significant. Its usage in association with VKA is not recommended. However, this alternative treatment may be considered with cautious INR management and dose adjustment.</br>It is therefore not appropriate to replace fluconazole by miconazole.</br>Advances in the knowledge of warfarin metabolism utilizing cytochrome P450 2C9 isoenzyme and of vitamin K VKORC1 metabolism permit a better understanding of these interferences.</br>A comprehensive list of potential drug, food and dietary supplement interactions with warfarin is provided by the 9th edition of the American College of Chest Physicians evidences-based clinical practice guidelines on pharmacology and management of the vitamin K antagonists and also from the FDA website. VKA monitoring is based on validated algorithms that are available from health authorities and scientific associations.<p>In this case, the VKA dosage has to be lowered: the next dose should be skipped, and INR measured the day after. If necessary a second dose should also be skipped, and VKA treatment resumed using a lower dosage, with close INR management.</br>Generally speaking, concomitant drug use modification (introduction of a new drug, discontinuation of a drug, or a change in one or more drug dosages) requires more frequent INR monitoring.</br>Vitamin K administration is limited to INR values equal or above 5 (ACCP recommendation).</body></html>"
+			},
+			{
+			"question":"The day after, the physician has not modified the treatment and the PT/INR is measured at 6,5. Among the following statements, which one(s) is (are) correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"There is no consensus rule regarding the management of AVK overdosage",
+						 "correct":false
+						 },{
+						 "reponse":"When a PT/INR is found between 5 and 9 without significant bleeding, skipping the next one or two AVK doses is recommended",
+						 "correct":true
+						 },{
+						 "reponse":"Potential PT/INR variations due to AVK treatment should be considered",
+						 "correct":true
+						 },{
+						 "reponse":"Only major bleedings require the use of an antidote",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">As explained above, precise rules have been issued by health authorities and scientific committees (ACCP).<p>For patients with INRs ≥ 5.0 but < 9.0 and no significant bleeding, it is recommended to omit the next one or two doses, to monitor more frequently, and to resume therapy at an appropriately adjusted dose when the INR is at a therapeutic level (Grade 1C). Alternatively, it is suggested to omit a dose and to administer vitamin K (1 to 2.5 mg) orally, particularly if the patient is at an increased risk of bleeding (Grade 2A).<p>Furthermore, INR variation in a stabilized patient must be considered carefully. A significant INR increase within a week should draw immediate lab and physician attention to avoid   potential overdosage.</body></html>"
+			},
+			{
+			"question":"According to you, what could be the origin of this dramatic change in the patient's PT/INR?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"He has modified his diet eating more green vegetables",
+						 "correct":false
+						 },{
+						 "reponse":"His initiation of a local antifungal treatment ",
+						 "correct":true
+						 },{
+						 "reponse":"His age ",
+						 "correct":false
+						 },{
+						 "reponse":"He forgot to take his AVK dose",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">The interview must be led in a manner that allows the detection of potential events that may explain the present situation.<p>Food intake is often likely to provide variable amounts of vitamin K or to interfere with   VKA metabolism. However, such influences remain mostly of limited importance, since   regular food intake is limited to around 80 µg/day. Even though this intake could have an impact on INR, this would result in a lower INR rather than in an increased one.<p>Local antifungal treatment is very likely to have induced the INR increase (cf Question1).<p>A patient's age is an important feature to consider when initiating   VKA treatment: the elderly are more sensitive to VKA and often require a lower dosage than younger patients. Moreover, co-morbidities increase with age and potential drug-drug interactions have to be considered.</br>In this case, however, the patient has been stabilized on VKA for a long time; therefore, a patient's age by itself, may not explain the sudden INR increase.<p>If the patient had forgotten to take his VKA treatment,   an INR decrease and not an INR increase would have been observed.</body></html>"
+			},
+			{
+			"question":"Among the following sentences, which one is correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"AVK is highly sensitive to drug-drug interactions",
+						 "correct":true
+						 },{
+						 "reponse":"Vitamin K is more efficient and has less side effects by parenteral route than oral intake",
+						 "correct":false
+						 },{
+						 "reponse":"The administration of a unique 20 mg Vitamin K dose allows the patient to come back into the therapeutic range",
+						 "correct":false
+						 },{
+						 "reponse":"A patient eating one tomato per day presents significant change in his INR",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>VKA is highly sensitive to drug-drug interactions- Correct</b></br>As explained above, these drug-drug interactions make VKA management difficult<p><b>Vitamin K is more efficient and has less side effects by parenteral route than oral intake - Incorrect</b></br>The response to vitamin K administered subcutaneously is less predictable than to oral vitamin K and is sometimes delayed. Some studies have confirmed   that oral administration is predictably effective and has the advantages of safety and convenience over parenteral routes.<p><b>The administration of a unique 20 mg Vitamin K dose allows the patient to come back into the therapeutic range - Incorrect</b></br>Administration of a 20-mg vitamin K dose is not recommended.</br>If a decision is made to use vitamin K, it should be administered in a dose that will quickly lower the INR in a safe, but not subtherapeutic range, without causing resistance, once warfarin is reinstated.</br>A recommended dose may vary between 1 to 10 mg according to the clinical situation.<p><b>A patient eating one tomato per day presents significant change in his INR - Incorrect</b></br>Food intake is only likely to provide variable amounts of vitamin K or to interfere with   VKA metabolism. However, such an influence remains mostly of limited importance. Moreover, tomato is not   a major source of vitamin K.</br></br><p><b>More information on</b><ul><li>Holbrook A et al. Evidence-Based Management of Anticoagulant Therapy. 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest 2012; 141: e152S-e184S<li>Mahajan P et al. Clinical applications of pharmacogenomics guided warfarin dosing. Int J Clin Pharm. 2011; 33: 10-9.<li>http://ods.od.nih.gov/factsheets/cc/coumadin1.pdf. Important information to know when you are taking Coumadin® and vitamin K. (accessed April 30th, 2012)<li>Booth SL et al. Food sources and dietary intakes of vitamin K-1 (phylloquinone) in the American Diet: data from the FDA Total Diet Study. J Am Diet Assoc 1996; 96: 146-54.</ul></body></html>"
+			}
+			]
+}

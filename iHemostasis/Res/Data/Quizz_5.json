@@ -1,0 +1,130 @@
+{
+	"q&r": [
+			{
+			"question":"What are the screening tests to perform for a bleeding patient?",
+			"statement": "Mr B, a 34 year-old man, presents with acute abdominal pain. The Complete Blood Count results are consistent with appendicitis. According to the clinical outcome the physician diagnoses peritonitis.\nAs there is no medical or surgical history or mention of anti-platelet drug intake in the previous week, and according to the life-threatening situation, it has been decided to operate immediately without preoperative workup.\nA short time after the surgery, it is noted that the haemoglobin level drops, suggestive of unexpected and severe bleeding. Moreover, the Platelet count is normal.\n\nROUTINE LABORATORY RESULTS:\nPT (STA® Neoplastine® CI Plus):\n     - 13.5 sec. (control: 12.9 sec.), 91%\n     - PT ratio: 1.05\n     - INR: 1.07\nAPTT (STA® PTT Automate):\n     - 33 sec.(control: 33 sec.)\n     - APTT ratio: 1.0\nFibrinogen (STA® Liquid Fib): 260 mg/dL",
+			"information":"informations complémentaires pour la question",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"PT, APTT, Fibrinogen",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Protein C, Protein S, Antithrombin, Activated Protein C Resistance",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Anti-Xa level, Thrombin time",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Lupus anticoagulant screening",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Routine laboratory testing has to be performed first in the case of unexplained bleeding. PT, APTT, and Fibrinogen test because of limited sensitivity of PT and APTT to some Fibrinogen defects, are first line assays to be measured.<br /><br />New anticoagulant drugs have recently appeared on the market. As no monitoring is required, intake may be unknown by both patients and healthcare practitioners. New paradigms have been developed and measurement of anti-Xa activity may have to be assessed as well. PT anti-Xa drug-induced prolongation varies according to the drug and the reagent. Therefore PT is not sensitive enough to detect the presence of direct Factor Xa inhibitors in every case.<br /><br />APTT and even more thrombin time reagents, are generally speaking sensitive enough to detect low direct thrombin inhibitor concentrations.<br /><br />Thrombophilia workup, Protein C, Protein S, Antithrombin, Activated Protein C Resistance is not indicated. These defects are not associated with haemorrhagic events.<br /><br />Lupus Anticoagulant screening is not indicated either since associated clinical manifestations are both venous and arterial thrombosis and generally not bleeding.</body></html>"
+			},
+			{
+			"question":"What are the haemostasis defects that induce disruption in coagulation routine tests?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Thrombocytopenia",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Haemophilia",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Von Willebrand Disease",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Antithrombin defect",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Inherited or acquired haemophilia, defined by Factor VIII (Haemophilia A) or Factor IX (Haemophilia B) low levels are characterised by an APTT prolongation, without either PT or Fibrinogen assay alteration.<br/><br/>Von Willebrand Disease is associated with a low Factor VIII level, and as a consequence, an alteration of routine assays similar to Haemophilia A (concomitant APTT prolongation).<br/><br/>In both cases (VWD and Haemophilia A), APTT prolongation depends on both Factor VIII level and APTT reagent Factor VIII sensitivity.<br/><br/>Thrombocytopenia does not induce any routine laboratory test alteration. It is detected byplatelet count.<br/><br/>Antithrombin deficiency is not associated with any routine test alteration, except for antithrombin-dependent anticoagulant therapy (heparin).</body></html>"
+			},
+			{
+			"question":"According to the clinical outcome, which diagnosis hypothesis would you consider for this patient if PT, APTT, and fibrinogen levels are normal?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Inherited defect in contact phase factor",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Inherited defect in Factor XIII",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Haemophilia",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Unexplained haemorrhage",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Performing routine coagulation tests allows the detection of major, either inherited or acquired, bleeding causes. However, they may remain normal in some circumstances such as inherited or acquired Factor XIII (Fibrin stabilizing factor) deficiency. On the other hand, some bleeding events remain unexplained.<br/><br/>APTT sensitivity to inherited or acquired contact phase factors (High Molecular Weight Kininogen, Prekallicrein, Factor XII and Factor XI) varies according to the nature of the coagulation factor defect as well as to the nature of the reagent.<br/><br/>High Molecular Weight Kinogen, and Prekallicrein assays are not usually performed because they are not associated with any clinical outcome.<br/><br/>Factor XI and Factor XII assays, however, are frequently performed.<br/>Factor XII deficiency does not induce any bleeding tendency. On the other hand, Factor XI deficiency may be associated with an increased bleeding risk, especially during some surgery procedures (ENT, dental or urinary tract interventions), and for Factor XI levels below 20%. Such levels usually induce significant APTT prolongation.<br/><br/>Severe Haemophilia is defined by Factor VIII (Haemophilia A) or Factor IX (Haemophilia B) levels below 1%. APTT is always prolonged by such low factor levels.</body></html>"
+			},
+			{
+			"question":"From the following situations, which one causes an acquired bleeding syndrome?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"Acquired Haemophilia A",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Oral contraceptive treatment",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"ENT infection induced Lupus anticoagulant in children",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Cytomegalovirus Infection",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Acquired Haemophilia A is linked to the presence of specific antibodies directed against Factor VIII. These antibodies neutralise procoagulant Factor VIII activity and their presence is frequently associated with very low Factor VIII levels. They most often induce spontaneous bleeding.<br/><br/>Acquired Haemophilia diagnosis has to be recognized by lab staff as such patients require immediate tailored management in specialized units.<br/><br/>Oral contraceptive treatments do not induce any bleeding risk, but some have been described as thrombosis risk factors.<br/><br/>Isolated Lupus Anticoagulants are not associated with any bleeding risk (cf Question 1).<br/><br/>Cytomegalovirus infection is also not associated with a bleeding risk. It has however been reported that acute cytomegalovirus infection could be considered as a thrombotic risk factor.</body></html>"
+			},
+			{
+			"question":"Among the following sentences, which one is/are right?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"An APTT increase is always linked with a greater haemorrhagic risk",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"New oral anticoagulants do not interact with coagulation routine tests",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"The bleeding time doesn't detect all the primary haemostasis defects",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"A large panel of coagulation tests is able to detect all the causes of bleeding",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>A/ An APTT increase is always linked with a greater haemorrhagic risk. FALSE</b><br/>APTT can be prolonged in the case of intrinsic pathway factor deficiency, including Factor XII deficiency. This deficiency is not associated with a bleeding tendency (cf Question 3).<br/><br/><b>B/ New oral anticoagulants do not interact with coagulation routine tests. FALSE</b><br/>New oral anticoagulants presently approved worldwide target either Factor Xa (rivaroxaban – XARELTO®-, apixaban – Eliquis®-, edoxaban –LIXIANA®-) or Factor IIa (dabigatran – PRADAXA®-). They may more or less prolong PT, APTT, Fibrinogen assay, and Thrombin Time according to the drug and to the reagent's sensitivity.<br/><br/><b>C/ The bleeding time doesn't detect all the primary haemostasis defects. TRUE</b><br/>Bleeding time is a global test exploring primary haemostasis in vivo. The time to stop bleeding after a superficial incision to the patient's skin is recorded. Historically, bleeding time was used in preoperative workup as well as in bleeding event investigation. Bleeding time is however poorly reproducible and has low sensitivity and specificity and poor predictive value.<br/><br/>Furthermore, bleeding time is invasive and may cause scars.<br/>Bleeding time is consequently not considered as appropriate for primary haemostasis assessment.<br/><br/><b>D/ A large panel of coagulation tests is able to detect all the causes of bleeding. FALSE</b><br/>Haemostasis test performance has been demonstrated in the diagnosis of bleeding disorders and regular anticoagulant monitoring (heparin and VKA). However, some bleeding events are not identified either with coagulation laboratory test disturbance or clinical investigation. In those cases, bleeding is considered as unexplained.<br/><br/><p><b>More information on</b><ul><li>Sié P, Steib A. Central laboratory and point of care assessment of perioperative haemostasis. Can J Anesth 2006; 53: 512-20.<li>Innerhofer P, Kienast J. Principles of perioperative coagulopathy. Best Pract Res Clin Anaesthesiol 2010; 24: 1-14.</li></ul></p></body></html>"
+			}
+            
+			]
+}

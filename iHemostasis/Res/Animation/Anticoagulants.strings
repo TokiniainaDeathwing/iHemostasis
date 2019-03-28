@@ -1,0 +1,13 @@
+/* 
+  Anticoagulants.strings
+  iHemostasis
+
+  Created by Zo Rajaonarivony on 11/02/2016.
+  Copyright © 2016 Diagnostica Stago S.A.S. All rights reserved.
+*/
+
+"introduction-detail" = "Venous thromboembolism (VTE) is a major health issue because of its high incidence in some clinical settings: its most critical complication, pulmonary embolism (PE) is life-threatening, and post-thrombotic syndrome along with pulmonary hypertension can affect patients having experienced VTE.\nMoreover, stroke is the major complication of atrial fibrillation (AF)\n\nIn order to prevent and treat VTE, as well as to prevent stroke in AF, the pharmaceutical industry has developed antithrombotic drugs based on an anticoagulant action.";
+
+"historical-detail" = "Historical anticoagulants target multiple coagulation factors:\n–	Vitamin K Antagonists (VKA) decrease synthesis of vitamin K-dependent proteins including coagulation Factors II, VII, IX and X.\n–	Heparin (UnFractionated Heparin – UFH – and Low Molecular Weight Heparin – LMWH - ) potentiate antithrombin Factor IIa and Factor Xa inhibition.";
+
+"specific-detail" = "New anticoagulants target a single coagulation factor. There are two major targets:\n–	Factor IIa (Thrombin) is inhibited by Direct i.e. antithrombin independent Thrombin Inhibitors (DTI) such as hirudin and its analogs, as well as synthetic DTI, argatroban, bivalirudin and dabigatran.\n–	Factor Xa:\n•	factor Xa can be inhibited via \nantithrombin by indirect factor Xa inhibitors such as danaparoid sodium, fondaparinux and idraparinux ;\n•	factor Xa can be inhibited directly by direct Factor Xa inhibitors such as rivaroxaban, apixaban, edoxaban or betrixaban.";

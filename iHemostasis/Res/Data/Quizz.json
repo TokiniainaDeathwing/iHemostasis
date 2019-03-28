@@ -1,0 +1,40 @@
+{
+	"quizz_list": [
+				   {
+				   "title": "Clinical case 1",
+				   "description": "Three-year old Julien is referred to laboratory for screening for a bleeding disorder. His parents brought him to visit the general practitioner because of his frequent and prolonged nosebleeds and bruising. Julien’s Complete Blood Count with platelet count and automated differential are normal.",
+				   "url": "Quizz_4.json"
+				   },
+                   
+				   {
+				   "title": "Clinical case 2",
+				   "description": "Mrs T., 35, is hospitalized after miscarriage at 15 weeks of gestation. She previously experiences  two other miscarriages at 12 and 18 weeks of gestation.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 16.0 s (control: 12.9 s), 67%\n     - PT ratio: 1.24\n     - INR: 1.3\nAPTT (STA® PTT Automate®):\n     - 57 s (control: 33 s),\n     - APTT ratio: 1.73\nFibrinogen (STA® Fibrinogen): 3.05 g/L\nThrombin Time: (STA® Thrombin): 17 s",
+				   "url": "Quizz_1.json"
+				   },
+				   
+				   
+				   {
+				   "title": "Clinical case 3",
+				   "description": "Mr B, 75, is undergoing long term warfarin therapy at the prescribed dose of 5 mg/ day for atrial fibrillation. His treatment is stabilized and last week, his PT/INR ordered by the physician was measured at 2.2. He presented with oral thrush and started a local antifungal treatment (fluconazole) 48 hours ago. Today, he comes for a PT/INR check before his next visit to the cardiologist scheduled for tomorrow.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 35.0 s (control: 12.9 s), 24%\n     - PT ratio: 2.71\n     - INR: 3.40",
+				   "url": "Quizz_2.json"
+				   },
+				   
+				   {
+				   "title": "Clinical case 4",
+				   "description": "A 31 year old male, with no specific medical history, flew 18 hours to go to his vacation resort. The day after his arrival, he felt an intense and hard pain in his chest with a significant dyspnea. He was immediately admitted to the Emergency Department.\n\nA Pulmonary Embolism was diagnosed, and treated.\n\nOne year after completion of anticoagulant treatment, the patient is referred to the haemostasis department for investigation because of a leg pain.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 13.5 s (control: 12.9 s), 94%\n      - PT ratio: 1.04\n     - INR: 1.05\nAPTT (STA® PTT Automate®):\n     - 34 s (control: 33 s),\n     - APTT ratio: 1.03\nFibrinogen (STA® Fibrinogen): 3.05 g/L\nThrombin Time: (STA® Thrombin): 17 s",
+				   "url": "Quizz_3.json"
+				   },
+				   
+				   {
+				   "title": "Clinical case 5",
+				   "description": "Mr B, a 34 year-old man, presents with acute abdominal pain. The Complete Blood Count results are consistent with appendicitis. According to the clinical outcome the physician diagnoses peritonitis.\nAs there is no medical or surgical history or mention of anti-platelet drug intake in the previous week, and according to the life-threatening situation, it has been decided to operate immediately without preoperative workup.\nA short time after the surgery, it is noted that the haemoglobin level drops, suggestive of unexpected and severe bleeding. Moreover, the Platelet count is normal.\n\nROUTINE LABORATORY RESULTS:\nPT (STA® Neoplastine® CI Plus):\n     - 13.5 sec. (control: 12.9 sec.), 91%\n     - PT ratio: 1.05\n     - INR: 1.07\nAPTT (STA® PTT Automate):\n     - 33 sec.(control: 33 sec.)\n     - APTT ratio: 1.0\nFibrinogen (STA® Liquid Fib): 260 mg/dL",
+				   "url": "Quizz_5.json"
+				   },
+				   
+				   {
+				   "title": "Clinical case 6",
+				   "description": "Mrs G., 91 years old, is hospitalized for pulmonary embolism.\nShe does not have severe renal insufficiency.\nShe receives curative treatment by tinzaparin (Innohep®, a low molecular weight heparin) 175 IU/kg OD.\nVitamin K antagonists (VKA) treatment has been started 24 hours after initiation of tinzaparin treatment.\nThe physician prescribes a haemostasis work-up for monitoring treatment.\n\nYou receive this sample drawn 4 to 6 hours after tinzaparin injection on the third day of tinzaparin treatment.\n\nROUTINE LABORATORY RESULTS:\nPT (STA® Neoplastine® CI Plus):\n     - 17.0 sec. (control: 12.9 sec.), 62%\n     - PT ratio: 1.32\n     - INR: 1.40\nAPTT (STA® APTT Automate):\n     - 158 sec. (control: 33 sec.)\n     - APTT ratio: 4.79\n     - mixing study: 73.5 sec.\nFibrinogen (STA® Liquid Fib): 250 mg/dL",
+				   "url": "Quizz_6.json"
+				   }
+				   ]
+}

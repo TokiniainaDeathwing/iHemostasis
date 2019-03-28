@@ -1,0 +1,19 @@
+/* 
+  CoagulationCascade.strings
+  iHemostasis
+
+  Created by Zo Rajaonarivony on 04/02/2016.
+  Copyright © 2016 Diagnostica Stago S.A.S. All rights reserved.
+*/
+
+
+
+"initiation-phase-detail" = "When the endothelial cells layer is disrupted because of a vessel wall injury, subendothelium exposes tissue factor that will trigger blood coagulation.\n\nAs soon as tissue factor is exposed, it rapidly forms a complex with activated factor VII after the latter conversion from circulating factor VII. This tissue factor – factor VIIa complex activates factor X (Stuart factor) into factor Xa, either directly or via factor IX (antihemophilia B factor) activation into factor IXa.Although not the most effective, this way of factor X activation is fast. Because it is triggered by tissue factor, which is normally absent from blood, and because it activates factor X, the tissue factor – factor VIIa complex is called \"extrinsic Xnase\" (extrinsic tenase).Factor Xa converts factor II (prothrombin) into factor IIa (thrombin), which is a key enzyme for coagulation.Only trace amounts of thrombin are generated during this initiation phase.Thrombin generated can activate platelets, convert small amounts of fibrinogen into fibrin and activate factor V, factor VIII, and factor XI.By activating platelets, thrombin allows negative phospholipids exposure (flip-flop mechanism) necessary to the formation of the procoagulant complexes and polyphosphate secretion for F.XI activation.In presence of high TF concentration the main pathway goes through the direct activation of F.XHowever, in presence of low TF concentration (or high inhibition rate of TF-FVIIa by TFPI): the major pathway is then direct activation of F.IX which together with F.VIIIa transforms F.X into F.Xa.";
+
+"propagation-phase-detail" = "Factor Va acts as a factor Xa cofactor to enhance dramatically by a 300,000 fold prothrombin into thrombin conversion. The association of factor Va  with factor Xa to efficiently convert prothrombin into thrombin is called \"prothrombinase complex\";In the same way, activated factor VIII acts as a factor IXa cofactor to enhance thrombin formation.FXI binding to platelet GPIbIX-V potentiates F XI activation by thrombin.Factor XIa potentiates factor X activation.Factor XIa activates factor IX.Factor IX potentiates the factor X activation catalyzed by factor IXa.On the other hand, Von Willebrand Factor (VWF) binds to activated platelets.";
+
+"amplification-phase" = "During this phase, thrombin amplifies factors IX, V and VIII activation, resulting in an increase of thrombin generation by prothrombin conversion.";
+
+"fibrin-formation" = "Fibrin formation by conversion of fibrinogen into fibrin is the ultimate step of the  coagulation cascade.For detailed information on fibrin formation and fibrinolysis, please refer to \"Fibrinformation and fibrinolysis\" animation.";
+
+

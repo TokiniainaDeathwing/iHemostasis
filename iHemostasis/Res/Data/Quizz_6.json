@@ -1,0 +1,129 @@
+{
+	"q&r": [
+			{
+			"question":"Which coagulation assays should be used for monitoring low molecular weight heparin (LMWH)?",
+			"statement": "Mrs G., 91 years old, is hospitalized for pulmonary embolism.\nShe does not have severe renal insufficiency.\nShe receives curative treatment by tinzaparin (Innohep®, a low molecular weight heparin) 175 IU/kg OD.\nVitamin K antagonists (VKA) treatment has been started 24 hours after initiation of tinzaparin treatment.\nThe physician prescribes a haemostasis work-up for monitoring treatment.\n\nYou receive this sample drawn 4 to 6 hours after tinzaparin injection on the third day of tinzaparin treatment.\n\nROUTINE LABORATORY RESULTS:\nPT (STA® Neoplastine® CI Plus):\n     - 17.0 sec. (control: 12.9 sec.), 62%\n     - PT ratio: 1.32\n     - INR: 1.40\nAPTT (STA® APTT Automate):\n     - 158 sec. (control: 33 sec.)\n     - APTT ratio: 4.79\n     - mixing study: 73.5 sec.\nFibrinogen (STA® Liquid Fib): 250 mg/dL",
+			"information":"informations complémentaires pour la question",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"Anti-Xa activity",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"APTT",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Ecarin Chromogenic Assay (ECA)",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"PT",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">LMWH exhibit an anti-Xa / anti-IIa activity ratio > 1.5 whereas UFH ratio is 1 according to European Pharmacopea.<br/>APTT prolongation is not directly linked to LMWH plasmatic level: it depends on the LMWH preparation, dose, time of blood sampling with regard of time of injection, and reagent sensitivity.<br/><b>The use of APTT is not recommended for LMWH monitoring.</b><br/><br/>PT reagents are poorly sensitive or not sensitive to LMWH and are not suitable to monitor LMWH.<br/><br/>Ecarin Chromogenic Assay (ECA) is a chromogenic test derived from Ecarin Clotting Time (ECT) which is the gold standard for Direct Thrombin Inhibitor (DTI) measurement.<br/>It is not altered by indirect thrombin inhibitors, such as LMWH. Consequently, <b>ECA is not recommended for LMWH monitoring.</b><br/><br/><b>Anti-Xa activity measurement is the test of choice for LMWH monitoring.</b><br/>In order to provide interpretable results, blood collection must be performed at peak, i.e. 3 – 4 hours after LMWH subcutaneous injection in case of LMWH preparation administered twice a day for curative treatment and 4 – 6 hours after subcutaneous injection for once daily injection preparations.<br/><br/>Reference values range according to LMWH preparation, dose regimen (OD or BID), and dose related to indication.<br/><br/><br/><b>Patient history:</b><br/>Anti-Xa level (STA® Liquid Anti-Xa / STA® Multi-Hep Calibrator): 1.58 LMWH IU/mL</body></html>"
+			},
+			{
+			"question":"The measured Anti-Xa level demonstrates an overdosage. Investigation indicates that the patient received 2 injections of tinzaparin within 30 minutes due to a nursing  staff change.\nAmong the following statements, which one(s) is (are) correct?",
+            "statement": "\nAnti-Xa level (STA® Liquid Anti-Xa / STA® Multi-Hep Calibrator):\n- 1.58 LMWH IU/mL",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Therapeutic range for LMWH treatment is between 0.5 to 1.0 IU Anti-Xa/mL whatever the LMWH preparation is",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"LMWH do not prolong APTT",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"When determing Anti-Xa activity sampling must be performed either 3 to 4 or 4 to 6 hours after LMWH dosing, depending on the therapeutic scheme",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"There is a risk of LMWH accumulation in cases of severe renal insufficiency",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><head><style>table {border-collapse: collapse;font-family: helvetica, verdana, sans-serif;font-size:13px;}table,tr,td{border: 1px solid black;vertical-align: top;}td{padding:5px;}</style></head><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>A/ The therapeutic range for LMWH treatment is between 0.5 to 1.0 IU anti-Xa/mL, whatever the LMWH preparation is – FALSE</b><br/>Therapeutic range depends on the LMWH preparation, dose regimen (OD or BID), and clinical context.  These are summarized in Table I:<br/><table><tr align=\"center\"><td>LMWH preparation</td><td>Dose Regimen</td><td>Anti-Xa activity expected at peak level<br/>(IU anti-Xa / mL)</td></tr><tr><td>Enoxaparin</td><td>100 IU/kg/12 hours (1 mg/kg/12 hours)<br/>2 injections / 24 hours</td><td>1,20 ± 0.17 after 7th injection</td></tr><tr><td>Dalteparin</td><td>100 IU /kg/12 hours<br/>2 injections / 24 hours</td><td>0,59 to 0.69 ± 0.25 mean value Day 2 to Day 10 of treatment</td></tr><tr><td>Nadroparin</td><td>85 IU /kg/12 hours<br/>2 injections / 24 hours</td><td>1,01 ± 0.18</td></tr><tr><td>Reviparin</td><td>71 IU /kg/12 hours<br/>2 injections / 24 hours</td><td>0.50 to 1.00</td></tr><tr><td>Tinzaparin</td><td>175 IU /kg/24 hours<br/>1 injection / 24 hours</td><td>0.87 ± 0.15</td></tr><tr><td>Nadroparin</td><td>171 IU /kg/24 hours<br/>1 injection / 24 hours</td><td>1.34 ± 0.15 (for 166 IU /kg/24 hours)</td></tr></table><b><u>Table 1:</u> Expected anti-Xa activity results at peak level for curative treatment according to LMWH preparation</b><br/><br/><br/>Consequently, anti-Xa activity measured at peak level in case of VTE treatment may differ from the former 0.5 – 1.0 anti-Xa IU/mL considered reference range.<br/><br/><br/><b>B/ LMWH do not prolong APTT – FALSE</b><br/>LMWH may induce an APTT prolongation. This prolongation is especially linked to the anti-Xa / anti-IIa activity ratio of LMWH preparation and is inversely proportional to this ratio.As an example, tinzaparin, which exhibits the lowest anti-Xa / anti-IIa ratio (≈ 2), induces the most important APTT prolongation.<br/><br/><b>C/ For anti-Xa activity measurement sampling must be performed 3 to 4 or 4 to 6 hours after LMWH dosing depending on therapeutic scheme - TRUE</b><br/>Expected values are available for blood collection at peak level (cf supra Question 1).<br/>It is therefore important in order to obtain interpretable results that blood collection is performed at peak level.<br/><br/><b>D/ There is a risk of LMWH accumulation in case of severe renal insufficiency – TRUE</b><br/>LMWH’s are mainly cleared by the kidney. So they may accumulate in cases of renal insufficiency and lead to an overdosage, associated with an increased bleeding risk. For that reason, the physician must evaluate the kidney function by calculating the Creatinine clearance using the Cockcroft formula before prescribing LMWH treatment.Glomerular filtration rate (GFR) is the best overall index of kidney function. Normal GFR varies according to age, sex, and body size, and declines with age. NKF's(US National Kidney Foundation) KDOQI (Kidney Disease Outcomes Quality Initiative. www.kidney.org) clinical practice guidelines recommend the MDRD Study equation to estimate GFR.LMWH prescription is contraindicated in cases of severe renal impairment as defined by a  creatinine clearance less than  30 mL/min.</body></html>"
+			},
+			{
+			"question":"A major side-effect of heparin treatment is Heparin Induced Thrombocytopenia type II (HIT).\nAmong the following statements, which one(s) is (are) correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"HIT is mainly associated with a bleeding risk",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"HIT frequency is equivalent whatever kind of heparin is used (Unfractionated Heparin vs LMWH) and whatever the clinical context is",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Platelet count must be performed at the initiation of treatment and then two to three times a week thereafter",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"There are laboratory tests to assist in HIT diagnosis",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>A/ HIT is mainly associated to a bleeding risk – FALSE</b><br/>Heparin induced thrombocytopenia type II (HIT) is a rare but life threatening complication of heparin treatment.<br/>It may occur in patients receiving either UFH or LMWH, although less frequent for the later.<br/><br/>HIT is due to an immune allergic reaction associated with antibody production (mainly IgG) directed against neocomplexes formed between heparin and platelet Factor 4.<br/>In some instances, these antibodies may induce platelet activation, and secondary coagulation activation, associated with thrombocytopenia.<br/><br/>Taking into account the pathophysiological mechanisms described above, the major clinical issue is the occurrence of arterial and venous thrombosis, the consequences of which may be life threatening situation whereas bleeding complications are not frequent.<br/><br/><b>B/ HIT frequency is equivalent whatever kind of heparin is used (unfractionated heparin vs LMWH) and clinical context are – FALSE</b><br/>HIT risk factors include treatment duration, type of heparin (UFH vs LMWH), patient population, severity of trauma and gender. There is a 10-fold likelihood of HIT in patients who receive UFH compared with patients who receive LMWH. Patients who undergo cardiac or orthopaedic surgery and receive UFH have a higher risk of HIT than medical or obstetric patients. On the other hand, women have approximately twice the risk of developing HIT as men.<br/><br/><b>C/ Platelet count must be performed on treatment initiation and then twice to three times a week - TRUE</b><br/>It is recommended that a reference platelet count is performed before or in the first hours after treatment initiation. Platelet count must then be repeated twice or three times a week.<br/><br/><b>D/ There are laboratory tests to assist in HIT diagnosis - TRUE</b><br/>Laboratory HIT diagnosis is based on drop of platelet count and on tests allowing to detect antibodies directed against neocomplexes formed between heparin and platelet Factor 4.<br/>There are functional tests and immunological assays. Functional assays include platelet aggregation tests and radiolabelled serotonin release assay. These assays are limited to specialized laboratories. Immunologic assays consist in specific antibody detection. A rapid assay with a high Negative Predictive Value (NPV) allows diagnosis exclusion at acute phase and allows to avoid inadequate costly and difficult to manage alternative treatment to heparin.</body></html>"
+			},
+			{
+			"question":"Among the following statements, which one(s) is (are) correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"HIT diagnosis is exclusively based on laboratory assays",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"A drop in platelet count is sufficient to diagnose HIT type II",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Clinical practice guidelines identify 4 major criteria to estimate the clinical probability of a HIT diagnosis",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"HIT is a life-threatening situation",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><head><style>table {border-collapse: collapse;font-family: helvetica, verdana, sans-serif;font-size:13px;}table,tr,td{border: 1px solid black;vertical-align: top;}td{padding:5px;}</style></head><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin:5px;\"><b>A/ HIT diagnosis is exclusively based on laboratory assays – FALSE</b><br/>HIT diagnosis is based on platelet count drop, and on performance of dedicated laboratory assays (cf supra Question 3) associated with a clinical probability score.<br/>One of the most used clinical probability scores is the 4Ts score (Described in Table 2 below).<br/><table><tr style=\"text-align: center;\"><td></td><td>Score = 2</td><td>Score = 1</td><td>Score = 0</td></tr><tr><td><b><span style=\"color:#f00;\">T</span>hrombocytopenia</b><br/>Compare the highest platelet count within the sequence of declining platelet counts with the lowest count to determine the % of platelet fall</td><td><ul><li>> 50% platelet fall AND nadir of ≥ 20 AND no surgery within preceding 3 days</li></ul></td><td><ul><li>> 50% platelet fall but surgery within preceding 3 days OR</li><li> any combination of platelet fall and nadir that does not fit criteria for Score 2 or Score 0 (e.g. 30 – 50% platelet fall or nadir 10 – 19)</li></ul></td><td><ul><li>< 30% platelet fall</li><li>any platelet fall with nadir < 10</li></ul></td></tr><tr><td><b><span style=\"color:#f00;\">T</span>iming</b><br/>(of platelet count fall or thrombosis)D0= first day of most recent heparin exposure</td><td><ul><li>platelet fall day 5 – 10 after start of heparin</li><li>platelet fall within one day of start of heparin AND exposure to heparin within past 5 – 30 days</li></ul></td><td><ul><li>consistent with platelet fall day 5 – 10 but not clear (e.g. missing counts)</li><li>platelet fall within 1 day of start of heparin AND exposure to heparin to past 31 – 100 days</li><li>platelet fall after day 10</li></ul></td><td><ul><li>platelet fall ≤ day 4 without exposure to heparin in past 100 days</li></ul></td></tr><tr><td><b><span style=\"color:#f00;\">T</span>hrombosis</b><br/>(or other clinical sequelae)</td><td><ul><li>confirmed new thrombosis (venous or arterial)</li><li>skin necrosis at injection site</li><li>anaphylactoid reaction to IV heparin bolus</li><li>adrenal hemorrhage</li></ul></td><td><ul><li>recurrent venous thrombosis in a patient receiving therapeutic anticoagulants</li><li>suspected thrombosis (awaiting confirmation with imaging)</li><li>erythematosous skin lesions at heparin injection sites</li></ul></td><td><ul><li>thrombosis suspected</li></ul></td></tr><tr><td><b>o<span style=\"color:#f00;\">T</span>her causes for Thrombocytopenia</b></td><td><ul><li>no alternative explanation for platelet fall is evident</li></ul></td><td><b>Possible other cause is evident</b><ul><li>sepsis without proven microbial source</li><li>thrombocytopenia associated with initiation of ventilator</li><li>other</li></ul></td><td><b>Probable other cause present</b><ul><li>within 72 h of surgery</li><li>confirmed bacteraemia / fungemia</li><li>chemotherapy or radiation within past 20 days</li><li>DIC due to non HIT cause</li><li>post-transfusion purpura (PTP)</li><li>platelet count < 20 AND given a drug implicated in causing drug-induced thrombocytopenia</li><li>non necrotizing skin lesions at LMWH injection site (presumes delayed-type hypersensitivity)</li><li>other</li></ul></td></tr></table><table style=\"margin-top:20px;\"><tr style=\"text-align: center;\"><td colspan=\"4\">Drugs implicated in drug-induced immune thrombocytopenia (D-ITP)</td></tr><tr><td colspan=\"4\"><ul><li>Relatively Common:<br/>GPIIb/IIIa antagonists (abciximab, eptifibatide, tirofiban), quinine, quinidine, sulfa antibiotics, carabamazepine, vancomycin</li><li>Less Common:<br/>actinomycin, amytriptyline, amoxicillin / piperacillin, nafcillin, cephalosporins (cefazolin, ceftazidime, ceftriaxone), celecoxib, ciprofloxacin, esomeprazole, fexofenadine, fentanyl, fucidic acid, furosemide, gold salts, levofloxacin, metronidazole, naproxen, oxaliplatin, phenytoin, propranolol, propoxyphene, ranitidine, rifampin, suramin, trimethoprim</li></ul><div style=\"text-align:right\">Note: this is a partial list</div></td></tr></table><b><u>Table 2:</u> 4Ts Score (Linkins LA et al, Chest 2012; 141: e495S-530S)</b><br/><br/>As mentioned in this table, HIT diagnosis is not only based on laboratory findings but in association with clinical features.<br/><br/><b>B/ Drop in platelet count is sufficient to diagnose HIT type II – FALSE</b><br/>Even though platelet count fall is a key element for HIT diagnosis, drop in platelet count can be due to other causes.<br/>Therefore integration of both clinical and laboratory parameters have to be taken into account for HIT diagnosis.<br/><br/><b>C/ 4 mains criteria are identified by experts to estimate clinical probability of diagnosis – TRUE</b><br/>The four main parameters considered for HIT diagnosis are:<br/>- thrombocytopenia,<br/>- timing, i.e. timeframe of either thrombocytopenia or thrombosis occurrence after heparin treatment has started,<br/>- thrombosis, i.e. thrombotic event evidence once heparin treatment has been initiated, <br/>- other thrombocytopenia causes have been ruled out.<br/>These four items are the four main pillars for the 4Ts Score.<br/><br/><b>D/ HIT is a life-threatening situation – TRUE</b><br/>Arterial and venous thrombosis that may occur during HIT may lead to life-threatening situation. It has been estimated about 5 to 10 % of HIT patients that died from these thrombosis events.</body></html>"
+			},
+			{
+			"question":"If HIT is suspected, what would you recommend?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"VKA treatment initiation",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Reduce heparin regimen",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Perform a laboratory test to exclude HIT",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Perform clinical probability scoring",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><meta name=\"format-detection\" content=\"telephone=no\"><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin:5px;\">In case a HIT is suspected, it is first recommended to evaluate clinical probability using a validated clinical probability score (4Ts Score, cf supra Question 4) and to perform a rapid high VPN exclusion assay that allows in case of a negative results to safely exclude HIT diagnosis. With this approach, the physician is able to avoid starting alternative anticoagulant treatment to heparin in patients for whom this would not be relevant.<br/><br/>Because of HIT immunoallergic mechanism, reducing heparin regimen is not an option.<br/><br/>On the other hand, VKA treatment initiation is contraindicated as it exposes to an increased risk of thrombotic events due to rapid fall of vitamin K-dependent protein C level.<br/>There are validated alternative treatment options when heparin has to be withdrawn.<br/><br/><p><b>More information on</b><ul><li>Lo GK et al. Evaluation of pre-test clinical score (4Ts) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost 2006; 4: 759-65.</li><li>Watson H et al. Guidelines on the diagnosis and management of heparin-induced thrombocytopenia: second edition. Br J Hematol 2012; 159: 528-40.</li><li>Jaax ME, Greinacher A. Management of heparin-induced thrombocytopenia. Expert Opin Pharmacother 2012; 13: 987-1006.</li><li>Linkins LA et al. Treatment and prevention of heparin-induced thrombocytopenia – Antithrombotic therapy and prevention of thrombosis, 9th ed: American College of Chest Physicians, Evidence-based clinical practice guidelines. Chest 2012; 141: e495S-e530S.</li></ul></p></body></html>"
+			}
+			]
+}

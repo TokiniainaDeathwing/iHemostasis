@@ -1,0 +1,113 @@
+{
+	"q&r": [
+			{
+			"question":"How do you interpret results of the mixing study?",
+			"statement": "Three-year old Julien is referred to laboratory for screening for a bleeding disorder. His parents brought him to visit the general practitioner because of his frequent and prolonged nosebleeds and bruising. Julien’s Complete Blood Count with platelet count and automated differential are normal.\n\nROUTINE LABORATORY RESULTS :\nPT (STA® Neoplastine® CI Plus):\n      - 14.5 sec. (control: 12.9 sec.), 80%\n      - PT ratio: 1.12\n      - INR: 1.16\nAPTT (STA® PTT Automate):\n      - 86 sec (control: 33 sec)\n      - APTT ratio: 2.6\n      - mixing study: 35 sec, ICA: 2%\nFibrinogen (STA® Liquid Fib): 275 mg/dL",
+			"information":"informations complémentaires pour la question",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Test correction",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"No test correction",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Factor deficiency",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Lupus Anticoagulant",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Antiplatelet intake",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">When APTT is prolonged, a mixing study is recommended.</br>To perform a mixing study, a 1:1 proportion of patient: Pool Normal Plasma (PNP) should be used, without pre-incubation, within 30 minutes.</br></br>PNP should be prepared as described below:<li>Double centrifugation to ensure that PNP contains minimal residual platelets (< 10<SUP>7</SUP>/mL)<li>Ensure approximately 100% activity for all clotting factors;<li>PNP should be made using an adequate number of individual plasmas;<li>-70°C storage in small aliquots.</br></br>Homemade PNP or commercial lyophilized or frozen PNP can be used, provided they fulfil the above specifications.</br>Results of mixing test are suggestive of either Lupus Anticoagulants (LA) or factor deficiency, according to decision thresholds.</br><b></br>In the present case, the mixing study demonstrates correction of APTT.</b></br></br>As a reminder, Rosner Index or ICA is calculated according to the formula:</br><P ALIGN=CENTER>APTT (mix patient + PNP) – APTT PNP</br>-----------------------------------------------------------------------x100</br>APTT patient</p>ICA below 12% is suggestive of a factor deficiency.</br>ICA above 15% is suggestive of LA, but a factor deficiency may coexist.</br>ICA between 12 and 15% is not conclusive.</br><b>In the present case, ICA is 2% and is therefore suggestive of a factor deficiency.</b></br></br>Antiplatelet drugs are not associated with an APTT prolongation and do not interact with mixing studies.</body></html>"
+			},
+			{
+			"question":"According to the available information on this patient, which additional test(s) should be performed?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Extrinsic pathway related factors assay (II, V, VII and X)",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Intrinsic pathway related factors assay (VIII, IX, XI and XII)",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Diluted Russell Viper Venom Time (DRVVT)",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Anticardiolipin antibodies screening",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><p>Haemostasis workup demonstrates isolated APTT prolongation. The mixing study result is suggestive of a factor deficiency. It is therefore recommended to measure intrinsic pathway factors, i.e. Factors VIII, IX, XI and XII. Determination of extrinsic or common pathway factor deficiency (II, V, VII, X, Fibrinogen) or presence of Lupus Anticoagulant are excluded due to a normal PT and an ICA lower than 12% respectively.</p></body></html>"
+			},
+			{
+			"question":"The patient’s Factor VIII level is 2%. Which proposed diagnosis would you most likely consider?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Haemophilia A",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Haemophilia B",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Inflammatory Syndrome",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Von Willebrand Disease",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Factor VIII levels are low in the following circumstances:</br></br><li><u>Inherited Haemophilia A</u>: Haemophilia A is an X-linked recessive inherited disorder. Factor VIII level is correlated with disease severity and is used for Haemophilia A classification.<li><u>Acquired Haemophilia A</u>: acquired Haemophilia A is due to the development of antibodies specifically targeting factor VIII. This may happen in haemophiliac patients treated with factor VIII concentrates and also in non-haemophiliac patients such as the elderly, cancer patients, post-partum or autoimmune diseases…<li><u>Inherited Von Willebrand Disease (VWD)</u>: Von Willebrand Factor (VWF) has multiple functions in both primary haemostasis and plasmatic coagulation. It protects factor VIII against plasmatic proteolysis. In case of quantitative defect (low levels of both VWF:Ag and VWF activity) or in type 2N VWD, in which Factor VIII – VWF binding is impaired, factor VIII levels are low.<li><u>Acquired VWD</u>: Some forms of acquired VWD are associated with low levels of factor VIII.</br></br>Haemophilia B is defined by isolated low levels of factor IX. This is not the case here.</br>Factor VIII is an acute phase protein and levels are increased in inflammatory syndromes.</body></html>"
+			},
+			{
+			"question":"The patient’s Von Willebrand Factor level is 2%. Von Willebrand Disease is diagnosed. Among the following sentences, which ones are correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Von Willebrand Disease is the most frequent inherited bleeding disorder",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Von Willebrand Disease is X-linked recessive inherited disorder",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"O Blood group patients have higher Von Willebrand Factor levels",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"In type 2N Von Willebrand Disease, Von Willebrand Factor:antigen levels are normal to mildly decreased",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Von Willebrand Factor is involved in both plasmatic coagulation and primary haemostasis",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><li>Von Willebrand disease is the <b>most common hereditary coagulation abnormality</b>. It was first described in Finland in 1926 by Baron Erik von Willebrand, who noted young girls dying of a haemorrhage at puberty and called the condition \"pseudo-haemophilia\". The estimated prevalence is around <b>1% of the general population</b>.<br>It is also known to affect dogs notably Doberman pinschers.<li>Von Willebrand disease (VWD) is associated with quantitative or qualitative deficiency of a multimeric protein, Von Willebrand factor (VWF). It affects women as often as men. The abnormal gene is not on the X chromosome, but on an autosome (not sex-linked). It can be inherited as a dominant condition, however in some families it has been shown to be a recessive inheritance.<li>blood group patients have lower VWF levels than non-O blood group patients.<li>VWF is a multimeric glycoprotein made up primarily of identical subunits having a molecular weight of around 250 kDa and synthesised by endothelial cells and megakaryocytes.The size of <b>multimers</b> ranges from 500 kDa to over 10,000 kDa for multimers comprising more than 40 subunits and measuring more than 2 μm. High molecular weight multimers play an important role in platelet adhesion. Multimers of all sizes bind to factor VIII molecule which makes the FVIII molecule more stable, thus protecting against rapid proteolysis in the circulation.<li>Von Willebrand disease can thus lead to haemorrhaging with a clinical presentation typical of <b>platelet diseases or mild to moderate haemophilia A</b>, or a combination of both.<li>VWD classification is summarised in the following table:</br></br><table  border=\"1\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; width=100%><tr align=\"center\"><th width=\"10%\">Type</th><th width=\"90%\">Description</th></tr><tr><td align=left valign=top><p style=\"margin-left:10px;\"><b>1</b></p></td><td><b>Partial quantitative VWF deficiency</b><ul><li>The most common form (50 to 70% of cases)<li>Several subtypes depending on intra-platelet VWF content<li>Difficult to diagnose: overlap between VWF levels in patients and the normal population<li>VWF levels between 10 and 50%<li>Corresponding reduction in VWF antigen (VWF:Ag) and in ristocetin cofactor activity (VWF:RCo)</br>Ratio of VWF:RCo/VWF:Ag > 0.7<li>Dominant transmission with varying expression and penetrance</ul></td></tr><tr><td align=left valign=top><p style=\"margin-left:10px;\"><b>2</b></p></td><td><b>Qualitative VWF deficiency</b><ul><li>Abnormal interaction between VWF and platelets</ul></td></tr></tr><tr><td align=right valign=top><p style=\"margin-right:10px;\"><b>2A</b></p></td><td><b>Deficient platelet adhesion dependent on VWF associated with selective deficiency of high molecular weight (HMW) multimers</b><ul><li>Abnormal interaction of VWF with platelets; decreased affinity of VWF for platelets due to absence of high molecular weight and intermediate molecular weight (IMW) multimers<li>Ratio of VWF:RCo/VWF:Ag < 0.7<li>Dominant transmission with varying expression and penetrance</ul></td></tr><tr><td align=right valign=top><p style=\"margin-right:10px;\"><b>2B</b></p></td><td><b>High affinity of VWF for platelet glycoprotein Ib</b><ul><li>Adsorption of HMW multimers on platelets resulting in fluctuating thrombocytopenia<li>Dominant transmission with varying expression and penetrance</ul></td></tr></tr><tr><td align=right valign=top><p style=\"margin-right:10px;\"><b>2M</b></p></td><td><b>Deficient VWF-dependent platelet adhesion with no selective deficiency in HMW multimers</b><ul><li>Reduced affinity of VWF for platelets not associated with a multimerisation abnormality<li>Dominant transmission with varying expression and penetrance</ul></tr><tr><td align=right valign=top><p style=\"margin-right:10px;\"><b>2N</b></p></td><td><b>Market deficient in VWF binding to factor VIII</b><ul><li>Diagnosis through study of VWF binding to FVIII<li>Normal (or slightly decreased) levels of VWF (VWF:Ag and VWF:RCo)<li>Factor VIII deficit with ratio of FVIII:C / WF:Ag < 0.5<li>Recessive autosomal transmission</ul></tr><tr><td align=left valign=top><p style=\"margin-left:10px;\"><b>3</b></p></td><td><b>Complete quantitative VWF deficiency</b><ul><li>The rarest form: 1 to 3% of <li>Subjects homozygous or composite heterozygous<li>VWF undetectable<li>Extremely low levels of Factor VIII (< 10%)<li>Autosomal recessive transmission</ul></tr></table></br>As mentioned in the Table above, VWF levels are normal or slightly decreased in type 2N VWD.</br>As mentioned above VWF is involved in both plasmatic coagulation and primary haemostasis.</br></br><b>More information on …</b></br>Sadler JE et al, The Working Party on Von Willebrand Disease Classification. Update on the pathophysiology and classification of von Willebrand Factor. J Thromb Haemost 2006; 4: 2103-14.</br></br>Favaloro EJ. Rethinking the diagnosis of von Willebrand disease. Thromb Res 2011; 127: S17-21.</br></br>Castaman G et al. Princiiples of care for the diagnosis and treatment of von Willebrand disease. Haematologica 2013; 98: 667-74</br></body></html>"
+			}
+
+			]
+}

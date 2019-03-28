@@ -1,0 +1,92 @@
+{
+	"q&r": [
+			{
+			"question":"Generally speaking, what is the purpose of the thrombin time first line test?",
+			"statement": "MEDICAL HISTORY:\nA 31 year old male, with no specific medical history, flew 18 hours to go to his vacation resort. The day after his arrival, he felt an intense and hard pain in his chest with a significant dyspnea. He was immediately admitted to the Emergency Department.\n\nA Pulmonary Embolism was diagnosed, and treated.\n\nOne year after completion of anticoagulant treatment, the patient is referred to the haemostasis department for investigation because of a leg pain.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 13.5 s (control: 12.9 s), 94%\n      - PT ratio: 1.04\n     - INR: 1.05\nAPTT (STA® PTT Automate®):\n     - 34 s (control: 33 s),\n     - APTT ratio: 1.03\nFibrinogen (STA® Fibrinogen): 3.05 g/L\nThrombin Time: (STA® Thrombin): 17 s",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"detect a patient with a VKA treatment",
+						 "correct":false
+						 },{
+						 "reponse":"detect a patient with an heparin treatment",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"detect a patient with a rivaroxaban treatment",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"detect a patient with a dabigatran treatment",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">TT is a global fibrinformation assay. It is prescribed in pre-surgery screening, in the exploration of an hemorrhagic syndrome and in the case of an isolated APTT prolongation. It is however poorly sensitive to mild hypofibrinogenemia (0.8 – 1.5g/l) ; however it is prolonged in the case of dysfibrionogenemia and in the case of pronounced hyperfibrinogenemia. It is also prolonged in the presence of monoclonal proteins, high concentrations of fibrin or fibrinogen degradation products and in acute fibrinolysis states. For this reason, some pathologists use it in the diagnosis and follow-up of disseminated intravascular coagulation (DIC).</br>TT is highly sensitive to heparin traces in the plasma sample, although it is not recommended for heparin treatment where monitoring by the anti-Xa activity measurement is preferred.</br>TT is not prolonged either in patients receiving vitamin K antagonists or in patients receiving direct factor xa antagonists such as rivaroxaban or antiplatelet therapy such as clopidogrel. However, TT is highly sensitive to DTIs such as dabigatran and can allow one to suspect dabigatran intake although it is non-specific. This high sensitivity may lead to an uncoagulable test at supratherapeutic dabigatran plasma concentrations. APTT looks more appropriate than TT for dabigatran monitoring. Nevertheless specific DTIs assays such as the Ecarin Chromogenic Assay (ECA), derived from the original ecarin clotting time, is standardized, insensitive to the common interferences occurring in the clotting assay, and is CE marked.</br>TT is routinely used to ensure the absence of heparin in the plasma. However, one must keep in mind that heparin is not the sole source for TT prolongation.</body></html>"
+			},
+			{
+			"question":"Upon questioning of the patient it is revealed that his grandmother and one of his uncle had a pulmonary embolism after a gall bladder surgery and an appendicectomy respectively. Which coagulation tests used to detect thrombophilia are to be considered?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"Protein C, Protein S and Antithrombin",
+						 "correct":true
+						 },{
+						 "reponse":"dRVVT and an APTT sensitive towards circulating anticoagulants",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Activated Protein C Resistance ",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"All of the above tests",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Patient's family history may be consistent with an inherited thrombophilia. Screening for inherited thrombophilia consists of tests that allow one to identify the major recognized risk</br>factors : measurement of antithrombin, protein C and protein S activities, screening for activated protein C resistance (aPCR), and prothrombin G20120A gene mutation. If the aPCR screening test is positive, it is recommended to confirm by R506Q factor V gene mutation (factor V Leiden) that will allow to determine if the patient is either heterozygous or homozygous if the mutation is present. Of note the basic measurement of factor V or factor II activities cannot identify patients having one or the other mutation.<p>These risk factors, isolated or in association, are nevertheless found in only roughly half of patients having experienced a thromboembolic event.<p>Besides inherited thrombophilia, screening for lupus anticoagulant (LA) must also be performed. This screening is performed using the dilute Russel's viper venom time (dRVVT) and a LA sensitive APTT, according to the ISTH international recommendation.<p>Other inherited and/or acquired thrombophilia risk factors have been described, but are not routinely included in the thrombophilia panel; these are:<ul><li>hyperhomocystinemia the origin of which can be:<ul><li>either acquired because of a vitamin deficiency;<li>or inherited linked to a methylene tetrahydrofolate reductase gene mutation or, less frequently to a cystathionine beta synthase gene mutation.</ul><li>high levels of factor VIII,<li>some dysfibrinogenemias,<li>...</ul>Inherited thrombophilia must be first screened using a functional assay that allows the detection of both qualitative and quantitative defects. Immunoassays are not able to detect qualitative defects. Protein S is however an exception since it is advisable to run both the functional and the free protein S antigen assays in parallel.<br>Main inherited risk factors are listed in Table I:<table  border=\"1\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><th width=\"40%\">Risk factor</th><th width=\"20%\">Prevalence in the general population</th><th width=\"20%\">Prevalence in patients having experienced a thromboembolic event</th><th width=\"20%\">OR</th></tr><tr align=\"center\"><td>Antithrombin deficiency</td><td>0.1 – 0.3 %</td><td>1 – 2 %</td><td>15 – 20</td></tr><tr align=\"center\"><td>Protein C deficiency</td><td>0.2 – 0.5 %</td><td>2 – 3 %</td><td>15 - 20</td></tr><tr align=\"center\"><td>Protein S deficiency</td><td>0.2 – 0.5 %</td><td>2 – 3 %</td><td>15 – 20</td></tr><tr align=\"center\"><td>Facteur V Leiden (heterozygous)</td><td>3 – 7 %</td><td>10 – 20 %</td><td>5 – 7</td></tr><tr align=\"center\"><td>G20210A prothrombin gene mutation (heterozygous)</td><td>1 – 3 %</td><td>5 – 6 %</td><td>2 – 3</td></tr><tr align=\"center\"><td>Hyperhomocysteinemia*</td><td>?</td><td>?</td><td>1.5 – 2.5</td></tr><tr align=\"center\"><td>High factor VIII level*</td><td>?</td><td>?</td><td>3 – 5</td></tr></table><table  border=\"0\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><td align=\"center\" width=\"100%\"><b>Table I: Main inherited thrombophilia risk factors</b></td></tr><tr align=\"center\"><td><i>*risk factors, the origin of which can be inherited and/or acquired</i></td></tr><tr align=\"center\"><td>(Adapted from Merriman L, Greaves M. Postgrad Med J 2006 ; Lifjering WM, Rosendaal FR, Cannegieter SC. Br J Haematol 2010)</td></tr></table><p>From a practical point of view, tests must be performed separate from the acute thrombotic event because of tests alterations that are related to the event itself such as a concomitant inflammatory syndrome.<p>The protein C and protein S synthesis requires the presence of vitamin K. These two proteins levels are low due to commencing VKA treatment. It is recommended to not measure protein C and protein S levels earlier than four weeks after the VKA treatment has been stopped.<p>Heparin treatment (UFH or LMWH) may induce a drop in antithrombin level. It is advisable to measure the antithrombin level one to two weeks after the heparin treatment has been stopped.<p>Pregnancy, oral contraceptive and hormone replacement therapy treatment induce protein C, protein S and antithrombin levels changes that may lead to difficult result interpretation.<p>aPCR and dRVVT reagents contain an heparin inhibitor that allows tests to be performed in most patients receiving heparin therapy (upper limit for heparin neutralization: 0.8 IU/ml for STA®-Staclot® DRVV and 1.0 IU/ml for STA®-Staclot® APC-R).</body></html>"
+			},
+			{
+			"question":"Among the following statements, which one(s) is (are) correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Antithrombin deficiency is the most frequent congenital thrombophilia",
+						 "correct":false
+						 },{
+						 "reponse":"Physiological coagulation inhibitors' activity should be measured first (PS, PC, AT)",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"The prothrombin gene mutation G20210A may be diagnosed with Factor II level measurement",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Congenital thrombophilia known causes can explain 90% of the thrombophilia cases",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>antithrombin deficiency is the most frequent inherited thrombophilia – NO</b></br>Antithrombin deficiency is one of the less frequent inherited thrombophilia risk factor. However the relative risk in patients having an antithrombin deficiency is high (see Table I). On the other hand, it was the first identified inherited thrombophilia risk factor in 1965 (Egeberg).<p>T<b>he activity of the physiological anticoagulants (protein C, protein S and antithrombin) must be first tested using functional assays – YES</b></br>These functional assays diagnose both qualitative and quantitative defects. The immunoassays only allow the diagnosis of quantitative defects. Because of that, it is recommended to first run functional assays. There is however an exception for protein S for which it is recommended to run both the functional and the free protein S antigen assays in parallel (see question 3).<p><b>The G20210A prothrombin gene mutation can be diagnosed by the regular factor II functional assay – NO</b></br>Factor II activity may be increased in some patients having the prothrombin G20210A gene mutation. However, this test is not sufficient to discriminate patients having the mutation. The factor II functional assay cannot replace the G20210A gene mutation screening.<p><b>Identified inherited thrombophilia risk factors are retrieved in 90% of patients having experienced a thromboembolic event – NO</b></br>As mentioned earlier in this document, inherited thrombophilia risk factors identified to date are retrieved only in half patients having experienced a thromboembolic event.</body></html>"
+			},
+			{
+			"question":"Based on the additional results, are the values obtained normal or pathological?",
+			"statement": "\nDEDICATED LABORATORY RESULTS\nProtein S:\n     - Activity (STA® Staclot® Protein S): 87% (positive if ≤ 60%)\n     - Free Antigen (STA® Liatest® Free Protein S): 85% (positive if ≤ 60%)\nProtein C:\n     - Activity: (STA® Staclot® Protein C): 114% (positive if ≤ 70%)\n     - Activity (STA® Stachrom Protein C): 100% (positive if ≤ 70%)\nAntithrombin:\n     - Activity (STA® Stachrom Antithrombin): 103% (positive if ≤ 80%\nActivated Protein C Resistance (aPCR):\n     - Functional assay (STA® Staclot® APCR): 132 s (positive if ≤ 120 s)",
+			"information":"",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"Normal",
+						 "correct":true
+						 },{
+						 "reponse":"Pathological",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>Patient's results are normal.</b></br>This does not exclude, because an inherited risk factor is only present in half of patients having experienced a thromboembolic events that this patients has not a potential inherited thrombophilia risk factor that is stil unknown to date.<p>One must also keep in mind that a long flight is a transitory risk factor. In case of a first unexplained thromboembolic event occurring in a patient older than 60, it is recommended to look for cancer.<p>Finally it also must be considered that after this first thromembolic event, an adapted thromboprophylaxis should be used in case of an at risk situation.<table width=\"100%\" border=\"1\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><th width=\"50%\">Patient younger than 60</th><th width=\"50%\">Patient older than 60</th></tr><tr><td>- Personal history</td><td>- Personal history</td></tr><tr><td>- Familial history</td><td>- Familial history</td></tr><tr><td>- Risk factor screening: </td><td>- Cancer</td></tr><tr><td align=\"center\">Antithrombin</td><td>- LA</td></tr><tr><td align=\"center\">PC</td><td></td></tr><tr><td align=\"center\">PS</td><td></td></tr><tr><td align=\"center\">Factor V Leiden</td><td></td></tr><tr><td align=\"center\">Factor II mutation</td><td></td></tr><tr><td align=\"center\">LA</td><td></td></tr></table><table  border=\"0\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><td align=\"center\" width=\"100%\"><b>Table II : Diagnostic test panel after a first thromboembolic event</b></td></tr><tr align=\"center\"><td><i>(Adapted from Pernod G, Journal des maladies vasculaires 2009; 34; p 156 à 203)</i></td></tr></table></br></br><p><b>More information on</b><ul><li>Kuipers S et al, Effect of elevated levels of coagulation factors on the risk of venous thrombosis in long-distance travelers. Blood. 2009; 113(9): 2064-69<li>Merriman L et al, Testing for thrombophilia: an evidence-based approach. Postgrad Med J. 2006; 82(973):699-704<li>Pernod G et al, Recommendations on testing for thrombophilia in venous thromboembolic disease: a French consensus guideline. Journal des maladies vasculaires. 2009; 34 (3):156-203<li>Lijfering W et al, Risk factors for venous thrombosis - current understanding from an epidemiological point of view. British Journal of Haematology. 2010; 149(6):824-33<li>Foy P et al, Thrombophilia: 2009 update. Current treatment options in cardiovascular medicine. 2009 ; 11 (2):114-28</ul></body></html>"
+			}
+			]
+}

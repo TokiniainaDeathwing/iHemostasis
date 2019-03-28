@@ -1,0 +1,193 @@
+//
+//  CoagulationCascadeCoagulationCascadeScene.swift
+//  iHemostasis
+//
+//  Created by Zo Rajaonarivony on 16/12/2015.
+//  Copyright © 2015 Diagnostica Stago S.A.S. All rights reserved.
+//
+
+import UIKit
+
+class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
+    let kPhaseOneStartTime: Int = 0
+    let kPhaseTwoStartTime: Int = 18
+    let kPhaseThreeStartTime: Int = 23
+    let kPhaseFourStartTime: Int = 29
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadeCoagulationCascade", owner: self, options: nil)![0] as? UIView
+        self.addSubview(sceneView!);
+        
+        // Hide node that should be hidden at the beginining of the animation
+        for var i = 0;i < sceneData.nodeList.count; i++ {
+            let n = sceneData.nodeList[i]
+            if n.hiddenAtStart == true {
+                let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
+                imageView.hidden = true
+            }
+        }
+        
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override func initData() {
+        super.initData()
+        
+        // Phase List - Title
+        sceneData.phaseList = ["Initiation Phase", "Propagation Phase", "Amplification Phase", "Fibrin Formation"]
+        // Phase List - Description
+        sceneData.phaseDescription.insert(NSLocalizedString("initiation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("propagation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("amplification-phase", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-formation", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 3)
+        // Phase List - Duration
+        sceneData.phaseTimelineList.insert(17.0, atIndex: 0)
+        sceneData.phaseTimelineList.insert(22.0, atIndex: 1)
+        sceneData.phaseTimelineList.insert(28.0, atIndex: 2)
+        sceneData.phaseTimelineList.insert(35.0, atIndex: 3)
+        
+        sceneData.totalDuration = 35.0
+        
+
+        // ***************************** PHASE ONE - INITIATION PHASE *****************************
+        var n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 1, nodeTag: 1)
+        n.nodeDescription = "TF: \n\nTissue Factor\nTransmembrane glycoprotein\nReceptor for plasma FVII/ FIIa\nPrimary initiator of in vivo coagulation"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 2, nodeTag: 2)
+        n.nodeDescription = "VIIa: \nActivated Factor VII\nVitamin K-dependent liver synthesis\nRapidly activated into FVIIa when FVII is bound to TF\nFVIIa-TF comlex activates FX and FIXn"
+        n.animationType = Utils.AnimationType.translation
+        n.originPos = CGPointMake(363, 456)
+        n.destPos = CGPointMake(506, 515)
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time:3, nodeTag: 6)
+        n.nodeDescription = "X:\n\nFactor X\nVitamin K-dependent liver synthesis\nActivated F X(Xa) inhibited indrectly by UFH, LMWH, fondaparinux with AT, directly by rivaroxaban, apixxaban, edxaban"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 4, nodeTag: 3)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 5, nodeTag: 9)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time:6, nodeTag: 10)
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime,time: 7, nodeTag: 4)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime,time: 8, nodeTag: 7)
+        n.nodeDescription = "IX:\n\nFactor IX\nVitamin K-dependent liver synthesis\nInherited FIX deficiency is responsible for Haemophilia B\nActivated to FIXa by FXIa"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 8, nodeTag: 42)
+        sceneData.nodeList.append(n)
+        
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 9, nodeTag: 19)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 10, nodeTag: 11)
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 12)
+        n.nodeDescription = "II:\n\nFactor II\nVitamin K-dependent liver synthesis\nActivated to FIIa (Thrombin) by FXa - FVa - Phospholipids-Ca\nInhibited by Direct Thrombin Inhibitors (dabigatran)"
+        n.animationType = Utils.AnimationType.blink
+        n.blinkTime = 13
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 13)
+        n.nodeDescription = "IIa:\n\nFactor IIa / Thrombin\nResults from Factor II activation\nFIIa converts Fibrinogen to Fibrin"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 13, nodeTag: 40)
+        n.animationType = Utils.AnimationType.blink
+        n.blinkTime = 26
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 14, nodeTag: 5)
+        sceneData.nodeList.append(n)
+        
+        // ***************************** PHASE TWO - PROPAGATION PHASE *****************************
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 1, nodeTag: 18)
+        n.nodeDescription = "XI:\n\nFactor XI\nNon vitamin K-dependent liver synthesis\nDeficiency is responsible for rare Haeomophilia C\nActivated to FXIa by FXIIa and thrombin"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 1, nodeTag: 21)
+        n.nodeDescription = "V:\n\nFactor V\nNon-Vitamin K-dependent liver and possible megakaryocyte synthesis\nFVa forms a complex with FXa that activates FII to FIIa (Thrombin)"
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 1, nodeTag: 16)
+        n.nodeDescription = "VIII:\n\nFactor VIII\nNon-Vitamin K-dependent liver synthesis\nInherited FVIII deficiency is responible for Haemophilia A\nActivated by FIXa and FIIa"
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 1, nodeTag: 24)
+        n.hiddenAtStart = true
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 2, nodeTag: 41)
+        n.animationType = Utils.AnimationType.disappear
+        n.disappearTime = 16
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 3, nodeTag: 20)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 3, nodeTag: 25)
+        n.nodeDescription = "VWF:\n\nVon Willebrand Factor\nMediates platelet adhesion to site of vascular damage\nCarrier of FVIII in plasma\nInherited defects of VWF result in VW Disease"
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 4, nodeTag: 37)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime,time: 4, nodeTag: 22)
+        sceneData.nodeList.append(n)
+        
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 5, nodeTag: 36)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime,time: 5, nodeTag: 23)
+        sceneData.nodeList.append(n)
+        
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 6, nodeTag: 43)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 7, nodeTag: 17)
+        sceneData.nodeList.append(n)
+        
+        
+        // ***************************** PHASE THREE - AMPLIFICATION PHASE *****************************
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseThreeStartTime,time: 1, nodeTag: 8)
+        sceneData.nodeList.append(n)
+
+        /*
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseThreeStartTime, time: 2, nodeTag: 5)
+        n.animationType = Utils.AnimationType.blink
+        n.blinkTime = 2
+        sceneData.nodeList.append(n)
+        */
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseThreeStartTime, time: 3, nodeTag: 14)
+        sceneData.nodeList.append(n)
+        
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseThreeStartTime,time: 4, nodeTag: 38)
+        n.nodeDescription = "Fibrinogen:\n\nFibrinogen /Factor I \nNon-Vitamin K-dependent liver synthesis\nConverted by Thrombin to Fibrin"
+        sceneData.nodeList.append(n)
+
+        
+        // ***************************** PHASE THREE - FIBRIN FORMATION *****************************
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseFourStartTime, time: 1, nodeTag: 15)
+        sceneData.nodeList.append(n)
+
+        n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseFourStartTime, time: 2, nodeTag: 39)
+        sceneData.nodeList.append(n)
+
+    }
+}

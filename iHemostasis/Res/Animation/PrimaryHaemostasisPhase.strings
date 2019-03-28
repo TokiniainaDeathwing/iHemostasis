@@ -1,0 +1,16 @@
+/* 
+  PrimaryHaemostasisPhase.strings
+  iHemostasis
+
+  Created by Zo Rajaonarivony on 05/02/2016.
+  Copyright © 2016 Diagnostica Stago S.A.S. All rights reserved.
+*/
+
+
+"platelet-adhesion-detail" = "When the endothelial layer is disrupted, subendothelium exposes collagen that binds Von Willebrand Factor (VWF) among other adhesive macromolecules and will trigger platelet adhesion to subendothelium.VWF is able to recruit circulating platelets by binding its A1 domain to GPIbα, which is part of the GPIb/V/IX complex.Collagen can bind directly to platelets via GPVI and integrin α2b1.";
+
+"platelet-activation-and-amplification-detail" = "Subendothelium platelet adhesion is followed by subsequent intraplatelet signaling resulting in platelets granules release.Different types of platelets granules contain different proteins.α granules are the most abundant. They contain VWF and fibrinogen that will increase platelets cross-linking. Of note, α granules also contain coagulation factors involved in the coagulation cascade such as factor V, factor XI, prothrombin, high molecular weight kininogen and factor XIII.Dense granules secrete ADP, a major platelet activator. Binding of ADP to P2Y1 and P2Y12 results in platelet activation, a phenomenon characterized by platelet shape change. Both P2Y1 and P2Y12 receptors activation is required for arachidonic acid conversion into thromboxane A2 (TXA2).";
+
+"platelet-agregation-detail" = "Agonists such as ADP, TXA2, and thrombin bind to their respective receptors, i.e. P2Y1 and P2Y12, TXA2R, and PAR1.\n\nAs a result, platelet activation is increased and platelets adhere to each other in a phenomenon called aggregation.\nAggregation is a non-reversible phenomenon that involves fibrinogen, thrombospondin and fibronectin interactions.\n\nIn the mean time, platelet-derived microparticles and molecules released during platelet activation can activate the coagulation cascade.";
+
+"platelet-inhibitors-detail" = "There are physiological inhibitors such as Nitricoxide and Prostacyclin\n\nTherapeutic inhibitors targeting Arachidonic acid (Acetylsalicylic acid), GPIIa / IIIa (anti GPIIb / IIIa), P2Y12 receptors (Thienopyridines) or PAR1 receptors (antiPAR1) have been developed.";

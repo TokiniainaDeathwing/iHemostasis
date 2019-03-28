@@ -1,0 +1,17 @@
+/* 
+  FibrinFormation.strings
+  iHemostasis
+
+  Created by Zo Rajaonarivony on 11/02/2016.
+  Copyright © 2016 Diagnostica Stago S.A.S. All rights reserved.
+*/
+
+"fibrin-formation-detail" = "Fibrinformation:\n\nThrombin is the coagulation cascade key product.Thrombin can convert fibrinogen (factor I) into fibrin monomers (FM). Fibrinopeptide A (FPA) and fibrinopeptide B (FPB) are released from fibrinogen during the FM formation process. Fibrin monomers formation is the first step of fibrinformation.\n\nFibrin monomers assemble themselves to form soluble fibrin.\n\nSoluble fibrin is then crosslinked by activated factor XIII into insoluble fibrin after factor XIII (fibrin stabization factor) activation by thrombin.\n\nBlood cells are also embedded into the fibrin network, which is the fibrinformation final product and constitutes the fibrin clot.\n\nThe fibrinformation final product is the three dimensional fibrin network that constitutes the fibrin clot. It includes as well embedded blood cells.";
+
+"fibrinolysis-initiation-detail" = "Fibrinolysis key enzyme is plasmin (PLM) generated from plasminogen (PLG) activation by tissue plasminogen activator (tPA).\n\nPlasminogen is mainly linked to fibrinogen and remains embedded into the fibrin mesh after fibrin formation.\n\ntPA is synthesized by endothelial cells and released into the vessel lumen. tPA activates fibrin-bound plasminogen into plasmin, but is not active on circulating plasminogen.\n\nPlasmin mainly targets fibrin, but can also degrade fibrinogen (and F.XIIIa prior to fibrinolysis itself).\n\nMoreover, plasmin can potentiate tPA activity itself by retroactivating sctPA (single-chain tPA) into two-chain tPA (tctPA) that is much more potent than tPA itself on plasminogen activation.";
+
+"fibrinolysis-amplification-detail" = "On the other hand, prourokinase (ProUK) can be activated into urokinase (UK) by plasmin; urokinase is the other major activator of plasminogen into plasmin.\n\nProurokinase can also be activated by kallikrein (K), the active form of Prekallikrein (PK). Initially K is generated at low level by sub endothelium autoactivated FXIIa. In return F.XIIa activates PK into K, allowing the formation of the contact phase complex, High molecular weight kininogen (HMWK) – activated factor XII - Kallikrein.";
+
+"antifibrinolysis-detail" = "Antifibrinolysis is carried out by three different mechanisms, i.e. i/ inactivation of tPA/ UK mediated fibrinolysis, ii/ inactivation of plasmin, and iii/ decreased binding of plasminogen to fibrin\n\nThere are multiple physiologic inhibitors that can inhibit fibrinolysis actors:\n- i) Plasminogen Activator Inhibitor 1 (PAI-1) inhibits both tctPA and UK :\n- ii) C1 inhibitor inhibits kallikrein ;\n- iii) Plasmin is inhibited by α2-Macroglobulin (αMG), α1-AntiTrypsin (αAT), and α2 AntiPlasmin (αAP)\n- iiii)Endothelial ThromboModulin (TM) – prothrombine (IIa) complex can activate Thrombin-Activatable Fibrinolysis Inhibitor (TAFI) into its active form (TAFIa). TAFIa cleaves lysine residues from fibrin, resulting in a lower fibrin sensitivity to plasmin and an increased availability of plasmin for αAP.";
+
+"fibrin-and-fibrinogen-degragation-detail" = "Fibrin and fibrinogen degradation products:\n\nFibrin and fibrinogen are split into different fragments called fibrin and fibrinogen degradation products (FDP).\n\nSome particular fibrin specific degradation products contain a D-D sequence and are called D-dimers. These D-dimers are not produced during the fibrinogen degradation process.";

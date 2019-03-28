@@ -1,0 +1,129 @@
+{
+	"q&r": [
+			{
+			"question":"According to the clinical characteristics of the patient, which is the most likely diagnosis?",
+			"statement": "MEDICAL HISTORY:\nMrs T., 35, is hospitalized after miscarriage at 15 weeks of gestation.\nShe previously experiences  two other miscarriages at 12 and 18 weeks of gestation.\n\nROUTINE LABORATORY RESULTS:\nRoutine test results are as follows:\nPT (STA® Neoplatine® CI Plus):\n     - 16.0 s (control: 12.9 s), 67%\n     - PT ratio: 1.24\n     - INR: 1.3\nAPTT (STA® PTT Automate®):\n     - 57 s (control: 33 s),\n     - APTT ratio: 1.73\nFibrinogen (STA® Fibrinogen): 3.05 g/L\nThrombin Time: (STA® Thrombin): 17 s",
+			"information":"informations complémentaires pour la question",
+			"multiple_choises":false,
+			"responses":[
+						 {
+						 "reponse":"Guillain-Barré syndrome",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Antiphospholipid syndrome",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Familial Hypercholesterolemia ",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"None",
+						 "correct":false			 
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Preganancy loss may be from multiple origins: for example, infectious diseases or foetal or inherited disorders.</br>In this particular case, recurrent miscarriage may lead one to suspect an antiphospholipid syndrome. The antiphospholipid syndrome (APS) presents as a combination of clinical syndromes characterised by thrombosis in different vascular bed and / or pregnancy morbidity with the presence of circulating antiphospholipid antibodies (Table I)</br></br><table  border=\"1\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><th width=\"50%\">Clinical criteria</br></br>(one or more criteria)</th><th width=\"50%\">Biological criteria</br></br>(One or more criteria, present on twoor more occasion at least 12 weeks apart using recommended procedures)</th></tr><tr align=\"left\"><td><u>Vascular thrombosis:</u></br>One or more objectively confirmed episodes of arterial, venous or small vessel thrombosis in any tissue or organ.</td><td>Lupus anticoagulant, detected according to 2009 Guideline of the International Society on Thrombosis and Haemostasis (ISTH)</td></tr><tr align=\"left\"><td rowspan=2><u>Pregnancy morbidity:</u></br>One or more unexplained deaths of a morphologically normal foetus at or beyond the 10th week of gestation, or one or more premature births of a morphologically normal neonate before the 34th week of gestation because of eclampsia, pre-eclampsia or placental insufficiency, or three or more unexplained consecutive spontaneous abortion before the 10th week of gestation.</td><td>Anticardiolipin antibody of IgG and/or IgM isotype, present in medium or high titre (greater than 40 GPL or MPL, or greater than the 99th percentile), as measured by a standardized ELISA</td></tr><tr align=\"left\"><td>Anti-β2-glycoprotein-I antibody of IgG and/or IgM isotype, present in titre greater than the 99th percentile, as masured by a standardised ELISA</td></tr></table></br></br>The patient experienced three unexplained deaths of a morphologically normal foetus beyond the 10th week of gestation. It correlates with one of the clinical criteria of the APS.</br></br>Neither the Guillain-Barré syndrome nor familial hypercholesterolemia are known as risk factors for recurrent miscarriage.</body></html>"
+			},
+			{
+			"question":"Which coagulation tests are recommended to investigate Antiphospholipid syndrome?",
+			"statement": "\nDEDICATED LABORATORY RESULTS:\nLA sensitive APTT (PTT LA):\n     - 66 s (control: 36 s),\n     - APTT ratio: 1.83,\n     - Mixing study: 47 s,\n     - ICA: 16%\nPTTA confirm test (Staclot® LA):\n     - clotting time without addition of exogenous phospholipids (T1): 61 s\n     - clotting time with addition of exogenous phospholipids (T2): 42 s\n     - T1 – T2: 19 s (positive if ≥ 8 s)\nDiluted Russell Viper Venom Time:\n     - screening test (STA® Staclot® dRVV Screen):\n          • 101 s (control: 36 s)\n          • ratio: 2.77 (positive if ≥ 1.20)\n     - confirm test (STA® Staclot® dRVV Confirm):\n          • 44 s (control: 31 s)\n          • ratio: 1.42\n     - normalized ratio: 1.95 (positive if ≥ 1.20)",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Diluted Russell Viper Venom Time (DRVVT)",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Factor V Leiden mutation",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Antithrombin activity assay",
+						 "correct":false
+						 },						 
+						 {
+						 "reponse":"APTT sensitive to Antiphospholipid antibodies",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><p>Many phospholipid dependent tests are available and numerous variables can affect assays used for LA detection. Simultaneously, a lack of standardization and reference materials constitutes a major problem. This situation has led the International Society on Thrombosis and Haemostasis (ISTH) to develop guidelines for lupus anticoagulant detection.</p>These recommendations are summarized below:<ul><li>Two tests based on different principles should be used.<li>dRVVT (Dilute Russell's viper venom time)should be the first test considered.  It is believed to be specific for detecting LA in those patients at high risk of thrombosis.<li>The second test should be a sensitive aPTT (low phospholipids and silica as the activator). APTT tests with Kaolin or ellagic acid as an activator is  are not recommended,  nor dilute prothrombin time (dPT), or assays based on snake venoms such as Ecarin and Textarin or Kaolin Clotting time.</ul><p>Factor V Leiden mutation assay or an antithrombin activity assay are not suitable for antiphospholipid syndrome diagnosis.</br>In addition they are risk factors for deep vein thromboembolic disease and have to be considered regarding the general case of thrombophilia testing.</p></body></html>"
+			},
+			{
+			"question":"Which steps should be performed to confirm the diagnosis of Lupus Anticoagulant using coagulation testing?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"DRVVT and APTT tests sensitive to Antiphospholipid antibodies",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Mixing study (Rosner Index)",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"Tests confirming  phospholipid dependence of prolonged clotting assays",
+						 "correct":true
+						 },						 
+						 {
+						 "reponse":"Exclusion of other coagulopathy ",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">The steps for the detection of lupus anticoagulant are summarized in Table II:</br><table  border=\"1\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"left\"><td width=\"100%\">1. Prolongation of phospholipid-dependent coagulation test times</td></tr><tr align=\"left\"><td>2. Demonstration of inhibition in a mixed patient/normal plasma test</td</tr> <tr align=\"left\"><td>3. Demonstration that prolonged coagulation time is phospholipid-dependent: shortening or correction of initially prolonged coagulation time by addition of excess phospholipid (confirmation test)</td</tr> <tr align=\"left\"><td>4. Exclusion of specific inhibitors directed against coagulation factors (e.g. anti-factor VIII antibodies)</td</tr></table><table  border=\"0\"  frame=\"void\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" style=\"font-family: helvetica, verdana, sans-serif;font-size:13px;><tr align=\"center\"><td width=\"100%\"><b>Table II: Criteria for Laboratory Diagnosis of Lupus Anticoagulant </b></td></tr></table><p>Prolongation of phospholipid-dependent coagulation test times need to be performed with dRVVT or a lupus anticoagulant-sensitive aPTT test.</br>The mixing study shall be done in adequate conditions:<ul><li>Pooled normal plasma (PNP) should be prepared by double centrifugation to ensure that the PNP contains minimal residual platelet (platelet count <10<sup>7</sup> /mL) and to ensure approximately 100% activity for all clotting factors.<li>Commercial lyophilized or frozen plasma can be used if they fulfil the above specifications or have otherwise been validated for use in LA testing<li>A 1:1 proportion of patient: pooled normal plasma shall be used, without pre-incubation within 30 min.</ul></p><p>Confirmation tests for determining phospholipid dependence of prolonged time, involve evaluation of correction of coagulation time for the plasma sample in the presence of excess  phospholipid. Bilayer phospholipids or hexagonal-phase phospholipids should be used. Conversely, use of frozen-thawed platelets is not recommended due to inter-batch variation.</p><p>Exclusion of specific inhibitors directed against coagulation factors, consists mainly  of screening for a specific inhibitor directed against a given coagulation factor (primarily factor VIII or factor IX).  . The presence of such inhibitors may expose patients to high and potentially life-threatening hemorrhagic risk requiring immediate management by specialized teams.  At this level, testing involves an assay of the factor in question and, where necessary, specific screening and an assay of the inhibitor.</p><p>Looking for other coagulopathies may be of interest according to clinical and biological context.</p></body></html>"
+			},
+			{
+			"question":"Which patients are eligible for performing an Antiphospholipid syndrome screen?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Children having transient ENT infection",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Asymptomatic elderly",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Patients having thromboembolisms  at unusual sites",
+						 "correct":true
+						 },						 
+						 {
+						 "reponse":"Women with recurrent miscarriages",
+						 "correct":true
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">According to guidelines of the Scientific and Standardization Committee (SSC) of ISTH, testing for LA should be limited to patients who have a significant probability of having the antiphospholipid syndrome, or who have unexplained prolonged aPTT in the course of routine laboratory testing<ul><li>Venous or arterial thromboembolism in elderly patients are graded as  having a low  probability for LA screening.<li>Accidentally found prolonged aPTT in asymptomatic subjects, recurrent spontaneous early pregnancy loss, provoked VTE in young patients (<50 years of age) are graded as having a moderate  probability for  to LA screening.<li>Unprovoked VTE and (unexplained ) arterial thrombosis in young patients (<50 years of age), thrombosis at unusual sites, late pregnancy loss, any thrombosis or pregnancy morbidity in patients with auto-immune diseases (systemic lupus erythematosus, rheumatoid arthritis, autoimmune thrombocytopenia, autoimmune haemolytic anaemia)  are graded as having a  high  probability for LA screening.</ul><p>APS can occur even in the absence of any autoimmune disease, in which case, it is referred to as primary APS. Where it arises in a patient presenting with an autoimmune disease, the term \"secondary APS\" is used.</p><p>If an autoimmune disease is diagnosed in a patient with primary APS, the latter is subsequently referred to as secondary APS.</br> Tests may not be performed in children having transient ENT infection and asymptomatic elderly.</p></body></html>"
+			},
+			{
+			"question":"Which of the following statements is correct?",
+			"statement": "",
+			"information":"",
+			"multiple_choises":true,
+			"responses":[
+						 {
+						 "reponse":"Clotting assays allow  the diagnosis of all types of Antiphospholipid  autoantibodies",
+						 "correct":false
+						 },
+						 {
+						 "reponse":"Plasma must be completely platelet free before freezing when test are delayed",
+						 "correct":true
+						 },
+						 {
+						 "reponse":"The finding of LA on a single sample allows the diagnosis of APS",
+						 "correct":false
+						 },						 
+						 {
+						 "reponse":"Clinical manifestations of APS are limited to obstetrical complications",
+						 "correct":false
+						 }
+						 ],
+			"explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><b>Clotting assays allow the diagnosis of all types of antiphospholipid antibodies: FALSE</b></br>Laboratory diagnosis is complex due to the lack of laboratory parameters distinctively characteristic   for APS. Laboratory diagnosis is thus based on a battery of tests comprising coagulation tests and ELISA.<p>The presence of lupus anticoagulant is highly specific for APS and there is a strong association between the latter and thrombotic events or foetal loss.<p>Because of various targets of concerned inhibitors and the lack of sensitivity and specificity of available tests, the number of false positives and false negatives for APS is fairly high.<p>For this reason APS diagnosis is based on both   biological test results and clinical criteria.<p><b>Plasma must be completely platelet free before freezing when testing is delayed: TRUE</b></br> The pre-analytical stage is crucial for the diagnosis of APS. The presence of residual platelets in plasma can affect coagulation tests that depend upon platelet-derived phospholipids; such phospholipids can neutralize antiphospholipid antibodies.<p>present in the sample and produce false negatives. It is therefore recommended that double centrifugation be performed comprising initial centrifugation at 2 000g for 15 minutes at room temperature, followed by a second centrifugation at over 2 500g for 10 minutes in order to obtain plasma containing fewer than 10,000 platelets/µL.<p> A Thrombin Time (TT) performed on test plasma before performing a mixing study, will help to identify the presence of heparin or specific inhibitors to clotting factors.</br>LA screening is not possible if the test plasma is not able to clot or if the amount of heparin in the test plasma exceeds the reagent neutralization capacity.</br>There are commercial dRVVT and aPTT tests containing neutralizers able to quench heparin up to 0.8 U mL-1.<p><b>The finding of lupus anticoagulant on a single sample allows the diagnosis of APS: FALSE</b></br> Once a patient has been identified as positive for LA, it is imperative that testing be repeated on a second occasion >12 weeks after the initial testing.</br>To be considered as APS, the abnormality has to be permanent. </br>On the contrary, the presence of this type of anticoagulants is often transitional, when detected in young children, in particular at the end of an ENT infection. In this case, they are usually associated with no clinical risk.<p><b>Clinical manifestations of APS are limited to obstetrical complications : FALSE</b></br> Obstetrical complications are only one clinical feature of this pathology beside the venous or arterial thrombotic events (Refer to Table I).</br></br><p><b>More information on</b><ul><li>Pengo V et al, Update of the guidelines for lupus anticoagulant detection, J Thromb Haemost 2009; 7: 1737-40<li>Devreese K et al, Challenges in the diagnosis of the Antiphospholipid Syndrome Clinical Chemistry, 2010, 56:6, 930-940<li>Lim W, Antiphospholipid antibody syndrome, Hematology Am Soc Hematol Educ Program, 2009, 233-239<li>Favaloro, EJ; Wrong, RC, Laboratory testing and identification of antiphospholipid antibodies and the antiphospholipid syndrome: a potpourri of problems, a compilation of possible solutions, Seminars in Thrombosis and Hemostasis, 2008, 34, 4, 389-410</ul></body></html>"
+			}
+			]
+}
