@@ -15,14 +15,13 @@ class DisclaimerViewController: ParentViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let file = NSBundle.mainBundle().URLForResource("Credits",
-            withExtension: "html")!
+        let file = Bundle.main.url(forResource: "Credits", withExtension: "html")
         
-        let request = NSURLRequest(URL: file)
-        webView?.loadRequest(request)
+        let request = NSURLRequest(url: (file ?? nil)!)
+        webView?.loadRequest(request as URLRequest)
         
-        webView?.backgroundColor = UIColor.clearColor()
-        webView?.opaque = false
+        webView?.backgroundColor = UIColor.clear
+        webView?.isOpaque = false
     }
 
     override func didReceiveMemoryWarning() {

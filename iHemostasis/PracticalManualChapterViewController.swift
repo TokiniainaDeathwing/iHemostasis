@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PracticalManualChapterViewController: ParentViewController {
+class PracticalManualChapterViewController: ParentViewController, UICollectionViewDelegate,UICollectionViewDataSource {
     @IBOutlet var cells : Array <UIView>?
     @IBOutlet weak var abbreviationButton: UIButton?
     private let kPracticalManualChapterCellIdentifier = "kPracticalManualChapterCellIdentifier"
@@ -38,7 +38,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Take home messages", "filename" : "Take home messages"],
         ["title" : "References", "filename" : "References"],
         ]
-
+    
     var contextMenuLaboratoryDiagnosisImmunoList = [
         ["title" : "Introduction", "filename" : "VioletImmu"],
         ["title" : "Microplate preparation"],
@@ -75,7 +75,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Take home messages"],
         ["title" : "References"],
         ]
-
+    
     var contextMenuManagementPatientsList = [
         ["title" : "Introduction", "filename" : "Brown", "figurename" : ""],
         ["title" : "Management of thrombosis", "filename" : "Brown - Management", "figurename" : "Table1"],
@@ -101,7 +101,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Summary", "filename" : "Summary", "figurename" : ""],
         ["title" : "References", "filename" : "References", "figurename" : ""],
         
-    ]
+        ]
     
     var contextMenuLowMolecularList = [
         ["title" : "The drug substances of LMWH", "filename" : "P-Blue", "figurename" : "Table1"],
@@ -111,7 +111,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Limitations", "filename" : "P-Blue", "figurename" : ""],
         ["title" : "LMWHs in the haemostasis diagnosis", "filename" : "P-Blue", "figurename" : "Table1"],
         ["title" : "References", "filename" : "References", "figurename" : ""],
-    ]
+        ]
     
     var contextMenuHeparinInducedList = [
         ["title" : "Introduction", "filename" : "P-Violet", "figurename" : ""],
@@ -122,7 +122,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Management of HIT patients", "filename" : "P-Violet", "figurename" : ""],
         ["title" : "Take Home messages", "filename" : "P-Violet", "figurename" : ""],
         ["title" : "References", "filename" : "References", "figurename" : ""],
-    ]
+        ]
     
     var contextMenuFondaparinux = [
         ["title" : "Origin", "filename" : "P-Brown", "figurename" : ""],
@@ -138,7 +138,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Impact on coagulation tests", "filename" : "P-Brown", "figurename" : "Table4"],
         ["title" : "Monitoring the clinical use of fondaparinux", "filename" : "P-Brown", "figurename" : ""],
         ["title" : "References", "filename" : "References", "figurename" : ""],
-    ]
+        ]
     
     var contextMenuDenaparoid = [
         ["title" : "Introduction", "filename" : "P-Red", "figurename" : ""],
@@ -151,7 +151,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Who, When, How, Why", "filename" : "P-Red", "figurename" : "Table2"],
         ["title" : "Expected anti-Xa activity", "filename" : "P-Red", "figurename" : "Figure2"],
         ["title" : "References", "filename" : "References", "figurename" : ""],
-    ]
+        ]
     
     var contextMenuDirectThrombin = [
         ["title" : "Introduction", "filename" : "P-Blue-Darker", "figurename" : ""],
@@ -160,7 +160,7 @@ class PracticalManualChapterViewController: ParentViewController {
         ["title" : "Influence of direct thrombin inhibitors on coagulation tests", "filename" : "P-Blue-Darker", "figurename" : ""],
         ["title" : "Outlook", "filename" : "P-Blue-Darker", "figurename" : "Figure4"],
         ["title" : "References", "filename" : "References", "figurename" : ""],
-    ]
+        ]
     
     
     @IBOutlet var collectionView : UICollectionView!
@@ -171,24 +171,24 @@ class PracticalManualChapterViewController: ParentViewController {
         layout.itemHeight = 280.0
         
         if (self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome) {
-            self.setScreenTitle("Antiphospholipid Syndrome - Summary")
+            self.setScreenTitle(title: "Antiphospholipid Syndrome - Summary")
         }
         else {
-            self.setScreenTitle("Parenteral Anticoagulants - Summary")
+            self.setScreenTitle(title: "Parenteral Anticoagulants - Summary")
         }
         
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: Selector("backButtonAction"), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
         
-        self.abbreviationButton?.hidden = self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome
+        self.abbreviationButton?.isHidden = self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome
     }
     
     override func viewDidLoad() {
@@ -196,23 +196,23 @@ class PracticalManualChapterViewController: ParentViewController {
         setupUI()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        reloadUI(self.view.frame.size)
+        reloadUI(size: self.view.frame.size)
     }
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        reloadUI(size)
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        reloadUI(size: size)
     }
     
     func reloadUI(size: CGSize) {
         var isLandscape = false
         
-        let orient = UIApplication.sharedApplication().statusBarOrientation
-
+        let orient = UIApplication.shared.statusBarOrientation
+        
         switch orient {
-        case .Portrait:
+        case .portrait:
             isLandscape = false
         default:
             isLandscape = true
@@ -227,11 +227,11 @@ class PracticalManualChapterViewController: ParentViewController {
             layout.numberOfColumns = 3
             layout.minimumInteritemSpacing = 10.0
         }
-        layout.sectionInset = UIEdgeInsetsMake(
-            20.0,
-            layout.minimumInteritemSpacing,
-            20.0,
-            layout.minimumInteritemSpacing);
+        layout.sectionInset = UIEdgeInsets(
+            top: 20.0,
+            left: layout.minimumInteritemSpacing,
+            bottom: 20.0,
+            right: layout.minimumInteritemSpacing);
         
         layout.invalidateLayout()
     }
@@ -240,12 +240,12 @@ class PracticalManualChapterViewController: ParentViewController {
         return 1
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return practicalManualChapters.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(kPracticalManualChapterCellIdentifier, forIndexPath: indexPath) as! iHPracticalManualChapterCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kPracticalManualChapterCellIdentifier, for: indexPath as IndexPath) as! iHPracticalManualChapterCell
         let index = indexPath.item
         let element = practicalManualChapters[index]
         var attributedText = cell.descriptionTextView.attributedText.mutableCopy() as! NSMutableAttributedString
@@ -258,7 +258,7 @@ class PracticalManualChapterViewController: ParentViewController {
         
         cell.titleLabel.text = element["title"]!
         cell.titleLabel.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: 20)
-
+        
         attributedText = cell.authorTextView.attributedText.mutableCopy() as! NSMutableAttributedString
         attributedText.mutableString.setString(element["author"]!)
         cell.authorTextView.attributedText = NSAttributedString(attributedString: attributedText)
@@ -266,23 +266,23 @@ class PracticalManualChapterViewController: ParentViewController {
         
         switch indexPath.row {
         case 0:
-            cell.titleView.backgroundColor = Utils.colorWithHexString(element["colour"]!)
+            cell.titleView.backgroundColor = Utils.colorWithHexString(hex: element["colour"]!)
         case 1:
-            cell.titleView.backgroundColor = Utils.colorWithHexString(element["colour"]!)
+            cell.titleView.backgroundColor = Utils.colorWithHexString(hex: element["colour"]!)
         case 2:
-            cell.titleView.backgroundColor = Utils.colorWithHexString(element["colour"]!)
+            cell.titleView.backgroundColor = Utils.colorWithHexString(hex: element["colour"]!)
         case 3:
-            cell.titleView.backgroundColor = Utils.colorWithHexString(element["colour"]!)
+            cell.titleView.backgroundColor = Utils.colorWithHexString(hex: element["colour"]!)
         default:
-            cell.titleView.backgroundColor = Utils.colorWithHexString(element["colour"]!)
+            cell.titleView.backgroundColor = Utils.colorWithHexString(hex: element["colour"]!)
         }
         
         return cell
     }
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let practicalManualDetailViewController = storyBoard.instantiateViewControllerWithIdentifier("PracticalManualDetailViewController") as! PracticalManualDetailViewController
+        let practicalManualDetailViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualDetailViewController") as! PracticalManualDetailViewController
         
         if (self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome) {
             switch indexPath.row {
@@ -324,10 +324,10 @@ class PracticalManualChapterViewController: ParentViewController {
         let element = practicalManualChapters[indexPath.row]
         // C'est con!! Pour application of current guidelines, c'est un titre personnalisé. là je dois bricoler pour accomplir ca !
         if practicalManualDetailViewController.contextMenuPointer == contextMenuLaboratoryDiagnosisAppList {
-            practicalManualDetailViewController.setScreenTitle("Lupus anticoagulant - Current guidelines")
+            practicalManualDetailViewController.setScreenTitle(title: "Lupus anticoagulant - Current guidelines")
         }
         else {
-            practicalManualDetailViewController.setScreenTitle((element["title"]?.stringByReplacingOccurrencesOfString("\n", withString: " "))!)
+            practicalManualDetailViewController.setScreenTitle(title: (element["title"]?.replacingOccurrences(of:"\n", with: " "))!)
         }
         
         self.navigationController!.pushViewController(practicalManualDetailViewController, animated: true)

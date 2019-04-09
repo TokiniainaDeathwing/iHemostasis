@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ClinicalCasesListViewController: ParentViewController {
+class ClinicalCasesListViewController: ParentViewController, UICollectionViewDelegate, UICollectionViewDataSource {
   @IBOutlet var cells : Array <UIView>?
   private let kClinicalCaseCellIdentifier = "kClinicalCaseCellIdentifier"
   private let clinicalCases = [
@@ -28,42 +28,42 @@ class ClinicalCasesListViewController: ParentViewController {
     let layout = collectionView.collectionViewLayout as! iHGridLayout
     layout.itemHeight = 280.0
     
-    self.setScreenTitle("Clinical Cases")
+    self.setScreenTitle(title: "Clinical Cases")
     
     let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-    let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-    backButton.frame = CGRectMake(0, 0, 32, 32)
-    backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-    backButton.setTitle("", forState: UIControlState.Normal)
-    backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+    let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+    backButton.frame = CGRect(0, 0, 32, 32)
+    backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+    backButton.setTitle("", for: UIControl.State.normal)
+    backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
     let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
     self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-    backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+    backButton.setBackgroundImage(backbuttonImage, for: .normal)
     
   }
   
-  override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     
-    reloadUI(self.view.frame.size)
+        reloadUI(size: self.view.frame.size)
   }
     
-  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    let quizzDetailViewController = segue.destinationViewController as! ClinicalCasesQuizzDetailViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let quizzDetailViewController = segue.destination as! ClinicalCasesQuizzDetailViewController
     quizzDetailViewController.quizzIdentifier = Int(segue.identifier!)!
   }
   
-  override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-    reloadUI(size)
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    reloadUI(size: size)
   }
   
   func reloadUI(size: CGSize) {
     var isLandscape = false
     
-    let orient = UIApplication.sharedApplication().statusBarOrientation
+    let orient = UIApplication.shared.statusBarOrientation
     
     switch orient {
-    case .Portrait:
+    case .portrait:
         isLandscape = false
     default:
         isLandscape = true
@@ -78,11 +78,11 @@ class ClinicalCasesListViewController: ParentViewController {
       layout.numberOfColumns = 2
       layout.minimumInteritemSpacing = 20.0
     }
-    layout.sectionInset = UIEdgeInsetsMake(
-      20.0,
-      layout.minimumInteritemSpacing,
-      20.0,
-      layout.minimumInteritemSpacing);
+    layout.sectionInset = UIEdgeInsets(
+        top: 20.0,
+        left: layout.minimumInteritemSpacing,
+        bottom: 20.0,
+        right: layout.minimumInteritemSpacing);
     
     layout.invalidateLayout()
   }
@@ -91,12 +91,12 @@ class ClinicalCasesListViewController: ParentViewController {
     return 1
   }
   
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return clinicalCases.count
   }
   
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(kClinicalCaseCellIdentifier, forIndexPath: indexPath) as! iHClinicalCaseCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kClinicalCaseCellIdentifier, for: indexPath as IndexPath) as! iHClinicalCaseCell
     let index = indexPath.item
     let element = clinicalCases[index]
     let attributedText = cell.descriptionTextView.attributedText.mutableCopy() as! NSMutableAttributedString
@@ -107,9 +107,9 @@ class ClinicalCasesListViewController: ParentViewController {
     return cell
   }
     
-  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-    let clinicalCasesQuizzDetailViewController = storyBoard.instantiateViewControllerWithIdentifier("ClinicalCasesQuizzDetailViewController") as! ClinicalCasesQuizzDetailViewController
+    let clinicalCasesQuizzDetailViewController = storyBoard.instantiateViewController(withIdentifier: "ClinicalCasesQuizzDetailViewController") as! ClinicalCasesQuizzDetailViewController
     clinicalCasesQuizzDetailViewController.quizzIdentifier = indexPath.row + 1
     
     self.navigationController!.pushViewController(clinicalCasesQuizzDetailViewController, animated: true)

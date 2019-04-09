@@ -39,43 +39,43 @@ class PracticalManualViewController: ParentViewController {
         ["description":"", "title":"Direct Thrombin Inhibitors", "colour":"#3286cc", "author":"Michael Spannagl","entity":"Hospital of the Ludwig-Maximilians-University,\nMunich, Germany"],
     ]
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        reloadUI(size)
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        reloadUI(size: size)
     }
     
     func reloadUI(size: CGSize) {
-        let orient = UIApplication.sharedApplication().statusBarOrientation
+        let orient = UIApplication.shared.statusBarOrientation
         
         switch orient {
-        case .Portrait:
-            viewOne?.frame.origin = CGPointMake(50, 265)
-            viewTwo?.frame.origin = CGPointMake(371, 265)
-            viewThree?.frame.origin = CGPointMake(691, 265)
+        case .portrait:
+            viewOne?.frame.origin = CGPoint(50, 265)
+            viewTwo?.frame.origin = CGPoint(371, 265)
+            viewThree?.frame.origin = CGPoint(691, 265)
         default:
-            viewOne?.frame.origin = CGPointMake(71, 69)
-            viewTwo?.frame.origin = CGPointMake(447, 69)
-            viewThree?.frame.origin = CGPointMake(71, 502)
+            viewOne?.frame.origin = CGPoint(71, 69)
+            viewTwo?.frame.origin = CGPoint(447, 69)
+            viewThree?.frame.origin = CGPoint(71, 502)
         }
     }
     
     private func setupUI() {
-        let orient = UIApplication.sharedApplication().statusBarOrientation
+        let orient = UIApplication.shared.statusBarOrientation
         
         switch orient {
-        case .Portrait:
+        case .portrait:
             //isLandscape = false
-            viewOne?.frame.origin = CGPointMake(71, 69)
-            viewTwo?.frame.origin = CGPointMake(447, 69)
-            viewThree?.frame.origin = CGPointMake(71, 502)
-        case .PortraitUpsideDown:
-            viewOne?.frame.origin = CGPointMake(71, 69)
-            viewTwo?.frame.origin = CGPointMake(447, 69)
-            viewThree?.frame.origin = CGPointMake(71, 502)
+            viewOne?.frame.origin = CGPoint(71, 69)
+            viewTwo?.frame.origin = CGPoint(447, 69)
+            viewThree?.frame.origin = CGPoint(71, 502)
+        case .portraitUpsideDown:
+            viewOne?.frame.origin = CGPoint(71, 69)
+            viewTwo?.frame.origin = CGPoint(447, 69)
+            viewThree?.frame.origin = CGPoint(71, 502)
             
         default:
-            viewOne?.frame.origin = CGPointMake(50, 265)
-            viewTwo?.frame.origin = CGPointMake(371, 265)
-            viewThree?.frame.origin = CGPointMake(691, 265)
+            viewOne?.frame.origin = CGPoint(50, 265)
+            viewTwo?.frame.origin = CGPoint(371, 265)
+            viewThree?.frame.origin = CGPoint(691, 265)
             
             //isLandscape = true
         }
@@ -97,17 +97,17 @@ class PracticalManualViewController: ParentViewController {
         labelTwo!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         haemoscoreAppLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         
-        self.setScreenTitle("Practical Manual Series")
+        self.setScreenTitle(title: "Practical Manual Series")
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
     }
     
     override func viewDidLoad() {
@@ -118,23 +118,23 @@ class PracticalManualViewController: ParentViewController {
     
     @IBAction func buttonAction(target: UIButton) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let practicalManualChapterViewController = storyBoard.instantiateViewControllerWithIdentifier("PracticalManualChapterViewController") as! PracticalManualChapterViewController
+        let practicalManualChapterViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualChapterViewController") as! PracticalManualChapterViewController
         if (target == buttonOne) {
             practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersOne
-            practicalManualChapterViewController.setScreenTitle("Antiphospholip syndrome")
+            practicalManualChapterViewController.setScreenTitle(title: "Antiphospholip syndrome")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.AntiphospholipidSyndrome
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
         }
         else if (target == buttonTwo) {
             practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersTwo
-            practicalManualChapterViewController.setScreenTitle("Parenteral anticoagulants")
+            practicalManualChapterViewController.setScreenTitle(title: "Parenteral anticoagulants")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.ParenteralAnticoagulants
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
         }
         else if (target == buttonThree) {
-            UIApplication.sharedApplication().openURL(NSURL(string: Utils.HAEMOSCORE_URL)!)
+            UIApplication.shared.openURL(NSURL(string: Utils.HAEMOSCORE_URL)! as URL)
         }
     }
     

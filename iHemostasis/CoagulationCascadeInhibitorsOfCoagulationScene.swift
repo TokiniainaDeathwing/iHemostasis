@@ -15,7 +15,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadeInhibitorsOfCoagulation", owner: self, options: nil)![0] as? UIView
+        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeInhibitorsOfCoagulation", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
     }
     
@@ -28,14 +28,14 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         sceneData.phaseList = ["Protein C/S", "Protein Z and TFPI", "Antithrombin"]
         
         // Phase List - Description
-        sceneData.phaseDescription.insert(NSLocalizedString("protein-c-s-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), atIndex: 0)
-        sceneData.phaseDescription.insert(NSLocalizedString("protein-z-tfpi-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), atIndex: 1)
-        sceneData.phaseDescription.insert(NSLocalizedString("antithrombin-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), atIndex: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("protein-c-s-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), at: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("protein-z-tfpi-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), at: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("antithrombin-detail", tableName: "InhibitorsCoagulationPhase", comment: "comment"), at: 2)
         
         // Phase List - Duration
-        sceneData.phaseTimelineList.insert(24.0, atIndex: 0)
-        sceneData.phaseTimelineList.insert(32.0, atIndex: 1)
-        sceneData.phaseTimelineList.insert(46.0, atIndex: 2)
+        sceneData.phaseTimelineList.insert(24.0, at: 0)
+        sceneData.phaseTimelineList.insert(32.0, at: 1)
+        sceneData.phaseTimelineList.insert(46.0, at: 2)
         
         sceneData.totalDuration = 46.0
         
@@ -81,8 +81,8 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseOneStartTime, time: 3, nodeTag: 17)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(68, 46)
-        n.destPos = CGPointMake(234, 46)
+        n.originPos = CGPoint(68, 46)
+        n.destPos = CGPoint(234, 46)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseOneStartTime, time: 4, nodeTag: 18)
@@ -196,50 +196,50 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 1, nodeTag: 43)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(38, 474)
-        n.destPos = CGPointMake(105, 412)
+        n.originPos = CGPoint(38, 474)
+        n.destPos = CGPoint(105, 412)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 2, nodeTag: 45)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(8, 298)
-        n.destPos = CGPointMake(27, 418)
+        n.originPos = CGPoint(8, 298)
+        n.destPos = CGPoint(27, 418)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 3, nodeTag: 46)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(25, 376)
-        n.destPos = CGPointMake(68, 370)
+        n.originPos = CGPoint(25, 376)
+        n.destPos = CGPoint(68, 370)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 4, nodeTag: 47)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(25, 76)
-        n.destPos = CGPointMake(67, 198)
+        n.originPos = CGPoint(25, 76)
+        n.destPos = CGPoint(67, 198)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 5, nodeTag: 48)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(119, 73)
-        n.destPos = CGPointMake(229, 84)
+        n.originPos = CGPoint(119, 73)
+        n.destPos = CGPoint(229, 84)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 6, nodeTag: 44)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(64, 458)
-        n.destPos = CGPointMake(116, 488)
+        n.originPos = CGPoint(64, 458)
+        n.destPos = CGPoint(116, 488)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 7, nodeTag: 42)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(0, 474)
-        n.destPos = CGPointMake(66, 508)
+        n.originPos = CGPoint(0, 474)
+        n.destPos = CGPoint(66, 508)
         sceneData.nodeList.append(n)
         
     }

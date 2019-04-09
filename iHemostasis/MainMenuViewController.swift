@@ -22,9 +22,9 @@ class MainMenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.translucent = true
+        self.navigationController?.navigationBar.isTranslucent = true
 
         coagulationCascadeButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
         clinicalCasesButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
@@ -42,7 +42,7 @@ class MainMenuViewController: UIViewController {
             }
         }
         */
-        let orient = UIApplication.sharedApplication().statusBarOrientation
+        let orient = UIApplication.shared.statusBarOrientation
         
         /*
         switch orient {
@@ -52,12 +52,12 @@ class MainMenuViewController: UIViewController {
             self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
         }*/
         switch orient {
-        case .LandscapeLeft:
-            self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-        case .LandscapeRight:
-            self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+        case .landscapeLeft:
+            self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+        case .landscapeRight:
+            self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
         default:
-            self.backgroundImageView?.frame = CGRectMake(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            self.backgroundImageView?.frame = CGRect(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
         }
         
     }
@@ -68,10 +68,10 @@ class MainMenuViewController: UIViewController {
     }
     
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        coordinator.animateAlongsideTransition({ (UIViewControllerTransitionCoordinatorContext) -> Void in
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) -> Void in
             
-            let orient = UIApplication.sharedApplication().statusBarOrientation
+            let orient = UIApplication.shared.statusBarOrientation
             //let screenSize: CGRect = UIScreen.mainScreen().bounds
             /*
             switch orient {
@@ -81,12 +81,12 @@ class MainMenuViewController: UIViewController {
                 //self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
             }*/
             switch orient {
-            case .LandscapeLeft:
-                self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-            case .LandscapeRight:
-                self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            case .landscapeLeft:
+                self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            case .landscapeRight:
+                self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
             default:
-                self.backgroundImageView?.frame = CGRectMake(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+                self.backgroundImageView?.frame = CGRect(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
             }
             
             },
@@ -94,22 +94,22 @@ class MainMenuViewController: UIViewController {
                 print("rotation completed")
         })
 
-        super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
+        super.viewWillTransition(to: size, with: coordinator)
     }
     
         
     @IBAction func disclaimerButtonAction(sender: UIButton) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        disclaimerViewController = storyBoard.instantiateViewControllerWithIdentifier("DisclaimerViewController") as? DisclaimerViewController
+        disclaimerViewController = storyBoard.instantiateViewController(withIdentifier: "DisclaimerViewController") as? DisclaimerViewController
         
-        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let screenSize: CGRect = UIScreen.main.bounds
         
         disclaimerViewController?.view.frame = CGRect(x: 0, y: 0, width: screenSize.width, height: screenSize.height)
-        disclaimerViewController?.closeButton?.addTarget(self, action: "disclaimerCloseButtonAction:", forControlEvents: UIControlEvents.TouchUpInside)
+        disclaimerViewController?.closeButton?.addTarget(self, action: #selector(disclaimerCloseButtonAction), for: UIControl.Event.touchUpInside)
         self.view.addSubview((disclaimerViewController?.view)!)
     }
     
-    func disclaimerCloseButtonAction(sender: UIButton) {
+    @objc func disclaimerCloseButtonAction(sender: UIButton) {
         disclaimerViewController?.view.removeFromSuperview()
     }
 }

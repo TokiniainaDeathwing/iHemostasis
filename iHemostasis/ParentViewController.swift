@@ -19,24 +19,24 @@ class ParentViewController: UIViewController {
         let titleLabel: UILabel = UILabel(frame: CGRect(x: 700, y: 0, width: 800, height: 40))
         titleLabel.text = title
         titleLabel.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
-        titleLabel.textColor = UIColor.whiteColor()
-        titleLabel.textAlignment = .Right
+        titleLabel.textColor = UIColor.white
+        titleLabel.textAlignment = .right
         self.navigationItem.titleView = titleLabel;
     }
     
-    func backButtonAction() {
-        self.navigationController?.popViewControllerAnimated(true)
+    @objc func backButtonAction() {
+        self.navigationController?.popViewController(animated: true)
     }
 }
 
 
 extension UINavigationController {
-    public override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+    open override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
         if visibleViewController is CoagulationCascadeListViewController || visibleViewController is CoagulationCascadePlayerViewController/* || visibleViewController is ClinicalCasesListViewController */{
-            super.supportedInterfaceOrientations()
-            return UIInterfaceOrientationMask.LandscapeLeft
+            super.supportedInterfaceOrientations
+            return UIInterfaceOrientationMask.landscapeLeft
         }
-        return UIInterfaceOrientationMask.All
+        return UIInterfaceOrientationMask.all
     }
 /*
     public override func shouldAutorotate() -> Bool {

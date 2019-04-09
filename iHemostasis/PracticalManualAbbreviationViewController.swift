@@ -13,23 +13,24 @@ class PracticalManualAbbreviationViewController: ParentViewController {
         super.viewDidLoad()
         // Customize back button
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
 
         
         // Load pdf file
-        let file = NSBundle.mainBundle().URLForResource("Abbreviations",
+        let file = Bundle.main.url(forResource: "Abbreviations",
                                                         withExtension: "pdf")!
         
-        let request = NSURLRequest(URL: file)
-        webView?.loadRequest(request)
-        self.setScreenTitle("Abbreviations")
+        let request = NSURLRequest(url: file)
+        webView?.loadRequest(request as URLRequest)
+        self.setScreenTitle(title: "Abbreviations")
         
     }
 }
+

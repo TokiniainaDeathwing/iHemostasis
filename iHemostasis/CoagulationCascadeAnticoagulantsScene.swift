@@ -15,7 +15,7 @@ class CoagulationCascadeAnticoagulantsScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadeAnticoagulants", owner: self, options: nil)![0] as? UIView
+        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeAnticoagulants", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
     }
     
@@ -27,13 +27,13 @@ class CoagulationCascadeAnticoagulantsScene: ParentScene {
         super.initData()
         sceneData.phaseList = ["Introduction", "Historical Multi target Anticoagulants", "Specific anti-IIa and anti-Xa drugs"]
         // Phase List - Description
-        sceneData.phaseDescription.insert(NSLocalizedString("introduction-detail", tableName: "Anticoagulants", comment: "comment"), atIndex: 0)
-        sceneData.phaseDescription.insert(NSLocalizedString("historical-detail", tableName: "Anticoagulants", comment: "comment"), atIndex: 1)
-        sceneData.phaseDescription.insert(NSLocalizedString("specific-detail", tableName: "Anticoagulants", comment: "comment"), atIndex: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("introduction-detail", tableName: "Anticoagulants", comment: "comment"), at: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("historical-detail", tableName: "Anticoagulants", comment: "comment"), at: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("specific-detail", tableName: "Anticoagulants", comment: "comment"), at: 2)
         // Phase List - Duration
-        sceneData.phaseTimelineList.insert(6.0, atIndex: 0)
-        sceneData.phaseTimelineList.insert(21.0, atIndex: 1)
-        sceneData.phaseTimelineList.insert(31.0, atIndex: 2)
+        sceneData.phaseTimelineList.insert(6.0, at: 0)
+        sceneData.phaseTimelineList.insert(21.0, at: 1)
+        sceneData.phaseTimelineList.insert(31.0, at: 2)
         
         sceneData.totalDuration = 31.0
         

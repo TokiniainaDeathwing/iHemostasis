@@ -16,15 +16,15 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadeCoagulationCascade", owner: self, options: nil)![0] as? UIView
+        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeCoagulationCascade", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+        for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
             if n.hiddenAtStart == true {
                 let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
-                imageView.hidden = true
+                imageView.isHidden = true
             }
         }
         
@@ -40,15 +40,15 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         // Phase List - Title
         sceneData.phaseList = ["Initiation Phase", "Propagation Phase", "Amplification Phase", "Fibrin Formation"]
         // Phase List - Description
-        sceneData.phaseDescription.insert(NSLocalizedString("initiation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 0)
-        sceneData.phaseDescription.insert(NSLocalizedString("propagation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 1)
-        sceneData.phaseDescription.insert(NSLocalizedString("amplification-phase", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 2)
-        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-formation", tableName: "CoagulationCascadePhase", comment: "comment"), atIndex: 3)
+        sceneData.phaseDescription.insert(NSLocalizedString("initiation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), at: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("propagation-phase-detail", tableName: "CoagulationCascadePhase", comment: "comment"), at: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("amplification-phase", tableName: "CoagulationCascadePhase", comment: "comment"), at: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-formation", tableName: "CoagulationCascadePhase", comment: "comment"), at: 3)
         // Phase List - Duration
-        sceneData.phaseTimelineList.insert(17.0, atIndex: 0)
-        sceneData.phaseTimelineList.insert(22.0, atIndex: 1)
-        sceneData.phaseTimelineList.insert(28.0, atIndex: 2)
-        sceneData.phaseTimelineList.insert(35.0, atIndex: 3)
+        sceneData.phaseTimelineList.insert(17.0, at: 0)
+        sceneData.phaseTimelineList.insert(22.0, at: 1)
+        sceneData.phaseTimelineList.insert(28.0, at: 2)
+        sceneData.phaseTimelineList.insert(35.0, at: 3)
         
         sceneData.totalDuration = 35.0
         
@@ -61,8 +61,8 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 2, nodeTag: 2)
         n.nodeDescription = "VIIa: \nActivated Factor VII\nVitamin K-dependent liver synthesis\nRapidly activated into FVIIa when FVII is bound to TF\nFVIIa-TF comlex activates FX and FIXn"
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(363, 456)
-        n.destPos = CGPointMake(506, 515)
+        n.originPos = CGPoint(363, 456)
+        n.destPos = CGPoint(506, 515)
         sceneData.nodeList.append(n)
 
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time:3, nodeTag: 6)

@@ -15,10 +15,10 @@ class ClinicalCasesQuizzViewCell: UITableViewCell {
     func reloadData(data: ClinicalCasesResponseModel) {
 
         if data.userResponse == true {
-            self.checkboxImageView?.highlighted = true
+            self.checkboxImageView?.isHighlighted = true
         }
         else {
-            self.checkboxImageView?.highlighted = false
+            self.checkboxImageView?.isHighlighted = false
         }
         
         

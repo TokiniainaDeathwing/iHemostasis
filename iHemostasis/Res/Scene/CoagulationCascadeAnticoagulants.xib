@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -196,7 +200,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="OTS-Wx-cId"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Kck-iW-mox"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3700" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ogo-XB-hJd">
@@ -204,7 +208,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZOr-nn-eR8"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="B8t-EL-9zF"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kn7-QR-PWT">
@@ -212,7 +216,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="33n-Je-rzz"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Zmz-7t-1vj"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PiM-l0-tUy">
@@ -220,7 +224,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rvo-rf-2Og"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="QwN-NB-LCX"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mwZ-wm-2f1">
@@ -228,7 +232,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="2s9-k1-fOZ"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="faO-6w-NVO"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rlG-Kc-zPe">
@@ -236,7 +240,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="U37-yH-Acr"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="fZF-CG-uWa"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Syb-IB-gJz">
@@ -244,7 +248,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="i2F-y8-G4T"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="FYE-bf-0rI"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3500" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OHn-3F-1pf">
@@ -252,7 +256,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="kAS-09-FSL"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="jPI-N1-fND"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bVp-Na-iwr">
@@ -260,7 +264,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="0DA-9b-x0c"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="iit-U4-sbR"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="3200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TbE-sp-xcW">
@@ -268,7 +272,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="qio-Ek-JQT"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="U76-fQ-UbQ"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YzA-L1-8WO">
@@ -276,7 +280,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="koM-yQ-was"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="SlF-2e-rpn"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8If-9r-NHh">
@@ -284,7 +288,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="Nph-qD-bcH"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="rD6-qp-B7N"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4600" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WKx-tq-lYD">
@@ -292,7 +296,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="zMT-ZI-IHl"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="nWh-7a-Ddg"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4700" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R5U-Ys-n19">
@@ -300,7 +304,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="bxq-lR-Znq"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wye-6L-OGn"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="4800" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cPV-Se-rc5">
@@ -308,7 +312,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="Highlight_AC"/>
                     <connections>
-                        <action selector="showNodeDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="gsk-bG-NRD"/>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="wU4-OD-HHF"/>
                     </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="51" contentMode="center" image="cc_vii" id="VEI-cd-Ik3">
@@ -332,61 +336,60 @@
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="13" y="260"/>
+            <point key="canvasLocation" x="10.15625" y="152.34375"/>
         </view>
     </objects>
     <resources>
-        <image name="2" width="31" height="32"/>
+        <image name="2" width="30" height="31"/>
         <image name="21" width="31" height="32"/>
-        <image name="24" width="26" height="50"/>
-        <image name="A_10" width="235" height="41"/>
-        <image name="A_11" width="242" height="185"/>
-        <image name="A_12" width="214" height="69"/>
-        <image name="A_13" width="249" height="40"/>
+        <image name="24" width="25" height="49"/>
+        <image name="A_10" width="235" height="40"/>
+        <image name="A_11" width="241" height="185"/>
+        <image name="A_12" width="214" height="68"/>
+        <image name="A_13" width="248" height="40"/>
         <image name="A_15" width="233" height="105"/>
-        <image name="A_16" width="167" height="91"/>
+        <image name="A_16" width="166" height="90"/>
         <image name="A_17" width="279" height="65"/>
         <image name="A_18" width="27" height="30"/>
-        <image name="A_20" width="27" height="51"/>
-        <image name="A_20_ALPHA" width="27" height="51"/>
-        <image name="A_23" width="28" height="28"/>
+        <image name="A_20" width="27" height="50"/>
+        <image name="A_20_ALPHA" width="27" height="50"/>
+        <image name="A_23" width="27" height="27"/>
         <image name="A_26" width="462" height="486"/>
         <image name="A_26_ALPHA" width="462" height="486"/>
-        <image name="A_5" width="221" height="94"/>
+        <image name="A_5" width="221" height="93"/>
         <image name="A_6" width="227" height="65"/>
-        <image name="A_7" width="265" height="192"/>
-        <image name="A_8" width="167" height="201"/>
+        <image name="A_7" width="265" height="191"/>
+        <image name="A_8" width="166" height="200"/>
         <image name="A_9" width="232" height="114"/>
-        <image name="Analog" width="143" height="11"/>
-        <image name="Anti-iil" width="279" height="126"/>
-        <image name="Anti-xaTOP" width="279" height="96"/>
+        <image name="Analog" width="142" height="11"/>
+        <image name="Anti-iil" width="279" height="125"/>
+        <image name="Anti-xaTOP" width="279" height="95"/>
         <image name="BackgroundPlayer" width="1024" height="768"/>
-        <image name="Fluindione" width="78" height="9"/>
+        <image name="Fluindione" width="77" height="9"/>
         <image name="Heparins" width="219" height="83"/>
-        <image name="Highlight_AC" width="105" height="16"/>
-        <image name="Hirudin" width="49" height="9"/>
+        <image name="Highlight_AC" width="104" height="16"/>
+        <image name="Hirudin" width="48" height="9"/>
         <image name="LMWHs" width="52" height="8"/>
-        <image name="Synthetic-DTI" width="92" height="11"/>
+        <image name="Synthetic-DTI" width="91" height="11"/>
         <image name="UFH" width="34" height="8"/>
-        <image name="VKA" width="219" height="119"/>
-        <image name="Warfarin" width="56" height="9"/>
+        <image name="VKA" width="219" height="118"/>
+        <image name="Warfarin" width="55" height="8"/>
         <image name="acenocoumarol" width="86" height="10"/>
         <image name="apixaban" width="52" height="11"/>
         <image name="argatroban" width="68" height="11"/>
         <image name="bavilirudin" width="62" height="10"/>
-        <image name="betrixaban" width="59" height="9"/>
-        <image name="bottomXA" width="279" height="68"/>
+        <image name="betrixaban" width="58" height="8"/>
+        <image name="bottomXA" width="279" height="67"/>
         <image name="cc_vii" width="34" height="34"/>
         <image name="dabigatran" width="68" height="11"/>
-        <image name="danaparold" width="114" height="11"/>
+        <image name="danaparold" width="113" height="11"/>
         <image name="edoxaban" width="55" height="10"/>
-        <image name="fondaparinux" width="86" height="11"/>
+        <image name="fondaparinux" width="85" height="11"/>
         <image name="idraparinux" width="63" height="11"/>
-        <image name="nicoumalone" width="83" height="10"/>
+        <image name="nicoumalone" width="82" height="10"/>
         <image name="phenoprocoumon" width="93" height="11"/>
-        <image name="rivaroxaban" width="79" height="10"/>
+        <image name="rivaroxaban" width="78" height="10"/>
     </resources>
 </document>

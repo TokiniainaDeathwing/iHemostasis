@@ -11,7 +11,7 @@ import UIKit
 class CoagulationCascadeMenuViewCell: UICollectionViewCell {
     @IBOutlet private weak var captionLabel: UILabel!
     
-    override func applyLayoutAttributes(layoutAttributes: UICollectionViewLayoutAttributes) {
-        super.applyLayoutAttributes(layoutAttributes)
+    override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
+        super.apply(layoutAttributes)
     }
 }

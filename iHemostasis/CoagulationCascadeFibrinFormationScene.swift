@@ -17,15 +17,15 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadeFibrinFormation", owner: self, options: nil)![0] as? UIView
+        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeFibrinFormation", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+        for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
             if n.hiddenAtStart == true {
                 let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
-                imageView.hidden = true
+                imageView.isHidden = true
             }
         }
     }
@@ -39,19 +39,19 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         sceneData.phaseList = ["Fibrin Formation", "Fibrinolysis Initiation", "Fibrinolysis Amplification", "Antifibrinolysis: Inhibition of Fibrinolysis", "Fibrin and fibrinogen degradation products"]
         
         // Phase List - Description
-        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-formation-detail", tableName: "FibrinFormationPhase", comment: "comment"), atIndex: 0)
-        sceneData.phaseDescription.insert(NSLocalizedString("fibrinolysis-initiation-detail", tableName: "FibrinFormationPhase", comment: "comment"), atIndex: 1)
-        sceneData.phaseDescription.insert(NSLocalizedString("fibrinolysis-amplification-detail", tableName: "FibrinFormationPhase", comment: "comment"), atIndex: 2)
-        sceneData.phaseDescription.insert(NSLocalizedString("antifibrinolysis-detail", tableName: "FibrinFormationPhase", comment: "comment"), atIndex: 3)
-        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-and-fibrinogen-degragation-detail", tableName: "FibrinFormationPhase", comment: "comment"), atIndex: 3)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-formation-detail", tableName: "FibrinFormationPhase", comment: "comment"), at: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrinolysis-initiation-detail", tableName: "FibrinFormationPhase", comment: "comment"), at: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrinolysis-amplification-detail", tableName: "FibrinFormationPhase", comment: "comment"), at: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("antifibrinolysis-detail", tableName: "FibrinFormationPhase", comment: "comment"), at: 3)
+        sceneData.phaseDescription.insert(NSLocalizedString("fibrin-and-fibrinogen-degragation-detail", tableName: "FibrinFormationPhase", comment: "comment"), at: 3)
         
         // TO BE MODIFY
         // Phase List - Duration
-        sceneData.phaseTimelineList.insert(26.0, atIndex: 0)
-        sceneData.phaseTimelineList.insert(32.0, atIndex: 1)
-        sceneData.phaseTimelineList.insert(44.0, atIndex: 2)
-        sceneData.phaseTimelineList.insert(65.0, atIndex: 3)
-        sceneData.phaseTimelineList.insert(70.0, atIndex: 4)
+        sceneData.phaseTimelineList.insert(26.0, at: 0)
+        sceneData.phaseTimelineList.insert(32.0, at: 1)
+        sceneData.phaseTimelineList.insert(44.0, at: 2)
+        sceneData.phaseTimelineList.insert(65.0, at: 3)
+        sceneData.phaseTimelineList.insert(70.0, at: 4)
         
         sceneData.totalDuration = 70.0
         
@@ -150,8 +150,8 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         // ***************************** PHASE TWO - FIBRINOLYSIS INITIATION *****************************
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseTwoStartTime, time: 1, nodeTag: 32)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(130, 333)
-        n.destPos = CGPointMake(386, 24)
+        n.originPos = CGPoint(130, 333)
+        n.destPos = CGPoint(386, 24)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
@@ -179,15 +179,15 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 4, nodeTag: 24)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(130, 333)
-        n.destPos = CGPointMake(543, 180)
+        n.originPos = CGPoint(130, 333)
+        n.destPos = CGPoint(543, 180)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 5, nodeTag: 5)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(130, 333)
-        n.destPos = CGPointMake(806, 271)
+        n.originPos = CGPoint(130, 333)
+        n.destPos = CGPoint(806, 271)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         

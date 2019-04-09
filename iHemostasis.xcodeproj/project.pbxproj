@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7693A0F8223C2DC800EB30EE /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7693A0F7223C2DC800EB30EE /* CGRect.swift */; };
 		B4D0D13C1C55CF7400E27F45 /* iHCoagulationCaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D0D13B1C55CF7400E27F45 /* iHCoagulationCaseCell.m */; };
 		B4D0D13F1C55D2CB00E27F45 /* iHGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D0D13E1C55D2CB00E27F45 /* iHGridLayout.m */; };
 		B4D0D1461C55E6DA00E27F45 /* coagulation-cascade-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D0D1411C55E6DA00E27F45 /* coagulation-cascade-1.png */; };
@@ -449,6 +450,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7693A0F7223C2DC800EB30EE /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		B4D0D1391C55CF7400E27F45 /* iHemostasis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHemostasis-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4D0D13A1C55CF7400E27F45 /* iHCoagulationCaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHCoagulationCaseCell.h; sourceTree = "<group>"; };
 		B4D0D13B1C55CF7400E27F45 /* iHCoagulationCaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHCoagulationCaseCell.m; sourceTree = "<group>"; };
@@ -916,6 +918,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7693A0F6223C2D8E00EB30EE /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				7693A0F7223C2DC800EB30EE /* CGRect.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
 		B4D0D1401C55E6DA00E27F45 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -965,6 +975,7 @@
 		E70095DE1C1810F6008362B0 /* iHemostasis */ = {
 			isa = PBXGroup;
 			children = (
+				7693A0F6223C2D8E00EB30EE /* extension */,
 				B4D0D1391C55CF7400E27F45 /* iHemostasis-Bridging-Header.h */,
 				E70EDC6D1C5BA2B300EAA0B3 /* ParentViewController.swift */,
 				E76666EE1C1EB40F007AECC7 /* Application */,
@@ -1782,7 +1793,7 @@
 					E70095DB1C1810F6008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = FFP2WA927R;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E70095EF1C1810F7008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -2265,6 +2276,7 @@
 				E7EC96FF1D8A6C01009D3FA0 /* PracticalManualDetailViewController.swift in Sources */,
 				E7EC96FD1D8994EF009D3FA0 /* PracticalManualViewController.swift in Sources */,
 				E70095E01C1810F6008362B0 /* AppDelegate.swift in Sources */,
+				7693A0F8223C2DC800EB30EE /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2410,7 +2422,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2418,10 +2431,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = adhocIHemoPad;
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -2431,7 +2445,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2440,9 +2455,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = adhocIHemoPad;
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

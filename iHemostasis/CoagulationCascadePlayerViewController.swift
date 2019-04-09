@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDelegate {
+class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDelegate,UITableViewDataSource, UITableViewDelegate {
     // UI Logic
     @IBOutlet weak var videoSlider : UISlider?
     @IBOutlet weak var sceneView : UIView?
@@ -29,7 +29,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     // Business Logic
     var scene = ParentScene()
-    var sceneTimer = NSTimer()
+    var sceneTimer = Timer()
     var sceneFileName = String()
     var isPlaying : Bool = false
     var animationIndex: Int = 0
@@ -46,15 +46,15 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         
         // Set the orientation to always landscape
-        let orient = UIApplication.sharedApplication().statusBarOrientation
+        let orient = UIApplication.shared.statusBarOrientation
         switch orient {
-        case .LandscapeLeft:
+        case .landscapeLeft:
             break
-        case .LandscapeRight:
+        case .landscapeRight:
             break
         default:
-            let value = UIInterfaceOrientation.LandscapeLeft.rawValue
-            UIDevice.currentDevice().setValue(value, forKey: "orientation")
+            let value = UIInterfaceOrientation.landscapeLeft.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
         }
         
         // Left menu: Phase list
@@ -64,59 +64,59 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         
         // BackButton View Container
-        let backButtonView: UIView? = UIView(frame: CGRectMake(0, 0, 500, 59))
-        backButtonView?.backgroundColor = UIColor.clearColor()
+        let backButtonView: UIView? = UIView(frame: CGRect(0, 0, 500, 59))
+        backButtonView?.backgroundColor = UIColor.clear
         
         // BackButton Button
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowRED")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 15, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 15, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         backButtonView?.addSubview(backButton)
         // BackButton Label
-        let backButtonLabel: UILabel? = UILabel(frame: CGRectMake(50, 0, 400, 59))
+        let backButtonLabel: UILabel? = UILabel(frame: CGRect(50, 0, 400, 59))
         backButtonView?.addSubview(backButtonLabel!)
         backButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
-        backButtonLabel?.textColor = Utils.colorWithHexString(Utils.RED_COLOR)
-        backButtonLabel?.textAlignment = .Left
+        backButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
+        backButtonLabel?.textAlignment = .left
         
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButtonView!)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
         
         
         // Right menu: Phase list
         // Phase View Container
-        let phaseListButtonView: UIView? = UIView(frame: CGRectMake(0, 0, 500, 59))
-        phaseListButtonView?.backgroundColor = UIColor.clearColor()
+        let phaseListButtonView: UIView? = UIView(frame: CGRect(0, 0, 500, 59))
+        phaseListButtonView?.backgroundColor = UIColor.clear
         
         // Down Button image
-        downImageView = UIImageView(frame:CGRectMake(470, 25, 13, 12));
+        downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
         downImageView!.image = UIImage(named:"down-arrowRED")
         phaseListButtonView?.addSubview(downImageView!)
         
-        let downButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        downButton.frame = CGRectMake(0, 0, 500, 59)
-        downButton.addTarget(self, action: "showPhaseList", forControlEvents: UIControlEvents.TouchUpInside)
-        downButton.setTitle("", forState: UIControlState.Normal)
-        downButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        downButton.backgroundColor = UIColor.clearColor()
+        let downButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        downButton.frame = CGRect(0, 0, 500, 59)
+        downButton.addTarget(self, action: #selector(showPhaseList), for: UIControl.Event.touchUpInside)
+        downButton.setTitle("", for: UIControl.State.normal)
+        downButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        downButton.backgroundColor = UIColor.clear
         phaseListButtonView?.addSubview(downButton)
         
         // DownButton Label
-        phaseButtonLabel = UILabel(frame: CGRectMake(50, 0, 400, 59))
+        phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
         phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
-        phaseButtonLabel?.textColor = Utils.colorWithHexString(Utils.RED_COLOR)
-        phaseButtonLabel?.textAlignment = .Right
-        phaseButtonLabel?.backgroundColor = UIColor.clearColor()
+        phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
+        phaseButtonLabel?.textAlignment = .right
+        phaseButtonLabel?.backgroundColor = UIColor.clear
         phaseButtonLabel?.adjustsFontSizeToFitWidth = true
         phaseListButtonView?.addSubview(phaseButtonLabel!)
         
         
         let downButtonItem:UIBarButtonItem = UIBarButtonItem(customView: phaseListButtonView!)
-        self.navigationItem.setRightBarButtonItem(downButtonItem, animated: true)
+        self.navigationItem.setRightBarButton(downButtonItem, animated: true)
         
         switch animationIndex {
             
@@ -146,42 +146,42 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         //phaseButtonLabel!.text = currentSceneData.phaseList[0]
         
-        infoSequenceView?.hidden = true
-        infoNodeSequenceView?.hidden = true
+        infoSequenceView?.isHidden = true
+        infoNodeSequenceView?.isHidden = true
         
         // Setup animation slider
         self.setupTimelineSlider()
         
-        self.sceneView!.frame = CGRectMake(0, 0, 1024, 648)
+        self.sceneView!.frame = CGRect(0, 0, 1024, 648)
         scene.frame = CGRect(x: 0, y: 0, width: 1024, height: 648)
         sceneView!.addSubview(scene)
-        scene.userInteractionEnabled = true
-        scene.exclusiveTouch = true
-        sceneView!.userInteractionEnabled = true
-        sceneView!.exclusiveTouch = true
+        scene.isUserInteractionEnabled = true
+        scene.isExclusiveTouch = true
+        sceneView!.isUserInteractionEnabled = true
+        sceneView!.isExclusiveTouch = true
         
         phaseButtonLabel!.text = ""
-        downImageView!.hidden = true
+        downImageView!.isHidden = true
         
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.gScene = scene
         
         // Setup Zoom Feature
         // Pinching
-        let pinchRecognizer = UIPinchGestureRecognizer(target:self, action:"pinchAction:")
+        let pinchRecognizer = UIPinchGestureRecognizer(target:self, action:#selector(pinchAction))
         self.sceneView!.addGestureRecognizer(pinchRecognizer)
         
         // Simple tapping
-        let simpleTap = UITapGestureRecognizer(target:self, action:"simpleTappedAction:")
+        let simpleTap = UITapGestureRecognizer(target:self, action:#selector(simpleTappedAction))
         simpleTap.numberOfTapsRequired = 1
         self.sceneView!.addGestureRecognizer(simpleTap)
         
         // Double tapping
-        let doubleTap = UITapGestureRecognizer(target:self, action:"doubleTappedAction:")
+        let doubleTap = UITapGestureRecognizer(target:self, action:#selector(doubleTappedAction))
         doubleTap.numberOfTapsRequired = 2
         self.sceneView!.addGestureRecognizer(doubleTap)
         
-        simpleTap.requireGestureRecognizerToFail(doubleTap)
+        simpleTap.require(toFail: doubleTap)
         
     }
     
@@ -191,17 +191,17 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate: Bool {
         return false
     }
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.LandscapeLeft
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscapeLeft
     }
     
     // MARK: Private methods
-    func countUp() {
-        UIView.animateWithDuration(2.0, animations: {
+    @objc func countUp() {
+        UIView.animate(withDuration: 2.0, animations: {
             self.videoSlider?.setValue(self.currentTimeline, animated: true)
         })
         currentTimeline += 1
@@ -213,9 +213,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             sceneTimer.invalidate()
             scene.pauseScene()
             let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
-            playPauseButton?.setImage(imageButton, forState: .Normal)
+            playPauseButton?.setImage(imageButton, for: .normal)
             phaseButtonLabel!.text = ""
-            downImageView!.hidden = true
+            downImageView!.isHidden = true
             
             // Hack !!
             if isSliderChangedManually == true {
@@ -226,8 +226,8 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
 
     func attributedText(text: String)->NSAttributedString {
-        let attributedString = NSMutableAttributedString(string: text as String, attributes: [NSFontAttributeName:UIFont.systemFontOfSize(14.0)])
-        let boldFontAttribute = [NSFontAttributeName: UIFont.boldSystemFontOfSize(14.0)]
+        let attributedString = NSMutableAttributedString(string: text as String, attributes: [NSAttributedString.Key.font:UIFont.systemFont(ofSize: 14.0)])
+        let boldFontAttribute = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 14.0)]
         
         let textArr = text.characters.split{$0 == ":"}.map(String.init)
         
@@ -237,21 +237,21 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     func showNodeInformation(node: String) {
-        infoNodeSequenceView?.hidden = false
+        infoNodeSequenceView?.isHidden = false
         
         infoNodeSequenceLabel?.text = node
-        infoNodeSequenceLabel?.attributedText = attributedText(node)
+        infoNodeSequenceLabel?.attributedText = attributedText(text: node)
     }
     
-    func onItemSelection(node: CoagulationCascadeNodeModel) {
+    func onItemSelection(name node: CoagulationCascadeNodeModel) {
         sceneTimer.invalidate()
         let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
-        playPauseButton?.setImage(imageButton, forState: .Normal)
+        playPauseButton?.setImage(imageButton, for: .normal)
         
-        showNodeInformation(node.nodeDescription)
+        showNodeInformation(node: node.nodeDescription)
     }
     
-    func pinchAction(pinchRecognizer: UIPinchGestureRecognizer) {
+    @objc func pinchAction(pinchRecognizer: UIPinchGestureRecognizer) {
         var scale: CGFloat = pinchRecognizer.scale;
         if (scale > 2.0) {
             scale = CGFloat(2.0)
@@ -262,21 +262,21 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             self.currentZoom = 1.0
         }
         
-        self.sceneView!.transform = CGAffineTransformScale(CGAffineTransformIdentity, scale, scale);
+        self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
 
-        if(pinchRecognizer.state == UIGestureRecognizerState.Began) {
-            UIView.animateWithDuration(0.2, animations: {
-                self.sceneView!.transform = CGAffineTransformScale(CGAffineTransformIdentity, self.currentZoom, self.currentZoom);
+        if(pinchRecognizer.state == UIGestureRecognizer.State.began) {
+            UIView.animate(withDuration: 0.2, animations: {
+                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
                     //self.sceneView!.center = CGPoint(,)
-                    self.sceneView!.frame = CGRectMake(0, 0, 1024, 648)
+                    self.sceneView!.frame = CGRect(0, 0, 1024, 648)
                 }
                 
             })
         }
     }
     
-    func doubleTappedAction(recognizer: UITapGestureRecognizer) {
+    @objc func doubleTappedAction(recognizer: UITapGestureRecognizer) {
         if self.currentZoom <= 1.0 {
             self.currentZoom = CGFloat(2.0)
         }
@@ -285,19 +285,19 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             
         }
         
-        if(recognizer.state == UIGestureRecognizerState.Ended) {
-            UIView.animateWithDuration(1.0, animations: {
-                self.sceneView!.transform = CGAffineTransformScale(CGAffineTransformIdentity, self.currentZoom, self.currentZoom);
+        if(recognizer.state == UIGestureRecognizer.State.ended) {
+            UIView.animate(withDuration: 1.0, animations: {
+                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
                     //self.sceneView!.center = CGPoint(,)
-                    self.sceneView!.frame = CGRectMake(0, 0, 1024, 648)
+                    self.sceneView!.frame = CGRect(0, 0, 1024, 648)
                 }
                 
             })
         }
     }
     
-    func simpleTappedAction(recognizer: UITapGestureRecognizer) {
+    @objc func simpleTappedAction(recognizer: UITapGestureRecognizer) {
         // Detect if it is the end of the animation
         if currentTimeline > currentSceneData.totalDuration {
             currentTimeline = 0
@@ -314,7 +314,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     // MARK: TableView Delegate
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return currentSceneData.phaseList.count
     }
     
@@ -322,16 +322,16 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         return 1
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) 
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath as IndexPath)
         let row = indexPath.row
         cell.textLabel?.text = currentSceneData.phaseList[row]
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath)
-        let row = indexPath.row
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //_ = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath as IndexPath)
+        //_ = indexPath.row
         
         hidePhaseList()
         
@@ -353,14 +353,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     private func playScene() {
         isPlaying = true
         sceneTimer.invalidate()
-        sceneTimer = NSTimer.scheduledTimerWithTimeInterval(1.0,target: self, selector:"countUp", userInfo: nil, repeats: true)
-        NSRunLoop.currentRunLoop().addTimer(sceneTimer, forMode: NSRunLoopCommonModes)
+        sceneTimer = Timer.scheduledTimer(timeInterval: 1.0,target: self, selector: #selector(countUp), userInfo: nil, repeats: true)
+        RunLoop.current.add(sceneTimer, forMode: RunLoop.Mode.common)
         sceneTimer.fire()
-        scene.playSceneAt(currentTimeline)
+        scene.playSceneAt(time: currentTimeline)
         
         // Update Button Status
         let imageButton = UIImage(named: "CoagCascadePlayerPause") as UIImage?
-        playPauseButton?.setImage(imageButton, forState: .Normal)
+        playPauseButton?.setImage(imageButton, for: .normal)
         scene.hideNodeHighlight()
     }
     
@@ -371,30 +371,30 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         // Update Button Status
         let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
-        playPauseButton?.setImage(imageButton, forState: .Normal)
+        playPauseButton?.setImage(imageButton, for: .normal)
         scene.showNodeHighlight()
     }
     
     func setupTimelineSlider() {
-        videoSlider?.continuous = true
+        videoSlider?.isContinuous = true
         videoSlider?.minimumValue = 0.0
         videoSlider?.maximumValue = currentSceneData.totalDuration
     }
     
-    func showPhaseList() {
+    @objc func showPhaseList() {
         if currentTimeline <= currentSceneData.totalDuration {
-            if phaseListView?.hidden == true {
-                phaseListView?.hidden = false
+            if phaseListView?.isHidden == true {
+                phaseListView?.isHidden = false
                 reloadPhaseInfos()
             }
             else {
-                phaseListView?.hidden = true
+                phaseListView?.isHidden = true
             }
         }
     }
     
     func hidePhaseList() {
-        phaseListView?.hidden = true
+        phaseListView?.isHidden = true
     }
     
     func reloadPhaseInfos() {
@@ -404,7 +404,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 phaseDescLabel?.text = currentSceneData.phaseDescription[0]
                 phaseButtonLabel!.text = currentSceneData.phaseList[0]
             }
-            else if (currentTimeline >= currentSceneData.phaseTimelineList.last) {
+            else if (currentTimeline >= currentSceneData.phaseTimelineList.last!) {
                 phaseTitleLabel?.text = currentSceneData.phaseList.last
                 phaseDescLabel?.text = currentSceneData.phaseDescription.last
                 phaseButtonLabel!.text = currentSceneData.phaseList.last
@@ -426,12 +426,12 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         phaseDescLabel?.sizeToFit()
         phaseDescScrollView?.contentSize = CGSize(width: 0, height: (phaseDescLabel?.frame.height)! + 20.0)
-        downImageView?.hidden = phaseButtonLabel!.text!.isEmpty
+        downImageView?.isHidden = phaseButtonLabel!.text!.isEmpty
     }
     
-    func backButtonAction() {
+    @objc func backButtonAction() {
         if let navController = self.navigationController {
-            navController.popViewControllerAnimated(true)
+            navController.popViewController(animated: true)
         }
     }
     
@@ -468,13 +468,13 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     
     @IBAction func rewindButtonAction(sender: UIButton) {
-        for var i:Int = 0; i < currentSceneData.phaseTimelineList.count; i++ {
+        for i in 0..<currentSceneData.phaseTimelineList.count {
             if currentTimeline <= currentSceneData.phaseTimelineList[0] {
                 currentTimeline = 0
                 break
                 // First phase, nothing todo
             }
-            else if (currentTimeline >= currentSceneData.phaseTimelineList.last) {
+            else if (currentTimeline >= currentSceneData.phaseTimelineList.last!) {
                 currentTimeline = currentSceneData.phaseTimelineList[currentSceneData.phaseTimelineList.count - 1]
                 break
             }
@@ -493,12 +493,12 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     @IBAction func forwardButtonAction(sender: UIButton) {
-        for var i:Int = 0; i < currentSceneData.phaseTimelineList.count; i++ {
+        for i in 0..<currentSceneData.phaseTimelineList.count{
             if currentTimeline <= currentSceneData.phaseTimelineList[0] {
                 currentTimeline = currentSceneData.phaseTimelineList[1]
                 break
             }
-            else if (currentTimeline >= currentSceneData.phaseTimelineList.last) {
+            else if (currentTimeline >= currentSceneData.phaseTimelineList.last!) {
                 break
             }
             else if currentTimeline >= currentSceneData.phaseTimelineList[i] && currentTimeline < currentSceneData.phaseTimelineList[i + 1] {
@@ -512,11 +512,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     @IBAction func infoSequenceButton(sender: UIButton) {
         if currentTimeline > 0.0 && currentTimeline < currentSceneData.totalDuration {
-            if infoSequenceView?.hidden == false {
-                infoSequenceView?.hidden = true
+            if infoSequenceView?.isHidden == false {
+                infoSequenceView?.isHidden = true
             }
             else {
-                infoSequenceView?.hidden = false
+                infoSequenceView?.isHidden = false
             }
         }
         if isPlaying {
@@ -528,11 +528,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     @IBAction func infoNodeSequenceButton(sender: UIButton) {
-        if infoNodeSequenceView?.hidden == false {
-            infoNodeSequenceView?.hidden = true
+        if infoNodeSequenceView?.isHidden == false {
+            infoNodeSequenceView?.isHidden = true
         }
         else {
-            infoNodeSequenceView?.hidden = false
+            infoNodeSequenceView?.isHidden = false
         }
     }
     
@@ -540,7 +540,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         var _x: CGFloat
         var _y: CGFloat
         if currentZoom >= 2.0 {
-            let translation = recognizer.translationInView(self.view)
+            let translation = recognizer.translation(in: self.view)
             if let view = recognizer.view {
                 if view.frame.origin.x >= 0 {
                     _x = -1.0
@@ -569,7 +569,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 view.center = CGPoint(x:view.center.x + _x,
                     y:view.center.y + _y)
             }
-            recognizer.setTranslation(CGPointZero, inView: self.sceneView)
+            recognizer.setTranslation(CGPoint(0,0), in: self.sceneView)
         }
     }
 }

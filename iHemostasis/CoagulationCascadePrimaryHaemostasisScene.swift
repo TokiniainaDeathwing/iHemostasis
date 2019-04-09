@@ -17,15 +17,15 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = NSBundle.mainBundle().loadNibNamed("CoagulationCascadePrimaryHaemostasis", owner: self, options: nil)![0] as? UIView
+        sceneView = Bundle.main.loadNibNamed("CoagulationCascadePrimaryHaemostasis", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+        for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
             if n.hiddenAtStart == true {
                 let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
-                imageView.hidden = true
+                imageView.isHidden = true
             }
         }
     }
@@ -38,15 +38,15 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         super.initData()
         sceneData.phaseList = ["Platelet Adhesion", "Platelet Activation and Amplification", "Platelet Aggregation", "Platelet inhibitors"]
         // Phase List - Description
-        sceneData.phaseDescription.insert(NSLocalizedString("platelet-adhesion-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), atIndex: 0)
-        sceneData.phaseDescription.insert(NSLocalizedString("platelet-activation-and-amplification-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), atIndex: 1)
-        sceneData.phaseDescription.insert(NSLocalizedString("platelet-agregation-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), atIndex: 2)
-        sceneData.phaseDescription.insert(NSLocalizedString("platelet-inhibitors-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), atIndex: 3)
+        sceneData.phaseDescription.insert(NSLocalizedString("platelet-adhesion-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), at: 0)
+        sceneData.phaseDescription.insert(NSLocalizedString("platelet-activation-and-amplification-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), at: 1)
+        sceneData.phaseDescription.insert(NSLocalizedString("platelet-agregation-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), at: 2)
+        sceneData.phaseDescription.insert(NSLocalizedString("platelet-inhibitors-detail", tableName: "PrimaryHaemostasisPhase", comment: "comment"), at: 3)
         // Phase List - Duration
-        sceneData.phaseTimelineList.insert(18.0, atIndex: 0)
-        sceneData.phaseTimelineList.insert(51.0, atIndex: 1)
-        sceneData.phaseTimelineList.insert(59.0, atIndex: 2)
-        sceneData.phaseTimelineList.insert(74.0, atIndex: 3)
+        sceneData.phaseTimelineList.insert(18.0, at: 0)
+        sceneData.phaseTimelineList.insert(51.0, at: 1)
+        sceneData.phaseTimelineList.insert(59.0, at: 2)
+        sceneData.phaseTimelineList.insert(74.0, at: 3)
         
         sceneData.totalDuration = 78.0
         
@@ -104,8 +104,8 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         // First Animation Trajectory
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 9, nodeTag: 1101)
         n.animationType = Utils.AnimationType.translationAndDisappear
-        n.originPos = CGPointMake(855, 198)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(855, 198)
+        n.destPos = CGPoint(542, 237)
         n.hiddenAtStart = true
         n.disappearTime = 10
         sceneData.nodeList.append(n)
@@ -113,84 +113,84 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 10, nodeTag: 1111)
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(830, 152)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(830, 152)
+        n.destPos = CGPoint(542, 237)
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 10, nodeTag: 1121)
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(844, 172)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(844, 172)
+        n.destPos = CGPoint(542, 237)
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 10, nodeTag: 1131)
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(900, 207)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(900, 207)
+        n.destPos = CGPoint(542, 237)
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 1141)
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(925, 212)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(925, 212)
+        n.destPos = CGPoint(542, 237)
         n.disappearTime = 12
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 1151)
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(888, 176)
-        n.destPos = CGPointMake(542, 237)
+        n.originPos = CGPoint(888, 176)
+        n.destPos = CGPoint(542, 237)
         n.disappearTime = 12
         sceneData.nodeList.append(n)
         
         // Second animation trajectory
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 10, nodeTag: 110)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(373, 231)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(373, 231)
         n.hiddenAtStart = true
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 111)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(376, 200)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(376, 200)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 112)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(367, 172)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(367, 172)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 113)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(377, 149)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(377, 149)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 114)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(434, 185)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(434, 185)
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 115)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
-        n.originPos = CGPointMake(542, 237)
-        n.destPos = CGPointMake(422, 219)
+        n.originPos = CGPoint(542, 237)
+        n.destPos = CGPoint(422, 219)
         sceneData.nodeList.append(n)
         //---
         

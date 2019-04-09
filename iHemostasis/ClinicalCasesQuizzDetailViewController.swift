@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQuizzDetailMenuListViewControllerDelegate {
+class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQuizzDetailMenuListViewControllerDelegate,UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var titleLabel : UILabel?
     @IBOutlet weak var indexButton : UIButton?
     @IBOutlet weak var descriptionLabel : UILabel?
@@ -48,9 +48,9 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.quizzTableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        loadJsonData(quizzIdentifier)
-        indexButton?.setTitle("Clinical Case " + String(quizzIdentifier), forState: UIControlState.Normal)
+        self.quizzTableView?.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        loadJsonData(quizzId: quizzIdentifier)
+        indexButton?.setTitle("Clinical Case " + String(quizzIdentifier), for: UIControl.State.normal)
         
         setupUI()
     }
@@ -61,66 +61,66 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     }
     
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let clinicalCasesQuizzDetailMenuListViewController = segue.destinationViewController as! ClinicalCasesQuizzDetailMenuListViewController
-        clinicalCasesQuizzDetailMenuListViewController.preferredContentSize = CGSizeMake(400.0, 700.0)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let clinicalCasesQuizzDetailMenuListViewController = segue.destination as! ClinicalCasesQuizzDetailMenuListViewController
+        clinicalCasesQuizzDetailMenuListViewController.preferredContentSize = CGSize(400.0, 700.0)
         clinicalCasesQuizzDetailMenuListViewController.delegate = self
     }
     
     func setupUI() {
         loadUI()
-        responseView?.hidden = true
-        summaryResponseView?.hidden = true
-        nextButton?.hidden = true
+        responseView?.isHidden = true
+        summaryResponseView?.isHidden = true
+        nextButton?.isHidden = true
         self.titleLabel!.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: 24.0)
-        resultLabel?.hidden = true
-        percentResponseView?.hidden = true
+        resultLabel?.isHidden = true
+        percentResponseView?.isHidden = true
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
         
     }
     
     
     func loadUI() {
-        let orient = UIApplication.sharedApplication().statusBarOrientation
-        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let orient = UIApplication.shared.statusBarOrientation
+        let screenSize: CGRect = UIScreen.main.bounds
         switch orient {
-        case .Portrait:
-            self.patientHistoryView?.hidden = true
-            self.patientHistoryButtonContainerView?.hidden = false
-            self.patientHistoryView?.frame = CGRectMake(0, 238, (self.patientHistoryView?.frame.width)!, (self.patientHistoryView?.frame.height)!)
-            self.quizzView?.frame = CGRectMake(0, 238, 768, 686)
-            self.responseView?.frame = CGRectMake(0, 238, 768, 686)
-            self.summaryResponseView?.frame = CGRectMake(0, 238, 768, 686)
+        case .portrait:
+            self.patientHistoryView?.isHidden = true
+            self.patientHistoryButtonContainerView?.isHidden = false
+            self.patientHistoryView?.frame = CGRect(0, 238, (self.patientHistoryView?.frame.width)!, (self.patientHistoryView?.frame.height)!)
+            self.quizzView?.frame = CGRect(0, 238, 768, 686)
+            self.responseView?.frame = CGRect(0, 238, 768, 686)
+            self.summaryResponseView?.frame = CGRect(0, 238, 768, 686)
             self.questionMarkView?.frame.origin = CGPoint(x: 117, y: 0)
-            self.headerView?.frame = CGRectMake(0, 110, 768, 128)
-            self.footerView?.frame = CGRectMake(0, 924, 768, 100)
-            self.titleLabel?.frame.origin = CGPointMake(247, 8)
-            self.resultLabel?.frame.origin = CGPointMake(140, 8)
-            self.titleLabel?.frame.size = CGSizeMake(470, 89)
-            self.quizzSummaryResponseTableView?.frame.size = CGSizeMake((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
+            self.headerView?.frame = CGRect(0, 110, 768, 128)
+            self.footerView?.frame = CGRect(0, 924, 768, 100)
+            self.titleLabel?.frame.origin = CGPoint(247, 8)
+            self.resultLabel?.frame.origin = CGPoint(140, 8)
+            self.titleLabel?.frame.size = CGSize(470, 89)
+            self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
         default:
-            self.patientHistoryButtonContainerView?.hidden = true
+            self.patientHistoryButtonContainerView?.isHidden = true
             self.questionMarkView?.frame.origin = CGPoint(x: 0, y: 0)
-            self.patientHistoryView?.hidden = false
-            self.patientHistoryView?.frame = CGRectMake(0, 109, (self.patientHistoryView?.frame.width)!, 659)
-            self.quizzView?.frame = CGRectMake((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.quizzView?.frame.height)!)
-            self.responseView?.frame = CGRectMake((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.responseView?.frame.height)!)
-            self.summaryResponseView?.frame = CGRectMake((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
-            self.headerView?.frame = CGRectMake(331, 110, 693, 128)
-            self.footerView?.frame = CGRectMake(331, 668, 693, 100)
-            self.titleLabel?.frame.origin = CGPointMake(140, 8)
-            self.titleLabel?.frame.size = CGSizeMake(470, 89)
-            self.resultLabel?.frame.origin = CGPointMake(40, 8)
-            self.quizzSummaryResponseTableView?.frame.size = CGSizeMake((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)! - 100)
+            self.patientHistoryView?.isHidden = false
+            self.patientHistoryView?.frame = CGRect(0, 109, (self.patientHistoryView?.frame.width)!, 659)
+            self.quizzView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.quizzView?.frame.height)!)
+            self.responseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.responseView?.frame.height)!)
+            self.summaryResponseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
+            self.headerView?.frame = CGRect(331, 110, 693, 128)
+            self.footerView?.frame = CGRect(331, 668, 693, 100)
+            self.titleLabel?.frame.origin = CGPoint(140, 8)
+            self.titleLabel?.frame.size = CGSize(470, 89)
+            self.resultLabel?.frame.origin = CGPoint(40, 8)
+            self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)! - 100)
         }
     }
     
@@ -130,15 +130,15 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         let jsonFileName = "Quizz_" + String(quizzId)
         quizzDataArray.removeAll()
         
-        if let path = NSBundle.mainBundle().pathForResource(jsonFileName, ofType: "json") {
+        if let path = Bundle.main.path(forResource: jsonFileName, ofType: "json") {
             do {
-                let fileData = try NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe)
+                let fileData = try NSData(contentsOfFile: path, options: .mappedIfSafe)
                 
                 do {
-                    if let jsonResult = try NSJSONSerialization.JSONObjectWithData(fileData, options: []) as? NSDictionary {
+                    if let jsonResult = try JSONSerialization.jsonObject(with: fileData as Data, options: []) as? NSDictionary {
                         let jsonArray = jsonResult["q&r"] as? NSArray
-                        for var i = 0; i < jsonArray!.count; i++ {
-                            let node: NSDictionary = (jsonArray?.objectAtIndex(i))! as! NSDictionary
+                        for i in 0..<jsonArray!.count {
+                            let node: NSDictionary = (jsonArray?.object(at: i))! as! NSDictionary
                             let quizzData = ClinicalCasesModel()
                             
                             // Questions
@@ -148,8 +148,8 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
                             
                             // Responses
                             let responses: NSArray = node["responses"] as! NSArray
-                            for var j = 0; j < responses.count; j++ {
-                                let dict:NSDictionary = responses.objectAtIndex(j) as! NSDictionary
+                            for j in 0..<responses.count {
+                                let dict:NSDictionary = responses.object(at: j) as! NSDictionary
                                 
                                 let quizzResponseData = ClinicalCasesResponseModel()
                                 quizzResponseData.response = dict["reponse"] as? String
@@ -158,11 +158,11 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
                                 quizzData.responses.append(quizzResponseData)
                             }
                             
-                            quizzDataArray.insert(quizzData, atIndex: i)
+                            quizzDataArray.insert(quizzData, at: i)
                         }
                     }
                     currentQuizzIndex = 0
-                    reloadData(0)
+                    reloadData(index: 0)
                     
                 } catch let error as NSError {
                     print(error.localizedDescription)
@@ -180,7 +180,7 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         quizzTableView?.reloadData()
         
         var patientHistoryText = ""
-        for var i: Int = 0; i <= index; i++ {
+        for i in 0..<(index+1) {
             patientHistoryText += quizzDataArray[i].statement! + "\n"
         }
         
@@ -190,20 +190,20 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     }
     
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        coordinator.animateAlongsideTransition({ (UIViewControllerTransitionCoordinatorContext) -> Void in
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) -> Void in
             self.loadUI()
             }, completion: { (UIViewControllerTransitionCoordinatorContext) -> Void in
                 //print("rotation completed")
         })
         
-        super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
+        super.viewWillTransition(to: size, with: coordinator)
     }
     
     
     // TableView
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if tableView == quizzTableView && quizzView!.hidden == false { // && quizzView!.hidden == false ==> this test avoid crash when orentation changed
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if tableView == quizzTableView && quizzView!.isHidden == false { // && quizzView!.hidden == false ==> this test avoid crash when orentation changed
             currentQuizzData = quizzDataArray[currentQuizzIndex]
             return currentQuizzData.responses.count
         }
@@ -218,37 +218,37 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         return 1
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if tableView == quizzTableView {
-            let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as! ClinicalCasesQuizzViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath as IndexPath) as! ClinicalCasesQuizzViewCell
             let row = indexPath.row
             currentQuizzData = quizzDataArray[currentQuizzIndex]
             let currentQuizzResponseData = currentQuizzData.responses[row]
-            cell.reloadData(currentQuizzResponseData)
+            cell.reloadData(data: currentQuizzResponseData)
             return cell
         }
         
         if tableView == quizzSummaryResponseTableView {
-            let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as! ClinicalCasesQuizzResponseSummaryViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath as IndexPath) as! ClinicalCasesQuizzResponseSummaryViewCell
             let quizz:ClinicalCasesModel = quizzDataArray[indexPath.row]
-            cell.reloadData(quizz)
+            cell.reloadData(data: quizz)
             return cell
         }
         
         return UITableViewCell()
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == quizzTableView {
-            let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as! ClinicalCasesQuizzViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath) as! ClinicalCasesQuizzViewCell
             
             let row = indexPath.row
             let currentQuizzDataSelected = quizzDataArray[currentQuizzIndex]
             let currentQuizzResponseData = currentQuizzDataSelected.responses[row]
             currentQuizzResponseData.userResponse = !currentQuizzResponseData.userResponse
             
-            cell.reloadData(currentQuizzResponseData)
-            self.quizzTableView?.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.None)
+            cell.reloadData(data: currentQuizzResponseData)
+            self.quizzTableView?.reloadRows(at: [indexPath], with: UITableView.RowAnimation.none)
         }
     }
     
@@ -258,21 +258,21 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         reloadData(currentQuizzIndex)
         */
         
-        let alert = UIAlertController(title: "The quiz is in progress", message: "Do you really want to select new case?", preferredStyle: UIAlertControllerStyle.Alert)
-        self.presentViewController(alert, animated: true, completion: nil)
+        let alert = UIAlertController(title: "The quiz is in progress", message: "Do you really want to select new case?", preferredStyle: UIAlertController.Style.alert)
+        self.present(alert, animated: true, completion: nil)
         
-        alert.addAction(UIAlertAction(title: "No", style: .Default, handler: nil))
-        alert.addAction(UIAlertAction(title: "Yes", style: .Default, handler: { action in
+        alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
             switch action.style{
-            case .Default:
+            case .default:
                 self.currentQuizzIndex = 0
-                self.loadJsonData(index + 1)
-                self.indexButton?.setTitle("Clinical Case " + String(index + 1), forState: UIControlState.Normal)
-                self.reloadData(index)
-            case .Cancel:
+                self.loadJsonData(quizzId: index + 1)
+                self.indexButton?.setTitle("Clinical Case " + String(index + 1), for: UIControl.State.normal)
+                self.reloadData(index: index)
+            case .cancel:
                 print("YES cancel")
                 
-            case .Destructive:
+            case .destructive:
                 print("Ys destructive")
             }
         }))
@@ -356,45 +356,49 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         
         
         if userResponseResume != "" {
-            userResponseResume = userResponseResume!.substringWithRange(Range<String.Index>(start: userResponseResume!.startIndex, end:userResponseResume!.endIndex.advancedBy(-2)))
-            correctResponseResume = correctResponseResume!.substringWithRange(Range<String.Index>(start: correctResponseResume!.startIndex, end:correctResponseResume!.endIndex.advancedBy(-2)))
+            var strIdx = userResponseResume?.index(userResponseResume!.startIndex, offsetBy: 0)
+            var endIdx = userResponseResume?.index(userResponseResume!.endIndex, offsetBy: -2)
+            userResponseResume = String(((userResponseResume?[strIdx!..<endIdx!] ?? nil) ?? nil)!)
+            strIdx = correctResponseResume?.index(correctResponseResume!.startIndex, offsetBy: 0)
+            endIdx = correctResponseResume?.index(correctResponseResume!.endIndex, offsetBy: -2)
+            correctResponseResume = String(((correctResponseResume?[strIdx!..<endIdx!] ?? nil) ?? nil)!)
             userResponseLabel?.text = userResponseResume
             correctResponseLabel?.text = correctResponseResume
             
             explanationWebView?.loadHTMLString(currentQuizzData.explanation!, baseURL: nil)
             
-            quizzView?.hidden = true
-            responseView?.hidden = false
-            validateButton?.hidden = true
-            nextButton?.hidden = false
+            quizzView?.isHidden = true
+            responseView?.isHidden = false
+            validateButton?.isHidden = true
+            nextButton?.isHidden = false
             
             
             // Let's colour our view answer
             if (userCorrectPoint == quizzTotalCorrectPoint && userIncorrectPoint == 0) {
-                currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString("#70BD16") // Green
-                currentQuizzIconStatusResponseImageView?.highlighted = true
-                self.userResponseLabel?.textColor = UIColor.whiteColor()
-                self.userResponseTitleLabel?.textColor = UIColor.whiteColor()
+                currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString(hex: "#70BD16") // Green
+                currentQuizzIconStatusResponseImageView?.isHighlighted = true
+                self.userResponseLabel?.textColor = UIColor.white
+                self.userResponseTitleLabel?.textColor = UIColor.white
             }
             else {
                 if (userCorrectPoint > 0 && userIncorrectPoint == 0) {
-                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString("#EFEFF4") // Grey
-                    currentQuizzIconStatusResponseImageView?.highlighted = true
-                    self.userResponseLabel?.textColor = UIColor.blackColor()
-                    self.userResponseTitleLabel?.textColor = UIColor.blackColor()
+                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString(hex: "#EFEFF4") // Grey
+                    currentQuizzIconStatusResponseImageView?.isHighlighted = true
+                    self.userResponseLabel?.textColor = UIColor.black
+                    self.userResponseTitleLabel?.textColor = UIColor.black
                 }
                 else if (userCorrectPoint > 0 && userIncorrectPoint >= 0) {
-                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString("#EFEFF4") // Grey
-                    currentQuizzIconStatusResponseImageView?.highlighted = false
-                    self.userResponseLabel?.textColor = UIColor.blackColor()
-                    self.userResponseTitleLabel?.textColor = UIColor.blackColor()
+                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString(hex: "#EFEFF4") // Grey
+                    currentQuizzIconStatusResponseImageView?.isHighlighted = false
+                    self.userResponseLabel?.textColor = UIColor.black
+                    self.userResponseTitleLabel?.textColor = UIColor.black
                 }
                     
                 else if (userCorrectPoint == 0) {
-                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString("#BD2716") // Red
-                    currentQuizzIconStatusResponseImageView?.highlighted = false
-                    self.userResponseLabel?.textColor = UIColor.whiteColor()
-                    self.userResponseTitleLabel?.textColor = UIColor.whiteColor()
+                    currentQuizzSummaryResponseView?.backgroundColor = Utils.colorWithHexString(hex: "#BD2716") // Red
+                    currentQuizzIconStatusResponseImageView?.isHighlighted = false
+                    self.userResponseLabel?.textColor = UIColor.white
+                    self.userResponseTitleLabel?.textColor = UIColor.white
                 }
             }
         }
@@ -402,24 +406,24 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     }
     
     func showNextQuizz() {
-        quizzView?.hidden = false
-        responseView?.hidden = true
-        validateButton?.hidden = false
-        nextButton?.hidden = true
-        reloadData(currentQuizzIndex)
+        quizzView?.isHidden = false
+        responseView?.isHidden = true
+        validateButton?.isHidden = false
+        nextButton?.isHidden = true
+        reloadData(index: currentQuizzIndex)
     }
     
     func showSummaryResponse() {
         var totalPercentInPoint: Float = 0.0
         var percentInPoint: Float = 0.0
-        quizzView?.hidden = true
-        responseView?.hidden = true
-        validateButton?.hidden = true
-        nextButton?.hidden = true
-        summaryResponseView?.hidden = false
-        questionMarkView?.hidden = true
-        resultLabel?.hidden = false
-        titleLabel?.hidden = true
+        quizzView?.isHidden = true
+        responseView?.isHidden = true
+        validateButton?.isHidden = true
+        nextButton?.isHidden = true
+        summaryResponseView?.isHidden = false
+        questionMarkView?.isHidden = true
+        resultLabel?.isHidden = false
+        titleLabel?.isHidden = true
         quizzSummaryResponseTableView?.reloadData()
         
         
@@ -557,7 +561,7 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         totalPercentInPoint = percentInPoint / Float(quizzDataArray.count)
     
         // Calculate Percent Response
-        percentResponseView?.hidden = false
+        percentResponseView?.isHidden = false
     
         if totalPercentInPoint <= 30.0 {
             percentResponseLabel?.text = "< 30%"
@@ -583,40 +587,40 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     }
     
     @IBAction func patientHistoryButtonAction(sender: UIButton) {
-        let orient = UIApplication.sharedApplication().statusBarOrientation
-        if orient == .Portrait {
-            if patientHistoryView?.hidden == true {
-                patientHistoryView?.hidden = false
+        let orient = UIApplication.shared.statusBarOrientation
+        if orient == .portrait {
+            if patientHistoryView?.isHidden == true {
+                patientHistoryView?.isHidden = false
             }
             else {
-                patientHistoryView?.hidden = true
+                patientHistoryView?.isHidden = true
             }
         }
     }
     
-    func backButtonAction() {
+    @objc func backButtonAction() {
         if currentQuizzIndex < quizzDataArray.count  {
-            let alert = UIAlertController(title: "The quiz is in progress", message: "Do you really want to select new case?", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "The quiz is in progress", message: "Do you really want to select new case?", preferredStyle: UIAlertController.Style.alert)
             //alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.Default, handler: nil))
             //alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
+            self.present(alert, animated: true, completion: nil)
             
-            alert.addAction(UIAlertAction(title: "No", style: .Default, handler: nil))
-            alert.addAction(UIAlertAction(title: "Yes", style: .Default, handler: { action in
+            alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
                 switch action.style{
-                case .Default:
-                    self.navigationController?.popViewControllerAnimated(true)
+                case .default:
+                    self.navigationController?.popViewController(animated: true)
                     
-                case .Cancel:
+                case .cancel:
                     print("YES cancel")
                     
-                case .Destructive:
+                case .destructive:
                     print("Ys destructive")
                 }
             }))
         }
         else {
-            self.navigationController?.popViewControllerAnimated(true)
+            self.navigationController?.popViewController(animated: true)
         }
     }
     

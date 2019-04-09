@@ -23,18 +23,18 @@ class CoagulationCascadeListViewController: ParentViewController {
     }
     
     func setupUI() {
-        self.setScreenTitle("Coagulation Cascade")
+        self.setScreenTitle(title: "Coagulation Cascade")
         
         // Set the orientation to always landscape
-        let orient = UIApplication.sharedApplication().statusBarOrientation
+        let orient = UIApplication.shared.statusBarOrientation
         switch orient {
-        case .LandscapeLeft:
+        case .landscapeLeft:
             break
-        case .LandscapeRight:
+        case .landscapeRight:
             break
         default:
-            let value = UIInterfaceOrientation.LandscapeLeft.rawValue
-            UIDevice.currentDevice().setValue(value, forKey: "orientation")
+            let value = UIInterfaceOrientation.landscapeLeft.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
         }
         
         self.cc1Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
@@ -44,17 +44,17 @@ class CoagulationCascadeListViewController: ParentViewController {
         self.cc5Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction),for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
     
@@ -65,21 +65,20 @@ class CoagulationCascadeListViewController: ParentViewController {
     }
  */
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        super.supportedInterfaceOrientations()
-        return UIInterfaceOrientationMask.LandscapeLeft
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscapeLeft
     }
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let coagulationCascadePlayerViewController = storyBoard.instantiateViewControllerWithIdentifier("CoagulationCascadePlayerViewController") as! CoagulationCascadePlayerViewController
+        let coagulationCascadePlayerViewController = storyBoard.instantiateViewController(withIdentifier: "CoagulationCascadePlayerViewController") as! CoagulationCascadePlayerViewController
         coagulationCascadePlayerViewController.animationIndex = indexPath.row
         self.navigationController!.pushViewController(coagulationCascadePlayerViewController, animated: true)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let playerViewController = segue.destinationViewController as! CoagulationCascadePlayerViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let playerViewController = segue.destination as! CoagulationCascadePlayerViewController
         playerViewController.animationIndex = Int(segue.identifier!)!
     }
     

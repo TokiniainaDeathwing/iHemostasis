@@ -8,14 +8,18 @@
 
 import UIKit
 
-class PracticalManualDetailViewController: ParentViewController {
+class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var webViewContainerView : UIView?
     @IBOutlet weak var webView : UIWebView?
     @IBOutlet weak var contextMenuTableView: UITableView?
     @IBOutlet weak var blankView : UIView?
     
     var currentChapterIndex: Int = 0
-    var contextMenuPointer = []
+    
+    var contextMenuPointer  = [
+        ["":""]
+    ];
+
     
     let textCellIdentifier = "textCellIdentifier"
     
@@ -26,17 +30,17 @@ class PracticalManualDetailViewController: ParentViewController {
         super.viewDidLoad()
         
         self.reloadUI()
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.translucent = true
+        self.navigationController?.navigationBar.isTranslucent = true
         
         
         // Load the html
         let contextMenuItem = contextMenuPointer[0]
-        let filename = contextMenuItem["filename"] as! String!
-        let file = NSBundle.mainBundle().URLForResource(filename, withExtension: "html")!
-        let request = NSURLRequest(URL: file)
-        webView?.loadRequest(request)
+        let filename = contextMenuItem["filename"]
+        let file = Bundle.main.url(forResource: filename, withExtension: "html")!
+        let request = NSURLRequest(url: file)
+        webView?.loadRequest(request as URLRequest)
         
         /*
         // Load the first page
@@ -47,19 +51,19 @@ class PracticalManualDetailViewController: ParentViewController {
         */
         
         // Select the first row
-        let indexPath = NSIndexPath(forRow: 0, inSection: 0)
-        contextMenuTableView?.selectRowAtIndexPath(indexPath, animated: false, scrollPosition: .None)
+        let indexPath = NSIndexPath(row: 0, section: 0)
+        contextMenuTableView?.selectRow(at: indexPath as IndexPath, animated: false, scrollPosition: .none)
         //self.onItemSelection(self.currentChapterIndex)
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButtonType.Custom) as UIButton
-        backButton.frame = CGRectMake(0, 0, 32, 32)
-        backButton.addTarget(self, action: "backButtonAction", forControlEvents: UIControlEvents.TouchUpInside)
-        backButton.setTitle("", forState: UIControlState.Normal)
-        backButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        backButton.frame = CGRect(0, 0, 32, 32)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        backButton.setTitle("", for: UIControl.State.normal)
+        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, forState: .Normal)
+        backButton.setBackgroundImage(backbuttonImage, for: .normal)
         
         /*
         // Setup swipe
@@ -81,42 +85,42 @@ class PracticalManualDetailViewController: ParentViewController {
     
     
     func reloadUI() {
-        let orient = UIApplication.sharedApplication().statusBarOrientation
-        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let orient = UIApplication.shared.statusBarOrientation
+        let screenSize: CGRect = UIScreen.main.bounds
         
         switch orient {
-        case .Portrait:
-            self.contextMenuTableView?.hidden = true
-            self.menuButton?.hidden = false
-            self.contextMenuTableView?.frame = CGRectMake(506, 130, 262, 894)
-            self.webView?.frame = CGRectMake(0, 130.0, screenSize.width - 100, 894)
-            if self.webViewContainerView?.hidden == true {
-                self.webViewContainerView?.frame = CGRectMake(600, 130.0, screenSize.width, 894)
+        case .portrait:
+            self.contextMenuTableView?.isHidden = true
+            self.menuButton?.isHidden = false
+            self.contextMenuTableView?.frame = CGRect(506, 130, 262, 894)
+            self.webView?.frame = CGRect(0, 130.0, screenSize.width - 100, 894)
+            if self.webViewContainerView?.isHidden == true {
+                self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width, 894)
             }
             else {
-                self.webViewContainerView?.frame = CGRectMake(0, 130.0, screenSize.width, 894)
+                self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width, 894)
             }
-            self.blankView?.hidden = false
+            self.blankView?.isHidden = false
         default:
-            self.contextMenuTableView?.hidden = false
-            self.menuButton?.hidden = true
+            self.contextMenuTableView?.isHidden = false
+            self.menuButton?.isHidden = true
             
-            self.contextMenuTableView?.frame = CGRectMake(0, 90, 292, 700)
+            self.contextMenuTableView?.frame = CGRect(0, 90, 292, 700)
             
-            //self.webView?.frame = CGRectMake((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 670)
+            //self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 670)
             //self.webViewContainerView?.backgroundColor = UIColor.redColor()
-            //self.webView?.frame = CGRectMake(50.0, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)! - 100, 870)
-            self.webView?.frame = CGRectMake(-90.0, 50.0, screenSize.width - (self.contextMenuTableView?.frame.width)! + 90.0, 770)
-            self.webViewContainerView?.frame = CGRectMake((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 770)
-            self.blankView?.hidden = true
+            //self.webView?.frame = CGRect(50.0, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)! - 100, 870)
+            self.webView?.frame = CGRect(-90.0, 50.0, screenSize.width - (self.contextMenuTableView?.frame.width)! + 90.0, 770)
+            self.webViewContainerView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 770)
+            self.blankView?.isHidden = true
         }
     }
     
     func onItemSelection(index: Int) {
         let contextMenuItem = contextMenuPointer[index]
         let title = contextMenuItem["title"] as! String!
-        webView?.stringByEvaluatingJavaScriptFromString("loadPage('" + title + "');")
-        webView?.stringByEvaluatingJavaScriptFromString("scrollTo(0, 0);")
+        webView?.stringByEvaluatingJavaScript(from: "loadPage('" + ((title! ?? nil)!) + "');")
+        webView?.stringByEvaluatingJavaScript(from: "scrollTo(0, 0);")
     }
     
     // TableView
@@ -124,60 +128,60 @@ class PracticalManualDetailViewController: ParentViewController {
         return 1
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contextMenuPointer.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as UITableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath as IndexPath) as UITableViewCell
         
         let row = indexPath.row
         let contextMenuItem = contextMenuPointer[row]
         
         cell.textLabel?.text = contextMenuItem["title"] as! String!
-        cell.textLabel?.textColor = UIColor.whiteColor()
-        cell.backgroundColor = UIColor.clearColor()
-        cell.textLabel?.highlightedTextColor = UIColor.blackColor()
+        cell.textLabel?.textColor = UIColor.white
+        cell.backgroundColor = UIColor.clear
+        cell.textLabel?.highlightedTextColor = UIColor.black
         
         cell.detailTextLabel?.text = contextMenuItem["author"] as! String!
-        cell.detailTextLabel?.textColor = UIColor.whiteColor()
-        cell.detailTextLabel?.highlightedTextColor = UIColor.blackColor()
+        cell.detailTextLabel?.textColor = UIColor.white
+        cell.detailTextLabel?.highlightedTextColor = UIColor.black
         
-        let backgroundSelectionView:UIView = UIView(frame: CGRectMake(100, 200, 100, 100))
-        backgroundSelectionView.backgroundColor = UIColor.whiteColor()
+        let backgroundSelectionView:UIView = UIView(frame: CGRect(100, 200, 100, 100))
+        backgroundSelectionView.backgroundColor = UIColor.white
         cell.selectedBackgroundView	 = backgroundSelectionView
         
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.currentChapterIndex = indexPath.row
-        self.onItemSelection(self.currentChapterIndex)
-        let orient = UIApplication.sharedApplication().statusBarOrientation
-        if orient == .Portrait {
-            contextMenuTableView?.hidden = true
+        self.onItemSelection(index: self.currentChapterIndex)
+        let orient = UIApplication.shared.statusBarOrientation
+        if orient == .portrait {
+            contextMenuTableView?.isHidden = true
         }
-        self.webView?.hidden = false
+        self.webView?.isHidden = false
     }
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-        coordinator.animateAlongsideTransition({ (UIViewControllerTransitionCoordinatorContext) -> Void in
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) -> Void in
                 self.reloadUI()
             
             }, completion: { (UIViewControllerTransitionCoordinatorContext) -> Void in
                 print("rotation completed")
         })
         
-        super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
+        super.viewWillTransition(to: size, with: coordinator)
     }
     
     // IBAction
     @IBAction func contextMenuButtonAction(sender: UIButton) {
-        if contextMenuTableView?.hidden == true {
-            contextMenuTableView?.hidden = false
+        if contextMenuTableView?.isHidden == true {
+            contextMenuTableView?.isHidden = false
         }
         else {
-            contextMenuTableView?.hidden = true
+            contextMenuTableView?.isHidden = true
         }
     }
     
@@ -186,8 +190,8 @@ class PracticalManualDetailViewController: ParentViewController {
             // Load the first page
             let contextMenuItem = contextMenuPointer[0]
             let title = contextMenuItem["title"] as! String!
-            webView.stringByEvaluatingJavaScriptFromString("loadPage('" + title + "');")
-            webView.scrollView.contentOffset = CGPointMake(webView.scrollView.contentOffset.x, 0);
+            webView.stringByEvaluatingJavaScript(from: "loadPage('" + ((title! ?? nil)!) + "');")
+            webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
         }
     }
 }

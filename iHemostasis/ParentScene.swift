@@ -16,20 +16,20 @@ public class ParentScene: UIView {
     let kCoeffTagForHighlight = 100
     
     var sceneDelegate: ParentSceneDelegate?
-    var sceneTimer = NSTimer()
-    var timelineIncrementTimer = NSTimer()
-    var nodeAnimationTimer = NSTimer()
+    var sceneTimer = Timer()
+    var timelineIncrementTimer = Timer()
+    var nodeAnimationTimer = Timer()
     let sceneData = CoagulationCascadeSceneModel()
     var currentTimeline = 0
     var currentZoom = 1.0
     var sceneView: UIView?
-
+    
     // Initialization Methods
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.initData()
     }
-
+    
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
     }
@@ -42,7 +42,7 @@ public class ParentScene: UIView {
     private func removeAllNode() {
         for view in sceneView!.subviews {
             if view.tag != 0 {
-                view.hidden = true;
+                view.isHidden = true;
             }
         }
     }
@@ -50,53 +50,56 @@ public class ParentScene: UIView {
     private func addNodeWithTheCorrectAnimation(nodeView: UIView, nodeInfo: CoagulationCascadeNodeModel) {
         switch nodeInfo.animationType {
         case .normal:
-            UIView.animateWithDuration(1.0, animations: {
-                if nodeView.hidden == true {
+            UIView.animate(withDuration: 1.0, animations: {
+                if nodeView.isHidden == true {
                     nodeView.alpha = 0.0
                 }
                 
-                nodeView.hidden = false
+                nodeView.isHidden = false
                 nodeView.alpha = 1.0
             })
         case .translation:
-            if nodeView.hidden == true {
-                nodeView.hidden = false
+            if nodeView.isHidden == true {
+                nodeView.isHidden = false
                 nodeView.frame.origin = nodeInfo.originPos!
-                UIView.animateWithDuration(1.0, animations: {
+                UIView.animate(withDuration: 1.0, animations: {
                     nodeView.frame.origin = nodeInfo.destPos!
                 })
             }
         case .translationAndDisappear:
-            if nodeView.hidden == true {
-                nodeView.hidden = false
+            if nodeView.isHidden == true {
+                nodeView.isHidden = false
                 nodeView.frame.origin = nodeInfo.originPos!
-                UIView.animateWithDuration(1.0, animations: {
+                UIView.animate(withDuration: 1.0, animations: {
                     nodeView.frame.origin = nodeInfo.destPos!
                 })
                 
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(Double(nodeInfo.disappearTime - currentTimeline) * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -> Void in
-                    self.disappearViewNode(nodeView)
+                DispatchQueue.main.asyncAfter(deadline: .now() + (Double(nodeInfo.disappearTime - currentTimeline))) {
+                    () -> Void in
+                    self.disappearViewNode(v: nodeView)
                 }
             }
         case .blink:
-            if nodeView.hidden == true {
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(Double(nodeInfo.blinkTime - currentTimeline) * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -> Void in
-                    self.blinkViewNode(nodeView)
+            if nodeView.isHidden == true {
+                DispatchQueue.main.asyncAfter(deadline: .now() + (Double(nodeInfo.blinkTime - currentTimeline))) {
+                    () -> Void in
+                    self.disappearViewNode(v: nodeView)
                 }
             }
-            UIView.animateWithDuration(1.0, animations: {
-                if nodeView.hidden == true {
+            UIView.animate(withDuration: 1.0, animations: {
+                if nodeView.isHidden == true {
                     nodeView.alpha = 0.0
                 }
                 
-                nodeView.hidden = false
+                nodeView.isHidden = false
                 nodeView.alpha = 1.0
             })
         case .disappear:
-            if nodeView.hidden == true {
-                nodeView.hidden = false
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(Double(nodeInfo.disappearTime - currentTimeline) * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -> Void in
-                    self.disappearViewNode(nodeView)
+            if nodeView.isHidden == true {
+                nodeView.isHidden = false
+                DispatchQueue.main.asyncAfter(deadline: .now() + (Double(nodeInfo.disappearTime - currentTimeline))) {
+                    () -> Void in
+                    self.disappearViewNode(v: nodeView)
                 }
             }
         }
@@ -104,39 +107,39 @@ public class ParentScene: UIView {
     
     public func blinkViewNode(v: UIView) {
         v.alpha = 0.0
-        UIView.animateWithDuration(1.0, animations: {
+        UIView.animate(withDuration: 1.0, animations: {
             v.alpha = 1.0
         })
     }
     
     public func disappearViewNode(v: UIView) {
         v.alpha = 1.0
-        UIView.animateWithDuration(1.0, animations: {
+        UIView.animate(withDuration: 1.0, animations: {
             v.alpha = 0.0
         })
         
     }
     
-    public func incTimeline() {
+    @objc public func incTimeline() {
         currentTimeline += 1
     }
     
     
     // Public methods
-    public func addNode() {
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+    @objc public func addNode() {
+        for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
             if n.timeline <= currentTimeline {
                 for view in sceneView!.subviews {
                     if view.tag == n.nodeTag {
-                        addNodeWithTheCorrectAnimation(view, nodeInfo: n)
+                        addNodeWithTheCorrectAnimation(nodeView: view, nodeInfo: n)
                     }
                 }
             }
             else {
                 for view in sceneView!.subviews {
                     if view.tag == n.nodeTag {
-                        view.hidden = true
+                        view.isHidden = true
                     }
                 }
             }
@@ -149,20 +152,20 @@ public class ParentScene: UIView {
         timelineIncrementTimer.invalidate()
         
         //if time <= 0.0 {
-            //self.removeAllNode()
+        //self.removeAllNode()
         //}
         
         currentTimeline = Int(time)
         
         
         // Node timer setting
-        sceneTimer = NSTimer.scheduledTimerWithTimeInterval(1.0,target: self, selector:"addNode", userInfo: nil, repeats: true)
-        NSRunLoop.currentRunLoop().addTimer(sceneTimer, forMode: NSRunLoopCommonModes)
+        sceneTimer = Timer.scheduledTimer(timeInterval: 1.0,target: self, selector:#selector(addNode), userInfo: nil, repeats: true)
+        RunLoop.current.add(sceneTimer, forMode: RunLoop.Mode.common)
         sceneTimer.fire()
         
         // Timeline timer setting
-        timelineIncrementTimer = NSTimer.scheduledTimerWithTimeInterval(1.0,target: self, selector:"incTimeline", userInfo: nil, repeats: true)
-        NSRunLoop.currentRunLoop().addTimer(timelineIncrementTimer, forMode: NSRunLoopCommonModes)
+        timelineIncrementTimer = Timer.scheduledTimer(timeInterval: 1.0,target: self, selector:#selector(incTimeline), userInfo: nil, repeats: true)
+        RunLoop.current.add(timelineIncrementTimer, forMode: RunLoop.Mode.common)
         timelineIncrementTimer.fire()
         
     }
@@ -173,14 +176,14 @@ public class ParentScene: UIView {
     }
     
     public func showNodeHighlight() {
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+        for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
             if currentTimeline <= 0 {
                 if n.nodeDescription != "" {
                     let nodeView:UIView = self.sceneView!.viewWithTag(n.nodeTag)!
-                    if nodeView.hidden == false {
+                    if nodeView.isHidden == false {
                         let highlightButton:UIButton = self.sceneView!.viewWithTag(n.nodeTag * kCoeffTagForHighlight) as! UIButton
-                        highlightButton.hidden = false
+                        highlightButton.isHidden = false
                     }
                 }
             }
@@ -188,9 +191,9 @@ public class ParentScene: UIView {
                 if n.timeline <= currentTimeline && !n.nodeDescription.isEmpty {
                     // Look if the respective node is visible
                     let nodeView:UIView = self.sceneView!.viewWithTag(n.nodeTag)!
-                    if nodeView.hidden == false {
+                    if nodeView.isHidden == false {
                         let highlightButton:UIButton = self.sceneView!.viewWithTag(n.nodeTag * kCoeffTagForHighlight) as! UIButton
-                        highlightButton.hidden = false
+                        highlightButton.isHidden = false
                     }
                 }
             }
@@ -198,26 +201,27 @@ public class ParentScene: UIView {
     }
     
     public func hideNodeHighlight() {
-        for var i = 0;i < sceneData.nodeList.count; i++ {
+        for i in 0..<sceneData.nodeList.count  {
             let n = sceneData.nodeList[i]
             if !n.nodeDescription.isEmpty {
                 let currentTag = n.nodeTag * kCoeffTagForHighlight
                 print(n.nodeTag)
                 let highlightButton:UIButton = self.sceneView!.viewWithTag(currentTag) as! UIButton
-                highlightButton.hidden = true
+                highlightButton.isHidden = true
             }
         }
     }
     
     @IBAction func showNodeDetail(sender: UIButton) {
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
         let nodeTag = sender.tag / kCoeffTagForHighlight
-        
-        for var i = 0;i < appDelegate.gScene?.sceneData.nodeList.count; i++ {
-            let n = appDelegate.gScene?.sceneData.nodeList[i]
-            if n!.nodeTag == nodeTag {
-                appDelegate.gScene!.sceneDelegate!.onItemSelection(n!)
+        if let dataCount = appDelegate.gScene?.sceneData.nodeList.count{
+            for i in 0..<dataCount {
+                let n = appDelegate.gScene?.sceneData.nodeList[i]
+                if n!.nodeTag == nodeTag {
+                    appDelegate.gScene!.sceneDelegate!.onItemSelection(name: n!)
+                }
             }
         }
     }
