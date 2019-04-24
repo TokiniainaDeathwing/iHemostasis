@@ -8,6 +8,7 @@
 
 class PracticalManualAbbreviationViewController: ParentViewController {
     @IBOutlet weak var webView: UIWebView?
+    var practicalManualType : Utils.PracticalManualType = Utils.PracticalManualType.AntiphospholipidSyndrome
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +25,19 @@ class PracticalManualAbbreviationViewController: ParentViewController {
 
         
         // Load pdf file
-        let file = Bundle.main.url(forResource: "Abbreviations",
-                                                        withExtension: "pdf")!
+        let file : Any
+        if (self.practicalManualType == Utils.PracticalManualType.ParenteralAnticoagulants) {
+            file = Bundle.main.url(forResource: "Abbreviations",
+                                       withExtension: "pdf")!
+        }else if(self.practicalManualType == Utils.PracticalManualType.OralAnticoagulants){
+            file = Bundle.main.url(forResource: "Abbreviations_oral",
+                                       withExtension: "pdf")!
+        }else{
+            file = Bundle.main.url(forResource: "Abbreviations_bleeding",
+                                   withExtension: "pdf")!
+        }
         
-        let request = NSURLRequest(url: file)
+        let request = NSURLRequest(url: file as! URL)
         webView?.loadRequest(request as URLRequest)
         self.setScreenTitle(title: "Abbreviations")
         

@@ -103,7 +103,7 @@ class QuickGuideListViewController: ParentViewController, UITableViewDataSource,
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
         backButton.frame = CGRect(0, 0, 32, 32)
-        backButton.addTarget(self, action: Selector(("backButtonAction")),for: .touchUpInside)
+        backButton.addTarget(self, action: #selector(backButtonAction),for: .touchUpInside)
         backButton.setTitle("", for: UIControl.State.normal)
         backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)

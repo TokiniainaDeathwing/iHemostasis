@@ -1,0 +1,90 @@
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            width: 70%; display: block; margin-left: 10%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="s41.png">
+            </p>
+            <p class="VWD screening tests">
+                <img class="android"  src="s42.png">
+            </p>
+            <p class="VWF activity: the interaction with platelet GPIb&alpha;">
+                <img class="android"  src="s43a.png">
+            </p>
+            <p class="VWF activity: the interaction with platelet GPIb&alpha;">
+                <img class="android"  src="s43b.png">
+            </p>
+            <p class="VWF activity: the interaction with platelet GPIb&alpha;">
+                <img class="android"  src="s43c.png">
+            </p>
+            <p class="VWF activity: the interaction with collagen">
+                <img class="android"  src="s44.png">
+            </p>
+            <p class="VWF activity: the interaction with FVIII">
+                <img class="android"  src="s45.png">
+            </p>
+            <p class="VWF multimer assessments">
+                <img class="android"  src="s46a.png">
+            </p>
+            <p class="VWF multimer assessments">
+                <img class="android"  src="s46b.png">
+            </p>
+            <p class="VWF propeptide">
+                <img class="android"  src="s47.png">
+            </p>
+            <p class="VWF gene sequencing">
+                <img class="android"  src="s48a.png">
+            </p>
+            <p class="VWF gene sequencing">
+                <img class="android"  src="s48b.png">
+                <img class="gotofig android" style=" bottom: 88%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Flowchart for clinical laboratory to correctly diagnose and classify specific types of VWD">
+                <img class="android"  src="s49 a.png">
+                <img class="gotofig android" style=" bottom: 88%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Flowchart for clinical laboratory to correctly diagnose and classify specific types of VWD">
+                <img class="android"  src="s49 b.png">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Flowchart for clinical laboratory to correctly diagnose and classify specific types of VWD')">
+                <img class="android" src="s49 figs.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s49+1a.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s49+1b.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s49+1c.png">
+            </p>
+    </body>
+</html>

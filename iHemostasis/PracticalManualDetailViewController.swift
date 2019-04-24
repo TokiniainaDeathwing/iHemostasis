@@ -118,8 +118,8 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
     
     func onItemSelection(index: Int) {
         let contextMenuItem = contextMenuPointer[index]
-        let title = contextMenuItem["title"] as! String!
-        webView?.stringByEvaluatingJavaScript(from: "loadPage('" + ((title! ?? nil)!) + "');")
+        let title = contextMenuItem["title"]
+        webView?.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
         webView?.stringByEvaluatingJavaScript(from: "scrollTo(0, 0);")
     }
     
@@ -189,8 +189,8 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         if (self.webView == webView) {
             // Load the first page
             let contextMenuItem = contextMenuPointer[0]
-            let title = contextMenuItem["title"] as! String!
-            webView.stringByEvaluatingJavaScript(from: "loadPage('" + ((title! ?? nil)!) + "');")
+            let title = contextMenuItem["title"]
+            webView.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
             webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
         }
     }

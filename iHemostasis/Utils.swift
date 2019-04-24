@@ -33,6 +33,8 @@ public class Utils {
     enum PracticalManualType {
         case AntiphospholipidSyndrome
         case ParenteralAnticoagulants
+        case OralAnticoagulants
+        case BleedingDisorders
     }
     
     // Creates a UIColor from a Hex string.

@@ -516,7 +516,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JJG-XV-lCx" kind="push" id="yio-ph-6P7"/>
+                                    <action selector="abbreviationButtonActionWithSender:" destination="zUb-3c-Pki" eventType="touchUpInside" id="DoL-yB-2E7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -544,156 +544,273 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="NQy-2N-9JB">
-                                <rect key="frame" x="71" y="69" width="281" height="470"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="E08-qP-Ap5">
+                                <rect key="frame" x="0.0" y="4" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" id="3mG-dE-EQn">
-                                        <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                    <view contentMode="scaleToFill" id="NQy-2N-9JB">
+                                        <rect key="frame" x="20" y="20" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antiphospholipid Syndrome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jCX-6N-gfH">
-                                                <rect key="frame" x="0.0" y="1" width="281" height="38"/>
+                                            <view contentMode="scaleToFill" id="3mG-dE-EQn">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YzQ-Js-IDb">
-                                                <rect key="frame" x="10" y="38" width="263" height="98"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Luc Darnige - Bas De Laat -
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antiphospholipid Syndrome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jCX-6N-gfH">
+                                                        <rect key="frame" x="0.0" y="1" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YzQ-Js-IDb">
+                                                        <rect key="frame" x="10" y="38" width="263" height="98"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Luc Darnige - Bas De Laat -
 Katrien Devreese - Gary W. Moore - 
 Vittorio Pengo &amp; Alessandra Banzato</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
-                                                <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" id="dRw-IY-dmb">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Antiphospholipid-Syndrome" id="xte-TS-kzU">
+                                                <rect key="frame" x="75" y="48" width="131" height="186"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TJZ-3l-nOD">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="s6h-fm-jz2"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="426-nU-gSz">
+                                                <rect key="frame" x="7" y="407" width="267" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" id="dRw-IY-dmb">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Antiphospholipid-Syndrome" id="xte-TS-kzU">
-                                        <rect key="frame" x="75" y="48" width="131" height="186"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TJZ-3l-nOD">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="s6h-fm-jz2"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="426-nU-gSz">
-                                        <rect key="frame" x="7" y="407" width="267" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" id="lDZ-fj-bBS">
-                                <rect key="frame" x="447" y="69" width="281" height="470"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="Eem-Il-4Lf">
-                                        <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                    <view contentMode="scaleToFill" id="lDZ-fj-bBS">
+                                        <rect key="frame" x="396" y="20" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parenteral anticoagulants" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dAB-81-Hw4">
-                                                <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                            <view contentMode="scaleToFill" id="Eem-Il-4Lf">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2uL-a8-K7i">
-                                                <rect key="frame" x="10" y="36" width="263" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Susanne Alban - Noel C. Chan -
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parenteral anticoagulants" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dAB-81-Hw4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2uL-a8-K7i">
+                                                        <rect key="frame" x="10" y="36" width="263" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Susanne Alban - Noel C. Chan -
 Pierre Guéret - Jack Hirsh - 
 Maurice Petitou - Claire Pouplard - 
 Michael Spannagl - 
 Theodore E. Warkentin</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
-                                                <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" id="4lj-kj-c3n">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parenteral-anticoagulants" id="LHd-h0-RCX">
+                                                <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WzX-0z-bAu">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="vG4-5x-cBI"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yar-ZJ-zZ1">
+                                                <rect key="frame" x="0.0" y="407" width="281" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" id="4lj-kj-c3n">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" id="RQg-1N-WWJ" userLabel="View Four">
+                                        <rect key="frame" x="772" y="20" width="281" height="470"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="GKi-CE-uoU">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oral anticoagulants" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bsI-5L-719">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="bZU-zI-GRY">
+                                                        <rect key="frame" x="10" y="36" width="263" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Walter Ageno - James Douketis -
+Stephan T. Engelter - James C. Fredenburgh - Isabelle Gouin-Thibault - Marcel Levi - François Mullier - Eric Pautas - David Seiffge - Virginie Siguret -
+Alfonso Tafur - Jeffrey I. Weitz</string>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" id="D45-Fh-4Oc">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oral-anticoagulans" id="dGO-XY-1Jx">
+                                                <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="51b-m6-W3R" userLabel="Button four">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="H0C-E5-bgM"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X8Q-nR-5ll">
+                                                <rect key="frame" x="0.0" y="407" width="281" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parenteral-anticoagulants" id="LHd-h0-RCX">
-                                        <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                    <view contentMode="scaleToFill" id="LnK-HN-49Z" userLabel="View Five">
+                                        <rect key="frame" x="20" y="480" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WzX-0z-bAu">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="vG4-5x-cBI"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yar-ZJ-zZ1">
-                                        <rect key="frame" x="0.0" y="407" width="281" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" id="PpK-w6-yvK">
-                                <rect key="frame" x="71" y="502" width="281" height="470"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icone Appli Scores" id="smb-gQ-FKj">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ntm-5A-VGC">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="399"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="4nJ-ye-gCn"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available in printed format" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="15t-2q-blS">
-                                        <rect key="frame" x="3" y="412" width="281" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haemoscore App                       Scores &amp; Algorithms" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xFo-an-z5p">
-                                        <rect key="frame" x="0.0" y="330" width="281" height="69"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="LaI-F7-VYG">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bleeding disorders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Al3-7g-Zsb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="hFq-JT-HgL">
+                                                        <rect key="frame" x="10" y="36" width="263" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Raimondo De Cristofaro - Miguel Escobar - Richard Gooding  - Catherine Hayward - Riitta Lassila - Frank Leebeek - Natalie Montanez - Alberto Tosseto - Guy Young</string>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" id="YFp-vk-GE4">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bleeding" id="qLC-n3-xqG">
+                                                <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VQY-wF-zKy" userLabel="Button four">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="ann-Kf-pVs"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FRr-QR-vhq">
+                                                <rect key="frame" x="0.0" y="407" width="281" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="PpK-w6-yvK">
+                                        <rect key="frame" x="396" y="480" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icone Appli Scores" id="smb-gQ-FKj">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available in printed format" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="15t-2q-blS">
+                                                <rect key="frame" x="3" y="412" width="281" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haemoscore App                       Scores &amp; Algorithms" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xFo-an-z5p">
+                                                <rect key="frame" x="0.0" y="330" width="281" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ntm-5A-VGC">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="4nJ-ye-gCn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </view>
                                 </subviews>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="4su-x1-yjs"/>
                     <connections>
+                        <outlet property="buttonFive" destination="VQY-wF-zKy" id="Nvh-VL-zTK"/>
+                        <outlet property="buttonFour" destination="51b-m6-W3R" id="KlH-Er-lIe"/>
                         <outlet property="buttonOne" destination="TJZ-3l-nOD" id="kTp-jq-YHZ"/>
                         <outlet property="buttonThree" destination="Ntm-5A-VGC" id="HxW-by-RgL"/>
                         <outlet property="buttonTwo" destination="WzX-0z-bAu" id="LhY-Zj-ydf"/>
                         <outlet property="haemoscoreAppLabel" destination="xFo-an-z5p" id="jZz-3v-BkE"/>
+                        <outlet property="labelFive" destination="hFq-JT-HgL" id="B91-yV-bic"/>
                         <outlet property="labelOne" destination="jCX-6N-gfH" id="pHF-Jl-mma"/>
+                        <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
+                        <outlet property="scrollView" destination="E08-qP-Ap5" id="itl-sP-IdU"/>
+                        <outlet property="viewFive" destination="LnK-HN-49Z" id="xCe-rP-ydi"/>
+                        <outlet property="viewFour" destination="RQg-1N-WWJ" id="mgq-r3-m0a"/>
                         <outlet property="viewOne" destination="NQy-2N-9JB" id="mno-jt-cTO"/>
                         <outlet property="viewThree" destination="PpK-w6-yvK" id="zAD-QY-NWT"/>
                         <outlet property="viewTwo" destination="lDZ-fj-bBS" id="duh-I8-6Iz"/>
@@ -701,7 +818,7 @@ Theodore E. Warkentin</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijv-fx-zEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1991.40625" y="17.578125"/>
+            <point key="canvasLocation" x="1991.0688140556367" y="17.578125"/>
         </scene>
         <!--Clinical Cases Quizz Detail View Controller-->
         <scene sceneID="ac4-AV-eFc">
@@ -1144,7 +1261,7 @@ Theodore E. Warkentin</string>
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="contextMenuButtonAction:" destination="bw1-sp-nX5" eventType="touchUpInside" id="ZGn-sK-WRl"/>
+                                    <action selector="contextMenuButtonActionWithSender:" destination="bw1-sp-nX5" eventType="touchUpInside" id="Oah-mk-ryR"/>
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="dqi-vD-KFO">
@@ -1228,7 +1345,7 @@ Theodore E. Warkentin</string>
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="contextMenuButtonAction:" destination="gfE-BM-UnF" eventType="touchUpInside" id="bUo-FC-rpS"/>
+                                    <action selector="contextMenuButtonActionWithSender:" destination="gfE-BM-UnF" eventType="touchUpInside" id="shh-SZ-ccm"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" id="lkM-Xq-w0R">
@@ -1329,7 +1446,7 @@ Theodore E. Warkentin</string>
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="contextMenuButtonAction:" destination="8nk-CD-Mxz" eventType="touchUpInside" id="JDS-2I-1dU"/>
+                                    <action selector="contextMenuButtonActionWithSender:" destination="8nk-CD-Mxz" eventType="touchUpInside" id="E5g-Px-5kZ"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="2TZ-4J-VV1">
@@ -1641,6 +1758,7 @@ Theodore E. Warkentin</string>
     <resources>
         <image name="Antiphospholipid-Syndrome" width="130" height="185"/>
         <image name="BG" width="768" height="1024"/>
+        <image name="Bleeding" width="423" height="610"/>
         <image name="ClinCasesSubmenuBackground" width="768" height="1024"/>
         <image name="ClinicalCases" width="58" height="52"/>
         <image name="Close" width="31" height="31"/>
@@ -1669,6 +1787,7 @@ Theodore E. Warkentin</string>
         <image name="down-arrow" width="12" height="12"/>
         <image name="interogation" width="45" height="45"/>
         <image name="next" width="203" height="64"/>
+        <image name="oral-anticoagulans" width="444" height="640"/>
         <image name="quizz-checked" width="23" height="23"/>
         <image name="quizz-unchecked" width="23" height="23"/>
         <image name="stat" width="60" height="46"/>

@@ -1,0 +1,95 @@
+
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+    p{
+        position: relative;
+    }
+    p img{
+        width: 90%, display: block; margin-left: 10%;
+    }
+    p img.gotofig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 15px;
+        right: 70px;
+    }
+    p img.exitfig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+        margin-left: 20px;
+    }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Anticoagulation and stroke", "filename" : "O-green">
+                <img class="android"  src="S8_1.png">
+            </p>
+            <p class="Intravenous thrombolysis and endovascular treatment">
+                <img class="android"  src="S8_2_1.png">
+            </p>
+            <p class="Intravenous thrombolysis and endovascular treatment">
+                <img class="android"  src="S8_2_2.png">
+            </p>
+            <p class="Intravenous thrombolysis and endovascular treatment">
+                <img class="android"  src="S8_2_3.png">
+            </p>
+            <p class="Intravenous thrombolysis and endovascular treatment">
+                <img class="android"  src="S8_2_4.png">
+            </p>
+            <p class="Patients taking vitamin-K antagonists">
+                <img class="android"  src="S8_3.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_1.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_2.png">
+                <img class="gotofig android" style="bottom: 50%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Patients taking direct oral anticoagulants')">
+                <img class="android"  src="S8_4_7.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_3.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_4.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_5.png">
+            </p>
+            <p class="Patients taking direct oral anticoagulants">
+                <img class="android"  src="S8_4_6.png">
+                <img class="gotofig android" style="bottom: 35%;" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Patients taking direct oral anticoagulants')">
+                <img class="android"  src="S8_4_8.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S8_5_1.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S8_5_2.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S8_5_3.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S8_5_4.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S8_5_5.png">
+            </p>
+    </body>
+</html>

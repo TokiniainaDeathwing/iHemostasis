@@ -11,14 +11,21 @@ import UIKit
 class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var labelOne: UILabel?
     @IBOutlet weak var labelTwo: UILabel?
+    @IBOutlet weak var labelThree: UILabel?
+    @IBOutlet weak var labelFive: UILabel?
     @IBOutlet weak var buttonOne: UIButton?
     @IBOutlet weak var buttonTwo: UIButton?
     @IBOutlet weak var buttonThree: UIButton?
+    @IBOutlet weak var buttonFour: UIButton?
+    @IBOutlet weak var buttonFive: UIButton?
     @IBOutlet weak var viewOne: UIView?
     @IBOutlet weak var viewTwo: UIView?
     @IBOutlet weak var viewThree: UIView?
+    @IBOutlet weak var viewFour: UIView?
+    @IBOutlet weak var viewFive: UIView?
     @IBOutlet weak var haemoscoreAppLabel: UILabel?
     
+    @IBOutlet var scrollView: UIScrollView!
     private let practicalManualChaptersOne = [
         ["description":"", "title":"Pathophysiology", "colour":"#d48634", "author":"Bas De Laat", "entity":"Synapse BV and Maastricht University Maastricht, The Netherlands"],
         ["description":"", "title":"Clinical manifestations", "colour":"#00a5eb", "author":"Luc Darnige", "entity":"Service d’Hématologie Biologique\nHôpital Européen Georges Pompidou - APHP - Paris, France"],
@@ -39,22 +46,49 @@ class PracticalManualViewController: ParentViewController {
         ["description":"", "title":"Direct Thrombin Inhibitors", "colour":"#3286cc", "author":"Michael Spannagl","entity":"Hospital of the Ludwig-Maximilians-University,\nMunich, Germany"],
     ]
     
+    private let practicalManualChaptersThree = [
+        ["description":"", "title":"Vitamin K Antagonists", "colour":"#d48634", "author":"Virginie Siguret* & Eric Pautas**", "entity": "AP-HP – Paris, France INSERM UMR-S-1140, Paris Descartes Université\n*Clinical Haematology Laboratory,University Hospital Lariboisière\n**Departement of Gerontology,University Hospitals Pitie-Salpêtrière-Charles Foix"],
+        ["description":"", "title":"Dabigatran Etexilate: Pharmacological and Clinical Aspects", "colour":"#00a5eb", "author":"Jeffrey I. Weitz* & James C. Fredenburgh", "entity": "Department of Medicine,McMaster University – Hamilton, Ontario, Canada\n*Department of Biochemistry and Biomedical Sciences"],
+        ["description":"", "title":"Dabigatran Etexilate: \nClinical Laboratory Aspects", "colour":"#9D4C9D", "author":"François Mullier","entity":"Université catholique de Louvain,\nCHU UCL Namur, Namur Thrombosis and Hemostasis center,\nHematology Laboratory – Namur, Belgium"],
+        ["description":"", "title":"Direct Factor Xa Inhibitors: \nPharmacological and Clinical Aspects", "colour":"#8f7759", "author":"Walter Ageno","entity":"Department of Clinical and Experimental Medicine,\nUniversity of Insubria – Varese, Italy"],
+        ["description":"", "title":"Direct Factor Xa Inhibitors: \nClinical Laboratory Aspects", "colour":"#BF2F1C", "author":"Isabelle Gouin-Thibault","entity":"Clinical Haematology Laboratory\nPontchaillou University Hospital – Rennes, France\nINSERM UMR-S-1140, Paris Descartes Université – Paris, France"],
+        ["description":"", "title":"Reversal of Direct Oral \nAnticoagulants", "colour":"#3B87C8", "author":"Marcel Levi","entity":"Department of Medicine,\nUniversity College London Hospitals – London, United Kingdom\nDepartment of Vascular Medicine,\nUniversity of Amsterdam – Amsterdam, The Netherland"],
+        ["description":"", "title":"Periprocedural Anticoagulant \nManagement", "colour":"#9D4C9D", "author":"Alfonso Tafur* & James Douketis**","entity":"Department of Medicine\n*Division of Cardiology-Vascular Medicine\nNorthShore University HealthSystem – Evanston, Illinois, USA\n**Department of Medicine,McMaster University – Hamilton, Ontario, Canada"],
+        ["description":"", "title":"Thrombolysis in Patients Taking Oral Anticoagulants", "colour":"#A4C156", "author":"David J. Seiffge & Stefan T. Engelter","entity":"Department of Neurology,\nUniversity Hospital Basel – Basel, Switzerland"],
+    ]
+    
+    private let practicalManualChaptersFour = [
+        ["description":"", "title":"Haemophilia A and B: clinical aspects", "colour":"#d48634", "author":"Guy Young", "entity": "Hemostasis and Thrombosis Center,\nChildren’s Hospital Los Angeles,\nUniversity of Southern California Keck School of Medicine -\nLos Angeles, California, USA."],
+        ["description":"", "title":"Haemophilia A and B: clinical laboratory aspects", "colour":"#00a5eb", "author":"Alberto Tosetto", "entity": "Hemostasis and Thrombosis Center,\nDepartment of Haematology,\nSan Bortolo Hospital - Vicenza, Italy."],
+        ["description":"", "title":"Von Willebrand disease: clinical aspects", "colour":"#9D4C9D", "author":"Frank W.G. Leebeek","entity":"Department of Haematology,\nErasmus University Medical Centre -\nRotterdam, The Netherlands."],
+        ["description":"", "title":"Von Willebrand disease: clinical laboratory aspects", "colour":"#8f7759", "author":"Raimondo De Cristofaro","entity":"Institute of Internal Medicine and Geriatrics,\nHaemostasis and Thrombosis Centre,\nCatholic University of the Sacred Heart\nSchool of Medicine - Rome, Italy."],
+        ["description":"", "title":"Rare bleeding disorders", "colour":"#BF2F1C", "author":"Catherine Hayward","entity":"Departments of Pathology\nand Molecular Medicine and Department of Medicine,Hamilton Regional Laboratory Medicine Program,McMaster University – Hamilton, Ontario, Canada."],
+        ["description":"", "title":"Acquired bleeding disorders: pathophysiology, laboratory diagnosis, and treatment", "colour":"#3B87C8", "author":"Riitta Lassila","entity":"Coagulation Disorders Unit,\nDepartment of Haematology and Comprehensive Cancer Center,\nUniversity of Helsinki and Helsinki University Hospital - Helsinki, Finland."],
+        ["description":"", "title":"Management of bleeding disorders", "colour":"#9D4C9D", "author":"Miguel Escobar* & Natalie Montanez**","entity":"Gulf States Hemophilia and Thrombophilia Center, University of Texas Health Science Center - Houston, Texas, USA.*Department of Internal Medicine and Pediatrics,**McGovern Medical School"],
+        ["description":"", "title":"Bleeding disorders: special circumstances", "colour":"#A4C156","author":"Richard Gooding","entity":"Department of Haematology,\nUniversity Hospitals of Leicester -\n Leicester, United Kingdom."],
+    ]
+    
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         reloadUI(size: size)
     }
     
     func reloadUI(size: CGSize) {
-        let orient = UIApplication.shared.statusBarOrientation
-        
+        let orient = (size.width < size.height)
         switch orient {
-        case .portrait:
-            viewOne?.frame.origin = CGPoint(50, 265)
-            viewTwo?.frame.origin = CGPoint(371, 265)
-            viewThree?.frame.origin = CGPoint(691, 265)
+        case true:
+            viewOne?.frame.origin = CGPoint(71, 79)
+            viewTwo?.frame.origin = CGPoint(447, 79)
+            viewFour?.frame.origin = CGPoint(71, 552)
+            viewFive?.frame.origin = CGPoint(447, 552)
+            viewThree?.frame.origin = CGPoint(71, 1100)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
-            viewOne?.frame.origin = CGPoint(71, 69)
-            viewTwo?.frame.origin = CGPoint(447, 69)
-            viewThree?.frame.origin = CGPoint(71, 502)
+            viewOne?.frame.origin = CGPoint(50, 69)
+            viewTwo?.frame.origin = CGPoint(371, 69)
+            viewFour?.frame.origin = CGPoint(691, 69)
+            viewFive?.frame.origin = CGPoint(50, 542)
+            viewThree?.frame.origin = CGPoint(371, 542)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
         }
     }
     
@@ -64,18 +98,26 @@ class PracticalManualViewController: ParentViewController {
         switch orient {
         case .portrait:
             //isLandscape = false
-            viewOne?.frame.origin = CGPoint(71, 69)
-            viewTwo?.frame.origin = CGPoint(447, 69)
-            viewThree?.frame.origin = CGPoint(71, 502)
+            viewOne?.frame.origin = CGPoint(71, 79)
+            viewTwo?.frame.origin = CGPoint(447, 79)
+            viewFour?.frame.origin = CGPoint(71, 552)
+            viewFive?.frame.origin = CGPoint(447, 552)
+            viewThree?.frame.origin = CGPoint(71, 1100)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         case .portraitUpsideDown:
-            viewOne?.frame.origin = CGPoint(71, 69)
-            viewTwo?.frame.origin = CGPoint(447, 69)
-            viewThree?.frame.origin = CGPoint(71, 502)
-            
+            viewOne?.frame.origin = CGPoint(71, 79)
+            viewTwo?.frame.origin = CGPoint(447, 79)
+            viewFour?.frame.origin = CGPoint(71, 552)
+            viewFive?.frame.origin = CGPoint(447, 552)
+            viewThree?.frame.origin = CGPoint(71, 1100)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
-            viewOne?.frame.origin = CGPoint(50, 265)
-            viewTwo?.frame.origin = CGPoint(371, 265)
-            viewThree?.frame.origin = CGPoint(691, 265)
+            viewOne?.frame.origin = CGPoint(50, 69)
+            viewTwo?.frame.origin = CGPoint(371, 69)
+            viewFour?.frame.origin = CGPoint(691, 69)
+            viewFive?.frame.origin = CGPoint(50, 542)
+            viewThree?.frame.origin = CGPoint(371, 542)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
             
             //isLandscape = true
         }
@@ -112,7 +154,6 @@ class PracticalManualViewController: ParentViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
     }
     
@@ -135,6 +176,20 @@ class PracticalManualViewController: ParentViewController {
         }
         else if (target == buttonThree) {
             UIApplication.shared.openURL(NSURL(string: Utils.HAEMOSCORE_URL)! as URL)
+        }
+        else if (target == buttonFour){
+            practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersThree
+            practicalManualChapterViewController.setScreenTitle(title: "Oral anticoagulants")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.OralAnticoagulants
+            self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
+            self.navigationController!.navigationBar.topItem?.title = "     "
+        }
+        else if (target == buttonFive){
+            practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersFour
+            practicalManualChapterViewController.setScreenTitle(title: "Bleeding disorders")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.BleedingDisorders
+            self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
+            self.navigationController!.navigationBar.topItem?.title = "     "
         }
     }
     

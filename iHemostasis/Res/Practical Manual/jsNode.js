@@ -6,7 +6,9 @@ var hypo;
 
 function loadPage(page) {
     var	pNodes = document.getElementsByTagName("p");
+    console.log("pLength : ", pNodes.length);
     for (var i = 0; i <	pNodes.length; i++) {
+        
         if (pNodes[i].className != page) {
             pNodes[i].style.display = "none";
         }
@@ -16,8 +18,10 @@ function loadPage(page) {
             // Resize images herein
             var pImages = pNodes[i].getElementsByTagName("img");
             for (var j = 0; j < pImages.length; j++) {
-                pImages[j].style.width = 820;
-                pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                if(!pImages[j].classList.contains("android")){
+                    pImages[j].style.width = 820;
+                    pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                }
             }
         }
     }
@@ -37,8 +41,10 @@ function loadFigure(page) {
             // Resize images herein
             var pImages = pNodes[i].getElementsByTagName("img");
             for (var j = 0; j < pImages.length; j++) {
-                pImages[j].style.width = 820;
-                pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                if(!pImages[j].classList.contains("android")){
+                    pImages[j].style.width = 820;
+                    pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                }
             }
         }
     }

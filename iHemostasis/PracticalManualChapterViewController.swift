@@ -162,6 +162,164 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "References", "filename" : "References", "figurename" : ""],
         ]
     
+    // Oral Anticoagulant
+    var contextVitaminKAntagonists = [
+        ["title" : "Background - History", "filename" : "O-Orange"],
+        ["title" : "Pharmacodynamics and pharmacokinetics of VKA"],
+        ["title" : "INR monitoring and target INR"],
+        ["title" : "Intra- and interindividual variability of the dose response to VKA"],
+        ["title" : "Treatment initiation, dose regimens and anticoagulation control"],
+        ["title" : "Adverse events, management of overdose, bleeding events and reversal"],
+        ["title" : "Special populations"],
+        ["title" : "Conclusion"],
+        ["title" : "Take home messages"],
+        ["title" : "References"]
+    ]
+    
+    var contextDabigatranExilatePharma = [
+         ["title" : "Introduction", "filename" : "O-LightBlue"],
+         ["title" : "Thrombin as a target for anticoagulants"],
+         ["title" : "Direct thrombin inhibitors"],
+         ["title" : "Properties and pharmacology of dabigatran etexilate"],
+         ["title" : "Clinical development program"],
+         ["title" : "Practical management of dabigatran"],
+         ["title" : "Conclusion"],
+         ["title" : "References"],
+    ]
+    
+    var contextDabiagatranExilateClinical = [
+        ["title" : "Introduction", "filename" : "O-Purple"],
+        ["title" : "What test to use to determine the presence and the plasma concentration of dabigatran?"],
+        ["title" : "Impact of direct oral anticoagulants on coagulation function assessments"],
+        ["title" : "Discussion and conclusions"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+    ]
+    
+    var contextDirectFactorPharma = [
+        ["title" : "Introduction", "filename" : "O-Marrown"],
+        ["title" : "Pharmacological aspects"],
+        ["title" : "Clinical Indications"],
+        ["title" : "References"],
+    ]
+    
+    var contextDirectFactorClinical = [
+        ["title" : "Introduction", "filename" : "O-red"],
+        ["title" : "Effect of anti-Xa DOAC on haemostasis tests"],
+        ["title" : "Measurement of DOAC concentrations"],
+        ["title" : "References"],
+    ]
+    
+    var contextReversal = [
+        ["title" : "Introduction", "filename" : "O-blue"],
+        ["title" : "Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants"],
+        ["title" : "Reversal of direct oral factor Xa inhibitors"],
+        ["title" : "Reversal of direct oral IIa (thrombin) inhibitors"],
+        ["title" : "Conclusion"],
+        ["title" : "References"],
+    ]
+    
+    var contextPeriprocedural = [
+        ["title" : "Introduction", "filename" : "O-purpleTwo"],
+        ["title" : "When not to stop anticoagulation?"],
+        ["title" : "How to estimate bleeding and thromboembolic risk?"],
+        ["title" : "If bridging is elected, how to bridge?"],
+        ["title" : "Direct oral anticoagulants"],
+        ["title" : "Conclusion"],
+        ["title" : "Take home messages"],
+        ["title" : "References"],
+    ]
+    
+    var contextThrombolysis = [
+        ["title" : "Anticoagulation and stroke", "filename" : "O-green"],
+        ["title" : "Intravenous thrombolysis and endovascular treatment"],
+        ["title" : "Patients taking vitamin-K antagonists"],
+        ["title" : "Patients taking direct oral anticoagulants"],
+        ["title" : "References"],
+    ]
+    
+    //Bleeding
+    var contextHaemophiliaPharma = [
+        ["title" : "Introduction", "filename" : "B-Orange"],
+        ["title" : "Diagnosis of haemophilia"],
+        ["title" : "Clinical manifestations"],
+        ["title" : "Treatment"],
+        ["title" : "Inhibitors"],
+        ["title" : "Do's and Don'ts"],
+        ["title" : "References"],
+    ]
+    
+    var contextHaemophiliaClinical = [
+        ["title" : "Introduction", "filename" : "B-LightBlue"],
+        ["title" : "Preanalytical issues"],
+        ["title" : "Basic laboratory assays"],
+        ["title" : "Second-level laboratory assays"],
+        ["title" : "New and emerging issues in the laboratory evaluation of haemophilia"],
+        ["title" : "Conclusion"],
+        ["title" : "References"],
+    ]
+    
+    var contextVonWillebrandAspect = [
+        ["title" : "Introduction", "filename" : "B-Purple"],
+        ["title" : "Prevalence"],
+        ["title" : "Pathophysiology"],
+        ["title" : "Inheritance"],
+        ["title" : "Diagnosis"],
+        ["title" : "Clinical symptoms"],
+        ["title" : "Treatment"],
+        ["title" : "Complications of treatment"],
+        ["title" : "Conclusion"],
+        ["title" : "References"],
+    ]
+    
+    var contextVonWillebrandLaboratory = [
+         ["title" : "Introduction", "filename" : "B-Marrown"],
+         ["title" : "VWD screening tests"],
+         ["title" : "VWF activity: the interaction with platelet GPIbα"],
+         ["title" : "VWF activity: the interaction with collagen"],
+         ["title" : "VWF activity: the interaction with FVIII"],
+         ["title" : "VWF multimer assessments"],
+         ["title" : "VWF propeptide"],
+         ["title" : "VWF gene sequencing"],
+         ["title" : "Flowchart for clinical laboratory to correctly diagnose and classify specific types of VWD"],
+         ["title" : "References"],
+    ]
+    
+    var contextRarebleed = [
+        ["title" : "Perspectives", "filename" : "B-Red"],
+        ["title" : "Strategies for diagnosis"],
+        ["title" : "RBD associated with fibrinogen abnormalities"],
+        ["title" : "RBD associated with other coagulation test abnormalities"],
+        ["title" : "RBD associated with primary defects in clot stabilisation"],
+        ["title" : "RBD due to fibrinolytic defects"],
+        ["title" : "Selected papers of interest"],
+    ]
+    
+    var contextAcquired = [
+        ["title" : "Introduction", "filename" : "B-blue"],
+        ["title" : "Pathophysiology"],
+        ["title" : "Laboratory diagnosis"],
+        ["title" : "Treatment"],
+        ["title" : "Take home messages"],
+        ["title" : "Selected papers of interest"],
+    ]
+    
+    var contextManagement = [
+        ["title" : "Management of von Willebrand disease", "filename" : "B-PurpleTwo"],
+        ["title" : "Management of haemophilia"],
+        ["title" : "Management of less common congenital disorders of haemostasis"],
+        ["title" : "References"],
+        ["title" : "Additional papers of interest"]
+    ]
+    
+    var contextBleeding = [
+        ["title" : "Introduction", "filename" : "B-green"],
+        ["title" : "Principles of peri-operative management"],
+        ["title" : "Pre-operative planning for heritable bleeding disorders"],
+        ["title" : "Specific recommendations according to bleeding disorders"],
+        ["title" : "Conclusion"],
+        ["title" : "References"]
+    ]
     
     @IBOutlet var collectionView : UICollectionView!
     
@@ -173,15 +331,19 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         if (self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome) {
             self.setScreenTitle(title: "Antiphospholipid Syndrome - Summary")
         }
-        else {
+        else if (self.practicalManualType == Utils.PracticalManualType.ParenteralAnticoagulants){
             self.setScreenTitle(title: "Parenteral Anticoagulants - Summary")
+        }else if (self.practicalManualType == Utils.PracticalManualType.OralAnticoagulants){
+            self.setScreenTitle(title: "Oral Anticoagulants - Summary")
+        }else{
+            self.setScreenTitle(title: "Bleeding disorders - Summary")
         }
         
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
         backButton.frame = CGRect(0, 0, 32, 32)
-        backButton.addTarget(self, action: Selector("backButtonAction"), for: UIControl.Event.touchUpInside)
+        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
         backButton.setTitle("", for: UIControl.State.normal)
         backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
@@ -319,6 +481,48 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
             default:
                 practicalManualDetailViewController.contextMenuPointer = contextMenuUnfractionatedHeparinList
             }
+        }else if (self.practicalManualType == Utils.PracticalManualType.OralAnticoagulants) {
+            switch indexPath.row {
+            case 0:
+                practicalManualDetailViewController.contextMenuPointer = contextVitaminKAntagonists
+            case 1:
+                practicalManualDetailViewController.contextMenuPointer = contextDabigatranExilatePharma
+            case 2:
+                practicalManualDetailViewController.contextMenuPointer = contextDabiagatranExilateClinical
+            case 3:
+                practicalManualDetailViewController.contextMenuPointer = contextDirectFactorPharma
+            case 4:
+                practicalManualDetailViewController.contextMenuPointer = contextDirectFactorClinical
+            case 5:
+                practicalManualDetailViewController.contextMenuPointer = contextReversal
+            case 6:
+                practicalManualDetailViewController.contextMenuPointer = contextPeriprocedural
+            case 7:
+                practicalManualDetailViewController.contextMenuPointer = contextThrombolysis
+            default:
+                practicalManualDetailViewController.contextMenuPointer = contextVitaminKAntagonists
+            }
+        }else if(self.practicalManualType == Utils.PracticalManualType.BleedingDisorders){
+            switch indexPath.row{
+                case 0:
+                    practicalManualDetailViewController.contextMenuPointer = contextHaemophiliaPharma
+                case 1:
+                    practicalManualDetailViewController.contextMenuPointer = contextHaemophiliaClinical
+                case 2:
+                    practicalManualDetailViewController.contextMenuPointer = contextVonWillebrandAspect
+                case 3:
+                    practicalManualDetailViewController.contextMenuPointer = contextVonWillebrandLaboratory
+                case 4:
+                    practicalManualDetailViewController.contextMenuPointer = contextRarebleed
+                case 5:
+                    practicalManualDetailViewController.contextMenuPointer = contextAcquired
+                case 6:
+                    practicalManualDetailViewController.contextMenuPointer = contextManagement
+                case 7:
+                    practicalManualDetailViewController.contextMenuPointer = contextBleeding
+                default:
+                    practicalManualDetailViewController.contextMenuPointer = contextHaemophiliaPharma
+            }
         }
         
         let element = practicalManualChapters[indexPath.row]
@@ -335,6 +539,9 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
     }
     
     @IBAction func abbreviationButtonAction(sender: UIButton) {
-        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let practicalManualAbbreviationViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualAbbreviationViewController") as! PracticalManualAbbreviationViewController
+        practicalManualAbbreviationViewController.practicalManualType = self.practicalManualType
+        self.navigationController!.pushViewController(practicalManualAbbreviationViewController, animated: true)
     }
 }
