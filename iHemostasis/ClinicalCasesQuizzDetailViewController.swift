@@ -175,12 +175,13 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     }
     
     func reloadData(index: Int) {
+        print("currentQuizzIndex: " + String(currentQuizzIndex))
         let quizzData = quizzDataArray[currentQuizzIndex]
         titleLabel?.text = quizzData.title
         quizzTableView?.reloadData()
         
         var patientHistoryText = ""
-        for i in 0..<(index+1) {
+        for i in 0..<quizzDataArray.count {
             patientHistoryText += quizzDataArray[i].statement! + "\n"
         }
         

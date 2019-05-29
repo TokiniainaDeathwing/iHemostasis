@@ -17,6 +17,15 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
     override init(frame: CGRect) {
         super.init(frame: frame)
         sceneView = Bundle.main.loadNibNamed("CoagulationCascadeCoagulationCascade", owner: self, options: nil)![0] as? UIView
+//        var sW = CGFloat(1024)
+//        var h = CGFloat(648)
+//        if(sW < UIScreen.main.bounds.width){
+//            h = h + UIScreen.main.bounds.width - sW
+//            sW = UIScreen.main.bounds.width
+//        }
+//        self.frame = CGRect(0 ,0 , sW, h)
+//        self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+//        self.sceneView?.subviews[0].frame = CGRect(0 ,0 , sW, h)
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation

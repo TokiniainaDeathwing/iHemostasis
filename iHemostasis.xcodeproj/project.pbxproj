@@ -273,6 +273,7 @@
 		762BFAF42269CF3B00431217 /* s86a.png in Resources */ = {isa = PBXBuildFile; fileRef = 762BFAF12269CF3A00431217 /* s86a.png */; };
 		762BFAF52269CF3B00431217 /* s86c.png in Resources */ = {isa = PBXBuildFile; fileRef = 762BFAF22269CF3B00431217 /* s86c.png */; };
 		762BFAF72269CF7400431217 /* s83figs1.png in Resources */ = {isa = PBXBuildFile; fileRef = 762BFAF62269CF7400431217 /* s83figs1.png */; };
+		762E3973227AD3DC0064E74D /* Quizz_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 762E3972227AD3DC0064E74D /* Quizz_7.json */; };
 		763409332267335200B9EABE /* Ref_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7634092F2267335100B9EABE /* Ref_2.png */; };
 		763409342267335200B9EABE /* Ref_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 763409302267335100B9EABE /* Ref_1.png */; };
 		763409352267335200B9EABE /* Ref_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 763409312267335200B9EABE /* Ref_4.png */; };
@@ -424,6 +425,11 @@
 		76340A652267B1B600B9EABE /* S8_4_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 76340A632267B1B600B9EABE /* S8_4_7.png */; };
 		76406067225E25350098124A /* Abbreviations_oral.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 76406066225E25340098124A /* Abbreviations_oral.pdf */; };
 		7693A0F8223C2DC800EB30EE /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7693A0F7223C2DC800EB30EE /* CGRect.swift */; };
+		76FCEEB4227B1419001179CC /* Quizz_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 76FCEEB3227B1419001179CC /* Quizz_8.json */; };
+		76FCEEB6227B302C001179CC /* Quizz_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 76FCEEB5227B302C001179CC /* Quizz_9.json */; };
+		76FCEEB8227BE77F001179CC /* Quizz_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 76FCEEB7227BE77F001179CC /* Quizz_10.json */; };
+		76FCEEBA227BEE7F001179CC /* Quizz_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 76FCEEB9227BEE7F001179CC /* Quizz_11.json */; };
+		76FCEEBC227BEE8F001179CC /* Quizz_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 76FCEEBB227BEE8F001179CC /* Quizz_12.json */; };
 		B4D0D13C1C55CF7400E27F45 /* iHCoagulationCaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D0D13B1C55CF7400E27F45 /* iHCoagulationCaseCell.m */; };
 		B4D0D13F1C55D2CB00E27F45 /* iHGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D0D13E1C55D2CB00E27F45 /* iHGridLayout.m */; };
 		B4D0D1461C55E6DA00E27F45 /* coagulation-cascade-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D0D1411C55E6DA00E27F45 /* coagulation-cascade-1.png */; };
@@ -1132,6 +1138,7 @@
 		762BFAF12269CF3A00431217 /* s86a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s86a.png; sourceTree = "<group>"; };
 		762BFAF22269CF3B00431217 /* s86c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s86c.png; sourceTree = "<group>"; };
 		762BFAF62269CF7400431217 /* s83figs1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s83figs1.png; sourceTree = "<group>"; };
+		762E3972227AD3DC0064E74D /* Quizz_7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_7.json; sourceTree = "<group>"; };
 		7634092F2267335100B9EABE /* Ref_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ref_2.png; sourceTree = "<group>"; };
 		763409302267335100B9EABE /* Ref_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ref_1.png; sourceTree = "<group>"; };
 		763409312267335200B9EABE /* Ref_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ref_4.png; sourceTree = "<group>"; };
@@ -1283,6 +1290,11 @@
 		76340A632267B1B600B9EABE /* S8_4_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S8_4_7.png; sourceTree = "<group>"; };
 		76406066225E25340098124A /* Abbreviations_oral.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Abbreviations_oral.pdf; sourceTree = "<group>"; };
 		7693A0F7223C2DC800EB30EE /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		76FCEEB3227B1419001179CC /* Quizz_8.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_8.json; sourceTree = "<group>"; };
+		76FCEEB5227B302C001179CC /* Quizz_9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_9.json; sourceTree = "<group>"; };
+		76FCEEB7227BE77F001179CC /* Quizz_10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_10.json; sourceTree = "<group>"; };
+		76FCEEB9227BEE7F001179CC /* Quizz_11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_11.json; sourceTree = "<group>"; };
+		76FCEEBB227BEE8F001179CC /* Quizz_12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizz_12.json; sourceTree = "<group>"; };
 		B4D0D1391C55CF7400E27F45 /* iHemostasis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHemostasis-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4D0D13A1C55CF7400E27F45 /* iHCoagulationCaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHCoagulationCaseCell.h; sourceTree = "<group>"; };
 		B4D0D13B1C55CF7400E27F45 /* iHCoagulationCaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHCoagulationCaseCell.m; sourceTree = "<group>"; };
@@ -3032,6 +3044,12 @@
 				E781D23A1C31161600681379 /* Quizz_5.json */,
 				E781D23B1C31161600681379 /* Quizz_6.json */,
 				E781D23C1C31161600681379 /* Quizz.json */,
+				762E3972227AD3DC0064E74D /* Quizz_7.json */,
+				76FCEEB3227B1419001179CC /* Quizz_8.json */,
+				76FCEEB5227B302C001179CC /* Quizz_9.json */,
+				76FCEEB7227BE77F001179CC /* Quizz_10.json */,
+				76FCEEB9227BEE7F001179CC /* Quizz_11.json */,
+				76FCEEBB227BEE8F001179CC /* Quizz_12.json */,
 			);
 			name = Data;
 			path = Res/Data;
@@ -3184,6 +3202,7 @@
 				TargetAttributes = {
 					E70095DB1C1810F6008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FFP2WA927R;
 						ProvisioningStyle = Manual;
 					};
 					E70095EF1C1810F7008362B0 = {
@@ -3320,6 +3339,8 @@
 				762BFA3B2269C24100431217 /* s63c.png in Resources */,
 				762BFA0A2269B65100431217 /* s55b.png in Resources */,
 				762BF9E72269AFA800431217 /* s49 figs.png in Resources */,
+				76FCEEBA227BEE7F001179CC /* Quizz_11.json in Resources */,
+				76FCEEB6227B302C001179CC /* Quizz_9.json in Resources */,
 				762BF93E2268F08800431217 /* s16a.png in Resources */,
 				E7A717681E55DDFA00BD5C80 /* chapter-3-purple---part-3_18_01_03_.png in Resources */,
 				E7E61A881DD08A280037AA88 /* chapter-4-part-1---ios_08.jpg in Resources */,
@@ -3456,6 +3477,7 @@
 				763409BF2267928500B9EABE /* S4_3_5.png in Resources */,
 				762BFAAC2269CAC100431217 /* s73j.png in Resources */,
 				E7E0380A1DACF26C00A79471 /* chapter-2-orange-part-4_11.jpg in Resources */,
+				76FCEEB4227B1419001179CC /* Quizz_8.json in Resources */,
 				E7E619CB1DD086FE0037AA88 /* chapter-3-part-2---ios_05.jpg in Resources */,
 				762BF9962269A1F300431217 /* s22fig2.png in Resources */,
 				763409502267526C00B9EABE /* S2_46.png in Resources */,
@@ -3622,6 +3644,7 @@
 				762BFABA2269CAC100431217 /* s73g.png in Resources */,
 				762BF9D22269AEF300431217 /* s43c.png in Resources */,
 				762BF96B22699AE200431217 /* s23d.png in Resources */,
+				76FCEEB8227BE77F001179CC /* Quizz_10.json in Resources */,
 				E70C7AF61DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_10.png in Resources */,
 				E7E61A421DD089200037AA88 /* chapter-3-purple---part-4_03.png in Resources */,
 				B4D0D1461C55E6DA00E27F45 /* coagulation-cascade-1.png in Resources */,
@@ -3917,6 +3940,7 @@
 				762BFA132269B6A100431217 /* s56c.png in Resources */,
 				E7E037C31DACF25300A79471 /* chapter-2-orange-part-2---ios_01.jpg in Resources */,
 				76340A382267AAE900B9EABE /* S7_8_1.png in Resources */,
+				76FCEEBC227BEE8F001179CC /* Quizz_12.json in Resources */,
 				E7E037B11DACF24700A79471 /* chapter-2-orange-part-1---ios_07.jpg in Resources */,
 				76340A572267AF9400B9EABE /* S8_4_4.png in Resources */,
 				E7E61A981DD08A280037AA88 /* chapter-4-part-2---ios_06.jpg in Resources */,
@@ -3924,6 +3948,7 @@
 				762BF9382268EFDB00431217 /* s14c.png in Resources */,
 				E70C7ADF1DCC73B300E8A89F /* chapter-1-_03.png in Resources */,
 				76340990226789C100B9EABE /* s3_45.png in Resources */,
+				762E3973227AD3DC0064E74D /* Quizz_7.json in Resources */,
 				E70C7B231DCCA17A00E8A89F /* Chapter-2_02.png in Resources */,
 				E7E038081DACF26C00A79471 /* chapter-2-orange-part-4_09.jpg in Resources */,
 				762BFA1B2269B72800431217 /* s57b.png in Resources */,
@@ -4231,7 +4256,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -4254,7 +4279,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

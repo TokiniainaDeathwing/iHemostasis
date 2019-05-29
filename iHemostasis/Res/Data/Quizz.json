@@ -35,6 +35,30 @@
 				   "title": "Clinical case 6",
 				   "description": "Mrs G., 91 years old, is hospitalized for pulmonary embolism.\nShe does not have severe renal insufficiency.\nShe receives curative treatment by tinzaparin (Innohep®, a low molecular weight heparin) 175 IU/kg OD.\nVitamin K antagonists (VKA) treatment has been started 24 hours after initiation of tinzaparin treatment.\nThe physician prescribes a haemostasis work-up for monitoring treatment.\n\nYou receive this sample drawn 4 to 6 hours after tinzaparin injection on the third day of tinzaparin treatment.\n\nROUTINE LABORATORY RESULTS:\nPT (STA® Neoplastine® CI Plus):\n     - 17.0 sec. (control: 12.9 sec.), 62%\n     - PT ratio: 1.32\n     - INR: 1.40\nAPTT (STA® APTT Automate):\n     - 158 sec. (control: 33 sec.)\n     - APTT ratio: 4.79\n     - mixing study: 73.5 sec.\nFibrinogen (STA® Liquid Fib): 250 mg/dL",
 				   "url": "Quizz_6.json"
-				   }
+				   },
+                   {
+                       "title": "Clinical case 7",
+                       "description": "Paul, 14-month old, is referred to physician for recent bruising. They are localised to knee, ankle and elbow following repeated falls linked to his first steps.The physician requests a haemostasis work-up."
+                   },
+                   {
+                       "title": "Clinical case 8",
+                       "description": "Mrs. T. 60-years old suffers from multiple myeloma diagnosed 3 years ago.\nSince 1 month, she is experiencing repeated mucocutaneous bleeding (epistaxis). She indicates that she is not under anticoagulant treatment. A coagulation workup is requested.""
+                   },
+                   {
+                       "title": "Clinical case 9",
+                       "description": "Blood samples have been collected from Mr. S., 35-year old, at the Health Centre for a haemostasis preoperative workup and a total blood count. Samples were prepared for shipping to the reference lab. Mr. S. reports a bleeding tendency in his maternal grandmother."
+                   },
+                   {
+                       "title": "Clinical case 10",
+                       "description": "Mrs. S. 70-years old, is referred to the laboratory for a preoperative work-up for a total knee replacement. She describes a bleeding episode in her family that occurred during a tooth extraction. She confirms that she is not on anticoagulant treatment."
+                   },
+                   {
+                       "title": "Clinical case 11",
+                       "description": "Mrs W., 83-year old, is admitted to the emergency room after a road accident around 9:00 am.A femoral condyle fracture is diagnosed and urgent surgery is decided.\n\nA blood sample is drawn around 10:30 am to perform a presurgery workup."
+                   },
+                   {
+                       "title": "Clinical case 12",
+                       "description": "Mr. M., 67-year old, is dispatched to the hospital emergency room for acute abdominal pain. Acute appendicitis is suspected. A pre-surgery workup is prescribed."
+                   }
 				   ]
 }

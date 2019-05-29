@@ -1,0 +1,132 @@
+
+{
+    "q&r": [
+        {
+            "question":"Among the following propositions, which one(s) can explain aPTT prolongation?",
+            "statement": "Mrs. S. 70-years old, is referred to the laboratory for a preoperative work-up for a total knee replacement. She describes a bleeding episode in her family that occurred during a tooth extraction. She confirms that she is not on anticoagulant treatment.\nResults of the preoperative work-up are as follow:\n\nLABORATORY RESULTS\n\nPT (STA® Neoplastin® CI Plus):\n - 13.9 s (control 12.2 s)\n - 89%\n - PT ratio : 1.14\n\naPTT (STA® PTT Automate®)\n - 74 s (control : 33 s)\n - aPTT ratio : 2.24\n\nFibrinogen (STA® Fibrinogen): 3.41 g/L",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Activated Protein C Resistance",
+                    "correct":false
+                },
+                {
+                    "reponse":"Haemophilia B",
+                    "correct":true
+                },
+                {
+                    "reponse":"Presence of a lupus anticoagulant",
+                    "correct":true
+                },
+                {
+                    "reponse":"Factor XIII deficiency",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">aPTT explores the intrinsic coagulation pathway, i.e. factors VIII, IX, XI and XII, along with common coagulation pathway factors (factors X, V, II and fibrinogen). Those factor-related deficiencies induce aPTT prolongation. aPTT sensitivity to fibrinogen defects may be limited in some cases.<br>aPTT is prolonged in patients on heparin or direct oral anticoagulant treatment (rivaroxaban – XARELTO® -, apixaban – ELIQUIS® -, edoxaban – LYXIANA®/SAVAYSA® - and dabigatran – PRADAXA®). The sensitivity of aPTT to these drugs varies according to the reagent and the drug. <br>Vitamin K antagonists (VKA) induce vitamin K-dependent factor deficiencies (factors II, VII, IX, and X) also prolongs aPTT. <br>In addition, aPTT can be prolonged in the presence of a lupus anticoagulant. <br><br>In conclusion, aPTT can be prolonged in the presence of haemophilia B or in the presence of a lupus anticoagulant. <br>Conversely activated protein C resistance and factor XIII defect are not associated with aPTT prolongation.</body></html>"
+        },
+        {
+            "question":"Among the following list of tests, which one(s) would you perform in case of isolated aPTT prolongation?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"aPTT mixing study",
+                    "correct":true
+                },
+                {
+                    "reponse":"Intrinsic pathway factors",
+                    "correct":true
+                },
+                {
+                    "reponse":"Factor VII",
+                    "correct":false
+                },
+                {
+                    "reponse":"Antiplasmin",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">A mixing study is recommended if aPTT is prolonged. It is performed on a 1:1 mix of patient's plasma with normal pool plasma immediately after mixing. It allows the demonstration of aPTT shortening or non-shortening. This is evidenced by calculation of index of circulating anticoagulant (ICA), or Rosner index, as follows:<br><br><div style=”text-align: center;”><p> aPTT Mixture(seconds) – aPTT PNP(seconds)</p><p>ICA= ------------------------------------------------------- x 100</p><p>aPTT Patient(seconds)</p></div><br>Results are expressed in percentage.<br>Interpretation according to ISTH rules:<br><ul><li>ICA < 12%: aPTT correction, factor deficiency is likely</li><li>ICA between 12 and 15%: inconclusive result</li><li>ICA > 15%: aPTT non correction, presence of an inhibitory effect (circulating anticoagulant); presence of a circulating anticoagulant is not exclusive from a factor deficiency</li></ul>In the case that a circulating anticoagulant is suspected it may be necessary, according to the clinical context and according to guidelines, to perform further investigation to identify the nature of the circulating anticoagulant (lupus anticoagulant or specific factor inhibitor).<br><br>In the presence of an isolated aPTT prolongation (i.e. together with a normal PT) in presurgery work-up or in case of bleeding it is recommended to perform intrinsic pathway factor measurement (factors VIII, IX, and XI, which defects are associated with an increased bleeding risk – factor XII measurement, although this defect is devoid of clinical impact, may allow to identify a cause of aPTT prolongation).<br><br>Factor VII deficiency induces an isolated PT prolongation, without aPTT prolongation. Antiplasmin is a physiologic inhibitor of plasmin. Plasmin is an enzyme involved in fibrinolysis. Antiplasmin levels have no impact on aPTT assay. <br>Measurement of factor VII and antiplasmin are thus not indicated in this case.</body></html>"
+        },
+        {
+            "question":"According to you, what is / are the possible diagnosis hypothesis?",
+            "statement": "Additional testing indicates normal intrinsic factor levels, absence of lupus anticoagulant and absence of factor-specific inhibitor.",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"Penicillin intake",
+                    "correct":false
+                },
+                {
+                    "reponse":"Antiplatelet treatment",
+                    "correct":false
+                },
+                {
+                    "reponse":"Unexplained aPTT prolongation",
+                    "correct":true
+                },
+                {
+                    "reponse":"Vitamin D intake",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Penicillin intake does not directly impact aPTT value. Penicillin may have been described associated with the presence of factor VIII specific inhibitors in children. On the other hand, antibiotic treatment may interfere with intestinal bacteria. This may result indirectly in a lower plasma vitamin K level. Consequently vitamin K-dependent factor levels can be decreased. However, as stated in Question 3, intrinsic pathway coagulation factors are normal; this excludes both the presence of a factor specific inhibitor and low vitamin K-dependent factor levels.<br><br>Antiplatelet treatment (aspirin, clopidogrel – PLAVIX® -, ticlopidin – TICLID® -, prasugrel - EFIENT® -, ticagrelor – BRILIQUE® -) have no effect on aPTT level. In some cases, aPTT is prolonged, but further investigation is inconclusive. This may be related to certain contact phase factor deficiencies (according to reagent sensitivity and nature of defect). This diagnosis is usually not routinely performed as there is no associated clinical impact. In some cases no cause for aPTT idiopathic prolongation is identified. <br>Vitamin D intake does not affect aPTT.</body></html>"
+        },
+        {
+            "question":"Among the following sentences, which one(s) is/are correct?",
+            "statement": "In total knee replacement, prophylaxis of VTE is recommended. Recently, direct oral anticoagulants (DOAC) have been marketed. They may be used in this indication (according to local approval).",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"Dabigatran may induce dyspepsia",
+                    "correct":true
+                },
+                {
+                    "reponse":"Ecarin Chromogenic Assay is suitable for apixaban measurement",
+                    "correct":false
+                },
+                {
+                    "reponse":"Rivaroxaban never induces PT prolongation",
+                    "correct":false
+                },
+                {
+                    "reponse":"Dabigatran exhibits anti-Xa activity",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Dabigatran etexilate (PRADAXA®) is a prodrug administered by oral route. Active compound is dabigatran. Dabigatran etexilate formulation includes tartaric acid in order to improve bioavailability. Presence of this acid may induce indigestion, upset stomach, or burning stomach pain.<br><br> Ecarin chromogenic assay (STA®-ECA II) is derived from ecarin clotting time assay (ECT). It is based on the use of a snake venom allowing the measurement of thrombin direct inhibition (factor IIa). <br><br>Apixaban (ELIQUIS®) is an orally active direct factor Xa specific inhibitor. It has no effect on thrombin. Consequently ecarin chromogenic assay is not designed for apixaban measurement. <br><br>Rivaroxaban (XARELTO®) is a direct factor Xa specific inhibitor. It prolongs PT to a certain extent depending on reagent sensitivity and rivaroxaban plasma concentration. Variability in PT sensitivity is not improved if PT results are expressed in INR (INR is theoretically dedicated to results for VKA-treated patients). In addition, PT has a limited sensitivity to low rivaroxaban concentration. Finally PT prolongation is not specific for rivaroxaban treatment<br>Consequently, although rivaroxaban prolongs PT, the use of PT is not recommended for the measurement of its plasmatic level. <br><br>As explained above, dabigatran exhibits factor IIa inhibition, and not factor Xa inhibition.</body></html>"
+        },
+        {
+            "question":"Among the following sentences, which one(s) is/are correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"In the absence of thromboprophylaxis, asymptomatic VTE complication rate is about 15%",
+                    "correct":true
+                },
+                {
+                    "reponse":"Heparin-induced thrombocytopenia type II (HIT) is a rare but life threatening complication of heparin treatment in major orthopaedic surgery",
+                    "correct":false
+                },
+                {
+                    "reponse":"Thrombophilia work-up is mandatory before major orthopaedic surgery",
+                    "correct":true
+                },
+                {
+                    "reponse":"D-dimer level is usually high after total knee replacement",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><h2>A/ In the absence of thromboprophylaxis, asymptomatic VTE complication rate is about 15% - FALSE</h2>VTE adverse events (DVT and PE) are frequent in the absence of prophylaxis in major orthopaedic surgery (total hip or knee replacement). Asymptomatic venographic DVT occurs in 40% to 60% of cases without prophylaxis, and symptomatic venous thromboembolism, including fatal PE in up to 5%. The use of an appropriate prophylaxis allows a significant reduction of these events. <h2>B/ Heparin-induced thrombocytopenia type II (HIT) is a rare but life threatening complication of heparin treatment in major orthopaedic surgery – TRUE</h2>Heparin-induced thrombocytopenia type II (HIT) is an immunoallergic reaction associated with a platelet count fall linked to IgG isotype antibodies directed against neo-complexes formed between heparin and platelet factor 4 (PF4). In some cases it can be complicated with an activation of coagulation leading to thrombotic and possibly life threatening manifestations. HIT is more frequent in patients receiving unfractionated heparin than in patients receiving low molecular weight heparin and is also more frequent in surgery patients than in medical patients.<h2>C/ Thrombophilia work-up is mandatory before major orthopaedic surgery – FALSE</h2>Patient's management is based on specific and standardised interviews allowing to detect personal and family bleeding or thrombosis history. If no information indicates that any thrombotic risk is present, no laboratory thrombotic risk factor assessment is usually performed.<h2>D/ D-dimer level is usually high after total knee replacement – TRUE</h2>D-dimer is a fibrin-specific degradation product. D-dimer level is increased in some pathophysiological situations such as e.g. inflammation, pregnancy, cancer, DIC, in postsurgical period, severe infectious disease, and DVT and PE. For these reasons, predictive positive value is relatively low. In contrast, negative predictive value is high and allows, in combination with a pre-test clinical score (e.g. Wells score) to safely rule out VTE if D-dimer result is below cut-off level. <h3>References</h3><ul><li>Mueck W, Schwers S, Stampfuss J. Rivaroxaban and other novel oral anticoagulants: pharmacokinetics in healthy subjects, specific patient populations and relevance of coagulation monitoring. Thromb J 2013; 11: 10.</li><li>Bjornara BT, Gudmundsen TE, Dahl OE. Frequency and timing of clinical venous thromboembolism after major joint surgery. J Bone Joint Surg Br 2006; 88: 386-91.</li></ul></body></html>"
+        }
+    ]
+}
+
+

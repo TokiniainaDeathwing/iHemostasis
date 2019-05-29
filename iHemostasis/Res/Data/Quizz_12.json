@@ -1,0 +1,133 @@
+
+{
+    "q&r": [
+        {
+            "question":"Aside the common laboratory routine presurgery workup (prothrombin time (PT), activated partial thromboplastin time (aPTT), fibrinogen), how do you manage preoperative bleeding risk assessment?",
+            "statement": "Mr. M., 67-year old, is dispatched to the hospital emergency room for acute abdominal pain. Acute appendicitis is suspected. A pre-surgery workup is prescribed.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Go for a standardised questionnaire regarding the patient and family medical history",
+                    "correct":true
+                },
+                {
+                    "reponse":"Perform lipid checkup",
+                    "correct":false
+                },
+                {
+                    "reponse":"Check vaccination record",
+                    "correct":false
+                },
+                {
+                    "reponse":"Perform clinical examination",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">There are three stages for presurgery screening: patient interview, clinical examination and laboratory tests.<br><br>Patient interview is a key stage since it allows detection of any haemorrhagic tendencies, whether associated with a primary haemostasis disorder or with a coagulation disorder. Use of standardised questionnaires ensures better quality of the information obtained and of the interpretation of this information. Especially, current medication can be evidenced by this questionnaire.<br>In children, whose personal history may be less informative, a specially adapted questionnaire addressing familial history may be more effective. It must nevertheless be borne in mind that rare haemorrhagic diseases can result from recessive transmission and that the child's personal and familial history may thus provide little or no information.<br>Clinical examination supplements questioning and in particular may reveal cutaneous and mucosal haemorrhagic signs.<br><br> Neither lipid checkup nor vaccination record bring any relevant information regarding the bleeding risk.</body></html>"
+        },
+        {
+            "question":"In a patient with normal PT and aPTT what are the potential bleeding risk factors for emergency surgery?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Factor XIII defect",
+                    "correct":true
+                },
+                {
+                    "reponse":"Fondaparinux (Arixtra®) treatment",
+                    "correct":true
+                },
+                {
+                    "reponse":"Stabilised vitamin K antagonist treatment",
+                    "correct":false
+                },
+                {
+                    "reponse":"Protein S defect",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Normal PT and aPTT usually indicate normal coagulation. However, PT and aPTT can be normal in conditions such as mild deficiency in coagulation factor(s) and mild form of von Willebrand disease, as well as factor XIII deficiency.<br>In addition, because of their limited impact on routine coagulation assays, anticoagulant agents such as dabigatran, rivaroxaban, apixaban, edoxaban, fondaparinux and low molecular weight heparins (LMWH) may complicate the interpretation of coagulation tests. The impact of the drugs depends on the drug concentration as well as the reagent sensitivity; PT and aPTT may not be affected or are minimally affected even by therapeutic drug levels. Noteworthy, PT and aPTT results cannot be used for drug level monitoring. As a consequence, a potential bleeding risk can be missed in patients receiving such therapy, when relying only on PT and aPTT tests. Tests results must be consolidated with the clinical information, especially by retrieving any current anticoagulant treatment.<br><br>In patients with stabilised vitamin K antagonist (VKA) treatment, the INR target is above 2 whatever the indication. Such INR is associated with a prolonged PT and therefore, a normal PT can rule out safely an ongoing stabilised VKA treatment.<br><br>Protein S defect is a thrombophilia risk factor and is not associated with a bleeding risk. Furthermore, Protein S defect has no impact on PT and aPTT.</body></html>"
+        },
+        {
+            "question":"The questionnaire shows that the patient recently experienced acute deep vein thrombosis and is currently treated with subcutaneous injections of fondaparinux 7.5 mg once a day. What are the main characteristics of fondaparinux?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Indirect anticoagulant (antithrombin dependant anticoagulant)",
+                    "correct":true
+                },
+                {
+                    "reponse":"Both oral and parenteral routes of administration are possible",
+                    "correct":false
+                },
+                {
+                    "reponse":"No specific antidote is available",
+                    "correct":true
+                },
+                {
+                    "reponse":"Fondaparinux is a mixture of heterogeneous glycosaminoglycans",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Fondaparinux, a synthetic pentasaccharide anticoagulant, selectively binds to antithrombin, catalysing the inhibition of activated factor X (factor Xa).<br>Its structure is the copy of the heparin pentasaccharide sequence, the shortest chain required for antithrombin inhibition of factor Xa without anti-IIa action.<br><br>Fondaparinux as other heparin derivatives has limited absorption by the oral route. Therefore, the parenteral route is the approved route of administration.<br><br>There is no specific antidote for fondaparinux. An in vivo protamine sulfate reversing action had not been demonstrated in human. Some antidotes currently developed for DOAC might be used in the future for fondaparinux; this option has to be confirmed by future clinical studies.<br><br>In contrast to unfractionated heparin (UFH) and LMWH that are heterogeneous compounds extracted from animal organs, fondaparinux is a single chemical entity, a copy of the antithrombin binding sequence of heparin obtained by total chemical synthesis.</body></html>"
+        },
+        {
+            "question":"Which assay will you perform if you had to monitor fondaparinux therapy?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"Thrombin time assay",
+                    "correct":false
+                },
+                {
+                    "reponse":"PT",
+                    "correct":false
+                },
+                {
+                    "reponse":"Anti-Xa activity assay",
+                    "correct":true
+                },
+                {
+                    "reponse":"aPTT",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">As a specific factor Xa inhibitor, fondaparinux does not prolong thrombin time. Therefore, thrombin time cannot be used to monitor fondaparinux therapy.<br>Fondaparinux hardly affect PT and aPTT, and this depends on both plasma concentration and reagent sensitivity. Neither PT nor aPTT results can be used for drug level monitoring or standardised across different laboratories for such application.<br><br>However, since no chemical method to determine the concentration of fondaparinux is currently available, the anti-Xa activity is employed to monitor the drug. Whereas LMWH dosages are expressed in anti-Xa units, dosages of fondaparinux, a pure compound, must be expressed in gravimetric units (µg/mL) to allow clinical interpretation of results versus pharmacological data available in the drug package insert.</body></html>"
+        },
+        {
+            "question":"Among the following statements, which one(s) is (are) correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"Anti-Xa activity peak is reached 12 hours after once a day subcutaneous injection of fondaparinux",
+                    "correct":false
+                },
+                {
+                    "reponse":"Severe renal insufficiency (creatinine clearance < 30 ml/min) is not a contraindication to fondaparinux therapy",
+                    "correct":false
+                },
+                {
+                    "reponse":"Heparin-induced thrombocytopenia (HIT) is a common adverse effect of fondaparinux therapy",
+                    "correct":false
+                },
+                {
+                    "reponse":"A specific test setup is necessary for an accurate measurement of fondaparinux anti-Xa activity",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><h2>A/ Anti-Xa activity peak is reached 12 hours after once a day subcutaneous injection of fondaparinux – FALSE</h2>Fondaparinux is absorbed rapidly and completely following subcutaneous administration; maximum plasma anti-Xa activity is reached at 1.7 hours. Due to the long half-life of the drug, a steady state concentration of the drug is reached only 2 or 3 days after first administration. <h2>B/ Severe renal insufficiency (creatinine clearance < 30 ml/min) is not a contraindication to fondaparinux therapy - FALSE</h2>Fondaparinux is fully excreted unchanged in the urine. Therefore any renal function deterioration impacts drug elimination. Consequently, fondaparinux should be used with caution in patients with reduced creatinine clearance and fondaparinux is contraindicated in patients with severe renal insufficiency (creatinine clearance < 30 ml/min).<h2>C/ Heparin-induced thrombocytopenia (HIT) is a common adverse effect of fondaparinux therapy- FALSE</h2>HIT is a severe complication of heparin therapy with potentially devastating or fatal consequences. Fondaparinux does not interact with platelet factor 4 in vitro, suggesting that it is unlikely to cause HIT. The incidence of thrombocytopenia (platelet count < 100.109/L) with fondaparinux (2-4.9%) is similar to that with enoxaparin (3-5.3 %). Thrombocytopenia was not reported as a serious adverse event in any trial and only few sporadic cases of HIT have been reported so far in the literature.<h2>D/ A specific test setup is necessary for an accurate measurement of fondaparinux anti-Xa activity - TRUE</h2>When laboratory uses fondaparinux to form the standard curve to measure fondaparinux levels with anti-Xa assay, results reported as gravimetric units (µg/mL) are impressively accurate, confirming that this is the preferred method for fondaparinux measurement. Results obtained using a LMWH standard curve are less accurate whereas results obtained using a UHF standard curve are inaccurate and should not be used for reporting of fondaparinux levels. <h2>References</h2><ul><li>Reverter J.C. Fondaparinux sodium. Drugs today 2002; 38: 185-94.</li><li>Petitou M, Gueret P. Fondaparinux. In: Practical Manual, Parenteral Anticoagulants. Stago Practical Manual series, Barcelona: Ambos; 2016. p. 81-92. ISBN: 978-84-944082-6-7. Stago reference: 29678</li></ul></body></html>"
+        }
+    ]
+}
+
+
+

@@ -1,0 +1,153 @@
+
+{
+    "q&r": [
+        {
+            "question":"The results show PT and aPTT prolongations. What are the possible diagnosis hypothesis?",
+            "statement": "Mrs W., 83-year old, is admitted to the emergency room after a road accident around 9:00 am.A femoral condyle fracture is diagnosed and urgent surgery is decided.\n\nA blood sample is drawn around 10:30 am to perform a presurgery workup.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Lupus anticoagulant",
+                    "correct":false
+                },
+                {
+                    "reponse":"Factor V deficiency",
+                    "correct":true
+                },
+                {
+                    "reponse":"Antithrombin deficiency",
+                    "correct":false
+                },
+                {
+                    "reponse":"Direct oral anticoagulant (DOAC) treatment",
+                    "correct":true
+                },
+                {
+                    "reponse":"Antiplatelet therapy",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">PT and aPTT are global tests that explore extrinsic and intrinsic pathways respectively, as well is plasma coagulation common pathway.<br><br>Concomitant PT and aPTT prolongation can be observed in case of common pathway factor deficiency, i.e., factor X, factor V, factor II, and fibrinogen deficiency.<br><br>PT and aPTT reagents are variably sensitive to lupus anticoagulant (LA); discrepant PT and aPTT prolongations can be observed, PT being generally less sensitive to LA than aPTT. <br><br>Direct oral anticoagulant drugs, dabigatran etexilate (PRADAXA®), rivaroxaban (XARELTO®), apixaban (ELIQUIS®) and edoxaban (LYXIANA®/SAVAYSA®) may induce PT and aPTT prolongation. However, impact depends on reagent, type of drug, and drug plasma concentration.<br><br>PT and aPTT are not sensitive to antithrombin deficiency nor to antiplatelet therapy.</body></html>"
+        },
+        {
+            "question":"Among the following statements, which one(s) is (are) correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"PT is always prolonged in case of DOAC treatment",
+                    "correct":false
+                },
+                {
+                    "reponse":"aPTT may be used to measure the DOAC level",
+                    "correct":false
+                },
+                {
+                    "reponse":"The DOAC always prolongs the thrombin time",
+                    "correct":false
+                },
+                {
+                    "reponse":"DOAC targets are factor IIa or factor Xa",
+                    "correct":true
+                },
+                {
+                    "reponse":"Clotting fibrinogen assays (Clauss method) are not affected by DOAC",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">DOAC specifically and directly (i.e., independently from antithrombin) inhibit one single coagulation factor: factor Xa for rivaroxaban (XARELTO®), apixaban (ELIQUIS®) and edoxaban (LYXIANA®/SAVAYSA®) and factor IIa (or thrombin) for dabigatran (PRADAXA®). In contrast to Vitamin K Antogonists (VKA), DOAC have an immediate onset of action. <br><br>As explained above (cf Question 1), DOAC can prolong PT and aPTT. However, this action depends on the type of drug, its circulating concentration, and the reagent.<br>Rivaroxaban and edoxaban significantly prolong PT, whereas apixaban exhibits a much more limited action. This difference can be even more pronounced according to reagent sensitivity. As a consequence, PT is not always prolonged in case of DOAC therapy and a normal PT does not necessarily rule out the presence of drug on board, even at therapeutic or supratherapeutic plasma concentrations. <br><br>The aPTT assay is generally moderately prolonged, and dose-response can be curvilinear. In addition, aPTT is not specific for DOAC. Its use to assess DOAC plasma concentration could be misleading with a risk of over- or underestimation. aPTT should therefore not be used for DOAC plasma concentration measurement. <br><br>Among DOAC, those which specifically inhibit factor Xa have no impact on thrombin time. On the opposite, dabigatran specifically inhibits thrombin and thrombin time is highly sensitive to this drug. <br><br>Clotting assays used for fibrinogen measurement (Clauss method) are based on fibrinogen conversion into fibrin by exogenous thrombin present in the reagent. In case of dabigatran etexilate therapy (PRADAXA®), the assay can be impacted depending on the amount of drug present in the plasma sample and depending on the reagent thrombin content: underestimation of fibrinogen concentration can be observed.</body></html>"
+        },
+        {
+            "question":"The investigation indicates that the patient is on rivaroxaban therapy for stroke prevention in non-valvular atrial fibrillation (SPAF). Her last dose was during breakfast around 8h00 am. Among the following statements, which one(s) is (are) correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Rivaroxaban dose regimen in SPAF is once a day",
+                    "correct":true
+                },
+                {
+                    "reponse":"Rivaroxaban peak level is 12 hours after drug intake",
+                    "correct":false
+                },
+                {
+                    "reponse":"DOAC may interfere with thrombophilia workup clotting assays",
+                    "correct":true
+                },
+                {
+                    "reponse":"DOAC may interfere with thrombophilia workup chromogenic assays",
+                    "correct":true
+                },
+                {
+                    "reponse":"DOAC may interfere with clotting coagulation factor assays",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Stroke prevention in non-valvular atrial fibrillation (SPAF) is a major indication for DOAC. Dose regimen varies according to the drug and indication for treatment, as displayed in Table 1 for a patient with normal renal function. Dose adjustment can be recommended in case of renal impairment (please refer to drug label).<br><br><table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;mso-table-layout-alt:fixed;border:none;mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'><tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:17.8pt'><td width=435 colspan=2 style='width:434.6pt;border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;background:#D9D9D9;mso-background-themecolor:background1;mso-background-themeshade:217;padding:0cm 5.4pt 0cm 5.4pt;height:17.8pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span class=SpellE><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\"; mso-bidi-theme-font:minor-bidi'>Dabigatran</span></span><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'> <span class=SpellE>etexilate</span> (PRADAXA<sup>&reg;</sup>)<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:1;height:25.8pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:25.8pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>SPAF and systemic embolism prevention<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:25.8pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>150 mg bid<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:2;height:37.1pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:37.1pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE prophylaxis in major orthopedic surgery<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:37.1pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>220 mg od<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:3;height:37.15pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:37.15pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE treatment and prevention of recurrence<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:37.15pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>150 mg bid following parenteral anticoagulant treatment for at least 5 days<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:4;height:21.4pt'> <td width=435 colspan=2 style='width:434.6pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;background:#D9D9D9;mso-background-themecolor:background1; mso-background-themeshade:217;padding:0cm 5.4pt 0cm 5.4pt;height:21.4pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span class=SpellE><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\"; mso-bidi-theme-font:minor-bidi'>Rivaroxaban</span></span><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'> (XARELTO<sup>&reg;</sup>)<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:5;height:22.3pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.3pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>SPAF and systemic embolism prevention<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:22.3pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>20 mg od<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:6;height:34.7pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:34.7pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE prophylaxis in major orthopedic surgery<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:34.7pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>10 mg od<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:7;height:35.2pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:35.2pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE treatment and prevention of recurrence<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:35.2pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>15 mg bid for the 3 first weeks of treatment, and then 20 mg od<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:8;height:56.0pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:56.0pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>Prevention of <span class=SpellE>atherothrombotic</span> events in adult patients after an acute coronary syndrome (in Europe)<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:56.0pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>2.5 mg bid<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:9;height:21.45pt'> <td width=435 colspan=2 style='width:434.6pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;background:#D9D9D9;mso-background-themecolor:background1; mso-background-themeshade:217;padding:0cm 5.4pt 0cm 5.4pt;height:21.45pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span class=SpellE><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\"; mso-bidi-theme-font:minor-bidi'>Apixaban</span></span><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'> (ELIQUIS<sup>&reg;</sup>)<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:10;height:20.55pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:20.55pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>SPAF and systemic embolism prevention<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:20.55pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>5 mg bid<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:11;height:35.0pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:35.0pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE prophylaxis in major orthopedic surgery<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:35.0pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>2.5 mg bid<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:12;height:34.8pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:34.8pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE treatment and prevention of recurrence<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:34.8pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>10 mg bid for the 7 first days of treatment, and then 5 mg bid<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:13;height:21.05pt'> <td width=435 colspan=2 style='width:434.6pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;background:#D9D9D9;mso-background-themecolor:background1; mso-background-themeshade:217;padding:0cm 5.4pt 0cm 5.4pt;height:21.05pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span class=SpellE><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\"; mso-bidi-theme-font:minor-bidi'>Edoxaban</span></span><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'> (LYXIANA<sup>&reg;</sup>/SAVAYSA<sup>&reg;</sup>)<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:14;height:20.7pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:20.7pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>SPAF and systemic embolism prevention<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:20.7pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>60 mg od<o:p></o:p></span></p></td></tr><tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes;height:34.5pt'> <td width=217 style='width:217.3pt;border:solid windowtext 1.0pt; border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt: solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:34.5pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>VTE treatment and prevention of recurrence<o:p></o:p></span></p></td><td width=217 style='width:217.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt; mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt; height:34.5pt'> <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom: .0001pt;text-align:center;line-height:normal'><span lang=EN-US style='font-family:Arial;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font: minor-bidi'>60 mg od following parenteral anticoagulant treatment for at least 5 days<o:p></o:p></span></p></td></tr></table> <h2>Table 1. Posology, according to drugs and therapeutic indications</h2>(Provided for convenience - Do not use for patient's management - Please refer to respective drug package inserts).<br><br>DOAC have a rapid onset of action: peak is reached within two to three hours after drug intake. <br><br>DOAC can interfere in clotting assays, including those used for thrombophilia screening: indeed, these assays are based on the assessment of the inhibitory effect of protein C or protein S on a clotting assay that may be sensitive to the presence of a DOAC.<br><br>Similarly, according to ISTH recommendation, LA screening and confirmation tests, which are based on an aPTT assay, and a dilute Russell Viper-Venom Time (dRVVT), can be modified in the presence of a DOAC. <br><br>Chromogenic assays are based on the measurement of an enzymatic activity on a chromogenic substrate. For this reason, all chromogenic assays based on the assessment of either thrombin or factor Xa are impaired by the presence of a drug that specifically inhibits one or the other factor. <br><br>One-stage clotting factor assays are based on the PT or an aPTT. As a consequence, and even if the plasma sample is diluted, underestimation of factor activity can be observed</body></html>"
+        },
+        {
+            "question":"The laboratory wants to measure the rivaroxaban plasma concentration. Among the following tests, which is the most relevant?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":false,
+            "responses":[
+                {
+                    "reponse":"PT",
+                    "correct":false
+                },
+                {
+                    "reponse":"Thrombin time",
+                    "correct":false
+                },
+                {
+                    "reponse":"Anti Xa activity",
+                    "correct":true
+                },
+                {
+                    "reponse":"Reptilase time",
+                    "correct":false
+                },
+                {
+                    "reponse":"Ecarin chromogenic assay (STA®-ECA II)",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Rivaroxaban prolongs PT in a dose-dependent manner. However PT prolongation varies according to reagent sensitivity. To date there is no standardization of PT results across reagents, no matter how the PT result is reported (clotting time, ratio to MNPT, percentage of activity, INR). In addition, the PT is not specific for DOAC and there may be other possible reasons for PT prolongation. Furthermore, PT has a limited sensitivity to low rivaroxaban plasma concentrations even to therapeutic concentrations. For all these reasons, it is not recommended to use PT for drug concentration measurement.<br><br>Rivaroxaban inhibits directly and specifically factor Xa. It therefore has no impact on thrombin time, reptilase time, and ecarin chromogenic assay. All those assays are based on the detection of an inhibitory effect directed against thrombin, the target of dabigatran.<br><br>In contrast, anti-Xa activity measurement is suitable for the measurement of rivaroxaban plasma concentration, provided an appropriate test set-up is used along with dedicated calibrators and controls. Unlike heparin, results are expressed in gravimetric units (ng/mL) and not in IU/mL.</body></html>"
+        },
+        {
+            "question":"In which clinical(s) context(s), could a DOAC measurement be requested?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Drug dose adjustment",
+                    "correct":false
+                },
+                {
+                    "reponse":"Unexplained bleeding",
+                    "correct":true
+                },
+                {
+                    "reponse":"Before invasive surgery",
+                    "correct":true
+                },
+                {
+                    "reponse":"Before treatment initiation",
+                    "correct":false
+                },
+                {
+                    "reponse":"Overdose suspicion",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">DOAC have been approved and launched without routine laboratory monitoring of their anticoagulant activity.<br>However, experts agree on the fact that a test that allows drug quantification can be of help in the following circumstances: <ul><li>Unexplained bleeding manifestations, </li><li>Before surgery or invasive procedure to verify that the drug has not been taken in the previous 24 hours (or more in case of creatinine clearance below 50 mL/min),</li><li>For detection of sub- or supratherapeutic drug concentration in patients receiving co-medications that may interfere with DOAC pharmacokinetics,</li><li>For detection of sub- or supratherapeutic drug concentration in extreme body weight patients,</li><li>Patients with impaired renal function,</li><li>Per-surgery situations management,</li><li>Anticoagulation reversal, </li><li>Suspicion of overdose,</li><li>Check of treatment adherence in patients experiencing a thromboembolic event during treatment.</li></ul>To date, test result should never be used for dose adjustment.<br>On the other hand, it is useless to measure drug concentration before treatment initiation, because tests are specific compared to aPTT for heparin treatment management.<br><ul><li>Broussalis E, Wallner A, Trinka E et al. Latest developments in anticoagulant drug discovery. Drug Discov Today 2014; 19: 921-35.</li><li>Fenger-Eriksen C, Münster AM, Grove EL. New oral anticoagulants: clinical indications, monitoring and treatment of acute bleeding complications. Acta Anaesthesiol Scand 2014; 58: 651–9.</li></ul></body></html>"
+        }
+    ]
+}
+
+
+

@@ -151,7 +151,15 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         // Setup animation slider
         self.setupTimelineSlider()
-        
+//        var sW = CGFloat(1024)
+//        var h = CGFloat(648)
+//        if(sW < UIScreen.main.bounds.width){
+//            h = h + UIScreen.main.bounds.width - sW
+//            sW = UIScreen.main.bounds.width
+//        }
+//        
+//        self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+//        scene.frame = CGRect(0 ,0 , sW, h)
         self.sceneView!.frame = CGRect(0, 0, 1024, 648)
         scene.frame = CGRect(x: 0, y: 0, width: 1024, height: 648)
         sceneView!.addSubview(scene)
@@ -536,7 +544,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         }
     }
     
-    @IBAction func handlePan(recognizer:UIPanGestureRecognizer) {
+    @IBAction func handlePan(_ recognizer: UIPanGestureRecognizer) {
         var _x: CGFloat
         var _y: CGFloat
         if currentZoom >= 2.0 {
@@ -567,7 +575,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 
                 
                 view.center = CGPoint(x:view.center.x + _x,
-                    y:view.center.y + _y)
+                                      y:view.center.y + _y)
             }
             recognizer.setTranslation(CGPoint(0,0), in: self.sceneView)
         }

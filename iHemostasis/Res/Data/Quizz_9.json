@@ -1,0 +1,131 @@
+{
+    "q&r": [
+        {
+            "question":"According to the clinical context, which tests mentioned in the following list are relevant?",
+            "statement": "Blood samples have been collected from Mr. S., 35-year old, at the Health Centre for a haemostasis preoperative workup and a total blood count. Samples were prepared for shipping to the reference lab. Mr. S. reports a bleeding tendency in his maternal grandmother.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Prothrombin Time",
+                    "correct":true
+                },
+                {
+                    "reponse":"Plasminogen assay",
+                    "correct":false
+                },
+                {
+                    "reponse":"aPTT",
+                    "correct":true
+                },
+                {
+                    "reponse":"Fibrinogen assay",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Presurgery screening is clearly relevant because of the family history (bleeding tendency in his maternal grandmother). Standard workup includes prothrombin time (PT), activated partial thromboplastin time (aPTT) and fibrinogen assays.Indeed, this tests combination allows the detection of the main coagulation factor defects.<br><br>On the opposite, Plasminogen assay remains an esoteric assay for the evaluation of the fibrinolytic pathway. Ligneous conjunctivitis is a most recognizable, well documented and common presentation of the clinical syndromes associated with plasminogen deficiency.<br><br>Plasminogen assay is not part of the presurgery workup, and so is not relevant in this context.</body></html>"
+        },
+        {
+            "question":"The patient’s results are as follow. According to these results, which additional testing would you perform?",
+            "statement": "LABORATORY RESULTS\n\nRoutine test results are as follows:\n\nPT (STA® Neoplastin® CI Plus):\n  - 24.3 s (control 13.2 s)\n  - 56%\n  - PT ratio : 1.84\n\nAPTT (STA® PTT Automate®)\n  - 71 s (control : 31 s)\n  - aPTT ratio : 2.29\n\nFibrinogen (STA® Fibrinogen): 3.84 g/L",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Mixing study (aPTT)",
+                    "correct":true
+                },
+                {
+                    "reponse":"Intrinsic pathway factor assays",
+                    "correct":true
+                },
+                {
+                    "reponse":"Extrinsic and common pathway factor assays",
+                    "correct":true
+                },
+                {
+                    "reponse":"Protein S assay",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">As recommended when PT and aPTT are simultaneously prolonged, a mixing study has to be performed. To perform this assay, test sample has to be mixed 1:1 with pooled normal plasma (PNP) and assayed without incubation within 30 minutes. The classical presentation of LA is that the mixing test does not correct the prolonged clotting time due to the inhibitory nature of LA. In contrast, if the mixing test shows correction, then the probability is high that a factor deficiency is present.<br><br>The interpretation of the mixing test result is based on the calculation of the Rosner index or Index of Circulating Anticoagulant (ICA) according to the following formula:<br><br><div style=\"text-align: center;\"><p>aPTT Mixture(seconds) – aPTT PNP(seconds)</p><p>ICA=------------------------------------------------------- x 100</p><p>aPTT Patient(seconds)<p></div>The recent CLSI guideline indicates that the PNP aPTT results can be replaced by the mean of the reference interval.<br>An ICA below 12% is likely to be associated with a factor deficiency whereas an ICA > 15% indicates the presence of an inhibitory effect. An ICA between 12 and 15% in not conclusive.<br><br>Considering a preoperative workup in order to detect a potential coagulation factor defect, it is logical to perform individual factor measurement for the factors that may affect the corresponding test. In this case, as both PT and aPTT are prolonged, intrinsic and extrinsic coagulation pathway factors have to be measured.<br><br>Protein S measurement is part of thrombophilia screening. In the context of a bleeding disorder, this test is not indicated.</body></html>"
+        },
+        {
+            "question":"Which diagnosis hypothesis seem to be likely?",
+            "statement": "LABORATORY RESULTS\nAPTT mixing study (STA® PTT Automate®)\n  - Patient: 71 s (control : 31 s)\n  - Patient + pooled normal plasma (1/1): 38 s\n  - ICA: 10 %\n\nExtrinsic pathway\nFII (STA®-ImmunoDef II): 102%\nFV (STA®-Deficient V): 40%\nFVII (STA®-Deficient VII) 88% \nFX (STA®-Deficient X): 94%\n\nIntrinsic pathway\nFVIII (STA®-ImmunoDef VIII): 4%\nFIX (STA®-ImmunoDef IX): 94%\nFXI(STA®-ImmunoDef XI): 104%\nFXII (STA®-ImmunoDef IE): 87%",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Hypovitaminosis K",
+                    "correct":false
+                },
+                {
+                    "reponse":"Preanalytical issues",
+                    "correct":true
+                },
+                {
+                    "reponse":"Combined Factor VIII and V defects",
+                    "correct":true
+                },
+                {
+                    "reponse":"Haemophilia B",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">As written in the previous section, a simultaneous prolongation of PT and aPTT can be explained, either by a defect affecting the common pathway, or by a combined deficiency, either inherited or acquired, of several coagulation factors. In the absence of an anticoagulant treatment, a combined defect is rarely observed. However, a combined Factor VIII + V deficiency can be observed (prevalence 1/1 000 000). In the present case, this hypothesis is valid.<br><br>On the opposite, normal Factor V and Factor IX levels allow to exclude any vitamin K defect or vitamin K antagonist treatment. Indeed, as Factor VII has the shortest half-life among vitamin K dependent factors, any vitamin K absorption defect or initiation of a VKA treatment would result in a decreased Factor VII level. This hypothesis can therefore be ruled out. <br><br>Haemophilia B is defined as an inherited Factor IX defect. As indicated, Factor IX level is normal in this patient; this hypothesis should also be ruled out. <br><br>Preanalytical conditions are of special importance in haemostasis. Preanalytical issues must always be considered in case of unexpected results. Preanalytics includes different steps such as blood draw, sample identification, blood collection devices, transport, and storage. <br><br>Failure in one of those steps may result in sample alteration that may impact test results. It is therefore of importance to pay attention on each of those. <br><br>As a consequence, this hypothesis must be considered.</body></html>"
+        },
+        {
+            "question":"As a general rule, which additional action are to be considered to rule out a preanalytical issue?",
+            "statement": "Following these pathological results, Mr S. comes back for a new sample collection. Results yielded normal. Further investigations in the Health Center reveal that identification of the citrate and EDTA tubes were interverted.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Thrombin time assay",
+                    "correct":true
+                },
+                {
+                    "reponse":"Calcium assay",
+                    "correct":true
+                },
+                {
+                    "reponse":"Anti-Xa activity assay",
+                    "correct":true
+                },
+                {
+                    "reponse":"New sample collection",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">Beside tubes that contain sodium citrate dedicated to coagulation assays, there are tubes containing unfractionated heparin, EDTA (Ethylenediaminetetraacetic acid) or dry tubes including or not a coagulation activator, mainly used for, respectively biochemistry, complete blood count and immuno-serology assays.<br><br>Other anticoagulant than sodium citrate may interfere with coagulation assays. <br><br>Unfractionated heparin, because of its binding to antithrombin, induces a prolongation of thrombin time, aPTT and PT (provided heparin concentrations overcome reagent inhibitory capabilities). <br><br>On the other hand, EDTA irreversibly binds all the calcium present in the plasma sample and interferes with the calcium added in the assay. <br><br>Finally, blood collection in a dry tube leads to coagulation activation and results in a clot and serum which is lacking Fibrinogen. <br><br>Thrombin time measurement allows if normal to exclude heparin presence that would be a consequence of a tube mistake; this also allows to evidence an unreported ongoing treatment with heparin or any other anti-IIa drug (e.g. dabigatran). <br><br>Blood collection using an EDTA tube is characterized by an undetectable calcium level by routine biochemistry methods. Calcium measurement allows to demonstrate the presence of EDTA in the plasma sample. Additionally, potassium measurement confirms, if highly elevated (>10 mmol/L), the presence of EDTA. <br><br>Anti-Xa activity assay allows detection of unfractionated heparin; it also provides evidence of an unreported ongoing heparin or any other anti-Xa treatment (e.g. fondaparinux, rivaroxaban, …).<br><br>In practice, to ensure sample integrity in front of unexpected results, it is usually recommended to repeat blood collection rather than performing additional testing as mentioned above.</body></html>"
+        },
+        {
+            "question":"Among the following statements, which one(s) is (are) correct?",
+            "statement": "Following these pathological results, Mr S. comes back for a new sample collection. Results yielded normal. Further investigations in the Health Center reveal that identification of the citrate and EDTA tubes were interverted.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Tube filling has no impact on coagulation test results",
+                    "correct":false
+                },
+                {
+                    "reponse":"Homogenization of blood and anticoagulant immediately after sampling is crucial to ensure good quality results.",
+                    "correct":true
+                },
+                {
+                    "reponse":"Samples can be stored for at least one week at +4°C before performing additional coagulation testing.",
+                    "correct":false
+                },
+                {
+                    "reponse":"One should avoid to collect the coagulation sample after heparin or EDTA tubes.",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">For blood coagulation testing on plasma the ratio between collected blood and citrate included in the tube must be 9:1. Inadequate tube filling results in an inappropriate ratio that leads to erroneous results. For this reason, tubes filled with less than 90% of stated volume must be rejected.<br><br>Whatever the device used for blood collection samples must be immediately homogenized by 3 to 6 gentle inversions. <br><br>It is usually considered that blood samples are stable for 24h for PT measurement and for 8h for aPTT measurement, xcept for heparin monitoring (samples stability limited to 4h). Samples can therefore not be stored more than one week. In addition, storage in the fridge (2°C to 8°C) is not recommended because factor VII activation that can result in a shortened PT. <br><br>The following order of draw is recommended for both glass and plastic venous collection tubes when drawing multiple specimens for clinical laboratory testing during a single venipuncture. Its purpose is to avoid possible test result error due to additive carryover. All additive tubes should be filled to their stated volumes.<br><ul><li>Blood culture tube (or draining tube) </li><li>Coagulation tube (i.e. sodium citrate) </li><li>Serum tube with or without clot activator, with or without gel</li><li>Heparin tube with or without gel plasma separator</li><li>EDTA tube with or without gel separator</li><li>Glycolytic inhibitor</li></ul><h2>References</h2><ul><li>Eschwege V, Trillard M, Robert A. Overestimation of plasma level of factor V coagulant activity due to unrecognised preanalytical coagulation. Thromb Haemost. 2004; 91: 827-8.</li><li>Lippi G, Salvagno GL, Adcock DM, et al. Right or wrong sample received for coagulation testing? Tentative algorithms for detection of an incorrect type of sample. Int. Jnl. Lab. Hem. 2010, 32, 132–7. </li><li>Spreafico M, Peyvandi F. Combined Factor V and Factor VIII Deficiency. Semin Thromb Hemost 2009; 35: 390–9. </li><li>Lima-Oliveira G, Salvagno GL, Danese E et al. Sodium citrate blood contamination by K2-ethylenediaminetetraacetic acid (EDTA): impact on routine coagulation testing. Int J Lab Hematol 2015; 37: 403–9. </li><li>Organization WH, others.</li></ul><h4>Use of anticoagulants in diagnostic laboratory investigations.</h4>2002 [accessed 2017 May 04]; Available from: http://apps.who.int/iris/handle/10665/65957</body></html>"
+        }
+    ]
+}
+
+

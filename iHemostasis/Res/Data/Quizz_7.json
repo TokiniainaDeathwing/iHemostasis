@@ -1,0 +1,130 @@
+{
+    "q&r": [
+        {
+            "question":"Which coagulation assays should be used for monitoring low molecular weight heparin (LMWH)?",
+            "statement": "Paul, 14-month old, is referred to physician for recent bruising. They are localised to knee, ankle and elbow following repeated falls linked to his first steps.The physician requests a haemostasis work-up.",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"PT",
+                    "correct":true
+                },
+                {
+                    "reponse":"aPTT",
+                    "correct":true
+                },
+                {
+                    "reponse":"Lupus anticoagulant screening",
+                    "correct":false
+                },
+                {
+                    "reponse":"Antithrombin",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">In the course of haemorrhagic symptoms exploration, first line haemostasis workup includes PT and aPTT assays. Fibrinogen assay can complete this panel because of a possible slight defect in fibrinogen which could be missed using solely PT and aPTT assay. Some rare coagulation bleeding disorders may not be detected by this panel of assays, such as factor XIII defect. For those specific defects, specialised assays should be considered when the clinical context is suggestive and when first line screening yielded normal results.<br><br>When aPTT assay is prolonged, a mixing study should be performed in order to distinguish between a factor deficiency or an inhibitor (circulating antibody). It must nevertheless be borne in mind that the presence of a circulating antibody does not exclude a factor deficiency. <br><br>Lupus anticoagulants (LA) are circulating antibodies that are associated with an increased risk for thrombosis and pregnancy complications. LA however prolong coagulation time in vitro. This assay is not indicated in this clinical context. <br><br>Antithrombin deficiency is a risk factor for thrombosis. Its measurement is not indicated in such clinical context.</body></html>"
+        },
+        {
+            "question":"According to first line test results (PT / aPTT / Mixing study), which are the preferred tests to be performed in the following listing?",
+            "statement": "\n\nLABORATORY RESULTS\nRoutine test results are as follows:\n\nPT (STA® Neoplastin® CI Plus):\n    -    13.1 s (control 12.3 s)\n    -    94%\n    -    PT ratio : 1.04\naPTT (STA® PTT Automate®)\n    -    66 s (control : 32 s)\n    -    aPTT ratio : 2.06\naPTT mixing study (STA® PTT Automate®)\n    -    Patient: 66 s (control : 32 s)\n    -    Patient + normal pool plasma (1/1): 36 s\n    -    ICA: 6%",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Factor VII",
+                    "correct":false
+                },
+                {
+                    "reponse":"Factor VIII",
+                    "correct":true
+                },
+                {
+                    "reponse":"Factor IX",
+                    "correct":true
+                },
+                {
+                    "reponse":"Factor X",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\">In the present case, results (normal PT, isolated prolonged aPTT and corrected mixing study) indicate an intrinsic pathway factor deficiency (factors VIII, IX, XI and XII). It must be considered to perform as a first step measurement of factors VIII, IX, and XI. Factor XII measurement is also indicated as factor XII deficiency prolongs aPTT assay even if this defect is not associated with bleeding tendency.<br><br>Deficiency in factor VII and factor X translate into isolated PT prolongation. Such assays are thus not indicated in this context.</body></html>"
+        },
+        {
+            "question":"The first line testing results (normal PT, prolonged aPTT corrected by mixing study) lead to intrinsic pathway factor measurements that showed a factor IX level below 1%, other factor levels are normal. Among the following statements, which one(s) is (are) correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"The patient has haemophilia A",
+                    "correct":false
+                },
+                {
+                    "reponse":"According to the available information, the haemophilia is qualified as moderate",
+                    "correct":false
+                },
+                {
+                    "reponse":"A women can suffer from haemophilia",
+                    "correct":true
+                },
+                {
+                    "reponse":"Approximately one third of haemophilia cases are linked to spontaneous mutation (de novo)",
+                    "correct":true
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><h1>A.    The patient has haemophilia A – FALSE</h1>Results show a decreased factor IX, and other factors have normal value. These results are in favor of haemophilia B diagnosis.In contrast, haemophilia A is defined by an isolated and persistent defect in factor VIII.<br><br><h1>B.    According to the available information, the haemophilia is qualified as moderate - FALSE</h1><br>Haemophilia A and B classification is based on factor VIII and IX level, respectively. According to factor level, haemophilia is said to be mild, moderate, or severe. Clinical outcome is generally related to factor level (cf Table I in accordance with the latest ISTH recommendations).<br><table border=\"1\"><thead><tr><th>Severity</th><th>Clotting factor level</th><th>Bleeding episodes</th></tr></thead><tbody><tr><td>Mild</td><td>5 – 40% (5 – 40 UI/dL)</td><td>Severe bleeding with major trauma or surgery. Spontaneous bleeding is rare.</td></tr><tr><td>Moderate</td><td>1 – 5% ( 1 – 5 UI/dL)</td><td>Occasional spontaneous bleeding or bleeding with minor trauma and surgery.</td></tr><tr><td>Severe</td><td>< 1% (< 1 UI/dL)</td><td>Spontaneous bleeding into joints and muscles predominantly in the absence of identifiable haemostatic challenge.</td></tr></tbody></table><h3 style=\"text-decoration: underline;\">Table I: Relationship of bleeding severity to clotting factor levels</h3><h1>A.    A women can suffer from haemophilia - TRUE</h1>Haemophilia (A or B) is an X-linked recessive inherited disorder.Therefore women carrying the defect on one of their X chromosomes are called carriers. Presence of one normal gene compensates for the presence of the defect on the other gene, in variable extent. For this reason, factor VIII or IX levels can be normal or decreased in a carrier woman. A normal factor level shall therefore not exclude a haemophilia carrier.<br><br>In rare cases, women can have the defect on both genes or the normal gene does not compensate the defective one; these women will have haemophilia symptoms.<br><br>Most frequently, haemophilia affects males.<h1>B.    Approximately one third of haemophilia cases are linked to spontaneous mutation (de novo)</h1>Haemophilia has an estimated frequency of approximately 1 in 5,000 male births.<br><br>Estimations based on the World Federation of Hemophilia’s (WFH) annual global surveys indicate that the number of people with haemophilia in the world is approximately 400,000. Haemophilia A is more common than haemophilia B, representing 80 – 85% of the total haemophilia population.<br><br> A family history of bleeding is obtained in about two-thirds of all patients, whereas one third of cases appears in patients without family history and are thus considered as de novo cases.</body></html>"
+        },
+        {
+            "question":"In which clinical situations mentioned hereafter can we observe low factor IX?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"Hypovitaminosis K",
+                    "correct":true
+                },
+                {
+                    "reponse":"Liver insufficiency",
+                    "correct":true
+                },
+                {
+                    "reponse":"Inflammatory syndrome",
+                    "correct":false
+                },
+                {
+                    "reponse":"Pregnancy",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><h1>A/ Hypovitaminosis K - TRUE</h1>Factor IX synthesis requires for its final step (gamma carboxylation) the presence of vitamin K. Factor IX levels are therefore low in case of vitamin K deficiency, but also in case of vitamin K antagonist (VKA) treatment. In case of vitamin K deficiency or VKA treatment, vitamin K-dependent factor levels (factors II, VII, IX, and X) are decreased.<br><br><h1>B/ Liver insufficiency - TRUE</h1>As factor IX is synthesised by the liver, factor IX level is decreased in the case of liver insufficiency.<br><br><h1>C/ Inflammatory syndrome – FALSE</h1>Increased factor VIII, VWF and fibrinogen levels can be observed in inflammatory syndromes. However, inflammatory syndromes have no significant effect on factor IX level.<br><br><h1>D/ Pregnancy – FALSE</h1>Factor IX levels are not decreased during pregnancy. Increased factor IX levels have conversely been described during pregnancy.</body></html>"
+        },
+        {
+            "question":"Among the following statements, which one(s) is (are) correct?",
+            "statement": "",
+            "information":"",
+            "multiple_choises":true,
+            "responses":[
+                {
+                    "reponse":"A sudden low factor IX level can be observed whereas previously normal (except in case of vitamin K deficiency, VKA treatment, or liver insufficiency)",
+                    "correct":true
+                },
+                {
+                    "reponse":"Rivaroxaban intake can interfere in factor IX clotting assay",
+                    "correct":true
+                },
+                {
+                    "reponse":"Lupus anticoagulant do not interfere in factor IX clotting assay",
+                    "correct":false
+                },
+                {
+                    "reponse":"About 20% of haemophiliac patients suffer from haemophilia A",
+                    "correct":false
+                }
+            ],
+            "explanation":"<html><body style=\"font-family: helvetica, verdana, sans-serif;font-size:13px; margin-left:0px;\"><h1>A/ A sudden low factor IX level can be observed whereas previously normal (except in case of vitamin K deficiency, VKA treatment, or liver insufficiency) – TRUE</h1>Except during pregnancy where increased factor IX levels can be observed, and except in case of vitamin K deficiency, VKA treatment or liver insufficiency in which cases the factor IX levels are decreased, factor IX levels vary within a narrow range. In rare circumstances, a non-haemophiliac subject can develop specific antibodies against factor IX (factor IX inhibitor). This situation can be associated with spontaneous bruising at an unusual location (e.g. arm) and low factor IX level. It is called acquired haemophilia. This may happen in the elderly, cancer, autoimmune disease, pregnancy or as idiopathic. Bleeding manifestations may be life threatening. Patients should be managed in specialised centres. It is important that clinical labs recognise such cases.<h1>B/ Rivaroxaban intake can interfere in factor IX clotting assay – TRUE</h1>Rivaroxaban is a direct oral direct factor Xa inhibitor. It prolongs PT and aPTT in a dose-dependent manner and according to reagent sensitivity. It can therefore interfere with factor assays and lead to factor level underestimation. It is recommended to perform serial sample dilutions in order to abolish or limit this interference.<h1>C/ Lupus anticoagulants do not interfere in factor IX clotting assay</h1>Lupus anticoagulants may prolong phospholipid-dependent clotting times according to reagent sensitivity. They can prolong aPTT and related tests like intrinsic factor assays, including factor IX assay. For this reason, it is recommended to perform serial sample dilutions for intrinsic pathway factor assays. This allows to abolish or limit LA interference.<h1>D/ About 20% of haemophiliac patients suffer from haemophilia A</h1>Hemophilia A accounts for 80 – 85% of heamophiliac patients whereas haemophilia B accounts for only 15 – 20 % (cf Question 3D).<br><h2 style=\"text-decoration:underline;\">References</h2><ul><li>White GC, Rosendaal F, Aledort LM et al. Definitions in haemophilia - Recommendation of the Scientific Subcommittee on factor VIII and factor IX of the SSC of the ISTH. Thromb Haemost 2001; 85: 560.</li><li>Van Herrewegen F, Meijers JC, Peters M et al. Clinical practice: the bleeding child. Part II: disorders of secondary hemostasis and fibrinolysis. Eur J Pediatr 2012; 171: 207-14.</li><li>Kershaw G, Favaloro EJ. Laboratory identification of factor inhibitors: an update. Pathology 2012; 44: 293-302.</li></ul></body></html>"
+        }
+    ]
+}
+

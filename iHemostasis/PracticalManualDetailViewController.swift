@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource {
+class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource,UIWebViewDelegate {
     @IBOutlet weak var webViewContainerView : UIView?
     @IBOutlet weak var webView : UIWebView?
     @IBOutlet weak var contextMenuTableView: UITableView?
@@ -50,10 +50,11 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         webViewForPicture?.stringByEvaluatingJavaScriptFromString("loadPage('" + figure + "');")
         */
         
+        
         // Select the first row
         let indexPath = NSIndexPath(row: 0, section: 0)
         contextMenuTableView?.selectRow(at: indexPath as IndexPath, animated: false, scrollPosition: .none)
-        //self.onItemSelection(self.currentChapterIndex)
+        //self.onItemSelection(index: self.currentChapterIndex)
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
@@ -92,13 +93,13 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         case .portrait:
             self.contextMenuTableView?.isHidden = true
             self.menuButton?.isHidden = false
-            self.contextMenuTableView?.frame = CGRect(506, 130, 262, 894)
-            self.webView?.frame = CGRect(0, 130.0, screenSize.width - 100, 894)
+            self.contextMenuTableView?.frame = CGRect(506, 130, 262, 850)
+            self.webView?.frame = CGRect(0, 80, screenSize.width - 100, 800)
             if self.webViewContainerView?.isHidden == true {
-                self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width, 894)
+                self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width, 850)
             }
             else {
-                self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width, 894)
+                self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width, 850)
             }
             self.blankView?.isHidden = false
         default:
@@ -185,7 +186,7 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         }
     }
     
-    func webViewDidFinishLoad(webView : UIWebView) {
+    func webViewDidFinishLoad(_ webView : UIWebView) {
         if (self.webView == webView) {
             // Load the first page
             let contextMenuItem = contextMenuPointer[0]
