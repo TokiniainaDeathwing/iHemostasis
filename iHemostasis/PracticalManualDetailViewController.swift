@@ -93,26 +93,26 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         case .portrait:
             self.contextMenuTableView?.isHidden = true
             self.menuButton?.isHidden = false
-            self.contextMenuTableView?.frame = CGRect(506, 130, 262, 850)
-            self.webView?.frame = CGRect(0, 80, screenSize.width - 100, 800)
+            self.contextMenuTableView?.frame = CGRect((self.blankView?.frame.width)!, 130, screenSize.width - (self.blankView?.frame.width)!, screenSize.height - 130)
+            self.webView?.frame = CGRect(0, 80, screenSize.width - (self.contextMenuTableView?.frame.width)!, screenSize.height - 100)
             if self.webViewContainerView?.isHidden == true {
-                self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width, 850)
+                self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width, screenSize.height - 130)
             }
             else {
-                self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width, 850)
+                self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width, screenSize.height - 130)
             }
             self.blankView?.isHidden = false
         default:
             self.contextMenuTableView?.isHidden = false
             self.menuButton?.isHidden = true
             
-            self.contextMenuTableView?.frame = CGRect(0, 90, 292, 700)
+            self.contextMenuTableView?.frame = CGRect(0, 90, 292, screenSize.height - 90)
             
             //self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 670)
             //self.webViewContainerView?.backgroundColor = UIColor.redColor()
             //self.webView?.frame = CGRect(50.0, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)! - 100, 870)
-            self.webView?.frame = CGRect(-90.0, 50.0, screenSize.width - (self.contextMenuTableView?.frame.width)! + 90.0, 770)
-            self.webViewContainerView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 770)
+            self.webViewContainerView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, screenSize.height - 90)
+            self.webView?.frame = CGRect(0, 50.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, screenSize.height - 50)
             self.blankView?.isHidden = true
         }
     }
@@ -139,12 +139,12 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         let row = indexPath.row
         let contextMenuItem = contextMenuPointer[row]
         
-        cell.textLabel?.text = contextMenuItem["title"] as! String!
+        cell.textLabel?.text = contextMenuItem["title"] 
         cell.textLabel?.textColor = UIColor.white
         cell.backgroundColor = UIColor.clear
         cell.textLabel?.highlightedTextColor = UIColor.black
         
-        cell.detailTextLabel?.text = contextMenuItem["author"] as! String!
+        cell.detailTextLabel?.text = contextMenuItem["author"] 
         cell.detailTextLabel?.textColor = UIColor.white
         cell.detailTextLabel?.highlightedTextColor = UIColor.black
         

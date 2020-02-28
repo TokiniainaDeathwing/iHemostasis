@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230FCCFD23DA21EE00E9FE57 /* s54tab1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230FCCFC23DA21EE00E9FE57 /* s54tab1.jpg */; };
+		230FCD0123DA30AF00E9FE57 /* s14eFig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */; };
+		23190FA723A04EDC007B03F4 /* s24bImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23190FA623A04EDC007B03F4 /* s24bImg.jpg */; };
+		2334B0AE2384B40B00513461 /* PH_26@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334B0AD2384B40B00513461 /* PH_26@3x.png */; };
+		23368660238517D300A96B7C /* s89iImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2336865F238517D200A96B7C /* s89iImg.jpg */; };
+		233686622385195500A96B7C /* s84dfigs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 233686612385195500A96B7C /* s84dfigs.jpg */; };
+		2336866423851AFE00A96B7C /* s84d2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2336866323851AFE00A96B7C /* s84d2.png */; };
+		2349A984237A9C0000DE4BAD /* s13dImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2349A983237A9C0000DE4BAD /* s13dImg.png */; };
+		234D97D123A5784000537BC9 /* s62b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 234D97D023A5784000537BC9 /* s62b.jpg */; };
+		2361E61F2379A3CB0083F118 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6152379A3BF0083F118 /* 11.jpg */; };
+		2361E6202379A3CB0083F118 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6162379A3C10083F118 /* 8.jpg */; };
+		2361E6212379A3CB0083F118 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6172379A3C30083F118 /* 10.jpg */; };
+		2361E6222379A3CB0083F118 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6182379A3C40083F118 /* 15.jpg */; };
+		2361E6232379A3CB0083F118 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6192379A3C60083F118 /* 12.jpg */; };
+		2361E6272379A3CB0083F118 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61D2379A3C90083F118 /* 14.jpg */; };
+		2361E6282379A3CB0083F118 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61E2379A3CB0083F118 /* 13.jpg */; };
+		2361E62E2379A4C60083F118 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E62D2379A4C60083F118 /* 9.jpg */; };
+		23E3FFE8237973EA0082A8A8 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFDF237973930082A8A8 /* 4.jpg */; };
+		23E3FFE9237973EA0082A8A8 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE0237973A20082A8A8 /* 16.jpg */; };
+		23E3FFEA237973EA0082A8A8 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE1237973AB0082A8A8 /* 6.jpg */; };
+		23E3FFEB237973EA0082A8A8 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE2237973B60082A8A8 /* 7.jpg */; };
+		23E3FFEC237973EA0082A8A8 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE3237973C30082A8A8 /* 5.jpg */; };
+		23E3FFED237973EA0082A8A8 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE4237973CD0082A8A8 /* 2.jpg */; };
+		23E3FFEE237973EA0082A8A8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE5237973D80082A8A8 /* 1.jpg */; };
+		23E3FFEF237973EA0082A8A8 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE6237973E10082A8A8 /* 3.jpg */; };
+		23E3FFF0237973EA0082A8A8 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E3FFE7237973EA0082A8A8 /* 17.jpg */; };
+		23FE167923A56AAB005A8034 /* s24gImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23FE167823A56AAB005A8034 /* s24gImg.jpg */; };
 		76205252225F3C99003F8DE3 /* Screenshot 2018-11-27 13.08.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 76205232225F3C83003F8DE3 /* Screenshot 2018-11-27 13.08.13.png */; };
 		76205253225F3C99003F8DE3 /* Screenshot 2018-11-27 13.09.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 76205233225F3C84003F8DE3 /* Screenshot 2018-11-27 13.09.05.png */; };
 		76205254225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 76205234225F3C84003F8DE3 /* Screenshot 2018-11-27 13.04.50.png */; };
@@ -38,7 +65,6 @@
 		7620526E225F3C99003F8DE3 /* Screenshot 2018-11-27 13.01.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620524E225F3C96003F8DE3 /* Screenshot 2018-11-27 13.01.28.png */; };
 		7620526F225F3C99003F8DE3 /* Screenshot 2018-11-27 13.01.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620524F225F3C97003F8DE3 /* Screenshot 2018-11-27 13.01.12.png */; };
 		76205270225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.22.png in Resources */ = {isa = PBXBuildFile; fileRef = 76205250225F3C98003F8DE3 /* Screenshot 2018-11-27 13.04.22.png */; };
-		76205271225F3C99003F8DE3 /* Screenshot 2018-11-27 13.03.41.png in Resources */ = {isa = PBXBuildFile; fileRef = 76205251225F3C99003F8DE3 /* Screenshot 2018-11-27 13.03.41.png */; };
 		762BF90E2268C8FD00431217 /* Abbreviations_bleeding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 762BF90D2268C8FD00431217 /* Abbreviations_bleeding.pdf */; };
 		762BF9192268EE4000431217 /* B-Orange.html in Resources */ = {isa = PBXBuildFile; fileRef = 762BF9182268EE4000431217 /* B-Orange.html */; };
 		762BF91C2268EF0400431217 /* s11b.png in Resources */ = {isa = PBXBuildFile; fileRef = 762BF91A2268EF0400431217 /* s11b.png */; };
@@ -872,6 +898,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230FCCFC23DA21EE00E9FE57 /* s54tab1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s54tab1.jpg; sourceTree = "<group>"; };
+		230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s14eFig.jpg; sourceTree = "<group>"; };
+		23190FA623A04EDC007B03F4 /* s24bImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s24bImg.jpg; sourceTree = "<group>"; };
+		2334B0AD2384B40B00513461 /* PH_26@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PH_26@3x.png"; sourceTree = "<group>"; };
+		2336865F238517D200A96B7C /* s89iImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s89iImg.jpg; sourceTree = "<group>"; };
+		233686612385195500A96B7C /* s84dfigs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s84dfigs.jpg; sourceTree = "<group>"; };
+		2336866323851AFE00A96B7C /* s84d2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s84d2.png; sourceTree = "<group>"; };
+		2349A983237A9C0000DE4BAD /* s13dImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s13dImg.png; sourceTree = "<group>"; };
+		234D97D023A5784000537BC9 /* s62b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s62b.jpg; sourceTree = "<group>"; };
+		2361E6152379A3BF0083F118 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		2361E6162379A3C10083F118 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		2361E6172379A3C30083F118 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		2361E6182379A3C40083F118 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		2361E6192379A3C60083F118 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		2361E61D2379A3C90083F118 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		2361E61E2379A3CB0083F118 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		2361E62D2379A4C60083F118 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		23E3FFDF237973930082A8A8 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		23E3FFE0237973A20082A8A8 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		23E3FFE1237973AB0082A8A8 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		23E3FFE2237973B60082A8A8 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		23E3FFE3237973C30082A8A8 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		23E3FFE4237973CD0082A8A8 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		23E3FFE5237973D80082A8A8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		23E3FFE6237973E10082A8A8 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		23E3FFE7237973EA0082A8A8 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		23FE167823A56AAB005A8034 /* s24gImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s24gImg.jpg; sourceTree = "<group>"; };
 		76205232225F3C83003F8DE3 /* Screenshot 2018-11-27 13.08.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.08.13.png"; sourceTree = "<group>"; };
 		76205233225F3C84003F8DE3 /* Screenshot 2018-11-27 13.09.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.09.05.png"; sourceTree = "<group>"; };
 		76205234225F3C84003F8DE3 /* Screenshot 2018-11-27 13.04.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.04.50.png"; sourceTree = "<group>"; };
@@ -903,7 +956,6 @@
 		7620524E225F3C96003F8DE3 /* Screenshot 2018-11-27 13.01.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.01.28.png"; sourceTree = "<group>"; };
 		7620524F225F3C97003F8DE3 /* Screenshot 2018-11-27 13.01.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.01.12.png"; sourceTree = "<group>"; };
 		76205250225F3C98003F8DE3 /* Screenshot 2018-11-27 13.04.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.04.22.png"; sourceTree = "<group>"; };
-		76205251225F3C99003F8DE3 /* Screenshot 2018-11-27 13.03.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2018-11-27 13.03.41.png"; sourceTree = "<group>"; };
 		762BF90D2268C8FD00431217 /* Abbreviations_bleeding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Abbreviations_bleeding.pdf; sourceTree = "<group>"; };
 		762BF9182268EE4000431217 /* B-Orange.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "B-Orange.html"; sourceTree = "<group>"; };
 		762BF91A2268EF0400431217 /* s11b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s11b.png; sourceTree = "<group>"; };
@@ -1762,6 +1814,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23E3FFDE237973580082A8A8 /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				2361E62D2379A4C60083F118 /* 9.jpg */,
+				2361E6162379A3C10083F118 /* 8.jpg */,
+				2361E6172379A3C30083F118 /* 10.jpg */,
+				2361E6152379A3BF0083F118 /* 11.jpg */,
+				2361E6192379A3C60083F118 /* 12.jpg */,
+				2361E61E2379A3CB0083F118 /* 13.jpg */,
+				2361E61D2379A3C90083F118 /* 14.jpg */,
+				2361E6182379A3C40083F118 /* 15.jpg */,
+				23E3FFE5237973D80082A8A8 /* 1.jpg */,
+				23E3FFE4237973CD0082A8A8 /* 2.jpg */,
+				23E3FFE6237973E10082A8A8 /* 3.jpg */,
+				23E3FFDF237973930082A8A8 /* 4.jpg */,
+				23E3FFE3237973C30082A8A8 /* 5.jpg */,
+				23E3FFE1237973AB0082A8A8 /* 6.jpg */,
+				23E3FFE2237973B60082A8A8 /* 7.jpg */,
+				23E3FFE0237973A20082A8A8 /* 16.jpg */,
+				23E3FFE7237973EA0082A8A8 /* 17.jpg */,
+			);
+			name = tables;
+			sourceTree = "<group>";
+		};
 		76205230225F3C46003F8DE3 /* Oral */ = {
 			isa = PBXGroup;
 			children = (
@@ -1780,6 +1856,7 @@
 		76205231225F3C5D003F8DE3 /* Orange */ = {
 			isa = PBXGroup;
 			children = (
+				23E3FFDE237973580082A8A8 /* tables */,
 				7620523E225F3C8A003F8DE3 /* O-Orange.html */,
 				7620524F225F3C97003F8DE3 /* Screenshot 2018-11-27 13.01.12.png */,
 				7620524E225F3C96003F8DE3 /* Screenshot 2018-11-27 13.01.28.png */,
@@ -1788,7 +1865,6 @@
 				76205243225F3C8D003F8DE3 /* Screenshot 2018-11-27 13.02.02.png */,
 				76205236225F3C85003F8DE3 /* Screenshot 2018-11-27 13.02.50.png */,
 				76205244225F3C8E003F8DE3 /* Screenshot 2018-11-27 13.02.58.png */,
-				76205251225F3C99003F8DE3 /* Screenshot 2018-11-27 13.03.41.png */,
 				76205241225F3C8C003F8DE3 /* Screenshot 2018-11-27 13.04.05.png */,
 				76205250225F3C98003F8DE3 /* Screenshot 2018-11-27 13.04.22.png */,
 				76205240225F3C8B003F8DE3 /* Screenshot 2018-11-27 13.04.34.png */,
@@ -1838,6 +1914,7 @@
 		762BF9102268CC4B00431217 /* Orange */ = {
 			isa = PBXGroup;
 			children = (
+				2349A983237A9C0000DE4BAD /* s13dImg.png */,
 				762BF9182268EE4000431217 /* B-Orange.html */,
 				762BF91B2268EF0400431217 /* s11a.png */,
 				762BF91A2268EF0400431217 /* s11b.png */,
@@ -1856,6 +1933,7 @@
 				762BF9332268EFDA00431217 /* s14c.png */,
 				762BF9362268EFDB00431217 /* s14d.png */,
 				762BF9352268EFDB00431217 /* s14e.png */,
+				230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */,
 				762BF9402268F0EF00431217 /* s15a.png */,
 				762BF9432268F0F100431217 /* s15b.png */,
 				762BF9442268F0F100431217 /* s15c.png */,
@@ -1878,6 +1956,7 @@
 				762BF95422699A5700431217 /* s21.png */,
 				762BF95B22699A9000431217 /* s22a.png */,
 				762BF95722699A8E00431217 /* s22b.png */,
+				23FE167823A56AAB005A8034 /* s24gImg.jpg */,
 				762BF95C22699A9000431217 /* s22c.png */,
 				762BF98022699BB600431217 /* s25.png */,
 				762BF96522699AE100431217 /* s23a.png */,
@@ -1885,6 +1964,7 @@
 				762BF96422699AE100431217 /* s23c.png */,
 				762BF96722699AE200431217 /* s23d.png */,
 				762BF97522699B4500431217 /* s24a.png */,
+				23190FA623A04EDC007B03F4 /* s24bImg.jpg */,
 				762BF97222699B4500431217 /* s24b.png */,
 				762BF97022699B4400431217 /* s24c.png */,
 				762BF96C22699B4300431217 /* s24d.png */,
@@ -1981,6 +2061,7 @@
 				762BFA042269B65000431217 /* s55b.png */,
 				762BFA002269B64F00431217 /* s55c.png */,
 				762BFA012269B64F00431217 /* s55d.png */,
+				230FCCFC23DA21EE00E9FE57 /* s54tab1.jpg */,
 				762BFA032269B65000431217 /* s55e.png */,
 				762BFA022269B64F00431217 /* s55g.png */,
 				762BFA102269B6A100431217 /* s56a.png */,
@@ -2007,6 +2088,7 @@
 				762BFA272269C1DB00431217 /* s61d.png */,
 				762BFA2E2269C1E800431217 /* s62a.png */,
 				762BFA2F2269C1E800431217 /* s62b.png */,
+				234D97D023A5784000537BC9 /* s62b.jpg */,
 				762BFA302269C1E800431217 /* s62c.png */,
 				762BFA312269C1E900431217 /* s62d.png */,
 				762BFA322269C1EA00431217 /* s62e.png */,
@@ -2106,6 +2188,7 @@
 				762BFAD12269CE9B00431217 /* s83e.png */,
 				762BFAD32269CE9C00431217 /* s83f.png */,
 				762BFAD22269CE9B00431217 /* s83g.png */,
+				233686612385195500A96B7C /* s84dfigs.jpg */,
 				762BFAD02269CE9B00431217 /* s83h.png */,
 				762BFAD42269CE9C00431217 /* s83i.png */,
 				762BFAD62269CE9D00431217 /* s83j.png */,
@@ -2114,6 +2197,7 @@
 				762BFAE42269CECA00431217 /* s84b.png */,
 				762BFAE32269CECA00431217 /* s84c.png */,
 				762BFAE52269CECB00431217 /* s84d.png */,
+				2336866323851AFE00A96B7C /* s84d2.png */,
 				762BFAE22269CECA00431217 /* s84e.png */,
 				762BFAE62269CECB00431217 /* s84f.png */,
 				762BFAEE2269CF3100431217 /* s85a.png */,
@@ -2293,6 +2377,7 @@
 			isa = PBXGroup;
 			children = (
 				763409FC2267A18900B9EABE /* O-green.html */,
+				2336865F238517D200A96B7C /* s89iImg.jpg */,
 				76340A402267AF1600B9EABE /* S8_1.png */,
 				76340A442267AF3A00B9EABE /* S8_2_1.png */,
 				76340A422267AF3A00B9EABE /* S8_2_2.png */,
@@ -2327,6 +2412,7 @@
 		B4D0D1401C55E6DA00E27F45 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2334B0AD2384B40B00513461 /* PH_26@3x.png */,
 				E7838BCE1C734AC700672CC1 /* logo-kdsante.png */,
 				E72977591C6DF67500875519 /* logo_stago.png */,
 				E72977571C6DF56200875519 /* separateur-rouge.png */,
@@ -3202,8 +3288,8 @@
 				TargetAttributes = {
 					E70095DB1C1810F6008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = FFP2WA927R;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = AKR326GJML;
+						ProvisioningStyle = Automatic;
 					};
 					E70095EF1C1810F7008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -3222,6 +3308,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -3259,11 +3346,15 @@
 				E7063C921DD1B49400E38BDB /* chapter-3-part-4---ios_02.jpg in Resources */,
 				762BF9B32269ABBD00431217 /* s36b.png in Resources */,
 				76205257225F3C99003F8DE3 /* Screenshot 2018-11-27 13.06.36.png in Resources */,
+				233686622385195500A96B7C /* s84dfigs.jpg in Resources */,
 				E7A717661E55DDFA00BD5C80 /* chapter-3-purple---part-3_18_01_01_.png in Resources */,
 				E7E61AB91DD08B110037AA88 /* chapter-5-part-1---ios_10.jpg in Resources */,
 				763409FF2267A1F300B9EABE /* S6_1.png in Resources */,
+				234D97D123A5784000537BC9 /* s62b.jpg in Resources */,
 				E7202FD11E5F2D560029187F /* chapter-3-purple---part-3_061.png in Resources */,
+				23E3FFEE237973EA0082A8A8 /* 1.jpg in Resources */,
 				E7E038331DACF27600A79471 /* chapter-2-orange-part-5---ios_16.jpg in Resources */,
+				230FCCFD23DA21EE00E9FE57 /* s54tab1.jpg in Resources */,
 				E7063C7D1DD1A65200E38BDB /* chapter-3-part-4---ios_03-Fig1.jpg in Resources */,
 				E7E61A471DD089200037AA88 /* chapter-3-purple---part-4_08.png in Resources */,
 				E7E61ABE1DD08B110037AA88 /* chapter-5-part-2---ios_02.jpg in Resources */,
@@ -3277,6 +3368,7 @@
 				763409F02267974800B9EABE /* Ref_S5_3.png in Resources */,
 				762BFACD2269CE3E00431217 /* s82b.png in Resources */,
 				7634097C2267888300B9EABE /* s3_28.png in Resources */,
+				23E3FFEF237973EA0082A8A8 /* 3.jpg in Resources */,
 				E72F50841DDAFD2B0069F105 /* chapter-3-purple-part-1_131.png in Resources */,
 				762BFA8F2269C9A200431217 /* s72j.png in Resources */,
 				762BF95522699A5700431217 /* s21.png in Resources */,
@@ -3290,6 +3382,7 @@
 				762BFAB92269CAC100431217 /* s73u.png in Resources */,
 				7634098C226789C100B9EABE /* s3_44.png in Resources */,
 				7634099B22678A6900B9EABE /* Ref_S6_3.png in Resources */,
+				2361E6212379A3CB0083F118 /* 10.jpg in Resources */,
 				E7BDA5901C47912A00A6DE9B /* BARMENOCFFMED.ttf in Resources */,
 				E70C7AF51DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_09.png in Resources */,
 				7620525B225F3C99003F8DE3 /* Screenshot 2018-11-27 13.06.25.png in Resources */,
@@ -3319,9 +3412,12 @@
 				762BFA362269C1EA00431217 /* s62d.png in Resources */,
 				E7E037E11DACF26100A79471 /* chapter-2-orange-part-3---ios_04.jpg in Resources */,
 				E7E61A441DD089200037AA88 /* chapter-3-purple---part-4_05.png in Resources */,
+				23E3FFEC237973EA0082A8A8 /* 5.jpg in Resources */,
 				E7E038411DACF28200A79471 /* chapter-2-orange-part-6---ios_01.jpg in Resources */,
+				23FE167923A56AAB005A8034 /* s24gImg.jpg in Resources */,
 				E7E61ABD1DD08B110037AA88 /* chapter-5-part-2---ios_01.jpg in Resources */,
 				7634099A22678A6900B9EABE /* Ref_S6_4.png in Resources */,
+				2361E62E2379A4C60083F118 /* 9.jpg in Resources */,
 				76340A562267AF9400B9EABE /* S8_4_3.png in Resources */,
 				E7E61A901DD08A280037AA88 /* chapter-4-part-1---ios_16.jpg in Resources */,
 				762BF9DB2269AF3400431217 /* s46a.png in Resources */,
@@ -3374,6 +3470,7 @@
 				E7838BDB1C75F40B00672CC1 /* CoagulationCascadeInhibitorsOfCoagulation.xib in Resources */,
 				762BF94E2268F29F00431217 /* s17d.png in Resources */,
 				E7E61AB11DD08B110037AA88 /* chapter-5-part-1---ios_02.jpg in Resources */,
+				2361E6222379A3CB0083F118 /* 15.jpg in Resources */,
 				E7E038051DACF26C00A79471 /* chapter-2-orange-part-4_06.jpg in Resources */,
 				E71019601C2AA3ED004DDB02 /* ClinCasesDetail.xcassets in Resources */,
 				E7063C8B1DD1A65200E38BDB /* chapter-3-part-5---ios_05.jpg in Resources */,
@@ -3413,6 +3510,7 @@
 				E79D14021DEEB90E0052803E /* chapter-5-part-1---ios_05.jpg in Resources */,
 				E7E038431DACF28200A79471 /* chapter-2-orange-part-6---ios_03.jpg in Resources */,
 				E7E61A831DD08A280037AA88 /* chapter-4-part-1---ios_03.jpg in Resources */,
+				2361E6202379A3CB0083F118 /* 8.jpg in Resources */,
 				762BFAD82269CE9D00431217 /* s83c.png in Resources */,
 				7634097F2267896F00B9EABE /* s3_32.png in Resources */,
 				E7E037CF1DACF25300A79471 /* chapter-2-orange-part-2---ios_13.jpg in Resources */,
@@ -3423,6 +3521,7 @@
 				E7A7175A1E55B12A00BD5C80 /* VioletApp.html in Resources */,
 				E7063C7E1DD1A65200E38BDB /* chapter-3-part-4---ios_04.jpg in Resources */,
 				E7E61A5E1DD089AB0037AA88 /* chapter-4-brown_08.png in Resources */,
+				2349A984237A9C0000DE4BAD /* s13dImg.png in Resources */,
 				7634099422678A3500B9EABE /* s3_52.png in Resources */,
 				E7E61A331DD089200037AA88 /* chapter-3-purple---part-3_11.png in Resources */,
 				E7E038421DACF28200A79471 /* chapter-2-orange-part-6---ios_02.jpg in Resources */,
@@ -3472,6 +3571,7 @@
 				762BF96222699A9000431217 /* s22a.png in Resources */,
 				762BF9BA2269AC0000431217 /* s38b.png in Resources */,
 				E7E619C41DD086FE0037AA88 /* chapter-3-part-1---ios_10.jpg in Resources */,
+				2361E6232379A3CB0083F118 /* 12.jpg in Resources */,
 				E7E61A891DD08A280037AA88 /* chapter-4-part-1---ios_09.jpg in Resources */,
 				762BF9E52269AF8700431217 /* s49 a.png in Resources */,
 				763409BF2267928500B9EABE /* S4_3_5.png in Resources */,
@@ -3485,6 +3585,7 @@
 				762BFAE82269CECC00431217 /* s84e.png in Resources */,
 				762BF9AF2269ABAB00431217 /* s35a.png in Resources */,
 				762BFA692269C8FE00431217 /* s71h.png in Resources */,
+				2361E6282379A3CB0083F118 /* 13.jpg in Resources */,
 				762BF9DA2269AF3400431217 /* s46b.png in Resources */,
 				76340A602267AFF300B9EABE /* S8_5_1.png in Resources */,
 				E7E619F71DD0887C0037AA88 /* chapter-3-purple-part-1_07.png in Resources */,
@@ -3595,6 +3696,7 @@
 				762BFA092269B65100431217 /* s55e.png in Resources */,
 				E7E61A631DD089AB0037AA88 /* chapter-4-brown_17.png in Resources */,
 				E7E61A241DD089200037AA88 /* chapter-3-purple---part-2_10.png in Resources */,
+				2361E6272379A3CB0083F118 /* 14.jpg in Resources */,
 				762BFAF52269CF3B00431217 /* s86c.png in Resources */,
 				762BF9E42269AF8700431217 /* s49 b.png in Resources */,
 				E7E61A431DD089200037AA88 /* chapter-3-purple---part-4_04.png in Resources */,
@@ -3631,6 +3733,7 @@
 				E7E037B41DACF24700A79471 /* chapter-2-orange-part-1---ios_10.jpg in Resources */,
 				762BFAAD2269CAC100431217 /* s73h.png in Resources */,
 				E74655131DD1CA720073C9DC /* chapter-4-brown_19.jpg in Resources */,
+				23190FA723A04EDC007B03F4 /* s24bImg.jpg in Resources */,
 				E77CD0301DA67A270033DE96 /* Orange.html in Resources */,
 				E7E61A281DD089200037AA88 /* chapter-3-purple---part-2_14.png in Resources */,
 				E729775A1C6DF67500875519 /* logo_stago.png in Resources */,
@@ -3676,12 +3779,14 @@
 				762BFADF2269CE9D00431217 /* s83d.png in Resources */,
 				763409BD2267928500B9EABE /* S4_3_7.png in Resources */,
 				763409B12267923300B9EABE /* S4_2_4.png in Resources */,
+				23E3FFEA237973EA0082A8A8 /* 6.jpg in Resources */,
 				E7E619F11DD0887C0037AA88 /* chapter-3-purple---part-2_09.png in Resources */,
 				762BFA2C2269C1DB00431217 /* s61a.png in Resources */,
 				E77CD0961DA6910A0033DE96 /* P-Blue-Darker.html in Resources */,
 				762BFA892269C9A200431217 /* s72o.png in Resources */,
 				762BF91D2268EF0400431217 /* s11a.png in Resources */,
 				762BF9232268EF6B00431217 /* s12c.png in Resources */,
+				23E3FFED237973EA0082A8A8 /* 2.jpg in Resources */,
 				E752526D1C50CE26000CF33F /* QuickGuide4.pdf in Resources */,
 				E7E037C91DACF25300A79471 /* chapter-2-orange-part-2---ios_07.jpg in Resources */,
 				762BF9502268F29F00431217 /* s17a.png in Resources */,
@@ -3704,6 +3809,7 @@
 				763409AE2267923300B9EABE /* S4_2_5.png in Resources */,
 				E7E61A2E1DD089200037AA88 /* chapter-3-purple---part-3_06.png in Resources */,
 				E7E61AB71DD08B110037AA88 /* chapter-5-part-1---ios_08.jpg in Resources */,
+				23368660238517D300A96B7C /* s89iImg.jpg in Resources */,
 				E77CD09E1DA691290033DE96 /* P-Violet.html in Resources */,
 				E7E037E31DACF26100A79471 /* chapter-2-orange-part-3---ios_06.jpg in Resources */,
 				76340A552267AF9400B9EABE /* S8_4_1.png in Resources */,
@@ -3774,6 +3880,7 @@
 				E7E61AB81DD08B110037AA88 /* chapter-5-part-1---ios_09.jpg in Resources */,
 				762BFAF42269CF3B00431217 /* s86a.png in Resources */,
 				E7E61A621DD089AB0037AA88 /* chapter-4-brown_13.png in Resources */,
+				23E3FFE9237973EA0082A8A8 /* 16.jpg in Resources */,
 				762BF97D22699B4600431217 /* s24f.png in Resources */,
 				762BFA862269C9A200431217 /* s72e.png in Resources */,
 				762BFA672269C8FE00431217 /* s71j.png in Resources */,
@@ -3885,6 +3992,7 @@
 				E7E61AC01DD08B110037AA88 /* chapter-5-part-2---ios_04.jpg in Resources */,
 				763409772267879A00B9EABE /* S3_22.png in Resources */,
 				762BF97F22699B4600431217 /* s24a.png in Resources */,
+				23E3FFEB237973EA0082A8A8 /* 7.jpg in Resources */,
 				E7E61A8A1DD08A280037AA88 /* chapter-4-part-1---ios_10.jpg in Resources */,
 				E7E61AC31DD08B110037AA88 /* chapter-5-part-2---ios_07.jpg in Resources */,
 				E7E038111DACF26C00A79471 /* chapter-2-orange-part-4_18.jpg in Resources */,
@@ -3930,10 +4038,12 @@
 				E7E0380E1DACF26C00A79471 /* chapter-2-orange-part-4_15.jpg in Resources */,
 				7634098B226789C100B9EABE /* s3_42.png in Resources */,
 				762BFA062269B65100431217 /* s55c.png in Resources */,
+				23E3FFF0237973EA0082A8A8 /* 17.jpg in Resources */,
 				E7E037EA1DACF26100A79471 /* chapter-2-orange-part-3---ios_13.jpg in Resources */,
 				762BF9992269A1F300431217 /* s22fig1.png in Resources */,
 				E7E61A3D1DD089200037AA88 /* chapter-3-purple---part-3_21.png in Resources */,
 				E7E038031DACF26C00A79471 /* chapter-2-orange-part-4_04.jpg in Resources */,
+				2334B0AE2384B40B00513461 /* PH_26@3x.png in Resources */,
 				763409B02267923300B9EABE /* S4_2_2.png in Resources */,
 				76340A2B2267A9BF00B9EABE /* S7_3_4.png in Resources */,
 				7634094D2267526C00B9EABE /* S2_44.png in Resources */,
@@ -3950,6 +4060,7 @@
 				76340990226789C100B9EABE /* s3_45.png in Resources */,
 				762E3973227AD3DC0064E74D /* Quizz_7.json in Resources */,
 				E70C7B231DCCA17A00E8A89F /* Chapter-2_02.png in Resources */,
+				23E3FFE8237973EA0082A8A8 /* 4.jpg in Resources */,
 				E7E038081DACF26C00A79471 /* chapter-2-orange-part-4_09.jpg in Resources */,
 				762BFA1B2269B72800431217 /* s57b.png in Resources */,
 				E70C7AE21DCC752300E8A89F /* chapter-1-_05.png in Resources */,
@@ -3974,6 +4085,7 @@
 				E7838BCF1C734AC700672CC1 /* logo-kdsante.png in Resources */,
 				E7E61A8C1DD08A280037AA88 /* chapter-4-part-1---ios_12.jpg in Resources */,
 				7620526B225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.11.png in Resources */,
+				2336866423851AFE00A96B7C /* s84d2.png in Resources */,
 				762BFA332269C1EA00431217 /* s62a.png in Resources */,
 				76205263225F3C99003F8DE3 /* Screenshot 2018-11-27 13.02.02.png in Resources */,
 				E7E619C71DD086FE0037AA88 /* chapter-3-part-2---ios_01.jpg in Resources */,
@@ -4006,6 +4118,7 @@
 				762BF9A92269AB5400431217 /* s33a.png in Resources */,
 				762BFADE2269CE9D00431217 /* s83i.png in Resources */,
 				E70C7B111DCC985000E8A89F /* chapter-1-orange-part-2---IOS_11.jpg in Resources */,
+				2361E61F2379A3CB0083F118 /* 11.jpg in Resources */,
 				762BFA6A2269C8FE00431217 /* s71g.png in Resources */,
 				76340A092267A21E00B9EABE /* S6_2_4.png in Resources */,
 				7620525C225F3C99003F8DE3 /* Screenshot 2018-11-27 13.01.42.png in Resources */,
@@ -4020,6 +4133,7 @@
 				762BFAF32269CF3B00431217 /* s86b.png in Resources */,
 				762BF98E22699EC500431217 /* s28cc.png in Resources */,
 				B4D0D1481C55E6DA00E27F45 /* coagulation-cascade-3.png in Resources */,
+				230FCD0123DA30AF00E9FE57 /* s14eFig.jpg in Resources */,
 				E7E0380F1DACF26C00A79471 /* chapter-2-orange-part-4_16.jpg in Resources */,
 				E7E0382C1DACF27600A79471 /* chapter-2-orange-part-5---ios_09.jpg in Resources */,
 				E7063C831DD1A65200E38BDB /* chapter-3-part-4---ios_09.jpg in Resources */,
@@ -4031,7 +4145,6 @@
 				76340A1D2267A5BF00B9EABE /* S6_4_2.png in Resources */,
 				E7838BD71C75F30F00672CC1 /* CoagulationCascadePrimaryHaemostasis.xib in Resources */,
 				E7E0382F1DACF27600A79471 /* chapter-2-orange-part-5---ios_12.jpg in Resources */,
-				76205271225F3C99003F8DE3 /* Screenshot 2018-11-27 13.03.41.png in Resources */,
 				763409BE2267928500B9EABE /* S4_3_6.png in Resources */,
 				E7E61A921DD08A280037AA88 /* chapter-4-part-1---ios_18.jpg in Resources */,
 				E7527B6C1C2813170086F19E /* CoagCascFibrinFormation.xcassets in Resources */,
@@ -4253,17 +4366,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FFP2WA927R;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.1;
+				DEVELOPMENT_TEAM = AKR326GJML;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
+				MARKETING_VERSION = 2.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = adhocIHemoPad;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -4276,18 +4391,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diagnostica Stago (FFP2WA927R)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FFP2WA927R;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.1;
+				DEVELOPMENT_TEAM = AKR326GJML;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.2.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = adhocIHemoPad;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 2;

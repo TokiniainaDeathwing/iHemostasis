@@ -75,6 +75,12 @@ class ClinicalCasesQuizzResponseSummaryViewCell: UITableViewCell {
             }
             
         }
+        if((self.quizzQuestionLabel?.frame.width.isLess(than: (self.quizzGoodAnswerLabel?.frame.width)!))!){
+            cellBackgroundView?.frame = CGRect((cellBackgroundView?.frame.origin.x)!, (cellBackgroundView?.frame.origin.y)!, (self.quizzGoodAnswerLabel?.frame.width)!, (cellBackgroundView?.frame.height)!);
+        }else{
+            cellBackgroundView?.frame = CGRect((cellBackgroundView?.frame.origin.x)!, (cellBackgroundView?.frame.origin.y)!, (self.quizzQuestionLabel?.frame.width)!, (cellBackgroundView?.frame.height)!);
+        }
+        
         quizzGoodAnswerLabel?.text = "GOOD ANSWER: " + correctResponseResume
     }
     

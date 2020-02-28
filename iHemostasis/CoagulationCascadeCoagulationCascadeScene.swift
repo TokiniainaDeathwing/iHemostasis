@@ -27,7 +27,13 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
 //        self.sceneView!.frame = CGRect(0 ,0 , sW, h)
 //        self.sceneView?.subviews[0].frame = CGRect(0 ,0 , sW, h)
         self.addSubview(sceneView!);
-        
+        if(UIScreen.main.bounds.height >= 1024){
+            for i in 1..<sceneView!.subviews.count {
+                if((sceneView?.subviews[i].isKind(of: UIButton.self))!){
+                    (sceneView?.subviews[i] as! UIButton).setBackgroundImage(UIImage(named: "PH_26@3x"), for: .normal);
+                }
+            }
+        }
         // Hide node that should be hidden at the beginining of the animation
         for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
@@ -120,6 +126,8 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 14, nodeTag: 5)
+        n.animationType = Utils.AnimationType.blink
+        n.blinkCount = 5
         sceneData.nodeList.append(n)
         
         // ***************************** PHASE TWO - PROPAGATION PHASE *****************************
@@ -140,8 +148,8 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 2, nodeTag: 41)
-        n.animationType = Utils.AnimationType.disappear
-        n.disappearTime = 16
+        //n.animationType = Utils.AnimationType.disappear
+        //n.disappearTime = 16
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseTwoStartTime, time: 3, nodeTag: 20)

@@ -94,15 +94,16 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         let screenSize: CGRect = UIScreen.main.bounds
         switch orient {
         case .portrait:
+            let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
             self.patientHistoryView?.isHidden = true
             self.patientHistoryButtonContainerView?.isHidden = false
             self.patientHistoryView?.frame = CGRect(0, 238, (self.patientHistoryView?.frame.width)!, (self.patientHistoryView?.frame.height)!)
-            self.quizzView?.frame = CGRect(0, 238, 768, 686)
-            self.responseView?.frame = CGRect(0, 238, 768, 686)
-            self.summaryResponseView?.frame = CGRect(0, 238, 768, 686)
+            self.quizzView?.frame = CGRect(0, 238, screenSize.width, height)
+            self.responseView?.frame = CGRect(0, 238, screenSize.width, height)
+            self.summaryResponseView?.frame = CGRect(0, 238, screenSize.width, height)
             self.questionMarkView?.frame.origin = CGPoint(x: 117, y: 0)
-            self.headerView?.frame = CGRect(0, 110, 768, 128)
-            self.footerView?.frame = CGRect(0, 924, 768, 100)
+            self.headerView?.frame = CGRect(0, 110, screenSize.width, 128)
+            self.footerView?.frame = CGRect(0, (self.footerView?.frame.origin.y)!, screenSize.width, 100)
             self.titleLabel?.frame.origin = CGPoint(247, 8)
             self.resultLabel?.frame.origin = CGPoint(140, 8)
             self.titleLabel?.frame.size = CGSize(470, 89)
@@ -111,12 +112,13 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
             self.patientHistoryButtonContainerView?.isHidden = true
             self.questionMarkView?.frame.origin = CGPoint(x: 0, y: 0)
             self.patientHistoryView?.isHidden = false
-            self.patientHistoryView?.frame = CGRect(0, 109, (self.patientHistoryView?.frame.width)!, 659)
-            self.quizzView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.quizzView?.frame.height)!)
-            self.responseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.responseView?.frame.height)!)
-            self.summaryResponseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
-            self.headerView?.frame = CGRect(331, 110, 693, 128)
-            self.footerView?.frame = CGRect(331, 668, 693, 100)
+            self.patientHistoryView?.frame = CGRect(0, 109, (self.patientHistoryView?.frame.width)!, screenSize.height - 109)
+            let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
+            self.quizzView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+            self.responseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+            self.summaryResponseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+            self.headerView?.frame = CGRect(331, 110, screenSize.width - (self.patientHistoryView?.frame.width)!, 128)
+            self.footerView?.frame = CGRect(331, (self.footerView?.frame.origin.y)!, screenSize.width - (self.patientHistoryView?.frame.width)!, 100)
             self.titleLabel?.frame.origin = CGPoint(140, 8)
             self.titleLabel?.frame.size = CGSize(470, 89)
             self.resultLabel?.frame.origin = CGPoint(40, 8)
@@ -241,7 +243,7 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == quizzTableView {
-            let cell = tableView.dequeueReusableCell(withIdentifier: textCellIdentifier, for: indexPath) as! ClinicalCasesQuizzViewCell
+            let cell = tableView.cellForRow(at: indexPath) as! ClinicalCasesQuizzViewCell
             
             let row = indexPath.row
             let currentQuizzDataSelected = quizzDataArray[currentQuizzIndex]

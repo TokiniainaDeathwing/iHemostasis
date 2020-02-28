@@ -50,16 +50,16 @@ class SpecialFocusListViewController: ParentViewController, UITableViewDelegate,
         case .portrait:
             self.contextMenuTableView?.isHidden = true
             self.menuButton?.isHidden = false
-            self.contextMenuTableView?.frame = CGRect(506, 130, 262, 894)
-            self.webView?.frame = CGRect(0, 130.0, screenSize.width, 894)
+            self.contextMenuTableView?.frame = CGRect((self.blankView?.frame.width)!, 130, screenSize.width - (self.blankView?.frame.width)!, screenSize.height - 130)
+            self.webView?.frame = CGRect(0, 130.0, screenSize.width, screenSize.height - 130)
             self.blankView?.isHidden = false
         default:
             self.contextMenuTableView?.isHidden = false
             self.menuButton?.isHidden = true
             
-            self.contextMenuTableView?.frame = CGRect(0, 90, 292, 700)
+            self.contextMenuTableView?.frame = CGRect(0, 90, 292, screenSize.height - 90)
             
-            self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 670)
+            self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, screenSize.height - 90)
             
             self.blankView?.isHidden = true
         }
@@ -106,14 +106,14 @@ class SpecialFocusListViewController: ParentViewController, UITableViewDelegate,
             case .portrait:
                 self.contextMenuTableView?.isHidden = true
                 self.menuButton?.isHidden = false
-                self.contextMenuTableView?.frame = CGRect(506, 130, 262, 894)
-                self.webView?.frame = CGRect(0, 130.0, screenSize.width, 894)
+                self.contextMenuTableView?.frame = CGRect((self.blankView?.frame.width)!, 130, screenSize.width - (self.blankView?.frame.width)!, screenSize.height - 130)
+                self.webView?.frame = CGRect(0, 130.0, screenSize.width, screenSize.height - 130)
                 self.blankView?.isHidden = false
             default:
                 self.contextMenuTableView?.isHidden = false
                 self.menuButton?.isHidden = true
-                self.contextMenuTableView?.frame = CGRect(0, 90, 292, 700)
-                self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, 670)
+                self.contextMenuTableView?.frame = CGRect(0, 90, 292, screenSize.height - 90)
+                self.webView?.frame = CGRect((self.contextMenuTableView?.frame.width)!, 90.0, screenSize.width - (self.contextMenuTableView?.frame.width)!, screenSize.height - 90)
                 self.blankView?.isHidden = true
             }
             

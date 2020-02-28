@@ -14,12 +14,20 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
     let kPhaseThreeStartTime: Int = 33
     let kPhaseFourStartTime: Int = 45
     let kPhaseFiveStartTime: Int = 64
+    var percentHeight: CGFloat = 0
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        if(UIScreen.main.bounds.height >= 1024){
+            percentHeight = UIScreen.main.bounds.height * 20 / 100;
+        }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
+            percentHeight = UIScreen.main.bounds.height * 8 / 100;
+        }
         sceneView = Bundle.main.loadNibNamed("CoagulationCascadeFibrinFormation", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
-        
+        for i in 1..<sceneView!.subviews.count {
+             sceneView?.subviews[i].frame = CGRect(x: (sceneView?.subviews[i].frame.origin.x)!, y: (sceneView?.subviews[i].frame.origin.y)! + percentHeight, width: (sceneView?.subviews[i].frame.size.width)!, height: (sceneView?.subviews[i].frame.size.height)!);
+        }
         // Hide node that should be hidden at the beginining of the animation
         for i in 0..<sceneData.nodeList.count {
             let n = sceneData.nodeList[i]
@@ -36,6 +44,9 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
     
     override func initData() {
         super.initData()
+        if(UIScreen.main.bounds.height >= 1024){
+            percentHeight = UIScreen.main.bounds.height * 20 / 100;
+        }
         sceneData.phaseList = ["Fibrin Formation", "Fibrinolysis Initiation", "Fibrinolysis Amplification", "Antifibrinolysis: Inhibition of Fibrinolysis", "Fibrin and fibrinogen degradation products"]
         
         // Phase List - Description
@@ -112,15 +123,15 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseOneStartTime, time: 16, nodeTag: 54)
         n.hiddenAtStart = true
-        n.originPos = CGPoint(x: 561, y: 145)
-        n.destPos = CGPoint(x: 8, y: 362)
+        n.originPos = CGPoint(x: 561, y: 145 + percentHeight)
+        n.destPos = CGPoint(x: 8, y: 362 + percentHeight)
         n.animationType = Utils.AnimationType.translationAndDisappear
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseOneStartTime, time: 17, nodeTag: 55)
         n.hiddenAtStart = true
-        n.originPos = CGPoint(x: 561, y: 145)
-        n.destPos = CGPoint(x: 12, y: 322)
+        n.originPos = CGPoint(x: 561, y: 145 + percentHeight)
+        n.destPos = CGPoint(x: 12, y: 322 + percentHeight)
         n.animationType = Utils.AnimationType.translationAndDisappear
         sceneData.nodeList.append(n)
         
@@ -150,8 +161,8 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         // ***************************** PHASE TWO - FIBRINOLYSIS INITIATION *****************************
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseTwoStartTime, time: 1, nodeTag: 32)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPoint(130, 333)
-        n.destPos = CGPoint(386, 24)
+        n.originPos = CGPoint(130, 333 + percentHeight)
+        n.destPos = CGPoint(386, 24 + percentHeight)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
@@ -179,15 +190,15 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 4, nodeTag: 24)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPoint(130, 333)
-        n.destPos = CGPoint(543, 180)
+        n.originPos = CGPoint(130, 333 + percentHeight)
+        n.destPos = CGPoint(543, 180 + percentHeight)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 5, nodeTag: 5)
         n.animationType = Utils.AnimationType.translation
-        n.originPos = CGPoint(130, 333)
-        n.destPos = CGPoint(806, 271)
+        n.originPos = CGPoint(130, 333 + percentHeight)
+        n.destPos = CGPoint(806, 271 + percentHeight)
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         

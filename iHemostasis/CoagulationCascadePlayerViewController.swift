@@ -160,9 +160,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
 //        
 //        self.sceneView!.frame = CGRect(0 ,0 , sW, h)
 //        scene.frame = CGRect(0 ,0 , sW, h)
-        self.sceneView!.frame = CGRect(0, 0, 1024, 648)
-        scene.frame = CGRect(x: 0, y: 0, width: 1024, height: 648)
+        //self.sceneView!.frame = CGRect(0, 0, 1024, 648)
+        //scene.frame = CGRect(x: 0, y: 0, width: 1024, height: 648)
         sceneView!.addSubview(scene)
+        scene.frame = sceneView!.frame
+        scene.subviews[0].frame = sceneView!.frame
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
         sceneView!.isUserInteractionEnabled = true
@@ -277,7 +279,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
                     //self.sceneView!.center = CGPoint(,)
-                    self.sceneView!.frame = CGRect(0, 0, 1024, 648)
+                    self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
                 }
                 
             })
@@ -298,7 +300,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
                     //self.sceneView!.center = CGPoint(,)
-                    self.sceneView!.frame = CGRect(0, 0, 1024, 648)
+                    self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
                 }
                 
             })

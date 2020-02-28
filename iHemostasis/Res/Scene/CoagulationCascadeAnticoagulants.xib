@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,7 +17,7 @@
             <subviews>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="BackgroundPlayer" id="n1V-jg-zkI">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="center" image="A_26" id="4Lu-3e-PC3">
                     <rect key="frame" x="277" y="129" width="462" height="486"/>
@@ -342,54 +342,54 @@
         </view>
     </objects>
     <resources>
-        <image name="2" width="30" height="31"/>
+        <image name="2" width="30.5" height="31.5"/>
         <image name="21" width="31" height="32"/>
-        <image name="24" width="25" height="49"/>
-        <image name="A_10" width="235" height="40"/>
-        <image name="A_11" width="241" height="185"/>
-        <image name="A_12" width="214" height="68"/>
-        <image name="A_13" width="248" height="40"/>
+        <image name="24" width="25.5" height="49"/>
+        <image name="A_10" width="235" height="40.5"/>
+        <image name="A_11" width="241.5" height="185"/>
+        <image name="A_12" width="214" height="68.5"/>
+        <image name="A_13" width="248.5" height="40"/>
         <image name="A_15" width="233" height="105"/>
-        <image name="A_16" width="166" height="90"/>
+        <image name="A_16" width="166.5" height="90.5"/>
         <image name="A_17" width="279" height="65"/>
         <image name="A_18" width="27" height="30"/>
-        <image name="A_20" width="27" height="50"/>
-        <image name="A_20_ALPHA" width="27" height="50"/>
-        <image name="A_23" width="27" height="27"/>
+        <image name="A_20" width="27" height="50.5"/>
+        <image name="A_20_ALPHA" width="27" height="50.5"/>
+        <image name="A_23" width="27.5" height="27.5"/>
         <image name="A_26" width="462" height="486"/>
         <image name="A_26_ALPHA" width="462" height="486"/>
-        <image name="A_5" width="221" height="93"/>
+        <image name="A_5" width="221" height="93.5"/>
         <image name="A_6" width="227" height="65"/>
-        <image name="A_7" width="265" height="191"/>
-        <image name="A_8" width="166" height="200"/>
+        <image name="A_7" width="265" height="191.5"/>
+        <image name="A_8" width="166.5" height="200"/>
         <image name="A_9" width="232" height="114"/>
-        <image name="Analog" width="142" height="11"/>
-        <image name="Anti-iil" width="279" height="125"/>
-        <image name="Anti-xaTOP" width="279" height="95"/>
+        <image name="Analog" width="142.5" height="11"/>
+        <image name="Anti-iil" width="279" height="125.5"/>
+        <image name="Anti-xaTOP" width="279" height="95.5"/>
         <image name="BackgroundPlayer" width="1024" height="768"/>
-        <image name="Fluindione" width="77" height="9"/>
+        <image name="Fluindione" width="77.5" height="9"/>
         <image name="Heparins" width="219" height="83"/>
-        <image name="Highlight_AC" width="104" height="16"/>
-        <image name="Hirudin" width="48" height="9"/>
+        <image name="Highlight_AC" width="104.5" height="16"/>
+        <image name="Hirudin" width="48.5" height="9"/>
         <image name="LMWHs" width="52" height="8"/>
-        <image name="Synthetic-DTI" width="91" height="11"/>
+        <image name="Synthetic-DTI" width="91.5" height="11"/>
         <image name="UFH" width="34" height="8"/>
-        <image name="VKA" width="219" height="118"/>
-        <image name="Warfarin" width="55" height="8"/>
+        <image name="VKA" width="219" height="118.5"/>
+        <image name="Warfarin" width="55.5" height="8.5"/>
         <image name="acenocoumarol" width="86" height="10"/>
         <image name="apixaban" width="52" height="11"/>
         <image name="argatroban" width="68" height="11"/>
         <image name="bavilirudin" width="62" height="10"/>
-        <image name="betrixaban" width="58" height="8"/>
-        <image name="bottomXA" width="279" height="67"/>
+        <image name="betrixaban" width="58.5" height="8.5"/>
+        <image name="bottomXA" width="279" height="67.5"/>
         <image name="cc_vii" width="34" height="34"/>
         <image name="dabigatran" width="68" height="11"/>
-        <image name="danaparold" width="113" height="11"/>
+        <image name="danaparold" width="113.5" height="11"/>
         <image name="edoxaban" width="55" height="10"/>
-        <image name="fondaparinux" width="85" height="11"/>
+        <image name="fondaparinux" width="85.5" height="11"/>
         <image name="idraparinux" width="63" height="11"/>
-        <image name="nicoumalone" width="82" height="10"/>
+        <image name="nicoumalone" width="82.5" height="10"/>
         <image name="phenoprocoumon" width="93" height="11"/>
-        <image name="rivaroxaban" width="78" height="10"/>
+        <image name="rivaroxaban" width="78.5" height="10"/>
     </resources>
 </document>

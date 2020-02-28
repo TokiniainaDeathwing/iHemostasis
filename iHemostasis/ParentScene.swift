@@ -86,14 +86,31 @@ public class ParentScene: UIView {
                     self.disappearViewNode(v: nodeView)
                 }
             }
-            UIView.animate(withDuration: 1.0, animations: {
-                if nodeView.isHidden == true {
-                    nodeView.alpha = 0.0
-                }
-                
-                nodeView.isHidden = false
-                nodeView.alpha = 1.0
-            })
+            if(nodeInfo.blinkCount > 1){
+                UIView.animate(withDuration: 1.0, delay: 0, options : [.repeat], animations: {
+                        if nodeView.isHidden == true {
+                            nodeView.alpha = 0.0
+                        }
+                        nodeView.isHidden = false
+                        nodeView.alpha = 1.0
+                }, completion: { (finished: Bool) in
+                    if(finished && 0 < nodeInfo.blinkCount){
+                        nodeInfo.blinkCount = nodeInfo.blinkCount - 1
+                        NSLog("i = %d, tag = %d", nodeInfo.blinkCount,nodeInfo.nodeTag)
+                        if(nodeInfo.blinkCount == 1){
+                            nodeView.layer.removeAllAnimations()
+                        }
+                    }
+                })
+            }else{
+                UIView.animate(withDuration: 1.0, animations: {
+                    if nodeView.isHidden == true {
+                        nodeView.alpha = 0.0
+                    }
+                    nodeView.isHidden = false
+                    nodeView.alpha = 1.0
+                })
+            }
         case .disappear:
             if nodeView.isHidden == true {
                 nodeView.isHidden = false

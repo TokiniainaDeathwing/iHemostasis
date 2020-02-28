@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="EXK-48-cko">
-    <device id="ipad12_9" orientation="landscape">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="EXK-48-cko">
+    <device id="ipad12_9rounded" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -151,35 +151,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" id="Msc-l4-vTA">
-                                <rect key="frame" x="0.0" y="78" width="1024" height="648"/>
+                                <rect key="frame" x="0.0" y="100" width="1024" height="648"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="t2w-lX-ikf">
-                                        <rect key="frame" x="0.0" y="0.0" width="986" height="610"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.15194633599999999" green="0.49222761390000003" blue="0.7774435878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="jxi-5s-rsh" appends="YES" id="wbQ-WD-blY"/>
                                         </connections>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.68235294120000001" green="0.82352941180000006" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" id="hYq-KL-4rL" userLabel="Timeline View">
                                 <rect key="frame" x="0.0" y="725" width="1024" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="23W-OQ-TpS">
                                         <rect key="frame" x="959" y="3" width="37" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerForward"/>
                                         <connections>
                                             <action selector="forwardButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="pAU-ad-sQH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OeH-Mp-Mhs">
-                                        <rect key="frame" x="906" y="0.0" width="45" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="905" y="0.0" width="46" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerPlay"/>
                                         <connections>
                                             <action selector="playPauseButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="TYt-R4-zCp"/>
@@ -187,15 +187,15 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EOY-BL-4cs">
                                         <rect key="frame" x="852" y="2" width="46" height="39"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerRewind"/>
                                         <connections>
                                             <action selector="rewindButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="rXy-40-FWg"/>
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="WGO-aO-rVN">
-                                        <rect key="frame" x="6" y="7" width="833" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="6" y="7" width="832" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <connections>
                                             <action selector="videoSliderOnChangeActionWithSender:" destination="9Zq-BE-sVh" eventType="valueChanged" id="LZz-sx-dVl"/>
                                         </connections>
@@ -204,7 +204,7 @@
                                 <color key="backgroundColor" red="0.74117647058823533" green="0.15294117647058825" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" id="elA-d0-Mhj">
-                                <rect key="frame" x="678" y="78" width="346" height="648"/>
+                                <rect key="frame" x="678" y="100" width="346" height="648"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Phase" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ETR-jO-0QG">
@@ -231,7 +231,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" id="kKX-z5-2GE">
-                                <rect key="frame" x="726" y="78" width="298" height="562"/>
+                                <rect key="frame" x="726" y="100" width="298" height="562"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" id="wV3-NA-RYz">
@@ -270,7 +270,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VbA-T4-Tyx">
-                                <rect key="frame" x="947" y="78" width="77" height="77"/>
+                                <rect key="frame" x="947" y="100" width="77" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="CoagCascadePlayerSceneInformation"/>
@@ -279,7 +279,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" id="5ZE-k5-nIk">
-                                <rect key="frame" x="555" y="78" width="469" height="128"/>
+                                <rect key="frame" x="555" y="100" width="469" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xIR-HK-hO8">
@@ -290,7 +290,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SEb-hl-qrg">
-                                        <rect key="frame" x="414" y="22" width="33" height="32"/>
+                                        <rect key="frame" x="414" y="22" width="33" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Close"/>
                                         <connections>
@@ -768,7 +768,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available in printed format" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="15t-2q-blS">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available in printed format" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="15t-2q-blS">
                                                 <rect key="frame" x="3" y="412" width="281" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -804,7 +804,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="buttonThree" destination="Ntm-5A-VGC" id="HxW-by-RgL"/>
                         <outlet property="buttonTwo" destination="WzX-0z-bAu" id="LhY-Zj-ydf"/>
                         <outlet property="haemoscoreAppLabel" destination="xFo-an-z5p" id="jZz-3v-BkE"/>
-                        <outlet property="labelFive" destination="hFq-JT-HgL" id="B91-yV-bic"/>
+                        <outlet property="labelFive" destination="Al3-7g-Zsb" id="F9f-d6-HlG"/>
                         <outlet property="labelOne" destination="jCX-6N-gfH" id="pHF-Jl-mma"/>
                         <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
@@ -882,7 +882,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             </view>
                             <view contentMode="scaleToFill" id="NEV-OA-V72" userLabel="QuizzQuestionView">
                                 <rect key="frame" x="0.0" y="238" width="1366" height="686"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="73" sectionHeaderHeight="28" sectionFooterHeight="28" id="e6m-Cd-OF1">
                                         <rect key="frame" x="0.0" y="0.0" width="1366" height="697"/>
@@ -948,20 +948,20 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" id="Kdv-aj-AAc">
-                                                            <rect key="frame" x="85" y="0.0" width="683" height="109"/>
+                                                            <rect key="frame" x="84" y="0.0" width="1282" height="109"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" id="lFL-RE-NV8">
-                                                            <rect key="frame" x="91" y="0.0" width="631" height="41"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <rect key="frame" x="91" y="0.0" width="1282" height="41"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XJF-4W-3aj">
-                                                            <rect key="frame" x="91" y="39" width="631" height="52"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <rect key="frame" x="91" y="39" width="1282" height="52"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -971,7 +971,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" id="Pb0-PD-kDG">
-                                                            <rect key="frame" x="0.0" y="110" width="768" height="12"/>
+                                                            <rect key="frame" x="-1" y="110" width="1367" height="10"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
@@ -1011,7 +1011,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             </button>
                             <view contentMode="scaleToFill" id="gkx-w8-CNg" userLabel="FooterView">
                                 <rect key="frame" x="0.0" y="924" width="1366" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EVs-pe-Q2B">
                                         <rect key="frame" x="1120" y="17" width="208" height="65"/>
@@ -1046,40 +1046,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" id="1qZ-kC-0Sx">
-                                <rect key="frame" x="0.0" y="109" width="331" height="915"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hzA-ti-Lod">
-                                        <rect key="frame" x="93" y="41" width="181" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5Od-M4-qKw">
-                                        <rect key="frame" x="31" y="77" width="280" height="563"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R1a-WF-i7B">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="563"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </scrollView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="stat" id="TnZ-7h-8XW">
-                                        <rect key="frame" x="26" y="32" width="53" height="32"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" id="nAn-vi-X71" userLabel="QuizzAnswerView">
                                 <rect key="frame" x="0.0" y="238" width="1366" height="686"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="I0e-yf-b9W">
                                         <rect key="frame" x="0.0" y="0.0" width="1366" height="152"/>
@@ -1154,11 +1123,42 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     </view>
                                     <webView contentMode="scaleToFill" id="6la-0J-BYe">
                                         <rect key="frame" x="45" y="154" width="1275" height="539"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </webView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="1qZ-kC-0Sx">
+                                <rect key="frame" x="0.0" y="109" width="331" height="915"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hzA-ti-Lod">
+                                        <rect key="frame" x="93" y="41" width="181" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5Od-M4-qKw">
+                                        <rect key="frame" x="31" y="77" width="280" height="563"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R1a-WF-i7B">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="563"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </scrollView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="stat" id="TnZ-7h-8XW">
+                                        <rect key="frame" x="26" y="32" width="53" height="32"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1194,7 +1194,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emk-yp-nMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3278.125" y="-584.1796875"/>
+            <point key="canvasLocation" x="3278.0380673499267" y="-584.1796875"/>
         </scene>
         <!--Clinical Cases Quizz Detail Menu List View Controller-->
         <scene sceneID="FU2-t7-QOZ">
@@ -1207,7 +1207,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="82" sectionHeaderHeight="28" sectionFooterHeight="28" id="kgE-hy-oFj">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80474290780000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="S90-ob-Duc" rowHeight="82" style="IBUITableViewCellStyleDefault" id="8fV-qs-xmD">
                                         <rect key="frame" x="0.0" y="28" width="768" height="82"/>
@@ -1235,7 +1235,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80474290780000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VB9-ap-rLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1269,9 +1269,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <view contentMode="scaleToFill" id="c6X-2f-Oru">
+                                <rect key="frame" x="0.0" y="67" width="1110" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="TaI-sD-gcX">
-                                <rect key="frame" x="506" y="130" width="259" height="894"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="1110" y="130" width="259" height="894"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -1306,11 +1311,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <outlet property="delegate" destination="bw1-sp-nX5" id="a1q-af-qE4"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" id="c6X-2f-Oru">
-                                <rect key="frame" x="0.0" y="67" width="506" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1324,7 +1324,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rRa-bC-zA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2125" y="782.2265625"/>
+            <point key="canvasLocation" x="2124.597364568082" y="782.2265625"/>
         </scene>
         <!--Practical Manual Detail View Controller-->
         <scene sceneID="cK9-Ti-BgR">
@@ -1339,7 +1339,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YZO-Q6-iZd">
-                                <rect key="frame" x="1118" y="87" width="221" height="22"/>
+                                <rect key="frame" x="1118" y="87" width="225" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="                           MENU" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1349,11 +1349,11 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" id="lkM-Xq-w0R">
-                                <rect key="frame" x="0.0" y="130" width="765" height="894"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="130" width="1110" height="894"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <subviews>
                                     <webView opaque="NO" contentMode="scaleToFill" scalesPageToFit="YES" id="Trx-5D-jSB">
-                                        <rect key="frame" x="0.0" y="0.0" width="680" height="894"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1110" height="894"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <dataDetectorType key="dataDetectorTypes"/>
@@ -1365,8 +1365,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="x1o-5L-kfh">
-                                <rect key="frame" x="506" y="130" width="259" height="894"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="1110" y="130" width="259" height="894"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -1402,8 +1402,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" id="BkI-cZ-lTs">
-                                <rect key="frame" x="0.0" y="67" width="506" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="67" width="1110" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -1420,7 +1420,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phB-Oi-BIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4496.09375" y="224.41406249999997"/>
+            <point key="canvasLocation" x="4496.0468521229868" y="224.41406249999997"/>
         </scene>
         <!--Quick Guide List View Controller-->
         <scene sceneID="M7E-x3-cIE">
@@ -1440,7 +1440,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="njZ-fc-Lyj">
-                                <rect key="frame" x="1118" y="87" width="202" height="22"/>
+                                <rect key="frame" x="1118" y="87" width="225" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="                           MENU" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1450,16 +1450,16 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="2TZ-4J-VV1">
-                                <rect key="frame" x="506" y="130" width="262" height="894"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="1110" y="130" width="259" height="894"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80474290780141844" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="Aki-LK-t1u" detailTextLabel="LBK-o4-lEm" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="Jqk-f1-nLa">
-                                        <rect key="frame" x="0.0" y="28" width="262" height="122"/>
+                                        <rect key="frame" x="0.0" y="28" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jqk-f1-nLa" id="f8U-jc-doV">
-                                            <rect key="frame" x="0.0" y="0.0" width="262" height="122"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aki-LK-t1u">
@@ -1487,8 +1487,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" id="QGq-Zx-XIH">
-                                <rect key="frame" x="0.0" y="68" width="506" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="67" width="1110" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -1504,7 +1504,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQt-ta-2jn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2079.6875" y="1983.9843749999998"/>
+            <point key="canvasLocation" x="2079.3557833089312" y="1983.9843749999998"/>
         </scene>
         <!--Disclaimer View Controller-->
         <scene sceneID="Wxf-kR-7Ye">
@@ -1544,7 +1544,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EXK-48-cko" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yof-7a-yQb">
-                        <rect key="frame" x="0.0" y="20" width="1366" height="50"/>
+                        <rect key="frame" x="0.0" y="24" width="1366" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1756,37 +1756,37 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Antiphospholipid-Syndrome" width="130" height="185"/>
+        <image name="Antiphospholipid-Syndrome" width="130.5" height="185.5"/>
         <image name="BG" width="768" height="1024"/>
         <image name="Bleeding" width="423" height="610"/>
         <image name="ClinCasesSubmenuBackground" width="768" height="1024"/>
-        <image name="ClinicalCases" width="58" height="52"/>
-        <image name="Close" width="31" height="31"/>
+        <image name="ClinicalCases" width="58" height="52.5"/>
+        <image name="Close" width="31.5" height="31.5"/>
         <image name="CoagCascadePlayerForward" width="10" height="18"/>
-        <image name="CoagCascadePlayerPlay" width="11" height="18"/>
+        <image name="CoagCascadePlayerPlay" width="11" height="18.5"/>
         <image name="CoagCascadePlayerRewind" width="10" height="18"/>
-        <image name="CoagCascadePlayerSceneInformation" width="31" height="31"/>
+        <image name="CoagCascadePlayerSceneInformation" width="31.5" height="31.5"/>
         <image name="CoagCascadeSubmenuBackground" width="768" height="1024"/>
         <image name="CoagCascadeSubmenuBoutonA" width="278" height="149"/>
-        <image name="CoagCascadeSubmenuBoutonB" width="278" height="149"/>
-        <image name="CoagCascadeSubmenuBoutonC" width="278" height="149"/>
+        <image name="CoagCascadeSubmenuBoutonB" width="278.5" height="149"/>
+        <image name="CoagCascadeSubmenuBoutonC" width="278.5" height="149"/>
         <image name="CoagCascadeSubmenuBoutonD" width="278" height="150"/>
-        <image name="CoagCascadeSubmenuBoutonE" width="278" height="150"/>
-        <image name="CoagulationCascade" width="53" height="34"/>
-        <image name="Disclaimer" width="31" height="31"/>
+        <image name="CoagCascadeSubmenuBoutonE" width="278.5" height="150"/>
+        <image name="CoagulationCascade" width="53" height="34.5"/>
+        <image name="Disclaimer" width="31.5" height="31.5"/>
         <image name="Icone Appli Scores" width="548" height="799"/>
         <image name="Parenteral-anticoagulants" width="132" height="188"/>
         <image name="PracticalManual" width="53" height="40"/>
         <image name="PracticalManual-Bg" width="1024" height="768"/>
-        <image name="Quick-Guide" width="53" height="47"/>
-        <image name="SpecialFocus" width="54" height="55"/>
+        <image name="Quick-Guide" width="53" height="47.5"/>
+        <image name="SpecialFocus" width="54.5" height="55"/>
         <image name="SplashScreen" width="768" height="1024"/>
-        <image name="coche" width="17" height="14"/>
-        <image name="context-menu" width="23" height="19"/>
-        <image name="cross" width="15" height="15"/>
-        <image name="down-arrow" width="12" height="12"/>
-        <image name="interogation" width="45" height="45"/>
-        <image name="next" width="203" height="64"/>
+        <image name="coche" width="17.5" height="14"/>
+        <image name="context-menu" width="23.5" height="19"/>
+        <image name="cross" width="15.5" height="15.5"/>
+        <image name="down-arrow" width="12.5" height="12"/>
+        <image name="interogation" width="45.5" height="45.5"/>
+        <image name="next" width="203.5" height="64.5"/>
         <image name="oral-anticoagulans" width="444" height="640"/>
         <image name="quizz-checked" width="23" height="23"/>
         <image name="quizz-unchecked" width="23" height="23"/>

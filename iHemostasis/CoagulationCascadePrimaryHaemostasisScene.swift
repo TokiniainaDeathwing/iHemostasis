@@ -28,6 +28,18 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
                 imageView.isHidden = true
             }
         }
+        var percentWidth : CGFloat = 0;
+        if(UIScreen.main.bounds.height >= 1024){
+            percentWidth = CGFloat(UIScreen.main.bounds.width * 2 / 100);
+        }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
+            percentWidth = CGFloat(UIScreen.main.bounds.width * 0.8 / 100);
+        }
+        let imageView = self.sceneView!.viewWithTag(57) as! UIImageView
+        imageView.frame = CGRect(x: (imageView.frame.origin.x) - percentWidth, y: (imageView.frame.origin.y), width: (imageView.frame.size.width), height: (imageView.frame.size.height));
+        let imageView2 = self.sceneView!.viewWithTag(59) as! UIImageView
+        imageView2.frame = CGRect(x: (imageView2.frame.origin.x) - percentWidth, y: (imageView2.frame.origin.y), width: (imageView2.frame.size.width), height: (imageView2.frame.size.height));
+        let buttonView = self.sceneView!.viewWithTag(5700) as! UIButton
+        buttonView.frame = CGRect(x: (buttonView.frame.origin.x) - percentWidth, y: (buttonView.frame.origin.y), width: (buttonView.frame.size.width), height: (buttonView.frame.size.height));
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -210,7 +222,7 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 16, nodeTag: 6)
-        n.nodeDescription = "TXA2:\n\nThromboxane A2\nProduced by stimulated platelets, binds to TXA\nActivates platelets to shape change, aggregation, secretion, promote thrombus formation"
+        n.nodeDescription = "TXA or TXA2R:\n\nThromboxane A2 receptor, also called TP\nStimulation of TXA results in activation of various signalling cascades"
         sceneData.nodeList.append(n)
         
         // ***************************** PHASE TWO - PLATELET ACTIVATION AND AMPLIFICATION *****************************

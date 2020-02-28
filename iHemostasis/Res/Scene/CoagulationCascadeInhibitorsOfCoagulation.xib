@@ -17,7 +17,7 @@
             <subviews>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="FF_51" id="U7h-FQ-lz6">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="center" image="IC_42" id="whh-fI-l7m">
                     <rect key="frame" x="23" y="442" width="135" height="121"/>

@@ -20,6 +20,7 @@ class CoagulationCascadeNodeModel {
     var blinkTime: Int = 0
     var disappearTime: Int = 0
     var hiddenAtStart = false
+    var blinkCount: Int = 1
     
     
     init(phaseStartTime: Int, time: Int, nodeTag: Int) {

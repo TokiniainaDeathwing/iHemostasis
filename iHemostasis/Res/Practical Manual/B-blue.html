@@ -1,14 +1,14 @@
 <html>
     <style>
         body {
-            margin-left:100px;
+            
             margin-bottom:100px;
         }
         p{
             position: relative;
         }
         p img{
-            width: 70%; display: block; margin-left: 10%;
+            display: block; margin-left: 10%;
         }
         p img.gotofig{
             width: 70px;
@@ -31,29 +31,27 @@
         <input type="hidden" id="yPos" name="yPos" value="0">
             <p class="Introduction">
                 <img class="android"  src="s61a.png">
+                <img class="gotofig android" style="top: 74%;" src="goToFigure.png" onclick="loadFigure('Figure6')">
             </p>
-            <p class="Introduction">
-                <img class="android"  src="s61b.png">
-            </p>
-            <p class="Introduction">
-                <img class="android"  src="s61c.png">
+            <p class="Figure6">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                <img class="android" src="s61b.png">
             </p>
             <p class="Introduction">
                 <img class="android"  src="s61d.png">
-                <img class="gotofig android" style="bottom: 20%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+                <img class="gotofig android" style="bottom: 76%;" src="goToFigure.png" onclick="loadFigure('Figure5')">
+                <img class="gotofig android" style="bottom: 49%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
             </p>
             <p class="Figure1">
                 <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
                 <img class="android" src="s61figs1.png">
             </p>
+            <p class="Figure5">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                    <img class="android" style="width: 90%;" src="s62b.jpg">
+            </p>
             <p class="Pathophysiology">
                 <img class="android"  src="s62a.png">
-            </p>
-            <p class="Pathophysiology">
-                <img class="android"  src="s62b.png">
-            </p>
-            <p class="Pathophysiology">
-                <img class="android"  src="s62c.png">
             </p>
             <p class="Pathophysiology">
                 <img class="android"  src="s62d.png">
@@ -74,7 +72,7 @@
                 <img class="android"  src="s63b.png">
             </p>
             <p class="Figure3">
-                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Laboratory diagnosis')">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Pathophysiology')">
                 <img class="android" src="s63figs2.png">
             </p>
             <p class="Laboratory diagnosis">
