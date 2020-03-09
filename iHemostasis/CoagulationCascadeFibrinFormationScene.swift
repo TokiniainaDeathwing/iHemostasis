@@ -47,6 +47,9 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         if(UIScreen.main.bounds.height >= 1024){
             percentHeight = UIScreen.main.bounds.height * 20 / 100;
         }
+        else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
+            percentHeight = UIScreen.main.bounds.height * 8 / 100;
+        }
         sceneData.phaseList = ["Fibrin Formation", "Fibrinolysis Initiation", "Fibrinolysis Amplification", "Antifibrinolysis: Inhibition of Fibrinolysis", "Fibrin and fibrinogen degradation products"]
         
         // Phase List - Description
