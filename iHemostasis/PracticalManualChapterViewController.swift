@@ -320,7 +320,98 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "Conclusion"],
         ["title" : "References"]
     ]
+    //Platelets
+    var contextPhysiology = [
+        ["title" : "Introduction", "filename" : "Platelets-Orange"],
+        ["title" : "Platelet structure"],
+        ["title" : "Platelet receptors"],
+        ["title" : "Platelet formation and lifespan"],
+        ["title" : "Platelets in haemostasis and thrombosis"],
+        ["title" : "Thrombosis"],
+        ["title" : "Non-haemostatic functions of platelets"],
+        ["title" : "Key messages"],
+        ["title" : "References"],
+    ]
     
+    var contextTrombocytopenia = [
+        ["title" : "Congenital thrombocytopenia", "filename" : "Platelets-LightBlue"],
+        ["title" : "Immune thrombocytopenia (ITP)"],
+        ["title" : "Alloimmune thrombocytopenia"],
+        ["title" : "Drug-induced thrombocytopenia"],
+        ["title" : "Thrombocytopenia in pregnancy"],
+        ["title" : "Thrombotic thrombocytopenic"],
+        ["title" : "References"],
+    ]
+    
+    var contextThrombocythemia = [
+        ["title" : "Introduction", "filename" : "Platelets-purple"],
+        ["title" : "Clinical presentation"],
+        ["title" : "Management of Essential Thrombocythemia"],
+        ["title" : "Paediatric thrombocythemia"],
+        ["title" : "Conclusions"],
+        ["title" : "References"],
+    ]
+    
+    var contextCongenital = [
+         ["title" : "Introduction", "filename" : "Platelets-Marrown"],
+         ["title" : "Normal platelet count and abnormal aggregation"],
+         ["title" : "Normal platelet count and normal aggregation"],
+         ["title" : "Thrombocytopenia with small platelets and platelet dysfunction"],
+         ["title" : "Thrombocytopenia with normal-size platelets and platelet dysfunction"],
+         ["title" : "Thrombocytopenia with large or giant platelets and platelet dysfunction"],
+         ["title" : "Management of patients with platelet function disorders"],
+         ["title" : "Conclusion"],
+         ["title" : "References"],
+    ]
+    
+    var contextAcquiredPlatelet = [
+        ["title" : "Introduction", "filename" : "Platelets-Red"],
+        ["title" : "Major tyrosine kinases involved in the platelet signalling machinery"],
+        ["title" : "Acquired platelet disorders induced by clinically available TKIs"],
+        ["title" : "Conclusion"],
+        ["title" : "References"],
+    ]
+    
+    var contextLaboratory = [
+        ["title" : "Introduction", "filename" : "Platelets-Blue"],
+        ["title" : "Blood counts and assessment of the blood film by light microscopy"],
+        ["title" : "Immunostaining of the blood film to assess for specific platelet disorders"],
+        ["title" : "Bleeding time and closure times"],
+        ["title" : "Platelet aggregometry"],
+        ["title" : "Interpretation of aggregation findings"],
+        ["title" : "Whole mount electron microscopy assessments for platelet dense granule deficiency"],
+        ["title" : "Others methods to assess platelet function"],
+        ["title" : "Concluding remarks"],
+        ["title" : "Selected papers of interest"],
+    ]
+    
+    var contextViscoelastrography = [
+        ["title" : "Introduction", "filename" : "Platelets-Purple2"],
+        ["title" : "Rotational VE methods"],
+        ["title" : "Non-rotational VE methods"],
+        ["title" : "Clinical studies"],
+        ["title" : "Conclusion"],
+        ["title" : "References"]
+    ]
+    
+    var contextAntiplatelet = [
+        ["title" : "Background", "filename" : "Platelets-Green"],
+        ["title" : "Cyclooxygenase (COX)-1 inhibition: aspirin"],
+        ["title" : "Antiplatelet agents targeting the P2Y12-receptor"],
+        ["title":"Glycoprotein"],
+        ["title" : "Novel antiplatelet agents"],
+        ["title" : "Conclusion"],
+        ["title" : "References"]
+    ]
+    var contextPerioperative = [
+        ["title" : "Introduction", "filename" : "Platelets-Green2"],
+        ["title" : "Antiplatelet therapy and bleeding and ischaemia in cardiac and non-cardiac surgery"],
+        ["title" : "Dual antiplatelet therapy"],
+        ["title" : "Association between on-treatment platelet reactivity and bleeding in cardiac and non-cardiac surgery"],
+        ["title" : "Perioperative management of cardiac and non-cardiac surgery"],
+        ["title" : "Conclusion"],
+        ["title" : "References"]
+    ]
     @IBOutlet var collectionView : UICollectionView!
     
     
@@ -335,10 +426,12 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
             self.setScreenTitle(title: "Parenteral Anticoagulants - Summary")
         }else if (self.practicalManualType == Utils.PracticalManualType.OralAnticoagulants){
             self.setScreenTitle(title: "Oral Anticoagulants - Summary")
-        }else{
+        }else if(self.practicalManualType==Utils.PracticalManualType.BleedingDisorders){
             self.setScreenTitle(title: "Bleeding disorders - Summary")
         }
-        
+        else if(self.practicalManualType==Utils.PracticalManualType.Platelets){
+            self.setScreenTitle(title: "Platelets - Summary")
+        }
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
@@ -523,6 +616,35 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
                 default:
                     practicalManualDetailViewController.contextMenuPointer = contextHaemophiliaPharma
             }
+            
+            
+        }
+        //Platelets
+        else if(self.practicalManualType == Utils.PracticalManualType.Platelets){
+            switch indexPath.row{
+                case 0:
+                    practicalManualDetailViewController.contextMenuPointer = contextPhysiology
+                case 1:
+                    practicalManualDetailViewController.contextMenuPointer = contextTrombocytopenia
+                case 2:
+                    practicalManualDetailViewController.contextMenuPointer = contextThrombocythemia
+                case 3:
+                    practicalManualDetailViewController.contextMenuPointer = contextCongenital
+                case 4:
+                    practicalManualDetailViewController.contextMenuPointer = contextAcquiredPlatelet
+                case 5:
+                    practicalManualDetailViewController.contextMenuPointer = contextLaboratory
+                case 6:
+                    practicalManualDetailViewController.contextMenuPointer = contextViscoelastrography
+                case 7:
+                    practicalManualDetailViewController.contextMenuPointer = contextAntiplatelet
+                case 8:
+                    practicalManualDetailViewController.contextMenuPointer = contextPerioperative
+                default:
+                    practicalManualDetailViewController.contextMenuPointer = contextPhysiology
+            }
+            
+            
         }
         
         let element = practicalManualChapters[indexPath.row]

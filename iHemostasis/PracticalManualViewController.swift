@@ -13,16 +13,22 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var labelTwo: UILabel?
     @IBOutlet weak var labelThree: UILabel?
     @IBOutlet weak var labelFive: UILabel?
+    
+    //Ajout labelSix
     @IBOutlet weak var buttonOne: UIButton?
     @IBOutlet weak var buttonTwo: UIButton?
     @IBOutlet weak var buttonThree: UIButton?
     @IBOutlet weak var buttonFour: UIButton?
     @IBOutlet weak var buttonFive: UIButton?
+    @IBOutlet weak var buttonSix: UIButton?
+    
+    //Ajout buttonSix
     @IBOutlet weak var viewOne: UIView?
     @IBOutlet weak var viewTwo: UIView?
     @IBOutlet weak var viewThree: UIView?
     @IBOutlet weak var viewFour: UIView?
     @IBOutlet weak var viewFive: UIView?
+    @IBOutlet weak var viewSix: UIView?
     @IBOutlet weak var haemoscoreAppLabel: UILabel?
     
     @IBOutlet var scrollView: UIScrollView!
@@ -68,6 +74,24 @@ class PracticalManualViewController: ParentViewController {
         ["description":"", "title":"Bleeding disorders:\nspecial circumstances", "colour":"#A4C156","author":"Richard Gooding","entity":"Department of Haematology,\nUniversity Hospitals of Leicester -\nLeicester, United Kingdom."],
     ]
     
+    //PraticalManualChapterFive (details)
+    /*
+     
+     */
+    private let praticalManualChaptersSix=[
+    ["description":"", "title":"Platelet physiology", "colour":"#EA7805", "author":"Paul Harrison", "entity": "Institute of Inflammation and Ageing,\nCollege of Medical and Dental Sciences,\nUniversity of Birmingham - Birmingham, United Kingdom."],
+    ["description":"", "title":"Platelet pathology: Thrombocytopenia", "colour":"#009FE4", "author":"Marco Cattaneo", "entity": "Division of Internal Medicine,\nSan Paolo Hospital and Milano University - Milano, Italy."],
+    ["description":"", "title":"Platelet pathology: Thrombocythemia", "colour":"#724092", "author":"Michele P. Lamber and Mortimer Poncz", "entity": "Special Coagulation Laboratory,\nDepartment of Pediatrics, Division of Hematology,\nDivision of Hematology Jane,\nChildren’s Hospital of Philadelphia,\nUniversity of Pennsylvania – Philadelphia, Pennsylvania, USA."],
+    ["description":"", "title":"Platelet pathology: Congenital platelet function disorders", "colour":"#80715D", "author":"Paolo Gresele, Loredana Bury, Emanuela Falcinelli", "entity": "Division of Internal and Cardiovascular Medicine,\nDepartment of Medicine,\nUniversity of Perugia - Perugia, Italy."],
+    ["description":"", "title":"Acquired platelet anomalies induced by tyrosine kinase inhibitors", "colour":"#BD2A0C", "author":"Bernard Payrastre", "entity": "Haematology Laboratory,\nToulouse University Hospital,\nIINSERM U1048, Toulouse III Paul Sabatier University - Toulouse, France."],
+    ["description":"", "title":"Laboratory diagnosis of platelet disorders", "colour":"#3F86C6", "author":"Catherine P.M. Hayward", "entity": "Departments of Pathology and Molecular Medicine, and Medicine\n Hamilton Regional Laboratory Medicine Program,\nMcMaster University - Hamilton, Ontario, Canada."],
+    ["description":"", "title":"Viscoelastography: Review of its application to platelet function assessment", "colour":"#A44392", "author":"Joseph A. Jakubowski", "entity": "Lilly Research Laboratories,\nEli Lilly and Company - Indianapolis, Indiana, USA."],
+    ["description":"", "title":"Antiplatelet drugs", "colour":"#B2C34A", "author":"Sergio Buccheri and Dominick J. Angiolillo", "entity": "Division of Cardiology,\nUniversity Hospital Vittorio Emanuele,\nUniversity of Catania - Catania, Italy.\n\nDivision of Cardiology,\nUniversity of Florida College of Medicine - Jacksonville, Florida, USA."],
+    ["description":"", "title":"Perioperative management of patients on antiplatelet drugs", "colour":"#03723A", "author":"Elisabeth Mahla and Wolfgang Korte", "entity": "Anaesthesiology and Intensive Care Medicine,\nMedical University of Graz - Graz, Austria.\n\nHaemostasis and Haemophilia Center,\nCentre for Laboratory Medicine - Saint Gallen, Switzerland."],
+
+    
+    ]
+    
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         reloadUI(size: size)
     }
@@ -80,14 +104,16 @@ class PracticalManualViewController: ParentViewController {
             viewTwo?.frame.origin = CGPoint(447, 79)
             viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
-            viewThree?.frame.origin = CGPoint(71, 1100)
+            viewSix?.frame.origin = CGPoint(71, 1100)
+            viewThree?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
             viewTwo?.frame.origin = CGPoint(371, 69)
             viewFour?.frame.origin = CGPoint(691, 69)
             viewFive?.frame.origin = CGPoint(50, 542)
-            viewThree?.frame.origin = CGPoint(371, 542)
+            viewSix?.frame.origin = CGPoint(371, 542)
+            viewThree?.frame.origin=CGPoint(691,542)
             scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
         }
     }
@@ -102,21 +128,24 @@ class PracticalManualViewController: ParentViewController {
             viewTwo?.frame.origin = CGPoint(447, 79)
             viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
-            viewThree?.frame.origin = CGPoint(71, 1100)
+            viewSix?.frame.origin = CGPoint(71, 1100)
+            viewThree?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         case .portraitUpsideDown:
             viewOne?.frame.origin = CGPoint(71, 79)
             viewTwo?.frame.origin = CGPoint(447, 79)
             viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
-            viewThree?.frame.origin = CGPoint(71, 1100)
+            viewSix?.frame.origin = CGPoint(71, 1100)
+            viewThree?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
             viewTwo?.frame.origin = CGPoint(371, 69)
             viewFour?.frame.origin = CGPoint(691, 69)
             viewFive?.frame.origin = CGPoint(50, 542)
-            viewThree?.frame.origin = CGPoint(371, 542)
+            viewSix?.frame.origin = CGPoint(371, 542)
+            viewThree?.frame.origin=CGPoint(691,542)
             scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
             
             //isLandscape = true
@@ -140,6 +169,8 @@ class PracticalManualViewController: ParentViewController {
         labelThree!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         labelFive!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         haemoscoreAppLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
+        
+        // Add labelSix
         
         self.setScreenTitle(title: "Practical Manual Series")
         
@@ -190,6 +221,14 @@ class PracticalManualViewController: ParentViewController {
             practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersFour
             practicalManualChapterViewController.setScreenTitle(title: "Bleeding disorders")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.BleedingDisorders
+            self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
+            self.navigationController!.navigationBar.topItem?.title = "     "
+        }
+        //Add new Button Six
+        else if (target == buttonSix){
+            practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSix
+            practicalManualChapterViewController.setScreenTitle(title: "Platelets")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Platelets
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
         }

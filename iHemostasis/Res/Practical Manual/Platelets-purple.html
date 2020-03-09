@@ -1,0 +1,101 @@
+
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+              width:75%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="platelets31a.png">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32a.png">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32b.png">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32c.png">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32d.png">
+                             <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table1')">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32e.png">
+                        <img style="bottom:75%" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+                        <img style="bottom:40%" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Clinical presentation">
+                <img class="android"  src="platelets32f.png">
+            </p>
+            
+            <p class="Management of Essential Thrombocythemia">
+                <img class="android"  src="platelets33a.png">
+                <img style="bottom:60%" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Paediatric thrombocythemia">
+                <img class="android"  src="platelets34a.png">
+            </p>
+            
+            <p class="Conclusions">
+                <img class="android"  src="platelets35a.png">
+            </p>
+            <p class="References" style="margin-block-end:0px">
+                <img class="android"  src="platelets36a.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets36b.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets36c.png">
+            </p>
+            <p class="References" style="margin-block-start:0px">
+                <img class="android"  src="platelets36d.png">
+            </p>
+            <p class="Table1">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical presentation')">
+             <img class="android"  src="platelets32g.png">
+            </p>
+            <p class="Table2">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical presentation')">
+             <img class="android"  src="platelets32h.png">
+            </p>
+            <p class="Figure1">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical presentation')">
+             <img class="android"  src="platelets32i.png">
+            </p>
+            <p class="Figure2">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Management of Essential Thrombocythemia')">
+             <img class="android"  src="platelets33b.png">
+            </p>
+            
+    </body>
+</html>
+
