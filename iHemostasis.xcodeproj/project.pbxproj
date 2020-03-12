@@ -11,6 +11,12 @@
 		230FCD0123DA30AF00E9FE57 /* s14eFig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */; };
 		23190FA723A04EDC007B03F4 /* s24bImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23190FA623A04EDC007B03F4 /* s24bImg.jpg */; };
 		2334B0AE2384B40B00513461 /* PH_26@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334B0AD2384B40B00513461 /* PH_26@3x.png */; };
+		2334F4262419F906000CD3F8 /* platelets74g.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F4232419F905000CD3F8 /* platelets74g.png */; };
+		2334F4272419F906000CD3F8 /* platelets74f.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F4242419F906000CD3F8 /* platelets74f.png */; };
+		2334F4282419F906000CD3F8 /* platelets74h.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F4252419F906000CD3F8 /* platelets74h.png */; };
+		2334F42A2419FA7F000CD3F8 /* platelets76d.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F4292419FA7F000CD3F8 /* platelets76d.png */; };
+		2334F42C2419FC3F000CD3F8 /* platelets81d.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F42B2419FC3E000CD3F8 /* platelets81d.png */; };
+		2334F42E2419FCEA000CD3F8 /* platelets73e.png in Resources */ = {isa = PBXBuildFile; fileRef = 2334F42D2419FCEA000CD3F8 /* platelets73e.png */; };
 		23368660238517D300A96B7C /* s89iImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2336865F238517D200A96B7C /* s89iImg.jpg */; };
 		233686622385195500A96B7C /* s84dfigs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 233686612385195500A96B7C /* s84dfigs.jpg */; };
 		2336866423851AFE00A96B7C /* s84d2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2336866323851AFE00A96B7C /* s84d2.png */; };
@@ -250,6 +256,7 @@
 		2361E6272379A3CB0083F118 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61D2379A3C90083F118 /* 14.jpg */; };
 		2361E6282379A3CB0083F118 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61E2379A3CB0083F118 /* 13.jpg */; };
 		2361E62E2379A4C60083F118 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E62D2379A4C60083F118 /* 9.jpg */; };
+		239AD024241908B300935439 /* platelets53ksub.png in Resources */ = {isa = PBXBuildFile; fileRef = 239AD023241908B300935439 /* platelets53ksub.png */; };
 		23DFF0E9240D02B4001941C3 /* Platelets-Orange.html in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */; };
 		23DFF0EF240D0D69001941C3 /* platelets11a.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0EE240D0D68001941C3 /* platelets11a.png */; };
 		23DFF0F1240D12B4001941C3 /* platelets11b.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0F0240D12B4001941C3 /* platelets11b.png */; };
@@ -1216,6 +1223,12 @@
 		230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s14eFig.jpg; sourceTree = "<group>"; };
 		23190FA623A04EDC007B03F4 /* s24bImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s24bImg.jpg; sourceTree = "<group>"; };
 		2334B0AD2384B40B00513461 /* PH_26@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PH_26@3x.png"; sourceTree = "<group>"; };
+		2334F4232419F905000CD3F8 /* platelets74g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets74g.png; path = platelets/platelets74g.png; sourceTree = SOURCE_ROOT; };
+		2334F4242419F906000CD3F8 /* platelets74f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets74f.png; path = platelets/platelets74f.png; sourceTree = SOURCE_ROOT; };
+		2334F4252419F906000CD3F8 /* platelets74h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets74h.png; path = platelets/platelets74h.png; sourceTree = SOURCE_ROOT; };
+		2334F4292419FA7F000CD3F8 /* platelets76d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets76d.png; path = platelets/platelets76d.png; sourceTree = SOURCE_ROOT; };
+		2334F42B2419FC3E000CD3F8 /* platelets81d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets81d.png; path = platelets/platelets81d.png; sourceTree = SOURCE_ROOT; };
+		2334F42D2419FCEA000CD3F8 /* platelets73e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets73e.png; path = platelets/platelets73e.png; sourceTree = SOURCE_ROOT; };
 		2336865F238517D200A96B7C /* s89iImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s89iImg.jpg; sourceTree = "<group>"; };
 		233686612385195500A96B7C /* s84dfigs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s84dfigs.jpg; sourceTree = "<group>"; };
 		2336866323851AFE00A96B7C /* s84d2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s84d2.png; sourceTree = "<group>"; };
@@ -1455,6 +1468,7 @@
 		2361E61D2379A3C90083F118 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
 		2361E61E2379A3CB0083F118 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
 		2361E62D2379A4C60083F118 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		239AD023241908B300935439 /* platelets53ksub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets53ksub.png; path = platelets/platelets53ksub.png; sourceTree = SOURCE_ROOT; };
 		23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "Platelets-Orange.html"; sourceTree = "<group>"; };
 		23DFF0EE240D0D68001941C3 /* platelets11a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11a.png; path = platelets/platelets11a.png; sourceTree = SOURCE_ROOT; };
 		23DFF0F0240D12B4001941C3 /* platelets11b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11b.png; path = platelets/platelets11b.png; sourceTree = SOURCE_ROOT; };
@@ -2495,6 +2509,7 @@
 				233ED1012410D92D0073D3A9 /* platelets83w.png */,
 				233ED0F92410CE350073D3A9 /* platelets82a.png */,
 				233ED0F82410CE340073D3A9 /* platelets82b.png */,
+				2334F42B2419FC3E000CD3F8 /* platelets81d.png */,
 				233ED0F72410CE340073D3A9 /* platelets82c.png */,
 				23EB421024161BF700EB2D66 /* platelets83vsub.png */,
 				23EB420F24161BF700EB2D66 /* platelets83wsub.png */,
@@ -2619,6 +2634,7 @@
 				23415725240F9591007ABA4C /* platelets55c.png */,
 				23415726240F9591007ABA4C /* platelets55d.png */,
 				23415728240F9592007ABA4C /* platelets55e.png */,
+				239AD023241908B300935439 /* platelets53ksub.png */,
 				23415724240F9591007ABA4C /* platelets55f.png */,
 				23415704240F9051007ABA4C /* platelets52a.png */,
 				23415707240F9052007ABA4C /* platelets52b.png */,
@@ -2692,8 +2708,13 @@
 				23EB420924161A0900EB2D66 /* platelets72fsub.png */,
 				233ED0D22410C4180073D3A9 /* platelets71a.png */,
 				233ED0C82410C40D0073D3A9 /* platelets72a.png */,
+				2334F4242419F906000CD3F8 /* platelets74f.png */,
+				2334F4232419F905000CD3F8 /* platelets74g.png */,
+				2334F4252419F906000CD3F8 /* platelets74h.png */,
+				2334F42D2419FCEA000CD3F8 /* platelets73e.png */,
 				23EB420B24161B2100EB2D66 /* platelets72gsub.png */,
 				233ED0C92410C40D0073D3A9 /* platelets72b.png */,
+				2334F4292419FA7F000CD3F8 /* platelets76d.png */,
 				233ED0C52410C40D0073D3A9 /* platelets72c.png */,
 				233ED0C42410C40C0073D3A9 /* platelets72d.png */,
 				233ED0C62410C40D0073D3A9 /* platelets72e.png */,
@@ -4400,6 +4421,7 @@
 				E7E61A261DD089200037AA88 /* chapter-3-purple---part-2_12.png in Resources */,
 				E7E619EC1DD0887C0037AA88 /* chapter-3-purple---part-2_04.png in Resources */,
 				E7E61A931DD08A280037AA88 /* chapter-4-part-2---ios_01.jpg in Resources */,
+				239AD024241908B300935439 /* platelets53ksub.png in Resources */,
 				234156BA240F80B2007ABA4C /* platelets42p.png in Resources */,
 				23DFF171240E6DB5001941C3 /* platelets24e.png in Resources */,
 				762BF9392268EFDB00431217 /* s14a.png in Resources */,
@@ -4485,6 +4507,7 @@
 				7620525F225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.41.png in Resources */,
 				E70C7B081DCC985000E8A89F /* chapter-1-orange-part-2---IOS_02.jpg in Resources */,
 				23415709240F9052007ABA4C /* platelets52c.png in Resources */,
+				2334F4282419F906000CD3F8 /* platelets74h.png in Resources */,
 				762BFA122269B6A100431217 /* s56b.png in Resources */,
 				76340A5F2267AFF300B9EABE /* S8_5_2.png in Resources */,
 				76340A4B2267AF7300B9EABE /* S8_3.png in Resources */,
@@ -4512,6 +4535,7 @@
 				23415693240F7C70007ABA4C /* platelets41d.png in Resources */,
 				E7E61A991DD08A280037AA88 /* chapter-4-part-2---ios_07.jpg in Resources */,
 				76205270225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.22.png in Resources */,
+				2334F4272419F906000CD3F8 /* platelets74f.png in Resources */,
 				E7E037C51DACF25300A79471 /* chapter-2-orange-part-2---ios_03.jpg in Resources */,
 				2341572A240F9592007ABA4C /* platelets54a.png in Resources */,
 				2341571C240F92EA007ABA4C /* platelets53a.png in Resources */,
@@ -5060,6 +5084,7 @@
 				E7063C861DD1A65200E38BDB /* chapter-3-part-4---ios_12.jpg in Resources */,
 				762BFA422269C27B00431217 /* s64c.png in Resources */,
 				23DFF188240E74BC001941C3 /* platelets25a.png in Resources */,
+				2334F42A2419FA7F000CD3F8 /* platelets76d.png in Resources */,
 				E7E61A971DD08A280037AA88 /* chapter-4-part-2---ios_05.jpg in Resources */,
 				E7E619CA1DD086FE0037AA88 /* chapter-3-part-2---ios_04.jpg in Resources */,
 				E77CD09A1DA6911A0033DE96 /* P-Brown.html in Resources */,
@@ -5331,9 +5356,11 @@
 				E7E0380E1DACF26C00A79471 /* chapter-2-orange-part-4_15.jpg in Resources */,
 				7634098B226789C100B9EABE /* s3_42.png in Resources */,
 				762BFA062269B65100431217 /* s55c.png in Resources */,
+				2334F42E2419FCEA000CD3F8 /* platelets73e.png in Resources */,
 				23E3FFF0237973EA0082A8A8 /* 17.jpg in Resources */,
 				E7E037EA1DACF26100A79471 /* chapter-2-orange-part-3---ios_13.jpg in Resources */,
 				762BF9992269A1F300431217 /* s22fig1.png in Resources */,
+				2334F42C2419FC3F000CD3F8 /* platelets81d.png in Resources */,
 				E7E61A3D1DD089200037AA88 /* chapter-3-purple---part-3_21.png in Resources */,
 				E7E038031DACF26C00A79471 /* chapter-2-orange-part-4_04.jpg in Resources */,
 				2334B0AE2384B40B00513461 /* PH_26@3x.png in Resources */,
@@ -5398,6 +5425,7 @@
 				E7E61A2C1DD089200037AA88 /* chapter-3-purple---part-3_04.png in Resources */,
 				E7063C841DD1A65200E38BDB /* chapter-3-part-4---ios_10.jpg in Resources */,
 				E7E61A271DD089200037AA88 /* chapter-3-purple---part-2_13.png in Resources */,
+				2334F4262419F906000CD3F8 /* platelets74g.png in Resources */,
 				23415751240F9F4E007ABA4C /* platelets65h.png in Resources */,
 				E7E619D01DD086FE0037AA88 /* chapter-3-part-2---ios_10.jpg in Resources */,
 				76340A542267AF9400B9EABE /* S8_4_2.png in Resources */,
@@ -5702,15 +5730,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4.1;
+				CURRENT_PROJECT_VERSION = 4.2;
 				DEVELOPMENT_TEAM = AKR326GJML;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 2.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -5727,15 +5755,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4.1;
-				DEVELOPMENT_TEAM = AKR326GJML;
+				CURRENT_PROJECT_VERSION = 4.2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 2.2.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
