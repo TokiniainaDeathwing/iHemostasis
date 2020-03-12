@@ -823,7 +823,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mUY-QA-aNa">
                                                         <rect key="frame" x="10" y="36" width="263" height="100"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Domick J.Angiolillo-Sergio Buccheri-Loredan Bury-Marco Cattaneo-Emanuala Falcinelli-Paolo Gresele-Paul Harrison-Catherine P.M. Hayward-Joseph A.Jakubowski-Wolfgang Korte-Michele P.Lambert-Elisabeth Mahla-Bernard Payrastre-Mortimer Poncz</string>
+                                                        <string key="text">D. J.Angiolillo-S. Buccheri-L. Bury-M. Cattaneo-E. Falcinelli-P. Gresele-P. Harrison-C. P.M. Hayward-J. A.Jakubowski-W. Korte-M. P.Lambert-E. Mahla-Bernard Payrastre-M. Poncz</string>
                                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1019,19 +1019,19 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-aj-AAc">
-                                                            <rect key="frame" x="80" y="0.0" width="1368" height="109"/>
+                                                            <rect key="frame" x="80" y="0.0" width="1364" height="109"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-RE-NV8">
-                                                            <rect key="frame" x="88" y="0.0" width="1368" height="41"/>
+                                                            <rect key="frame" x="84" y="0.0" width="1369" height="41"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJF-4W-3aj">
-                                                            <rect key="frame" x="88" y="39" width="1368" height="52"/>
+                                                            <rect key="frame" x="84" y="39" width="1369" height="52"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1042,7 +1042,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pb0-PD-kDG">
-                                                            <rect key="frame" x="-4" y="110" width="1370" height="6"/>
+                                                            <rect key="frame" x="-5" y="107" width="1369" height="5"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
