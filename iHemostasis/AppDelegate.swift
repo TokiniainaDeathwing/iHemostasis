@@ -40,6 +40,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            var mainView: UIStoryboard!
+            mainView = UIStoryboard(name: "Main-iphone", bundle: nil)
+            let viewcontroller : UIViewController = mainView.instantiateViewController(withIdentifier: "Main-iphone") as UIViewController
+            self.window!.rootViewController = viewcontroller
+        }
+       
+    }
 
 }
 

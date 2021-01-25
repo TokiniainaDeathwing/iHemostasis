@@ -257,6 +257,7 @@
 		2361E6282379A3CB0083F118 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61E2379A3CB0083F118 /* 13.jpg */; };
 		2361E62E2379A4C60083F118 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E62D2379A4C60083F118 /* 9.jpg */; };
 		239AD024241908B300935439 /* platelets53ksub.png in Resources */ = {isa = PBXBuildFile; fileRef = 239AD023241908B300935439 /* platelets53ksub.png */; };
+		23C78FCC25BEC86900920ADD /* Main-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C78FCA25BEC86800920ADD /* Main-iphone.storyboard */; };
 		23DFF0E9240D02B4001941C3 /* Platelets-Orange.html in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */; };
 		23DFF0EF240D0D69001941C3 /* platelets11a.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0EE240D0D68001941C3 /* platelets11a.png */; };
 		23DFF0F1240D12B4001941C3 /* platelets11b.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0F0240D12B4001941C3 /* platelets11b.png */; };
@@ -1469,6 +1470,9 @@
 		2361E61E2379A3CB0083F118 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
 		2361E62D2379A4C60083F118 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		239AD023241908B300935439 /* platelets53ksub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets53ksub.png; path = platelets/platelets53ksub.png; sourceTree = SOURCE_ROOT; };
+		23C78B0025BEBF5E00920ADD /* iHemostasis copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iHemostasis copy-Info.plist"; path = "/Users/M01/Documents/Mobiles/versionned/iHemostasis copy-Info.plist"; sourceTree = "<absolute>"; };
+		23C78FB625BEC1B800920ADD /* iHemostasis copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iHemostasis copy2-Info.plist"; path = "/Users/M01/Documents/Mobiles/versionned/iHemostasis copy2-Info.plist"; sourceTree = "<absolute>"; };
+		23C78FCB25BEC86800920ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iHemostasis/Base.lproj/Main-iphone.storyboard"; sourceTree = "<group>"; };
 		23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "Platelets-Orange.html"; sourceTree = "<group>"; };
 		23DFF0EE240D0D68001941C3 /* platelets11a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11a.png; path = platelets/platelets11a.png; sourceTree = SOURCE_ROOT; };
 		23DFF0F0240D12B4001941C3 /* platelets11b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11b.png; path = platelets/platelets11b.png; sourceTree = SOURCE_ROOT; };
@@ -3481,10 +3485,13 @@
 		E70095D31C1810F6008362B0 = {
 			isa = PBXGroup;
 			children = (
+				23C78FCA25BEC86800920ADD /* Main-iphone.storyboard */,
 				E70095DE1C1810F6008362B0 /* iHemostasis */,
 				E70095F31C1810F7008362B0 /* iHemostasisTests */,
 				E70095FE1C1810F7008362B0 /* iHemostasisUITests */,
 				E70095DD1C1810F6008362B0 /* Products */,
+				23C78B0025BEBF5E00920ADD /* iHemostasis copy-Info.plist */,
+				23C78FB625BEC1B800920ADD /* iHemostasis copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5046,6 +5053,7 @@
 				234156F4240F8A68007ABA4C /* platelets48a.png in Resources */,
 				E77CD09E1DA691290033DE96 /* P-Violet.html in Resources */,
 				E7E037E31DACF26100A79471 /* chapter-2-orange-part-3---ios_06.jpg in Resources */,
+				23C78FCC25BEC86900920ADD /* Main-iphone.storyboard in Resources */,
 				76340A552267AF9400B9EABE /* S8_4_1.png in Resources */,
 				E70C7B0B1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_05.jpg in Resources */,
 				E7E449F11DF6F72200544853 /* new-line.png in Resources */,
@@ -5621,6 +5629,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		23C78FCA25BEC86800920ADD /* Main-iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C78FCB25BEC86800920ADD /* Base */,
+			);
+			name = "Main-iphone.storyboard";
+			sourceTree = "<group>";
+		};
 		E70095E31C1810F6008362B0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -5747,7 +5763,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -5772,7 +5788,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = iHemostasis_Dist_Profile;
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
