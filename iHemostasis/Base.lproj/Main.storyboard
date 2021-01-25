@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -255,7 +255,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y7r-Lw-5MK">
-                                                            <rect key="frame" x="15" y="0.0" width="268" height="105"/>
+                                                            <rect key="frame" x="16" y="0.0" width="266" height="105"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -468,7 +468,7 @@
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Three-year old Julien us referred to laboratory for" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOZ-rP-dMr" userLabel="Description textview">
-                                                            <rect key="frame" x="18" y="31" width="283" height="36"/>
+                                                            <rect key="frame" x="8" y="4" width="295" height="58"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="scrollIndicatorInsets" minX="10" minY="10" maxX="10" maxY="10"/>
@@ -477,7 +477,7 @@
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Three-year old Julien us referred to laboratory for" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-0r-Cyc" userLabel="Description textview">
-                                                            <rect key="frame" x="8" y="75" width="304" height="117"/>
+                                                            <rect key="frame" x="8" y="62" width="304" height="130"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <inset key="scrollIndicatorInsets" minX="10" minY="10" maxX="10" maxY="10"/>
@@ -518,7 +518,7 @@
                                     <outlet property="delegate" destination="zUb-3c-Pki" id="R6t-qe-6AJ"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1m-X2-Msg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1m-X2-Msg">
                                 <rect key="frame" x="1074" y="936" width="272" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
@@ -540,7 +540,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3X-O5-9V5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3297.65625" y="181.640625"/>
+            <point key="canvasLocation" x="3297.3645680819909" y="181.640625"/>
         </scene>
         <!--Practical Manual View Controller-->
         <scene sceneID="54f-Za-Fmk">
@@ -599,7 +599,7 @@ Vittorio Pengo &amp; Alessandra Banzato</string>
                                                 <rect key="frame" x="75" y="48" width="131" height="186"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJZ-3l-nOD">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJZ-3l-nOD">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -654,7 +654,7 @@ Theodore E. Warkentin</string>
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzX-0z-bAu">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzX-0z-bAu">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -707,7 +707,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51b-m6-W3R" userLabel="Button four">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51b-m6-W3R" userLabel="Button four">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -758,7 +758,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQY-wF-zKy" userLabel="Button four">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQY-wF-zKy" userLabel="Button four">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -796,7 +796,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntm-5A-VGC">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntm-5A-VGC">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -840,7 +840,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRX-Wi-tj4" userLabel="Button Six">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRX-Wi-tj4" userLabel="Button Six">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <connections>
@@ -872,6 +872,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="haemoscoreAppLabel" destination="xFo-an-z5p" id="jZz-3v-BkE"/>
                         <outlet property="labelFive" destination="Al3-7g-Zsb" id="F9f-d6-HlG"/>
                         <outlet property="labelOne" destination="jCX-6N-gfH" id="pHF-Jl-mma"/>
+                        <outlet property="labelSix" destination="kRg-Su-Qep" id="Q1a-bi-zQT"/>
                         <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
                         <outlet property="scrollView" destination="E08-qP-Ap5" id="itl-sP-IdU"/>
@@ -1019,7 +1020,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-aj-AAc">
-                                                            <rect key="frame" x="80" y="0.0" width="1364" height="109"/>
+                                                            <rect key="frame" x="80" y="0.0" width="1366" height="109"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
@@ -1276,7 +1277,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <viewControllerLayoutGuide type="bottom" id="9uk-eB-DXv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RcG-kt-Qal">
-                        <rect key="frame" x="0.0" y="0.0" width="388" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="680"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="82" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kgE-hy-oFj">
@@ -1288,11 +1289,11 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <rect key="frame" x="0.0" y="28" width="768" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.65000000000000002" contentMode="center" tableViewCell="8fV-qs-xmD" id="Ym5-Wc-Uod">
-                                            <rect key="frame" x="13" y="0.0" width="755" height="82"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S90-ob-Duc">
-                                                    <rect key="frame" x="15" y="0.0" width="725" height="82"/>
+                                                    <rect key="frame" x="16" y="0.0" width="736" height="82"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1367,14 +1368,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBT-AZ-aXQ">
-                                                    <rect key="frame" x="15" y="40" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aqe-cd-GS1">
-                                                    <rect key="frame" x="15" y="63.5" width="47" height="16"/>
+                                                    <rect key="frame" x="16" y="63.5" width="47" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1435,15 +1436,15 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <rect key="frame" x="0.0" y="130" width="1110" height="894"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <webView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Trx-5D-jSB">
+                                    <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1w3-vI-u6N">
                                         <rect key="frame" x="0.0" y="0.0" width="1110" height="894"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <dataDetectorType key="dataDetectorTypes"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="gfE-BM-UnF" id="63y-Js-npz"/>
-                                        </connections>
-                                    </webView>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -1461,14 +1462,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yIO-hf-eW5">
-                                                    <rect key="frame" x="15" y="40" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aus-zH-EJR">
-                                                    <rect key="frame" x="15" y="63.5" width="35" height="16"/>
+                                                    <rect key="frame" x="16" y="63.5" width="35" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
@@ -1497,7 +1498,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="blankView" destination="BkI-cZ-lTs" id="yYX-uq-x5O"/>
                         <outlet property="contextMenuTableView" destination="x1o-5L-kfh" id="gsZ-sO-0Pg"/>
                         <outlet property="menuButton" destination="YZO-Q6-iZd" id="0Qo-ME-3gQ"/>
-                        <outlet property="webView" destination="Trx-5D-jSB" id="A6S-vK-YHe"/>
+                        <outlet property="webView" destination="1w3-vI-u6N" id="xB5-oR-SlG"/>
                         <outlet property="webViewContainerView" destination="lkM-Xq-w0R" id="X9P-RI-Lwc"/>
                     </connections>
                 </viewController>
@@ -1550,14 +1551,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aki-LK-t1u">
-                                                    <rect key="frame" x="15" y="40" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LBK-o4-lEm">
-                                                    <rect key="frame" x="15" y="63.5" width="47" height="16"/>
+                                                    <rect key="frame" x="16" y="63.5" width="47" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1696,7 +1697,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM1-AN-H3x">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM1-AN-H3x">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
@@ -1721,7 +1722,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="153"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ic-RO-AwO">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ic-RO-AwO">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
@@ -1746,7 +1747,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="153"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcW-fe-BSb">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcW-fe-BSb">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
@@ -1771,7 +1772,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8P-oo-iEc">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8P-oo-iEc">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
@@ -1796,7 +1797,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5u-De-Grm">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5u-De-Grm">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
@@ -1858,6 +1859,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <point key="canvasLocation" x="3613.28125" y="853.7109375"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YKE-yN-3DN"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Antiphospholipid-Syndrome" width="130.5" height="185.5"/>
         <image name="BG" width="768" height="1024"/>
@@ -1897,7 +1901,4 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <image name="stat" width="60" height="46"/>
         <image name="validate" width="204" height="65"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="YKE-yN-3DN"/>
-    </inferredMetricsTieBreakers>
 </document>

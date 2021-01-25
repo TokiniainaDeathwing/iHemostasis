@@ -507,10 +507,13 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         attributedText.mutableString.setString(element["description"]!)
         cell.descriptionTextView.attributedText = NSAttributedString(attributedString: attributedText)
         
+        cell.entityTextView.textContainer.maximumNumberOfLines = 8
+        
+         cell.entityTextView.textContainer.lineBreakMode = .byTruncatingTail
         attributedText = cell.entityTextView.attributedText.mutableCopy() as! NSMutableAttributedString
         attributedText.mutableString.setString(element["entity"]!)
         cell.entityTextView.attributedText = NSAttributedString(attributedString: attributedText)
-        
+      
         cell.titleLabel.text = element["title"]!
         cell.titleLabel.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: 20)
         

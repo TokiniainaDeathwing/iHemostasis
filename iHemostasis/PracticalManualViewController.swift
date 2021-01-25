@@ -13,7 +13,7 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var labelTwo: UILabel?
     @IBOutlet weak var labelThree: UILabel?
     @IBOutlet weak var labelFive: UILabel?
-    
+    @IBOutlet weak var labelSix: UILabel!
     //Ajout labelSix
     @IBOutlet weak var buttonOne: UIButton?
     @IBOutlet weak var buttonTwo: UIButton?
@@ -100,12 +100,20 @@ class PracticalManualViewController: ParentViewController {
         let orient = (size.width < size.height)
         switch orient {
         case true:
-            viewOne?.frame.origin = CGPoint(71, 79)
+           /* viewOne?.frame.origin = CGPoint(71, 79)
             viewTwo?.frame.origin = CGPoint(447, 79)
             viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
             viewThree?.frame.origin=CGPoint(71,552)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);*/
+            viewOne?.frame.origin = CGPoint(71, 79)
+            viewTwo?.frame.origin = CGPoint(447, 79)
+            //viewFour?.frame.origin = CGPoint(71, 552)
+            viewFive?.frame.origin = CGPoint(447, 552)
+            viewSix?.frame.origin = CGPoint(71, 1100)
+            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewFour?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
@@ -126,18 +134,20 @@ class PracticalManualViewController: ParentViewController {
             //isLandscape = false
             viewOne?.frame.origin = CGPoint(71, 79)
             viewTwo?.frame.origin = CGPoint(447, 79)
-            viewFour?.frame.origin = CGPoint(71, 552)
+            //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin=CGPoint(71,552)
+            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewFour?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         case .portraitUpsideDown:
             viewOne?.frame.origin = CGPoint(71, 79)
             viewTwo?.frame.origin = CGPoint(447, 79)
-            viewFour?.frame.origin = CGPoint(71, 552)
+            //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin=CGPoint(71,552)
+            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewFour?.frame.origin=CGPoint(71,552)
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
@@ -168,6 +178,7 @@ class PracticalManualViewController: ParentViewController {
         labelTwo!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         labelThree!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         labelFive!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
+        labelSix!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         haemoscoreAppLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         
         // Add labelSix

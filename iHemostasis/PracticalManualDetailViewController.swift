@@ -5,12 +5,12 @@
 //  Created by zoraj on 15/09/2016.
 //  Copyright © 2016 com.stago. All rights reserved.
 //
-
+import WebKit
 import UIKit
 
 class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource,UIWebViewDelegate {
     @IBOutlet weak var webViewContainerView : UIView?
-    @IBOutlet weak var webView : UIWebView?
+    @IBOutlet weak var webView : WKWebView?
     @IBOutlet weak var contextMenuTableView: UITableView?
     @IBOutlet weak var blankView : UIView?
     
@@ -39,8 +39,10 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         let contextMenuItem = contextMenuPointer[0]
         let filename = contextMenuItem["filename"]
         let file = Bundle.main.url(forResource: filename, withExtension: "html")!
-        let request = NSURLRequest(url: file)
-        webView?.loadRequest(request as URLRequest)
+        let request = URLRequest(url: file)
+        //let request = NSURLRequest(url: file)
+        webView?.load(request)
+        //webView?.loadRequest(request as URLRequest)
         
         /*
         // Load the first page
@@ -120,8 +122,10 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
     func onItemSelection(index: Int) {
         let contextMenuItem = contextMenuPointer[index]
         let title = contextMenuItem["title"]
-        webView?.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
-        webView?.stringByEvaluatingJavaScript(from: "scrollTo(0, 0);")
+        webView?.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+        webView?.evaluateJavaScript( "scrollTo(0, 0);")
+      //  webView?.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
+        //webView?.stringByEvaluatingJavaScript(from: "scrollTo(0, 0);")
     }
     
     // TableView
@@ -186,13 +190,15 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         }
     }
     
-    func webViewDidFinishLoad(_ webView : UIWebView) {
+    func webViewDidFinishLoad(_ webView : WKWebView) {
         if (self.webView == webView) {
             // Load the first page
             let contextMenuItem = contextMenuPointer[0]
             let title = contextMenuItem["title"]
-            webView.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
-            webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
+           // webView.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
+           // webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
+             webView.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+             webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
         }
     }
 }
