@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230DA04725C2A68A00E75595 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230DA04625C2A68A00E75595 /* HomeButton.swift */; };
 		230FCCFD23DA21EE00E9FE57 /* s54tab1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230FCCFC23DA21EE00E9FE57 /* s54tab1.jpg */; };
 		230FCD0123DA30AF00E9FE57 /* s14eFig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */; };
 		23190FA723A04EDC007B03F4 /* s24bImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23190FA623A04EDC007B03F4 /* s24bImg.jpg */; };
@@ -1220,6 +1221,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230DA04625C2A68A00E75595 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 		230FCCFC23DA21EE00E9FE57 /* s54tab1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s54tab1.jpg; sourceTree = "<group>"; };
 		230FCD0023DA30AF00E9FE57 /* s14eFig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s14eFig.jpg; sourceTree = "<group>"; };
 		23190FA623A04EDC007B03F4 /* s24bImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s24bImg.jpg; sourceTree = "<group>"; };
@@ -3667,6 +3669,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B14CAC1C187FE900904A46 /* MainMenuViewController.swift */,
+				230DA04625C2A68A00E75595 /* HomeButton.swift */,
 			);
 			name = "Main Menu";
 			sourceTree = "<group>";
@@ -5563,6 +5566,7 @@
 				E7838BD11C7453D600672CC1 /* ParentScene.swift in Sources */,
 				E7B14CAF1C1880B800904A46 /* CoagulationCascadeListViewController.swift in Sources */,
 				E7EC97041D8A924E009D3FA0 /* iHPracticalManualChapterCell.m in Sources */,
+				230DA04725C2A68A00E75595 /* HomeButton.swift in Sources */,
 				E7B592EE1C57AAA600AE6E6D /* ClinicalCasesQuizzDetailMenuListViewController.swift in Sources */,
 				B4D0D13F1C55D2CB00E27F45 /* iHGridLayout.m in Sources */,
 				E781D24A1C314AFB00681379 /* ClinicalCasesModel.swift in Sources */,

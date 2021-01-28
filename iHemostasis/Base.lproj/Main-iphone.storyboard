@@ -1,84 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="BARMENOCFFREG.ttf">
+            <string>Barmeno-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Main Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainMenuViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JVd-oy-hDM"/>
-                        <viewControllerLayoutGuide type="bottom" id="Nwh-kt-DD7"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Err-Uc-Y5s">
-                                <rect key="frame" x="14" y="410" width="390" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Niova" image="CoagulationCascade"/>
-                                <connections>
-                                    <segue destination="m3c-zf-YpC" kind="push" id="mC4-rU-lka"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1i-EW-kOn">
-                                <rect key="frame" x="14" y="484" width="390" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="    Clinical Cases" image="ClinicalCases"/>
-                                <connections>
-                                    <segue destination="fdM-yg-2RC" kind="push" id="0uj-3D-Zaq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6T-K8-tx8">
-                                <rect key="frame" x="14" y="629" width="390" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="     Special Focus" image="SpecialFocus"/>
-                                <connections>
-                                    <segue destination="bw1-sp-nX5" kind="push" id="aw1-fo-CS2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YP-2N-fBT">
-                                <rect key="frame" x="14" y="703" width="390" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="     Quick Guide" image="Quick-Guide"/>
-                                <connections>
-                                    <segue destination="8nk-CD-Mxz" kind="push" id="noW-NB-SVw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uk-ys-EBN">
-                                <rect key="frame" x="6" y="558" width="403" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="    Practical Manual Series" image="PracticalManual"/>
-                                <connections>
-                                    <segue destination="MnQ-QI-g2V" kind="push" id="2Fw-pf-7wI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEN-ij-iSL">
-                                <rect key="frame" x="38" y="825" width="205" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="Background-home" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jC1-P1-OR0">
+                                <rect key="frame" x="-114" y="0.0" width="705" height="905"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TOO-XY-vSY">
+                                <rect key="frame" x="82" y="52" width="250" height="161.5"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="doz-eO-6lb">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="Vfx-29-TBo"/>
+                                            <constraint firstAttribute="height" constant="110" id="sTD-l7-hFK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iHemostasis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qq-bt-WRU">
+                                        <rect key="frame" x="0.0" y="110" width="250" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="44"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="doz-eO-6lb" firstAttribute="centerX" secondItem="TOO-XY-vSY" secondAttribute="centerX" id="uDB-CK-ShX"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEN-ij-iSL">
+                                <rect key="frame" x="160" y="810.5" width="94.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="    Disclaimer" image="Disclaimer"/>
                                 <connections>
                                     <action selector="disclaimerButtonActionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="inQ-v8-vvW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SplashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="aeJ-Av-M7L">
-                                <rect key="frame" x="-87" y="-173" width="639" height="809"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="xBU-BP-Aps">
+                                <rect key="frame" x="86.5" y="258" width="241" height="301.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" verticalHuggingPriority="249" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Err-Uc-Y5s" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="34.5"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
+                                        <state key="normal" title="     Coagulation Cascade" image="CoagulationCascade"/>
+                                        <connections>
+                                            <segue destination="m3c-zf-YpC" kind="push" id="mC4-rU-lka"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1i-EW-kOn" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="52.5" width="241" height="52.5"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
+                                        <state key="normal" title="    Clinical Cases" image="ClinicalCases">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="fdM-yg-2RC" kind="push" id="0uj-3D-Zaq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6T-K8-tx8" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="123" width="241" height="55"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
+                                        <state key="normal" title="     Special Focus" image="SpecialFocus"/>
+                                        <connections>
+                                            <segue destination="bw1-sp-nX5" kind="push" id="aw1-fo-CS2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uk-ys-EBN" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="196" width="241" height="40"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
+                                        <state key="normal" title="     Practical Manual Series" image="PracticalManual">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="small">
+                                                <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="17"/>
+                                            </preferredSymbolConfiguration>
+                                        </state>
+                                        <connections>
+                                            <segue destination="MnQ-QI-g2V" kind="push" id="2Fw-pf-7wI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YP-2N-fBT" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="254" width="241" height="47.5"/>
+                                        <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
+                                        <state key="normal" title="     Quick Guide" image="Quick-Guide"/>
+                                        <connections>
+                                            <segue destination="8nk-CD-Mxz" kind="push" id="noW-NB-SVw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="LwO-S1-5GR"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TOO-XY-vSY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ghe-Yj-zzm"/>
+                            <constraint firstItem="KEN-ij-iSL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RCc-6L-sa4"/>
+                            <constraint firstItem="xBU-BP-Aps" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UVd-W9-puG"/>
+                            <constraint firstItem="LwO-S1-5GR" firstAttribute="bottom" secondItem="KEN-ij-iSL" secondAttribute="bottom" constant="20" id="YEr-rd-7ti"/>
+                            <constraint firstItem="TOO-XY-vSY" firstAttribute="top" secondItem="LwO-S1-5GR" secondAttribute="top" constant="8" id="ccm-fz-is9"/>
+                            <constraint firstItem="xBU-BP-Aps" firstAttribute="top" secondItem="TOO-XY-vSY" secondAttribute="bottom" constant="44.5" id="zSc-Tr-xx5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="clr-dv-MEk">
                         <barButtonItem key="backBarButtonItem" title="   " id="Cek-KK-74e"/>
@@ -86,7 +123,6 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="backgroundImageView" destination="aeJ-Av-M7L" id="S6C-vi-xx1"/>
                         <outlet property="clinicalCasesButton" destination="a1i-EW-kOn" id="L3M-Gp-KU8"/>
                         <outlet property="coagulationCascadeButton" destination="Err-Uc-Y5s" id="bqh-pE-1Dw"/>
                         <outlet property="disclaimerButton" destination="KEN-ij-iSL" id="wOj-Io-HAW"/>
@@ -97,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="769.91150442477885" y="276.5625"/>
+            <point key="canvasLocation" x="769.56521739130437" y="276.5625"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="vdm-7A-HJ7">
@@ -149,10 +185,6 @@
         <scene sceneID="b1c-Uc-NDa">
             <objects>
                 <viewController storyboardIdentifier="CoagulationCascadePlayerViewController" id="9Zq-BE-sVh" customClass="CoagulationCascadePlayerViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eX5-6q-5wU"/>
-                        <viewControllerLayoutGuide type="bottom" id="C8c-yn-jVV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tX0-pf-tz8">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +209,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23W-OQ-TpS">
-                                        <rect key="frame" x="957" y="3" width="39" height="37"/>
+                                        <rect key="frame" x="955" y="3" width="41" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerForward"/>
                                         <connections>
@@ -193,7 +225,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-BL-4cs">
-                                        <rect key="frame" x="851" y="2" width="47" height="39"/>
+                                        <rect key="frame" x="845" y="2" width="53" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerRewind"/>
                                         <connections>
@@ -286,7 +318,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZE-k5-nIk">
-                                <rect key="frame" x="554" y="100" width="470" height="128"/>
+                                <rect key="frame" x="552" y="100" width="472" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIR-HK-hO8">
@@ -297,7 +329,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEb-hl-qrg">
-                                        <rect key="frame" x="413" y="22" width="35" height="31"/>
+                                        <rect key="frame" x="413" y="22" width="37" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Close"/>
                                         <connections>
@@ -308,6 +340,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="4bb-yV-EZH"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="m3R-SN-hoh"/>
@@ -343,10 +376,6 @@
         <scene sceneID="fE3-3j-Brm">
             <objects>
                 <viewController id="fdM-yg-2RC" customClass="ClinicalCasesListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tbq-hZ-J30"/>
-                        <viewControllerLayoutGuide type="bottom" id="cZ6-Ww-ltY"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rlG-0S-oDU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -414,6 +443,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="5De-Hq-iWG"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="N68-EX-Ohy"/>
@@ -429,10 +459,6 @@
         <scene sceneID="9jy-ap-Upg">
             <objects>
                 <viewController storyboardIdentifier="PracticalManualChapterViewController" id="zUb-3c-Pki" customClass="PracticalManualChapterViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="C2o-Dh-LrY"/>
-                        <viewControllerLayoutGuide type="bottom" id="5wn-hU-aZ7"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dHZ-lt-bUP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -531,6 +557,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="MJM-Vb-T6a"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mol-QF-Q6h"/>
@@ -547,10 +574,6 @@
         <scene sceneID="54f-Za-Fmk">
             <objects>
                 <viewController id="MnQ-QI-g2V" customClass="PracticalManualViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3EQ-5P-x4h"/>
-                        <viewControllerLayoutGuide type="bottom" id="1db-kZ-rp8"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0RG-ef-wmd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -860,6 +883,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Sf-go-oum"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="4su-x1-yjs"/>
@@ -893,10 +917,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="ac4-AV-eFc">
             <objects>
                 <viewController storyboardIdentifier="ClinicalCasesQuizzDetailViewController" id="lp4-2f-zZY" customClass="ClinicalCasesQuizzDetailViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lmS-zu-5oJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="roy-nx-2A3"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aQk-73-sge">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1232,6 +1252,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="olC-XP-Qsw"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Emn-e2-wnl"/>
@@ -1271,10 +1292,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="FU2-t7-QOZ">
             <objects>
                 <viewController id="SPj-er-09t" customClass="ClinicalCasesQuizzDetailMenuListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wEz-am-e23"/>
-                        <viewControllerLayoutGuide type="bottom" id="9uk-eB-DXv"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RcG-kt-Qal">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1310,6 +1327,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="vYZ-PB-zXL"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
@@ -1321,10 +1339,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="LOd-Dm-iFD">
             <objects>
                 <viewController id="bw1-sp-nX5" customClass="SpecialFocusListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8e8-dv-3FZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="66j-sb-eOJ"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XsI-ro-eev">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1391,6 +1405,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="yN4-mr-HVA"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="f5t-HU-3kw"/>
@@ -1409,10 +1424,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="cK9-Ti-BgR">
             <objects>
                 <viewController storyboardIdentifier="PracticalManualDetailViewController" id="gfE-BM-UnF" customClass="PracticalManualDetailViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="z73-ie-zxq"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ay6-Dj-8bj"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LQ6-HT-4oY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1490,6 +1501,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="p4a-GR-vdf"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vQ5-5F-Bwf"/>
@@ -1509,10 +1521,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="M7E-x3-cIE">
             <objects>
                 <viewController id="8nk-CD-Mxz" customClass="QuickGuideListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6Qb-ii-ORl"/>
-                        <viewControllerLayoutGuide type="bottom" id="05G-X8-5Or"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3wb-1Z-ccZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1579,6 +1587,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="dIQ-uv-wKy"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="7nV-N6-DTA"/>
@@ -1597,10 +1606,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="Wxf-kR-7Ye">
             <objects>
                 <viewController storyboardIdentifier="DisclaimerViewController" id="rsi-Fy-yor" customClass="DisclaimerViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iaD-vD-2rB"/>
-                        <viewControllerLayoutGuide type="bottom" id="zd1-y1-jNB"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jan-EJ-w2P">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1617,6 +1622,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <state key="normal" image="Close"/>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="N5N-Mz-NrK"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="QYb-vS-OAV"/>
@@ -1651,13 +1657,10 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="yFJ-oH-4EX">
             <objects>
                 <viewController id="hZt-aE-IQp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jYt-UO-zqA"/>
-                        <viewControllerLayoutGuide type="bottom" id="LSf-Ck-aLb"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VGf-1Z-L9D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ofY-5C-Fpe"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
@@ -1669,10 +1672,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="dZm-rx-9fp">
             <objects>
                 <viewController id="m3c-zf-YpC" customClass="CoagulationCascadeListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jN9-4V-paS"/>
-                        <viewControllerLayoutGuide type="bottom" id="nMm-9z-dHf"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xsb-aB-E2b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1807,6 +1806,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="vnM-lA-cof"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="0Ie-1x-kRf"/>
@@ -1826,10 +1826,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <scene sceneID="Msp-wp-ryH">
             <objects>
                 <viewController storyboardIdentifier="PracticalManualAbbreviationViewController" id="JJG-XV-lCx" customClass="PracticalManualAbbreviationViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4dM-nU-UV7"/>
-                        <viewControllerLayoutGuide type="bottom" id="67V-uH-Z45"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pkZ-qt-vOb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1846,6 +1842,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <dataDetectorType key="dataDetectorTypes"/>
                             </webView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="9i9-dN-Lnh"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="zq7-NM-F4Y"/>
@@ -1864,6 +1861,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
     <resources>
         <image name="Antiphospholipid-Syndrome" width="130.5" height="185.5"/>
         <image name="BG" width="768" height="1024"/>
+        <image name="Background-home" width="750" height="1334"/>
         <image name="Bleeding" width="423" height="610"/>
         <image name="ClinCasesSubmenuBackground" width="768" height="1024"/>
         <image name="ClinicalCases" width="58" height="52.5"/>
@@ -1881,13 +1879,13 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
         <image name="CoagulationCascade" width="53" height="34.5"/>
         <image name="Disclaimer" width="31.5" height="31.5"/>
         <image name="Icone Appli Scores" width="548" height="799"/>
+        <image name="Logo" width="220" height="220"/>
         <image name="Parenteral-anticoagulants" width="132" height="188"/>
         <image name="Platelets" width="589" height="846"/>
         <image name="PracticalManual" width="53" height="40"/>
         <image name="PracticalManual-Bg" width="1024" height="768"/>
         <image name="Quick-Guide" width="53" height="47.5"/>
         <image name="SpecialFocus" width="54.5" height="55"/>
-        <image name="SplashScreen" width="768" height="1024"/>
         <image name="coche" width="17.5" height="14"/>
         <image name="context-menu" width="23.5" height="19"/>
         <image name="cross" width="15.5" height="15.5"/>

@@ -25,39 +25,43 @@ class MainMenuViewController: UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
-
-        coagulationCascadeButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
-        clinicalCasesButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
-        specialFocusButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
-        quickGuideButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
-        practicalManualButton!.titleLabel!.font = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
-        disclaimerButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_DISCLAIMER_FONT_SIZE)
-        /*
-        for family: String in UIFont.familyNames()
-        {
-            print("\(family)")
-            for names: String in UIFont.fontNamesForFamilyName(family)
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            coagulationCascadeButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
+            clinicalCasesButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
+            specialFocusButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
+            quickGuideButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
+            practicalManualButton!.titleLabel!.font = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_FONT_SIZE)
+            disclaimerButton!.titleLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.MAIN_MENU_DISCLAIMER_FONT_SIZE)
+           
+           // coagulationCascadeButton!.frame=CGRect(x: 0, y: 0, width:  20, height:50)
+            
+            /*
+            for family: String in UIFont.familyNames()
             {
-                print("== \(names)")
+                print("\(family)")
+                for names: String in UIFont.fontNamesForFamilyName(family)
+                {
+                    print("== \(names)")
+                }
             }
-        }
-        */
-        let orient = UIApplication.shared.statusBarOrientation
-        
-        /*
-        switch orient {
-        case .Portrait:
-            self.backgroundImageView?.frame = CGRectMake(0, -60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-        default:
-            self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-        }*/
-        switch orient {
-        case .landscapeLeft:
-            self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-        case .landscapeRight:
-            self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
-        default:
-            self.backgroundImageView?.frame = CGRect(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            */
+            let orient = UIApplication.shared.statusBarOrientation
+            
+            /*
+            switch orient {
+            case .Portrait:
+                self.backgroundImageView?.frame = CGRectMake(0, -60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            default:
+                self.backgroundImageView?.frame = CGRectMake(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            }*/
+            switch orient {
+            case .landscapeLeft:
+                self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            case .landscapeRight:
+                self.backgroundImageView?.frame = CGRect(0, 60, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            default:
+                self.backgroundImageView?.frame = CGRect(0, 0, (self.backgroundImageView?.frame.width)!, (self.backgroundImageView?.frame.height)!)
+            }
         }
         
     }
