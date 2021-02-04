@@ -23,35 +23,37 @@ class CoagulationCascadeListViewController: ParentViewController {
     }
     
     func setupUI() {
-        self.setScreenTitle(title: "Coagulation Cascade")
-        
-        // Set the orientation to always landscape
-        let orient = UIApplication.shared.statusBarOrientation
-        switch orient {
-        case .landscapeLeft:
-            break
-        case .landscapeRight:
-            break
-        default:
-            let value = UIInterfaceOrientation.landscapeLeft.rawValue
-            UIDevice.current.setValue(value, forKey: "orientation")
-        }
-        
-        self.cc1Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
-        self.cc2Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
-        self.cc3Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
-        self.cc4Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
-        self.cc5Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
-        
-        let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
-        let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
-        backButton.frame = CGRect(0, 0, 32, 32)
-        backButton.addTarget(self, action: #selector(backButtonAction),for: UIControl.Event.touchUpInside)
-        backButton.setTitle("", for: UIControl.State.normal)
-        backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
-        let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
-        self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, for: .normal)
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+                self.setScreenTitle(title: "Coagulation Cascade")
+                
+                // Set the orientation to always landscape
+                let orient = UIApplication.shared.statusBarOrientation
+                switch orient {
+                case .landscapeLeft:
+                    break
+                case .landscapeRight:
+                    break
+                default:
+                    let value = UIInterfaceOrientation.landscapeLeft.rawValue
+                    UIDevice.current.setValue(value, forKey: "orientation")
+                }
+                
+                self.cc1Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
+                self.cc2Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
+                self.cc3Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
+                self.cc4Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
+                self.cc5Label?.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: kTitleSize)
+            }
+            let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
+            let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+            backButton.frame = CGRect(0, 0, 32, 32)
+            backButton.addTarget(self, action: #selector(backButtonAction),for: UIControl.Event.touchUpInside)
+            backButton.setTitle("", for: UIControl.State.normal)
+            backButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
+            let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButton)
+            self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
+            backButton.setBackgroundImage(backbuttonImage, for: .normal)
+       
     }
     
     override func viewWillAppear(_ animated: Bool) {
