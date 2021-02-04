@@ -1685,9 +1685,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-lR-14Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1575"/>
+                                        <rect key="frame" x="50" y="0.0" width="414" height="1575"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7J-od-SZM">
+                                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="N7J-od-SZM">
                                                 <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coagulation Cascade" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP6-U8-XxQ">
@@ -1710,6 +1710,10 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="239" id="gGj-qG-VSx"/>
+                                                    <constraint firstAttribute="width" constant="295" id="oN6-oT-xZW"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K53-Op-lGO">
                                                 <rect key="frame" x="0.0" y="289" width="295" height="239"/>
@@ -1784,7 +1788,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtl-v9-RQ4">
-                                                <rect key="frame" x="0.0" y="1156" width="316" height="241"/>
+                                                <rect key="frame" x="0.0" y="1156" width="294" height="241"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBoutonD" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-rd-k1P">
                                                         <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
@@ -1798,7 +1802,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inhibitors of Coagulation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-Yu-VQp">
-                                                        <rect key="frame" x="156" y="168" width="119" height="53"/>
+                                                        <rect key="frame" x="37" y="168" width="137" height="53"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1806,6 +1810,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="294" id="RSb-zV-PWp"/>
+                                                </constraints>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-Rs-aXF">
                                                 <rect key="frame" x="0.0" y="1447" width="414" height="128"/>
@@ -1819,8 +1826,6 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <constraint firstItem="N7J-od-SZM" firstAttribute="trailing" secondItem="zdZ-eh-F1f" secondAttribute="trailing" id="34K-IH-2Uf"/>
                                             <constraint firstItem="N7J-od-SZM" firstAttribute="trailing" secondItem="K53-Op-lGO" secondAttribute="trailing" id="MDT-3p-Vl0"/>
                                             <constraint firstItem="Rtl-v9-RQ4" firstAttribute="top" secondItem="OwF-lR-14Y" secondAttribute="top" constant="1156" id="XHA-mp-TFx"/>
-                                            <constraint firstAttribute="trailing" secondItem="Rtl-v9-RQ4" secondAttribute="trailing" constant="98" id="ZrP-Rg-g4s"/>
-                                            <constraint firstAttribute="trailing" secondItem="N7J-od-SZM" secondAttribute="trailing" constant="119" id="bVB-h9-uJr"/>
                                             <constraint firstItem="zdZ-eh-F1f" firstAttribute="top" secondItem="OwF-lR-14Y" secondAttribute="top" constant="867" id="eO8-90-rG0"/>
                                             <constraint firstAttribute="height" constant="1575" id="ecq-ZC-s6r"/>
                                             <constraint firstAttribute="bottom" secondItem="N7J-od-SZM" secondAttribute="bottom" constant="1336" id="ehs-ku-9t1"/>
@@ -1831,13 +1836,12 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="OwF-lR-14Y" firstAttribute="leading" secondItem="qm4-qQ-eci" secondAttribute="leading" id="Hg7-Fd-TQ0"/>
+                                    <constraint firstItem="OwF-lR-14Y" firstAttribute="leading" secondItem="qm4-qQ-eci" secondAttribute="leading" constant="50" id="Hg7-Fd-TQ0"/>
                                     <constraint firstItem="OwF-lR-14Y" firstAttribute="top" secondItem="9ug-3Z-1vm" secondAttribute="top" id="IAw-Hx-voF"/>
                                     <constraint firstItem="OwF-lR-14Y" firstAttribute="width" secondItem="9ug-3Z-1vm" secondAttribute="width" id="g2y-9w-c69"/>
-                                    <constraint firstItem="OwF-lR-14Y" firstAttribute="leading" secondItem="9ug-3Z-1vm" secondAttribute="leading" id="gKV-f0-n0u"/>
+                                    <constraint firstItem="OwF-lR-14Y" firstAttribute="leading" secondItem="9ug-3Z-1vm" secondAttribute="leading" constant="50" id="gKV-f0-n0u"/>
                                     <constraint firstAttribute="bottom" secondItem="OwF-lR-14Y" secondAttribute="bottom" id="nlO-q4-Tp2"/>
                                     <constraint firstItem="qm4-qQ-eci" firstAttribute="bottom" secondItem="OwF-lR-14Y" secondAttribute="bottom" id="okL-uz-mUh"/>
-                                    <constraint firstItem="OwF-lR-14Y" firstAttribute="trailing" secondItem="9ug-3Z-1vm" secondAttribute="trailing" id="paD-xT-jXJ"/>
                                     <constraint firstItem="OwF-lR-14Y" firstAttribute="trailing" secondItem="qm4-qQ-eci" secondAttribute="trailing" id="taO-J9-gjs"/>
                                     <constraint firstItem="OwF-lR-14Y" firstAttribute="top" secondItem="qm4-qQ-eci" secondAttribute="top" id="vrm-UJ-Bgc"/>
                                 </constraints>
