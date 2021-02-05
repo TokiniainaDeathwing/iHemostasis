@@ -479,7 +479,13 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
             layout.minimumInteritemSpacing = 10.0
         }
         else {
-            layout.numberOfColumns = 3
+            if(UIDevice.current.userInterfaceIdiom == .phone){
+                layout.numberOfColumns = 1
+            }else{
+                layout.numberOfColumns = 3
+            }
+            
+          
             layout.minimumInteritemSpacing = 10.0
         }
         layout.sectionInset = UIEdgeInsets(

@@ -81,7 +81,12 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
       layout.minimumInteritemSpacing = 10.0
     }
     else {
-      layout.numberOfColumns = 2
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            layout.numberOfColumns = 1
+        }else{
+            layout.numberOfColumns = 2
+        }
+     
       layout.minimumInteritemSpacing = 20.0
     }
     layout.sectionInset = UIEdgeInsets(
