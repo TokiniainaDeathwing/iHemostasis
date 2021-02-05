@@ -5775,7 +5775,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = iHemostasis_Dist_Profile;
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;

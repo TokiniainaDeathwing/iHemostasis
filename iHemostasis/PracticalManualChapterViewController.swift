@@ -667,11 +667,22 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         let element = practicalManualChapters[indexPath.row]
         // C'est con!! Pour application of current guidelines, c'est un titre personnalisé. là je dois bricoler pour accomplir ca !
         if practicalManualDetailViewController.contextMenuPointer == contextMenuLaboratoryDiagnosisAppList {
-            practicalManualDetailViewController.setScreenTitle(title: "Lupus anticoagulant - Current guidelines")
+            if(UIDevice.current.userInterfaceIdiom == .phone){
+                practicalManualDetailViewController.setScreenTitle(title: "Lupus anticoagulant - Current guidelines",fontsize: 23.0)
+            }else{
+                practicalManualDetailViewController.setScreenTitle(title: "Lupus anticoagulant - Current guidelines")
+            }
+            
         }
         else {
-            practicalManualDetailViewController.setScreenTitle(title: (element["title"]?.replacingOccurrences(of:"\n", with: " "))!)
-        }
+            if(UIDevice.current.userInterfaceIdiom == .phone){
+                practicalManualDetailViewController.setScreenTitle(title: (element["title"]?.replacingOccurrences(of:"\n", with: " "))!,fontsize: 23.0)
+            
+            }else{
+                practicalManualDetailViewController.setScreenTitle(title: (element["title"]?.replacingOccurrences(of:"\n", with: " "))!)
+            
+            }
+         }
         
         self.navigationController!.pushViewController(practicalManualDetailViewController, animated: true)
         self.navigationController!.navigationBar.topItem?.title = "     "
