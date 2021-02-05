@@ -202,7 +202,13 @@ class PracticalManualViewController: ParentViewController {
     }
     
     @IBAction func buttonAction(target: UIButton) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let storyBoard : UIStoryboard
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            storyBoard  = UIStoryboard(name: "Main-iphone", bundle:nil)
+        }else{
+            storyBoard  = UIStoryboard(name: "Main", bundle:nil)
+        }
+      
         let practicalManualChapterViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualChapterViewController") as! PracticalManualChapterViewController
         if (target == buttonOne) {
             practicalManualChapterViewController.practicalManualChapters = practicalManualChaptersOne
