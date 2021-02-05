@@ -23,6 +23,18 @@ class ParentViewController: UIViewController {
         titleLabel.textAlignment = .right
         self.navigationItem.titleView = titleLabel;
     }
+    func setScreenTitle(title: String,fontsize:CGFloat) {
+        let titleLabel: UILabel = UILabel(frame: CGRect(x: 700, y: 0, width: 40, height: 200))
+        titleLabel.text = title
+        titleLabel.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: fontsize)
+        titleLabel.textColor = UIColor.white
+        titleLabel.textAlignment = .right
+        titleLabel.numberOfLines = 1
+        titleLabel.adjustsFontSizeToFitWidth = true
+        
+        
+        self.navigationItem.titleView = titleLabel;
+    }
     
     @objc func backButtonAction() {
         self.navigationController?.popViewController(animated: true)

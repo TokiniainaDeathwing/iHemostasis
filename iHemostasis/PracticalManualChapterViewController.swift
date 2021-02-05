@@ -418,20 +418,28 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
     private func setupUI() {
         let layout = collectionView.collectionViewLayout as! iHGridLayout
         layout.itemHeight = 280.0
-        
+        var title:String = ""
         if (self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome) {
-            self.setScreenTitle(title: "Antiphospholipid Syndrome - Summary")
+                title = "Antiphospholipid Syndrome - Summary"
+              
+           
         }
         else if (self.practicalManualType == Utils.PracticalManualType.ParenteralAnticoagulants){
-            self.setScreenTitle(title: "Parenteral Anticoagulants - Summary")
+            title = "Parenteral Anticoagulants - Summary"
         }else if (self.practicalManualType == Utils.PracticalManualType.OralAnticoagulants){
-            self.setScreenTitle(title: "Oral Anticoagulants - Summary")
+            title = "Oral Anticoagulants - Summary"
         }else if(self.practicalManualType==Utils.PracticalManualType.BleedingDisorders){
-            self.setScreenTitle(title: "Bleeding disorders - Summary")
+            title = "Bleeding disorders - Summary"
         }
         else if(self.practicalManualType==Utils.PracticalManualType.Platelets){
-            self.setScreenTitle(title: "Platelets - Summary")
+            title = "Platelets - Summary"
         }
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            self.setScreenTitle(title:title,fontsize: 23)
+        }else{
+            self.setScreenTitle(title:title)
+        }
+      
         
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton

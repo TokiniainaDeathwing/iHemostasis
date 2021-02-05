@@ -35,7 +35,6 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
     layout.itemHeight = 280.0
     
     self.setScreenTitle(title: "Clinical Cases")
-    
     let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowWHITE")
     let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
     backButton.frame = CGRect(0, 0, 32, 32)
