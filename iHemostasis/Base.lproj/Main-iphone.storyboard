@@ -56,10 +56,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="xBU-BP-Aps">
-                                <rect key="frame" x="86.5" y="258" width="241" height="301.5"/>
+                                <rect key="frame" x="73" y="258" width="268" height="301.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" verticalHuggingPriority="249" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Err-Uc-Y5s" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="241" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="34.5"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Coagulation Cascade" image="CoagulationCascade"/>
                                         <connections>
@@ -67,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1i-EW-kOn" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="52.5" width="241" height="52.5"/>
+                                        <rect key="frame" x="0.0" y="52.5" width="268" height="52.5"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="    Clinical Cases" image="ClinicalCases">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
@@ -77,7 +77,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6T-K8-tx8" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="123" width="241" height="55"/>
+                                        <rect key="frame" x="0.0" y="123" width="268" height="55"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Special Focus" image="SpecialFocus"/>
                                         <connections>
@@ -85,7 +85,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uk-ys-EBN" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="196" width="241" height="40"/>
+                                        <rect key="frame" x="0.0" y="196" width="268" height="40"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Practical Manual Series" image="PracticalManual">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="small">
@@ -97,7 +97,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YP-2N-fBT" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="254" width="241" height="47.5"/>
+                                        <rect key="frame" x="0.0" y="254" width="268" height="47.5"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Quick Guide" image="Quick-Guide"/>
                                         <connections>
@@ -1087,17 +1087,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hRt-fI-E2l" userLabel="HeaderView">
-                                <rect key="frame" x="0.0" y="109" width="414" height="109"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRt-fI-E2l" userLabel="HeaderView">
+                                <rect key="frame" x="0.0" y="94" width="414" height="97"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-vl-zwS">
-                                        <rect key="frame" x="0.0" y="0.0" width="117" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-vl-zwS">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="97"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZG-hj-x99">
-                                                <rect key="frame" x="0.0" y="0.0" width="117" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZG-hj-x99">
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="97"/>
                                                 <state key="normal" image="stat"/>
                                                 <connections>
                                                     <action selector="patientHistoryButtonActionWithSender:" destination="lp4-2f-zZY" eventType="touchUpInside" id="yWg-AU-d2h"/>
@@ -1105,35 +1102,60 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="leading" secondItem="3qS-vl-zwS" secondAttribute="leading" id="Poa-oP-6v1"/>
+                                            <constraint firstAttribute="width" constant="49" id="YxA-Il-8kM"/>
+                                            <constraint firstAttribute="trailing" secondItem="OZG-hj-x99" secondAttribute="trailing" id="edH-Wl-wQM"/>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="top" secondItem="3qS-vl-zwS" secondAttribute="top" id="tTu-ir-fAa"/>
+                                            <constraint firstAttribute="bottom" secondItem="OZG-hj-x99" secondAttribute="bottom" id="znp-xh-oi5"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seI-XN-FZD">
-                                        <rect key="frame" x="117" y="0.0" width="117" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seI-XN-FZD">
+                                        <rect key="frame" x="49" y="0.0" width="45.5" height="97"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="interogation" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-Yx-mc0">
-                                                <rect key="frame" x="0.0" y="0.0" width="117" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interogation" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-Yx-mc0">
+                                                <rect key="frame" x="0.0" y="0.0" width="45.5" height="97"/>
                                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="top" secondItem="seI-XN-FZD" secondAttribute="top" id="Adw-BM-ROd"/>
+                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="leading" secondItem="seI-XN-FZD" secondAttribute="leading" id="Hiu-9m-6b1"/>
+                                            <constraint firstAttribute="bottom" secondItem="GRb-Yx-mc0" secondAttribute="bottom" id="WfZ-Yl-LcC"/>
+                                            <constraint firstAttribute="trailing" secondItem="GRb-Yx-mc0" secondAttribute="trailing" id="tcs-hF-sl5"/>
+                                        </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you interpret results of the mixing study ?" textAlignment="natural" lineBreakMode="clip" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="vcJ-zW-Hwa">
-                                        <rect key="frame" x="330" y="8" width="82" height="93"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you interpret results of the mixing study ?" textAlignment="natural" lineBreakMode="clip" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="vcJ-zW-Hwa">
+                                        <rect key="frame" x="95" y="0.0" width="319" height="97"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz3-XU-qAZ">
-                                        <rect key="frame" x="140" y="8" width="409" height="111"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz3-XU-qAZ">
+                                        <rect key="frame" x="94.5" y="0.0" width="319.5" height="97"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="81"/>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jz3-XU-qAZ" secondAttribute="trailing" id="34y-lq-wUn"/>
+                                    <constraint firstAttribute="bottom" secondItem="vcJ-zW-Hwa" secondAttribute="bottom" id="6NE-uV-792"/>
+                                    <constraint firstItem="jz3-XU-qAZ" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="top" id="AIj-ya-4ED"/>
+                                    <constraint firstItem="vcJ-zW-Hwa" firstAttribute="leading" secondItem="seI-XN-FZD" secondAttribute="trailing" id="D1b-Xd-e2O"/>
+                                    <constraint firstItem="seI-XN-FZD" firstAttribute="leading" secondItem="3qS-vl-zwS" secondAttribute="trailing" id="DMR-88-jlh"/>
+                                    <constraint firstItem="vcJ-zW-Hwa" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="top" id="JKs-Hr-N7J"/>
+                                    <constraint firstAttribute="bottom" secondItem="jz3-XU-qAZ" secondAttribute="bottom" id="LgH-Nl-h3V"/>
+                                    <constraint firstAttribute="bottom" secondItem="3qS-vl-zwS" secondAttribute="bottom" id="RqB-ZC-26Q"/>
+                                    <constraint firstItem="jz3-XU-qAZ" firstAttribute="leading" secondItem="seI-XN-FZD" secondAttribute="trailing" id="aGM-JV-zJ0"/>
+                                    <constraint firstItem="3qS-vl-zwS" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="top" id="c18-D0-saD"/>
+                                    <constraint firstAttribute="bottom" secondItem="seI-XN-FZD" secondAttribute="bottom" id="cpQ-wT-f1a"/>
+                                    <constraint firstItem="3qS-vl-zwS" firstAttribute="leading" secondItem="hRt-fI-E2l" secondAttribute="leading" id="dGX-8o-Keg"/>
+                                    <constraint firstItem="seI-XN-FZD" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="top" id="knY-Q8-vSs"/>
+                                    <constraint firstAttribute="trailing" secondItem="vcJ-zW-Hwa" secondAttribute="trailing" id="nPx-yv-gnv"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-OA-V72" userLabel="QuizzQuestionView">
                                 <rect key="frame" x="0.0" y="204" width="414" height="592"/>
@@ -1249,9 +1271,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
-                                <rect key="frame" x="264" y="52" width="130" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
+                                <rect key="frame" x="205" y="44" width="189" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="27" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-400" maxY="0.0"/>
@@ -1382,7 +1403,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
+                            <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
                                 <rect key="frame" x="0.0" y="109" width="331" height="787"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
@@ -1416,6 +1437,13 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="olC-XP-Qsw"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hRt-fI-E2l" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="3Ez-Kr-Snf"/>
+                            <constraint firstItem="h8M-gx-Liw" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" id="AKo-jL-Och"/>
+                            <constraint firstItem="olC-XP-Qsw" firstAttribute="trailing" secondItem="h8M-gx-Liw" secondAttribute="trailing" constant="20" id="OZQ-q3-rLF"/>
+                            <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="h8M-gx-Liw" secondAttribute="bottom" constant="16" id="eRI-Er-1ED"/>
+                            <constraint firstItem="hRt-fI-E2l" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="nq0-U1-ltz"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Emn-e2-wnl"/>
                     <connections>
@@ -1448,7 +1476,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emk-yp-nMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3278.0380673499267" y="-584.1796875"/>
+            <point key="canvasLocation" x="3276.811594202899" y="-584.59821428571422"/>
         </scene>
         <!--Clinical Cases Quizz Detail Menu List View Controller-->
         <scene sceneID="FU2-t7-QOZ">

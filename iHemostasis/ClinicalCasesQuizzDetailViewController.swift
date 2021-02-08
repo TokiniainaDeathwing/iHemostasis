@@ -90,40 +90,45 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
     
     
     func loadUI() {
-        let orient = UIApplication.shared.statusBarOrientation
-        let screenSize: CGRect = UIScreen.main.bounds
-        switch orient {
-        case .portrait:
-            let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
-            self.patientHistoryView?.isHidden = true
-            self.patientHistoryButtonContainerView?.isHidden = false
-            self.patientHistoryView?.frame = CGRect(0, 238, (self.patientHistoryView?.frame.width)!, (self.patientHistoryView?.frame.height)!)
-            self.quizzView?.frame = CGRect(0, 238, screenSize.width, height)
-            self.responseView?.frame = CGRect(0, 238, screenSize.width, height)
-            self.summaryResponseView?.frame = CGRect(0, 238, screenSize.width, height)
-            self.questionMarkView?.frame.origin = CGPoint(x: 117, y: 0)
-            self.headerView?.frame = CGRect(0, 110, screenSize.width, 128)
-            self.footerView?.frame = CGRect(0, (self.footerView?.frame.origin.y)!, screenSize.width, 100)
-            self.titleLabel?.frame.origin = CGPoint(247, 8)
-            self.resultLabel?.frame.origin = CGPoint(140, 8)
-            self.titleLabel?.frame.size = CGSize(470, 89)
-            self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
-        default:
-            self.patientHistoryButtonContainerView?.isHidden = true
-            self.questionMarkView?.frame.origin = CGPoint(x: 0, y: 0)
-            self.patientHistoryView?.isHidden = false
-            self.patientHistoryView?.frame = CGRect(0, 109, (self.patientHistoryView?.frame.width)!, screenSize.height - 109)
-            let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
-            self.quizzView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
-            self.responseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
-            self.summaryResponseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
-            self.headerView?.frame = CGRect(331, 110, screenSize.width - (self.patientHistoryView?.frame.width)!, 128)
-            self.footerView?.frame = CGRect(331, (self.footerView?.frame.origin.y)!, screenSize.width - (self.patientHistoryView?.frame.width)!, 100)
-            self.titleLabel?.frame.origin = CGPoint(140, 8)
-            self.titleLabel?.frame.size = CGSize(470, 89)
-            self.resultLabel?.frame.origin = CGPoint(40, 8)
-            self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)! - 100)
+        self.patientHistoryView?.isHidden = true
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            let orient = UIApplication.shared.statusBarOrientation
+            let screenSize: CGRect = UIScreen.main.bounds
+            switch orient {
+            case .portrait:
+                let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
+                self.patientHistoryView?.isHidden = true
+                self.patientHistoryButtonContainerView?.isHidden = false
+                self.patientHistoryView?.frame = CGRect(0, 238, (self.patientHistoryView?.frame.width)!, (self.patientHistoryView?.frame.height)!)
+                self.quizzView?.frame = CGRect(0, 238, screenSize.width, height)
+                self.responseView?.frame = CGRect(0, 238, screenSize.width, height)
+                self.summaryResponseView?.frame = CGRect(0, 238, screenSize.width, height)
+                self.questionMarkView?.frame.origin = CGPoint(x: 117, y: 0)
+                self.headerView?.frame = CGRect(0, 110, screenSize.width, 128)
+                self.footerView?.frame = CGRect(0, (self.footerView?.frame.origin.y)!, screenSize.width, 100)
+                self.titleLabel?.frame.origin = CGPoint(247, 8)
+                self.resultLabel?.frame.origin = CGPoint(140, 8)
+                self.titleLabel?.frame.size = CGSize(470, 89)
+                self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)!)
+            default:
+                self.patientHistoryButtonContainerView?.isHidden = true
+                self.questionMarkView?.frame.origin = CGPoint(x: 0, y: 0)
+                self.patientHistoryView?.isHidden = false
+                self.patientHistoryView?.frame = CGRect(0, 109, (self.patientHistoryView?.frame.width)!, screenSize.height - 109)
+                let height : CGFloat = (self.patientHistoryView?.frame.height)! - 228
+                self.quizzView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+                self.responseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+                self.summaryResponseView?.frame = CGRect((self.patientHistoryView?.frame.width)!, 238, screenSize.width - (self.patientHistoryView?.frame.width)!, height)
+                self.headerView?.frame = CGRect(331, 110, screenSize.width - (self.patientHistoryView?.frame.width)!, 128)
+                self.footerView?.frame = CGRect(331, (self.footerView?.frame.origin.y)!, screenSize.width - (self.patientHistoryView?.frame.width)!, 100)
+                self.titleLabel?.frame.origin = CGPoint(140, 8)
+                self.titleLabel?.frame.size = CGSize(470, 89)
+                self.resultLabel?.frame.origin = CGPoint(40, 8)
+                self.quizzSummaryResponseTableView?.frame.size = CGSize((self.summaryResponseView?.frame.width)!, (self.summaryResponseView?.frame.height)! - 100)
+            }
         }
+     
+       
     }
     
     
