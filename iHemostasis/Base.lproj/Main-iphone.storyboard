@@ -218,7 +218,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeH-Mp-Mhs">
-                                        <rect key="frame" x="904" y="0.0" width="47" height="42"/>
+                                        <rect key="frame" x="903" y="0.0" width="48" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerPlay"/>
                                         <connections>
@@ -226,7 +226,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-BL-4cs">
-                                        <rect key="frame" x="845" y="2" width="53" height="39"/>
+                                        <rect key="frame" x="844" y="2" width="54" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerRewind"/>
                                         <connections>
@@ -234,7 +234,7 @@
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-aO-rVN">
-                                        <rect key="frame" x="6" y="7" width="831" height="31"/>
+                                        <rect key="frame" x="6" y="7" width="830" height="31"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <connections>
                                             <action selector="videoSliderOnChangeActionWithSender:" destination="9Zq-BE-sVh" eventType="valueChanged" id="LZz-sx-dVl"/>
@@ -244,7 +244,7 @@
                                 <color key="backgroundColor" red="0.74117647058823533" green="0.15294117647058825" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="elA-d0-Mhj">
-                                <rect key="frame" x="678" y="100" width="346" height="648"/>
+                                <rect key="frame" x="677" y="100" width="347" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Initial Phase" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETR-jO-0QG">
@@ -271,7 +271,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kKX-z5-2GE">
-                                <rect key="frame" x="725" y="100" width="299" height="561"/>
+                                <rect key="frame" x="725" y="100" width="299" height="560"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wV3-NA-RYz">
@@ -310,7 +310,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
-                                <rect key="frame" x="945" y="100" width="79" height="76"/>
+                                <rect key="frame" x="943" y="100" width="81" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="CoagCascadePlayerSceneInformation"/>
@@ -319,7 +319,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZE-k5-nIk">
-                                <rect key="frame" x="552" y="100" width="472" height="128"/>
+                                <rect key="frame" x="551" y="100" width="473" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIR-HK-hO8">
@@ -330,7 +330,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEb-hl-qrg">
-                                        <rect key="frame" x="413" y="22" width="37" height="31"/>
+                                        <rect key="frame" x="414" y="22" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Close"/>
                                         <connections>
@@ -1316,11 +1316,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstAttribute="bottom" secondItem="Pq9-WW-Mlc" secondAttribute="bottom" id="zmJ-2L-pWM"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
-                                <rect key="frame" x="135" y="26" width="255" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
+                                <rect key="frame" x="135" y="54" width="255" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="PpK-3f-xDs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="27" maxY="0.0"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-400" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-380" maxY="0.0"/>
                                 <state key="normal" title="Clinical Case 1" image="down-arrow">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1556,15 +1559,15 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="3Ez-Kr-Snf"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="48Y-vZ-1K0"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="ff2-Oi-nZN" secondAttribute="bottom" id="5Js-IK-Tva"/>
-                            <constraint firstItem="h8M-gx-Liw" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" id="AKo-jL-Och"/>
+                            <constraint firstItem="h8M-gx-Liw" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" constant="10" id="AKo-jL-Och"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="nAn-vi-X71" secondAttribute="bottom" id="BVX-en-tp1"/>
                             <constraint firstItem="ff2-Oi-nZN" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="CWl-6X-baW"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="bottom" secondItem="olC-XP-Qsw" secondAttribute="bottom" id="Gmm-3y-wXc"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="IlE-a0-hqL"/>
                             <constraint firstItem="ff2-Oi-nZN" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="LZR-nz-8oV"/>
+                            <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" constant="80" id="N5u-oW-4ak"/>
                             <constraint firstItem="olC-XP-Qsw" firstAttribute="trailing" secondItem="h8M-gx-Liw" secondAttribute="trailing" id="OZQ-q3-rLF"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="aqb-CS-RIT"/>
-                            <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="h8M-gx-Liw" secondAttribute="bottom" constant="16" id="eRI-Er-1ED"/>
                             <constraint firstItem="nAn-vi-X71" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="ioE-6h-EWS"/>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="nq0-U1-ltz"/>
                             <constraint firstItem="nAn-vi-X71" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="pjO-qT-5eK"/>
@@ -2010,7 +2013,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                 <rect key="frame" x="-12.333333333333343" y="20" width="414.66666666666674" height="1575"/>
                                                 <subviews>
                                                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="N7J-od-SZM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="295.33333333333331" height="239"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coagulation Cascade" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP6-U8-XxQ">
                                                                 <rect key="frame" x="26" y="166" width="115" height="53"/>
@@ -2038,7 +2041,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K53-Op-lGO">
-                                                        <rect key="frame" x="0.0" y="289" width="295.33333333333331" height="239"/>
+                                                        <rect key="frame" x="0.0" y="289" width="295" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Primary Haemostasis" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNN-wK-rw1">
                                                                 <rect key="frame" x="31" y="166" width="110" height="53"/>
@@ -2062,7 +2065,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ci-DI-H44">
-                                                        <rect key="frame" x="0.0" y="578" width="295.33333333333331" height="239"/>
+                                                        <rect key="frame" x="0.0" y="578" width="295" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fibrin Formation &amp; Fibrinolysis" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKR-n9-OAx">
                                                                 <rect key="frame" x="30" y="166" width="137" height="53"/>
@@ -2086,7 +2089,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdZ-eh-F1f">
-                                                        <rect key="frame" x="0.0" y="867" width="295.33333333333331" height="239"/>
+                                                        <rect key="frame" x="0.0" y="867" width="295" height="239"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBoutonE" translatesAutoresizingMaskIntoConstraints="NO" id="gDo-PA-tR4">
                                                                 <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
@@ -2110,7 +2113,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtl-v9-RQ4">
-                                                        <rect key="frame" x="0.0" y="1156" width="294.33333333333331" height="241"/>
+                                                        <rect key="frame" x="0.0" y="1156" width="294" height="241"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBoutonD" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-rd-k1P">
                                                                 <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
