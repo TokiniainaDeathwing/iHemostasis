@@ -50,6 +50,7 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         
         self.quizzTableView?.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         loadJsonData(quizzId: quizzIdentifier)
+       
         indexButton?.setTitle("Clinical Case " + String(quizzIdentifier), for: UIControl.State.normal)
         
         setupUI()
@@ -72,7 +73,10 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         responseView?.isHidden = true
         summaryResponseView?.isHidden = true
         nextButton?.isHidden = true
+        if(UIDevice.current.userInterfaceIdiom == .pad){
         self.titleLabel!.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: 24.0)
+        }
+
         resultLabel?.isHidden = true
         percentResponseView?.isHidden = true
         

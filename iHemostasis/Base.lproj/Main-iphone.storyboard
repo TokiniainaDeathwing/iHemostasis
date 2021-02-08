@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXK-48-cko">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
@@ -19,7 +19,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainMenuViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="Background-home" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jC1-P1-OR0">
@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TOO-XY-vSY">
-                                <rect key="frame" x="82" y="52" width="250" height="161.5"/>
+                                <rect key="frame" x="70" y="52.000000000000014" width="250" height="161.33333333333337"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="doz-eO-6lb">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="110"/>
@@ -37,7 +37,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iHemostasis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qq-bt-WRU">
-                                        <rect key="frame" x="0.0" y="110" width="250" height="51.5"/>
+                                        <rect key="frame" x="0.0" y="109.99999999999999" width="250" height="51.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="44"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -48,7 +48,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEN-ij-iSL">
-                                <rect key="frame" x="160" y="810.5" width="94.5" height="31.5"/>
+                                <rect key="frame" x="147.66666666666666" y="758.33333333333337" width="94.666666666666657" height="31.666666666666629"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="    Disclaimer" image="Disclaimer"/>
                                 <connections>
@@ -56,10 +56,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="xBU-BP-Aps">
-                                <rect key="frame" x="73" y="258" width="268" height="301.5"/>
+                                <rect key="frame" x="74.666666666666686" y="258" width="241" height="302"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" verticalHuggingPriority="249" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Err-Uc-Y5s" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="268" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="34.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Coagulation Cascade" image="CoagulationCascade"/>
                                         <connections>
@@ -67,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1i-EW-kOn" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="52.5" width="268" height="52.5"/>
+                                        <rect key="frame" x="0.0" y="52.666666666666686" width="241" height="52.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="    Clinical Cases" image="ClinicalCases">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
@@ -77,7 +77,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6T-K8-tx8" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="123" width="268" height="55"/>
+                                        <rect key="frame" x="0.0" y="123.33333333333331" width="241" height="55"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Special Focus" image="SpecialFocus"/>
                                         <connections>
@@ -85,7 +85,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uk-ys-EBN" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="196" width="268" height="40"/>
+                                        <rect key="frame" x="0.0" y="196.33333333333331" width="241" height="40"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Practical Manual Series" image="PracticalManual">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="small">
@@ -97,7 +97,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YP-2N-fBT" customClass="HomeButton" customModule="iHemostasis" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="254" width="268" height="47.5"/>
+                                        <rect key="frame" x="0.0" y="254.33333333333334" width="241" height="47.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Barmeno-Regular" family="Barmeno" pointSize="18"/>
                                         <state key="normal" title="     Quick Guide" image="Quick-Guide"/>
                                         <connections>
@@ -141,7 +141,7 @@
             <objects>
                 <collectionViewController id="DC5-T1-2Wn" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="7Io-Xr-Q0f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JWS-oX-X8j">
                             <size key="itemSize" width="194" height="174"/>
@@ -151,7 +151,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CoagulationCascadeMenuViewCell" id="Fmx-q9-ZS1" customClass="CoagulationCascadeMenuViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="194" height="174"/>
+                                <rect key="frame" x="98" y="0.0" width="194" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="194" height="174"/>
@@ -378,22 +378,22 @@
             <objects>
                 <viewController id="fdM-yg-2RC" customClass="ClinicalCasesListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rlG-0S-oDU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClinCasesSubmenuBackground" translatesAutoresizingMaskIntoConstraints="NO" id="i5V-Gv-4Nt">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.1529411765" green="0.023529411760000001" blue="0.01176470588" alpha="0.62" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VKB-yz-Pof">
-                                <rect key="frame" x="0.0" y="64" width="414" height="832"/>
+                                <rect key="frame" x="0.0" y="64" width="390" height="780"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewLayout key="collectionViewLayout" id="6hQ-EA-H8H" customClass="iHGridLayout"/>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="kClinicalCaseCellIdentifier" id="Ret-ia-WBf" customClass="iHClinicalCaseCell">
-                                        <rect key="frame" x="47" y="0.0" width="320" height="280"/>
+                                        <rect key="frame" x="35" y="0.0" width="320" height="280"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
@@ -461,22 +461,22 @@
             <objects>
                 <viewController storyboardIdentifier="PracticalManualChapterViewController" id="zUb-3c-Pki" customClass="PracticalManualChapterViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dHZ-lt-bUP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PracticalManual-Bg" translatesAutoresizingMaskIntoConstraints="NO" id="tWG-Hv-yjM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.1529411765" green="0.023529411760000001" blue="0.01176470588" alpha="0.62" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6ZS-QU-R6y">
-                                <rect key="frame" x="0.0" y="64" width="414" height="832"/>
+                                <rect key="frame" x="0.0" y="64" width="390" height="780"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewLayout key="collectionViewLayout" id="Yes-Bk-yFw" customClass="iHGridLayout"/>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="kPracticalManualChapterCellIdentifier" id="n5w-WS-cWO" customClass="iHPracticalManualChapterCell">
-                                        <rect key="frame" x="47" y="0.0" width="320" height="280"/>
+                                        <rect key="frame" x="35" y="0.0" width="320" height="280"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
@@ -547,7 +547,7 @@
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1m-X2-Msg">
-                                <rect key="frame" x="314" y="816" width="80" height="60"/>
+                                <rect key="frame" x="295" y="768" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Abbreviations">
@@ -576,24 +576,24 @@
             <objects>
                 <viewController id="MnQ-QI-g2V" customClass="PracticalManualViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0RG-ef-wmd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PracticalManual-Bg" translatesAutoresizingMaskIntoConstraints="NO" id="ZUg-QR-9rz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E08-qP-Ap5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s95-7s-cNw">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2860"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="2860"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g8f-m1-Mxw">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2820"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="2820"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQy-2N-9JB">
-                                                        <rect key="frame" x="66.5" y="0.0" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="0.0" width="281" height="470"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3mG-dE-EQn">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
@@ -623,7 +623,7 @@ Vittorio Pengo &amp; Alessandra Banzato</string>
                                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </view>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Antiphospholipid-Syndrome" translatesAutoresizingMaskIntoConstraints="NO" id="xte-TS-kzU">
-                                                                <rect key="frame" x="75.5" y="48" width="130" height="186"/>
+                                                                <rect key="frame" x="75.333333333333343" y="48" width="130" height="186"/>
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJZ-3l-nOD">
                                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
@@ -668,7 +668,7 @@ Vittorio Pengo &amp; Alessandra Banzato</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnK-HN-49Z" userLabel="View Five">
-                                                        <rect key="frame" x="66.5" y="470" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="470" width="281" height="470"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaI-F7-VYG">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
@@ -739,7 +739,7 @@ Vittorio Pengo &amp; Alessandra Banzato</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDZ-fj-bBS">
-                                                        <rect key="frame" x="66.5" y="940" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="940" width="281" height="470"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eem-Il-4Lf">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
@@ -811,7 +811,7 @@ Theodore E. Warkentin</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnH-bz-mtx" userLabel="View Six">
-                                                        <rect key="frame" x="66.5" y="1410" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="1410" width="281" height="470"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHI-m4-2f5">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
@@ -882,7 +882,7 @@ Theodore E. Warkentin</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQg-1N-WWJ" userLabel="View Four">
-                                                        <rect key="frame" x="66.5" y="1880" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="1880" width="281" height="470"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GKi-CE-uoU">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
@@ -955,7 +955,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-w6-yvK">
-                                                        <rect key="frame" x="66.5" y="2350" width="281" height="470"/>
+                                                        <rect key="frame" x="54.666666666666657" y="2350" width="281" height="470"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icone Appli Scores" translatesAutoresizingMaskIntoConstraints="NO" id="smb-gQ-FKj">
                                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="410"/>
@@ -1080,21 +1080,25 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController storyboardIdentifier="ClinicalCasesQuizzDetailViewController" id="lp4-2f-zZY" customClass="ClinicalCasesQuizzDetailViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aQk-73-sge">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="amG-3M-gbh">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRt-fI-E2l" userLabel="HeaderView">
-                                <rect key="frame" x="0.0" y="94" width="414" height="97"/>
+                                <rect key="frame" x="0.0" y="94" width="390" height="59"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-vl-zwS">
-                                        <rect key="frame" x="0.0" y="0.0" width="49" height="97"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="59" height="59"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZG-hj-x99">
-                                                <rect key="frame" x="0.0" y="0.0" width="49" height="97"/>
+                                                <rect key="frame" x="4.6666666666666679" y="11.666666666666671" width="50" height="36"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="Xga-FW-XAD"/>
+                                                    <constraint firstAttribute="width" constant="50" id="xoH-Ev-rQw"/>
+                                                </constraints>
                                                 <state key="normal" image="stat"/>
                                                 <connections>
                                                     <action selector="patientHistoryButtonActionWithSender:" destination="lp4-2f-zZY" eventType="touchUpInside" id="yWg-AU-d2h"/>
@@ -1103,38 +1107,39 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="OZG-hj-x99" firstAttribute="leading" secondItem="3qS-vl-zwS" secondAttribute="leading" id="Poa-oP-6v1"/>
-                                            <constraint firstAttribute="width" constant="49" id="YxA-Il-8kM"/>
-                                            <constraint firstAttribute="trailing" secondItem="OZG-hj-x99" secondAttribute="trailing" id="edH-Wl-wQM"/>
-                                            <constraint firstItem="OZG-hj-x99" firstAttribute="top" secondItem="3qS-vl-zwS" secondAttribute="top" id="tTu-ir-fAa"/>
-                                            <constraint firstAttribute="bottom" secondItem="OZG-hj-x99" secondAttribute="bottom" id="znp-xh-oi5"/>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="centerY" secondItem="3qS-vl-zwS" secondAttribute="centerY" id="8yF-yN-6rZ"/>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="centerX" secondItem="3qS-vl-zwS" secondAttribute="centerX" id="P4X-JW-6TQ"/>
+                                            <constraint firstAttribute="width" constant="59" id="YxA-Il-8kM"/>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="centerX" secondItem="3qS-vl-zwS" secondAttribute="centerX" id="q8r-l5-8UT"/>
+                                            <constraint firstItem="OZG-hj-x99" firstAttribute="centerY" secondItem="3qS-vl-zwS" secondAttribute="centerY" id="rO6-dW-a5C"/>
+                                            <constraint firstAttribute="height" constant="59" id="y00-O3-OoV"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seI-XN-FZD">
-                                        <rect key="frame" x="49" y="0.0" width="45.5" height="97"/>
+                                        <rect key="frame" x="59" y="0.0" width="59" height="59"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interogation" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-Yx-mc0">
-                                                <rect key="frame" x="0.0" y="0.0" width="45.5" height="97"/>
+                                                <rect key="frame" x="6.6666666666666714" y="6.6666666666666714" width="45.666666666666664" height="45.666666666666664"/>
                                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="top" secondItem="seI-XN-FZD" secondAttribute="top" id="Adw-BM-ROd"/>
-                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="leading" secondItem="seI-XN-FZD" secondAttribute="leading" id="Hiu-9m-6b1"/>
-                                            <constraint firstAttribute="bottom" secondItem="GRb-Yx-mc0" secondAttribute="bottom" id="WfZ-Yl-LcC"/>
-                                            <constraint firstAttribute="trailing" secondItem="GRb-Yx-mc0" secondAttribute="trailing" id="tcs-hF-sl5"/>
+                                            <constraint firstAttribute="width" constant="59" id="8C3-Db-HWI"/>
+                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="centerX" secondItem="seI-XN-FZD" secondAttribute="centerX" id="G3f-Vc-dYw"/>
+                                            <constraint firstItem="GRb-Yx-mc0" firstAttribute="centerY" secondItem="seI-XN-FZD" secondAttribute="centerY" id="ru1-IX-tll"/>
+                                            <constraint firstAttribute="height" constant="59" id="wzA-jX-LqL"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you interpret results of the mixing study ?" textAlignment="natural" lineBreakMode="clip" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="vcJ-zW-Hwa">
-                                        <rect key="frame" x="95" y="0.0" width="319" height="97"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you interpret results of the mixing study ?" textAlignment="natural" lineBreakMode="clip" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="13" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcJ-zW-Hwa">
+                                        <rect key="frame" x="118" y="0.0" width="272" height="59"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz3-XU-qAZ">
-                                        <rect key="frame" x="94.5" y="0.0" width="319.5" height="97"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="81"/>
+                                        <rect key="frame" x="118" y="0.0" width="272" height="59"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="53"/>
                                         <color key="textColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1158,39 +1163,56 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-OA-V72" userLabel="QuizzQuestionView">
-                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
+                                <rect key="frame" x="0.0" y="153" width="390" height="557"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="73" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e6m-Cd-OF1">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="582"/>
+                                        <rect key="frame" x="1" y="16" width="388" height="552"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="73" id="v65-iy-4cF" customClass="ClinicalCasesQuizzViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="73"/>
+                                                <rect key="frame" x="0.0" y="28" width="388" height="73"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v65-iy-4cF" id="C24-Az-l1D">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="388" height="73"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-jG-GY3">
-                                                            <rect key="frame" x="0.0" y="-5" width="768" height="65"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-jG-GY3">
+                                                            <rect key="frame" x="0.0" y="0.0" width="388" height="73"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quizz-unchecked" highlightedImage="quizz-checked" translatesAutoresizingMaskIntoConstraints="NO" id="Px4-Mf-uW5">
-                                                                    <rect key="frame" x="49" y="23" width="23" height="23"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quizz-unchecked" highlightedImage="quizz-checked" translatesAutoresizingMaskIntoConstraints="NO" id="Px4-Mf-uW5">
+                                                                    <rect key="frame" x="49" y="25" width="23" height="23"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="23" id="Aio-zP-IGv"/>
+                                                                        <constraint firstAttribute="height" constant="23" id="Zvh-8c-YXr"/>
+                                                                    </constraints>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvZ-sz-h4p">
-                                                                    <rect key="frame" x="115" y="0.0" width="580" height="67"/>
-                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvZ-sz-h4p">
+                                                                    <rect key="frame" x="115" y="0.0" width="273" height="73"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="yvZ-sz-h4p" secondAttribute="trailing" id="2MW-1M-e4L"/>
+                                                                <constraint firstItem="yvZ-sz-h4p" firstAttribute="height" secondItem="GbP-jG-GY3" secondAttribute="height" id="35g-Wm-dU4"/>
+                                                                <constraint firstAttribute="bottom" secondItem="yvZ-sz-h4p" secondAttribute="bottom" id="MEf-cb-EtJ"/>
+                                                                <constraint firstItem="yvZ-sz-h4p" firstAttribute="top" secondItem="GbP-jG-GY3" secondAttribute="top" id="Tn4-mq-KV2"/>
+                                                                <constraint firstItem="yvZ-sz-h4p" firstAttribute="leading" secondItem="Px4-Mf-uW5" secondAttribute="trailing" constant="43" id="Y81-Zp-lgu"/>
+                                                                <constraint firstItem="Px4-Mf-uW5" firstAttribute="leading" secondItem="GbP-jG-GY3" secondAttribute="leading" constant="49" id="jWY-Uw-Iby"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Px4-Mf-uW5" secondAttribute="bottom" constant="25" id="saZ-lU-49G"/>
+                                                                <constraint firstItem="Px4-Mf-uW5" firstAttribute="top" secondItem="GbP-jG-GY3" secondAttribute="top" constant="25" id="zWG-Rx-E20"/>
+                                                            </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="GbP-jG-GY3" firstAttribute="leading" secondItem="C24-Az-l1D" secondAttribute="leading" id="1xn-Wj-x1G"/>
+                                                        <constraint firstAttribute="trailing" secondItem="GbP-jG-GY3" secondAttribute="trailing" id="aRZ-k9-v2v"/>
+                                                        <constraint firstAttribute="bottom" secondItem="GbP-jG-GY3" secondAttribute="bottom" id="fYM-sE-Jbv"/>
+                                                        <constraint firstItem="GbP-jG-GY3" firstAttribute="top" secondItem="C24-Az-l1D" secondAttribute="top" id="zmZ-gv-FGB"/>
+                                                    </constraints>
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
@@ -1207,35 +1229,35 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
-                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
+                                <rect key="frame" x="0.0" y="153" width="390" height="557"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="122" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="Pq9-WW-Mlc">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="571"/>
+                                        <rect key="frame" x="1" y="16" width="388" height="541"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="122" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="122"/>
+                                                <rect key="frame" x="0.0" y="28" width="388" height="122"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M17-Yp-Jvu" id="G6g-lp-s6B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="388" height="122"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-aj-AAc">
-                                                            <rect key="frame" x="80" y="0.0" width="414" height="109"/>
+                                                            <rect key="frame" x="79" y="0.0" width="388" height="109"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-RE-NV8">
-                                                            <rect key="frame" x="84" y="0.0" width="417" height="41"/>
+                                                            <rect key="frame" x="83" y="0.0" width="390" height="41"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJF-4W-3aj">
-                                                            <rect key="frame" x="84" y="39" width="417" height="52"/>
+                                                            <rect key="frame" x="83" y="39" width="390" height="52"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1246,7 +1268,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pb0-PD-kDG">
-                                                            <rect key="frame" x="-5" y="107" width="417" height="5"/>
+                                                            <rect key="frame" x="-7" y="106" width="392" height="5"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
@@ -1269,8 +1291,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
-                                <rect key="frame" x="205" y="44" width="189" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8M-gx-Liw">
+                                <rect key="frame" x="135" y="26" width="255" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="27" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-400" maxY="0.0"/>
@@ -1282,10 +1304,10 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkx-w8-CNg" userLabel="FooterView">
-                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="710" width="390" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVs-pe-Q2B">
-                                        <rect key="frame" x="155.5" y="47" width="103" height="35"/>
+                                        <rect key="frame" x="143.66666666666666" y="47" width="103" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="HpZ-fP-mhD"/>
                                             <constraint firstAttribute="width" constant="103" id="PXi-Dl-tfg"/>
@@ -1296,7 +1318,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-JY-l80">
-                                        <rect key="frame" x="155.5" y="47" width="103" height="35"/>
+                                        <rect key="frame" x="143.66666666666666" y="47" width="103" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="7Ga-Be-nod"/>
                                             <constraint firstAttribute="width" constant="103" id="T7G-6z-ug2"/>
@@ -1330,11 +1352,11 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstItem="P9d-JY-l80" firstAttribute="centerX" secondItem="gkx-w8-CNg" secondAttribute="centerX" id="jH9-ms-5on"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-vi-X71" userLabel="QuizzAnswerView">
-                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-vi-X71" userLabel="QuizzAnswerView">
+                                <rect key="frame" x="0.0" y="153" width="390" height="557"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0e-yf-b9W">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="152"/>
+                                        <rect key="frame" x="1" y="0.0" width="388" height="152"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oL8-KX-SCq">
@@ -1405,7 +1427,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6la-0J-BYe">
-                                        <rect key="frame" x="44" y="153" width="323" height="425"/>
+                                        <rect key="frame" x="45" y="170" width="298" height="450"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </webView>
@@ -1413,7 +1435,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
-                                <rect key="frame" x="0.0" y="109" width="331" height="787"/>
+                                <rect key="frame" x="0.0" y="109" width="331" height="735"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Patient history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzA-ti-Lod">
@@ -1456,7 +1478,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="bottom" secondItem="olC-XP-Qsw" secondAttribute="bottom" id="Gmm-3y-wXc"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="IlE-a0-hqL"/>
                             <constraint firstItem="ff2-Oi-nZN" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="LZR-nz-8oV"/>
-                            <constraint firstItem="olC-XP-Qsw" firstAttribute="trailing" secondItem="h8M-gx-Liw" secondAttribute="trailing" constant="20" id="OZQ-q3-rLF"/>
+                            <constraint firstItem="olC-XP-Qsw" firstAttribute="trailing" secondItem="h8M-gx-Liw" secondAttribute="trailing" id="OZQ-q3-rLF"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="aqb-CS-RIT"/>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="h8M-gx-Liw" secondAttribute="bottom" constant="16" id="eRI-Er-1ED"/>
                             <constraint firstItem="nAn-vi-X71" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="ioE-6h-EWS"/>
@@ -1500,14 +1522,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emk-yp-nMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3276.811594202899" y="-584.59821428571422"/>
+            <point key="canvasLocation" x="3275.3846153846152" y="-585.07109004739334"/>
         </scene>
         <!--Clinical Cases Quizz Detail Menu List View Controller-->
         <scene sceneID="FU2-t7-QOZ">
             <objects>
                 <viewController id="SPj-er-09t" customClass="ClinicalCasesQuizzDetailMenuListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RcG-kt-Qal">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="82" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kgE-hy-oFj">
@@ -1554,15 +1576,15 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController id="bw1-sp-nX5" customClass="SpecialFocusListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XsI-ro-eev">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="5Gh-Pq-dNz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOb-Rn-ZK4">
-                                <rect key="frame" x="166" y="87" width="221" height="22"/>
+                                <rect key="frame" x="142" y="87" width="221" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="                           MENU" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1572,17 +1594,17 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqi-vD-KFO">
-                                <rect key="frame" x="0.0" y="130" width="414" height="766"/>
+                                <rect key="frame" x="0.0" y="130" width="390" height="714"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c6X-2f-Oru">
-                                <rect key="frame" x="0.0" y="67" width="158" height="63"/>
+                                <rect key="frame" x="0.0" y="67" width="134" height="63"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TaI-sD-gcX">
-                                <rect key="frame" x="158" y="130" width="259" height="766"/>
+                                <rect key="frame" x="134" y="130" width="259" height="714"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1595,14 +1617,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBT-AZ-aXQ">
-                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aqe-cd-GS1">
-                                                    <rect key="frame" x="16" y="63.5" width="47" height="16"/>
+                                                    <rect key="frame" x="15.999999999999996" y="63.333333333333321" width="46.666666666666664" height="15.666666666666666"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1639,15 +1661,15 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController storyboardIdentifier="PracticalManualDetailViewController" id="gfE-BM-UnF" customClass="PracticalManualDetailViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LQ6-HT-4oY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="qSy-OT-5hK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZO-Q6-iZd">
-                                <rect key="frame" x="166" y="87" width="225" height="22"/>
+                                <rect key="frame" x="142" y="87" width="225" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="                           MENU" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1657,7 +1679,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lkM-Xq-w0R">
-                                <rect key="frame" x="0.0" y="113" width="158" height="783"/>
+                                <rect key="frame" x="0.0" y="106" width="134" height="738"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1w3-vI-u6N">
@@ -1673,7 +1695,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x1o-5L-kfh">
-                                <rect key="frame" x="158" y="130" width="259" height="766"/>
+                                <rect key="frame" x="134" y="130" width="259" height="714"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1686,14 +1708,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yIO-hf-eW5">
-                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aus-zH-EJR">
-                                                    <rect key="frame" x="16" y="63.5" width="35" height="16"/>
+                                                    <rect key="frame" x="16" y="63.333333333333321" width="35" height="15.666666666666666"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
@@ -1710,7 +1732,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BkI-cZ-lTs">
-                                <rect key="frame" x="0.0" y="67" width="158" height="63"/>
+                                <rect key="frame" x="0.0" y="67" width="134" height="63"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -1736,20 +1758,20 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController id="8nk-CD-Mxz" customClass="QuickGuideListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3wb-1Z-ccZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-dL-3R6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <webView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eih-9W-VrY">
-                                <rect key="frame" x="0.0" y="130" width="414" height="766"/>
+                                <rect key="frame" x="0.0" y="130" width="390" height="714"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njZ-fc-Lyj">
-                                <rect key="frame" x="166" y="87" width="225" height="22"/>
+                                <rect key="frame" x="142" y="87" width="225" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="                           MENU" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1759,7 +1781,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2TZ-4J-VV1">
-                                <rect key="frame" x="158" y="130" width="259" height="766"/>
+                                <rect key="frame" x="134" y="130" width="259" height="714"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80474290780141844" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1772,14 +1794,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aki-LK-t1u">
-                                                    <rect key="frame" x="16" y="40" width="33" height="20.5"/>
+                                                    <rect key="frame" x="16" y="40" width="33" height="20.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LBK-o4-lEm">
-                                                    <rect key="frame" x="16" y="63.5" width="47" height="16"/>
+                                                    <rect key="frame" x="15.999999999999996" y="63.333333333333321" width="46.666666666666664" height="15.666666666666666"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1796,7 +1818,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QGq-Zx-XIH">
-                                <rect key="frame" x="0.0" y="67" width="158" height="63"/>
+                                <rect key="frame" x="0.0" y="67" width="134" height="63"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -1821,17 +1843,17 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController storyboardIdentifier="DisclaimerViewController" id="rsi-Fy-yor" customClass="DisclaimerViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jan-EJ-w2P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P3S-Vs-lGQ">
-                                <rect key="frame" x="20" y="115" width="374" height="781"/>
+                                <rect key="frame" x="20" y="115" width="350" height="729"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTZ-Uj-qDO">
-                                <rect key="frame" x="357" y="70" width="32" height="32"/>
+                                <rect key="frame" x="333" y="70" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Close"/>
                             </button>
@@ -1855,7 +1877,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 <navigationController storyboardIdentifier="Main-iphone" automaticallyAdjustsScrollViewInsets="NO" id="EXK-48-cko" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yof-7a-yQb">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1872,7 +1894,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController id="hZt-aE-IQp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VGf-1Z-L9D">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ofY-5C-Fpe"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1887,7 +1909,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController id="m3c-zf-YpC" customClass="CoagulationCascadeListViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xsb-aB-E2b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBackground" translatesAutoresizingMaskIntoConstraints="NO" id="CxY-ay-Ogf">
@@ -1895,16 +1917,16 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjE-Iv-aaZ">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDq-7E-9IS">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1615"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1615"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-lR-14Y">
-                                                <rect key="frame" x="0.0" y="20" width="414" height="1575"/>
+                                                <rect key="frame" x="-12.333333333333343" y="20" width="414.66666666666674" height="1575"/>
                                                 <subviews>
                                                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="N7J-od-SZM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="239"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="295.33333333333331" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coagulation Cascade" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP6-U8-XxQ">
                                                                 <rect key="frame" x="26" y="166" width="115" height="53"/>
@@ -1932,7 +1954,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K53-Op-lGO">
-                                                        <rect key="frame" x="0.0" y="289" width="295" height="239"/>
+                                                        <rect key="frame" x="0.0" y="289" width="295.33333333333331" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Primary Haemostasis" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNN-wK-rw1">
                                                                 <rect key="frame" x="31" y="166" width="110" height="53"/>
@@ -1956,7 +1978,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ci-DI-H44">
-                                                        <rect key="frame" x="0.0" y="578" width="295" height="239"/>
+                                                        <rect key="frame" x="0.0" y="578" width="295.33333333333331" height="239"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fibrin Formation &amp; Fibrinolysis" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKR-n9-OAx">
                                                                 <rect key="frame" x="30" y="166" width="137" height="53"/>
@@ -1980,7 +2002,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdZ-eh-F1f">
-                                                        <rect key="frame" x="0.0" y="867" width="295" height="239"/>
+                                                        <rect key="frame" x="0.0" y="867" width="295.33333333333331" height="239"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBoutonE" translatesAutoresizingMaskIntoConstraints="NO" id="gDo-PA-tR4">
                                                                 <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
@@ -2004,7 +2026,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtl-v9-RQ4">
-                                                        <rect key="frame" x="0.0" y="1156" width="294" height="241"/>
+                                                        <rect key="frame" x="0.0" y="1156" width="294.33333333333331" height="241"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CoagCascadeSubmenuBoutonD" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-rd-k1P">
                                                                 <rect key="frame" x="0.0" y="-1" width="295" height="153"/>
@@ -2031,7 +2053,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         </constraints>
                                                     </view>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-Rs-aXF">
-                                                        <rect key="frame" x="0.0" y="1447" width="414" height="128"/>
+                                                        <rect key="frame" x="0.0" y="1447" width="414.66666666666669" height="128"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="128" id="2zh-lw-zt6"/>
@@ -2101,16 +2123,16 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
             <objects>
                 <viewController storyboardIdentifier="PracticalManualAbbreviationViewController" id="JJG-XV-lCx" customClass="PracticalManualAbbreviationViewController" customModule="iHemostasis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkZ-qt-vOb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PracticalManual-Bg" translatesAutoresizingMaskIntoConstraints="NO" id="6ni-0a-vLd">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.1529411765" green="0.023529411760000001" blue="0.01176470588" alpha="0.62" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p8h-pJ-XEh">
-                                <rect key="frame" x="0.0" y="107" width="414" height="789"/>
+                                <rect key="frame" x="0.0" y="107" width="390" height="737"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
