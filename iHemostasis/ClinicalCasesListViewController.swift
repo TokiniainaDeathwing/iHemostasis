@@ -120,12 +120,18 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
   }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-    let clinicalCasesQuizzDetailViewController = storyBoard.instantiateViewController(withIdentifier: "ClinicalCasesQuizzDetailViewController") as! ClinicalCasesQuizzDetailViewController
-    clinicalCasesQuizzDetailViewController.quizzIdentifier = indexPath.row + 1
-    
-    self.navigationController!.pushViewController(clinicalCasesQuizzDetailViewController, animated: true)
-    self.navigationController!.navigationBar.topItem?.title = "     "
+        let storyBoard : UIStoryboard
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            storyBoard  = UIStoryboard(name: "Main-iphone", bundle:nil)
+        }else{
+            storyBoard  = UIStoryboard(name: "Main", bundle:nil)
+        }
+      
+        let clinicalCasesQuizzDetailViewController = storyBoard.instantiateViewController(withIdentifier: "ClinicalCasesQuizzDetailViewController") as! ClinicalCasesQuizzDetailViewController
+        clinicalCasesQuizzDetailViewController.quizzIdentifier = indexPath.row + 1
+
+        self.navigationController!.pushViewController(clinicalCasesQuizzDetailViewController, animated: true)
+        self.navigationController!.navigationBar.topItem?.title = "     "
   }
     
   func reloadData() {

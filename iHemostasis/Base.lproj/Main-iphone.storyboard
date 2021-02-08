@@ -1157,12 +1157,11 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstAttribute="trailing" secondItem="vcJ-zW-Hwa" secondAttribute="trailing" id="nPx-yv-gnv"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-OA-V72" userLabel="QuizzQuestionView">
-                                <rect key="frame" x="0.0" y="204" width="414" height="592"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-OA-V72" userLabel="QuizzQuestionView">
+                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="73" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e6m-Cd-OF1">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="603"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="582"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
@@ -1208,12 +1207,11 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
-                                <rect key="frame" x="0.0" y="203" width="414" height="593"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
+                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="122" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="Pq9-WW-Mlc">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="593"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="571"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
@@ -1283,21 +1281,26 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <segue destination="SPj-er-09t" kind="push" id="asa-97-yzY"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gkx-w8-CNg" userLabel="FooterView">
-                                <rect key="frame" x="0.0" y="796" width="414" height="100"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkx-w8-CNg" userLabel="FooterView">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVs-pe-Q2B">
-                                        <rect key="frame" x="168" y="17" width="208" height="65"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVs-pe-Q2B">
+                                        <rect key="frame" x="155.5" y="47" width="103" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="HpZ-fP-mhD"/>
+                                            <constraint firstAttribute="width" constant="103" id="PXi-Dl-tfg"/>
+                                        </constraints>
                                         <state key="normal" image="next"/>
                                         <connections>
                                             <action selector="nextButtonActionWithSender:" destination="lp4-2f-zZY" eventType="touchUpInside" id="BDm-Nj-juS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-JY-l80">
-                                        <rect key="frame" x="168" y="17" width="208" height="65"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-JY-l80">
+                                        <rect key="frame" x="155.5" y="47" width="103" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="7Ga-Be-nod"/>
+                                            <constraint firstAttribute="width" constant="103" id="T7G-6z-ug2"/>
+                                        </constraints>
                                         <state key="normal" image="validate"/>
                                         <connections>
                                             <action selector="validateButtonActionWithSender:" destination="lp4-2f-zZY" eventType="touchUpInside" id="HO6-a1-2Yv"/>
@@ -1319,10 +1322,16 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IsV-yk-645"/>
+                                    <constraint firstAttribute="bottom" secondItem="P9d-JY-l80" secondAttribute="bottom" constant="18" id="Kep-Aq-rTd"/>
+                                    <constraint firstItem="EVs-pe-Q2B" firstAttribute="centerX" secondItem="gkx-w8-CNg" secondAttribute="centerX" id="QpF-vc-zqa"/>
+                                    <constraint firstAttribute="bottom" secondItem="EVs-pe-Q2B" secondAttribute="bottom" constant="18" id="X8j-T1-ISC"/>
+                                    <constraint firstItem="P9d-JY-l80" firstAttribute="centerX" secondItem="gkx-w8-CNg" secondAttribute="centerX" id="jH9-ms-5on"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-vi-X71" userLabel="QuizzAnswerView">
-                                <rect key="frame" x="0.0" y="204" width="414" height="592"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-vi-X71" userLabel="QuizzAnswerView">
+                                <rect key="frame" x="0.0" y="191" width="414" height="571"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0e-yf-b9W">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="152"/>
@@ -1396,7 +1405,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6la-0J-BYe">
-                                        <rect key="frame" x="45" y="154" width="323" height="445"/>
+                                        <rect key="frame" x="44" y="153" width="323" height="425"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </webView>
@@ -1439,10 +1448,25 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="3Ez-Kr-Snf"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="48Y-vZ-1K0"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="ff2-Oi-nZN" secondAttribute="bottom" id="5Js-IK-Tva"/>
                             <constraint firstItem="h8M-gx-Liw" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" id="AKo-jL-Och"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="nAn-vi-X71" secondAttribute="bottom" id="BVX-en-tp1"/>
+                            <constraint firstItem="ff2-Oi-nZN" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="CWl-6X-baW"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="bottom" secondItem="olC-XP-Qsw" secondAttribute="bottom" id="Gmm-3y-wXc"/>
+                            <constraint firstItem="NEV-OA-V72" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="IlE-a0-hqL"/>
+                            <constraint firstItem="ff2-Oi-nZN" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="LZR-nz-8oV"/>
                             <constraint firstItem="olC-XP-Qsw" firstAttribute="trailing" secondItem="h8M-gx-Liw" secondAttribute="trailing" constant="20" id="OZQ-q3-rLF"/>
+                            <constraint firstItem="NEV-OA-V72" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="aqb-CS-RIT"/>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="h8M-gx-Liw" secondAttribute="bottom" constant="16" id="eRI-Er-1ED"/>
+                            <constraint firstItem="nAn-vi-X71" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="ioE-6h-EWS"/>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="nq0-U1-ltz"/>
+                            <constraint firstItem="nAn-vi-X71" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="pjO-qT-5eK"/>
+                            <constraint firstItem="ff2-Oi-nZN" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="qWx-Sz-MqN"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="tGQ-9V-Twl"/>
+                            <constraint firstItem="nAn-vi-X71" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="yZd-wd-x8t"/>
+                            <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="NEV-OA-V72" secondAttribute="bottom" id="zeU-ny-jLa"/>
+                            <constraint firstItem="NEV-OA-V72" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="zoS-jC-BCR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Emn-e2-wnl"/>
