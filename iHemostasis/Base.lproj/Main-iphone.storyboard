@@ -1530,42 +1530,60 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstAttribute="bottom" secondItem="6la-0J-BYe" secondAttribute="bottom" constant="15" id="pVe-FF-wVZ"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
-                                <rect key="frame" x="0.0" y="109" width="331" height="787"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
+                                <rect key="frame" x="0.0" y="163" width="331" height="733"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Patient history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzA-ti-Lod">
-                                        <rect key="frame" x="93" y="41" width="181" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="stat" translatesAutoresizingMaskIntoConstraints="NO" id="TnZ-7h-8XW">
+                                        <rect key="frame" x="26" y="32" width="53" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="cXY-5p-AsQ"/>
+                                            <constraint firstAttribute="width" constant="53" id="tDY-Z7-Hjf"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzA-ti-Lod">
+                                        <rect key="frame" x="93" y="41" width="121" height="23"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Od-M4-qKw">
-                                        <rect key="frame" x="31" y="77" width="280" height="563"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Od-M4-qKw">
+                                        <rect key="frame" x="31" y="77" width="300" height="613"/>
                                         <subviews>
-                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1a-WF-i7B">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="563"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1a-WF-i7B">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="R1a-WF-i7B" secondAttribute="trailing" id="6Cm-ds-bMS"/>
+                                            <constraint firstAttribute="bottom" secondItem="R1a-WF-i7B" secondAttribute="bottom" id="OqE-79-HGn"/>
+                                            <constraint firstItem="R1a-WF-i7B" firstAttribute="top" secondItem="5Od-M4-qKw" secondAttribute="top" id="TZH-Zc-wZr"/>
+                                            <constraint firstItem="R1a-WF-i7B" firstAttribute="leading" secondItem="5Od-M4-qKw" secondAttribute="leading" id="tCp-XP-v4G"/>
+                                            <constraint firstItem="R1a-WF-i7B" firstAttribute="width" secondItem="5Od-M4-qKw" secondAttribute="width" id="vEx-aa-qw2"/>
+                                        </constraints>
                                     </scrollView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="stat" translatesAutoresizingMaskIntoConstraints="NO" id="TnZ-7h-8XW">
-                                        <rect key="frame" x="26" y="32" width="53" height="32"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5Od-M4-qKw" secondAttribute="trailing" id="1mb-aG-T2t"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Od-M4-qKw" secondAttribute="bottom" constant="43" id="Dzd-QU-1Bi"/>
+                                    <constraint firstItem="hzA-ti-Lod" firstAttribute="leading" secondItem="TnZ-7h-8XW" secondAttribute="trailing" constant="14" id="EUE-qJ-xBf"/>
+                                    <constraint firstItem="5Od-M4-qKw" firstAttribute="top" secondItem="TnZ-7h-8XW" secondAttribute="bottom" constant="13" id="J7e-lm-vtJ"/>
+                                    <constraint firstItem="5Od-M4-qKw" firstAttribute="leading" secondItem="1qZ-kC-0Sx" secondAttribute="leading" constant="31" id="NQr-ca-baf"/>
+                                    <constraint firstItem="TnZ-7h-8XW" firstAttribute="leading" secondItem="1qZ-kC-0Sx" secondAttribute="leading" constant="26" id="ep8-Vp-iKv"/>
+                                    <constraint firstItem="hzA-ti-Lod" firstAttribute="top" secondItem="1qZ-kC-0Sx" secondAttribute="top" constant="41" id="fGw-s5-SOn"/>
+                                    <constraint firstItem="TnZ-7h-8XW" firstAttribute="top" secondItem="1qZ-kC-0Sx" secondAttribute="top" constant="32" id="zHA-i8-GoB"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="olC-XP-Qsw"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1qZ-kC-0Sx" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="1s0-cd-fIi"/>
                             <constraint firstItem="ff2-Oi-nZN" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="56d-mJ-En9"/>
+                            <constraint firstAttribute="bottom" secondItem="1qZ-kC-0Sx" secondAttribute="bottom" id="7jH-cs-DMT"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="7l7-a6-fFC"/>
                             <constraint firstItem="h8M-gx-Liw" firstAttribute="top" secondItem="olC-XP-Qsw" secondAttribute="top" constant="10" id="Fda-dk-FZn"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="HaB-zi-xWn"/>
@@ -1582,6 +1600,8 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                             <constraint firstItem="nAn-vi-X71" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="giQ-Px-90m"/>
                             <constraint firstItem="hRt-fI-E2l" firstAttribute="top" secondItem="h8M-gx-Liw" secondAttribute="bottom" constant="16" id="oQO-ot-JGC"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="uK5-t9-EK9"/>
+                            <constraint firstItem="1qZ-kC-0Sx" firstAttribute="leading" secondItem="olC-XP-Qsw" secondAttribute="leading" id="vBY-st-9P4"/>
+                            <constraint firstItem="1qZ-kC-0Sx" firstAttribute="width" secondItem="olC-XP-Qsw" secondAttribute="width" multiplier="0.799517" id="vuQ-Qq-VaB"/>
                             <constraint firstItem="NEV-OA-V72" firstAttribute="trailing" secondItem="olC-XP-Qsw" secondAttribute="trailing" id="zJ2-5B-uOJ"/>
                             <constraint firstItem="gkx-w8-CNg" firstAttribute="top" secondItem="ff2-Oi-nZN" secondAttribute="bottom" id="zKJ-Ah-3t3"/>
                             <constraint firstItem="ff2-Oi-nZN" firstAttribute="top" secondItem="hRt-fI-E2l" secondAttribute="bottom" id="zqf-9x-232"/>
@@ -1618,7 +1638,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emk-yp-nMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3275.3846153846152" y="-585.07109004739334"/>
+            <point key="canvasLocation" x="3275.36231884058" y="-585.26785714285711"/>
         </scene>
         <!--Clinical Cases Quizz Detail Menu List View Controller-->
         <scene sceneID="FU2-t7-QOZ">
