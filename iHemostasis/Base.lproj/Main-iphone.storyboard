@@ -546,9 +546,11 @@
                                     <outlet property="delegate" destination="zUb-3c-Pki" id="R6t-qe-6AJ"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1m-X2-Msg">
-                                <rect key="frame" x="314" y="816" width="80" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1m-X2-Msg">
+                                <rect key="frame" x="287" y="845" width="107" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="jgT-NS-or7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Abbreviations">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -560,6 +562,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MJM-Vb-T6a"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="h1m-X2-Msg" secondAttribute="bottom" constant="20" id="M06-LM-ko1"/>
+                            <constraint firstItem="MJM-Vb-T6a" firstAttribute="trailing" secondItem="h1m-X2-Msg" secondAttribute="trailing" constant="20" id="Yc4-OL-GPM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mol-QF-Q6h"/>
                     <connections>
@@ -569,7 +575,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3X-O5-9V5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3297.3645680819909" y="181.640625"/>
+            <point key="canvasLocation" x="3297.1014492753625" y="181.47321428571428"/>
         </scene>
         <!--Practical Manual View Controller-->
         <scene sceneID="54f-Za-Fmk">
