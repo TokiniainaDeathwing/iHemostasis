@@ -122,14 +122,14 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
             case .portrait:
                 self.contextMenuTableView?.isHidden = true
                 self.menuButton?.isHidden = false
-                self.contextMenuTableView?.frame = CGRect((self.blankView?.frame.width)!, 130, screenSize.width - (self.blankView?.frame.width)!, screenSize.height - 130)
-                self.webView?.frame = CGRect(10, 80, screenSize.width , screenSize.height - 180)
-                if self.webViewContainerView?.isHidden == true {
-                    self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width , screenSize.height - 180)
-                }
-                else {
-                    self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width   , screenSize.height - 180)
-                }
+//                self.contextMenuTableView?.frame = CGRect((self.blankView?.frame.width)!, 130, screenSize.width - (self.blankView?.frame.width)!, screenSize.height - 130)
+//                self.webView?.frame = CGRect(10, 80, screenSize.width , screenSize.height - 180)
+//                if self.webViewContainerView?.isHidden == true {
+//                    self.webViewContainerView?.frame = CGRect(600, 130.0, screenSize.width , screenSize.height - 180)
+//                }
+//                else {
+//                    self.webViewContainerView?.frame = CGRect(0, 130.0, screenSize.width   , screenSize.height - 180)
+//                }
                 self.blankView?.isHidden = false
             default:
                 self.contextMenuTableView?.isHidden = false

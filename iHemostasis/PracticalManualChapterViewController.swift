@@ -553,7 +553,12 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let storyBoard : UIStoryboard
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            storyBoard =  UIStoryboard(name: "Main-iphone", bundle:nil)
+        }else{
+            storyBoard =  UIStoryboard(name: "Main", bundle:nil)
+        }
         let practicalManualDetailViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualDetailViewController") as! PracticalManualDetailViewController
         
         if (self.practicalManualType == Utils.PracticalManualType.AntiphospholipidSyndrome) {
@@ -689,7 +694,12 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
     }
     
     @IBAction func abbreviationButtonAction(sender: UIButton) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let storyBoard : UIStoryboard
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            storyBoard =  UIStoryboard(name: "Main-iphone", bundle:nil)
+        }else{
+            storyBoard =  UIStoryboard(name: "Main", bundle:nil)
+        }
         let practicalManualAbbreviationViewController = storyBoard.instantiateViewController(withIdentifier: "PracticalManualAbbreviationViewController") as! PracticalManualAbbreviationViewController
         practicalManualAbbreviationViewController.practicalManualType = self.practicalManualType
         self.navigationController!.pushViewController(practicalManualAbbreviationViewController, animated: true)
