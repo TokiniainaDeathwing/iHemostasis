@@ -1277,14 +1277,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <rect key="frame" x="80" y="0.0" width="334" height="109"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-RE-NV8">
-                                                            <rect key="frame" x="80" y="0.0" width="334" height="18"/>
-                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-RE-NV8">
+                                                            <rect key="frame" x="81" y="0.0" width="328" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJF-4W-3aj">
-                                                            <rect key="frame" x="84" y="18" width="330" height="92"/>
+                                                            <rect key="frame" x="84" y="17" width="330" height="93"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1305,9 +1305,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <constraint firstItem="Pb0-PD-kDG" firstAttribute="leading" secondItem="G6g-lp-s6B" secondAttribute="leading" id="GuN-eM-bC6"/>
                                                         <constraint firstItem="XJF-4W-3aj" firstAttribute="top" secondItem="lFL-RE-NV8" secondAttribute="bottom" id="UWr-nP-6gh"/>
                                                         <constraint firstItem="Kdv-aj-AAc" firstAttribute="top" secondItem="G6g-lp-s6B" secondAttribute="top" id="agp-Gw-3v3"/>
-                                                        <constraint firstItem="lFL-RE-NV8" firstAttribute="leading" secondItem="G6g-lp-s6B" secondAttribute="leading" constant="80" id="akA-Hk-XzG"/>
+                                                        <constraint firstItem="lFL-RE-NV8" firstAttribute="leading" secondItem="G6g-lp-s6B" secondAttribute="leading" constant="81" id="akA-Hk-XzG"/>
                                                         <constraint firstAttribute="bottom" secondItem="Kdv-aj-AAc" secondAttribute="bottom" constant="13" id="c01-On-1WL"/>
-                                                        <constraint firstAttribute="trailing" secondItem="lFL-RE-NV8" secondAttribute="trailing" id="fkK-1E-lsS"/>
+                                                        <constraint firstAttribute="trailing" secondItem="lFL-RE-NV8" secondAttribute="trailing" constant="5" id="fkK-1E-lsS"/>
                                                         <constraint firstAttribute="trailing" secondItem="Pb0-PD-kDG" secondAttribute="trailing" id="i4k-LS-ctG"/>
                                                         <constraint firstAttribute="bottom" secondItem="Pb0-PD-kDG" secondAttribute="bottom" constant="1" id="nNF-Wj-nDf"/>
                                                         <constraint firstItem="Kdv-aj-AAc" firstAttribute="leading" secondItem="0YW-XG-wKI" secondAttribute="trailing" constant="32" id="quy-a8-T2T"/>
