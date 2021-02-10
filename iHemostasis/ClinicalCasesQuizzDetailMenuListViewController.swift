@@ -40,6 +40,7 @@ class ClinicalCasesQuizzDetailMenuListViewController: UIViewController, UITableV
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.dismiss(animated: true, completion: nil)
+        
         delegate?.onItemSelection(index: indexPath.row)
     }
 }

@@ -234,7 +234,7 @@
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-aO-rVN">
-                                        <rect key="frame" x="6" y="7" width="828" height="31"/>
+                                        <rect key="frame" x="6" y="7" width="826" height="31"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <connections>
                                             <action selector="videoSliderOnChangeActionWithSender:" destination="9Zq-BE-sVh" eventType="valueChanged" id="LZz-sx-dVl"/>
@@ -310,7 +310,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
-                                <rect key="frame" x="942" y="100" width="82" height="75"/>
+                                <rect key="frame" x="940" y="100" width="84" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="CoagCascadePlayerSceneInformation"/>
@@ -330,7 +330,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEb-hl-qrg">
-                                        <rect key="frame" x="412" y="22" width="43" height="30"/>
+                                        <rect key="frame" x="410" y="22" width="45" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Close"/>
                                         <connections>
@@ -1105,7 +1105,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SPj-er-09t" kind="push" id="asa-97-yzY"/>
+                                    <segue destination="SPj-er-09t" kind="popover" popoverAnchorView="h8M-gx-Liw" id="asa-97-yzY">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRt-fI-E2l" userLabel="HeaderView">
@@ -1723,15 +1725,15 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TaI-sD-gcX">
-                                <rect key="frame" x="190" y="129" width="224" height="767"/>
+                                <rect key="frame" x="189.5" y="129" width="224.5" height="767"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="uBT-AZ-aXQ" detailTextLabel="Aqe-cd-GS1" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BLB-yU-0kk">
-                                        <rect key="frame" x="0.0" y="28" width="224" height="122"/>
+                                        <rect key="frame" x="0.0" y="28" width="224.5" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLB-yU-0kk" id="nNh-pm-FdF">
-                                            <rect key="frame" x="0.0" y="0.0" width="224" height="122"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="224.5" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBT-AZ-aXQ">

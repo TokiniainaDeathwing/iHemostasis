@@ -281,6 +281,10 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
                 self.loadJsonData(quizzId: index + 1)
                 self.indexButton?.setTitle("Clinical Case " + String(index + 1), for: UIControl.State.normal)
                 self.reloadData(index: index)
+                if(UIDevice.current.userInterfaceIdiom == .phone){
+                    self.navigationController?.popViewController(animated: true)
+                }
+                
             case .cancel:
                 print("YES cancel")
                 
