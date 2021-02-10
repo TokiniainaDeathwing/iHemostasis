@@ -1,0 +1,125 @@
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="s11a.png">
+            </p>
+            <p class="Introduction">
+                <img class="android"  src="s11b.png">
+            </p>
+            <p class="Diagnosis of haemophilia">
+                <img class="android"  src="s12a.png">
+            </p>
+            <p class="Diagnosis of haemophilia">
+                <img class="android"  src="s12b.png">
+            </p>
+            <p class="Diagnosis of haemophilia">
+                <img class="android"  src="s12c.png">
+            </p>
+            <p class="Clinical manifestations">
+                <img class="android"  src="s13a.png">
+            </p>
+            <p class="Clinical manifestations">
+                <img class="android"  src="s13b.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical manifestations')">
+                <img class="android"  src="s13c.png">
+                <img class="android"  src="s13dImg.png">
+            </p>
+            <p class="Clinical manifestations">
+                <img class="android"  src="s13d.png">
+            </p>
+            <p class="Clinical manifestations">
+            <img class="android" style="margin-bottom:200px" src="s13e.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical manifestations')">
+                <img class="android"  src="s13f.png">
+                <img class="android"  src="s13g.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s14a.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s14b.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s14c.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s14d.png">
+            </p>
+            <p class="Figure3">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Treatment')">
+                <img class="android" style="width: 85%;" src="s14eFig.jpg">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s14e.png">
+                <img class="gotofig android" style="bottom: 55%;" src="goToFigure.png" onclick="loadFigure('Figure3')">
+            </p>
+            <p class="Inhibitors">
+                <img class="android"  src="s15a.png">
+            </p>
+            <p class="Inhibitors">
+                <img class="android"  src="s15b.png">
+            </p>
+            <p class="Inhibitors">
+                <img class="android"  src="s15c.png">
+            </p>
+            <p class="Inhibitors">
+                <img class="android"  src="s15d.png">
+            </p>
+            <p class="Inhibitors">
+                <img class="android"  src="s15e.png">
+            </p>
+            <p class="Do's and Don'ts">
+                <img class="android"  src="s16a.png">
+            </p>
+            <p class="Do's and Don'ts">
+                <img class="android"  src="s16b.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s17a.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s17b.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s17c.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s17d.png">
+            </p>
+    </body>
+</html>

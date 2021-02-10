@@ -1,0 +1,96 @@
+
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="S5_1.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  src="S5_2_1.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  src="S5_2_2.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  src="S5_2_3.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  src="S5_2_4.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  src="S5_2_5.png">
+            </p>
+            <p class="Effect of anti-Xa DOAC on haemostasis tests">
+                <img class="android"  style="margin-bottom:200px;" src="S5_2_6.png">
+                <img class="gotofig android" style="top:245px;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" style="width:100px;" onclick="loadPage('Effect of anti-Xa DOAC on haemostasis tests')">
+                <img class="android" src="12.jpg">
+            </p>
+           
+            <p class="Measurement of DOAC concentrations">
+                <img class="android"  src="S5_3_1.png">
+            </p>
+            <p class="Measurement of DOAC concentrations">
+                <img class="android"  src="S5_3_2.png">
+            </p>
+            <p class="Measurement of DOAC concentrations">
+                <img class="android"  src="S5_3_3.png">
+            </p>
+            <p class="Measurement of DOAC concentrations">
+                <img class="android"  src="S5_3_4.png">
+                <img class="gotofig android" style="top:279px;" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Measurement of DOAC concentrations">
+                <img class="android"  src="S5_3_5.png">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" style="width:100px;" onclick="loadPage('Measurement of DOAC concentrations')">
+                <img class="android" src="13.jpg">
+            </p>
+            <p class="References">
+                <img class="android" style=" width: 77%;" src="Ref_S5_A.jpeg">
+            </p>
+            <p class="References">
+                <img class="android" style=" width: 77%;" src="Ref_S5_B.jpeg">
+            </p>
+            <p class="References">
+                <img class="android"  src="Ref_S5_1.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="Ref_S5_2.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="Ref_S5_3.png">
+            </p>
+    </body>
+</html>

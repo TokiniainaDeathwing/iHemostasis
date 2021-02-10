@@ -1,0 +1,212 @@
+
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+            width:75%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="platelets41a.png">
+                    <img style="bottom:35%" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+                    <img style="bottom:15%" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table1')">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-end:0px">
+                <img class="android"  src="platelets42a.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-start:0px">
+                <img class="android"  src="platelets42b.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42c.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42d.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42e.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42f.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42g.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42h.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42i.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42j.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42k.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42l.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-end:0px">
+                <img class="android"  src="platelets42m.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-start:0px">
+                <img class="android"  src="platelets42n.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-end:0px">
+                <img class="android"  src="platelets42o.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation" style="margin-block-start:0px">
+                <img class="android"  src="platelets42p.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42q.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42r.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42s.png">
+            </p>
+            <p class="Normal platelet count and abnormal aggregation">
+                <img class="android"  src="platelets42t.png">
+            </p>
+            <p class="Normal platelet count and normal aggregation">
+                         <img class="android"  src="platelets43a.png">
+            </p>
+            <p class="Normal platelet count and normal aggregation">
+                         <img class="android"  src="platelets43b.png">
+            </p>
+            <p class="Thrombocytopenia with small platelets and platelet dysfunction">
+                         <img class="android"  src="platelets44a.png">
+            </p>
+            <p class="Thrombocytopenia with small platelets and platelet dysfunction" style="margin-block-end:0px">
+                         <img class="android"  src="platelets44b.png">
+            </p>
+            <p class="Thrombocytopenia with small platelets and platelet dysfunction" style="margin-block-start:0px">
+                         <img class="android"  src="platelets44c.png">
+            </p>
+            
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction">
+                         <img class="android"  src="platelets45a.png">
+            </p>
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction">
+                         <img class="android"  src="platelets45b.png">
+            </p>
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction" style="margin-block-end:0px">
+                         <img class="android"  src="platelets45c.png">
+            </p>
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction" style="margin-block-start:0px">
+                         <img class="android"  src="platelets45d.png">
+            </p>
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction">
+                         <img class="android"  src="platelets45e.png">
+            </p>
+            <p class="Thrombocytopenia with normal-size platelets and platelet dysfunction">
+                         <img class="android"  src="platelets45f.png">
+            </p>
+            
+            
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction" style="margin-block-end:0px">
+                         <img class="android"  src="platelets46a.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction" style="margin-block-start:0px">
+                         <img class="android"  src="platelets46b.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction">
+                         <img class="android"  src="platelets46c.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction">
+                         <img class="android"  src="platelets46d.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction">
+                         <img class="android"  src="platelets46e.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction">
+                         <img class="android"  src="platelets46f.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction" style="margin-block-end:0px">
+                         <img class="android"  src="platelets46g.png">
+            </p>
+            <p class="Thrombocytopenia with large or giant platelets and platelet dysfunction" style="margin-block-start:0px">
+                         <img class="android"  src="platelets46h.png">
+            </p>
+            
+            <p class="Management of patients with platelet function disorders" style="margin-block-end:0px">
+                         <img class="android"  src="platelets47a.png">
+            </p>
+            <p class="Management of patients with platelet function disorders" style="margin-block-start:0px">
+                                   <img class="android"  src="platelets47b.png">
+            </p>
+            <p class="Management of patients with platelet function disorders" >
+                                   <img class="android"  src="platelets47c.png">
+                                                           <img style="bottom:175%"  class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+            </p>
+            <p class="Management of patients with platelet function disorders" >
+                                   <img class="android"  src="platelets47d.png">
+                                                                                                  <img style="bottom:45%"   class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table3')">
+            </p>
+
+            <p class="Conclusion" style="margin-block-start:0px">
+           <img class="android"  src="platelets48a.png">
+            </p>
+             <p class="References" style="margin-block-end:0px">
+             <img class="android"  src="platelets49a.png">
+             </p>
+             <p class="References" style="margin-block-start:0px">
+             <img class="android"  src="platelets49b.png">
+             </p>
+            
+            <p class="Table1">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                <img class="android"  src="platelets41b.png">
+                <img class="android"  src="platelets41c.png">
+                <img class="android"  src="platelets41d.png">
+                <img class="android"  src="platelets41e.png">
+                <img class="android"  src="platelets41f.png">
+                <img class="android"  src="platelets41bsub.png">
+            </p>
+            <p class="Table2">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Management of patients with platelet function disorders')">
+             <img class="android"  src="platelets47e.png">
+            </p>
+
+            <p class="Table3">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Management of patients with platelet function disorders')">
+             <img class="android"  src="platelets47f.png">
+            </p>
+            <p class="Figure1">
+             <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+             <img class="android"  src="platelets41g.png">
+            </p>
+       
+            
+    </body>
+</html>
+
+

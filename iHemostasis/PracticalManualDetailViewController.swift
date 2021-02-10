@@ -37,7 +37,11 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         
         // Load the html
         let contextMenuItem = contextMenuPointer[0]
-        let filename = contextMenuItem["filename"]
+        var filename : String
+        filename = contextMenuItem["filename"]!
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            filename += " copy";
+        }
         let file = Bundle.main.url(forResource: filename, withExtension: "html")!
         let request = URLRequest(url: file)
         //let request = NSURLRequest(url: file)

@@ -1,0 +1,257 @@
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+            width:75%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Background">
+                <img class="android"  src="platelets81a.png">
+       
+                    
+            </p>
+            <p class="Background">
+                <img class="android"  src="platelets81b.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+                    
+            </p>
+                 <p class="Background">
+                     <img class="android"  src="platelets81d.png">
+            
+                         
+                 </p>
+            <p class="Cyclooxygenase (COX)-1 inhibition: aspirin">
+                <img class="android"  src="platelets82a.png">
+                    
+            </p>
+            <p class="Cyclooxygenase (COX)-1 inhibition: aspirin">
+                <img class="android"  src="platelets82b.png">
+                    
+            </p>
+            <p class="Cyclooxygenase (COX)-1 inhibition: aspirin">
+                <img class="android"  src="platelets82c.png">
+                    
+            </p>
+            <p class="Cyclooxygenase (COX)-1 inhibition: aspirin">
+                <img class="android"  src="platelets82d.png">
+                                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table1')">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83a.png">
+                    
+            </p>
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83b.png">
+                    
+            </p>
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-end:0px">
+                <img class="android"  src="platelets83c.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-start:0px">
+                <img class="android"  src="platelets83d.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-end:0px">
+                <img class="android"  src="platelets83e.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure2')">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-start:0px">
+                <img class="android"  src="platelets83f.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83g.png">
+                                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83h.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-end:0px">
+                <img class="android"  src="platelets83i.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor" style="margin-block-start:0px">
+                <img class="android"  src="platelets83j.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83k.png">
+                                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table3')">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83l.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83m.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83n.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83o.png">
+                                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table4')">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83p.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83q.png">
+                    
+            </p>
+            
+            <p class="Antiplatelet agents targeting the P2Y12-receptor">
+                <img class="android"  src="platelets83r.png">
+                                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table5')">
+                    
+            </p>
+            
+            <p class="Glycoprotein" style="margin-block-end:0px">
+                <img class="android"  src="platelets84a.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table6')">
+            </p>
+            <p class="Glycoprotein" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets84b.png">
+            </p>
+            <p class="Glycoprotein" style="margin-block-start:0px">
+                <img class="android"  src="platelets84c.png">
+            </p>
+            
+            <p class="Novel antiplatelet agents">
+                <img class="android"  src="platelets85a.png">
+            </p>
+            <p class="Novel antiplatelet agents" >
+                <img class="android"  src="platelets85b.png">
+            </p>
+            <p class="Novel antiplatelet agents" style="margin-block-end:0px">
+                <img class="android"  src="platelets85c.png">
+            </p>
+            <p class="Novel antiplatelet agents"  style="margin-block-start:0px">
+                <img class="android"  src="platelets85d.png">
+            </p>
+            <p class="Novel antiplatelet agents" style="margin-block-end:0px">
+                <img class="android"  src="platelets85e.png">
+            </p>
+            <p class="Novel antiplatelet agents" style="margin-block-start:0px">
+                <img class="android"  src="platelets85f.png">
+            </p>
+            
+            <p class="Conclusion">
+                <img class="android"  src="platelets86a.png">
+            </p>
+            <p class="References" style="margin-block-end:0px">
+                <img class="android"  src="platelets87a.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87b.png">
+            </p>
+            <p class="References" sstyle="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87c.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87d.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87e.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87f.png">
+            </p>
+            <p class="References" style="margin-block-end:0px;margin-block-start:0px">
+                <img class="android"  src="platelets87g.png">
+            </p>
+            <p class="References" style="margin-block-start:0px">
+                <img class="android"  src="platelets87h.png">
+            </p>
+            <p class="Figure1">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Background')">
+                          <img class="android"  src="platelets81c.png">
+                          <img class="android"  src="platelets81csub.png">
+            </p>
+           
+           
+            <p class="Figure2">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Antiplatelet agents targeting the P2Y12-receptor')">
+                          <img class="android"  src="platelets83s.png">
+                          <img class="android"  src="platelets83ssub.png">
+           </p>
+            <p class="Table1">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Cyclooxygenase (COX)-1 inhibition: aspirin')">
+                          <img class="android"  src="platelets81e.png">
+           </p>
+            <p class="Table2">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Antiplatelet agents targeting the P2Y12-receptor')">
+                          <img class="android"  src="platelets83t.png">
+                          <img class="android"  src="platelets83tsub.png">
+           </p>
+            <p class="Table3">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Antiplatelet agents targeting the P2Y12-receptor')">
+                          <img class="android"  src="platelets83u.png">
+           </p>
+            <p class="Table4">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Antiplatelet agents targeting the P2Y12-receptor')">
+                          <img class="android"  src="platelets83v.png">
+                          <img class="android"  src="platelets83vsub.png">
+           </p>
+            <p class="Table5">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Antiplatelet agents targeting the P2Y12-receptor')">
+                          <img class="android"  src="platelets83w.png">
+                          <img class="android"  src="platelets83wsub.png">
+           </p>
+            <p class="Table6">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Glycoprotein')">
+                          <img class="android"  src="platelets84d.png">
+           </p>
+    </body>
+</html>
+

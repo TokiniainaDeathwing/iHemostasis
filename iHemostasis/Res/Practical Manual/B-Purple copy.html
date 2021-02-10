@@ -1,0 +1,92 @@
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            width: 70%; display: block; margin-left: 10%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="s31.png">
+            </p>
+            <p class="Prevalence">
+                <img class="android"  src="s32.png">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s33a.png">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s33b.png">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s33c.png">
+            </p>
+            <p class="Inheritance">
+                <img class="android"  src="s34a.png">
+            </p>
+            <p class="Diagnosis">
+                <img class="android"  src="s35a.png">
+            </p>
+            <p class="Clinical symptoms">
+                <img class="android"  src="s36a.png">
+            </p>
+            <p class="Clinical symptoms">
+                <img class="android"  src="s36b.png">
+                <img class="gotofig android" style=" bottom: 48%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical symptoms')">
+                <img class="android" src="s33fig1.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s37a.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s37b.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s37c.png">
+            </p>
+            <p class="Complications of treatment">
+                <img class="android"  src="s38a.png">
+            </p>
+            <p class="Complications of treatment">
+                <img class="android"  src="s38b.png">
+            </p>
+            <p class="Conclusion">
+                <img class="android"  src="s39.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s39+1a.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s39+1b.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="s39+1c.png">
+            </p>
+    </body>
+</html>

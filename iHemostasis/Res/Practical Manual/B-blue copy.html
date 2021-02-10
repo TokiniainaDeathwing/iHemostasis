@@ -1,0 +1,111 @@
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="s61a.png">
+                <img class="gotofig android" style="top: 74%;" src="goToFigure.png" onclick="loadFigure('Figure6')">
+            </p>
+            <p class="Figure6">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                <img class="android" src="s61b.png">
+            </p>
+            <p class="Introduction">
+                <img class="android"  src="s61d.png">
+                <img class="gotofig android" style="bottom: 76%;" src="goToFigure.png" onclick="loadFigure('Figure5')">
+                <img class="gotofig android" style="bottom: 49%;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                <img class="android" src="s61figs1.png">
+            </p>
+            <p class="Figure5">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                    <img class="android" style="width: 90%;" src="s62b.jpg">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s62a.png">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s62d.png">
+                <img class="gotofig android" style="bottom: 20%;" src="goToFigure.png" onclick="loadFigure('Figure3')">
+            </p>
+            <p class="Pathophysiology">
+                <img class="android"  src="s62e.png">
+            </p>
+            <p class="Laboratory diagnosis">
+                <img class="android"  src="s63a.png">
+                <img class="gotofig android" style="bottom: 40%;" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Laboratory diagnosis')">
+                <img class="android" src="s63figs1.png">
+            </p>
+            <p class="Laboratory diagnosis">
+                <img class="android"  src="s63b.png">
+            </p>
+            <p class="Figure3">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Pathophysiology')">
+                <img class="android" src="s63figs2.png">
+            </p>
+            <p class="Laboratory diagnosis">
+                <img class="android"  src="s63c.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s64a.png">
+                <img class="gotofig android" style="bottom: 20%;" src="goToFigure.png" onclick="loadFigure('Figure4')">
+            </p>
+            <p class="Figure4">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Treatment')">
+                <img class="android" src="s64figs1.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s64b.png">
+            </p>
+            <p class="Treatment">
+                <img class="android"  src="s64c.png">
+            </p>
+            <p class="Take home messages">
+                <img class="android"  src="s65a.png">
+            </p>
+            <p class="Take home messages">
+                <img class="android"  src="s65b.png">
+            </p>
+            <p class="Take home messages">
+                <img class="android"  src="s65c.png">
+            </p>
+            <p class="Selected papers of interest">
+                <img class="android"  src="s66a.png">
+            </p>
+            <p class="Selected papers of interest">
+                <img class="android"  src="s66b.png">
+            </p>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+    p{
+        position: relative;
+    }
+    p img{
+        display: block; margin-left: 10%;
+    }
+    p img.gotofig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 15px;
+        right: 70px;
+    }
+    p img.exitfig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+        margin-left: 20px;
+    }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="S6_1.png">
+            </p>
+            <p class="Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants">
+                <img class="android"  src="S6_2_1.png">
+            </p>
+            <p class="Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants">
+                <img class="android"  src="S6_2_2.png">
+                <img class="gotofig android" style="top:414px;" src="goToFigure.png" onclick="loadFigure('Figure1')">
+                <img class="gotofig android" style="top:478px;" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants')">
+                <img class="android" src="S6_2_3.png">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants')">
+                <img class="android" src="S6_2_4.png">
+            </p>
+            <p class="Bleeding risk and reversal of anticoagulant effect of direct oral anticoagulants">
+                <img class="android"  src="S6_2_5.png">
+            </p>
+            <p class="Reversal of direct oral factor Xa inhibitors">
+                <img class="android"  src="S6_3_1.png">
+            </p>
+            <p class="Reversal of direct oral factor Xa inhibitors">
+                <img class="android"  src="S6_3_2.png">
+            </p>
+            <p class="Reversal of direct oral factor Xa inhibitors">
+                <img class="android"  src="S6_3_3.png">
+            </p>
+            <p class="Reversal of direct oral IIa (thrombin) inhibitors">
+                <img class="android"  src="S6_4_1.png">
+            </p>
+            <p class="Reversal of direct oral IIa (thrombin) inhibitors">
+                <img class="android"  src="S6_4_2.png">
+            </p>
+            <p class="Reversal of direct oral IIa (thrombin) inhibitors">
+                <img class="android"  src="S6_4_3.png">
+            </p>
+            <p class="Conclusion">
+                <img class="android"  src="S6_5.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S6_6_1.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S6_6_2.png">
+            </p>
+    </body>
+</html>

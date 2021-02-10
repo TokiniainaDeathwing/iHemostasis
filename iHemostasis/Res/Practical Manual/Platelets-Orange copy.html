@@ -1,0 +1,184 @@
+
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+            width:75%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 70px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction" style="margin-block-end:0px">
+                <img class="android"  src="platelets11a.png">
+                     <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+                    
+            </p>
+           
+            <p class="Introduction" style="margin-block-start:0px">
+                <img class="android"  src="platelets11b.png">
+            </p>
+            
+            <p class="Platelet structure">
+                <img class="android"  src="platelets12a.png">
+                    
+            </p>
+            <p class="Platelet structure" style="margin-block-end:0px">
+                <img class="android"  src="platelets12b.png">
+                    <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table1')">
+            </p>
+            <p class="Figure1">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Introduction')">
+                          <img class="android"  src="platelets11c.png">
+            </p>
+            <p class="Figure11">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Non-haemostatic functions of platelets')">
+                          <img class="android"  src="platelets11c.png">
+            </p>
+            <p class="Table1">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Platelet structure')">
+                          <img class="android"  src="platelets12d.png">
+            </p>
+            <p class="Platelet structure" style="margin-block-start:0px;margin-block-end:0px;">
+                <img class="android"  src="platelets12c.png">
+                    
+            </p>
+            
+            <p class="Platelet structure" style="margin-block-start:0px">
+                <img class="android"  src="platelets12e.png">
+                    
+            </p>
+            
+            <p class="Platelet receptors" >
+                <img class="android"  src="platelets13a.png">
+                      <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+                    
+            </p>
+            <p class="Table2">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Platelet receptors')">
+                          <img class="android"  src="platelets13b.png">
+           </p>
+          <p class="Platelet formation and lifespan">
+              <img class="android"  src="platelets14a.png">
+                  
+          </p>
+          <p class="Platelet formation and lifespan">
+              <img class="android"  src="platelets14b.png">
+                  
+          </p>
+          <p class="Platelet formation and lifespan">
+              <img class="android"  src="platelets14c.png">
+                  
+          </p>
+          
+          <p class="Platelets in haemostasis and thrombosis">
+              <img class="android"  src="platelets15a.png">
+                  
+          </p>
+          
+          <p class="Platelets in haemostasis and thrombosis">
+              <img class="android"  src="platelets15b.png">
+                  
+          </p>
+          
+          <p class="Platelets in haemostasis and thrombosis">
+              <img class="android"  src="platelets15c.png">
+                  
+          </p>
+          
+          <p class="Platelets in haemostasis and thrombosis">
+              <img class="android"  src="platelets15d.png">
+                  
+          </p>
+          
+          <p class="Platelets in haemostasis and thrombosis">
+              <img class="android"  src="platelets15e.png">
+                  
+          </p>
+
+           <p class="Platelets in haemostasis and thrombosis">
+               <img class="android"  src="platelets15f.png">
+                   
+           </p>
+           
+           <p class="Thrombosis" style="margin-block-end:0px">
+               <img class="android"  src="platelets16a.png">
+                   
+           </p>
+           <p class="Thrombosis" style="margin-block-start:0px">
+               <img class="android"  src="platelets16b.png">
+                   
+           </p>
+           
+           <p class="Non-haemostatic functions of platelets" style="margin-block-end:0px">
+               <img class="android"  src="platelets17a.png">
+               <img class="gotofig android" style="bottom:85%" src="goToFigure.png" onclick="loadFigure('Figure11')">
+                   
+           </p>
+           <p class="Non-haemostatic functions of platelets" style="margin-block-start:0px">
+               <img class="android"  src="platelets17b.png">
+                   
+           </p>
+           <p class="Non-haemostatic functions of platelets" style="margin-block-end:0px">
+               <img class="android"  src="platelets17c.png">
+                   
+           </p>
+           <p class="Non-haemostatic functions of platelets" style="margin-block-start:0px">
+               <img class="android"  src="platelets17d.png">
+                   
+           </p>
+           <p class="Key messages">
+               <img class="android"  src="platelets18a.png">
+                   
+           </p>
+           
+           <p class="References" style="margin-block-end:0px">
+               <img class="android"  src="platelets19a.png">
+                   
+           </p>
+           <p class="References" style="margin-block-start:0px;margin-block-end:0px">
+                         <img class="android"  src="platelets19b.png">
+                             
+           </p>
+           <p class="References" style="margin-block-start:0px;margin-block-end:0px">
+               <img class="android"  src="platelets19c.png">
+                   
+           </p>
+           <p class="References" style="margin-block-start:0px;margin-block-end:0px">
+               <img class="android"  src="platelets19d.png">
+                   
+           </p>
+           <p class="References" style="margin-block-start:0px;margin-block-end:0px">
+               <img class="android"  src="platelets19e.png">
+                   
+           </p>
+           <p class="References" style="margin-block-start:0px;">
+               <img class="android"  src="platelets19f.png">
+                   
+           </p>
+           
+           
+    </body>
+</html>

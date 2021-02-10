@@ -1,0 +1,91 @@
+
+<html>
+    <style>
+        body {
+            margin-left:100px;
+            margin-bottom:100px;
+        }
+    p{
+        position: relative;
+    }
+    p img{
+        display: block; margin-left: 10%;
+    }
+    p img.gotofig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 15px;
+        right: 70px;
+    }
+    p img.exitfig{
+        width: 70px;
+        height 70px;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+        margin-left: 20px;
+    }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+    <body onload="initSwipe();">
+        <input type="hidden" id="yPos" name="yPos" value="0">
+            <p class="Introduction">
+                <img class="android"  src="S7_1.png">
+            </p>
+            <p class="When not to stop anticoagulation?">
+                <img class="android"  src="S7_2_1.png">
+            </p>
+            <p class="When not to stop anticoagulation?">
+                <img class="android"  src="S7_2_2.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+            </p>
+            <p class="Figure1">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('When not to stop anticoagulation?')">
+                <img class="android"  src="S7_2_3.png">
+            </p>
+            <p class="How to estimate bleeding and thromboembolic risk?">
+                <img class="android"  src="S7_3_1.png">
+            </p>
+            <p class="How to estimate bleeding and thromboembolic risk?">
+                <img class="android"  src="S7_3_2.png">
+            </p>
+            <p class="How to estimate bleeding and thromboembolic risk?">
+                <img class="android"  src="S7_3_3.png">
+            </p>
+            <p class="How to estimate bleeding and thromboembolic risk?">
+                <img class="android"  src="S7_3_4.png">
+            </p>
+             <p class="If bridging is elected, how to bridge?">
+                <img class="android"  src="S7_4.png">
+                <img class="gotofig android" style="top:70px;" src="goToFigure.png" onclick="loadFigure('Figure3')">
+            </p>
+            <p class="Figure3">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('If bridging is elected, how to bridge?')">
+                <img class="android"  src="S7_2_3.png">
+            </p>
+             <p class="Direct oral anticoagulants">
+                <img class="android"  src="S7_5.png">
+                <img class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure2')">
+            </p>
+            <p class="Figure2">
+                <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Direct oral anticoagulants')">
+                <img class="android"  src="S7_5_1.png">
+            </p>
+             <p class="Conclusion">
+                <img class="android"  src="S7_6.png">
+            </p>
+            <p class="Take home messages">
+                <img class="android"  src="S7_7.png">
+            </p>
+             <p class="References">
+                <img class="android"  src="S7_8_1.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S7_8_2.png">
+            </p>
+            <p class="References">
+                <img class="android"  src="S7_8_3.png">
+            </p>
+    </body>
+</html>
