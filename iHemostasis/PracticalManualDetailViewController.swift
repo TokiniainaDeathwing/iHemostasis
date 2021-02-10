@@ -155,7 +155,11 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
     func onItemSelection(index: Int) {
         let contextMenuItem = contextMenuPointer[index]
         let title = contextMenuItem["title"]
-        webView?.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            webView?.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+        }else{
+            webView?.evaluateJavaScript("loadPage2(\"" + ((title! )) + "\");")
+        }
         webView?.evaluateJavaScript( "scrollTo(0, 0);")
       //  webView?.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
         //webView?.stringByEvaluatingJavaScript(from: "scrollTo(0, 0);")
@@ -230,7 +234,12 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
             let title = contextMenuItem["title"]
            // webView.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
            // webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
+            if(UIDevice.current.userInterfaceIdiom == .pad){
              webView.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+            }else{
+                webView.evaluateJavaScript("loadPage2(\"" + ((title! )) + "\");")
+            }
+            
              webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
         }
     }

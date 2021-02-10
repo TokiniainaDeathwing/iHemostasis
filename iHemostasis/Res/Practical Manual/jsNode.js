@@ -28,8 +28,33 @@ function loadPage(page) {
     var	yPos = document.getElementById("yPos");
     window.scrollTo(0, yPos.value);
 }
+function loadPage2(page) {
+    var    pNodes = document.getElementsByTagName("p");
+    console.log("pLength : ", pNodes.length);
+    for (var i = 0; i <    pNodes.length; i++) {
+        
+        if (pNodes[i].className != page) {
+            pNodes[i].style.display = "none";
+        }
+        else {
+            pNodes[i].style.display = "block";
+            
+            // Resize images herein
+            var pImages = pNodes[i].getElementsByTagName("img");
+            for (var j = 0; j < pImages.length; j++) {
+                if(!pImages[j].classList.contains("android")){
+                    //pImages[j].style.width = 820;
+                   // pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                }
+            }
+        }
+    }
+    var    yPos = document.getElementById("yPos");
+    window.scrollTo(0, yPos.value);
+}
 
 function loadFigure(page) {
+  
     var	pNodes = document.getElementsByTagName("p");
     for (var i = 0; i <	pNodes.length; i++) {
         if (pNodes[i].className != page) {
@@ -51,6 +76,32 @@ function loadFigure(page) {
     // Save old offset
     var yPosOffset = window.pageYOffset;
     var	yPos = document.getElementById("yPos");
+    yPos.value = yPosOffset;
+    window.scrollTo(0, 0);
+}
+function loadFigure2(page) {
+  
+    var    pNodes = document.getElementsByTagName("p");
+    for (var i = 0; i <    pNodes.length; i++) {
+        if (pNodes[i].className != page) {
+            pNodes[i].style.display = "none";
+        }
+        else {
+            pNodes[i].style.display = "block";
+            
+            // Resize images herein
+            var pImages = pNodes[i].getElementsByTagName("img");
+            for (var j = 0; j < pImages.length; j++) {
+                if(!pImages[j].classList.contains("android")){
+                  //  pImages[j].style.width = 820;
+                  //  pImages[j].style.height = pImages[j].naturalHeight * 65.1/100;
+                }
+            }
+        }
+    }
+    // Save old offset
+    var yPosOffset = window.pageYOffset;
+    var    yPos = document.getElementById("yPos");
     yPos.value = yPosOffset;
     window.scrollTo(0, 0);
 }
