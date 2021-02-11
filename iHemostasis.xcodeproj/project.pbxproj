@@ -4456,7 +4456,7 @@
 					E70095DB1C1810F6008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = FFP2WA927R;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E70095EF1C1810F7008362B0 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -5910,11 +5910,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Diagnostica Stago (FFP2WA927R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Diagnostica Stago (FFP2WA927R)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4.3;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -5923,7 +5923,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "IHemostasis-Adhoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -5936,8 +5936,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Diagnostica Stago (FFP2WA927R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Diagnostica Stago (FFP2WA927R)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4.3;
 				DEVELOPMENT_TEAM = FFP2WA927R;
@@ -5949,7 +5949,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = iHemostasis_Dist_Profile;
+				PROVISIONING_PROFILE_SPECIFIER = "IHemostasis-Adhoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
