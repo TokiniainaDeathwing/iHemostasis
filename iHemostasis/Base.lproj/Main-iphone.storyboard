@@ -1264,45 +1264,51 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstAttribute="trailing" secondItem="e6m-Cd-OF1" secondAttribute="trailing" id="nPq-mh-9kt"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ff2-Oi-nZN">
                                 <rect key="frame" x="0.0" y="163" width="414" height="629"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="122" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="Pq9-WW-Mlc">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="142" sectionHeaderHeight="3" sectionFooterHeight="3" translatesAutoresizingMaskIntoConstraints="NO" id="Pq9-WW-Mlc">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="629"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="122" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="122"/>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="414" height="142"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M17-Yp-Jvu" id="G6g-lp-s6B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" highlightedImage="coche" translatesAutoresizingMaskIntoConstraints="NO" id="0YW-XG-wKI">
-                                                            <rect key="frame" x="34" y="43" width="14" height="14"/>
+                                                            <rect key="frame" x="34" y="54" width="14" height="14"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="14" id="GqR-SR-ywW"/>
                                                                 <constraint firstAttribute="width" constant="14" id="zzW-pb-8t2"/>
                                                             </constraints>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-aj-AAc">
-                                                            <rect key="frame" x="80" y="0.0" width="334" height="109"/>
+                                                            <rect key="frame" x="80" y="0.0" width="334" height="129"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-RE-NV8">
-                                                            <rect key="frame" x="81" y="0.0" width="328" height="17"/>
+                                                            <rect key="frame" x="81" y="0.0" width="328" height="37"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="37" id="qu1-oz-XJd"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJF-4W-3aj">
-                                                            <rect key="frame" x="84" y="17" width="330" height="93"/>
+                                                            <rect key="frame" x="84" y="37" width="330" height="93"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="73" id="p3b-8I-PMv"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb0-PD-kDG">
-                                                            <rect key="frame" x="0.0" y="110" width="414" height="11"/>
+                                                            <rect key="frame" x="0.0" y="130" width="414" height="11"/>
                                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="11" id="NXm-2R-pwk"/>
@@ -1323,10 +1329,10 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                         <constraint firstAttribute="trailing" secondItem="Pb0-PD-kDG" secondAttribute="trailing" id="i4k-LS-ctG"/>
                                                         <constraint firstAttribute="bottom" secondItem="Pb0-PD-kDG" secondAttribute="bottom" constant="1" id="nNF-Wj-nDf"/>
                                                         <constraint firstItem="Kdv-aj-AAc" firstAttribute="leading" secondItem="0YW-XG-wKI" secondAttribute="trailing" constant="32" id="quy-a8-T2T"/>
-                                                        <constraint firstItem="0YW-XG-wKI" firstAttribute="top" secondItem="G6g-lp-s6B" secondAttribute="topMargin" constant="32" id="r9p-FQ-ul8"/>
                                                         <constraint firstAttribute="trailing" secondItem="XJF-4W-3aj" secondAttribute="trailing" id="yWE-5z-Si9"/>
                                                         <constraint firstItem="Pb0-PD-kDG" firstAttribute="top" secondItem="XJF-4W-3aj" secondAttribute="bottom" id="yX7-kq-xV6"/>
                                                         <constraint firstItem="XJF-4W-3aj" firstAttribute="leading" secondItem="0YW-XG-wKI" secondAttribute="trailing" constant="36" id="zAJ-S1-vqn"/>
+                                                        <constraint firstItem="0YW-XG-wKI" firstAttribute="centerY" secondItem="G6g-lp-s6B" secondAttribute="centerY" constant="-10" id="zfi-LY-DE9"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
@@ -1555,7 +1561,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                     <constraint firstAttribute="bottom" secondItem="6la-0J-BYe" secondAttribute="bottom" constant="15" id="pVe-FF-wVZ"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-kC-0Sx">
                                 <rect key="frame" x="0.0" y="163" width="331" height="733"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="stat" translatesAutoresizingMaskIntoConstraints="NO" id="TnZ-7h-8XW">
