@@ -16,7 +16,11 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeCoagulationCascade", owner: self, options: nil)![0] as? UIView
+        var sceneName :String! = "CoagulationCascadeCoagulationCascade"
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            sceneName = "CoagulationCascadeCoagulationCascade copy"
+        }
+        sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
 //        var sW = CGFloat(1024)
 //        var h = CGFloat(648)
 //        if(sW < UIScreen.main.bounds.width){
@@ -76,6 +80,8 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 2, nodeTag: 2)
         n.nodeDescription = "VIIa: \nActivated Factor VII\nVitamin K-dependent liver synthesis\nRapidly activated into FVIIa when FVII is bound to TF\nFVIIa-TF comlex activates FX and FIXn"
         n.animationType = Utils.AnimationType.translation
+        //n.originPos = CGPoint(363, 456)
+        //n.destPos = CGPoint(506, 515)
         n.originPos = CGPoint(363, 456)
         n.destPos = CGPoint(506, 515)
         sceneData.nodeList.append(n)

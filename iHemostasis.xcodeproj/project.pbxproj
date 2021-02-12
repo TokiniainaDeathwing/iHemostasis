@@ -257,6 +257,11 @@
 		2361E6272379A3CB0083F118 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61D2379A3C90083F118 /* 14.jpg */; };
 		2361E6282379A3CB0083F118 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E61E2379A3CB0083F118 /* 13.jpg */; };
 		2361E62E2379A4C60083F118 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E62D2379A4C60083F118 /* 9.jpg */; };
+		239613C625D6AA0400E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239613C125D6AA0100E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib */; };
+		239613C725D6AA0500E2E65B /* CoagulationCascadePrimaryHaemostasis copy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239613C225D6AA0100E2E65B /* CoagulationCascadePrimaryHaemostasis copy.xib */; };
+		239613C825D6AA0500E2E65B /* CoagulationCascadeFibrinFormation copy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239613C325D6AA0200E2E65B /* CoagulationCascadeFibrinFormation copy.xib */; };
+		239613C925D6AA0500E2E65B /* CoagulationCascadeAnticoagulants copy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239613C425D6AA0400E2E65B /* CoagulationCascadeAnticoagulants copy.xib */; };
+		239613CA25D6AA0500E2E65B /* CoagulationCascadeCoagulationCascade copy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239613C525D6AA0400E2E65B /* CoagulationCascadeCoagulationCascade copy.xib */; };
 		239AD024241908B300935439 /* platelets53ksub.png in Resources */ = {isa = PBXBuildFile; fileRef = 239AD023241908B300935439 /* platelets53ksub.png */; };
 		23A9987B25C3FFE2002FA819 /* LaunchScreenIphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A9987D25C3FFE2002FA819 /* LaunchScreenIphone.storyboard */; };
 		23C78FCC25BEC86900920ADD /* Main-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C78FCA25BEC86800920ADD /* Main-iphone.storyboard */; };
@@ -1509,6 +1514,11 @@
 		2361E61D2379A3C90083F118 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
 		2361E61E2379A3CB0083F118 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
 		2361E62D2379A4C60083F118 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		239613C125D6AA0100E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoagulationCascadeInhibitorsOfCoagulation copy.xib"; sourceTree = "<group>"; };
+		239613C225D6AA0100E2E65B /* CoagulationCascadePrimaryHaemostasis copy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoagulationCascadePrimaryHaemostasis copy.xib"; sourceTree = "<group>"; };
+		239613C325D6AA0200E2E65B /* CoagulationCascadeFibrinFormation copy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoagulationCascadeFibrinFormation copy.xib"; sourceTree = "<group>"; };
+		239613C425D6AA0400E2E65B /* CoagulationCascadeAnticoagulants copy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoagulationCascadeAnticoagulants copy.xib"; sourceTree = "<group>"; };
+		239613C525D6AA0400E2E65B /* CoagulationCascadeCoagulationCascade copy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoagulationCascadeCoagulationCascade copy.xib"; sourceTree = "<group>"; };
 		239AD023241908B300935439 /* platelets53ksub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets53ksub.png; path = platelets/platelets53ksub.png; sourceTree = SOURCE_ROOT; };
 		23A9987C25C3FFE2002FA819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenIphone.storyboard; sourceTree = "<group>"; };
 		23C78B0025BEBF5E00920ADD /* iHemostasis copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iHemostasis copy-Info.plist"; path = "/Users/M01/Documents/Mobiles/versionned/iHemostasis copy-Info.plist"; sourceTree = "<absolute>"; };
@@ -3817,6 +3827,11 @@
 		E7680BDC1C21ACFD005DBABF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				239613C425D6AA0400E2E65B /* CoagulationCascadeAnticoagulants copy.xib */,
+				239613C525D6AA0400E2E65B /* CoagulationCascadeCoagulationCascade copy.xib */,
+				239613C325D6AA0200E2E65B /* CoagulationCascadeFibrinFormation copy.xib */,
+				239613C125D6AA0100E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib */,
+				239613C225D6AA0100E2E65B /* CoagulationCascadePrimaryHaemostasis copy.xib */,
 				E7838BD21C75B39D00672CC1 /* CoagulationCascadeCoagulationCascade.xib */,
 				E7838BD61C75F30E00672CC1 /* CoagulationCascadePrimaryHaemostasis.xib */,
 				E7838BD81C75F39000672CC1 /* CoagulationCascadeFibrinFormation.xib */,
@@ -4573,6 +4588,7 @@
 				23DFF0E9240D02B4001941C3 /* Platelets-Orange.html in Resources */,
 				7634098C226789C100B9EABE /* s3_44.png in Resources */,
 				7634099B22678A6900B9EABE /* Ref_S6_3.png in Resources */,
+				239613CA25D6AA0500E2E65B /* CoagulationCascadeCoagulationCascade copy.xib in Resources */,
 				2361E6212379A3CB0083F118 /* 10.jpg in Resources */,
 				233ED0D12410C40D0073D3A9 /* platelets72f.png in Resources */,
 				E7BDA5901C47912A00A6DE9B /* BARMENOCFFMED.ttf in Resources */,
@@ -4842,6 +4858,7 @@
 				762BF96222699A9000431217 /* s22a.png in Resources */,
 				233ED12D2410D9300073D3A9 /* platelets83b.png in Resources */,
 				762BF9BA2269AC0000431217 /* s38b.png in Resources */,
+				239613C625D6AA0400E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib in Resources */,
 				E7E619C41DD086FE0037AA88 /* chapter-3-part-1---ios_10.jpg in Resources */,
 				2361E6232379A3CB0083F118 /* 12.jpg in Resources */,
 				E7E61A891DD08A280037AA88 /* chapter-4-part-1---ios_09.jpg in Resources */,
@@ -5134,6 +5151,7 @@
 				23415759240FA1BF007ABA4C /* platelets66b.png in Resources */,
 				23DFF100240E2843001941C3 /* platelets13b.png in Resources */,
 				E7E61A481DD089200037AA88 /* chapter-3-purple---part-4_09.png in Resources */,
+				239613C825D6AA0500E2E65B /* CoagulationCascadeFibrinFormation copy.xib in Resources */,
 				762BF90E2268C8FD00431217 /* Abbreviations_bleeding.pdf in Resources */,
 				E7E037DF1DACF26100A79471 /* chapter-2-orange-part-3---ios_02.jpg in Resources */,
 				233ED1512410E0480073D3A9 /* platelets87g.png in Resources */,
@@ -5462,6 +5480,7 @@
 				763409682267874600B9EABE /* s3_12.png in Resources */,
 				2341574A240F9F4E007ABA4C /* platelets65e.png in Resources */,
 				23DFF19B240E78DF001941C3 /* platelets26a.png in Resources */,
+				239613C925D6AA0500E2E65B /* CoagulationCascadeAnticoagulants copy.xib in Resources */,
 				E72977581C6DF56200875519 /* separateur-rouge.png in Resources */,
 				234156BE240F80B2007ABA4C /* platelets42m.png in Resources */,
 				762BFA192269B72800431217 /* s57c.png in Resources */,
@@ -5554,6 +5573,7 @@
 				763409C02267928500B9EABE /* S4_3_2.png in Resources */,
 				E77CD0981DA691120033DE96 /* P-Blue.html in Resources */,
 				E7E619BE1DD086FE0037AA88 /* chapter-3-part-1---ios_04.jpg in Resources */,
+				239613C725D6AA0500E2E65B /* CoagulationCascadePrimaryHaemostasis copy.xib in Resources */,
 				23FD6F6525D3C861001FCA19 /* Platelets-Blue copy.html in Resources */,
 				E7E037E01DACF26100A79471 /* chapter-2-orange-part-3---ios_03.jpg in Resources */,
 				E7E619EB1DD0887C0037AA88 /* chapter-3-purple---part-2_03.png in Resources */,

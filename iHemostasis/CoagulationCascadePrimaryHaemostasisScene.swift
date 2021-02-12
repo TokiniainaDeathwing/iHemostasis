@@ -17,7 +17,11 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        sceneView = Bundle.main.loadNibNamed("CoagulationCascadePrimaryHaemostasis", owner: self, options: nil)![0] as? UIView
+        var sceneName :String! = "CoagulationCascadePrimaryHaemostasis"
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            sceneName = "CoagulationCascadePrimaryHaemostasis copy"
+        }
+        sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation

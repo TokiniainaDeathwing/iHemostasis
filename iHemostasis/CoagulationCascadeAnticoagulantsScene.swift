@@ -15,6 +15,10 @@ class CoagulationCascadeAnticoagulantsScene: ParentScene {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        var sceneName :String! = "CoagulationCascadeAnticoagulants"
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            sceneName = "CoagulationCascadeAnticoagulants copy"
+        }
         sceneView = Bundle.main.loadNibNamed("CoagulationCascadeAnticoagulants", owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
     }

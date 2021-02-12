@@ -23,7 +23,11 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
             percentHeight = UIScreen.main.bounds.height * 8 / 100;
         }
-        sceneView = Bundle.main.loadNibNamed("CoagulationCascadeFibrinFormation", owner: self, options: nil)![0] as? UIView
+        var sceneName :String! = "CoagulationCascadeFibrinFormation"
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            sceneName = "CoagulationCascadeFibrinFormation copy"
+        }
+        sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
         self.addSubview(sceneView!);
         for i in 1..<sceneView!.subviews.count {
              sceneView?.subviews[i].frame = CGRect(x: (sceneView?.subviews[i].frame.origin.x)!, y: (sceneView?.subviews[i].frame.origin.y)! + percentHeight, width: (sceneView?.subviews[i].frame.size.width)!, height: (sceneView?.subviews[i].frame.size.height)!);

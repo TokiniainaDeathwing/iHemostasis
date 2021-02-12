@@ -65,7 +65,15 @@ class MainMenuViewController: UIViewController {
         }
         
     }
+    override func viewDidAppear(_ animated: Bool) {
+      super.viewDidAppear(animated)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            UIView.setAnimationsEnabled(false)
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+            UIView.setAnimationsEnabled(true)
+        }
     
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

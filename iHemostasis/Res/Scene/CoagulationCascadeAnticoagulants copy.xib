@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CoagulationCascadeAnticoagulantsScene" customModule="iHemostasis" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="BackgroundPlayer" id="n1V-jg-zkI">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="center" image="A_26" id="4Lu-3e-PC3">
+                    <rect key="frame" x="277" y="129" width="462" height="486"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="54" contentMode="center" image="A_26_ALPHA" id="9bD-At-QPH">
+                    <rect key="frame" x="277" y="130" width="462" height="486"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="center" image="A_5" id="4Vo-Ui-t3U">
+                    <rect key="frame" x="43" y="198" width="219" height="93"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="4" contentMode="center" image="A_17" id="hJs-jd-qiV">
+                    <rect key="frame" x="741" y="156" width="281" height="66"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="center" image="Anti-iil" id="qlr-Qb-Ga5">
+                    <rect key="frame" x="742" y="230" width="279" height="126"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="6" contentMode="center" image="Anti-xaTOP" id="bdA-2G-bQv">
+                    <rect key="frame" x="742" y="375" width="279" height="100"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="21" contentMode="scaleAspectFit" image="A_6" id="ogt-qa-rw2">
+                    <rect key="frame" x="532" y="236" width="212" height="76"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="8" contentMode="center" image="A_16" id="JFb-0O-DAW">
+                    <rect key="frame" x="576" y="174" width="167" height="91"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="87" contentMode="center" image="A_20_ALPHA" id="TE2-jM-gFi">
+                    <rect key="frame" x="561" y="123" width="27" height="51"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="7" contentMode="center" image="A_20" id="cmC-cC-Vji">
+                    <rect key="frame" x="502" y="228" width="27" height="51"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" image="VKA" id="VBK-Z1-FNo">
+                    <rect key="frame" x="43" y="302" width="219" height="119"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" image="Heparins" id="dLt-kZ-Scq">
+                    <rect key="frame" x="43" y="430" width="219" height="83"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="16" contentMode="center" image="2" id="aV8-ns-Z3z">
+                    <rect key="frame" x="428" y="546" width="31" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="14" contentMode="scaleToFill" image="A_11" id="rGL-Fq-wMp">
+                    <rect key="frame" x="262" y="267" width="228" height="185"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="13" contentMode="center" image="A_12" id="gAC-TU-Hbu">
+                    <rect key="frame" x="263" y="423" width="214" height="69"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="23" contentMode="center" image="A_18" id="KXI-BX-1iV">
+                    <rect key="frame" x="481" y="389" width="27" height="30"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="center" image="24" id="cfB-c2-Jor">
+                    <rect key="frame" x="500" y="352" width="26" height="50"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="12" contentMode="center" image="A_8" id="ME6-BP-OaB">
+                    <rect key="frame" x="262" y="371" width="167" height="201"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="11" contentMode="center" image="A_7" id="x01-fx-pex">
+                    <rect key="frame" x="264" y="364" width="265" height="192"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="9" contentMode="center" image="A_10" id="19T-IQ-tTM">
+                    <rect key="frame" x="263" y="301" width="235" height="41"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="18" contentMode="center" image="21" id="f67-7X-8VR">
+                    <rect key="frame" x="499" y="299" width="31" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="center" image="A_9" id="VIC-Dz-2jN">
+                    <rect key="frame" x="265" y="351" width="232" height="114"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="20" contentMode="center" image="A_18" id="u23-sX-Ow8">
+                    <rect key="frame" x="486" y="259" width="27" height="30"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="30" contentMode="center" image="Warfarin" id="O5i-QF-826">
+                    <rect key="frame" x="61" y="347" width="56" height="9"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="36" contentMode="center" image="nicoumalone" id="vgV-sK-iol">
+                    <rect key="frame" x="60" y="372" width="83" height="10"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="31" contentMode="center" image="acenocoumarol" id="GFv-If-t5H">
+                    <rect key="frame" x="152" y="372" width="86" height="10"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="32" contentMode="center" image="phenoprocoumon" id="toK-sO-gle">
+                    <rect key="frame" x="61" y="396" width="93" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="33" contentMode="center" image="Fluindione" id="LO4-28-6md">
+                    <rect key="frame" x="161" y="397" width="78" height="9"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="34" contentMode="center" image="UFH" id="oz0-eg-m3u">
+                    <rect key="frame" x="59" y="471" width="34" height="8"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="35" contentMode="center" image="LMWHs" id="jvh-1R-nob">
+                    <rect key="frame" x="58" y="493" width="52" height="8"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="37" contentMode="center" image="Hirudin" id="aWB-qe-8tq">
+                    <rect key="frame" x="756" y="279" width="49" height="9"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="38" contentMode="center" image="Analog" id="2A5-Uz-9cm">
+                    <rect key="frame" x="809" y="279" width="143" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="39" contentMode="center" image="Synthetic-DTI" id="tXs-ER-T0Z">
+                    <rect key="frame" x="756" y="301" width="92" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="40" contentMode="center" image="argatroban" id="ciu-Jf-52W">
+                    <rect key="frame" x="854" y="300" width="68" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="41" contentMode="center" image="bavilirudin" id="NbN-re-Lga">
+                    <rect key="frame" x="761" y="326" width="62" height="10"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="42" contentMode="center" image="dabigatran" id="Xlx-5w-CBO">
+                    <rect key="frame" x="827" y="326" width="68" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="43" contentMode="center" image="danaparold" id="zuO-h1-Mv5">
+                    <rect key="frame" x="756" y="420" width="114" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="44" contentMode="center" image="fondaparinux" id="Ku1-IL-CDP">
+                    <rect key="frame" x="756" y="443" width="86" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="45" contentMode="center" image="idraparinux" id="4js-EH-tOC">
+                    <rect key="frame" x="847" y="443" width="63" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="49" contentMode="center" image="betrixaban" id="TgY-Hd-SEY">
+                    <rect key="frame" x="822" y="508" width="59" height="9"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="48" contentMode="center" image="edoxaban" id="CQq-bf-DS4">
+                    <rect key="frame" x="761" y="507" width="55" height="10"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="50" contentMode="center" image="bottomXA" id="ees-VG-ZK1">
+                    <rect key="frame" x="742" y="472" width="279" height="68"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="46" contentMode="center" image="rivaroxaban" id="ROC-Fv-8hD">
+                    <rect key="frame" x="756" y="485" width="79" height="10"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="47" contentMode="center" image="apixaban" id="B66-d3-epp">
+                    <rect key="frame" x="841" y="485" width="52" height="11"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <button opaque="NO" tag="3000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qxL-2s-Nya">
+                    <rect key="frame" x="56" y="341" width="67" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Kck-iW-mox"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3700" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ogo-XB-hJd">
+                    <rect key="frame" x="753" y="273" width="56" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="B8t-EL-9zF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kn7-QR-PWT">
+                    <rect key="frame" x="852" y="293" width="70" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Zmz-7t-1vj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PiM-l0-tUy">
+                    <rect key="frame" x="824" y="320" width="70" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="QwN-NB-LCX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mwZ-wm-2f1">
+                    <rect key="frame" x="755" y="320" width="70" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="faO-6w-NVO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rlG-Kc-zPe">
+                    <rect key="frame" x="148" y="366" width="91" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="fZF-CG-uWa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Syb-IB-gJz">
+                    <rect key="frame" x="55" y="464" width="55" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="FYE-bf-0rI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3500" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OHn-3F-1pf">
+                    <rect key="frame" x="56" y="485" width="55" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="jPI-N1-fND"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bVp-Na-iwr">
+                    <rect key="frame" x="182" y="391" width="57" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="iit-U4-sbR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TbE-sp-xcW">
+                    <rect key="frame" x="55" y="391" width="104" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="U76-fQ-UbQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YzA-L1-8WO">
+                    <rect key="frame" x="756" y="412" width="122" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="SlF-2e-rpn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8If-9r-NHh">
+                    <rect key="frame" x="762" y="435" width="82" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="rD6-qp-B7N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4600" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WKx-tq-lYD">
+                    <rect key="frame" x="753" y="477" width="82" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="nWh-7a-Ddg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4700" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R5U-Ys-n19">
+                    <rect key="frame" x="833" y="477" width="67" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wye-6L-OGn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4800" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cPV-Se-rc5">
+                    <rect key="frame" x="754" y="499" width="67" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Highlight_AC"/>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="wU4-OD-HHF"/>
+                    </connections>
+                </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="51" contentMode="center" image="cc_vii" id="VEI-cd-Ik3">
+                    <rect key="frame" x="523" y="534" width="34" height="34"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="52" contentMode="center" image="A_13" id="zSs-5d-gnG">
+                    <rect key="frame" x="495" y="412" width="249" height="40"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="53" contentMode="center" image="A_15" id="HNh-hU-bvf">
+                    <rect key="frame" x="510" y="406" width="233" height="105"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="17" contentMode="center" image="A_23" id="T6s-iE-ds8">
+                    <rect key="frame" x="498" y="437" width="28" height="28"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="88" contentMode="center" image="A_20" id="i4r-mO-YZw">
+                    <rect key="frame" x="561" y="123" width="27" height="51"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="10.15625" y="152.34375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2" width="30.5" height="31.5"/>
+        <image name="21" width="31" height="32"/>
+        <image name="24" width="25.5" height="49"/>
+        <image name="A_10" width="235" height="40.5"/>
+        <image name="A_11" width="241.5" height="185"/>
+        <image name="A_12" width="214" height="68.5"/>
+        <image name="A_13" width="248.5" height="40"/>
+        <image name="A_15" width="233" height="105"/>
+        <image name="A_16" width="166.5" height="90.5"/>
+        <image name="A_17" width="279" height="65"/>
+        <image name="A_18" width="27" height="30"/>
+        <image name="A_20" width="27" height="50.5"/>
+        <image name="A_20_ALPHA" width="27" height="50.5"/>
+        <image name="A_23" width="27.5" height="27.5"/>
+        <image name="A_26" width="462" height="486"/>
+        <image name="A_26_ALPHA" width="462" height="486"/>
+        <image name="A_5" width="221" height="93.5"/>
+        <image name="A_6" width="227" height="65"/>
+        <image name="A_7" width="265" height="191.5"/>
+        <image name="A_8" width="166.5" height="200"/>
+        <image name="A_9" width="232" height="114"/>
+        <image name="Analog" width="142.5" height="11"/>
+        <image name="Anti-iil" width="279" height="125.5"/>
+        <image name="Anti-xaTOP" width="279" height="95.5"/>
+        <image name="BackgroundPlayer" width="1024" height="768"/>
+        <image name="Fluindione" width="77.5" height="9"/>
+        <image name="Heparins" width="219" height="83"/>
+        <image name="Highlight_AC" width="104.5" height="16"/>
+        <image name="Hirudin" width="48.5" height="9"/>
+        <image name="LMWHs" width="52" height="8"/>
+        <image name="Synthetic-DTI" width="91.5" height="11"/>
+        <image name="UFH" width="34" height="8"/>
+        <image name="VKA" width="219" height="118.5"/>
+        <image name="Warfarin" width="55.5" height="8.5"/>
+        <image name="acenocoumarol" width="86" height="10"/>
+        <image name="apixaban" width="52" height="11"/>
+        <image name="argatroban" width="68" height="11"/>
+        <image name="bavilirudin" width="62" height="10"/>
+        <image name="betrixaban" width="58.5" height="8.5"/>
+        <image name="bottomXA" width="279" height="67.5"/>
+        <image name="cc_vii" width="34" height="34"/>
+        <image name="dabigatran" width="68" height="11"/>
+        <image name="danaparold" width="113.5" height="11"/>
+        <image name="edoxaban" width="55" height="10"/>
+        <image name="fondaparinux" width="85.5" height="11"/>
+        <image name="idraparinux" width="63" height="11"/>
+        <image name="nicoumalone" width="82.5" height="10"/>
+        <image name="phenoprocoumon" width="93" height="11"/>
+        <image name="rivaroxaban" width="78.5" height="10"/>
+    </resources>
+</document>
