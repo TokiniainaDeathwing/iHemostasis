@@ -17,7 +17,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="648"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="center" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="Wyy-o0-0uL">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="Wyy-o0-0uL">
                     <rect key="frame" x="294" y="194" width="454" height="129"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
@@ -304,6 +304,11 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="341.40625" y="193.359375"/>
         </view>
+        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="17" contentMode="center" image="9" id="uhV-8k-TCL">
+            <rect key="frame" x="0.0" y="0.0" width="238" height="147"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <point key="canvasLocation" x="353" y="398"/>
+        </imageView>
     </objects>
     <resources>
         <image name="1" width="27.5" height="28.5"/>

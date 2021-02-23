@@ -16,141 +16,135 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" image="BackgroundPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="iyy-5T-i8q">
                     <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="center" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="Wyy-o0-0uL">
-                    <rect key="frame" x="294" y="194" width="326" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="96q-Kd-yJu">
+                    <rect key="frame" x="249" y="101" width="397" height="114"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="zN9-TE-TMD">
-                    <rect key="frame" x="504" y="567" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="l9u-F1-LVY">
+                    <rect key="frame" x="439" y="361" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="oP7-F9-0uw">
-                    <rect key="frame" x="506" y="515" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="C24-bZ-usf">
+                    <rect key="frame" x="439" y="321" width="21" height="32"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="8" contentMode="center" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="xPS-Ka-lL8">
-                    <rect key="frame" x="492" y="432" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="8" contentMode="scaleToFill" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ac8-Qs-hd5">
+                    <rect key="frame" x="410" y="278" width="21" height="32"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="center" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="3rc-BC-Ioa">
-                    <rect key="frame" x="544" y="379" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="zoe-Ij-GmN">
+                    <rect key="frame" x="476" y="239" width="48" height="126"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="4" contentMode="center" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="c0y-dW-Fzt">
-                    <rect key="frame" x="411" y="379" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="BtX-uD-ros">
+                    <rect key="frame" x="370" y="239" width="54" height="128"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="7" contentMode="center" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="buO-gP-dpS">
-                    <rect key="frame" x="404" y="515" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="5Bo-u4-oe8">
+                    <rect key="frame" x="358" y="337" width="21" height="22"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="19" contentMode="center" fixedFrame="YES" image="14" translatesAutoresizingMaskIntoConstraints="NO" id="qSi-s4-RMY">
-                    <rect key="frame" x="420" y="429" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="19" contentMode="scaleToFill" fixedFrame="YES" image="14" translatesAutoresizingMaskIntoConstraints="NO" id="Owa-JI-2HO">
+                    <rect key="frame" x="378" y="273" width="17" height="32"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="36" contentMode="center" fixedFrame="YES" image="flesh" translatesAutoresizingMaskIntoConstraints="NO" id="LUQ-6P-NDR">
-                    <rect key="frame" x="341" y="434" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="36" contentMode="center" fixedFrame="YES" image="flesh" translatesAutoresizingMaskIntoConstraints="NO" id="Owr-J5-sch">
+                    <rect key="frame" x="298" y="273" width="91" height="24"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="37" contentMode="center" fixedFrame="YES" image="XLA" translatesAutoresizingMaskIntoConstraints="NO" id="bTq-XU-nAo">
-                    <rect key="frame" x="327" y="408" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="37" contentMode="scaleToFill" fixedFrame="YES" image="XLA" translatesAutoresizingMaskIntoConstraints="NO" id="oME-nL-Ctp">
+                    <rect key="frame" x="291" y="254" width="17" height="32"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="20" contentMode="center" fixedFrame="YES" image="13" translatesAutoresizingMaskIntoConstraints="NO" id="WRj-SF-1Q6">
-                    <rect key="frame" x="282" y="366" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="20" contentMode="scaleToFill" fixedFrame="YES" image="13" translatesAutoresizingMaskIntoConstraints="NO" id="4On-rt-ohR">
+                    <rect key="frame" x="249" y="239" width="36" height="40"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="18" contentMode="center" fixedFrame="YES" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="j7P-c4-0Zc">
-                    <rect key="frame" x="250" y="318" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="18" contentMode="scaleToFill" fixedFrame="YES" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="5pB-My-40j">
+                    <rect key="frame" x="237" y="213" width="23" height="23"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="6" contentMode="center" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="MlC-6e-nle">
-                    <rect key="frame" x="504" y="403" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="QeT-96-k6A">
+                    <rect key="frame" x="438" y="263" width="22" height="23"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="9" contentMode="center" fixedFrame="YES" image="26" translatesAutoresizingMaskIntoConstraints="NO" id="oE8-xx-O0A">
-                    <rect key="frame" x="511" y="360" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="9" contentMode="scaleToFill" fixedFrame="YES" image="26" translatesAutoresizingMaskIntoConstraints="NO" id="GiZ-JW-3XH">
+                    <rect key="frame" x="442" y="233" width="12" height="28"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="40" contentMode="center" fixedFrame="YES" image="26" translatesAutoresizingMaskIntoConstraints="NO" id="GMy-Ew-uEm">
-                    <rect key="frame" x="512" y="205" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="40" contentMode="scaleToFill" fixedFrame="YES" image="26" translatesAutoresizingMaskIntoConstraints="NO" id="Sdo-84-boV">
+                    <rect key="frame" x="439" y="113" width="16" height="31"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="11" contentMode="center" fixedFrame="YES" image="22" translatesAutoresizingMaskIntoConstraints="NO" id="VEp-wE-gfY">
-                    <rect key="frame" x="517" y="276" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="11" contentMode="center" fixedFrame="YES" image="22" translatesAutoresizingMaskIntoConstraints="NO" id="WuF-I9-eDc">
+                    <rect key="frame" x="443" y="163" width="5" height="42"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="center" fixedFrame="YES" image="24" translatesAutoresizingMaskIntoConstraints="NO" id="hJd-ZM-P17">
-                    <rect key="frame" x="506" y="310" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="scaleToFill" fixedFrame="YES" image="24" translatesAutoresizingMaskIntoConstraints="NO" id="rp8-q9-4fy">
+                    <rect key="frame" x="438" y="205" width="19" height="29"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="12" contentMode="center" fixedFrame="YES" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="fKt-Yx-Vvm">
-                    <rect key="frame" x="504" y="246" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="12" contentMode="scaleToFill" fixedFrame="YES" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="MPE-di-Tnw">
+                    <rect key="frame" x="434" y="141" width="23" height="22"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="13" contentMode="center" fixedFrame="YES" image="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wr2-YN-iEz">
-                    <rect key="frame" x="505" y="141" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="13" contentMode="scaleToFill" fixedFrame="YES" image="20" translatesAutoresizingMaskIntoConstraints="NO" id="DWp-eA-LMg">
+                    <rect key="frame" x="440" y="76" width="15" height="29"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="14" contentMode="center" fixedFrame="YES" image="27" translatesAutoresizingMaskIntoConstraints="NO" id="nSM-ay-tVe">
-                    <rect key="frame" x="519" y="116" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="14" contentMode="center" fixedFrame="YES" image="27" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-sB-Mij">
+                    <rect key="frame" x="444" y="58" width="6" height="17"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="center" fixedFrame="YES" image="25" translatesAutoresizingMaskIntoConstraints="NO" id="1Pd-MF-yEA">
-                    <rect key="frame" x="513" y="58" width="0.0" height="0.0"/>
+                <label opaque="NO" userInteractionEnabled="NO" tag="38" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fibrogen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inn-Er-epR">
+                    <rect key="frame" x="411" y="40" width="74" height="20"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" tag="38" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fibrogen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCT-yc-TPy">
-                    <rect key="frame" x="464" y="91" width="0.0" height="0.0"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" tag="39" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fibrin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCg-UR-8uS">
-                    <rect key="frame" x="384.5" y="10" width="127" height="24"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="127" id="6Me-zA-Yef"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                <label opaque="NO" userInteractionEnabled="NO" tag="39" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fibrin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGW-jv-O3X">
+                    <rect key="frame" x="393" y="11" width="108" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="16" contentMode="center" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="6zw-bS-PEg">
-                    <rect key="frame" x="739" y="322" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="16" contentMode="scaleToFill" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="R5m-Um-4ne">
+                    <rect key="frame" x="663" y="207" width="25" height="27"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="17" contentMode="center" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="3cy-0S-mbs">
-                    <rect key="frame" x="516" y="355" width="110" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="17" contentMode="scaleToFill" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="WZp-h3-c8p">
+                    <rect key="frame" x="462" y="238" width="216" height="121"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="21" contentMode="center" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="mv5-7O-Wld">
-                    <rect key="frame" x="404" y="317" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="21" contentMode="scaleToFill" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="Cr4-46-V0k">
+                    <rect key="frame" x="343" y="198" width="26" height="26"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="23" contentMode="center" fixedFrame="YES" image="23" translatesAutoresizingMaskIntoConstraints="NO" id="mT6-Fl-zYC">
-                    <rect key="frame" x="477" y="311" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="23" contentMode="scaleToFill" fixedFrame="YES" image="23" translatesAutoresizingMaskIntoConstraints="NO" id="Ms1-5K-c4n">
+                    <rect key="frame" x="406" y="203" width="18" height="31"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="center" fixedFrame="YES" image="19" translatesAutoresizingMaskIntoConstraints="NO" id="ONR-2g-FEH">
-                    <rect key="frame" x="417" y="350" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="center" fixedFrame="YES" image="19" translatesAutoresizingMaskIntoConstraints="NO" id="boy-CA-MZw">
+                    <rect key="frame" x="348" y="223" width="61" height="17"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="24" contentMode="center" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="mDp-nD-xkR">
-                    <rect key="frame" x="549" y="323" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="24" contentMode="center" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwY-DL-9Vx">
+                    <rect key="frame" x="476" y="196" width="90" height="56"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="41" contentMode="scaleToFill" fixedFrame="YES" image="PH_54" translatesAutoresizingMaskIntoConstraints="NO" id="v1l-dU-lXA">
-                    <rect key="frame" x="497" y="209" width="67" height="31"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="41" contentMode="scaleToFill" fixedFrame="YES" image="PH_54" translatesAutoresizingMaskIntoConstraints="NO" id="75q-Od-lHL">
+                    <rect key="frame" x="483" y="196" width="76" height="49"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="43" contentMode="scaleAspectFit" fixedFrame="YES" image="cc_wf" translatesAutoresizingMaskIntoConstraints="NO" id="UK7-v9-W6E">
-                    <rect key="frame" x="530" y="226" width="27" height="24"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="43" contentMode="scaleAspectFit" fixedFrame="YES" image="cc_wf" translatesAutoresizingMaskIntoConstraints="NO" id="8tG-bs-cEk">
+                    <rect key="frame" x="535" y="214" width="31" height="38"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" tag="1600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p9-1O-2ex">
-                    <rect key="frame" x="720" y="306" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="1600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dz-fQ-z2x">
+                    <rect key="frame" x="613" y="29" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,12 +152,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="z6p-8T-6ii"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORz-DS-RgB">
-                    <rect key="frame" x="484" y="558" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="1300" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teH-sW-TfE">
+                    <rect key="frame" x="613" y="-4" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -171,12 +162,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="SJu-Ah-nOU"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K83-9Z-Si2">
-                    <rect key="frame" x="485" y="506" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE4-sd-3Te">
+                    <rect key="frame" x="626" y="0.0" width="67" height="57"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -184,12 +172,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="igW-ll-6NC"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="700" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2K-I0-boI">
-                    <rect key="frame" x="387" y="499" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16Y-Ms-aAE">
+                    <rect key="frame" x="659" y="20" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -197,12 +182,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Oz6-CR-av7"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="1800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0om-b4-SLi">
-                    <rect key="frame" x="248" y="315" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="700" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrO-53-0dc">
+                    <rect key="frame" x="659" y="20" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -210,12 +192,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="pwT-cV-vCf"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="2100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHy-gM-fXm">
-                    <rect key="frame" x="388" y="298" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="1800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ve-IN-eKu">
+                    <rect key="frame" x="659" y="11" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -223,12 +202,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="LMF-hF-XEL"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="1200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f91-L6-UKZ">
-                    <rect key="frame" x="487" y="233" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="2100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-V4-Pf8">
+                    <rect key="frame" x="659" y="20" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -236,12 +212,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="MVQ-0m-f1O"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="3800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d11-ey-IQJ">
-                    <rect key="frame" x="488" y="74" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="1200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOG-fu-fNT">
+                    <rect key="frame" x="663" y="30" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -249,12 +222,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="xhH-sv-ymO"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="2500" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L61-IK-iaV">
-                    <rect key="frame" x="588" y="342" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="3800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88a-G7-JiC">
+                    <rect key="frame" x="666" y="11" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -262,12 +232,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="siL-3g-ccR"/>
-                    </connections>
                 </button>
-                <button opaque="NO" tag="600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5Y-7g-2PF">
-                    <rect key="frame" x="486" y="378" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="2500" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz4-1k-pVO">
+                    <rect key="frame" x="659" y="20" width="67" height="64"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -275,39 +242,35 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="aHL-gb-Dg5"/>
-                    </connections>
                 </button>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="42" contentMode="center" fixedFrame="YES" image="cc_green_arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="2Si-JG-upW">
-                    <rect key="frame" x="401" y="460" width="0.0" height="0.0"/>
+                <button opaque="NO" tag="600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re8-7i-jQM">
+                    <rect key="frame" x="666" y="11" width="67" height="64"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" backgroundImage="highlight">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="42" contentMode="scaleToFill" fixedFrame="YES" image="cc_green_arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="yNC-EW-ahF">
+                    <rect key="frame" x="358" y="296" width="19" height="40"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="25" contentMode="scaleAspectFit" fixedFrame="YES" image="cc_activated" translatesAutoresizingMaskIntoConstraints="NO" id="VWx-hv-pZu">
-                    <rect key="frame" x="552" y="225" width="74" height="37"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="25" contentMode="scaleToFill" fixedFrame="YES" image="cc_activated" translatesAutoresizingMaskIntoConstraints="NO" id="SZI-lm-MgU">
+                    <rect key="frame" x="552" y="247" width="51" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" tag="1300" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg3-7U-YA5">
-                    <rect key="frame" x="489" y="174" width="0.0" height="0.0"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="scaleToFill" fixedFrame="YES" image="25" translatesAutoresizingMaskIntoConstraints="NO" id="JZZ-ZO-Nei">
+                    <rect key="frame" x="442" y="20" width="11" height="21"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" backgroundImage="highlight">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="gwH-Vv-hny"/>
-                    </connections>
-                </button>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="0.21960784310000001" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="YCg-UR-8uS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="1Sz-FO-S6b"/>
                 <constraint firstAttribute="bottom" secondItem="iyy-5T-i8q" secondAttribute="bottom" id="Al7-rw-tdS"/>
                 <constraint firstItem="iyy-5T-i8q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GMS-FR-2TU"/>
                 <constraint firstItem="iyy-5T-i8q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Rxo-ND-P9G"/>
-                <constraint firstItem="YCg-UR-8uS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fec-dc-DZb"/>
                 <constraint firstAttribute="trailing" secondItem="iyy-5T-i8q" secondAttribute="trailing" id="ocp-T8-lBN"/>
             </constraints>
             <point key="canvasLocation" x="340.84821428571428" y="207.24637681159422"/>
