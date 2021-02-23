@@ -191,11 +191,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msc-l4-vTA">
-                                <rect key="frame" x="44" y="10" width="808" height="360"/>
+                                <rect key="frame" x="0.0" y="10" width="896" height="360"/>
                                 <subviews>
                                     <view clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2w-lX-ikf">
-                                        <rect key="frame" x="0.0" y="0.0" width="808" height="360"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="896" height="360"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
+                                                <rect key="frame" x="812" y="0.0" width="84" height="75"/>
+                                                <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="84" id="e7M-EF-atJ"/>
+                                                    <constraint firstAttribute="height" constant="75" id="hIh-Ju-unu"/>
+                                                </constraints>
+                                                <state key="normal" image="CoagCascadePlayerSceneInformation"/>
+                                                <connections>
+                                                    <action selector="infoSequenceButtonWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="whW-Gh-j7o"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.15194633599999999" green="0.49222761390000003" blue="0.7774435878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="VbA-T4-Tyx" firstAttribute="top" secondItem="t2w-lX-ikf" secondAttribute="top" id="Frl-YQ-Y6s"/>
+                                            <constraint firstAttribute="trailing" secondItem="VbA-T4-Tyx" secondAttribute="trailing" id="hqb-Bu-FW2"/>
+                                        </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="jxi-5s-rsh" appends="YES" id="wbQ-WD-blY"/>
                                         </connections>
@@ -203,17 +221,17 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.68235294120000001" green="0.82352941180000006" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="t2w-lX-ikf" firstAttribute="leading" secondItem="Msc-l4-vTA" secondAttribute="leading" id="0eh-Ix-FqC"/>
+                                    <constraint firstAttribute="trailing" secondItem="t2w-lX-ikf" secondAttribute="trailing" id="FWL-gQ-ztU"/>
                                     <constraint firstItem="t2w-lX-ikf" firstAttribute="top" secondItem="Msc-l4-vTA" secondAttribute="top" id="JA0-Ks-1vs"/>
                                     <constraint firstAttribute="bottom" secondItem="t2w-lX-ikf" secondAttribute="bottom" id="r6Z-N5-545"/>
-                                    <constraint firstItem="t2w-lX-ikf" firstAttribute="leading" secondItem="Msc-l4-vTA" secondAttribute="leading" id="ri3-oX-Xk1"/>
-                                    <constraint firstAttribute="trailing" secondItem="t2w-lX-ikf" secondAttribute="trailing" id="tRF-mt-BVs"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-KL-4rL" userLabel="Timeline View">
-                                <rect key="frame" x="44" y="370" width="808" height="44"/>
+                                <rect key="frame" x="0.0" y="370" width="896" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23W-OQ-TpS">
-                                        <rect key="frame" x="748" y="3" width="32" height="37"/>
+                                        <rect key="frame" x="832" y="3" width="36" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerForward"/>
                                         <connections>
@@ -221,7 +239,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeH-Mp-Mhs">
-                                        <rect key="frame" x="696" y="0.0" width="39" height="42"/>
+                                        <rect key="frame" x="780" y="0.0" width="43" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerPlay"/>
                                         <connections>
@@ -229,7 +247,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-BL-4cs">
-                                        <rect key="frame" x="639" y="2" width="43" height="39"/>
+                                        <rect key="frame" x="722" y="2" width="48" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                         <state key="normal" image="CoagCascadePlayerRewind"/>
                                         <connections>
@@ -237,7 +255,7 @@
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-aO-rVN">
-                                        <rect key="frame" x="6" y="7" width="651" height="31"/>
+                                        <rect key="frame" x="6" y="7" width="722" height="31"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <connections>
                                             <action selector="videoSliderOnChangeActionWithSender:" destination="9Zq-BE-sVh" eventType="valueChanged" id="LZz-sx-dVl"/>
@@ -315,18 +333,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
-                                <rect key="frame" x="768" y="0.0" width="84" height="75"/>
-                                <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="e7M-EF-atJ"/>
-                                    <constraint firstAttribute="height" constant="75" id="hIh-Ju-unu"/>
-                                </constraints>
-                                <state key="normal" image="CoagCascadePlayerSceneInformation"/>
-                                <connections>
-                                    <action selector="infoSequenceButtonWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="whW-Gh-j7o"/>
-                                </connections>
-                            </button>
                             <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZE-k5-nIk">
                                 <rect key="frame" x="478" y="100" width="418" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -353,15 +359,13 @@
                         <viewLayoutGuide key="safeArea" id="4bb-yV-EZH"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Msc-l4-vTA" firstAttribute="leading" secondItem="4bb-yV-EZH" secondAttribute="leading" id="3XS-QZ-gZG"/>
-                            <constraint firstItem="VbA-T4-Tyx" firstAttribute="top" secondItem="4bb-yV-EZH" secondAttribute="top" id="58Q-x1-bxy"/>
-                            <constraint firstItem="Msc-l4-vTA" firstAttribute="trailing" secondItem="4bb-yV-EZH" secondAttribute="trailing" id="CzK-f5-YLp"/>
+                            <constraint firstAttribute="trailing" secondItem="Msc-l4-vTA" secondAttribute="trailing" id="095-cN-aZI"/>
                             <constraint firstItem="hYq-KL-4rL" firstAttribute="top" secondItem="Msc-l4-vTA" secondAttribute="bottom" id="HdY-F8-vVl"/>
-                            <constraint firstItem="hYq-KL-4rL" firstAttribute="trailing" secondItem="4bb-yV-EZH" secondAttribute="trailing" id="eoy-lR-Dei"/>
-                            <constraint firstItem="VbA-T4-Tyx" firstAttribute="trailing" secondItem="4bb-yV-EZH" secondAttribute="trailing" id="pJz-vu-ZQA"/>
+                            <constraint firstAttribute="trailing" secondItem="hYq-KL-4rL" secondAttribute="trailing" id="JzQ-0F-n1E"/>
+                            <constraint firstItem="hYq-KL-4rL" firstAttribute="leading" secondItem="tX0-pf-tz8" secondAttribute="leading" id="e8G-7M-IFG"/>
+                            <constraint firstItem="Msc-l4-vTA" firstAttribute="leading" secondItem="tX0-pf-tz8" secondAttribute="leading" id="pQ6-Wq-Yxj"/>
                             <constraint firstItem="Msc-l4-vTA" firstAttribute="top" secondItem="4bb-yV-EZH" secondAttribute="top" constant="10" id="qIJ-AE-14t"/>
                             <constraint firstAttribute="bottom" secondItem="hYq-KL-4rL" secondAttribute="bottom" id="vI0-jJ-Ka1"/>
-                            <constraint firstItem="hYq-KL-4rL" firstAttribute="leading" secondItem="4bb-yV-EZH" secondAttribute="leading" id="xm7-bl-TO5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m3R-SN-hoh"/>
