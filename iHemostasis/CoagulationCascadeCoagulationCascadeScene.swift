@@ -13,11 +13,17 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
     let kPhaseTwoStartTime: Int = 18
     let kPhaseThreeStartTime: Int = 23
     let kPhaseFourStartTime: Int = 29
-    
+    var percentHeight: CGFloat = 0
     override init(frame: CGRect) {
         super.init(frame: frame)
         var sceneName :String! = "CoagulationCascadeCoagulationCascade"
         if(UIDevice.current.userInterfaceIdiom == .phone){
+           
+            if(UIScreen.main.bounds.height >= 1024){
+                percentHeight = UIScreen.main.bounds.height * 20 / 100;
+            }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
+                percentHeight = UIScreen.main.bounds.height * 8 / 100;
+            }
             sceneName = "CoagulationCascadeCoagulationCascade copy"
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
