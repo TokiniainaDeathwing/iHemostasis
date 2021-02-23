@@ -167,11 +167,12 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             scene.frame = sceneView!.frame
             scene.subviews[0].frame = sceneView!.frame
         }
-        scene.frame = sceneView!.frame
-        scene.subviews[0].frame = sceneView!.frame
+        //scene.frame = sceneView!.frame
+        //scene.subviews[0].frame = sceneView!.frame
         
-        print("sceneFrame",scene.frame)
+        print("sceneFrame",sceneView!.frame)
         print("sceneFrame2",scene.subviews[0].frame)
+        print("screenWidth",UIScreen.main.bounds)
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
         sceneView!.isUserInteractionEnabled = true
