@@ -40,6 +40,12 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
             var sW = CGFloat(UIScreen.main.bounds.width)
             var h = CGFloat(320*UIScreen.main.bounds.height/414)
             self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+            for i in 1..<sceneView!.subviews.count {
+                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                
+                
+            }
         }
         self.addSubview(sceneView!);
         print("sceneFrame4",frame)
@@ -96,6 +102,11 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         //n.destPos = CGPoint(506, 515)
         n.originPos = CGPoint(363, 456)
         n.destPos = CGPoint(506, 515)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            n.originPos = CGPoint(410*UIScreen.main.bounds.width/896, 199*UIScreen.main.bounds.height/414)
+            
+            n.destPos = CGPoint(440*UIScreen.main.bounds.width/896, 235*UIScreen.main.bounds.height/414)
+        }
         sceneData.nodeList.append(n)
 
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time:3, nodeTag: 6)
