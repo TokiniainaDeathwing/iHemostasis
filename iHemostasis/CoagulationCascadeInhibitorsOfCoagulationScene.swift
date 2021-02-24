@@ -293,7 +293,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.destPos = CGPoint(66, 508)
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
-          n.originPos =  CGPoint(0*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
+         n.originPos =  CGPoint(0*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
           n.destPos = CGPoint(66*UIScreen.main.bounds.width/1080, 508*UIScreen.main.bounds.height/810)
            
         }

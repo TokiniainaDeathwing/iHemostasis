@@ -28,18 +28,32 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
             sceneName = "CoagulationCascadeFibrinFormation copy"
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
-        self.addSubview(sceneView!);
-        for i in 1..<sceneView!.subviews.count {
-             sceneView?.subviews[i].frame = CGRect(x: (sceneView?.subviews[i].frame.origin.x)!, y: (sceneView?.subviews[i].frame.origin.y)! + percentHeight, width: (sceneView?.subviews[i].frame.size.width)!, height: (sceneView?.subviews[i].frame.size.height)!);
-        }
-        // Hide node that should be hidden at the beginining of the animation
-        for i in 0..<sceneData.nodeList.count {
-            let n = sceneData.nodeList[i]
-            if n.hiddenAtStart == true {
-                let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
-                imageView.isHidden = true
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            var sW = CGFloat(UIScreen.main.bounds.width)
+            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+            for i in 1..<sceneView!.subviews.count {
+                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                
+                
             }
         }
+        self.addSubview(sceneView!);
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            for i in 1..<sceneView!.subviews.count {
+                 sceneView?.subviews[i].frame = CGRect(x: (sceneView?.subviews[i].frame.origin.x)!, y: (sceneView?.subviews[i].frame.origin.y)! + percentHeight, width: (sceneView?.subviews[i].frame.size.width)!, height: (sceneView?.subviews[i].frame.size.height)!);
+            }
+            // Hide node that should be hidden at the beginining of the animation
+            for i in 0..<sceneData.nodeList.count {
+                let n = sceneData.nodeList[i]
+                if n.hiddenAtStart == true {
+                    let imageView = self.sceneView!.viewWithTag(n.nodeTag) as! UIImageView
+                    imageView.isHidden = true
+                }
+            }
+        }
+       
     }
     
     required init(coder aDecoder: NSCoder) {
