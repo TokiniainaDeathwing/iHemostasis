@@ -20,6 +20,17 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
             sceneName = "CoagulationCascadeInhibitorsOfCoagulation copy"
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            var sW = CGFloat(UIScreen.main.bounds.width)
+            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+            for i in 1..<sceneView!.subviews.count {
+                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                
+                
+            }
+        }
         self.addSubview(sceneView!);
     }
     
@@ -202,6 +213,12 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(38, 474)
         n.destPos = CGPoint(105, 412)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(38*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(105*UIScreen.main.bounds.width/1080, 412*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 2, nodeTag: 45)
@@ -209,13 +226,25 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(8, 298)
         n.destPos = CGPoint(27, 418)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(8*UIScreen.main.bounds.width/1080, 298*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(27*UIScreen.main.bounds.width/1080, 418*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
-        
+       
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 3, nodeTag: 46)
         n.nodeDescription = "AT:\n\nAntithrombin\nInhibitor of thrombin, FXa, FIXa, FXIa, FXIIa, FVIIa\nThrombin inhibition increased when bound to heparin\nInherited deficiency risk for VTE"
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(25, 376)
         n.destPos = CGPoint(68, 370)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(25*UIScreen.main.bounds.width/1080, 376*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(68*UIScreen.main.bounds.width/1080, 370*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 4, nodeTag: 47)
@@ -223,6 +252,12 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(25, 76)
         n.destPos = CGPoint(67, 198)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(25*UIScreen.main.bounds.width/1080, 76*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(67*UIScreen.main.bounds.width/1080, 198*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 5, nodeTag: 48)
@@ -230,6 +265,12 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(119, 73)
         n.destPos = CGPoint(229, 84)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(119*UIScreen.main.bounds.width/1080, 73*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(229*UIScreen.main.bounds.width/1080, 84*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 6, nodeTag: 44)
@@ -237,6 +278,12 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(64, 458)
         n.destPos = CGPoint(116, 488)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(64*UIScreen.main.bounds.width/1080, 458*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(116*UIScreen.main.bounds.width/1080, 488*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime: kPhaseThreeStartTime, time: 7, nodeTag: 42)
@@ -244,6 +291,12 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(0, 474)
         n.destPos = CGPoint(66, 508)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(0*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(66*UIScreen.main.bounds.width/1080, 508*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
     }

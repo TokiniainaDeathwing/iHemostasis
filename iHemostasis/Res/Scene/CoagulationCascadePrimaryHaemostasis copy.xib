@@ -42,7 +42,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="59" contentMode="scaleToFill" fixedFrame="YES" image="PH_56" translatesAutoresizingMaskIntoConstraints="NO" id="JWg-4D-44w">
-                    <rect key="frame" x="837" y="127" width="52" height="21"/>
+                    <rect key="frame" x="795" y="155" width="52" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="scaleToFill" fixedFrame="YES" image="PH_27" translatesAutoresizingMaskIntoConstraints="NO" id="a88-cP-3St">
@@ -83,10 +83,6 @@
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="31" contentMode="scaleToFill" fixedFrame="YES" image="PH_48" translatesAutoresizingMaskIntoConstraints="NO" id="Ina-MS-1nO">
                     <rect key="frame" x="504" y="59" width="22" height="18"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="PH_43" translatesAutoresizingMaskIntoConstraints="NO" id="QpV-Nf-n6z">
-                    <rect key="frame" x="831" y="116" width="76" height="140"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="18" contentMode="scaleToFill" fixedFrame="YES" image="PH_39" translatesAutoresizingMaskIntoConstraints="NO" id="jFK-TU-w7l">
@@ -572,6 +568,10 @@
                         <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Ii-9K-jzj"/>
                     </connections>
                 </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="PH_43" translatesAutoresizingMaskIntoConstraints="NO" id="QpV-Nf-n6z">
+                    <rect key="frame" x="817" y="133" width="76" height="140"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
