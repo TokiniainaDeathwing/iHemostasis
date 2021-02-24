@@ -195,25 +195,7 @@
                                 <subviews>
                                     <view clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2w-lX-ikf">
                                         <rect key="frame" x="0.0" y="0.0" width="896" height="360"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
-                                                <rect key="frame" x="812" y="0.0" width="84" height="75"/>
-                                                <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="84" id="e7M-EF-atJ"/>
-                                                    <constraint firstAttribute="height" constant="75" id="hIh-Ju-unu"/>
-                                                </constraints>
-                                                <state key="normal" image="CoagCascadePlayerSceneInformation"/>
-                                                <connections>
-                                                    <action selector="infoSequenceButtonWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="whW-Gh-j7o"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
                                         <color key="backgroundColor" red="0.15194633599999999" green="0.49222761390000003" blue="0.7774435878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="VbA-T4-Tyx" firstAttribute="top" secondItem="t2w-lX-ikf" secondAttribute="top" id="Frl-YQ-Y6s"/>
-                                            <constraint firstAttribute="trailing" secondItem="VbA-T4-Tyx" secondAttribute="trailing" id="hqb-Bu-FW2"/>
-                                        </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="jxi-5s-rsh" appends="YES" id="wbQ-WD-blY"/>
                                         </connections>
@@ -227,6 +209,18 @@
                                     <constraint firstAttribute="bottom" secondItem="t2w-lX-ikf" secondAttribute="bottom" id="r6Z-N5-545"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
+                                <rect key="frame" x="812" y="10" width="84" height="75"/>
+                                <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="0Uk-4g-0hW"/>
+                                    <constraint firstAttribute="height" constant="75" id="qkN-L3-EU5"/>
+                                </constraints>
+                                <state key="normal" image="CoagCascadePlayerSceneInformation"/>
+                                <connections>
+                                    <action selector="infoSequenceButtonWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="whW-Gh-j7o"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-KL-4rL" userLabel="Timeline View">
                                 <rect key="frame" x="0.0" y="370" width="896" height="44"/>
                                 <subviews>
@@ -360,11 +354,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Msc-l4-vTA" secondAttribute="trailing" id="095-cN-aZI"/>
+                            <constraint firstItem="VbA-T4-Tyx" firstAttribute="top" secondItem="4bb-yV-EZH" secondAttribute="top" constant="10" id="5Eu-hx-TQk"/>
                             <constraint firstItem="hYq-KL-4rL" firstAttribute="top" secondItem="Msc-l4-vTA" secondAttribute="bottom" id="HdY-F8-vVl"/>
                             <constraint firstAttribute="trailing" secondItem="hYq-KL-4rL" secondAttribute="trailing" id="JzQ-0F-n1E"/>
                             <constraint firstItem="hYq-KL-4rL" firstAttribute="leading" secondItem="tX0-pf-tz8" secondAttribute="leading" id="e8G-7M-IFG"/>
                             <constraint firstItem="Msc-l4-vTA" firstAttribute="leading" secondItem="tX0-pf-tz8" secondAttribute="leading" id="pQ6-Wq-Yxj"/>
                             <constraint firstItem="Msc-l4-vTA" firstAttribute="top" secondItem="4bb-yV-EZH" secondAttribute="top" constant="10" id="qIJ-AE-14t"/>
+                            <constraint firstAttribute="trailing" secondItem="VbA-T4-Tyx" secondAttribute="trailing" id="t4a-RU-TZz"/>
                             <constraint firstAttribute="bottom" secondItem="hYq-KL-4rL" secondAttribute="bottom" id="vI0-jJ-Ka1"/>
                         </constraints>
                     </view>
