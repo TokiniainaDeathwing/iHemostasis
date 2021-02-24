@@ -189,7 +189,7 @@
                     <rect key="frame" x="118" y="215" width="104" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="65" contentMode="center" fixedFrame="YES" image="PH_42" translatesAutoresizingMaskIntoConstraints="NO" id="6o8-AX-oQj">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="65" contentMode="scaleToFill" fixedFrame="YES" image="PH_42" translatesAutoresizingMaskIntoConstraints="NO" id="6o8-AX-oQj">
                     <rect key="frame" x="830" y="181" width="23" height="15"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
