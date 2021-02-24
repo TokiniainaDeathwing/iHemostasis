@@ -105,7 +105,7 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             n.originPos = CGPoint(410*UIScreen.main.bounds.width/896, 199*UIScreen.main.bounds.height/414)
             
-            n.destPos = CGPoint(440*UIScreen.main.bounds.width/896, 235*UIScreen.main.bounds.height/414)
+            n.destPos = CGPoint(440*UIScreen.main.bounds.width/896, 245*UIScreen.main.bounds.height/414)
         }
         sceneData.nodeList.append(n)
 
