@@ -22,6 +22,17 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
             sceneName = "CoagulationCascadePrimaryHaemostasis copy"
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            var sW = CGFloat(UIScreen.main.bounds.width)
+            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+            for i in 1..<sceneView!.subviews.count {
+                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                
+                
+            }
+        }
         self.addSubview(sceneView!);
         
         // Hide node that should be hidden at the beginining of the animation
@@ -32,18 +43,23 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
                 imageView.isHidden = true
             }
         }
-        var percentWidth : CGFloat = 0;
-        if(UIScreen.main.bounds.height >= 1024){
-            percentWidth = CGFloat(UIScreen.main.bounds.width * 2 / 100);
-        }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
-            percentWidth = CGFloat(UIScreen.main.bounds.width * 0.8 / 100);
+        
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            var percentWidth : CGFloat = 0;
+            if(UIScreen.main.bounds.height >= 1024){
+                percentWidth = CGFloat(UIScreen.main.bounds.width * 2 / 100);
+            }else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
+                percentWidth = CGFloat(UIScreen.main.bounds.width * 0.8 / 100);
+            }
+            let imageView = self.sceneView!.viewWithTag(57) as! UIImageView
+            imageView.frame = CGRect(x: (imageView.frame.origin.x) - percentWidth, y: (imageView.frame.origin.y), width: (imageView.frame.size.width), height: (imageView.frame.size.height));
+            let imageView2 = self.sceneView!.viewWithTag(59) as! UIImageView
+            imageView2.frame = CGRect(x: (imageView2.frame.origin.x) - percentWidth, y: (imageView2.frame.origin.y), width: (imageView2.frame.size.width), height: (imageView2.frame.size.height));
+            let buttonView = self.sceneView!.viewWithTag(5700) as! UIButton
+            buttonView.frame = CGRect(x: (buttonView.frame.origin.x) - percentWidth, y: (buttonView.frame.origin.y), width: (buttonView.frame.size.width), height: (buttonView.frame.size.height));
         }
-        let imageView = self.sceneView!.viewWithTag(57) as! UIImageView
-        imageView.frame = CGRect(x: (imageView.frame.origin.x) - percentWidth, y: (imageView.frame.origin.y), width: (imageView.frame.size.width), height: (imageView.frame.size.height));
-        let imageView2 = self.sceneView!.viewWithTag(59) as! UIImageView
-        imageView2.frame = CGRect(x: (imageView2.frame.origin.x) - percentWidth, y: (imageView2.frame.origin.y), width: (imageView2.frame.size.width), height: (imageView2.frame.size.height));
-        let buttonView = self.sceneView!.viewWithTag(5700) as! UIButton
-        buttonView.frame = CGRect(x: (buttonView.frame.origin.x) - percentWidth, y: (buttonView.frame.origin.y), width: (buttonView.frame.size.width), height: (buttonView.frame.size.height));
+
+        
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -122,6 +138,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.animationType = Utils.AnimationType.translationAndDisappear
         n.originPos = CGPoint(855, 198)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(855*UIScreen.main.bounds.width/1080, 198*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.hiddenAtStart = true
         n.disappearTime = 10
         sceneData.nodeList.append(n)
@@ -131,6 +153,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(830, 152)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(830*UIScreen.main.bounds.width/1080, 152*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
@@ -139,6 +167,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(844, 172)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(844*UIScreen.main.bounds.width/1080, 172*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
@@ -147,6 +181,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(900, 207)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(900*UIScreen.main.bounds.width/1080, 207*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.disappearTime = 11
         sceneData.nodeList.append(n)
         
@@ -155,6 +195,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(925, 212)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(925*UIScreen.main.bounds.width/1080, 212*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.disappearTime = 12
         sceneData.nodeList.append(n)
         
@@ -163,6 +209,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(888, 176)
         n.destPos = CGPoint(542, 237)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(888*UIScreen.main.bounds.width/1080, 176*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+           
+        }
         n.disappearTime = 12
         sceneData.nodeList.append(n)
         
@@ -171,6 +223,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(542, 237)
         n.destPos = CGPoint(373, 231)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(373*UIScreen.main.bounds.width/1080, 231*UIScreen.main.bounds.height/810)
+           
+        }
         n.hiddenAtStart = true
         sceneData.nodeList.append(n)
         
@@ -179,13 +237,26 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(542, 237)
         n.destPos = CGPoint(376, 200)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(376*UIScreen.main.bounds.width/1080, 200*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 11, nodeTag: 112)
         n.animationType = Utils.AnimationType.translation
         n.hiddenAtStart = true
+        
         n.originPos = CGPoint(542, 237)
         n.destPos = CGPoint(367, 172)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(367*UIScreen.main.bounds.width/1080, 172*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 113)
@@ -193,6 +264,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(542, 237)
         n.destPos = CGPoint(377, 149)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(377*UIScreen.main.bounds.width/1080, 149*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         
         n = CoagulationCascadeNodeModel(phaseStartTime:kPhaseOneStartTime, time: 12, nodeTag: 114)
@@ -207,6 +284,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(542, 237)
         n.destPos = CGPoint(422, 219)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(542*UIScreen.main.bounds.width/1080, 237*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(422*UIScreen.main.bounds.width/1080, 219*UIScreen.main.bounds.height/810)
+           
+        }
         sceneData.nodeList.append(n)
         //---
         
