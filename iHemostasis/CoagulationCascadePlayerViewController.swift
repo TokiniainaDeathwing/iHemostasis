@@ -66,11 +66,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // BackButton View Container
         let backButtonView: UIView? = UIView(frame: CGRect(0, 0, 500, 59))
         backButtonView?.backgroundColor = UIColor.clear
-        
+       
         // BackButton Button
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowRED")
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
         backButton.frame = CGRect(0, 15, 32, 32)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            backButton.frame = CGRect(0, 15, 16, 16)
+        }
         backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
         backButton.setTitle("", for: UIControl.State.normal)
         backButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
@@ -79,6 +82,10 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         let backButtonLabel: UILabel? = UILabel(frame: CGRect(50, 0, 400, 59))
         backButtonView?.addSubview(backButtonLabel!)
         backButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            backButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE_IPHONE)
+            backButtonLabel?.frame=CGRect(50, 0, 400, 49)
+        }
         backButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
         backButtonLabel?.textAlignment = .left
         
@@ -89,7 +96,12 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         // Right menu: Phase list
         // Phase View Container
-        let phaseListButtonView: UIView? = UIView(frame: CGRect(0, 0, 500, 59))
+        let phaseListButtonView: UIView?
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseListButtonView = UIView(frame: CGRect(-100, 0, 200, 59))
+        }else{
+            phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
+        }
         phaseListButtonView?.backgroundColor = UIColor.clear
         
         // Down Button image

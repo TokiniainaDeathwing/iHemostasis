@@ -16,6 +16,7 @@ public class Utils {
     
     static let SCREEN_TITLE_FONT_NAME = "Barmeno-Regular"
     static let SCREEN_TITLE_FONT_SIZE: CGFloat = 32.0
+    static let SCREEN_TITLE_FONT_SIZE_IPHONE: CGFloat = 16.0
     static let CLINICAL_CASE_ALL_ABOVE_TEST_TEXT = "All of the above tests"
     
     static let RED_COLOR = "BD2716"
