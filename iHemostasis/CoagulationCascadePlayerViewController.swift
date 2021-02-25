@@ -98,19 +98,31 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // Phase View Container
         let phaseListButtonView: UIView?
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseListButtonView = UIView(frame: CGRect(-100, 0, 200, 59))
+            phaseListButtonView = UIView(frame: CGRect(0, 0, UIScreen.main.bounds.width/3, 59))
         }else{
             phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
         }
         phaseListButtonView?.backgroundColor = UIColor.clear
         
         // Down Button image
-        downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            downImageView = UIImageView(frame:CGRect(130, 22, 8, 7));
+        }else{
+            downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
+        }
+        
         downImageView!.image = UIImage(named:"down-arrowRED")
+       
         phaseListButtonView?.addSubview(downImageView!)
         
         let downButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
         downButton.frame = CGRect(0, 0, 500, 59)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            downButton.frame = CGRect(0, 0, UIScreen.main.bounds.width/3, 49)
+            //downButton.semanticContentAttribute = .forceRightToLeft
+        }else{
+            downButton.frame = CGRect(0, 0, 500, 59)
+        }
         downButton.addTarget(self, action: #selector(showPhaseList), for: UIControl.Event.touchUpInside)
         downButton.setTitle("", for: UIControl.State.normal)
         downButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
@@ -118,10 +130,21 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         phaseListButtonView?.addSubview(downButton)
         
         // DownButton Label
-        phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
+
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel = UILabel(frame: CGRect(0, 0, UIScreen.main.bounds.width/4, 49))
+        }else{
+            phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
+        }
         phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE_IPHONE)
+        }
         phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
         phaseButtonLabel?.textAlignment = .right
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel?.textAlignment = .left
+        }
         phaseButtonLabel?.backgroundColor = UIColor.clear
         phaseButtonLabel?.adjustsFontSizeToFitWidth = true
         phaseListButtonView?.addSubview(phaseButtonLabel!)
