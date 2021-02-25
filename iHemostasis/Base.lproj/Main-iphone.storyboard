@@ -292,11 +292,11 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">
-                                <rect key="frame" x="812" y="10" width="84" height="75"/>
+                                <rect key="frame" x="854" y="10" width="42" height="39"/>
                                 <color key="backgroundColor" red="0.74117647060000003" green="0.1529411765" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="0Uk-4g-0hW"/>
-                                    <constraint firstAttribute="height" constant="75" id="qkN-L3-EU5"/>
+                                    <constraint firstAttribute="width" constant="42" id="0Uk-4g-0hW"/>
+                                    <constraint firstAttribute="height" constant="39" id="qkN-L3-EU5"/>
                                 </constraints>
                                 <state key="normal" image="CoagCascadePlayerSceneInformation"/>
                                 <connections>

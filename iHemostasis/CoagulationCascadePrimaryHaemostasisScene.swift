@@ -23,12 +23,12 @@ class CoagulationCascadePrimaryHaemostasisScene: ParentScene {
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            var sW = CGFloat(UIScreen.main.bounds.width)
-            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            let sW = CGFloat(UIScreen.main.bounds.width)
+            let h = CGFloat(320*UIScreen.main.bounds.height/414)
             self.sceneView!.frame = CGRect(0 ,0 , sW, h)
             for i in 1..<sceneView!.subviews.count {
-                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
-                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                let frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                //sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
                 
                 
             }

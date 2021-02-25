@@ -68,6 +68,9 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         else if(UIScreen.main.bounds.height < 1024 && UIScreen.main.bounds.height >= 834){
             percentHeight = UIScreen.main.bounds.height * 8 / 100;
         }
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            //percentHeight=0
+        }
         sceneData.phaseList = ["Fibrin Formation", "Fibrinolysis Initiation", "Fibrinolysis Amplification", "Antifibrinolysis: Inhibition of Fibrinolysis", "Fibrin and fibrinogen degradation products"]
         
         // Phase List - Description
@@ -199,7 +202,7 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(386*UIScreen.main.bounds.width/1080, (24 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint((386+37)*UIScreen.main.bounds.width/1080, (24 + percentHeight)*UIScreen.main.bounds.height/810)
            
         }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
@@ -234,7 +237,7 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(543*UIScreen.main.bounds.width/1080, (180 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(580*UIScreen.main.bounds.width/1080, (180 + percentHeight)*UIScreen.main.bounds.height/810)
            
         }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
@@ -247,7 +250,7 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(806*UIScreen.main.bounds.width/1080, (271 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(850*UIScreen.main.bounds.width/1080, (271 + percentHeight)*UIScreen.main.bounds.height/810)
            
         }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"

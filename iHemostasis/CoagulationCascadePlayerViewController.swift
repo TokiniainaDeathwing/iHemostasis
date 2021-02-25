@@ -72,7 +72,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         let backButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
         backButton.frame = CGRect(0, 15, 32, 32)
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            backButton.frame = CGRect(0, 15, 16, 16)
+            backButton.frame = CGRect(0, 12, 20, 20)
         }
         backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
         backButton.setTitle("", for: UIControl.State.normal)
@@ -212,8 +212,8 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         print("screenWidth",UIScreen.main.bounds)
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
-        sceneView!.isUserInteractionEnabled = true
-        //sceneView!.isExclusiveTouch = true
+        sceneView!.isUserInteractionEnabled = false
+        sceneView!.isExclusiveTouch = true
         
         phaseButtonLabel!.text = ""
         downImageView!.isHidden = true
