@@ -29,11 +29,11 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         }
         sceneView = Bundle.main.loadNibNamed(sceneName, owner: self, options: nil)![0] as? UIView
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            var sW = CGFloat(UIScreen.main.bounds.width)
-            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            let sW = CGFloat(UIScreen.main.bounds.width)
+            let h = CGFloat(320*UIScreen.main.bounds.height/414)
             self.sceneView!.frame = CGRect(0 ,0 , sW, h)
             for i in 1..<sceneView!.subviews.count {
-                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+                let frame:CGRect=(sceneView?.subviews[i].frame)! ;
                 sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
                 
                 
@@ -146,6 +146,12 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(x: 561, y: 145 + percentHeight)
         n.destPos = CGPoint(x: 8, y: 362 + percentHeight)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(561*UIScreen.main.bounds.width/1080, (145 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(8*UIScreen.main.bounds.width/1080, (362 + percentHeight)*UIScreen.main.bounds.height/810)
+           
+        }
         n.animationType = Utils.AnimationType.translationAndDisappear
         sceneData.nodeList.append(n)
         
@@ -153,6 +159,12 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         n.hiddenAtStart = true
         n.originPos = CGPoint(x: 561, y: 145 + percentHeight)
         n.destPos = CGPoint(x: 12, y: 322 + percentHeight)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(561*UIScreen.main.bounds.width/1080, (145 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(12*UIScreen.main.bounds.width/1080, (322 + percentHeight)*UIScreen.main.bounds.height/810)
+           
+        }
         n.animationType = Utils.AnimationType.translationAndDisappear
         sceneData.nodeList.append(n)
         
@@ -184,6 +196,12 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(130, 333 + percentHeight)
         n.destPos = CGPoint(386, 24 + percentHeight)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(386*UIScreen.main.bounds.width/1080, (24 + percentHeight)*UIScreen.main.bounds.height/810)
+           
+        }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
@@ -213,6 +231,12 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(130, 333 + percentHeight)
         n.destPos = CGPoint(543, 180 + percentHeight)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(543*UIScreen.main.bounds.width/1080, (180 + percentHeight)*UIScreen.main.bounds.height/810)
+           
+        }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         
@@ -220,6 +244,12 @@ class CoagulationCascadeFibrinFormationScene: ParentScene {
         n.animationType = Utils.AnimationType.translation
         n.originPos = CGPoint(130, 333 + percentHeight)
         n.destPos = CGPoint(806, 271 + percentHeight)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+          n.originPos =  CGPoint(130*UIScreen.main.bounds.width/1080, (333 + percentHeight)*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(806*UIScreen.main.bounds.width/1080, (271 + percentHeight)*UIScreen.main.bounds.height/810)
+           
+        }
         n.nodeDescription = "PLM:\n\nPlasmin\nResults from PLG conversion tPA and Urokinase\nResponsible for Fibrinogen and Fibrin degradation leading to FDPs"
         sceneData.nodeList.append(n)
         

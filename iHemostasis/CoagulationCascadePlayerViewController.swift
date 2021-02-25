@@ -213,7 +213,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
         sceneView!.isUserInteractionEnabled = true
-        sceneView!.isExclusiveTouch = true
+        //sceneView!.isExclusiveTouch = true
         
         phaseButtonLabel!.text = ""
         downImageView!.isHidden = true

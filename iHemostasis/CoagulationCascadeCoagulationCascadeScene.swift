@@ -37,18 +37,26 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
 //        self.sceneView!.frame = CGRect(0 ,0 , sW, h)
 //        self.sceneView?.subviews[0].frame = CGRect(0 ,0 , sW, h)
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            var sW = CGFloat(UIScreen.main.bounds.width)
-            var h = CGFloat(320*UIScreen.main.bounds.height/414)
+            let sW = CGFloat(UIScreen.main.bounds.width)
+            let h = CGFloat(320*UIScreen.main.bounds.height/414)
             self.sceneView!.frame = CGRect(0 ,0 , sW, h)
             for i in 1..<sceneView!.subviews.count {
-                var frame:CGRect=(sceneView?.subviews[i].frame)! ;
-                sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
-                
+              //  var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+               // sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+                if((sceneView?.subviews[i].isKind(of: UIButton.self))!){
+                    let button:UIButton = sceneView?.subviews[i] as! UIButton
+                    if(button.allTargets.isEmpty){
+                        button.addTarget(self, action: #selector(showNodeDetail(sender:)), for: .touchUpInside)
+                        print("frame button",button.allTargets)
+                    }
+                  
+                }
                 
             }
         }
+        
         self.addSubview(sceneView!);
-        print("sceneFrame4",frame)
+         
         if(UIScreen.main.bounds.height >= 1024){
             for i in 1..<sceneView!.subviews.count {
                 if((sceneView?.subviews[i].isKind(of: UIButton.self))!){

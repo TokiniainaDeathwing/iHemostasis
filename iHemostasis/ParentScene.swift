@@ -201,6 +201,7 @@ public class ParentScene: UIView {
                     if nodeView.isHidden == false {
                         let highlightButton:UIButton = self.sceneView!.viewWithTag(n.nodeTag * kCoeffTagForHighlight) as! UIButton
                         highlightButton.isHidden = false
+                        
                     }
                 }
             }

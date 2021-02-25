@@ -221,8 +221,8 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vDN-qb-vMT">
-                                        <rect key="frame" x="0.0" y="55" width="486" height="321"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDN-qb-vMT">
+                                        <rect key="frame" x="0.0" y="102" width="486" height="261"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPd-JQ-VlO">
                                                 <rect key="frame" x="5" y="0.0" width="486" height="0.0"/>
@@ -235,6 +235,7 @@
                                             <constraint firstItem="RPd-JQ-VlO" firstAttribute="width" secondItem="vDN-qb-vMT" secondAttribute="width" id="3o3-it-Vw0"/>
                                             <constraint firstItem="RPd-JQ-VlO" firstAttribute="top" secondItem="vDN-qb-vMT" secondAttribute="top" id="CEY-Wl-vcb"/>
                                             <constraint firstAttribute="trailing" secondItem="RPd-JQ-VlO" secondAttribute="trailing" id="WoH-Nf-EUI"/>
+                                            <constraint firstAttribute="bottom" secondItem="RPd-JQ-VlO" secondAttribute="bottom" id="rVm-pL-cae"/>
                                             <constraint firstItem="RPd-JQ-VlO" firstAttribute="leading" secondItem="vDN-qb-vMT" secondAttribute="leading" constant="5" id="uRh-x8-3Te"/>
                                         </constraints>
                                     </scrollView>
