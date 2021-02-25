@@ -98,7 +98,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // Phase View Container
         let phaseListButtonView: UIView?
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseListButtonView = UIView(frame: CGRect(0, 0, UIScreen.main.bounds.width/3, 59))
+            phaseListButtonView = UIView(frame: CGRect(0, 0, UIScreen.main.bounds.width/5, 59))
         }else{
             phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
         }
@@ -132,7 +132,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // DownButton Label
 
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel = UILabel(frame: CGRect(0, 0, UIScreen.main.bounds.width/4, 49))
+            phaseButtonLabel = UILabel(frame: CGRect(0, 0, UIScreen.main.bounds.width/6, 49))
         }else{
             phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
         }
@@ -143,7 +143,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
         phaseButtonLabel?.textAlignment = .right
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel?.textAlignment = .left
+            phaseButtonLabel?.textAlignment = .right
+            print("frame phaseButton",phaseButtonLabel?.frame.width)
+            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width+5, 22, 8, 7)
         }
         phaseButtonLabel?.backgroundColor = UIColor.clear
         phaseButtonLabel?.adjustsFontSizeToFitWidth = true
