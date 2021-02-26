@@ -42,7 +42,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="59" contentMode="scaleToFill" fixedFrame="YES" image="PH_56" translatesAutoresizingMaskIntoConstraints="NO" id="JWg-4D-44w">
-                    <rect key="frame" x="795" y="155" width="52" height="21"/>
+                    <rect key="frame" x="824" y="110" width="52" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="scaleToFill" fixedFrame="YES" image="PH_27" translatesAutoresizingMaskIntoConstraints="NO" id="a88-cP-3St">
