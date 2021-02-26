@@ -49,8 +49,9 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
   
     override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
-    
-        reloadUI(size: self.view.frame.size)
+      
+            reloadUI(size: self.view.frame.size)
+        
   }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -59,7 +60,10 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
   }
   
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-    reloadUI(size: size)
+        AppDelegate.lockScreenIphone()
+       
+            reloadUI(size: size)
+        
   }
   
   func reloadUI(size: CGSize) {
@@ -77,7 +81,11 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
     let layout = collectionView.collectionViewLayout as! iHGridLayout
     if (isLandscape) {
       layout.numberOfColumns = 3
-      layout.minimumInteritemSpacing = 10.0
+        layout.minimumInteritemSpacing = 10.0
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            layout.numberOfColumns = 1
+        }
+        layout.minimumInteritemSpacing = 20.0
     }
     else {
         if(UIDevice.current.userInterfaceIdiom == .phone){
@@ -133,7 +141,21 @@ class ClinicalCasesListViewController: ParentViewController, UICollectionViewDel
         self.navigationController!.pushViewController(clinicalCasesQuizzDetailViewController, animated: true)
         self.navigationController!.navigationBar.topItem?.title = "     "
   }
-    
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
+
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
   func reloadData() {
         
   }

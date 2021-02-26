@@ -21,6 +21,7 @@ class MainMenuViewController: UIViewController {
     var disclaimerViewController: DisclaimerViewController?
     
     override func viewDidLoad() {
+     
         super.viewDidLoad()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -66,13 +67,19 @@ class MainMenuViewController: UIViewController {
         
     }
     override func viewDidAppear(_ animated: Bool) {
+      
       super.viewDidAppear(animated)
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            UIView.setAnimationsEnabled(false)
-            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
-            UIView.setAnimationsEnabled(true)
-        }
+        AppDelegate.lockScreenIphone()
     
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -81,6 +88,8 @@ class MainMenuViewController: UIViewController {
     
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        AppDelegate.lockScreenIphone()
+        if(UIDevice.current.userInterfaceIdiom == .pad){
         coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) -> Void in
             
             let orient = UIApplication.shared.statusBarOrientation
@@ -105,7 +114,7 @@ class MainMenuViewController: UIViewController {
                     completion: { (UIViewControllerTransitionCoordinatorContext) -> Void in
                 print("rotation completed")
         })
-
+        }
         super.viewWillTransition(to: size, with: coordinator)
     }
     

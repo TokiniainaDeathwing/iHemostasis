@@ -158,7 +158,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="41" contentMode="scaleToFill" fixedFrame="YES" image="inhibitors_va" translatesAutoresizingMaskIntoConstraints="NO" id="ZaZ-wS-9EJ">
-                    <rect key="frame" x="760" y="26" width="85" height="55"/>
+                    <rect key="frame" x="781" y="26" width="46" height="55"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="42" contentMode="scaleToFill" fixedFrame="YES" image="AT" translatesAutoresizingMaskIntoConstraints="NO" id="uGF-cW-QyO">

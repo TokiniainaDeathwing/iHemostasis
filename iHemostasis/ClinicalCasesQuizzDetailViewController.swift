@@ -61,7 +61,21 @@ class ClinicalCasesQuizzDetailViewController: UIViewController, ClinicalCasesQui
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
     
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let clinicalCasesQuizzDetailMenuListViewController = segue.destination as! ClinicalCasesQuizzDetailMenuListViewController
         clinicalCasesQuizzDetailMenuListViewController.preferredContentSize = CGSize(400.0, 700.0)

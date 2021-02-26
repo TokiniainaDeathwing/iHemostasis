@@ -20,7 +20,21 @@ class ClinicalCasesQuizzDetailMenuListViewController: UIViewController, UITableV
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
     
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
     // TableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 12

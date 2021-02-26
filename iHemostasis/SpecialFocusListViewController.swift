@@ -95,8 +95,25 @@ class SpecialFocusListViewController: ParentViewController, UITableViewDelegate,
         let request = NSURLRequest(url: file)
         webView?.loadRequest(request as URLRequest)
     }
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
     
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        AppDelegate.lockScreenIphone()
+        
+        if(UIDevice.current.userInterfaceIdiom == .pad){
         coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) -> Void in
             
             let orient = UIApplication.shared.statusBarOrientation
@@ -120,7 +137,7 @@ class SpecialFocusListViewController: ParentViewController, UITableViewDelegate,
             }, completion: { (UIViewControllerTransitionCoordinatorContext) -> Void in
                 print("rotation completed")
         })
-        
+        }
         super.viewWillTransition(to: size, with: coordinator)
     }
     

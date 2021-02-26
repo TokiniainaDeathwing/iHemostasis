@@ -464,9 +464,26 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         
         reloadUI(size: self.view.frame.size)
     }
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
     
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        reloadUI(size: size)
+        AppDelegate.lockScreenIphone()
+ 
+            reloadUI(size: size)
+        
     }
     
     func reloadUI(size: CGSize) {
@@ -484,7 +501,12 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         let layout = collectionView.collectionViewLayout as! iHGridLayout
         if (isLandscape) {
             layout.numberOfColumns = 3
+          
             layout.minimumInteritemSpacing = 10.0
+            if(UIDevice.current.userInterfaceIdiom == .phone){
+                layout.numberOfColumns = 1
+                layout.minimumInteritemSpacing = 20.0
+            }
         }
         else {
             if(UIDevice.current.userInterfaceIdiom == .phone){

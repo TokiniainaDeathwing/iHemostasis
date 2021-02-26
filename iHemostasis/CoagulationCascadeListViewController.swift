@@ -21,6 +21,21 @@ class CoagulationCascadeListViewController: ParentViewController {
         super.viewDidLoad();
         setupUI()
     }
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
+    
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.landscapeLeft
+            
+        }
+    }
     
     func setupUI() {
         if(UIDevice.current.userInterfaceIdiom == .pad){
@@ -67,9 +82,7 @@ class CoagulationCascadeListViewController: ParentViewController {
     }
  */
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.landscapeLeft
-    }
+  
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {

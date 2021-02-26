@@ -92,8 +92,26 @@ class PracticalManualViewController: ParentViewController {
     
     ]
     
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        AppDelegate.lockScreenIphone()
+    
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            return UIInterfaceOrientationMask.portrait
+        }
+        else{
+            return UIInterfaceOrientationMask.all
+            
+        }
+    }
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        reloadUI(size: size)
+        AppDelegate.lockScreenIphone()
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            reloadUI(size: size)
+        }
     }
     
     func reloadUI(size: CGSize) {

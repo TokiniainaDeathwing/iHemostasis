@@ -49,6 +49,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
        
     }
+    static func lockScreenIphone(){
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            UIView.setAnimationsEnabled(false)
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+           // UIView.setAnimationsEnabled(true)
+        }
+    }
 
 }
 
