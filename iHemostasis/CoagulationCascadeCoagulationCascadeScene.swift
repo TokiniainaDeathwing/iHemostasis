@@ -39,22 +39,35 @@ class CoagulationCascadeCoagulationCascadeScene: ParentScene  {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             let sW = CGFloat(UIScreen.main.bounds.width)
             let h = CGFloat(320*UIScreen.main.bounds.height/414)
-            self.sceneView!.frame = CGRect(0 ,0 , sW, h)
-            for i in 1..<sceneView!.subviews.count {
-              //  var frame:CGRect=(sceneView?.subviews[i].frame)! ;
-               // sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
-                if((sceneView?.subviews[i].isKind(of: UIButton.self))!){
-                    let button:UIButton = sceneView?.subviews[i] as! UIButton
-                    if(button.allTargets.isEmpty){
-                        button.addTarget(self, action: #selector(showNodeDetail(sender:)), for: .touchUpInside)
-                        print("frame button",button.allTargets)
-                    }
-                  
-                }
-                
-            }
+           self.sceneView!.frame = CGRect(0 ,0 , sW, h)
+//            for i in 1..<sceneView!.subviews.count {
+//              //  var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+//               // sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+//                if((sceneView?.subviews[i].isKind(of: UIButton.self))!){
+//                    let button:UIButton = sceneView?.subviews[i] as! UIButton
+//
+//                        //button.addTarget(self, action: #selector(showNodeDetail(sender:)), for: .touchUpInside)
+//                        print("frame button",button.allTargets)
+//
+//
+//                }
+//
+//            }
         }
-        
+        for i in 1..<sceneView!.subviews.count {
+          //  var frame:CGRect=(sceneView?.subviews[i].frame)! ;
+           // sceneView?.subviews[i].frame = CGRect(frame.origin.x  ,frame.origin.y , frame.size.width, frame.size.height )
+            if((sceneView?.subviews[i].isKind(of: UIButton.self))!){
+                let button:UIButton = sceneView?.subviews[i] as! UIButton
+                
+                    //button.addTarget(self, action: #selector(showNodeDetail(sender:)), for: .touchUpInside)
+                let test = "\(button.isEnabled), \(button.isUserInteractionEnabled)"
+                print("frame button",test)
+                
+              
+            }
+            
+        }
         self.addSubview(sceneView!);
          
         if(UIScreen.main.bounds.height >= 1024){

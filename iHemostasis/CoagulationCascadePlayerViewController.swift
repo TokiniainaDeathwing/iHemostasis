@@ -211,9 +211,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         if(UIDevice.current.userInterfaceIdiom == .pad){
             scene.frame = sceneView!.frame
             scene.subviews[0].frame = sceneView!.frame
+        }else{
+            let sW = CGFloat(UIScreen.main.bounds.width)
+            let h = CGFloat(320*UIScreen.main.bounds.height/414)
+            let frame = CGRect(0 ,0 , sW, h)
+            scene.frame = frame
+            scene.subviews[0].frame = frame
         }
-        //scene.frame = sceneView!.frame
-        //scene.subviews[0].frame = sceneView!.frame
+      
         
         print("sceneFrame",sceneView!.frame)
         print("sceneFrame2",scene.subviews[0].frame)
