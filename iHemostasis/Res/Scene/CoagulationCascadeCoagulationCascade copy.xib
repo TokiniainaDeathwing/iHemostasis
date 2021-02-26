@@ -156,6 +156,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchDragOutside" id="Yz5-F0-VGq"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="1300" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teH-sW-TfE">
                     <rect key="frame" x="414" y="68" width="67" height="64"/>
@@ -166,6 +169,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="3ut-v1-wcf"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE4-sd-3Te">
                     <rect key="frame" x="418" y="344" width="67" height="57"/>
@@ -189,6 +195,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z5x-ye-r4T"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="1800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ve-IN-eKu">
                     <rect key="frame" x="216" y="192" width="67" height="64"/>
@@ -199,6 +208,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchDragOutside" id="iyJ-NF-OlK"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="2100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-V4-Pf8">
                     <rect key="frame" x="334" y="186" width="67" height="64"/>
@@ -209,6 +221,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchDragOutside" id="Er2-Jd-2DQ"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="1200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOG-fu-fNT">
                     <rect key="frame" x="412" y="120" width="67" height="64"/>
@@ -219,6 +234,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchDragOutside" id="br0-jW-a82"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="2500" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz4-1k-pVO">
                     <rect key="frame" x="523" y="223" width="67" height="64"/>
@@ -229,6 +247,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="zNL-ye-J9M"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re8-7i-jQM">
                     <rect key="frame" x="415" y="241" width="67" height="64"/>
@@ -239,6 +260,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="OX7-pL-9Hd"/>
+                    </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="42" contentMode="scaleToFill" fixedFrame="YES" image="cc_green_arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="yNC-EW-ahF">
                     <rect key="frame" x="358" y="296" width="19" height="40"/>
@@ -257,6 +281,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="DWD-t2-7cT"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3800" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88a-G7-JiC">
                     <rect key="frame" x="412" y="18" width="67" height="64"/>
@@ -267,6 +294,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="showNodeDetailWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="uE5-tA-Ahi"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.21960784310000001" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
