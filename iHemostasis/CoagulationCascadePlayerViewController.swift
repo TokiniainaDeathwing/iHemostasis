@@ -220,7 +220,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         print("screenWidth",UIScreen.main.bounds)
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
-        sceneView!.isUserInteractionEnabled = false
+        sceneView!.isUserInteractionEnabled = true
         sceneView!.isExclusiveTouch = true
         
         phaseButtonLabel!.text = ""
