@@ -41,6 +41,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     
     // MARK: Override bloc
+    override func viewDidAppear(_ animated: Bool) {
+      
+      super.viewDidAppear(animated)
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        UIView.setAnimationsEnabled(true)
+    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
