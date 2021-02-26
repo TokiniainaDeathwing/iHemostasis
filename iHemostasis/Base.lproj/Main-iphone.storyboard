@@ -254,33 +254,44 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-KL-4rL" userLabel="Timeline View">
                                 <rect key="frame" x="0.0" y="370" width="896" height="44"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23W-OQ-TpS">
-                                        <rect key="frame" x="832" y="3" width="36" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23W-OQ-TpS">
+                                        <rect key="frame" x="832" y="4" width="36" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="3gS-s7-a9w"/>
+                                            <constraint firstAttribute="height" constant="37" id="WDE-4t-4Ai"/>
+                                        </constraints>
                                         <state key="normal" image="CoagCascadePlayerForward"/>
                                         <connections>
                                             <action selector="forwardButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="pAU-ad-sQH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeH-Mp-Mhs">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeH-Mp-Mhs">
                                         <rect key="frame" x="780" y="0.0" width="43" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="XlK-tw-0dX"/>
+                                            <constraint firstAttribute="width" constant="43" id="bTK-r7-cdB"/>
+                                        </constraints>
                                         <state key="normal" image="CoagCascadePlayerPlay"/>
                                         <connections>
                                             <action selector="playPauseButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="TYt-R4-zCp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-BL-4cs">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOY-BL-4cs">
                                         <rect key="frame" x="722" y="2" width="48" height="39"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="AwJ-xD-5R3"/>
+                                            <constraint firstAttribute="height" constant="39" id="Oif-hV-BEM"/>
+                                        </constraints>
                                         <state key="normal" image="CoagCascadePlayerRewind"/>
                                         <connections>
                                             <action selector="rewindButtonActionWithSender:" destination="9Zq-BE-sVh" eventType="touchUpInside" id="rXy-40-FWg"/>
                                         </connections>
                                     </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-aO-rVN">
-                                        <rect key="frame" x="6" y="7" width="722" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WGO-aO-rVN">
+                                        <rect key="frame" x="6" y="7" width="702" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="xkj-gf-GIT"/>
+                                        </constraints>
                                         <connections>
                                             <action selector="videoSliderOnChangeActionWithSender:" destination="9Zq-BE-sVh" eventType="valueChanged" id="LZz-sx-dVl"/>
                                         </connections>
@@ -288,7 +299,16 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.74117647058823533" green="0.15294117647058825" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="OeH-Mp-Mhs" firstAttribute="leading" secondItem="EOY-BL-4cs" secondAttribute="trailing" constant="10" id="3kI-1F-CZO"/>
+                                    <constraint firstItem="WGO-aO-rVN" firstAttribute="top" secondItem="hYq-KL-4rL" secondAttribute="top" constant="7" id="8EV-4x-K6Z"/>
+                                    <constraint firstItem="23W-OQ-TpS" firstAttribute="centerY" secondItem="hYq-KL-4rL" secondAttribute="centerY" id="8QU-jM-FCM"/>
+                                    <constraint firstItem="EOY-BL-4cs" firstAttribute="leading" secondItem="WGO-aO-rVN" secondAttribute="trailing" constant="16" id="H77-3q-b3B"/>
+                                    <constraint firstAttribute="trailing" secondItem="23W-OQ-TpS" secondAttribute="trailing" constant="28" id="N2I-WM-Y4l"/>
                                     <constraint firstAttribute="height" constant="44" id="NVu-Cq-ksy"/>
+                                    <constraint firstItem="WGO-aO-rVN" firstAttribute="leading" secondItem="hYq-KL-4rL" secondAttribute="leading" constant="8" id="ckK-5O-CJ9"/>
+                                    <constraint firstItem="EOY-BL-4cs" firstAttribute="top" secondItem="hYq-KL-4rL" secondAttribute="top" constant="2" id="d15-NA-k73"/>
+                                    <constraint firstItem="OeH-Mp-Mhs" firstAttribute="top" secondItem="hYq-KL-4rL" secondAttribute="top" id="fb8-ty-e3W"/>
+                                    <constraint firstItem="23W-OQ-TpS" firstAttribute="leading" secondItem="OeH-Mp-Mhs" secondAttribute="trailing" constant="9" id="omu-8p-K0t"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-T4-Tyx">

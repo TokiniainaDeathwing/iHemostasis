@@ -132,7 +132,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="scaleToFill" fixedFrame="YES" image="19" translatesAutoresizingMaskIntoConstraints="NO" id="boy-CA-MZw">
-                    <rect key="frame" x="375" y="227" width="55" height="12"/>
+                    <rect key="frame" x="375" y="227" width="34" height="12"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="24" contentMode="center" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwY-DL-9Vx">
@@ -175,7 +175,7 @@
                 </button>
                 <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE4-sd-3Te">
                     <rect key="frame" x="418" y="344" width="67" height="57"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" backgroundImage="highlight">
