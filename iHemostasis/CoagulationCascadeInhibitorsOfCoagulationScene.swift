@@ -101,7 +101,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(68*UIScreen.main.bounds.width/1080, 46*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(234*UIScreen.main.bounds.width/1080, 46*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(244*UIScreen.main.bounds.width/1080, 46*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
@@ -222,7 +222,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(38*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(105*UIScreen.main.bounds.width/1080, 412*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(108*UIScreen.main.bounds.width/1080, 405*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
@@ -235,7 +235,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(8*UIScreen.main.bounds.width/1080, 298*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(27*UIScreen.main.bounds.width/1080, 418*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(27*UIScreen.main.bounds.width/1080, 400*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
@@ -261,7 +261,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(25*UIScreen.main.bounds.width/1080, 76*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(67*UIScreen.main.bounds.width/1080, 198*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(67*UIScreen.main.bounds.width/1080, 188*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
@@ -274,7 +274,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(119*UIScreen.main.bounds.width/1080, 73*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(229*UIScreen.main.bounds.width/1080, 84*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint((184+12)*UIScreen.main.bounds.width/896, 40*UIScreen.main.bounds.height/414)
            
         }
         sceneData.nodeList.append(n)
@@ -287,7 +287,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(64*UIScreen.main.bounds.width/1080, 458*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(116*UIScreen.main.bounds.width/1080, 488*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(128*UIScreen.main.bounds.width/1080, 468*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
@@ -300,7 +300,7 @@ class CoagulationCascadeInhibitorsOfCoagulationScene: ParentScene {
         if(UIDevice.current.userInterfaceIdiom == .phone){
             
           n.originPos =  CGPoint(0*UIScreen.main.bounds.width/1080, 474*UIScreen.main.bounds.height/810)
-          n.destPos = CGPoint(646*UIScreen.main.bounds.width/1080, 508*UIScreen.main.bounds.height/810)
+          n.destPos = CGPoint(66*UIScreen.main.bounds.width/1080, 490*UIScreen.main.bounds.height/810)
            
         }
         sceneData.nodeList.append(n)
