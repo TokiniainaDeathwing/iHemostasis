@@ -40,12 +40,12 @@
 		<string>BARMENOCFFREG.ttf</string>
 		<string>BARMENOCFFMED.ttf</string>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreenIphone</string>
 	<key>UILaunchStoryboardName~ipad</key>
 	<string>LaunchScreenIpad</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreenIphone</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -775,7 +775,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-w6-yvK">
-                                        <rect key="frame" x="772" y="480" width="281" height="470"/>
+                                        <rect key="frame" x="20" y="965" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icone Appli Scores" translatesAutoresizingMaskIntoConstraints="NO" id="smb-gQ-FKj">
@@ -856,6 +856,57 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             </label>
                                         </subviews>
                                     </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ya-dk-lIt" userLabel="View Six">
+                                        <rect key="frame" x="772" y="480" width="281" height="470"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eqH-d7-cY6">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Livre 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsP-TC-Mcj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Igy-Tk-GEv">
+                                                        <rect key="frame" x="10" y="36" width="263" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">D. J.Angiolillo-S. Buccheri-L. Bury-M. Cattaneo-E. Falcinelli-P. Gresele-P. Harrison-C. P.M. Hayward-J. A.Jakubowski-W. Korte-M. P.Lambert-E. Mahla-Bernard Payrastre-M. Poncz</string>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B0A-B9-syL">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Platelets" translatesAutoresizingMaskIntoConstraints="NO" id="blo-aS-14j">
+                                                <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mi6-EW-ZiF" userLabel="Button Six">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="9LG-b9-Mup"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNo-Zd-m11">
+                                                <rect key="frame" x="0.0" y="407" width="281" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -866,12 +917,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="buttonFive" destination="VQY-wF-zKy" id="Nvh-VL-zTK"/>
                         <outlet property="buttonFour" destination="51b-m6-W3R" id="KlH-Er-lIe"/>
                         <outlet property="buttonOne" destination="TJZ-3l-nOD" id="kTp-jq-YHZ"/>
+                        <outlet property="buttonSeven" destination="Mi6-EW-ZiF" id="6ks-Zi-K0j"/>
                         <outlet property="buttonSix" destination="oRX-Wi-tj4" id="Wce-Tl-bTx"/>
                         <outlet property="buttonThree" destination="Ntm-5A-VGC" id="HxW-by-RgL"/>
                         <outlet property="buttonTwo" destination="WzX-0z-bAu" id="LhY-Zj-ydf"/>
                         <outlet property="haemoscoreAppLabel" destination="xFo-an-z5p" id="jZz-3v-BkE"/>
                         <outlet property="labelFive" destination="Al3-7g-Zsb" id="F9f-d6-HlG"/>
                         <outlet property="labelOne" destination="jCX-6N-gfH" id="pHF-Jl-mma"/>
+                        <outlet property="labelSeven" destination="KsP-TC-Mcj" id="kmA-4B-lpH"/>
                         <outlet property="labelSix" destination="kRg-Su-Qep" id="Q1a-bi-zQT"/>
                         <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
@@ -879,6 +932,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="viewFive" destination="LnK-HN-49Z" id="xCe-rP-ydi"/>
                         <outlet property="viewFour" destination="RQg-1N-WWJ" id="mgq-r3-m0a"/>
                         <outlet property="viewOne" destination="NQy-2N-9JB" id="mno-jt-cTO"/>
+                        <outlet property="viewSeven" destination="6ya-dk-lIt" id="9gU-pz-qhe"/>
                         <outlet property="viewSix" destination="mnH-bz-mtx" id="0Lr-N5-Ijr"/>
                         <outlet property="viewThree" destination="PpK-w6-yvK" id="zAD-QY-NWT"/>
                         <outlet property="viewTwo" destination="lDZ-fj-bBS" id="duh-I8-6Iz"/>

@@ -14,6 +14,7 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var labelThree: UILabel?
     @IBOutlet weak var labelFive: UILabel?
     @IBOutlet weak var labelSix: UILabel!
+    @IBOutlet weak var labelSeven: UILabel!
     //Ajout labelSix
     @IBOutlet weak var buttonOne: UIButton?
     @IBOutlet weak var buttonTwo: UIButton?
@@ -21,6 +22,8 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var buttonFour: UIButton?
     @IBOutlet weak var buttonFive: UIButton?
     @IBOutlet weak var buttonSix: UIButton?
+    @IBOutlet weak var buttonSeven: UIButton!
+    
     
     //Ajout buttonSix
     @IBOutlet weak var viewOne: UIView?
@@ -29,6 +32,7 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var viewFour: UIView?
     @IBOutlet weak var viewFive: UIView?
     @IBOutlet weak var viewSix: UIView?
+    @IBOutlet weak var viewSeven: UIView!
     @IBOutlet weak var haemoscoreAppLabel: UILabel?
     
     @IBOutlet var scrollView: UIScrollView!
@@ -130,17 +134,21 @@ class PracticalManualViewController: ParentViewController {
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewThree?.frame.origin = CGPoint(71, 1600)
+            //viewThree?.frame.origin = CGPoint(447, 1100)
+            viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,2000);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
             viewTwo?.frame.origin = CGPoint(371, 69)
             viewFour?.frame.origin = CGPoint(691, 69)
             viewFive?.frame.origin = CGPoint(50, 542)
             viewSix?.frame.origin = CGPoint(371, 542)
-            viewThree?.frame.origin=CGPoint(691,542)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
+            //viewThree?.frame.origin=CGPoint(691,542)
+            viewSeven?.frame.origin=CGPoint(691,542)
+            viewThree?.frame.origin=CGPoint(50,1000)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1400);
         }
     }
     
@@ -155,26 +163,32 @@ class PracticalManualViewController: ParentViewController {
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewThree?.frame.origin = CGPoint(71, 1600)
+            //viewThree?.frame.origin = CGPoint(447, 1100)
+            viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,2000);
         case .portraitUpsideDown:
             viewOne?.frame.origin = CGPoint(71, 79)
             viewTwo?.frame.origin = CGPoint(447, 79)
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(447, 1100)
+            viewThree?.frame.origin = CGPoint(71, 1600)
+            //viewThree?.frame.origin = CGPoint(447, 1100)
+            viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.height,1600);
+            scrollView?.contentSize = CGSize(scrollView.frame.size.height,2000);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
             viewTwo?.frame.origin = CGPoint(371, 69)
             viewFour?.frame.origin = CGPoint(691, 69)
             viewFive?.frame.origin = CGPoint(50, 542)
             viewSix?.frame.origin = CGPoint(371, 542)
-            viewThree?.frame.origin=CGPoint(691,542)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
+            //viewThree?.frame.origin=CGPoint(691,542)
+            viewSeven?.frame.origin=CGPoint(691,542)
+            viewThree?.frame.origin=CGPoint(50,1000)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1400);
             
             //isLandscape = true
         }
@@ -197,6 +211,7 @@ class PracticalManualViewController: ParentViewController {
         labelThree!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         labelFive!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         labelSix!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
+        labelSeven!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         haemoscoreAppLabel!.font  = UIFont(name: Utils.MAIN_MENU_FONT_NAME, size: Utils.PRACTICAL_MANUAL_MENU_TITLE)
         
         // Add labelSix
@@ -261,6 +276,13 @@ class PracticalManualViewController: ParentViewController {
         }
         //Add new Button Six
         else if (target == buttonSix){
+            practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSix
+            practicalManualChapterViewController.setScreenTitle(title: "Platelets")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Platelets
+            self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
+            self.navigationController!.navigationBar.topItem?.title = "     "
+        }
+        else if (target == buttonSeven){
             practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSix
             practicalManualChapterViewController.setScreenTitle(title: "Platelets")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Platelets
