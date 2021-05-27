@@ -1024,8 +1024,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                                     <constraint firstAttribute="height" constant="188" id="D24-hD-E8L"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRX-Wi-tj4" userLabel="Button Six">
-                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="27"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRX-Wi-tj4" userLabel="Button Six">
+                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <connections>
                                                                     <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="7jV-Gs-Jk9"/>
                                                                 </connections>
@@ -1044,17 +1045,13 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <constraint firstAttribute="trailing" secondItem="5Qn-Kb-T7y" secondAttribute="trailing" id="1lD-2Y-44Y"/>
                                                             <constraint firstItem="5Qn-Kb-T7y" firstAttribute="leading" secondItem="aHI-m4-2f5" secondAttribute="leading" id="2S0-i0-fwS"/>
                                                             <constraint firstItem="pgj-LK-Dqb" firstAttribute="trailing" secondItem="aHI-m4-2f5" secondAttribute="trailing" id="41K-be-3Vc"/>
-                                                            <constraint firstItem="pgj-LK-Dqb" firstAttribute="top" secondItem="oRX-Wi-tj4" secondAttribute="top" id="BKS-Ct-rHW"/>
                                                             <constraint firstAttribute="trailing" secondItem="aHI-m4-2f5" secondAttribute="trailing" id="BPB-Te-sYQ"/>
                                                             <constraint firstItem="pgj-LK-Dqb" firstAttribute="top" secondItem="mnH-bz-mtx" secondAttribute="top" id="Kg2-R3-XkY"/>
                                                             <constraint firstItem="5Qn-Kb-T7y" firstAttribute="trailing" secondItem="aHI-m4-2f5" secondAttribute="trailing" id="Msf-FW-ODz"/>
-                                                            <constraint firstItem="Pcq-nn-p6L" firstAttribute="top" secondItem="oRX-Wi-tj4" secondAttribute="bottom" constant="18" id="Sec-gh-D5D"/>
-                                                            <constraint firstItem="pgj-LK-Dqb" firstAttribute="leading" secondItem="oRX-Wi-tj4" secondAttribute="leading" id="Xk3-7l-Cuz"/>
                                                             <constraint firstItem="aHI-m4-2f5" firstAttribute="leading" secondItem="mnH-bz-mtx" secondAttribute="leading" id="cd2-zO-nHP"/>
                                                             <constraint firstItem="5Qn-Kb-T7y" firstAttribute="leading" secondItem="mnH-bz-mtx" secondAttribute="leading" id="cr7-4k-HXA"/>
                                                             <constraint firstAttribute="height" constant="470" id="k0p-Nm-lkF"/>
                                                             <constraint firstAttribute="trailing" secondItem="aHI-m4-2f5" secondAttribute="trailing" id="mEc-U5-d8z"/>
-                                                            <constraint firstItem="oRX-Wi-tj4" firstAttribute="trailing" secondItem="pgj-LK-Dqb" secondAttribute="trailing" id="nil-OP-Osi"/>
                                                             <constraint firstAttribute="width" constant="281" id="o9x-JM-7zB"/>
                                                             <constraint firstItem="Pcq-nn-p6L" firstAttribute="leading" secondItem="mnH-bz-mtx" secondAttribute="leading" constant="74.5" id="pWr-by-FxZ"/>
                                                             <constraint firstAttribute="trailing" secondItem="pgj-LK-Dqb" secondAttribute="trailing" id="qyx-Op-H7i"/>
@@ -1072,7 +1069,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eja-FY-LCS">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Platelets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-AV-z0P">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Livre 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-AV-z0P">
                                                                         <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1107,8 +1104,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                                     <constraint firstAttribute="height" constant="188" id="xaF-dy-Vwx"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nR0-PR-qaE" userLabel="Button Six">
-                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="30"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nR0-PR-qaE" userLabel="Button Six">
+                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <connections>
                                                                     <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="GJI-Db-1UF"/>
                                                                 </connections>
@@ -1129,10 +1127,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <constraint firstItem="bMp-xt-AE9" firstAttribute="top" secondItem="5El-ub-mei" secondAttribute="top" id="3Bq-Kb-qMf"/>
                                                             <constraint firstItem="nl2-JA-d8p" firstAttribute="trailing" secondItem="eja-FY-LCS" secondAttribute="trailing" id="3U7-Yv-C42"/>
                                                             <constraint firstItem="nl2-JA-d8p" firstAttribute="leading" secondItem="eja-FY-LCS" secondAttribute="leading" id="3bm-Gj-52j"/>
-                                                            <constraint firstItem="bMp-xt-AE9" firstAttribute="leading" secondItem="nR0-PR-qaE" secondAttribute="leading" id="4vy-F5-vmo"/>
+                                                            <constraint firstItem="Vih-ho-sVc" firstAttribute="top" secondItem="5El-ub-mei" secondAttribute="top" constant="48" id="6dC-x8-UAE"/>
                                                             <constraint firstItem="bMp-xt-AE9" firstAttribute="trailing" secondItem="eja-FY-LCS" secondAttribute="trailing" id="7Ih-jR-PmG"/>
                                                             <constraint firstItem="bMp-xt-AE9" firstAttribute="centerX" secondItem="Vih-ho-sVc" secondAttribute="centerX" id="7Kd-Hd-8Xg"/>
-                                                            <constraint firstItem="nR0-PR-qaE" firstAttribute="trailing" secondItem="bMp-xt-AE9" secondAttribute="trailing" id="90h-6Q-vsG"/>
                                                             <constraint firstItem="Vih-ho-sVc" firstAttribute="leading" secondItem="5El-ub-mei" secondAttribute="leading" constant="74.5" id="EGb-1Q-pin"/>
                                                             <constraint firstAttribute="trailing" secondItem="nl2-JA-d8p" secondAttribute="trailing" id="QFh-oa-wB1"/>
                                                             <constraint firstItem="nl2-JA-d8p" firstAttribute="top" secondItem="eja-FY-LCS" secondAttribute="bottom" id="TBh-x3-fk8"/>
@@ -1140,9 +1137,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <constraint firstItem="nl2-JA-d8p" firstAttribute="leading" secondItem="5El-ub-mei" secondAttribute="leading" id="c0K-pu-lEa"/>
                                                             <constraint firstItem="bMp-xt-AE9" firstAttribute="leading" secondItem="5El-ub-mei" secondAttribute="leading" id="fwg-oe-esT"/>
                                                             <constraint firstAttribute="width" constant="281" id="fxV-Sq-8hi"/>
-                                                            <constraint firstItem="Vih-ho-sVc" firstAttribute="top" secondItem="nR0-PR-qaE" secondAttribute="bottom" constant="18" id="gj2-VV-Exc"/>
                                                             <constraint firstItem="bMp-xt-AE9" firstAttribute="leading" secondItem="eja-FY-LCS" secondAttribute="leading" id="mH2-Pf-Ljd"/>
-                                                            <constraint firstItem="bMp-xt-AE9" firstAttribute="top" secondItem="nR0-PR-qaE" secondAttribute="top" id="yPd-IM-MN0"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-w6-yvK">
@@ -1255,12 +1250,14 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="buttonFive" destination="VQY-wF-zKy" id="Nvh-VL-zTK"/>
                         <outlet property="buttonFour" destination="51b-m6-W3R" id="KlH-Er-lIe"/>
                         <outlet property="buttonOne" destination="TJZ-3l-nOD" id="kTp-jq-YHZ"/>
+                        <outlet property="buttonSeven" destination="nR0-PR-qaE" id="bKj-f9-W5o"/>
                         <outlet property="buttonSix" destination="oRX-Wi-tj4" id="Wce-Tl-bTx"/>
                         <outlet property="buttonThree" destination="Ntm-5A-VGC" id="HxW-by-RgL"/>
                         <outlet property="buttonTwo" destination="WzX-0z-bAu" id="LhY-Zj-ydf"/>
                         <outlet property="haemoscoreAppLabel" destination="xFo-an-z5p" id="jZz-3v-BkE"/>
                         <outlet property="labelFive" destination="Al3-7g-Zsb" id="F9f-d6-HlG"/>
                         <outlet property="labelOne" destination="jCX-6N-gfH" id="pHF-Jl-mma"/>
+                        <outlet property="labelSeven" destination="NdD-AV-z0P" id="SBZ-Jl-hLo"/>
                         <outlet property="labelSix" destination="kRg-Su-Qep" id="Q1a-bi-zQT"/>
                         <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
@@ -1268,6 +1265,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                         <outlet property="viewFive" destination="LnK-HN-49Z" id="xCe-rP-ydi"/>
                         <outlet property="viewFour" destination="RQg-1N-WWJ" id="mgq-r3-m0a"/>
                         <outlet property="viewOne" destination="NQy-2N-9JB" id="mno-jt-cTO"/>
+                        <outlet property="viewSeven" destination="5El-ub-mei" id="ic9-d6-VTY"/>
                         <outlet property="viewSix" destination="mnH-bz-mtx" id="0Lr-N5-Ijr"/>
                         <outlet property="viewThree" destination="PpK-w6-yvK" id="zAD-QY-NWT"/>
                         <outlet property="viewTwo" destination="lDZ-fj-bBS" id="duh-I8-6Iz"/>
