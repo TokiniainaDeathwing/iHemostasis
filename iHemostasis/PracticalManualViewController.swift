@@ -95,6 +95,22 @@ class PracticalManualViewController: ParentViewController {
 
     
     ]
+    private let praticalManualChaptersSeven=[
+    ["description":"", "title":"Deep Vein Thrombosis:clinical manifestations, diagnosis and management", "colour":"#00A4D8", "author":"Gualtiero Palareti", "entity": "Arianna Anticoagulation Foundation,\nBologna, Italy"],
+    ["description":"", "title":"Pulmonary Embolism:clinical manifestations, diagnosis and management", "colour":"#dd7636", "author":"Jeffrey A. Kline", "entity": "Department of Emergency Medicine, Indiana University\nIndianapolis, Indiana, USA"],
+    ["description":"", "title":"Venous thromboembolism:pathophysiology", "colour":"#00A4D8", "author":"Roger J.S. Preston", "entity": "Irish Centre for Vascular Biology, School of Pharmacy and Biomolecular Sciences,\nRoyal College of Surgeons in Ireland,\nDublin,Ireland"],
+    ["description":"", "title":"Inherited thrombophilias", "colour":"#634586", "author":"Stephan Moll", "entity": "Department of Medicine, Division of Hematology-Oncology,\nUniversity of North Carolina School of Medicine,\nChapel Hill, North Carolina, USA"],
+    ["description":"", "title":"Thrombophilia laboratory testing", "colour":"#6f614f", "author":"Charles Eby", "entity": "Laboratory and Genomic Medicine, Department of Pathology & Immunology,\nWashington University School of Medicine,\nSaint-Louis, Missouri, USA"],
+    ["description":"", "title":"Thrombophilia testing:when and who to test?", "colour":"#6f614f", "author":"Dimitrios A. Tsakiris", "entity": "Diagnostic Hematology, University Hospital Basel,\nBasel, Switzerland"],
+    ["description":"", "title":"Predicting the risk of VTE recurrence after a first idiopathic thromboembolic event", "colour":"#a9332b", "author":"José A. Páramo", "entity": "Hematology Service, University Clinic of Navarra,\nPamplona, Spain"],
+    ["description":"", "title":"Venous thromboembolism and - pregnancy- hormonal contraception- hormone replacement therapy", "colour":"#437bb0", "author":"Silvia Hoirisch-Clapauch and Ian A. Greer", "entity": "Federal Hospital of State Officials,\nMinistry of Health,\nRio de Janeiro, Brazil\n\nQueen’s University Belfast,\nNorthen Ireland, United Kingdom"],
+    ["description":"", "title":"Venous thromboembolism in children", "colour":"#8e4989", "author":"Christoph Male", "entity": "Department of Paediatrics, Medical University of Vienna,\nVienna, Austria"],
+    ["description":"", "title":"Venous thromboembolism in cancer patients", "colour":"#a0ba5d", "author":"Vaibhav Kumar and Stephan Moll", "entity": "Department of Medicine, Division of Hematology-Oncology,\nUniversity of North Carolina School of Medicine,\nChapel Hill, North Carolina, USA "],
+    ["description":"", "title":"Venous thromboembolism in older adults", "colour":"#1c6c40", "author":"Matthew T. Rondina", "entity": "Department of Internal Medicine and the GRECC, George E. Wahlen VA Medical Center,\nDepartment of Pathology, Health Sciences Center, University of Utah\nEccles Institute of Human Genetics, University of Utah\nSalt Lake City, Utah, USA"],
+
+    
+    ]
+    
     
     override func viewDidAppear(_ animated: Bool) {
       
@@ -283,9 +299,9 @@ class PracticalManualViewController: ParentViewController {
             self.navigationController!.navigationBar.topItem?.title = "     "
         }
         else if (target == buttonSeven){
-            practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSix
-            practicalManualChapterViewController.setScreenTitle(title: "Platelets")
-            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Platelets
+            practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSeven
+            practicalManualChapterViewController.setScreenTitle(title: "Livre 6")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Livre6
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
         }

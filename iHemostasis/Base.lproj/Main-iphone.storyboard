@@ -1079,7 +1079,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3pd-NX-jUi">
                                                                         <rect key="frame" x="10" y="36" width="263" height="100"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                        <string key="text">D. J.Angiolillo-S. Buccheri-L. Bury-M. Cattaneo-E. Falcinelli-P. Gresele-P. Harrison-C. P.M. Hayward-J. A.Jakubowski-W. Korte-M. P.Lambert-E. Mahla-Bernard Payrastre-M. Poncz</string>
+                                                                        <string key="text">Gualtiero Palareti-Jeffrey A. Kline-Roger J.S. Preston-Stephan Moll-
+Charles Eby-José A. Páramo-Silvia Hoirisch-Clapauch-Ian A. Greer-Christoph Male-Vaibhav Kumar-Stephan Moll-
+Matthew T. Rondina</string>
                                                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
