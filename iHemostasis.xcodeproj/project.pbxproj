@@ -247,6 +247,28 @@
 		2341576B240FA4BD007ABA4C /* platelets69a.png in Resources */ = {isa = PBXBuildFile; fileRef = 23415768240FA4BC007ABA4C /* platelets69a.png */; };
 		2341576C240FA4BD007ABA4C /* platelets610a.png in Resources */ = {isa = PBXBuildFile; fileRef = 23415769240FA4BD007ABA4C /* platelets610a.png */; };
 		2341576F240FB490007ABA4C /* Platelets-Purple2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2341576E240FB490007ABA4C /* Platelets-Purple2.html */; };
+		234701092661293300390396 /* livre6-blue.html in Resources */ = {isa = PBXBuildFile; fileRef = 234701082661293300390396 /* livre6-blue.html */; };
+		234701192661297200390396 /* livre6-orange.html in Resources */ = {isa = PBXBuildFile; fileRef = 234701182661297200390396 /* livre6-orange.html */; };
+		2347011E2661298700390396 /* livre6-blue2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347011D2661298700390396 /* livre6-blue2.html */; };
+		23470123266129AA00390396 /* livre6-purple.html in Resources */ = {isa = PBXBuildFile; fileRef = 23470122266129AA00390396 /* livre6-purple.html */; };
+		23470128266129D600390396 /* livre6-gray.html in Resources */ = {isa = PBXBuildFile; fileRef = 23470127266129D600390396 /* livre6-gray.html */; };
+		2347012D266129E700390396 /* livre6-gray2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347012C266129E700390396 /* livre6-gray2.html */; };
+		23470132266129FC00390396 /* livre6-red.html in Resources */ = {isa = PBXBuildFile; fileRef = 23470131266129FC00390396 /* livre6-red.html */; };
+		2347013726612A0A00390396 /* livre6-blue3.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347013626612A0A00390396 /* livre6-blue3.html */; };
+		2347013C26612A1D00390396 /* livre6-purple2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347013B26612A1D00390396 /* livre6-purple2.html */; };
+		2347014126612A3100390396 /* livre6-green.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347014026612A3100390396 /* livre6-green.html */; };
+		2347014626612A4600390396 /* livre6-green2.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347014526612A4600390396 /* livre6-green2.html */; };
+		2347014B26612A7D00390396 /* livre6-blue copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347014A26612A7C00390396 /* livre6-blue copy.html */; };
+		2347015026612A8900390396 /* livre6-orange copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347014F26612A8900390396 /* livre6-orange copy.html */; };
+		2347015526612A9200390396 /* livre6-blue2 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347015426612A9200390396 /* livre6-blue2 copy.html */; };
+		2347015A26612A9C00390396 /* livre6-purple copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347015926612A9C00390396 /* livre6-purple copy.html */; };
+		2347015F26612AA700390396 /* livre6-gray copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347015E26612AA700390396 /* livre6-gray copy.html */; };
+		2347016426612AAF00390396 /* livre6-gray2 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347016326612AAF00390396 /* livre6-gray2 copy.html */; };
+		2347016926612ABA00390396 /* livre6-red copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347016826612ABA00390396 /* livre6-red copy.html */; };
+		2347016E26612AC100390396 /* livre6-blue3 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347016D26612AC100390396 /* livre6-blue3 copy.html */; };
+		2347017326612ACB00390396 /* livre6-purple2 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347017226612ACB00390396 /* livre6-purple2 copy.html */; };
+		2347017826612AD500390396 /* livre6-green copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347017726612AD500390396 /* livre6-green copy.html */; };
+		2347017D26612ADE00390396 /* livre6-green2 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 2347017C26612ADE00390396 /* livre6-green2 copy.html */; };
 		2349A984237A9C0000DE4BAD /* s13dImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2349A983237A9C0000DE4BAD /* s13dImg.png */; };
 		234D97D123A5784000537BC9 /* s62b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 234D97D023A5784000537BC9 /* s62b.jpg */; };
 		2361E61F2379A3CB0083F118 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2361E6152379A3BF0083F118 /* 11.jpg */; };
@@ -1504,6 +1526,28 @@
 		23415768240FA4BC007ABA4C /* platelets69a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets69a.png; path = platelets/platelets69a.png; sourceTree = SOURCE_ROOT; };
 		23415769240FA4BD007ABA4C /* platelets610a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets610a.png; path = platelets/platelets610a.png; sourceTree = SOURCE_ROOT; };
 		2341576E240FB490007ABA4C /* Platelets-Purple2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "Platelets-Purple2.html"; sourceTree = "<group>"; };
+		234701082661293300390396 /* livre6-blue.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-blue.html"; sourceTree = "<group>"; };
+		234701182661297200390396 /* livre6-orange.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-orange.html"; sourceTree = "<group>"; };
+		2347011D2661298700390396 /* livre6-blue2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-blue2.html"; sourceTree = "<group>"; };
+		23470122266129AA00390396 /* livre6-purple.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-purple.html"; sourceTree = "<group>"; };
+		23470127266129D600390396 /* livre6-gray.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-gray.html"; sourceTree = "<group>"; };
+		2347012C266129E700390396 /* livre6-gray2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-gray2.html"; sourceTree = "<group>"; };
+		23470131266129FC00390396 /* livre6-red.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-red.html"; sourceTree = "<group>"; };
+		2347013626612A0A00390396 /* livre6-blue3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-blue3.html"; sourceTree = "<group>"; };
+		2347013B26612A1D00390396 /* livre6-purple2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-purple2.html"; sourceTree = "<group>"; };
+		2347014026612A3100390396 /* livre6-green.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-green.html"; sourceTree = "<group>"; };
+		2347014526612A4600390396 /* livre6-green2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "livre6-green2.html"; sourceTree = "<group>"; };
+		2347014A26612A7C00390396 /* livre6-blue copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-blue copy.html"; sourceTree = "<group>"; };
+		2347014F26612A8900390396 /* livre6-orange copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-orange copy.html"; sourceTree = "<group>"; };
+		2347015426612A9200390396 /* livre6-blue2 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-blue2 copy.html"; sourceTree = "<group>"; };
+		2347015926612A9C00390396 /* livre6-purple copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-purple copy.html"; sourceTree = "<group>"; };
+		2347015E26612AA700390396 /* livre6-gray copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-gray copy.html"; sourceTree = "<group>"; };
+		2347016326612AAF00390396 /* livre6-gray2 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-gray2 copy.html"; sourceTree = "<group>"; };
+		2347016826612ABA00390396 /* livre6-red copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-red copy.html"; sourceTree = "<group>"; };
+		2347016D26612AC100390396 /* livre6-blue3 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-blue3 copy.html"; sourceTree = "<group>"; };
+		2347017226612ACB00390396 /* livre6-purple2 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-purple2 copy.html"; sourceTree = "<group>"; };
+		2347017726612AD500390396 /* livre6-green copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-green copy.html"; sourceTree = "<group>"; };
+		2347017C26612ADE00390396 /* livre6-green2 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "livre6-green2 copy.html"; sourceTree = "<group>"; };
 		2349A983237A9C0000DE4BAD /* s13dImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s13dImg.png; sourceTree = "<group>"; };
 		234D97D023A5784000537BC9 /* s62b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s62b.jpg; sourceTree = "<group>"; };
 		2361E6152379A3BF0083F118 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
@@ -2821,6 +2865,123 @@
 				2341576E240FB490007ABA4C /* Platelets-Purple2.html */,
 			);
 			name = "Purple-Two";
+			sourceTree = "<group>";
+		};
+		234700FB2660E1A800390396 /* Livre 6 */ = {
+			isa = PBXGroup;
+			children = (
+				234701072660E73200390396 /* Green2 */,
+				234701062660E72800390396 /* Green */,
+				234701052660E71800390396 /* Purple2 */,
+				234701042660E70A00390396 /* Blue3 */,
+				234701032660E6FB00390396 /* Red */,
+				234701022660E6F200390396 /* Gray2 */,
+				234701012660E6C700390396 /* Gray */,
+				234700FF2660E69900390396 /* Purple */,
+				234700FE2660E67D00390396 /* Blue2 */,
+				234700FD2660E66B00390396 /* Orange */,
+				234700FC2660E64F00390396 /* Blue */,
+			);
+			name = "Livre 6";
+			sourceTree = "<group>";
+		};
+		234700FC2660E64F00390396 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				2347014A26612A7C00390396 /* livre6-blue copy.html */,
+				234701082661293300390396 /* livre6-blue.html */,
+			);
+			name = Blue;
+			sourceTree = "<group>";
+		};
+		234700FD2660E66B00390396 /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				2347014F26612A8900390396 /* livre6-orange copy.html */,
+				234701182661297200390396 /* livre6-orange.html */,
+			);
+			name = Orange;
+			sourceTree = "<group>";
+		};
+		234700FE2660E67D00390396 /* Blue2 */ = {
+			isa = PBXGroup;
+			children = (
+				2347015426612A9200390396 /* livre6-blue2 copy.html */,
+				2347011D2661298700390396 /* livre6-blue2.html */,
+			);
+			name = Blue2;
+			sourceTree = "<group>";
+		};
+		234700FF2660E69900390396 /* Purple */ = {
+			isa = PBXGroup;
+			children = (
+				2347015926612A9C00390396 /* livre6-purple copy.html */,
+				23470122266129AA00390396 /* livre6-purple.html */,
+			);
+			name = Purple;
+			sourceTree = "<group>";
+		};
+		234701012660E6C700390396 /* Gray */ = {
+			isa = PBXGroup;
+			children = (
+				2347015E26612AA700390396 /* livre6-gray copy.html */,
+				23470127266129D600390396 /* livre6-gray.html */,
+			);
+			name = Gray;
+			sourceTree = "<group>";
+		};
+		234701022660E6F200390396 /* Gray2 */ = {
+			isa = PBXGroup;
+			children = (
+				2347016326612AAF00390396 /* livre6-gray2 copy.html */,
+				2347012C266129E700390396 /* livre6-gray2.html */,
+			);
+			name = Gray2;
+			sourceTree = "<group>";
+		};
+		234701032660E6FB00390396 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				2347016826612ABA00390396 /* livre6-red copy.html */,
+				23470131266129FC00390396 /* livre6-red.html */,
+			);
+			name = Red;
+			sourceTree = "<group>";
+		};
+		234701042660E70A00390396 /* Blue3 */ = {
+			isa = PBXGroup;
+			children = (
+				2347016D26612AC100390396 /* livre6-blue3 copy.html */,
+				2347013626612A0A00390396 /* livre6-blue3.html */,
+			);
+			name = Blue3;
+			sourceTree = "<group>";
+		};
+		234701052660E71800390396 /* Purple2 */ = {
+			isa = PBXGroup;
+			children = (
+				2347017226612ACB00390396 /* livre6-purple2 copy.html */,
+				2347013B26612A1D00390396 /* livre6-purple2.html */,
+			);
+			name = Purple2;
+			sourceTree = "<group>";
+		};
+		234701062660E72800390396 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				2347014026612A3100390396 /* livre6-green.html */,
+				2347017726612AD500390396 /* livre6-green copy.html */,
+			);
+			name = Green;
+			sourceTree = "<group>";
+		};
+		234701072660E73200390396 /* Green2 */ = {
+			isa = PBXGroup;
+			children = (
+				2347017C26612ADE00390396 /* livre6-green2 copy.html */,
+				2347014526612A4600390396 /* livre6-green2.html */,
+			);
+			name = Green2;
 			sourceTree = "<group>";
 		};
 		23DFF0E6240D0155001941C3 /* Platelets */ = {
@@ -4371,6 +4532,7 @@
 		E7C7DB571D93C3BF00B81785 /* Practical Manual */ = {
 			isa = PBXGroup;
 			children = (
+				234700FB2660E1A800390396 /* Livre 6 */,
 				23DFF0E6240D0155001941C3 /* Platelets */,
 				762BF90F2268CC3100431217 /* Bleeding */,
 				76205230225F3C46003F8DE3 /* Oral */,
@@ -4563,6 +4725,7 @@
 				E7E61A931DD08A280037AA88 /* chapter-4-part-2---ios_01.jpg in Resources */,
 				239AD024241908B300935439 /* platelets53ksub.png in Resources */,
 				234156BA240F80B2007ABA4C /* platelets42p.png in Resources */,
+				2347016926612ABA00390396 /* livre6-red copy.html in Resources */,
 				23DFF171240E6DB5001941C3 /* platelets24e.png in Resources */,
 				762BF9392268EFDB00431217 /* s14a.png in Resources */,
 				763409F02267974800B9EABE /* Ref_S5_3.png in Resources */,
@@ -4577,11 +4740,14 @@
 				762BF95522699A5700431217 /* s21.png in Resources */,
 				234156B5240F80B2007ABA4C /* platelets42l.png in Resources */,
 				E7E037E81DACF26100A79471 /* chapter-2-orange-part-3---ios_11.jpg in Resources */,
+				2347011E2661298700390396 /* livre6-blue2.html in Resources */,
 				762BF9E02269AF7100431217 /* s48a.png in Resources */,
 				762BF9AA2269AB5400431217 /* s33b.png in Resources */,
 				E7E619FB1DD0887C0037AA88 /* chapter-3-purple-part-1_11.png in Resources */,
 				23DFF131240E3B37001941C3 /* platelets19f.png in Resources */,
 				762BF9C32269ADE000431217 /* B-Marrown.html in Resources */,
+				2347014B26612A7D00390396 /* livre6-blue copy.html in Resources */,
+				2347014626612A4600390396 /* livre6-green2.html in Resources */,
 				76340A412267AF1600B9EABE /* S8_1.png in Resources */,
 				762BFA912269C9A200431217 /* s72d.png in Resources */,
 				762BFAB92269CAC100431217 /* s73u.png in Resources */,
@@ -4641,6 +4807,7 @@
 				233ED0FE2410CE350073D3A9 /* platelets82a.png in Resources */,
 				E7E619C01DD086FE0037AA88 /* chapter-3-part-1---ios_06.jpg in Resources */,
 				762BF99122699F4C00431217 /* s28ca.jpeg in Resources */,
+				234701192661297200390396 /* livre6-orange.html in Resources */,
 				7634093D2267511400B9EABE /* O-LightBlue.html in Resources */,
 				762BF96A22699AE200431217 /* s23b.png in Resources */,
 				233ED12A2410D9300073D3A9 /* platelets83d.png in Resources */,
@@ -4676,6 +4843,7 @@
 				762BF9BD2269AC2000431217 /* s39.png in Resources */,
 				762BFADD2269CE9D00431217 /* s83f.png in Resources */,
 				E7E61A5B1DD089AB0037AA88 /* chapter-4-brown_05.png in Resources */,
+				2347015A26612A9C00390396 /* livre6-purple copy.html in Resources */,
 				7634094F2267526C00B9EABE /* S2_41.png in Resources */,
 				76340A5D2267AFF300B9EABE /* S8_5_4.png in Resources */,
 				23415693240F7C70007ABA4C /* platelets41d.png in Resources */,
@@ -4698,6 +4866,7 @@
 				23415752240F9F4E007ABA4C /* platelets65a.png in Resources */,
 				762BFAEA2269CECC00431217 /* s84b.png in Resources */,
 				762BF99D2269A91700431217 /* s31.png in Resources */,
+				2347017326612ACB00390396 /* livre6-purple2 copy.html in Resources */,
 				2341575A240FA1BF007ABA4C /* platelets66d.png in Resources */,
 				E77CD03F1DA67FEF0033DE96 /* chapter-1-_04.png in Resources */,
 				E75252711C50CE26000CF33F /* QuickGuide8.pdf in Resources */,
@@ -4758,6 +4927,7 @@
 				E7E619BD1DD086FE0037AA88 /* chapter-3-part-1---ios_03.jpg in Resources */,
 				7634098F226789C100B9EABE /* s3_43.png in Resources */,
 				23415701240F8DB4007ABA4C /* platelets51d.png in Resources */,
+				2347013C26612A1D00390396 /* livre6-purple2.html in Resources */,
 				762BF92F2268EF9700431217 /* s13c.png in Resources */,
 				76340953226771BA00B9EABE /* S2_51.png in Resources */,
 				23415694240F7C70007ABA4C /* platelets41e.png in Resources */,
@@ -4779,6 +4949,7 @@
 				B4D0D1491C55E6DA00E27F45 /* coagulation-cascade-4.png in Resources */,
 				762BF97622699B4600431217 /* s24d.png in Resources */,
 				7634093F226751DE00B9EABE /* S2_1.png in Resources */,
+				2347015526612A9200390396 /* livre6-blue2 copy.html in Resources */,
 				E7A7175A1E55B12A00BD5C80 /* VioletApp.html in Resources */,
 				E7063C7E1DD1A65200E38BDB /* chapter-3-part-4---ios_04.jpg in Resources */,
 				234156EE240F891E007ABA4C /* platelets47b.png in Resources */,
@@ -4815,6 +4986,7 @@
 				E7E61A641DD089AB0037AA88 /* chapter-4-brown_18.png in Resources */,
 				23EB420E24161B4400EB2D66 /* platelets83tsub.png in Resources */,
 				234156B1240F80B2007ABA4C /* platelets42n.png in Resources */,
+				23470132266129FC00390396 /* livre6-red.html in Resources */,
 				233ED13F2410DD8E0073D3A9 /* platelets85a.png in Resources */,
 				2341572F240F9592007ABA4C /* platelets55e.png in Resources */,
 				E77CD0A01DA691330033DE96 /* P-Red.html in Resources */,
@@ -5218,9 +5390,11 @@
 				762BFA2D2269C1DB00431217 /* s61b.png in Resources */,
 				762BFAB82269CAC100431217 /* s73f.png in Resources */,
 				233ED14C2410E0480073D3A9 /* platelets87h.png in Resources */,
+				2347015F26612AA700390396 /* livre6-gray copy.html in Resources */,
 				23A9987B25C3FFE2002FA819 /* LaunchScreenIphone.storyboard in Resources */,
 				23DFF141240E4477001941C3 /* platelets21b.png in Resources */,
 				234156EF240F891E007ABA4C /* platelets47d.png in Resources */,
+				2347014126612A3100390396 /* livre6-green.html in Resources */,
 				23DFF11F240E312A001941C3 /* platelets17b.png in Resources */,
 				7634094C2267526C00B9EABE /* S2_43.png in Resources */,
 				763409DB2267959400B9EABE /* S5_2_1.png in Resources */,
@@ -5231,6 +5405,7 @@
 				762BF9E92269B4ED00431217 /* B-Red.html in Resources */,
 				234156BD240F80B2007ABA4C /* platelets42e.png in Resources */,
 				233ED1522410E0480073D3A9 /* platelets87b.png in Resources */,
+				2347016E26612AC100390396 /* livre6-blue3 copy.html in Resources */,
 				E7E61A3E1DD089200037AA88 /* chapter-3-purple---part-3_22.png in Resources */,
 				762BF9CD2269AED300431217 /* s42.png in Resources */,
 				E7838BD91C75F39000672CC1 /* CoagulationCascadeFibrinFormation.xib in Resources */,
@@ -5357,6 +5532,7 @@
 				2341570B240F9052007ABA4C /* platelets52b.png in Resources */,
 				76205258225F3C99003F8DE3 /* Screenshot 2018-11-27 13.08.28.png in Resources */,
 				763409F42267974800B9EABE /* Ref_S5_1.png in Resources */,
+				2347017826612AD500390396 /* livre6-green copy.html in Resources */,
 				762BF97B22699B4600431217 /* s24h.png in Resources */,
 				E7E0380D1DACF26C00A79471 /* chapter-2-orange-part-4_14.jpg in Resources */,
 				23415750240F9F4E007ABA4C /* platelets65g.png in Resources */,
@@ -5398,6 +5574,7 @@
 				233ED0EC2410CA270073D3A9 /* platelets76a.png in Resources */,
 				E7E61ABA1DD08B110037AA88 /* chapter-5-part-1---ios_11.jpg in Resources */,
 				763409342267335200B9EABE /* Ref_1.png in Resources */,
+				2347016426612AAF00390396 /* livre6-gray2 copy.html in Resources */,
 				23415679240F73AA007ABA4C /* platelets33a.png in Resources */,
 				7634098A226789C100B9EABE /* s3_46.png in Resources */,
 				E7A717581E55B11E00BD5C80 /* VioletImmu.html in Resources */,
@@ -5463,6 +5640,7 @@
 				E7E61AC01DD08B110037AA88 /* chapter-5-part-2---ios_04.jpg in Resources */,
 				233ED0CF2410C40D0073D3A9 /* platelets72a.png in Resources */,
 				763409772267879A00B9EABE /* S3_22.png in Resources */,
+				23470123266129AA00390396 /* livre6-purple.html in Resources */,
 				762BF97F22699B4600431217 /* s24a.png in Resources */,
 				23E3FFEB237973EA0082A8A8 /* 7.jpg in Resources */,
 				E7E61A8A1DD08A280037AA88 /* chapter-4-part-1---ios_10.jpg in Resources */,
@@ -5480,6 +5658,7 @@
 				763409682267874600B9EABE /* s3_12.png in Resources */,
 				2341574A240F9F4E007ABA4C /* platelets65e.png in Resources */,
 				23DFF19B240E78DF001941C3 /* platelets26a.png in Resources */,
+				2347017D26612ADE00390396 /* livre6-green2 copy.html in Resources */,
 				239613C925D6AA0500E2E65B /* CoagulationCascadeAnticoagulants copy.xib in Resources */,
 				E72977581C6DF56200875519 /* separateur-rouge.png in Resources */,
 				234156BE240F80B2007ABA4C /* platelets42m.png in Resources */,
@@ -5560,6 +5739,7 @@
 				23DFF12C240E38CD001941C3 /* platelets19d.png in Resources */,
 				E7E61A981DD08A280037AA88 /* chapter-4-part-2---ios_06.jpg in Resources */,
 				E752526F1C50CE26000CF33F /* QuickGuide6.pdf in Resources */,
+				2347015026612A8900390396 /* livre6-orange copy.html in Resources */,
 				762BF9382268EFDB00431217 /* s14c.png in Resources */,
 				E70C7ADF1DCC73B300E8A89F /* chapter-1-_03.png in Resources */,
 				76340990226789C100B9EABE /* s3_45.png in Resources */,
@@ -5600,6 +5780,7 @@
 				762BFA332269C1EA00431217 /* s62a.png in Resources */,
 				23FD6F2625D3C696001FCA19 /* B-Orange copy.html in Resources */,
 				233ED13D2410DD8E0073D3A9 /* platelets85d.png in Resources */,
+				2347012D266129E700390396 /* livre6-gray2.html in Resources */,
 				76205263225F3C99003F8DE3 /* Screenshot 2018-11-27 13.02.02.png in Resources */,
 				E7E619C71DD086FE0037AA88 /* chapter-3-part-2---ios_01.jpg in Resources */,
 				E7E61A581DD089AB0037AA88 /* chapter-4-brown_02.png in Resources */,
@@ -5638,6 +5819,7 @@
 				233ED1712410E6620073D3A9 /* platelets94b.png in Resources */,
 				234156D4240F8575007ABA4C /* platelets45a.png in Resources */,
 				E70095E51C1810F6008362B0 /* Main.storyboard in Resources */,
+				2347013726612A0A00390396 /* livre6-blue3.html in Resources */,
 				234156F5240F8A68007ABA4C /* platelets49b.png in Resources */,
 				23DFF123240E312A001941C3 /* platelets17a.png in Resources */,
 				E70C7AE01DCC73B300E8A89F /* chapter-1-_10.png in Resources */,
@@ -5669,12 +5851,14 @@
 				762BFAF32269CF3B00431217 /* s86b.png in Resources */,
 				762BF98E22699EC500431217 /* s28cc.png in Resources */,
 				B4D0D1481C55E6DA00E27F45 /* coagulation-cascade-3.png in Resources */,
+				23470128266129D600390396 /* livre6-gray.html in Resources */,
 				233ED14D2410E0480073D3A9 /* platelets87d.png in Resources */,
 				230FCD0123DA30AF00E9FE57 /* s14eFig.jpg in Resources */,
 				E7E0380F1DACF26C00A79471 /* chapter-2-orange-part-4_16.jpg in Resources */,
 				23EB42062416188300EB2D66 /* platelets51esub.png in Resources */,
 				E7E0382C1DACF27600A79471 /* chapter-2-orange-part-5---ios_09.jpg in Resources */,
 				E7063C831DD1A65200E38BDB /* chapter-3-part-4---ios_09.jpg in Resources */,
+				234701092661293300390396 /* livre6-blue.html in Resources */,
 				233ED16C2410E5780073D3A9 /* platelets93c.png in Resources */,
 				23415684240F77B6007ABA4C /* platelets36d.png in Resources */,
 				762BFADB2269CE9D00431217 /* s83e.png in Resources */,

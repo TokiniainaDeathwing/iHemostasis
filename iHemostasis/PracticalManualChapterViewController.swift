@@ -412,6 +412,99 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "Conclusion"],
         ["title" : "References"]
     ]
+    //Livre6
+    var livre6chap1 = [
+        ["title" : "Epidemiology of DVT", "filename" : "livre6-blue"],
+        ["title" : "Clinical manifestations"],
+        ["title" : "DVT diagnosis"],
+        ["title" : "References"],
+    ]
+    var livre6chap2 = [
+        ["title" : "Clinical presentation", "filename" : "livre6-orange"],
+        ["title" : "Decision rules"],
+        ["title" : "Management"],
+        ["title" : "Conclusion"],
+        ["title" : "References"],
+    ]
+    var livre6chap3 = [
+        ["title" : "Clinical presentation", "filename" : "livre6-blue2"],
+        ["title" : "Background"],
+        ["title" : "Hypercoagulability and VTE"],
+        ["title" : "Contact pathway activation and VTE development"],
+        ["title" : "Circulating blood cells and VTE"],
+        ["title" : "Endothelial dysfunction and VTE"],
+        ["title" : "Blood stasis and VTE"],
+        ["title" : "Summary"],
+        ["title" : "References"],
+       
+    ]
+    var livre6chap4 = [
+        ["title" : "Introduction", "filename" : "livre6-purple"],
+        ["title" : "Factor V Leiden"],
+        ["title" : "Prothrombin G20210A mutation"],
+        ["title" : "Antithrombin deficiency"],
+        ["title" : "Protein C deficiency"],
+        ["title" : "Protein S deficiency"],
+        ["title" : "Factor VIII elevation"],
+        ["title" : "Dysfibrinogenemia"],
+        ["title" : "Abnormalities of fibrinogenolysis"],
+        ["title" : "References"],
+    ]
+    var livre6chap5 = [
+        ["title" : "Introduction", "filename" : "livre6-gray"],
+        ["title" : "Inherited deficiencies of coagulation regulators:antithrombin, protein C, and protein S"],
+        ["title" : "Activated protein C resistance and factor V Leiden"],
+        ["title" : "Prothrombin gene 20210 polymorphism"],
+        ["title" : "Factor VIII activity"],
+        ["title" : "Thrombophilia testing interference from direct oral anticoagulants"],
+        ["title" : "References"],
+    ]
+    var livre6chap6 = [
+        ["title" : "Thrombophilia: who to test", "filename" : "livre6-gray2"],
+        ["title" : "Thrombophilia: what to test"],
+        ["title" : "Thrombophilia: when to test"],
+        ["title" : "Take home message"],
+        ["title" : "References"],
+    ]
+    var livre6chap7 = [
+        ["title" : "Epidemiology", "filename" : "livre6-red"],
+        ["title" : "Demographic and clinical risk factors"],
+        ["title" : "Location of VTE and influence of initial treatment"],
+        ["title" : "Residual vein thrombosis"],
+        ["title" : "Malignancy"],
+        ["title" : "Thrombophilia"],
+        ["title" : "Biomarkers"],
+        ["title" : "Risk assessment scores for recurrent VTE"],
+        ["title" : "Take home messages"],["title" : "References"],
+    ]
+    var livre6chap8 = [
+        ["title" : "Epidemiology and biological mechanisms", "filename" : "livre6-blue3"],
+        ["title" : "Management of VTE in pregnancy"],
+        ["title" : "References"],
+    ]
+    var livre6chap9 = [
+        ["title" : "Epidemiology", "filename" : "livre6-purple2"],
+        ["title" : "Location of VTE in children"],
+        ["title" : "Clinical presentation and diagnosis"],
+        ["title" : "Clinical consequences"],
+        ["title" : "Laboratory work-up"],
+        ["title" : "Treatment and prevention"],
+        ["title" : "References"],
+    ]
+    var livre6chap10 = [
+        ["title" : "Epidemiology", "filename" : "livre6-green"],
+        ["title" : "Risk factors"],
+        ["title" : "Pathophysiology"],
+        ["title" : "Management"],
+        ["title" : "References"],
+    ]
+    var livre6chap11 = [
+        ["title" : "Epidemiology of VTE in older adults", "filename" : "livre6-green2"],
+        ["title" : "Diagnosis of VTE in older adults"],
+        ["title" : "Treatment of VTE in older adults"],
+        ["title" : "Summary"],
+        ["title" : "References"],
+    ]
     @IBOutlet var collectionView : UICollectionView!
     
     
@@ -433,6 +526,9 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         }
         else if(self.practicalManualType==Utils.PracticalManualType.Platelets){
             title = "Platelets - Summary"
+        }
+        else if(self.practicalManualType==Utils.PracticalManualType.Livre6){
+            title = "Venous Thromboembolism - Summary"
         }
         if(UIDevice.current.userInterfaceIdiom == .phone){
             self.setScreenTitle(title:title,fontsize: 23)
@@ -686,6 +782,36 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
                     practicalManualDetailViewController.contextMenuPointer = contextPerioperative
                 default:
                     practicalManualDetailViewController.contextMenuPointer = contextPhysiology
+            }
+            
+            
+        }
+        else if(self.practicalManualType == Utils.PracticalManualType.Livre6){
+            switch indexPath.row{
+                case 0:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap1
+                case 1:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap2
+                case 2:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap3
+                case 3:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap4
+                case 4:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap5
+                case 5:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap6
+                case 6:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap7
+                case 7:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap8
+                case 8:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap9
+                case 9:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap10
+                case 10:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap9
+                default:
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap1
             }
             
             

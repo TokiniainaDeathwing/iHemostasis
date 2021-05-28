@@ -943,8 +943,9 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                                     <constraint firstAttribute="height" constant="188" id="ZUi-Vc-j2y"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51b-m6-W3R" userLabel="Button four">
-                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="30"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51b-m6-W3R" userLabel="Button four">
+                                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <connections>
                                                                     <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="H0C-E5-bgM"/>
                                                                 </connections>
@@ -970,15 +971,12 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <constraint firstItem="D45-Fh-4Oc" firstAttribute="top" secondItem="RQg-1N-WWJ" secondAttribute="top" id="QMG-p5-OU4"/>
                                                             <constraint firstAttribute="trailing" secondItem="X8Q-nR-5ll" secondAttribute="trailing" id="Qc5-6r-cEr"/>
                                                             <constraint firstItem="GKi-CE-uoU" firstAttribute="top" secondItem="dGO-XY-1Jx" secondAttribute="bottom" constant="38" id="Y5y-bu-twb"/>
-                                                            <constraint firstItem="51b-m6-W3R" firstAttribute="trailing" secondItem="D45-Fh-4Oc" secondAttribute="trailing" id="bk6-vy-ui1"/>
-                                                            <constraint firstItem="51b-m6-W3R" firstAttribute="top" secondItem="D45-Fh-4Oc" secondAttribute="top" id="cmA-vz-UwM"/>
                                                             <constraint firstItem="X8Q-nR-5ll" firstAttribute="leading" secondItem="RQg-1N-WWJ" secondAttribute="leading" id="cr2-6v-Mes"/>
                                                             <constraint firstItem="X8Q-nR-5ll" firstAttribute="top" secondItem="GKi-CE-uoU" secondAttribute="bottom" id="iag-O8-mZl"/>
                                                             <constraint firstItem="GKi-CE-uoU" firstAttribute="leading" secondItem="RQg-1N-WWJ" secondAttribute="leading" id="jVd-RE-EYw"/>
                                                             <constraint firstItem="dGO-XY-1Jx" firstAttribute="top" secondItem="RQg-1N-WWJ" secondAttribute="top" constant="48" id="mdb-sy-MK7"/>
                                                             <constraint firstItem="D45-Fh-4Oc" firstAttribute="centerX" secondItem="dGO-XY-1Jx" secondAttribute="centerX" id="qrW-KO-sFa"/>
                                                             <constraint firstAttribute="trailing" secondItem="D45-Fh-4Oc" secondAttribute="trailing" id="tj7-zI-2nL"/>
-                                                            <constraint firstItem="51b-m6-W3R" firstAttribute="leading" secondItem="D45-Fh-4Oc" secondAttribute="leading" id="w7d-yf-mOv"/>
                                                             <constraint firstItem="D45-Fh-4Oc" firstAttribute="leading" secondItem="GKi-CE-uoU" secondAttribute="leading" id="y2f-bl-xWM"/>
                                                         </constraints>
                                                     </view>
@@ -1069,7 +1067,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eja-FY-LCS">
                                                                 <rect key="frame" x="0.0" y="274" width="281" height="136"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Livre 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-AV-z0P">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Venous Thromboembolism" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-AV-z0P">
                                                                         <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1099,7 +1097,7 @@ Matthew T. Rondina</string>
                                                                     <constraint firstAttribute="height" constant="275" id="3bg-Cl-Z0F"/>
                                                                 </constraints>
                                                             </view>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Platelets" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-ho-sVc">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="venous" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-ho-sVc">
                                                                 <rect key="frame" x="74.5" y="48" width="132" height="188"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="132" id="0sq-C7-Hz2"/>
@@ -2598,6 +2596,7 @@ Matthew T. Rondina</string>
         <image name="quizz-unchecked" width="23" height="23"/>
         <image name="stat" width="60" height="46"/>
         <image name="validate" width="204" height="65"/>
+        <image name="venous" width="587" height="848"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

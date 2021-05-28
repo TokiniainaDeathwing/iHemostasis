@@ -300,7 +300,7 @@ class PracticalManualViewController: ParentViewController {
         }
         else if (target == buttonSeven){
             practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSeven
-            practicalManualChapterViewController.setScreenTitle(title: "Livre 6")
+            practicalManualChapterViewController.setScreenTitle(title: "Venous Thromboembolism")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Livre6
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
