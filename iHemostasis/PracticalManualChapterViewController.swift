@@ -452,7 +452,7 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
     ]
     var livre6chap5 = [
         ["title" : "Introduction", "filename" : "livre6-gray"],
-        ["title" : "Inherited deficiencies of coagulation regulators:antithrombin, protein C, and protein S"],
+        ["title" : "Inherited deficiencies of coagulation regulators:antithrombin, protein C, and protein S"],    ["title" : "Inherited thrombophilia and coagulation factors"],
         ["title" : "Activated protein C resistance and factor V Leiden"],
         ["title" : "Prothrombin gene 20210 polymorphism"],
         ["title" : "Factor VIII activity"],
@@ -809,7 +809,7 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
                 case 9:
                     practicalManualDetailViewController.contextMenuPointer = livre6chap10
                 case 10:
-                    practicalManualDetailViewController.contextMenuPointer = livre6chap9
+                    practicalManualDetailViewController.contextMenuPointer = livre6chap11
                 default:
                     practicalManualDetailViewController.contextMenuPointer = livre6chap1
             }
