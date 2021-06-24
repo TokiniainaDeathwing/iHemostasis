@@ -1,0 +1,109 @@
+
+
+<html>
+    <style>
+        body {
+            
+            margin-bottom:100px;
+        }
+        p{
+            position: relative;
+        }
+        p img{
+            display: block; margin-left: 10%;
+            width:75%;
+        }
+        p img.gotofig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 15px;
+            right: 40px;
+        }
+        p img.exitfig{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+            margin-left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jsNode.js"></script>
+   
+   <body onload="initSwipe();">
+       <input type="hidden" id="yPos" name="yPos" value="0">
+           <p class="Clinical presentation">
+               <img class="android"  src="venous21.png">
+                   <img  style="bottom:100px" class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table1')">
+                       <img  class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+                   
+           </p>
+           <p class="Table1">
+                         <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical presentation')">
+                         <img class="android"  src="tab21.png">
+          </p>
+          <p class="Table2">
+                        <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Clinical presentation')">
+                        <img class="android"  src="tab22.png">
+         </p>
+           <p class="Clinical presentation">
+               <img class="android"  src="venous22.png">
+                 
+                       <img  class="gotofig android" src="goToFigure.png" onclick="loadFigure('Table2')">
+               
+                   
+           </p>
+           <p class="Decision rules">
+               <img class="android"  src="venous23.png">
+            
+                       <img  class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
+               
+           </p>
+           <p class="Figure1">
+                         <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Decision rules')">
+                         <img class="android"  src="fig21.png">
+          </p>
+           <p class="Decision rules">
+               <img class="android"  src="venous24.png">
+               
+           </p>
+           <p class="Decision rules">
+               <img class="android"  src="venous25.png">
+               
+           </p>
+           <p class="Decision rules">
+               <img class="android"  src="venous26.png">
+               
+           </p>
+           <p class="Decision rules">
+               <img class="android"  src="venous27.png">
+               
+           </p>
+           <p class="Management">
+               <img class="android"  src="venous28.png">
+               
+           </p>
+           <p class="Management">
+               <img class="android"  src="venous29.png">
+               
+           </p>
+           <p class="Conclusion">
+               <img class="android"  src="venous210.png">
+               
+           </p>
+           
+           <p class="References">
+               <img class="android"  src="venous211.png">
+           </p>
+           <p class="References">
+               <img class="android"  src="venous212.png">
+           </p>
+           <p class="References">
+               <img class="android"  src="venous213.png">
+           </p>
+         
+            
+</html>
+
+

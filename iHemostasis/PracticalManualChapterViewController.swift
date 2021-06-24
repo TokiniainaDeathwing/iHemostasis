@@ -427,8 +427,7 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "References"],
     ]
     var livre6chap3 = [
-        ["title" : "Clinical presentation", "filename" : "livre6-blue2"],
-        ["title" : "Background"],
+        ["title" : "Background", "filename" : "livre6-blue2"],
         ["title" : "Hypercoagulability and VTE"],
         ["title" : "Contact pathway activation and VTE development"],
         ["title" : "Circulating blood cells and VTE"],
@@ -460,7 +459,8 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "References"],
     ]
     var livre6chap6 = [
-        ["title" : "Thrombophilia: who to test", "filename" : "livre6-gray2"],
+        ["title" : "Thrombophilia testing: when and who to test?", "filename" : "livre6-gray2"],
+        ["title" : "Thrombophilia: who to test"],
         ["title" : "Thrombophilia: what to test"],
         ["title" : "Thrombophilia: when to test"],
         ["title" : "Take home message"],

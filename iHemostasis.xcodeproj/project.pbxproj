@@ -3383,7 +3383,6 @@
 			children = (
 				2332DF442664C90A003845EE /* venous41.png */,
 				2332DF462664C90B003845EE /* venous42.png */,
-				2332DF4B2664C90C003845EE /* venous43.png */,
 				2332DF472664C90B003845EE /* venous44.png */,
 				2332DF3E2664C909003845EE /* venous45.png */,
 				2332DF452664C90B003845EE /* venous46.png */,
@@ -3398,6 +3397,7 @@
 				2332DF492664C90B003845EE /* venous415.png */,
 				2332DF3F2664C909003845EE /* venous416.png */,
 				2347015926612A9C00390396 /* livre6-purple copy.html */,
+				2332DF4B2664C90C003845EE /* venous43.png */,
 				23470122266129AA00390396 /* livre6-purple.html */,
 			);
 			name = Purple;
@@ -5159,8 +5159,7 @@
 				E761D4A91DAF963600686734 /* jsNode.js */,
 				E70D18081DCB0E3C0084747A /* jquery.mobile-1.4.5.min.js */,
 			);
-			name = "Practical Manual";
-			path = "Res/Practical Manual";
+			path = "Practical Manual";
 			sourceTree = "<group>";
 		};
 		E7EC96FB1D8994B7009D3FA0 /* Practical Manual */ = {
@@ -6938,7 +6937,7 @@
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.3;
+				MARKETING_VERSION = 2.2.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6964,7 +6963,7 @@
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.3;
+				MARKETING_VERSION = 2.2.5;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";

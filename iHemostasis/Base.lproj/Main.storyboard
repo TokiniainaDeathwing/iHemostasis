@@ -838,7 +838,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                             </view>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Platelets" translatesAutoresizingMaskIntoConstraints="NO" id="Pcq-nn-p6L">
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRX-Wi-tj4" userLabel="Button Six">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
@@ -891,7 +891,7 @@ Matthew T. Rondina</string>
                                             </view>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="venous" translatesAutoresizingMaskIntoConstraints="NO" id="blo-aS-14j">
                                                 <rect key="frame" x="75" y="48" width="132" height="188"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mi6-EW-ZiF" userLabel="Button Six">
                                                 <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>

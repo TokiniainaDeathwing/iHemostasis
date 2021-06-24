@@ -8,7 +8,7 @@
 import WebKit
 import UIKit
 
-class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource,UIWebViewDelegate {
+class PracticalManualDetailViewController: ParentViewController, UITableViewDelegate, UITableViewDataSource,WKNavigationDelegate {
     @IBOutlet weak var webViewContainerView : UIView?
     @IBOutlet weak var webView : WKWebView?
     @IBOutlet weak var contextMenuTableView: UITableView?
@@ -46,15 +46,15 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
         let request = URLRequest(url: file)
         //let request = NSURLRequest(url: file)
         webView?.load(request)
+        webView?.navigationDelegate = self
         //webView?.loadRequest(request as URLRequest)
+    
         
-        /*
         // Load the first page
-        let title = contextMenuItem["title"] as! String!
-        let figure = contextMenuItem["figurename"] as! String!
-        webView?.stringByEvaluatingJavaScriptFromString("loadPage('" + title + "');")
-        webViewForPicture?.stringByEvaluatingJavaScriptFromString("loadPage('" + figure + "');")
-        */
+       /* let title = (contextMenuItem["title"] as! String!)!
+        
+        webView?.evaluateJavaScript("loadPage('" + title + "');")*/
+        
         
         
         // Select the first row
@@ -242,8 +242,24 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
             contextMenuTableView?.isHidden = true
         }
     }
-    
-    func webViewDidFinishLoad(_ webView : WKWebView) {
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        if (self.webView == webView) {
+            // Load the first page
+            let contextMenuItem = contextMenuPointer[0]
+            let title = contextMenuItem["title"]
+           // webView.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
+           // webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
+            if(UIDevice.current.userInterfaceIdiom == .pad){
+             webView.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+            }else{
+                webView.evaluateJavaScript("loadPage2(\"" + ((title! )) + "\");")
+            }
+            
+             webView.scrollView.contentOffset = CGPoint(webView.scrollView.contentOffset.x, 0);
+        }
+        
+    }
+    private func webViewDidFinishLoad(_ webView : WKWebView) {
         if (self.webView == webView) {
             // Load the first page
             let contextMenuItem = contextMenuPointer[0]

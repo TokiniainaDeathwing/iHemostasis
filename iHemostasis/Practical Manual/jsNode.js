@@ -64,6 +64,7 @@ function loadFigure(page) {
             pNodes[i].style.display = "block";
             
             // Resize images herein
+            
             var pImages = pNodes[i].getElementsByTagName("img");
             for (var j = 0; j < pImages.length; j++) {
                 if(!pImages[j].classList.contains("android")){
