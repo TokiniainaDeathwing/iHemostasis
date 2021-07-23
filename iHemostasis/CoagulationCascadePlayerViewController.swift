@@ -23,6 +23,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     @IBOutlet weak var phaseTitleLabel: UILabel?
     @IBOutlet weak var phaseDescLabel: UILabel?
     @IBOutlet weak var phaseDescScrollView: UIScrollView?
+    @IBOutlet weak var videoSliderView : UIView?
     let textCellIdentifier = "textCellIdentifier"
     var phaseButtonLabel: UILabel?
     var downImageView: UIImageView?
@@ -213,7 +214,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             scene.subviews[0].frame = sceneView!.frame
         }else{
             let sW = CGFloat(UIScreen.main.bounds.width)
-            let h = CGFloat(320*UIScreen.main.bounds.height/414)
+            let h = CGFloat(364*UIScreen.main.bounds.height/414)
             let frame = CGRect(0 ,0 , sW, h)
             scene.frame = frame
             scene.subviews[0].frame = frame
@@ -242,7 +243,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // Simple tapping
         let simpleTap = UITapGestureRecognizer(target:self, action:#selector(simpleTappedAction))
         simpleTap.numberOfTapsRequired = 1
-        self.sceneView!.addGestureRecognizer(simpleTap)
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            self.sceneView!.addGestureRecognizer(simpleTap)
+        }
         
         // Double tapping
         let doubleTap = UITapGestureRecognizer(target:self, action:#selector(doubleTappedAction))
@@ -251,6 +254,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         simpleTap.require(toFail: doubleTap)
         
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            self.goToEnd()
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -305,6 +311,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     func showNodeInformation(node: String) {
+        print("Show node2")
         infoNodeSequenceView?.isHidden = false
         
         infoNodeSequenceLabel?.text = node
@@ -312,9 +319,13 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     func onItemSelection(name node: CoagulationCascadeNodeModel) {
-        sceneTimer.invalidate()
-        let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
-        playPauseButton?.setImage(imageButton, for: .normal)
+        
+        print("Show node")
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            sceneTimer.invalidate()
+            let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
+            playPauseButton?.setImage(imageButton, for: .normal)
+        }
         
         showNodeInformation(node: node.nodeDescription)
     }
@@ -502,7 +513,13 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             navController.popViewController(animated: true)
         }
     }
-    
+    private func goToEnd()
+    {
+        currentTimeline = currentSceneData.totalDuration
+        scene.playSceneAt(time: currentTimeline)
+        scene.showNodeHighlight()
+        videoSliderView?.isHidden = true
+    }
     // MARK: User Action
     @IBAction func videoSliderOnChangeAction(sender: UISlider) {
         isSliderChangedManually = true

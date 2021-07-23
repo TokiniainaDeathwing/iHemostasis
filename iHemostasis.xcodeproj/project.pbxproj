@@ -4631,8 +4631,8 @@
 		E7680BE41C21C014005DBABF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E7B14CAE1C1880B800904A46 /* CoagulationCascadeListViewController.swift */,
 				E7680B991C214D2A005DBABF /* CoagulationCascadePlayerViewController.swift */,
+				E7B14CAE1C1880B800904A46 /* CoagulationCascadeListViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -6937,7 +6937,7 @@
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.5;
+				MARKETING_VERSION = 2.2.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6963,7 +6963,7 @@
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.5;
+				MARKETING_VERSION = 2.2.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
