@@ -276,26 +276,29 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     // MARK: Private methods
     @objc func countUp() {
-        UIView.animate(withDuration: 2.0, animations: {
-            self.videoSlider?.setValue(self.currentTimeline, animated: true)
-        })
-        currentTimeline += 1
-        reloadPhaseInfos()
-        
-        // Detect if it is the end of the animation
-        if currentTimeline > currentSceneData.totalDuration {
-            scene.showNodeHighlight()
-            sceneTimer.invalidate()
-            scene.pauseScene()
-            let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
-            playPauseButton?.setImage(imageButton, for: .normal)
-            phaseButtonLabel!.text = ""
-            downImageView!.isHidden = true
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            UIView.animate(withDuration: 2.0, animations: {
+                self.videoSlider?.setValue(self.currentTimeline, animated: true)
+            })
+            currentTimeline += 1
+            reloadPhaseInfos()
             
-            // Hack !!
-            if isSliderChangedManually == true {
-                self.videoSlider?.setValue(currentSceneData.totalDuration + 3, animated: true)
-                isSliderChangedManually = false
+            // Detect if it is the end of the animation
+            if currentTimeline > currentSceneData.totalDuration {
+                scene.showNodeHighlight()
+                sceneTimer.invalidate()
+                scene.pauseScene()
+                let imageButton = UIImage(named: "CoagCascadePlayerPlay") as UIImage?
+                playPauseButton?.setImage(imageButton, for: .normal)
+                phaseButtonLabel!.text = ""
+                downImageView!.isHidden = true
+                
+                
+                // Hack !!
+                if isSliderChangedManually == true {
+                    self.videoSlider?.setValue(currentSceneData.totalDuration + 3, animated: true)
+                    isSliderChangedManually = false
+                }
             }
         }
     }
@@ -497,6 +500,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     func reloadPhaseInfos() {
+        
         for i:Int in 0 ..< currentSceneData.phaseTimelineList.count {
             if currentTimeline <= currentSceneData.phaseTimelineList[0] {
                 phaseTitleLabel?.text = currentSceneData.phaseList[0]
@@ -509,9 +513,18 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 phaseButtonLabel!.text = currentSceneData.phaseList.last
             }
             else if currentTimeline >= currentSceneData.phaseTimelineList[i] && currentTimeline <= currentSceneData.phaseTimelineList[i + 1] {
-                phaseTitleLabel?.text = currentSceneData.phaseList[i + 1]
-                phaseDescLabel?.text = currentSceneData.phaseDescription[i + 1]
-                phaseButtonLabel!.text = currentSceneData.phaseList[i + 1]
+                if(UIDevice.current.userInterfaceIdiom == .pad){
+                    phaseTitleLabel?.text = currentSceneData.phaseList[i + 1]
+                    phaseDescLabel?.text = currentSceneData.phaseDescription[i + 1]
+                        phaseButtonLabel!.text = currentSceneData.phaseList[i + 1]
+                    
+                }
+                if(UIDevice.current.userInterfaceIdiom == .phone){
+                    phaseTitleLabel?.text = currentSceneData.phaseList[i]
+                    phaseDescLabel?.text = currentSceneData.phaseDescription[i]
+                        phaseButtonLabel!.text = currentSceneData.phaseList[i]
+                    
+                }
             }
             /*
             else if (currentTimeline >= currentSceneData.totalDuration) {
