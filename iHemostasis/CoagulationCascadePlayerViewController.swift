@@ -158,6 +158,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         }
         phaseButtonLabel?.backgroundColor = UIColor.clear
         phaseButtonLabel?.adjustsFontSizeToFitWidth = true
+        
         phaseListButtonView?.addSubview(phaseButtonLabel!)
         
         
@@ -413,16 +414,35 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         //_ = indexPath.row
         
         hidePhaseList()
-        
-        var previousPhaseTimeline:Float = 0.0
-        if indexPath.row > 0 {
-            previousPhaseTimeline = currentSceneData.phaseTimelineList[indexPath.row - 1]
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            var previousPhaseTimeline:Float = 0.0
+            if indexPath.row > 0 {
+                previousPhaseTimeline = currentSceneData.phaseTimelineList[indexPath.row - 1]
+            }
+            
+            self.currentTimeline = previousPhaseTimeline
+            self.playScene()
+
+                
+            
+            phaseButtonLabel!.text = currentSceneData.phaseList[indexPath.row]
         }
-        
-        self.currentTimeline = previousPhaseTimeline
-        self.playScene()
-        
-        phaseButtonLabel!.text = currentSceneData.phaseList[indexPath.row]
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            scene.hideNodeHighlight()
+            var previousPhaseTimeline:Float = 0.0
+            if(indexPath.row == currentSceneData.phaseTimelineList.count-1){
+                previousPhaseTimeline = currentSceneData.totalDuration
+            }
+            else  {
+                previousPhaseTimeline = currentSceneData.phaseTimelineList[indexPath.row]
+            }
+            
+            self.currentTimeline = previousPhaseTimeline
+            self.playScene()
+            //scene.showNodeHighlight()
+            self.pauseScene()
+            phaseButtonLabel!.text = currentSceneData.phaseList[indexPath.row]
+        }
         
         // Update the timeline slider
         self.videoSlider?.setValue(self.currentTimeline, animated: false)
@@ -501,6 +521,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         }
         if (currentTimeline >= currentSceneData.totalDuration) {
             phaseButtonLabel!.text = ""
+            if(UIDevice.current.userInterfaceIdiom == .phone){
+                phaseTitleLabel?.text = currentSceneData.phaseList.last
+                phaseDescLabel?.text = currentSceneData.phaseDescription.last
+                phaseButtonLabel!.text = currentSceneData.phaseList.last
+            }
         }
         
         phaseDescLabel?.sizeToFit()
@@ -519,6 +544,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         scene.playSceneAt(time: currentTimeline)
         scene.showNodeHighlight()
         videoSliderView?.isHidden = true
+        reloadPhaseInfos();
     }
     // MARK: User Action
     @IBAction func videoSliderOnChangeAction(sender: UISlider) {
