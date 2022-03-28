@@ -427,6 +427,7 @@
                     <navigationItem key="navigationItem" id="m3R-SN-hoh"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="containerView" destination="Msc-l4-vTA" id="pXE-WR-PRP"/>
                         <outlet property="infoNodeSequenceLabel" destination="xIR-HK-hO8" id="Qod-EK-4bI"/>
                         <outlet property="infoNodeSequenceView" destination="5ZE-k5-nIk" id="tMh-a6-vnS"/>
                         <outlet property="infoSequenceButton" destination="VbA-T4-Tyx" id="ZwP-4e-aPv"/>
