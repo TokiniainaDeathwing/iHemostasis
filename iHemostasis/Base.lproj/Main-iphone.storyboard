@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -333,7 +333,7 @@
                                         <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="y7r-Lw-5MK" rowHeight="105" style="IBUITableViewCellStyleDefault" id="SVp-yr-Dkg">
-                                                <rect key="frame" x="0.0" y="28" width="262" height="105"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="262" height="105"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SVp-yr-Dkg" id="lKu-eS-xyC">
                                                     <rect key="frame" x="0.0" y="0.0" width="218" height="105"/>
@@ -1393,7 +1393,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" id="v65-iy-4cF" customClass="ClinicalCasesQuizzViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="808" height="93"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="808" height="93"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="v65-iy-4cF" id="C24-Az-l1D">
                                                     <rect key="frame" x="0.0" y="0.0" width="808" height="93"/>
@@ -1467,7 +1467,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="808" height="142"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="808" height="142"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M17-Yp-Jvu" id="G6g-lp-s6B">
                                                     <rect key="frame" x="0.0" y="0.0" width="808" height="142"/>
@@ -1877,7 +1877,7 @@ Matthew T. Rondina</string>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="S90-ob-Duc" rowHeight="82" style="IBUITableViewCellStyleDefault" id="8fV-qs-xmD">
-                                        <rect key="frame" x="0.0" y="28" width="852" height="82"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="852" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.65000000000000002" contentMode="center" tableViewCell="8fV-qs-xmD" id="Ym5-Wc-Uod">
                                             <rect key="frame" x="0.0" y="0.0" width="808" height="82"/>
@@ -1928,13 +1928,13 @@ Matthew T. Rondina</string>
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOb-Rn-ZK4">
-                                <rect key="frame" x="625" y="43" width="200" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOb-Rn-ZK4">
+                                <rect key="frame" x="775" y="10" width="50" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="QDx-tU-58Z"/>
+                                    <constraint firstAttribute="width" constant="50" id="QDx-tU-58Z"/>
                                     <constraint firstAttribute="height" constant="22" id="bjJ-pF-trw"/>
                                 </constraints>
-                                <state key="normal" title="                           MENU" image="context-menu">
+                                <state key="normal" image="context-menu">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -1942,19 +1942,19 @@ Matthew T. Rondina</string>
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqi-vD-KFO">
-                                <rect key="frame" x="44" y="85" width="808" height="329"/>
+                                <rect key="frame" x="44" y="42" width="808" height="372"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TaI-sD-gcX">
-                                <rect key="frame" x="671.5" y="85" width="224.5" height="329"/>
+                                <rect key="frame" x="640" y="42" width="256" height="372"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="uBT-AZ-aXQ" detailTextLabel="Aqe-cd-GS1" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BLB-yU-0kk">
-                                        <rect key="frame" x="0.0" y="28" width="224.5" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="256" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLB-yU-0kk" id="nNh-pm-FdF">
-                                            <rect key="frame" x="0.0" y="0.0" width="180.5" height="122"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="212" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBT-AZ-aXQ">
@@ -1982,7 +1982,7 @@ Matthew T. Rondina</string>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c6X-2f-Oru">
-                                <rect key="frame" x="44" y="43" width="581" height="42"/>
+                                <rect key="frame" x="44" y="0.0" width="731" height="42"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="c7X-gi-AXv"/>
@@ -1992,13 +1992,13 @@ Matthew T. Rondina</string>
                         <viewLayoutGuide key="safeArea" id="yN4-mr-HVA"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TaI-sD-gcX" firstAttribute="width" secondItem="pOb-Rn-ZK4" secondAttribute="width" multiplier="1.12217" id="2OK-aQ-YEZ"/>
+                            <constraint firstItem="TaI-sD-gcX" firstAttribute="width" secondItem="pOb-Rn-ZK4" secondAttribute="width" multiplier="1.12217" constant="200" id="2OK-aQ-YEZ"/>
                             <constraint firstItem="c6X-2f-Oru" firstAttribute="leading" secondItem="yN4-mr-HVA" secondAttribute="leading" id="38V-i3-Nhe"/>
                             <constraint firstAttribute="bottom" secondItem="dqi-vD-KFO" secondAttribute="bottom" id="DyB-ag-Wf3"/>
                             <constraint firstItem="dqi-vD-KFO" firstAttribute="top" secondItem="c6X-2f-Oru" secondAttribute="bottom" id="JCs-8Z-sO8"/>
-                            <constraint firstItem="pOb-Rn-ZK4" firstAttribute="top" secondItem="yN4-mr-HVA" secondAttribute="top" constant="43" id="OWX-ks-2SD"/>
+                            <constraint firstItem="pOb-Rn-ZK4" firstAttribute="top" secondItem="yN4-mr-HVA" secondAttribute="top" constant="10" id="OWX-ks-2SD"/>
                             <constraint firstItem="TaI-sD-gcX" firstAttribute="top" secondItem="c6X-2f-Oru" secondAttribute="bottom" id="Yxj-gx-EtM"/>
-                            <constraint firstItem="c6X-2f-Oru" firstAttribute="top" secondItem="yN4-mr-HVA" secondAttribute="top" constant="43" id="ftF-K1-no8"/>
+                            <constraint firstItem="c6X-2f-Oru" firstAttribute="top" secondItem="yN4-mr-HVA" secondAttribute="top" id="ftF-K1-no8"/>
                             <constraint firstItem="yN4-mr-HVA" firstAttribute="trailing" secondItem="pOb-Rn-ZK4" secondAttribute="trailing" constant="27" id="n2V-83-Bt9"/>
                             <constraint firstItem="dqi-vD-KFO" firstAttribute="trailing" secondItem="yN4-mr-HVA" secondAttribute="trailing" id="pnu-EN-NY6"/>
                             <constraint firstAttribute="bottom" secondItem="TaI-sD-gcX" secondAttribute="bottom" id="qSV-DW-Dhe"/>
@@ -2070,7 +2070,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="yIO-hf-eW5" detailTextLabel="aus-zH-EJR" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BTR-3H-fZa">
-                                        <rect key="frame" x="0.0" y="28" width="251" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="251" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BTR-3H-fZa" id="PVy-RM-w9S">
                                             <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>
@@ -2174,7 +2174,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="Aki-LK-t1u" detailTextLabel="LBK-o4-lEm" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="Jqk-f1-nLa">
-                                        <rect key="frame" x="0.0" y="28" width="251" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="251" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jqk-f1-nLa" id="f8U-jc-doV">
                                             <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>

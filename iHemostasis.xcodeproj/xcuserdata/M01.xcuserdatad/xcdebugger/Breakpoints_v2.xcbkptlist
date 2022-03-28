@@ -118,6 +118,53 @@
             endingLineNumber = "14"
             landmarkName = "CoagulationCascadeFibrinFormationScene"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F6ECAEB5-A465-4C2B-983F-7C11F421A904 - 9781bc4ba8f3ac96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iHemostasis.CoagulationCascadeFibrinFormationScene.kPhaseThreeStartTime.getter : Swift.Int"
+                  moduleName = "iHemostasis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/M01/Documents/Mobiles/versionned/iHemostasis/CoagulationCascadeFibrinFormationScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F6ECAEB5-A465-4C2B-983F-7C11F421A904 - d0af49a121e921c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iHemostasis.CoagulationCascadeFibrinFormationScene.init(frame: __C.CGRect) -&gt; iHemostasis.CoagulationCascadeFibrinFormationScene"
+                  moduleName = "iHemostasis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/M01/Documents/Mobiles/versionned/iHemostasis/CoagulationCascadeFibrinFormationScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "490">
+               </Location>
+               <Location
+                  uuid = "F6ECAEB5-A465-4C2B-983F-7C11F421A904 - c7f5445f2ee46893"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iHemostasis.CoagulationCascadeFibrinFormationScene.init(coder: __C.NSCoder) -&gt; iHemostasis.CoagulationCascadeFibrinFormationScene"
+                  moduleName = "iHemostasis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/M01/Documents/Mobiles/versionned/iHemostasis/CoagulationCascadeFibrinFormationScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "175">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
