@@ -367,12 +367,16 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             self.currentZoom = CGFloat(1.0)
             
         }
-        
+        let h:CGFloat = self.sceneView!.frame.size.height
+        let w:CGFloat = self.sceneView!.frame.size.width
+        print("width:",w)
+        print("height",h)
+        // w=1334 h=666
         if(recognizer.state == UIGestureRecognizer.State.ended) {
             UIView.animate(withDuration: 1.0, animations: {
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
-                    //self.sceneView!.center = CGPoint(,)
+                    self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
                     self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
                 }
                 
