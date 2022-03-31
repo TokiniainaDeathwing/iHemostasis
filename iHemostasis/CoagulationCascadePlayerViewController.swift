@@ -13,6 +13,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     // UI Logic
     @IBOutlet weak var videoSlider : UISlider?
     @IBOutlet weak var sceneView : UIView?
+    @IBOutlet weak var containerView : UIView?
     @IBOutlet weak var playPauseButton : UIButton?
     @IBOutlet weak var infoSequenceButton : UIButton?
     @IBOutlet weak var infoSequenceView : UIView?
