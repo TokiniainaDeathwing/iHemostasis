@@ -223,9 +223,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         }
       
         
-        print("sceneFrame",sceneView!.frame)
-        print("sceneFrame2",scene.subviews[0].frame)
-        print("screenWidth",UIScreen.main.bounds)
+//        print("sceneFrame",sceneView!.frame)
+//        print("sceneFrame2",scene.subviews[0].frame)
+//        print("screenWidth",UIScreen.main.bounds)
         scene.isUserInteractionEnabled = true
         scene.isExclusiveTouch = true
         sceneView!.isUserInteractionEnabled = true
@@ -345,14 +345,15 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             scale = CGFloat(1.0)
             self.currentZoom = 1.0
         }
-        
+        let h:CGFloat = self.sceneView!.frame.size.height
+        let w:CGFloat = self.sceneView!.frame.size.width
         self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
 
         if(pinchRecognizer.state == UIGestureRecognizer.State.began) {
             UIView.animate(withDuration: 0.2, animations: {
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
                 if self.currentZoom <= 1.0 {
-                    //self.sceneView!.center = CGPoint(,)
+                    
                     self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
                 }
                 
@@ -368,19 +369,30 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             self.currentZoom = CGFloat(1.0)
             
         }
-        let h:CGFloat = self.sceneView!.frame.size.height
-        let w:CGFloat = self.sceneView!.frame.size.width
-        print("width:",w)
-        print("height",h)
+        var h:CGFloat = self.sceneView!.frame.size.height
+        var w:CGFloat = self.sceneView!.frame.size.width
+//        var hc:CGFloat = self.containerView!.frame.size.height
+//        var wc:CGFloat = self.containerView!.frame.size.width
+//        print("width: \(w) vs \(wc)")
+//        print("height: \(h) vs \(hc)")
         // w=1334 h=666
         if(recognizer.state == UIGestureRecognizer.State.ended) {
             UIView.animate(withDuration: 1.0, animations: {
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
+               
                 if self.currentZoom <= 1.0 {
                     self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
                     self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
+                    
                 }
                 
+            },completion: {(finished : Bool) in
+//                h = self.sceneView!.frame.size.height
+//                w = self.sceneView!.frame.size.width
+//                hc = self.containerView!.frame.size.height
+//                wc = self.containerView!.frame.size.width
+//                print("widthVita: \(w) vs \(wc)")
+//                print("heightVita: \(h) vs \(hc)")
             })
         }
     }
@@ -666,8 +678,13 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     @IBAction func handlePan(_ recognizer: UIPanGestureRecognizer) {
+        
         var _x: CGFloat
         var _y: CGFloat
+        let h = UIScreen.main.bounds.height;
+        let w = UIScreen.main.bounds.width;
+//        print("width: \(w) ")
+//        print("height: \(h) ")
         if currentZoom >= 2.0 {
             let translation = recognizer.translation(in: self.view)
             if let view = recognizer.view {
@@ -678,8 +695,8 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                     _x = translation.x
                 }
                 
-                if view.frame.origin.x <= -1023.0 {
-                    _x = 1.0
+                if view.frame.origin.x <= -666 * w / 667 {
+                    _x = 3.0
                 }
                 
                 if view.frame.origin.y >= 0 {
@@ -692,6 +709,10 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 if view.frame.origin.y <= -570.0 {
                     _y = 1.0
                     
+                }
+                
+                if view.frame.origin.y <= -325 * h / 375 {
+                    _y = 3.0
                 }
                 
                 
