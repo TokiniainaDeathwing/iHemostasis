@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -248,7 +248,7 @@
                                         <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="y7r-Lw-5MK" rowHeight="105" style="IBUITableViewCellStyleDefault" id="SVp-yr-Dkg">
-                                                <rect key="frame" x="0.0" y="28" width="298" height="105"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="298" height="105"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SVp-yr-Dkg" id="lKu-eS-xyC">
                                                     <rect key="frame" x="0.0" y="0.0" width="298" height="105"/>
@@ -313,6 +313,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
+                        <outlet property="containerView" destination="Msc-l4-vTA" id="JA9-Ga-j4v"/>
                         <outlet property="infoNodeSequenceLabel" destination="xIR-HK-hO8" id="Qod-EK-4bI"/>
                         <outlet property="infoNodeSequenceView" destination="5ZE-k5-nIk" id="tMh-a6-vnS"/>
                         <outlet property="infoSequenceButton" destination="VbA-T4-Tyx" id="ZwP-4e-aPv"/>
@@ -1018,7 +1019,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="73" id="v65-iy-4cF" customClass="ClinicalCasesQuizzViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="1366" height="73"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="1366" height="73"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v65-iy-4cF" id="C24-Az-l1D">
                                                     <rect key="frame" x="0.0" y="0.0" width="1366" height="73"/>
@@ -1069,7 +1070,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="122" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="1366" height="122"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="1366" height="122"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M17-Yp-Jvu" id="G6g-lp-s6B">
                                                     <rect key="frame" x="0.0" y="0.0" width="1366" height="122"/>
@@ -1342,7 +1343,7 @@ Matthew T. Rondina</string>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="S90-ob-Duc" rowHeight="82" style="IBUITableViewCellStyleDefault" id="8fV-qs-xmD">
-                                        <rect key="frame" x="0.0" y="28" width="768" height="82"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="768" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.65000000000000002" contentMode="center" tableViewCell="8fV-qs-xmD" id="Ym5-Wc-Uod">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="82"/>
@@ -1417,7 +1418,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="uBT-AZ-aXQ" detailTextLabel="Aqe-cd-GS1" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BLB-yU-0kk">
-                                        <rect key="frame" x="0.0" y="28" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLB-yU-0kk" id="nNh-pm-FdF">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1511,7 +1512,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="yIO-hf-eW5" detailTextLabel="aus-zH-EJR" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BTR-3H-fZa">
-                                        <rect key="frame" x="0.0" y="28" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BTR-3H-fZa" id="PVy-RM-w9S">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1600,7 +1601,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="Aki-LK-t1u" detailTextLabel="LBK-o4-lEm" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="Jqk-f1-nLa">
-                                        <rect key="frame" x="0.0" y="28" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jqk-f1-nLa" id="f8U-jc-doV">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1692,7 +1693,7 @@ Matthew T. Rondina</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EXK-48-cko" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yof-7a-yQb">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="50"/>
+                        <rect key="frame" x="0.0" y="24" width="1366" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
