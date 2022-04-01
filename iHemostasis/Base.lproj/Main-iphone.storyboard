@@ -201,7 +201,7 @@
                                         </connections>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.68235294120000001" green="0.82352941180000006" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstItem="t2w-lX-ikf" firstAttribute="leading" secondItem="Msc-l4-vTA" secondAttribute="leading" id="0eh-Ix-FqC"/>
                                     <constraint firstAttribute="trailing" secondItem="t2w-lX-ikf" secondAttribute="trailing" id="FWL-gQ-ztU"/>
@@ -2599,6 +2599,9 @@ Matthew T. Rondina</string>
         <image name="stat" width="60" height="46"/>
         <image name="validate" width="204" height="65"/>
         <image name="venous" width="587" height="848"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
