@@ -434,19 +434,26 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             self.currentZoom = CGFloat(1.0)
             
         }
-        var h:CGFloat = self.sceneView!.frame.size.height
-        var w:CGFloat = self.sceneView!.frame.size.width
+//        var h:CGFloat = self.sceneView!.frame.size.height
+//        var w:CGFloat = self.sceneView!.frame.size.width
+        
+            let h = UIScreen.main.bounds.height;
+            let w = UIScreen.main.bounds.width;
 //        var hc:CGFloat = self.containerView!.frame.size.height
 //        var wc:CGFloat = self.containerView!.frame.size.width
-//        print("width: \(w) vs \(wc)")
-//        print("height: \(h) vs \(hc)")
+       print("width: \(w) ")
+       print("height: \(h)")
         // w=1334 h=666
         if(recognizer.state == UIGestureRecognizer.State.ended) {
             UIView.animate(withDuration: 1.0, animations: {
                 self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
-               
+                var k:CGFloat = 296
+                if(UIDevice.current.userInterfaceIdiom == .pad){
+                    k = 280
+                }
+                
                 if self.currentZoom <= 1.0 {
-                    self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
+                    self.sceneView!.center = CGPoint(667*w/1334,k*h/666)
                     self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
                     self.pic = 1.0
                     
@@ -761,7 +768,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                     _x = translation.x
                 }
                 
-                if view.frame.origin.x <= -660 * w / 667 {
+                if view.frame.origin.x <= -650 * w / 667 {
                     _x = 3.0
                 }
                 
@@ -780,7 +787,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 if view.frame.origin.y <= -325 * h / 375 {
                     _y = 3.0
                 }
-                                print("pan  frame:",view.frame.origin.x)
+                print("pan  frame:",view.frame.origin.x)
                 view.center = CGPoint(x:view.center.x + _x,
                                       y:view.center.y + _y)
             }
