@@ -353,8 +353,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -625,8 +625,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -721,8 +721,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -737,8 +737,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -817,8 +817,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "583"
-            endingLineNumber = "583"
+            startingLineNumber = "666"
+            endingLineNumber = "666"
             landmarkName = "playPauseButtonAction(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -833,8 +833,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "537"
-            endingLineNumber = "537"
+            startingLineNumber = "620"
+            endingLineNumber = "620"
             landmarkName = "reloadPhaseInfos()"
             landmarkType = "7">
          </BreakpointContent>
@@ -849,10 +849,10 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "458"
-            endingLineNumber = "458"
-            landmarkName = "CoagulationCascadePlayerViewController"
-            landmarkType = "3">
+            startingLineNumber = "541"
+            endingLineNumber = "541"
+            landmarkName = "playScene()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -865,8 +865,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "459"
-            endingLineNumber = "459"
+            startingLineNumber = "542"
+            endingLineNumber = "542"
             landmarkName = "playScene()"
             landmarkType = "7">
          </BreakpointContent>
@@ -881,8 +881,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "466"
-            endingLineNumber = "466"
+            startingLineNumber = "549"
+            endingLineNumber = "549"
             landmarkName = "playScene()"
             landmarkType = "7">
          </BreakpointContent>
@@ -897,9 +897,9 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "486"
-            endingLineNumber = "486"
-            landmarkName = "setupTimelineSlider()"
+            startingLineNumber = "569"
+            endingLineNumber = "569"
+            landmarkName = "showPhaseList()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -913,8 +913,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
             landmarkName = "countUp()"
             landmarkType = "7">
          </BreakpointContent>
@@ -929,8 +929,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "countUp()"
             landmarkType = "7">
          </BreakpointContent>
@@ -945,9 +945,9 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "551"
-            endingLineNumber = "551"
-            landmarkName = "reloadPhaseInfos()"
+            startingLineNumber = "634"
+            endingLineNumber = "634"
+            landmarkName = "backButtonAction()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -961,9 +961,9 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "621"
-            endingLineNumber = "621"
-            landmarkName = "rewindButtonAction(sender:)"
+            startingLineNumber = "704"
+            endingLineNumber = "704"
+            landmarkName = "forwardButtonAction(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -971,14 +971,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "241BBAE4-AB1B-423A-AE8C-942CA295D93C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "390"
-            endingLineNumber = "390"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
             landmarkName = "simpleTappedAction(recognizer:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -993,8 +993,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "432"
-            endingLineNumber = "432"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1009,8 +1009,8 @@
             filePath = "iHemostasis/CoagulationCascadePlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "380"
-            endingLineNumber = "380"
+            startingLineNumber = "463"
+            endingLineNumber = "463"
             landmarkName = "doubleTappedAction(recognizer:)"
             landmarkType = "7">
          </BreakpointContent>

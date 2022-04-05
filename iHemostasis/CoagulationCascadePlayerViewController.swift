@@ -37,7 +37,12 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     var animationIndex: Int = 0
     var currentTimeline: Float = 0.0
     var currentZoom: CGFloat = 1.0
+    var currentDeZoom: CGFloat = 2.0
+    var previousZoom: CGFloat = 1.0
+    var pic: CGFloat = 1.0
+    var previousZoomScale: CGFloat = 0.0
     var isSliderChangedManually = false
+    
     
     var currentSceneData = CoagulationCascadeSceneModel()
     
@@ -142,7 +147,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         // DownButton Label
 
         if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel = UILabel(frame: CGRect(0, 0, UIScreen.main.bounds.width/6, 49))
+            phaseButtonLabel = UILabel(frame: CGRect(-110, -2, UIScreen.main.bounds.width/3, 49))
         }else{
             phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
         }
@@ -155,7 +160,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         if(UIDevice.current.userInterfaceIdiom == .phone){
             phaseButtonLabel?.textAlignment = .right
             print("frame phaseButton",phaseButtonLabel?.frame.width)
-            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width+5, 22, 8, 7)
+            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width-98 , 20, 8, 7)
         }
         phaseButtonLabel?.backgroundColor = UIColor.clear
         phaseButtonLabel?.adjustsFontSizeToFitWidth = true
@@ -337,47 +342,95 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     @objc func pinchAction(pinchRecognizer: UIPinchGestureRecognizer) {
         var scale: CGFloat = pinchRecognizer.scale;
-        
-        if (scale >= 2.0) {
-            scale = CGFloat(2.0)
-            self.currentZoom = 2.0
-        }
-        else if (scale <= 1.0) {
-            scale = CGFloat(1.0)
-            self.currentZoom = 1.0
-        }
+//        self.currentZoom = scale
         let h = UIScreen.main.bounds.height;
         let w = UIScreen.main.bounds.width;
-       self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
-//        print("h:", h)
-//        print("w:", w)
-        if(pinchRecognizer.state == UIGestureRecognizer.State.began) {
+//        print("zoom:\(scale) | pic:\(self.pic) ")
+        if (scale > 2.0) {
+            scale = CGFloat(2.0)
+            self.currentZoom = 2.0
+            self.pic = 2
             
-            if self.currentZoom <= 1.0 {
-//                    print("nihena lery ")
-//                    self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
-                UIView.animate(withDuration: 0.2, animations: {
-//                    self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
-                    self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
-                    self.sceneView!.center = CGPoint(333.5*w/667,167*h/375)
-                    
-                })
-              
-            }else{
-                UIView.animate(withDuration: 0.2, animations: {
-                    self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
-                   
-                })
-            }
-          
         }
+        else if (scale < 1.0) {
+            
+//            let diff:CGFloat = 1.0 - scale;
+//            scale = CGFloat(1.0)
+//
+//            self.currentDeZoom = self.currentDeZoom - 0.01
+//            if(self.currentDeZoom <= 1.0){
+//                self.currentZoom = 1.0
+//
+//                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
+//                self.sceneView!.center = CGPoint(333.5*w/667,167*h/375)
+//                print("tonga")
+//
+//            }else{
+//                print("mihena ",self.currentDeZoom)
+//                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentDeZoom ,y: self.currentDeZoom)
+//            }
+           
+                
+            
+         
+           
+        }else{
+            self.currentDeZoom = self.currentZoom
+        }
+        self.previousZoom = self.currentZoom
+      
+       
+//        print("pic:",self.pic)
+//        print("pic:",self.pic)
+        if(pic == 2){
+    //            if(self.previousZoom>=self.currentZoom){
+    //                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
+    //            }
+            
+        }
+        else if(self.pic<scale){
+           
+            self.pic = scale
+            self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale ,y: scale)
+            
+        }else{
+         
+            if(self.previousZoom<self.currentZoom){
+                print("eto nigga")
+                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
+            }
+        }
+        
+        
+        
+        
+        self.previousZoomScale = scale
+//        if(pinchRecognizer.state == UIGestureRecognizer.State.began) {
+//            if(self.previousZoom != self.currentZoom){
+//                if self.currentZoom <= 1.0 {
+//                    print("nihena lery ")
+//    //                    self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
+//                    UIView.animate(withDuration: 7, animations: {
+////                        self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentZoom, y: self.currentZoom);
+//                        self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
+//                        self.sceneView!.center = CGPoint(333.5*w/667,167*h/375)
+//                    })
+//
+//
+//                }
+//
+//            }
+//
+//
+//        }
     }
     
     @objc func doubleTappedAction(recognizer: UITapGestureRecognizer) {
-        if self.currentZoom <= 1.0 {
+//        print ("double tap ",self.currentZoom)
+        if self.currentZoom < 2.0 {
             self.currentZoom = CGFloat(2.0)
         }
-        else {
+        else   {
             self.currentZoom = CGFloat(1.0)
             
         }
@@ -395,6 +448,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 if self.currentZoom <= 1.0 {
                     self.sceneView!.center = CGPoint(333.5*w/1334,167*h/666)
                     self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
+                    self.pic = 1.0
                     
                 }
                 
@@ -691,7 +745,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     @IBAction func handlePan(_ recognizer: UIPanGestureRecognizer) {
         
-        var _x: CGFloat
+        var _x: CGFloat = 0.0
         var _y: CGFloat
         let h = UIScreen.main.bounds.height;
         let w = UIScreen.main.bounds.width;
@@ -700,14 +754,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         if currentZoom >= 2.0 {
             let translation = recognizer.translation(in: self.view)
             if let view = recognizer.view {
-                if view.frame.origin.x >= 0 {
-                    _x = -1.0
+                if view.frame.origin.x >= -10 {
+                    _x = -3.0
                 }
                 else {
                     _x = translation.x
                 }
                 
-                if view.frame.origin.x <= -666 * w / 667 {
+                if view.frame.origin.x <= -660 * w / 667 {
                     _x = 3.0
                 }
                 
@@ -718,7 +772,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                     _y = translation.y + 1
                 }
                 
-                if view.frame.origin.y <= -570.0 {
+                if view.frame.origin.y <= -570.0 * h / 375 {
                     _y = 1.0
                     
                 }
@@ -726,8 +780,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 if view.frame.origin.y <= -325 * h / 375 {
                     _y = 3.0
                 }
-                
-//                print("pan  frame:",view.frame.origin.y)
+                                print("pan  frame:",view.frame.origin.x)
                 view.center = CGPoint(x:view.center.x + _x,
                                       y:view.center.y + _y)
             }
