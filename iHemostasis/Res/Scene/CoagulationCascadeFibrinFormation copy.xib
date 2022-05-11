@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,15 +18,15 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="12" contentMode="scaleToFill" fixedFrame="YES" image="FF_50" translatesAutoresizingMaskIntoConstraints="NO" id="uf9-Ym-Qp4">
-                    <rect key="frame" x="75" y="28" width="48" height="18"/>
+                    <rect key="frame" x="77" y="24" width="42" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="13" contentMode="scaleToFill" fixedFrame="YES" image="FF_49" translatesAutoresizingMaskIntoConstraints="NO" id="e5g-U9-EnM">
-                    <rect key="frame" x="88" y="46" width="22" height="65"/>
+                    <rect key="frame" x="88" y="46" width="20" height="67"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="14" contentMode="scaleToFill" fixedFrame="YES" image="FF_25" translatesAutoresizingMaskIntoConstraints="NO" id="SDw-2s-eBQ">
-                    <rect key="frame" x="81" y="131" width="35" height="48"/>
+                    <rect key="frame" x="84" y="128" width="27" height="49"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="52" contentMode="scaleToFill" fixedFrame="YES" image="FF_39" translatesAutoresizingMaskIntoConstraints="NO" id="SWB-pT-ubJ">
@@ -38,15 +38,15 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" image="FF_8" translatesAutoresizingMaskIntoConstraints="NO" id="fVR-Ti-Ky5">
-                    <rect key="frame" x="263" y="164" width="211" height="146"/>
+                    <rect key="frame" x="263" y="164" width="201" height="153"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="scaleToFill" fixedFrame="YES" image="FF_26" translatesAutoresizingMaskIntoConstraints="NO" id="odg-vb-zJB">
-                    <rect key="frame" x="55" y="181" width="61" height="56"/>
+                    <rect key="frame" x="60" y="180" width="54" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="18" contentMode="scaleToFill" fixedFrame="YES" image="FF_36" translatesAutoresizingMaskIntoConstraints="NO" id="JUT-Ba-Aur">
-                    <rect key="frame" x="161" y="25" width="53" height="19"/>
+                    <rect key="frame" x="163" y="24" width="46" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="17" contentMode="scaleToFill" fixedFrame="YES" image="FF_20" translatesAutoresizingMaskIntoConstraints="NO" id="TWg-o3-X3T">
@@ -54,7 +54,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="16" contentMode="scaleToFill" fixedFrame="YES" image="FF_28" translatesAutoresizingMaskIntoConstraints="NO" id="oL2-ZG-19g">
-                    <rect key="frame" x="103" y="197" width="50" height="51"/>
+                    <rect key="frame" x="109" y="196" width="44" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="33" contentMode="scaleToFill" fixedFrame="YES" image="FF_41" translatesAutoresizingMaskIntoConstraints="NO" id="boH-FO-XKg">
@@ -62,7 +62,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="32" contentMode="scaleToFill" fixedFrame="YES" image="FF_24" translatesAutoresizingMaskIntoConstraints="NO" id="MSK-mk-BTN">
-                    <rect key="frame" x="338" y="15" width="56" height="50"/>
+                    <rect key="frame" x="336" y="12" width="48" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="31" contentMode="scaleToFill" fixedFrame="YES" image="FF_42" translatesAutoresizingMaskIntoConstraints="NO" id="wdH-Yt-L3g">
@@ -70,7 +70,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="30" contentMode="scaleToFill" fixedFrame="YES" image="FF_35" translatesAutoresizingMaskIntoConstraints="NO" id="Ocg-Cq-yQf">
-                    <rect key="frame" x="497" y="35" width="53" height="19"/>
+                    <rect key="frame" x="497" y="31" width="51" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="29" contentMode="scaleToFill" fixedFrame="YES" image="FF_44" translatesAutoresizingMaskIntoConstraints="NO" id="xOf-Hk-G1V">
@@ -78,11 +78,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" image="FF_13" translatesAutoresizingMaskIntoConstraints="NO" id="gbi-lv-ARe">
-                    <rect key="frame" x="701" y="216" width="143" height="88"/>
+                    <rect key="frame" x="701" y="216" width="143" height="100"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" image="FF_30" translatesAutoresizingMaskIntoConstraints="NO" id="QkF-e8-JjG">
-                    <rect key="frame" x="705" y="173" width="36" height="43"/>
+                    <rect key="frame" x="706" y="173" width="29" height="43"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" image="FF_11" translatesAutoresizingMaskIntoConstraints="NO" id="rSg-7f-XxW">
@@ -90,7 +90,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" image="FF_15" translatesAutoresizingMaskIntoConstraints="NO" id="yl2-in-bd7">
-                    <rect key="frame" x="607" y="164" width="92" height="25"/>
+                    <rect key="frame" x="610" y="164" width="83" height="33"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="41" contentMode="scaleToFill" fixedFrame="YES" image="FF_10" translatesAutoresizingMaskIntoConstraints="NO" id="8Ev-7N-hvh">
@@ -98,27 +98,27 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="9" contentMode="scaleToFill" fixedFrame="YES" image="FF_14" translatesAutoresizingMaskIntoConstraints="NO" id="fyr-BV-XXX">
-                    <rect key="frame" x="675" y="83" width="128" height="25"/>
+                    <rect key="frame" x="677" y="78" width="118" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="50" contentMode="scaleToFill" fixedFrame="YES" image="FF_5" translatesAutoresizingMaskIntoConstraints="NO" id="R23-c4-yvD">
-                    <rect key="frame" x="55" y="305" width="32" height="34"/>
+                    <rect key="frame" x="55" y="305" width="32" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="47" contentMode="scaleToFill" fixedFrame="YES" image="FF_30" translatesAutoresizingMaskIntoConstraints="NO" id="678-RU-LLz">
-                    <rect key="frame" x="67" y="247" width="56" height="50"/>
+                    <rect key="frame" x="74" y="247" width="31" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="49" contentMode="scaleToFill" fixedFrame="YES" image="FF_6" translatesAutoresizingMaskIntoConstraints="NO" id="bf5-A3-wPE">
-                    <rect key="frame" x="20" y="273" width="48" height="15"/>
+                    <rect key="frame" x="20" y="273" width="45" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="48" contentMode="scaleToFill" fixedFrame="YES" image="FF_7" translatesAutoresizingMaskIntoConstraints="NO" id="kcv-z3-Poa">
-                    <rect key="frame" x="38" y="241" width="45" height="24"/>
+                    <rect key="frame" x="38" y="239" width="40" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="46" contentMode="scaleToFill" fixedFrame="YES" image="FF_17" translatesAutoresizingMaskIntoConstraints="NO" id="EUL-sW-N3n">
-                    <rect key="frame" x="116" y="248" width="92" height="34"/>
+                    <rect key="frame" x="116" y="246" width="86" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="21" contentMode="scaleToFill" fixedFrame="YES" image="FF_40" translatesAutoresizingMaskIntoConstraints="NO" id="QZp-wx-4eO">
@@ -134,7 +134,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="25" contentMode="scaleToFill" fixedFrame="YES" image="FF_18" translatesAutoresizingMaskIntoConstraints="NO" id="aXK-b0-m6C">
-                    <rect key="frame" x="518" y="82" width="95" height="36"/>
+                    <rect key="frame" x="520" y="74" width="87" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="44" contentMode="scaleToFill" fixedFrame="YES" image="FF_21" translatesAutoresizingMaskIntoConstraints="NO" id="ocH-Lw-0pJ">
@@ -142,11 +142,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="43" contentMode="scaleToFill" fixedFrame="YES" image="FF_38" translatesAutoresizingMaskIntoConstraints="NO" id="Aoz-Jp-J3h">
-                    <rect key="frame" x="493" y="93" width="141" height="113"/>
+                    <rect key="frame" x="493" y="93" width="119" height="113"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="54" contentMode="scaleToFill" fixedFrame="YES" image="FF_38" translatesAutoresizingMaskIntoConstraints="NO" id="oTf-hh-2LV">
-                    <rect key="frame" x="491" y="93" width="141" height="113"/>
+                    <rect key="frame" x="498" y="93" width="121" height="113"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="55" contentMode="scaleToFill" fixedFrame="YES" image="FF_38" translatesAutoresizingMaskIntoConstraints="NO" id="Dc7-w1-uWu">
@@ -162,7 +162,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="34" contentMode="scaleToFill" fixedFrame="YES" image="FF_46" translatesAutoresizingMaskIntoConstraints="NO" id="kuh-kB-rtL">
-                    <rect key="frame" x="693" y="43" width="23" height="17"/>
+                    <rect key="frame" x="693" y="43" width="23" height="23"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="35" contentMode="scaleToFill" fixedFrame="YES" image="FF_43" translatesAutoresizingMaskIntoConstraints="NO" id="k1m-eo-ovT">
@@ -170,11 +170,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="36" contentMode="scaleToFill" fixedFrame="YES" image="FF_3" translatesAutoresizingMaskIntoConstraints="NO" id="50e-Pz-fDN">
-                    <rect key="frame" x="786" y="34" width="23" height="32"/>
+                    <rect key="frame" x="788" y="35" width="19" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="37" contentMode="scaleToFill" fixedFrame="YES" image="FF_33" translatesAutoresizingMaskIntoConstraints="NO" id="RkK-7v-bc5">
-                    <rect key="frame" x="766" y="17" width="57" height="16"/>
+                    <rect key="frame" x="776" y="15" width="46" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="38" contentMode="scaleToFill" fixedFrame="YES" image="FF_22" translatesAutoresizingMaskIntoConstraints="NO" id="ySK-R9-oZF">
@@ -190,15 +190,15 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="24" contentMode="scaleToFill" fixedFrame="YES" image="FF_30" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-Wh-Ynk">
-                    <rect key="frame" x="475" y="115" width="36" height="43"/>
+                    <rect key="frame" x="479" y="116" width="29" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="53" contentMode="scaleToFill" fixedFrame="YES" image="XIIIa" translatesAutoresizingMaskIntoConstraints="NO" id="y8d-Cj-wCy">
-                    <rect key="frame" x="553" y="199" width="24" height="32"/>
+                    <rect key="frame" x="555" y="199" width="20" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="261" contentMode="scaleToFill" fixedFrame="YES" image="IIa-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="NKa-0A-Jus">
-                    <rect key="frame" x="550" y="285" width="24" height="32"/>
+                    <rect key="frame" x="553" y="285" width="20" height="33"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="262" contentMode="scaleToFill" fixedFrame="YES" image="IIaRow-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="Sr7-pN-X2A">
@@ -206,7 +206,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="263" contentMode="scaleToFill" fixedFrame="YES" image="XIII-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="eb2-Gb-Bty">
-                    <rect key="frame" x="552" y="250" width="24" height="16"/>
+                    <rect key="frame" x="555" y="250" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="264" contentMode="scaleToFill" fixedFrame="YES" image="row-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="mKm-fV-paC">
@@ -218,11 +218,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="266" contentMode="scaleToFill" fixedFrame="YES" image="fpa-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="rBA-i9-nW0">
-                    <rect key="frame" x="653" y="113" width="32" height="17"/>
+                    <rect key="frame" x="653" y="111" width="31" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="267" contentMode="scaleToFill" fixedFrame="YES" image="fpa-inhib" translatesAutoresizingMaskIntoConstraints="NO" id="9vM-PL-hDF">
-                    <rect key="frame" x="653" y="130" width="32" height="16"/>
+                    <rect key="frame" x="653" y="132" width="31" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="70" contentMode="scaleToFill" fixedFrame="YES" image="fibr_arrow_green8" translatesAutoresizingMaskIntoConstraints="NO" id="ixS-w5-ZyF">
@@ -230,23 +230,23 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="19" contentMode="scaleToFill" fixedFrame="YES" image="fibr_pai1" translatesAutoresizingMaskIntoConstraints="NO" id="nm1-M6-GpB">
-                    <rect key="frame" x="337" y="63" width="66" height="26"/>
+                    <rect key="frame" x="340" y="63" width="59" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="20" contentMode="scaleToFill" fixedFrame="YES" image="fibr_pai1" translatesAutoresizingMaskIntoConstraints="NO" id="zvT-hU-DlO">
-                    <rect key="frame" x="140" y="110" width="66" height="26"/>
+                    <rect key="frame" x="150" y="110" width="57" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="191" contentMode="scaleToFill" fixedFrame="YES" image="fibr_uk" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-9F-b3Y">
-                    <rect key="frame" x="390" y="56" width="34" height="52"/>
+                    <rect key="frame" x="390" y="56" width="30" height="53"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="281" contentMode="scaleToFill" fixedFrame="YES" image="fibr_k" translatesAutoresizingMaskIntoConstraints="NO" id="lB4-ws-sgb">
-                    <rect key="frame" x="635" y="25" width="26" height="38"/>
+                    <rect key="frame" x="637" y="23" width="22" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="28" contentMode="scaleToFill" fixedFrame="YES" image="fibr_c1imh" translatesAutoresizingMaskIntoConstraints="NO" id="1T7-Kv-1cv">
-                    <rect key="frame" x="639" y="55" width="27" height="37"/>
+                    <rect key="frame" x="638" y="55" width="28" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" tag="1400" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJG-Ub-UqI">
@@ -497,7 +497,7 @@
                     </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="201" contentMode="scaleToFill" fixedFrame="YES" image="fibr_ctpa_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="yPJ-vE-V4Y">
-                    <rect key="frame" x="200" y="91" width="35" height="50"/>
+                    <rect key="frame" x="200" y="92" width="29" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="390" contentMode="scaleToFill" fixedFrame="YES" image="fibr_lys" translatesAutoresizingMaskIntoConstraints="NO" id="Ddt-Gc-cVj">
