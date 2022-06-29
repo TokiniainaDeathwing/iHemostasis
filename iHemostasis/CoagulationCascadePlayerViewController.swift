@@ -61,16 +61,18 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         
         // Set the orientation to always landscape
-        let orient = UIApplication.shared.statusBarOrientation
-        switch orient {
-        case .landscapeLeft:
-            break
-        case .landscapeRight:
-            break
-        default:
-            let value = UIInterfaceOrientation.landscapeLeft.rawValue
-            UIDevice.current.setValue(value, forKey: "orientation")
-        }
+//        let orient = UIApplication.shared.statusBarOrientation
+//        switch orient {
+//        case .landscapeLeft:
+//            break
+//        case .landscapeRight:
+//            break
+//        default:
+//            let value = UIInterfaceOrientation.landscapeLeft.rawValue
+//            UIDevice.current.setValue(value, forKey: "orientation")
+//        }
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
         
         // Left menu: Phase list
         //let backButton: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "Back-ArrowRED"), style: .Plain, target: self, action: "backButtonAction")
@@ -89,7 +91,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         if(UIDevice.current.userInterfaceIdiom == .phone){
             backButton.frame = CGRect(0, 12, 20, 20)
         }
-        backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+        }else{
+            backButton.addTarget(self, action: #selector(backButtonAction), for: UIControl.Event.touchUpInside)
+            let gesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(backButtonAction))
+            gesture.numberOfTapsRequired = 1
+            backButtonView?.addGestureRecognizer(gesture)
+        }
         backButton.setTitle("", for: UIControl.State.normal)
         backButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         backButtonView?.addSubview(backButton)
@@ -106,8 +115,8 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         
         let myCustomBackButtonItem:UIBarButtonItem = UIBarButtonItem(customView: backButtonView!)
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
-        backButton.setBackgroundImage(backbuttonImage, for: .normal)
-        
+      
+        backButton.setBackgroundImage(backbuttonImage, for: UIControl.State.normal)
         
         // Right menu: Phase list
         // Phase View Container
@@ -265,6 +274,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             self.goToEnd()
         }
     }
+  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -273,8 +283,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     
     override var shouldAutorotate: Bool {
-        return false
-    }
+        return true    }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.landscapeLeft
@@ -577,7 +586,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         if currentTimeline <= currentSceneData.totalDuration {
             if phaseListView?.isHidden == true {
                 phaseListView?.isHidden = false
-                reloadPhaseInfos()
+               
+                    reloadPhaseInfos()
+                
             }
             else {
                 phaseListView?.isHidden = true
@@ -588,8 +599,35 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     func hidePhaseList() {
         phaseListView?.isHidden = true
     }
+    func changePhaseInfos(){
+        print("change phase info",phaseButtonLabel!.text);
+        for i:Int in 0 ..< currentSceneData.phaseList.count {
+            if(phaseButtonLabel?.text == currentSceneData.phaseList[i]){
+                phaseDescLabel?.text = currentSceneData.phaseDescription[i]
+                phaseTitleLabel?.text = currentSceneData.phaseList[i]
+                print("return ",phaseButtonLabel!.text);
+                return
+            }
+            /*
+            else if (currentTimeline >= currentSceneData.totalDuration) {
+                phaseButtonLabel!.text = ""
+            }
+            */
+        }
+//        if (currentTimeline >= currentSceneData.totalDuration) {
+//            phaseButtonLabel!.text = ""
+//            if(UIDevice.current.userInterfaceIdiom == .phone){
+//                phaseTitleLabel?.text = currentSceneData.phaseList.last
+//                phaseDescLabel?.text = currentSceneData.phaseDescription.last
+//                phaseButtonLabel!.text = currentSceneData.phaseList.last
+//            }
+//        }
+    }
     
     func reloadPhaseInfos() {
+        
+        print("reload");
+        
         
         for i:Int in 0 ..< currentSceneData.phaseTimelineList.count {
             if currentTimeline <= currentSceneData.phaseTimelineList[0] {
@@ -614,6 +652,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                     phaseDescLabel?.text = currentSceneData.phaseDescription[i]
                         phaseButtonLabel!.text = currentSceneData.phaseList[i]
                     
+                    
                 }
             }
             /*
@@ -630,7 +669,10 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 phaseButtonLabel!.text = currentSceneData.phaseList.last
             }
         }
-        
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            infoSequenceView?.isHidden = true
+        }
+//        phaseDescLabel?.text = "Test nigga"
         phaseDescLabel?.sizeToFit()
         phaseDescScrollView?.contentSize = CGSize(width: 0, height: (phaseDescLabel?.frame.height)! + 20.0)
         downImageView?.isHidden = phaseButtonLabel!.text!.isEmpty
@@ -725,7 +767,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     }
     
     @IBAction func infoSequenceButton(sender: UIButton) {
-        if currentTimeline > 0.0 && currentTimeline < currentSceneData.totalDuration {
+       
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            self.changePhaseInfos();
+        }
+        if currentTimeline > 0.0 && currentTimeline <= currentSceneData.totalDuration {
             if infoSequenceView?.isHidden == false {
                 infoSequenceView?.isHidden = true
             }
@@ -733,6 +779,14 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
                 infoSequenceView?.isHidden = false
             }
         }
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            if infoSequenceView?.isHidden == false {
+//                infoSequenceView?.isHidden = true
+//            }
+//            else {
+//                infoSequenceView?.isHidden = false
+//            }
+//        }
         if isPlaying {
             self.pauseScene()
         }

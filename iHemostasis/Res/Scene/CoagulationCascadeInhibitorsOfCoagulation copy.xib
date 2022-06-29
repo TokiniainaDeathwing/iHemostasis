@@ -122,7 +122,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="scaleToFill" fixedFrame="YES" image="IC_1" translatesAutoresizingMaskIntoConstraints="NO" id="3o1-gW-Hwb">
-                    <rect key="frame" x="478" y="79" width="64" height="33"/>
+                    <rect key="frame" x="478" y="79" width="64" height="43"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="27" contentMode="scaleToFill" fixedFrame="YES" image="IC_39" translatesAutoresizingMaskIntoConstraints="NO" id="9se-40-Aos">
@@ -404,7 +404,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="2200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpo-P6-bbZ">
-                    <rect key="frame" x="481" y="86" width="59" height="40"/>
+                    <rect key="frame" x="481" y="86" width="59" height="41"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="tintColor" red="1" green="0.17323508830000001" blue="0.112809991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
