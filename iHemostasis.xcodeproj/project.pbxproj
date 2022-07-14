@@ -6932,12 +6932,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4.4;
+				CURRENT_PROJECT_VERSION = 4.5;
 				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.8;
+				MARKETING_VERSION = 2.2.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6946,7 +6946,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -6958,12 +6958,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4.4;
+				CURRENT_PROJECT_VERSION = 4.5;
 				DEVELOPMENT_TEAM = FFP2WA927R;
 				INFOPLIST_FILE = iHemostasis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.2.8;
+				MARKETING_VERSION = 2.2.9;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stago.ihemostasis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6971,7 +6971,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = hemostasisStore;
 				SWIFT_OBJC_BRIDGING_HEADER = "iHemostasis/iHemostasis-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

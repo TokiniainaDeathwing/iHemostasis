@@ -25,7 +25,9 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     @IBOutlet weak var phaseDescLabel: UILabel?
     @IBOutlet weak var phaseDescScrollView: UIScrollView?
     @IBOutlet weak var videoSliderView : UIView?
+    @IBOutlet var superView: UIView!
     let textCellIdentifier = "textCellIdentifier"
+    var phaseListButtonView: UIView?
     var phaseButtonLabel: UILabel?
     var downImageView: UIImageView?
     
@@ -45,44 +47,96 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     
     
     var currentSceneData = CoagulationCascadeSceneModel()
-    
-    
-    // MARK: Override bloc
-    override func viewDidAppear(_ animated: Bool) {
-      
-      super.viewDidAppear(animated)
-        let value = UIInterfaceOrientation.landscapeLeft.rawValue
-        UIDevice.current.setValue(value, forKey: "orientation")
-        UIView.setAnimationsEnabled(true)
-    
+    func reloadloadRightButton(){
+//        phaseListButtonView?.frame = CGRect(0 , 0, UIScreen.main.bounds.width/3, 59)
+//        phaseListButtonView?.backgroundColor = UIColor.red
+//        phaseButtonLabel?.frame =  CGRect(-190  , -2, UIScreen.main.bounds.width/3, 49)
+//        downImageView?.frame = CGRect((phaseButtonLabel!.frame.width-18) , 20, 8, 7)
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    func loadRightButton(){
+        // Right menu: Phase list
+        // Phase View Container
+ 
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseListButtonView = UIView(frame: CGRect(UIScreen.main.bounds.width-UIScreen.main.bounds.width/4, 0, UIScreen.main.bounds.width/4, 59))
+        }else{
+            phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
+        }
+        phaseListButtonView?.backgroundColor = UIColor.clear
+        
+        // Down Button image
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            downImageView = UIImageView(frame:CGRect(0, 20, 8, 7));
+        }else{
+            downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
+        }
+        
+        downImageView!.image = UIImage(named:"down-arrowRED")
+       
+        phaseListButtonView?.addSubview(downImageView!)
+        
+        let downButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+        downButton.frame = CGRect(0, 0, 500, 59)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            downButton.frame = CGRect(0, 0, UIScreen.main.bounds.width/3, 49)
+            //downButton.semanticContentAttribute = .forceRightToLeft
+        }else{
+            downButton.frame = CGRect(0, 0, 500, 59)
+        }
+        downButton.addTarget(self, action: #selector(showPhaseList), for: UIControl.Event.touchUpInside)
+        downButton.setTitle("", for: UIControl.State.normal)
+        downButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        downButton.backgroundColor = UIColor.clear
+        phaseListButtonView?.addSubview(downButton)
+//        phaseListButtonView?.backgroundColor = UIColor.blue
+        
+        // DownButton Label
+
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel = UILabel(frame: CGRect(-75, -2, UIScreen.main.bounds.width/3, 49))
+        }else{
+            phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
+        }
+        phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE_IPHONE)
+        }
+        phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
+        phaseButtonLabel?.textAlignment = .right
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            phaseButtonLabel?.textAlignment = .right
+            print("frame phaseButton",phaseButtonLabel?.frame.width)
+            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width-65 , 20, 8, 7)
+        }
+        phaseButtonLabel?.backgroundColor = UIColor.clear
+        phaseButtonLabel?.adjustsFontSizeToFitWidth = true
+        
+        phaseListButtonView?.addSubview(phaseButtonLabel!)
         
         
-        // Set the orientation to always landscape
-//        let orient = UIApplication.shared.statusBarOrientation
-//        switch orient {
-//        case .landscapeLeft:
-//            break
-//        case .landscapeRight:
-//            break
-//        default:
-//            let value = UIInterfaceOrientation.landscapeLeft.rawValue
-//            UIDevice.current.setValue(value, forKey: "orientation")
-//        }
-        let value = UIInterfaceOrientation.landscapeLeft.rawValue
-        UIDevice.current.setValue(value, forKey: "orientation")
-        
-        // Left menu: Phase list
-        //let backButton: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "Back-ArrowRED"), style: .Plain, target: self, action: "backButtonAction")
-        //backButton.setTitleTextAttributes([NSFontAttributeName : UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)!,
-         //   NSForegroundColorAttributeName : Utils.colorWithHexString(Utils.RED_COLOR)], forState: UIControlState.Normal)
-        
-        
-        // BackButton View Container
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            let gesture = UITapGestureRecognizer(target: self, action:   #selector(showPhaseList))
+            phaseListButtonView!.addGestureRecognizer(gesture)
+            superView.addSubview(phaseListButtonView!)
+            let downButtonItem:UIBarButtonItem = UIBarButtonItem(customView: phaseListButtonView!)
+            
+            self.navigationItem.setRightBarButton(downButtonItem, animated: true)
+        }else{
+            let downButtonItem:UIBarButtonItem = UIBarButtonItem(customView: phaseListButtonView!)
+            
+            self.navigationItem.setRightBarButton(downButtonItem, animated: true)
+           }
+        }
+    func loadLeftButton(){
         let backButtonView: UIView? = UIView(frame: CGRect(0, 0, 500, 59))
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            backButtonView?.frame = CGRect(0, 0, UIScreen.main.bounds.width/2, 59)
+        }else{
+            
+        }
         backButtonView?.backgroundColor = UIColor.clear
+//        backButtonView?.backgroundColor = UIColor.red
        
         // BackButton Button
         let backbuttonImage: UIImage? = UIImage(named: "Back-ArrowRED")
@@ -117,69 +171,6 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         self.navigationItem.leftBarButtonItem  = myCustomBackButtonItem
       
         backButton.setBackgroundImage(backbuttonImage, for: UIControl.State.normal)
-        
-        // Right menu: Phase list
-        // Phase View Container
-        let phaseListButtonView: UIView?
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseListButtonView = UIView(frame: CGRect(0, 0, UIScreen.main.bounds.width/5, 59))
-        }else{
-            phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
-        }
-        phaseListButtonView?.backgroundColor = UIColor.clear
-        
-        // Down Button image
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            downImageView = UIImageView(frame:CGRect(130, 22, 8, 7));
-        }else{
-            downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
-        }
-        
-        downImageView!.image = UIImage(named:"down-arrowRED")
-       
-        phaseListButtonView?.addSubview(downImageView!)
-        
-        let downButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
-        downButton.frame = CGRect(0, 0, 500, 59)
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            downButton.frame = CGRect(0, 0, UIScreen.main.bounds.width/3, 49)
-            //downButton.semanticContentAttribute = .forceRightToLeft
-        }else{
-            downButton.frame = CGRect(0, 0, 500, 59)
-        }
-        downButton.addTarget(self, action: #selector(showPhaseList), for: UIControl.Event.touchUpInside)
-        downButton.setTitle("", for: UIControl.State.normal)
-        downButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
-        downButton.backgroundColor = UIColor.clear
-        phaseListButtonView?.addSubview(downButton)
-        
-        // DownButton Label
-
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel = UILabel(frame: CGRect(-110, -2, UIScreen.main.bounds.width/3, 49))
-        }else{
-            phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
-        }
-        phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE_IPHONE)
-        }
-        phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
-        phaseButtonLabel?.textAlignment = .right
-        if(UIDevice.current.userInterfaceIdiom == .phone){
-            phaseButtonLabel?.textAlignment = .right
-            print("frame phaseButton",phaseButtonLabel?.frame.width)
-            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width-98 , 20, 8, 7)
-        }
-        phaseButtonLabel?.backgroundColor = UIColor.clear
-        phaseButtonLabel?.adjustsFontSizeToFitWidth = true
-        
-        phaseListButtonView?.addSubview(phaseButtonLabel!)
-        
-        
-        let downButtonItem:UIBarButtonItem = UIBarButtonItem(customView: phaseListButtonView!)
-        self.navigationItem.setRightBarButton(downButtonItem, animated: true)
-        
         switch animationIndex {
             
         case 0:
@@ -203,6 +194,112 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             scene = CoagulationCascadeCoagulationCascadeScene()
             backButtonLabel?.text = "Coagulation Cascade"
         }
+    }
+//
+    // MARK: Override bloc
+    override func viewDidAppear(_ animated: Bool) {
+    print("viewDidAppear",UIScreen.main.bounds.width)
+      super.viewDidAppear(animated)
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        UIView.setAnimationsEnabled(true)
+        reloadloadRightButton()
+//        loadRightButton()
+//        phaseButtonLabel?.frame =  CGRect(-210, -2, UIScreen.main.bounds.width/3, 49)
+//        downImageView?.frame = CGRect(phaseButtonLabel!.frame.width-198 , 20, 8, 7)
+    
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        print("viewDidLoad")
+        // Set the orientation to always landscape
+//        let orient = UIApplication.shared.statusBarOrientation
+//        switch orient {
+//        case .landscapeLeft:
+//            break
+//        case .landscapeRight:
+//            break
+//        default:
+//            let value = UIInterfaceOrientation.landscapeLeft.rawValue
+//            UIDevice.current.setValue(value, forKey: "orientation")
+//        }
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        
+        // Left menu: Phase list
+        //let backButton: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "Back-ArrowRED"), style: .Plain, target: self, action: "backButtonAction")
+        //backButton.setTitleTextAttributes([NSFontAttributeName : UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)!,
+         //   NSForegroundColorAttributeName : Utils.colorWithHexString(Utils.RED_COLOR)], forState: UIControlState.Normal)
+        
+        
+        // BackButton View Container
+      
+        loadLeftButton()
+        loadRightButton()
+        // Right menu: Phase list
+        // Phase View Container
+//        let phaseListButtonView: UIView?
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            phaseListButtonView = UIView(frame: CGRect(0, 0, UIScreen.main.bounds.width/5, 59))
+//        }else{
+//            phaseListButtonView =  UIView(frame: CGRect(0, 0, 500, 59))
+//        }
+//        phaseListButtonView?.backgroundColor = UIColor.clear
+//
+//        // Down Button image
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            downImageView = UIImageView(frame:CGRect(130, 22, 8, 7));
+//        }else{
+//            downImageView = UIImageView(frame:CGRect(470, 25, 13, 12));
+//        }
+//
+//        downImageView!.image = UIImage(named:"down-arrowRED")
+//
+//        phaseListButtonView?.addSubview(downImageView!)
+//
+//        let downButton:UIButton = UIButton(type: UIButton.ButtonType.custom) as UIButton
+//        downButton.frame = CGRect(0, 0, 500, 59)
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            downButton.frame = CGRect(0, 0, UIScreen.main.bounds.width/3, 49)
+//            //downButton.semanticContentAttribute = .forceRightToLeft
+//        }else{
+//            downButton.frame = CGRect(0, 0, 500, 59)
+//        }
+//        downButton.addTarget(self, action: #selector(showPhaseList), for: UIControl.Event.touchUpInside)
+//        downButton.setTitle("", for: UIControl.State.normal)
+//        downButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
+//        downButton.backgroundColor = UIColor.clear
+//        phaseListButtonView?.addSubview(downButton)
+//
+//        // DownButton Label
+//
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            phaseButtonLabel = UILabel(frame: CGRect(-110, -2, UIScreen.main.bounds.width/3, 49))
+//        }else{
+//            phaseButtonLabel = UILabel(frame: CGRect(50, 0, 400, 59))
+//        }
+//        phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE)
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            phaseButtonLabel?.font  = UIFont(name: Utils.SCREEN_TITLE_FONT_NAME, size: Utils.SCREEN_TITLE_FONT_SIZE_IPHONE)
+//        }
+//        phaseButtonLabel?.textColor = Utils.colorWithHexString(hex: Utils.RED_COLOR)
+//        phaseButtonLabel?.textAlignment = .right
+//        if(UIDevice.current.userInterfaceIdiom == .phone){
+//            phaseButtonLabel?.textAlignment = .right
+//            print("frame phaseButton",phaseButtonLabel?.frame.width)
+//            downImageView?.frame = CGRect(phaseButtonLabel!.frame.width-98 , 20, 8, 7)
+//        }
+//        phaseButtonLabel?.backgroundColor = UIColor.clear
+//        phaseButtonLabel?.adjustsFontSizeToFitWidth = true
+//
+//        phaseListButtonView?.addSubview(phaseButtonLabel!)
+//
+//
+//        let downButtonItem:UIBarButtonItem = UIBarButtonItem(customView: phaseListButtonView!)
+//        self.navigationItem.setRightBarButton(downButtonItem, animated: true)
+        
+       
         scene.sceneDelegate = self
         currentSceneData = scene.sceneData
         
@@ -244,7 +341,6 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         scene.isExclusiveTouch = true
         sceneView!.isUserInteractionEnabled = true
         sceneView!.isExclusiveTouch = true
-        
         phaseButtonLabel!.text = ""
         downImageView!.isHidden = true
         
@@ -317,7 +413,15 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
             }
         }
     }
-
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            UIView.setAnimationsEnabled(false)
+            UIDevice.current.setValue(UIInterfaceOrientation.landscapeLeft.rawValue, forKey: "orientation")
+           // UIView.setAnimationsEnabled(true)
+            print("viewDidTransition")
+            reloadloadRightButton()
+        }
+    }
     func attributedText(text: String)->NSAttributedString {
         let attributedString = NSMutableAttributedString(string: text as String, attributes: [NSAttributedString.Key.font:UIFont.systemFont(ofSize: 14.0)])
         let boldFontAttribute = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 14.0)]
@@ -354,7 +458,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
 //        self.currentZoom = scale
         let h = UIScreen.main.bounds.height;
         let w = UIScreen.main.bounds.width;
-//        print("zoom:\(scale) | pic:\(self.pic) ")
+        print("zoom:\(scale) | pic:\(self.pic) ")
         if (scale > 2.0) {
             scale = CGFloat(2.0)
             self.currentZoom = 2.0
@@ -389,7 +493,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
         self.previousZoom = self.currentZoom
       
        
-//        print("pic:",self.pic)
+//
 //        print("pic:",self.pic)
         if(pic == 2){
     //            if(self.previousZoom>=self.currentZoom){
