@@ -36,10 +36,11 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
     var sceneTimer = Timer()
     var sceneFileName = String()
     var isPlaying : Bool = false
+    var hasMoved : Bool = false
     var animationIndex: Int = 0
     var currentTimeline: Float = 0.0
     var currentZoom: CGFloat = 1.0
-    var currentDeZoom: CGFloat = 2.0
+    var currentDeZoom: CGFloat = 1.0
     var previousZoom: CGFloat = 1.0
     var pic: CGFloat = 1.0
     var previousZoomScale: CGFloat = 0.0
@@ -458,61 +459,75 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
 //        self.currentZoom = scale
         let h = UIScreen.main.bounds.height;
         let w = UIScreen.main.bounds.width;
-        print("zoom:\(scale) | pic:\(self.pic) ")
+//        print("zoom:\(scale) | pic:\(self.pic) | dezoom:\(self.currentDeZoom) | zoom:\(self.currentZoom) ")
         if (scale > 2.0) {
             scale = CGFloat(2.0)
             self.currentZoom = 2.0
+            self.currentDeZoom = self.currentZoom
             self.pic = 2
+            print("zoomMax:\(self.currentZoom )")
             
+           
         }
         else if (scale < 1.0) {
+        // DEZOOM
+            
             
 //            let diff:CGFloat = 1.0 - scale;
-//            scale = CGFloat(1.0)
-//
-//            self.currentDeZoom = self.currentDeZoom - 0.01
-//            if(self.currentDeZoom <= 1.0){
-//                self.currentZoom = 1.0
-//
-//                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
-//                self.sceneView!.center = CGPoint(333.5*w/667,167*h/375)
+            print("dezoom:\(self.currentDeZoom )")
+
+            self.currentDeZoom = self.currentDeZoom - 0.0085
+            if(self.currentDeZoom <= 1.0){
+                self.currentDeZoom = 1.0
+                self.pic = 1.0
+                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0);
+                self.sceneView!.center = CGPoint(333.5*w/667,167*h/375)
+                self.hasMoved = false
 //                print("tonga")
-//
-//            }else{
-//                print("mihena ",self.currentDeZoom)
-//                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentDeZoom ,y: self.currentDeZoom)
-//            }
-           
+
+            }else{
+              
+                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: self.currentDeZoom ,y: self.currentDeZoom)
+                if(self.hasMoved){
+                    self.sceneView!.center = CGPoint(333.5*self.currentDeZoom*w/667,167*h*self.currentDeZoom/375)
+                }
+               
                 
+            }
+            self.currentZoom = self.currentDeZoom
+            self.pic = self.currentZoom
+//
+          
             
          
            
         }else{
+            //ZOOM
+            print("zoom:\(scale)")
+            self.currentZoom = scale
             self.currentDeZoom = self.currentZoom
+            
+            //        print("pic:",self.pic)
+                    if(pic == 2){
+                //            if(self.previousZoom>=self.currentZoom){
+                //                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
+                //            }
+                        
+                    }
+                    else if(self.pic<scale){
+                        self.pic = scale
+                        self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale ,y: scale)
+                        
+                    }else{
+                     
+                       
+                    }
         }
-        self.previousZoom = self.currentZoom
+      
       
        
 //
-//        print("pic:",self.pic)
-        if(pic == 2){
-    //            if(self.previousZoom>=self.currentZoom){
-    //                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
-    //            }
-            
-        }
-        else if(self.pic<scale){
-           
-            self.pic = scale
-            self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale ,y: scale)
-            
-        }else{
-         
-            if(self.previousZoom<self.currentZoom){
-                print("eto nigga")
-                self.sceneView!.transform = CGAffineTransform.identity.scaledBy(x: scale, y: scale)
-            }
-        }
+        
         
         
         
@@ -891,12 +906,17 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
 //                infoSequenceView?.isHidden = false
 //            }
 //        }
-        if isPlaying {
-            self.pauseScene()
+        if(UIDevice.current.userInterfaceIdiom == .phone){
+            
+        }else{
+            if isPlaying {
+                self.pauseScene()
+            }
+            else {
+                self.playScene()
+            }
         }
-        else {
-            self.playScene()
-        }
+      
     }
     
     @IBAction func infoNodeSequenceButton(sender: UIButton) {
@@ -918,6 +938,7 @@ class CoagulationCascadePlayerViewController: UIViewController, ParentSceneDeleg
 //        print("height: \(h) ")
         if currentZoom >= 2.0 {
             let translation = recognizer.translation(in: self.view)
+            self.hasMoved = true
             if let view = recognizer.view {
                 if view.frame.origin.x >= -10 {
                     _x = -3.0
