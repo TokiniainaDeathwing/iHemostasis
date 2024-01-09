@@ -22,6 +22,7 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var buttonFour: UIButton?
     @IBOutlet weak var buttonFive: UIButton?
     @IBOutlet weak var buttonSix: UIButton?
+    @IBOutlet weak var buttonEight: UIButton?
     @IBOutlet weak var buttonSeven: UIButton!
     
     
@@ -33,6 +34,7 @@ class PracticalManualViewController: ParentViewController {
     @IBOutlet weak var viewFive: UIView?
     @IBOutlet weak var viewSix: UIView?
     @IBOutlet weak var viewSeven: UIView!
+    @IBOutlet weak var viewEight: UIView?
     @IBOutlet weak var haemoscoreAppLabel: UILabel?
     
     @IBOutlet var scrollView: UIScrollView!
@@ -110,6 +112,18 @@ class PracticalManualViewController: ParentViewController {
 
     
     ]
+    private let praticalManualChaptersEight=[
+    ["description":"", "title":"Platelets – the cellular bridge between coagulation and inflammation", "colour":"#dd7536", "author":"Laura C. Godin, Milan Heck, Maneesha Subha, Craig N. Jenne", "entity": "Department of Microbiology and Immunology and Infectious disease, University of Calgary,AB, Canada"],
+    ["description":"", "title":"DAMPs and PAMPs in immunothrombosis", "colour":"#00a4d8", "author":"Julie Rayes", "entity": "Institute of Cardiovascular Sciences,College of Medical and Dental Sciences, University of Birmingham, Birmingham, England"],
+    ["description":"", "title":"The role of endothelial dysregulation in immunothrombosis", "colour":"#634586", "author":"Roger J.S. Preston", "entity": "Irish Centre for Vascular Biology, School of Pharmacy and Biomolecular Sciences,\nRoyal College of Surgeons in Ireland,\nDublin,Ireland"],
+    ["description":"", "title":"Interplay of innate immunity with fibrinolysis", "colour":"#6f6147", "author":"Claire S. Whyte", "entity": "Aberdeen Cardiovascular & Diabetes Centre, Institute of Medical Sciences, School of Medicine, Medical Sciences and Nutrition, University of Aberdeen, Aberdeen, Scotland"],
+    ["description":"", "title":"The diagnostic value of C-Reactive Protein in immunothrombosis", "colour":"#a9332b", "author":"James D. McFadyen, Johannes Zeller and Karlheinz Peter", "entity": "Baker Heart and Diabetes Institute,Melbourne, VIC, Australia"],
+    ["description":"", "title":"COVID-19: From respiratory infection to immunothrombotic disease", "colour":"#437cb0", "author":"Frederik Denorme", "entity": "Diagnostic Hematology, University Hospital Basel,\nBasel, Switzerland"],
+    ["description":"", "title":"Immunothrombotic complications in sepsis in sepsis", "colour":"#a0ba5d", "author":"Waltraud C. Schrottmaier and Alice Assinger", "entity": "Department of Vascular Biology and Thrombosis Research, Medical University of Vienna,Austria"],
+    ["description":"", "title":"The cast of NETs over arterial and venous thrombosis", "colour":"#8e4989", "author":"Sara Zalghout and Kimberly Martinod", "entity": "Department of Cardiovascular Sciences, Katholieke Universiteit Leuven, Belgium"],
+    ["description":"", "title":"Existing and novel technologies for identifying immunothrombosis", "colour":"#1d6c40", "author":"Simon Abrams", "entity": "Department of Clinical Infection, Microbiology and Immunology, University of Liverpool, England"],
+    
+    ]
     
     
     override func viewDidAppear(_ animated: Bool) {
@@ -150,10 +164,12 @@ class PracticalManualViewController: ParentViewController {
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(71, 1600)
+            viewThree?.frame.origin = CGPoint(447, 1600)
             //viewThree?.frame.origin = CGPoint(447, 1100)
             viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
+            viewEight?.frame.origin = CGPoint(71, 1600)
+            
             scrollView?.contentSize = CGSize(scrollView.frame.size.height,2000);
         default:
             viewOne?.frame.origin = CGPoint(50, 69)
@@ -163,8 +179,9 @@ class PracticalManualViewController: ParentViewController {
             viewSix?.frame.origin = CGPoint(371, 542)
             //viewThree?.frame.origin=CGPoint(691,542)
             viewSeven?.frame.origin=CGPoint(691,542)
-            viewThree?.frame.origin=CGPoint(50,1000)
-            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1400);
+            viewThree?.frame.origin=CGPoint(371,1000)
+            viewEight?.frame.origin=CGPoint(50,1000)
+            scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1000);
         }
     }
     
@@ -179,7 +196,8 @@ class PracticalManualViewController: ParentViewController {
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(71, 1600)
+            viewThree?.frame.origin = CGPoint(447, 1600)
+            viewEight?.frame.origin = CGPoint(71, 1600)
             //viewThree?.frame.origin = CGPoint(447, 1100)
             viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
@@ -190,7 +208,8 @@ class PracticalManualViewController: ParentViewController {
             //viewFour?.frame.origin = CGPoint(71, 552)
             viewFive?.frame.origin = CGPoint(447, 552)
             viewSix?.frame.origin = CGPoint(71, 1100)
-            viewThree?.frame.origin = CGPoint(71, 1600)
+            viewThree?.frame.origin = CGPoint(447, 1600)
+            viewEight?.frame.origin = CGPoint(71, 1600)
             //viewThree?.frame.origin = CGPoint(447, 1100)
             viewSeven?.frame.origin = CGPoint(447, 1100)
             viewFour?.frame.origin=CGPoint(71,552)
@@ -203,7 +222,8 @@ class PracticalManualViewController: ParentViewController {
             viewSix?.frame.origin = CGPoint(371, 542)
             //viewThree?.frame.origin=CGPoint(691,542)
             viewSeven?.frame.origin=CGPoint(691,542)
-            viewThree?.frame.origin=CGPoint(50,1000)
+            viewThree?.frame.origin=CGPoint(371,1000)
+            viewEight?.frame.origin=CGPoint(50,1000)
             scrollView?.contentSize = CGSize(scrollView.frame.size.width, 1400);
             
             //isLandscape = true
@@ -302,6 +322,13 @@ class PracticalManualViewController: ParentViewController {
             practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersSeven
             practicalManualChapterViewController.setScreenTitle(title: "Venous Thromboembolism")
             practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Livre6
+            self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
+            self.navigationController!.navigationBar.topItem?.title = "     "
+        }
+        else if (target == buttonEight){
+            practicalManualChapterViewController.practicalManualChapters = praticalManualChaptersEight
+            practicalManualChapterViewController.setScreenTitle(title: "Immunothrombosis")
+            practicalManualChapterViewController.practicalManualType = Utils.PracticalManualType.Immuno
             self.navigationController!.pushViewController(practicalManualChapterViewController, animated: true)
             self.navigationController!.navigationBar.topItem?.title = "     "
         }

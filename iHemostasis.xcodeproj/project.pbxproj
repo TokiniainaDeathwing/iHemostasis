@@ -491,6 +491,264 @@
 		23AA1D1126651A9300EDBEF8 /* venousb10.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AA1D0726651A9300EDBEF8 /* venousb10.png */; };
 		23AA1D1226651A9300EDBEF8 /* venousb7.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AA1D0826651A9300EDBEF8 /* venousb7.png */; };
 		23C78FCC25BEC86900920ADD /* Main-iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C78FCA25BEC86800920ADD /* Main-iphone.storyboard */; };
+		23D9EAC12B4BD1EB00FED029 /* immunochap1.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EABF2B4BD1EA00FED029 /* immunochap1.html */; };
+		23D9EAC22B4BD1EB00FED029 /* immunochap1 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EAC02B4BD1EB00FED029 /* immunochap1 copy.html */; };
+		23D9EAE72B4BD5B500FED029 /* immuno13.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EAE52B4BD5B400FED029 /* immuno13.png */; };
+		23D9EAE82B4BD5B500FED029 /* immuno14.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EAE62B4BD5B500FED029 /* immuno14.png */; };
+		23D9EB082B4BDAA800FED029 /* immunotab11.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB072B4BDAA700FED029 /* immunotab11.png */; };
+		23D9EB0A2B4BDAC400FED029 /* immunofig11.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB092B4BDAC400FED029 /* immunofig11.png */; };
+		23D9EB0C2B4BE05100FED029 /* immuno15.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB0B2B4BE05100FED029 /* immuno15.png */; };
+		23D9EB1B2B4BE2FC00FED029 /* immuno18.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB0E2B4BE2F500FED029 /* immuno18.png */; };
+		23D9EB1C2B4BE2FC00FED029 /* immuno19.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB0F2B4BE2F500FED029 /* immuno19.png */; };
+		23D9EB1F2B4BE2FC00FED029 /* immuno16.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB122B4BE2F700FED029 /* immuno16.png */; };
+		23D9EB242B4BE2FC00FED029 /* immuno17.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB172B4BE2FB00FED029 /* immuno17.png */; };
+		23D9EB312B4BE54400FED029 /* immuno24.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB272B4BE53A00FED029 /* immuno24.png */; };
+		23D9EB322B4BE54400FED029 /* immuno20.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB282B4BE53B00FED029 /* immuno20.png */; };
+		23D9EB332B4BE54400FED029 /* immuno21.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB292B4BE53C00FED029 /* immuno21.png */; };
+		23D9EB342B4BE54400FED029 /* immuno27.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2A2B4BE53C00FED029 /* immuno27.png */; };
+		23D9EB352B4BE54400FED029 /* immuno22.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2B2B4BE53E00FED029 /* immuno22.png */; };
+		23D9EB362B4BE54500FED029 /* immuno26.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2C2B4BE53F00FED029 /* immuno26.png */; };
+		23D9EB372B4BE54500FED029 /* immuno23.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2D2B4BE54000FED029 /* immuno23.png */; };
+		23D9EB382B4BE54500FED029 /* immuno25.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2E2B4BE54100FED029 /* immuno25.png */; };
+		23D9EB392B4BE54500FED029 /* immuno28.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB2F2B4BE54200FED029 /* immuno28.png */; };
+		23D9EB3A2B4BE54500FED029 /* immuno29.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB302B4BE54300FED029 /* immuno29.png */; };
+		23D9EB542B4BEA0F00FED029 /* immunoc24.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB3B2B4BEA0200FED029 /* immunoc24.png */; };
+		23D9EB552B4BEA0F00FED029 /* immunoc220.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB3C2B4BEA0300FED029 /* immunoc220.png */; };
+		23D9EB562B4BEA0F00FED029 /* immunoc225.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB3D2B4BEA0300FED029 /* immunoc225.png */; };
+		23D9EB572B4BEA0F00FED029 /* immunoc23.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB3E2B4BEA0400FED029 /* immunoc23.png */; };
+		23D9EB582B4BEA0F00FED029 /* immunoc212.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB3F2B4BEA0400FED029 /* immunoc212.png */; };
+		23D9EB592B4BEA0F00FED029 /* immunoc221.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB402B4BEA0500FED029 /* immunoc221.png */; };
+		23D9EB5A2B4BEA0F00FED029 /* immunoc211.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB412B4BEA0500FED029 /* immunoc211.png */; };
+		23D9EB5B2B4BEA0F00FED029 /* immunoc213.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB422B4BEA0600FED029 /* immunoc213.png */; };
+		23D9EB5C2B4BEA0F00FED029 /* immunoc223.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB432B4BEA0600FED029 /* immunoc223.png */; };
+		23D9EB5D2B4BEA0F00FED029 /* immunoc27.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB442B4BEA0600FED029 /* immunoc27.png */; };
+		23D9EB5E2B4BEA0F00FED029 /* immunoc26.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB452B4BEA0700FED029 /* immunoc26.png */; };
+		23D9EB5F2B4BEA0F00FED029 /* immunoc216.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB462B4BEA0800FED029 /* immunoc216.png */; };
+		23D9EB602B4BEA0F00FED029 /* immunoc214.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB472B4BEA0800FED029 /* immunoc214.png */; };
+		23D9EB612B4BEA0F00FED029 /* immunoc222.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB482B4BEA0800FED029 /* immunoc222.png */; };
+		23D9EB622B4BEA0F00FED029 /* immunoc224.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB492B4BEA0900FED029 /* immunoc224.png */; };
+		23D9EB632B4BEA0F00FED029 /* immunoc22.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4A2B4BEA0A00FED029 /* immunoc22.png */; };
+		23D9EB642B4BEA0F00FED029 /* immunoc215.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4B2B4BEA0A00FED029 /* immunoc215.png */; };
+		23D9EB652B4BEA0F00FED029 /* immunoc28.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4C2B4BEA0B00FED029 /* immunoc28.png */; };
+		23D9EB662B4BEA0F00FED029 /* immunoc29.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4D2B4BEA0B00FED029 /* immunoc29.png */; };
+		23D9EB672B4BEA0F00FED029 /* immunoc217.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4E2B4BEA0C00FED029 /* immunoc217.png */; };
+		23D9EB682B4BEA0F00FED029 /* immunoc25.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB4F2B4BEA0C00FED029 /* immunoc25.png */; };
+		23D9EB692B4BEA0F00FED029 /* immunoc210.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB502B4BEA0D00FED029 /* immunoc210.png */; };
+		23D9EB6A2B4BEA0F00FED029 /* immunoc218.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB512B4BEA0D00FED029 /* immunoc218.png */; };
+		23D9EB6B2B4BEA0F00FED029 /* immunoc21.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB522B4BEA0E00FED029 /* immunoc21.png */; };
+		23D9EB6C2B4BEA0F00FED029 /* immunoc219.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB532B4BEA0E00FED029 /* immunoc219.png */; };
+		23D9EB702B4BEA9F00FED029 /* immunoc2fig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB6D2B4BEA9E00FED029 /* immunoc2fig2.png */; };
+		23D9EB712B4BEA9F00FED029 /* immunoc2fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB6E2B4BEA9E00FED029 /* immunoc2fig1.png */; };
+		23D9EB722B4BEA9F00FED029 /* immunoc2fig3.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB6F2B4BEA9F00FED029 /* immunoc2fig3.png */; };
+		23D9EB962B4BEFC100FED029 /* immunoc318.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB732B4BEFAE00FED029 /* immunoc318.png */; };
+		23D9EB972B4BEFC100FED029 /* immunoc333.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB742B4BEFAE00FED029 /* immunoc333.png */; };
+		23D9EB982B4BEFC100FED029 /* immunoc329.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB752B4BEFAF00FED029 /* immunoc329.png */; };
+		23D9EB992B4BEFC100FED029 /* immunoc36.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB762B4BEFAF00FED029 /* immunoc36.png */; };
+		23D9EB9A2B4BEFC100FED029 /* immunoc326.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB772B4BEFB000FED029 /* immunoc326.png */; };
+		23D9EB9B2B4BEFC100FED029 /* immunoc312.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB782B4BEFB000FED029 /* immunoc312.png */; };
+		23D9EB9C2B4BEFC100FED029 /* immunoc330.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB792B4BEFB100FED029 /* immunoc330.png */; };
+		23D9EB9D2B4BEFC100FED029 /* immunoc321.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7A2B4BEFB200FED029 /* immunoc321.png */; };
+		23D9EB9E2B4BEFC100FED029 /* immunoc32.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7B2B4BEFB200FED029 /* immunoc32.png */; };
+		23D9EB9F2B4BEFC100FED029 /* immunoc320.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7C2B4BEFB300FED029 /* immunoc320.png */; };
+		23D9EBA02B4BEFC100FED029 /* immunoc310.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7D2B4BEFB300FED029 /* immunoc310.png */; };
+		23D9EBA12B4BEFC100FED029 /* immunoc315.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7E2B4BEFB400FED029 /* immunoc315.png */; };
+		23D9EBA22B4BEFC100FED029 /* immunoc313.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB7F2B4BEFB400FED029 /* immunoc313.png */; };
+		23D9EBA32B4BEFC100FED029 /* immunoc317.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB802B4BEFB500FED029 /* immunoc317.png */; };
+		23D9EBA42B4BEFC100FED029 /* immunoc325.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB812B4BEFB500FED029 /* immunoc325.png */; };
+		23D9EBA52B4BEFC100FED029 /* immunoc327.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB822B4BEFB600FED029 /* immunoc327.png */; };
+		23D9EBA62B4BEFC100FED029 /* immunoc35.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB832B4BEFB700FED029 /* immunoc35.png */; };
+		23D9EBA72B4BEFC100FED029 /* immunoc311.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB842B4BEFB700FED029 /* immunoc311.png */; };
+		23D9EBA82B4BEFC100FED029 /* immunoc33.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB852B4BEFB800FED029 /* immunoc33.png */; };
+		23D9EBA92B4BEFC100FED029 /* immunoc39.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB862B4BEFB900FED029 /* immunoc39.png */; };
+		23D9EBAA2B4BEFC100FED029 /* immunoc322.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB872B4BEFB900FED029 /* immunoc322.png */; };
+		23D9EBAB2B4BEFC100FED029 /* immunoc328.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB882B4BEFBA00FED029 /* immunoc328.png */; };
+		23D9EBAC2B4BEFC100FED029 /* immunoc331.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB892B4BEFBB00FED029 /* immunoc331.png */; };
+		23D9EBAD2B4BEFC100FED029 /* immunoc314.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8A2B4BEFBB00FED029 /* immunoc314.png */; };
+		23D9EBAE2B4BEFC100FED029 /* immunoc38.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8B2B4BEFBC00FED029 /* immunoc38.png */; };
+		23D9EBAF2B4BEFC100FED029 /* immunoc31.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8C2B4BEFBC00FED029 /* immunoc31.png */; };
+		23D9EBB02B4BEFC100FED029 /* immunoc3fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8D2B4BEFBD00FED029 /* immunoc3fig1.png */; };
+		23D9EBB12B4BEFC100FED029 /* immunoc319.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8E2B4BEFBE00FED029 /* immunoc319.png */; };
+		23D9EBB22B4BEFC100FED029 /* immunoc323.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB8F2B4BEFBE00FED029 /* immunoc323.png */; };
+		23D9EBB32B4BEFC100FED029 /* immunoc334.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB902B4BEFBE00FED029 /* immunoc334.png */; };
+		23D9EBB42B4BEFC100FED029 /* immunoc37.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB912B4BEFBF00FED029 /* immunoc37.png */; };
+		23D9EBB52B4BEFC100FED029 /* immunoc316.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB922B4BEFBF00FED029 /* immunoc316.png */; };
+		23D9EBB62B4BEFC200FED029 /* immunoc324.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB932B4BEFC000FED029 /* immunoc324.png */; };
+		23D9EBB72B4BEFC200FED029 /* immunoc332.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB942B4BEFC000FED029 /* immunoc332.png */; };
+		23D9EBB82B4BEFC200FED029 /* immunoc34.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EB952B4BEFC100FED029 /* immunoc34.png */; };
+		23D9EBD82B4BF3ED00FED029 /* immunoc48.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBB92B4BF3DE00FED029 /* immunoc48.png */; };
+		23D9EBD92B4BF3ED00FED029 /* immunoc49.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBA2B4BF3DE00FED029 /* immunoc49.png */; };
+		23D9EBDA2B4BF3ED00FED029 /* immunoc410.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBB2B4BF3DE00FED029 /* immunoc410.png */; };
+		23D9EBDB2B4BF3ED00FED029 /* immunoc429.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBC2B4BF3DF00FED029 /* immunoc429.png */; };
+		23D9EBDC2B4BF3ED00FED029 /* immunoc46.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBD2B4BF3E000FED029 /* immunoc46.png */; };
+		23D9EBDD2B4BF3ED00FED029 /* immunoc43.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBE2B4BF3E000FED029 /* immunoc43.png */; };
+		23D9EBDE2B4BF3ED00FED029 /* immunoc42.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBBF2B4BF3E100FED029 /* immunoc42.png */; };
+		23D9EBDF2B4BF3ED00FED029 /* immunoc424.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC02B4BF3E100FED029 /* immunoc424.png */; };
+		23D9EBE02B4BF3ED00FED029 /* immunoc425.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC12B4BF3E200FED029 /* immunoc425.png */; };
+		23D9EBE12B4BF3ED00FED029 /* immunoc44.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC22B4BF3E200FED029 /* immunoc44.png */; };
+		23D9EBE22B4BF3ED00FED029 /* immunoc4fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC32B4BF3E300FED029 /* immunoc4fig1.png */; };
+		23D9EBE32B4BF3ED00FED029 /* immunoc418.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC42B4BF3E300FED029 /* immunoc418.png */; };
+		23D9EBE42B4BF3ED00FED029 /* immunoc412.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC52B4BF3E300FED029 /* immunoc412.png */; };
+		23D9EBE52B4BF3ED00FED029 /* immunoc421.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC62B4BF3E400FED029 /* immunoc421.png */; };
+		23D9EBE62B4BF3ED00FED029 /* immunoc47.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC72B4BF3E400FED029 /* immunoc47.png */; };
+		23D9EBE72B4BF3ED00FED029 /* immunoc411.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC82B4BF3E500FED029 /* immunoc411.png */; };
+		23D9EBE82B4BF3ED00FED029 /* immunoc423.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBC92B4BF3E600FED029 /* immunoc423.png */; };
+		23D9EBE92B4BF3ED00FED029 /* immunoc414.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCA2B4BF3E600FED029 /* immunoc414.png */; };
+		23D9EBEA2B4BF3ED00FED029 /* immunoc417.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCB2B4BF3E700FED029 /* immunoc417.png */; };
+		23D9EBEB2B4BF3ED00FED029 /* immunoc419.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCC2B4BF3E700FED029 /* immunoc419.png */; };
+		23D9EBEC2B4BF3ED00FED029 /* immunoc413.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCD2B4BF3E800FED029 /* immunoc413.png */; };
+		23D9EBED2B4BF3ED00FED029 /* immunoc427.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCE2B4BF3E800FED029 /* immunoc427.png */; };
+		23D9EBEE2B4BF3ED00FED029 /* immunoc41.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBCF2B4BF3E900FED029 /* immunoc41.png */; };
+		23D9EBEF2B4BF3ED00FED029 /* immunoc415.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD02B4BF3E900FED029 /* immunoc415.png */; };
+		23D9EBF02B4BF3ED00FED029 /* immunoc426.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD12B4BF3EA00FED029 /* immunoc426.png */; };
+		23D9EBF12B4BF3ED00FED029 /* immunoc416.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD22B4BF3EA00FED029 /* immunoc416.png */; };
+		23D9EBF22B4BF3ED00FED029 /* immunoc422.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD32B4BF3EB00FED029 /* immunoc422.png */; };
+		23D9EBF32B4BF3ED00FED029 /* immunoc420.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD42B4BF3EB00FED029 /* immunoc420.png */; };
+		23D9EBF42B4BF3ED00FED029 /* immunoc428.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD52B4BF3EC00FED029 /* immunoc428.png */; };
+		23D9EBF52B4BF3ED00FED029 /* immunoc4fig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD62B4BF3EC00FED029 /* immunoc4fig2.png */; };
+		23D9EBF62B4BF3ED00FED029 /* immunoc45.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBD72B4BF3ED00FED029 /* immunoc45.png */; };
+		23D9EC092B4C005400FED029 /* immunoc510.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBF72B4C004B00FED029 /* immunoc510.png */; };
+		23D9EC0A2B4C005400FED029 /* immunoc514.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBF82B4C004C00FED029 /* immunoc514.png */; };
+		23D9EC0B2B4C005400FED029 /* immunoc512.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBF92B4C004C00FED029 /* immunoc512.png */; };
+		23D9EC0C2B4C005400FED029 /* immunoc59.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFA2B4C004D00FED029 /* immunoc59.png */; };
+		23D9EC0D2B4C005400FED029 /* immunoc57.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFB2B4C004E00FED029 /* immunoc57.png */; };
+		23D9EC0E2B4C005400FED029 /* immunoc53.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFC2B4C004E00FED029 /* immunoc53.png */; };
+		23D9EC0F2B4C005400FED029 /* immunoc5fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFD2B4C004F00FED029 /* immunoc5fig1.png */; };
+		23D9EC102B4C005400FED029 /* immunoc5tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFE2B4C004F00FED029 /* immunoc5tab1.png */; };
+		23D9EC112B4C005400FED029 /* immunoc56.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EBFF2B4C004F00FED029 /* immunoc56.png */; };
+		23D9EC122B4C005400FED029 /* immunoc54.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC002B4C005000FED029 /* immunoc54.png */; };
+		23D9EC132B4C005400FED029 /* immunoc511.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC012B4C005100FED029 /* immunoc511.png */; };
+		23D9EC142B4C005400FED029 /* immunoc513.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC022B4C005100FED029 /* immunoc513.png */; };
+		23D9EC152B4C005400FED029 /* immunoc515.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC032B4C005200FED029 /* immunoc515.png */; };
+		23D9EC162B4C005400FED029 /* immunoc516.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC042B4C005200FED029 /* immunoc516.png */; };
+		23D9EC172B4C005400FED029 /* immunoc52.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC052B4C005300FED029 /* immunoc52.png */; };
+		23D9EC182B4C005400FED029 /* immunoc58.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC062B4C005300FED029 /* immunoc58.png */; };
+		23D9EC192B4C005400FED029 /* immunoc51.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC072B4C005400FED029 /* immunoc51.png */; };
+		23D9EC1A2B4C005400FED029 /* immunoc55.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC082B4C005400FED029 /* immunoc55.png */; };
+		23D9EC322B4C03D200FED029 /* immunoc66.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC1B2B4C03C500FED029 /* immunoc66.png */; };
+		23D9EC332B4C03D200FED029 /* immunoc61.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC1C2B4C03C500FED029 /* immunoc61.png */; };
+		23D9EC342B4C03D200FED029 /* immunoc65.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC1D2B4C03C600FED029 /* immunoc65.png */; };
+		23D9EC352B4C03D200FED029 /* immunoc611.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC1E2B4C03C600FED029 /* immunoc611.png */; };
+		23D9EC362B4C03D200FED029 /* immunoc615.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC1F2B4C03C700FED029 /* immunoc615.png */; };
+		23D9EC372B4C03D200FED029 /* immunoc620.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC202B4C03C800FED029 /* immunoc620.png */; };
+		23D9EC382B4C03D200FED029 /* immunoc69.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC212B4C03C800FED029 /* immunoc69.png */; };
+		23D9EC392B4C03D200FED029 /* immunoc6fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC222B4C03C900FED029 /* immunoc6fig1.png */; };
+		23D9EC3A2B4C03D200FED029 /* immunoc64.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC232B4C03C900FED029 /* immunoc64.png */; };
+		23D9EC3B2B4C03D200FED029 /* immunoc617.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC242B4C03CA00FED029 /* immunoc617.png */; };
+		23D9EC3C2B4C03D200FED029 /* immunoc67.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC252B4C03CA00FED029 /* immunoc67.png */; };
+		23D9EC3D2B4C03D200FED029 /* immunoc6tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC262B4C03CB00FED029 /* immunoc6tab2.png */; };
+		23D9EC3E2B4C03D200FED029 /* immunoc613.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC272B4C03CC00FED029 /* immunoc613.png */; };
+		23D9EC3F2B4C03D200FED029 /* immunoc616.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC282B4C03CD00FED029 /* immunoc616.png */; };
+		23D9EC402B4C03D200FED029 /* immunoc68.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC292B4C03CD00FED029 /* immunoc68.png */; };
+		23D9EC412B4C03D200FED029 /* immunoc619.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2A2B4C03CE00FED029 /* immunoc619.png */; };
+		23D9EC422B4C03D200FED029 /* immunoc62.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2B2B4C03CE00FED029 /* immunoc62.png */; };
+		23D9EC432B4C03D200FED029 /* immunoc63.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2C2B4C03CF00FED029 /* immunoc63.png */; };
+		23D9EC442B4C03D200FED029 /* immunoc6tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2D2B4C03D000FED029 /* immunoc6tab1.png */; };
+		23D9EC452B4C03D200FED029 /* immunoc610.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2E2B4C03D000FED029 /* immunoc610.png */; };
+		23D9EC462B4C03D200FED029 /* immunoc614.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC2F2B4C03D100FED029 /* immunoc614.png */; };
+		23D9EC472B4C03D200FED029 /* immunoc618.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC302B4C03D200FED029 /* immunoc618.png */; };
+		23D9EC482B4C03D200FED029 /* immunoc612.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC312B4C03D200FED029 /* immunoc612.png */; };
+		23D9EC632B4C077C00FED029 /* immunoc720.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC492B4C076B00FED029 /* immunoc720.png */; };
+		23D9EC642B4C077C00FED029 /* immunoc78.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4A2B4C076C00FED029 /* immunoc78.png */; };
+		23D9EC652B4C077C00FED029 /* immunoc77.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4B2B4C076C00FED029 /* immunoc77.png */; };
+		23D9EC662B4C077C00FED029 /* immunoc717.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4C2B4C076D00FED029 /* immunoc717.png */; };
+		23D9EC672B4C077C00FED029 /* immunoc718.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4D2B4C076E00FED029 /* immunoc718.png */; };
+		23D9EC682B4C077C00FED029 /* immunoc715.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4E2B4C076E00FED029 /* immunoc715.png */; };
+		23D9EC692B4C077C00FED029 /* immunoc76.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC4F2B4C076F00FED029 /* immunoc76.png */; };
+		23D9EC6A2B4C077C00FED029 /* immunoc710.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC502B4C077000FED029 /* immunoc710.png */; };
+		23D9EC6B2B4C077C00FED029 /* immunoc719.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC512B4C077000FED029 /* immunoc719.png */; };
+		23D9EC6C2B4C077D00FED029 /* immunoc711.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC522B4C077100FED029 /* immunoc711.png */; };
+		23D9EC6D2B4C077D00FED029 /* immunoc7fig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC532B4C077300FED029 /* immunoc7fig2.png */; };
+		23D9EC6E2B4C077D00FED029 /* immunoc75.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC542B4C077300FED029 /* immunoc75.png */; };
+		23D9EC6F2B4C077D00FED029 /* immunoc7fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC552B4C077400FED029 /* immunoc7fig1.png */; };
+		23D9EC702B4C077D00FED029 /* immunoc7fig6.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC562B4C077400FED029 /* immunoc7fig6.png */; };
+		23D9EC712B4C077D00FED029 /* immunoc716.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC572B4C077500FED029 /* immunoc716.png */; };
+		23D9EC722B4C077D00FED029 /* immunoc72.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC582B4C077600FED029 /* immunoc72.png */; };
+		23D9EC732B4C077D00FED029 /* immunoc73.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC592B4C077700FED029 /* immunoc73.png */; };
+		23D9EC742B4C077D00FED029 /* immunoc7fig4.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5A2B4C077700FED029 /* immunoc7fig4.png */; };
+		23D9EC752B4C077D00FED029 /* immunoc74.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5B2B4C077800FED029 /* immunoc74.png */; };
+		23D9EC762B4C077D00FED029 /* immunoc713.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5C2B4C077800FED029 /* immunoc713.png */; };
+		23D9EC772B4C077D00FED029 /* immunoc7fig5.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5D2B4C077900FED029 /* immunoc7fig5.png */; };
+		23D9EC782B4C077D00FED029 /* immunoc714.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5E2B4C077900FED029 /* immunoc714.png */; };
+		23D9EC792B4C077D00FED029 /* immunoc7fig3.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC5F2B4C077A00FED029 /* immunoc7fig3.png */; };
+		23D9EC7A2B4C077D00FED029 /* immunoc712.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC602B4C077B00FED029 /* immunoc712.png */; };
+		23D9EC7B2B4C077D00FED029 /* immunoc71.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC612B4C077B00FED029 /* immunoc71.png */; };
+		23D9EC7C2B4C077D00FED029 /* immunoc79.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC622B4C077C00FED029 /* immunoc79.png */; };
+		23D9EC9C2B4C0B6D00FED029 /* immunoc84.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC7D2B4C0B5B00FED029 /* immunoc84.png */; };
+		23D9EC9D2B4C0B6D00FED029 /* immunoc812.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC7E2B4C0B5C00FED029 /* immunoc812.png */; };
+		23D9EC9E2B4C0B6D00FED029 /* immunoc825.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC7F2B4C0B5D00FED029 /* immunoc825.png */; };
+		23D9EC9F2B4C0B6D00FED029 /* immunoc826.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC802B4C0B5D00FED029 /* immunoc826.png */; };
+		23D9ECA02B4C0B6D00FED029 /* immunoc820.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC812B4C0B5E00FED029 /* immunoc820.png */; };
+		23D9ECA12B4C0B6D00FED029 /* immunoc822.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC822B4C0B5E00FED029 /* immunoc822.png */; };
+		23D9ECA22B4C0B6D00FED029 /* immunoc8fig3.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC832B4C0B5F00FED029 /* immunoc8fig3.png */; };
+		23D9ECA32B4C0B6D00FED029 /* immunoc817.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC842B4C0B6000FED029 /* immunoc817.png */; };
+		23D9ECA42B4C0B6D00FED029 /* immunoc810.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC852B4C0B6000FED029 /* immunoc810.png */; };
+		23D9ECA52B4C0B6D00FED029 /* immunoc813.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC862B4C0B6100FED029 /* immunoc813.png */; };
+		23D9ECA62B4C0B6D00FED029 /* immunoc83.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC872B4C0B6100FED029 /* immunoc83.png */; };
+		23D9ECA72B4C0B6D00FED029 /* immunoc88.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC882B4C0B6200FED029 /* immunoc88.png */; };
+		23D9ECA82B4C0B6D00FED029 /* immunoc8fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC892B4C0B6200FED029 /* immunoc8fig1.png */; };
+		23D9ECA92B4C0B6D00FED029 /* immunoc819.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8A2B4C0B6300FED029 /* immunoc819.png */; };
+		23D9ECAA2B4C0B6D00FED029 /* immunoc823.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8B2B4C0B6400FED029 /* immunoc823.png */; };
+		23D9ECAB2B4C0B6D00FED029 /* immunoc89.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8C2B4C0B6400FED029 /* immunoc89.png */; };
+		23D9ECAC2B4C0B6D00FED029 /* immunoc821.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8D2B4C0B6500FED029 /* immunoc821.png */; };
+		23D9ECAD2B4C0B6D00FED029 /* immunoc82.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8E2B4C0B6500FED029 /* immunoc82.png */; };
+		23D9ECAE2B4C0B6D00FED029 /* immunoc8fig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC8F2B4C0B6600FED029 /* immunoc8fig2.png */; };
+		23D9ECAF2B4C0B6D00FED029 /* immunoc81.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC902B4C0B6600FED029 /* immunoc81.png */; };
+		23D9ECB02B4C0B6D00FED029 /* immunoc818.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC912B4C0B6700FED029 /* immunoc818.png */; };
+		23D9ECB12B4C0B6D00FED029 /* immunoc814.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC922B4C0B6700FED029 /* immunoc814.png */; };
+		23D9ECB22B4C0B6D00FED029 /* immunoc815.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC932B4C0B6800FED029 /* immunoc815.png */; };
+		23D9ECB32B4C0B6D00FED029 /* immunoc87.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC942B4C0B6800FED029 /* immunoc87.png */; };
+		23D9ECB42B4C0B6D00FED029 /* immunoc85.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC952B4C0B6900FED029 /* immunoc85.png */; };
+		23D9ECB52B4C0B6D00FED029 /* immunoc824.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC962B4C0B6900FED029 /* immunoc824.png */; };
+		23D9ECB62B4C0B6D00FED029 /* immunoc828.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC972B4C0B6A00FED029 /* immunoc828.png */; };
+		23D9ECB72B4C0B6D00FED029 /* immunoc811.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC982B4C0B6A00FED029 /* immunoc811.png */; };
+		23D9ECB82B4C0B6D00FED029 /* immunoc86.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC992B4C0B6B00FED029 /* immunoc86.png */; };
+		23D9ECB92B4C0B6D00FED029 /* immunoc827.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC9A2B4C0B6C00FED029 /* immunoc827.png */; };
+		23D9ECBA2B4C0B6D00FED029 /* immunoc816.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EC9B2B4C0B6C00FED029 /* immunoc816.png */; };
+		23D9ECD82B4C0FE100FED029 /* immunoc92.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECBB2B4C0FD000FED029 /* immunoc92.png */; };
+		23D9ECD92B4C0FE100FED029 /* immunoc96.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECBC2B4C0FD000FED029 /* immunoc96.png */; };
+		23D9ECDA2B4C0FE100FED029 /* immunoc914.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECBD2B4C0FD100FED029 /* immunoc914.png */; };
+		23D9ECDB2B4C0FE100FED029 /* immunoc9fig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECBE2B4C0FD200FED029 /* immunoc9fig1.png */; };
+		23D9ECDC2B4C0FE100FED029 /* immunoc916.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECBF2B4C0FD200FED029 /* immunoc916.png */; };
+		23D9ECDD2B4C0FE100FED029 /* immunoc918.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC02B4C0FD300FED029 /* immunoc918.png */; };
+		23D9ECDE2B4C0FE100FED029 /* immunoc924.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC12B4C0FD400FED029 /* immunoc924.png */; };
+		23D9ECDF2B4C0FE100FED029 /* immunoc920.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC22B4C0FD400FED029 /* immunoc920.png */; };
+		23D9ECE02B4C0FE100FED029 /* immunoc93.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC32B4C0FD500FED029 /* immunoc93.png */; };
+		23D9ECE12B4C0FE100FED029 /* immunoc912.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC42B4C0FD500FED029 /* immunoc912.png */; };
+		23D9ECE22B4C0FE100FED029 /* immunoc95.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC52B4C0FD600FED029 /* immunoc95.png */; };
+		23D9ECE32B4C0FE100FED029 /* immunoc921.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC62B4C0FD700FED029 /* immunoc921.png */; };
+		23D9ECE42B4C0FE100FED029 /* immunoc913.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC72B4C0FD700FED029 /* immunoc913.png */; };
+		23D9ECE52B4C0FE100FED029 /* immunoc919.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC82B4C0FD800FED029 /* immunoc919.png */; };
+		23D9ECE62B4C0FE100FED029 /* immunoc915.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECC92B4C0FD800FED029 /* immunoc915.png */; };
+		23D9ECE72B4C0FE100FED029 /* immunoc9tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCA2B4C0FD900FED029 /* immunoc9tab1.png */; };
+		23D9ECE82B4C0FE100FED029 /* immunoc910.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCB2B4C0FDA00FED029 /* immunoc910.png */; };
+		23D9ECE92B4C0FE100FED029 /* immunoc926.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCC2B4C0FDA00FED029 /* immunoc926.png */; };
+		23D9ECEA2B4C0FE100FED029 /* immunoc911.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCD2B4C0FDB00FED029 /* immunoc911.png */; };
+		23D9ECEB2B4C0FE100FED029 /* immunoc917.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCE2B4C0FDB00FED029 /* immunoc917.png */; };
+		23D9ECEC2B4C0FE100FED029 /* immunoc922.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECCF2B4C0FDC00FED029 /* immunoc922.png */; };
+		23D9ECED2B4C0FE100FED029 /* immunoc91.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD02B4C0FDC00FED029 /* immunoc91.png */; };
+		23D9ECEE2B4C0FE100FED029 /* immunoc94.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD12B4C0FDD00FED029 /* immunoc94.png */; };
+		23D9ECEF2B4C0FE100FED029 /* immunoc99.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD22B4C0FDD00FED029 /* immunoc99.png */; };
+		23D9ECF02B4C0FE100FED029 /* immunoc923.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD32B4C0FDE00FED029 /* immunoc923.png */; };
+		23D9ECF12B4C0FE100FED029 /* immunoc927.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD42B4C0FDE00FED029 /* immunoc927.png */; };
+		23D9ECF22B4C0FE100FED029 /* immunoc925.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD52B4C0FDF00FED029 /* immunoc925.png */; };
+		23D9ECF32B4C0FE100FED029 /* immunoc97.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD62B4C0FDF00FED029 /* immunoc97.png */; };
+		23D9ECF42B4C0FE100FED029 /* immunoc98.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECD72B4C0FE000FED029 /* immunoc98.png */; };
+		23D9ECF72B4C15C500FED029 /* immunochap2 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECF52B4C15C400FED029 /* immunochap2 copy.html */; };
+		23D9ECF82B4C15C500FED029 /* immunochap2.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECF62B4C15C400FED029 /* immunochap2.html */; };
+		23D9ECFB2B4C15EE00FED029 /* immunochap3 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECF92B4C15ED00FED029 /* immunochap3 copy.html */; };
+		23D9ECFC2B4C15EE00FED029 /* immunochap3.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECFA2B4C15EE00FED029 /* immunochap3.html */; };
+		23D9ECFF2B4C162D00FED029 /* immunochap4 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECFD2B4C162C00FED029 /* immunochap4 copy.html */; };
+		23D9ED002B4C162D00FED029 /* immunochap4.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ECFE2B4C162D00FED029 /* immunochap4.html */; };
+		23D9ED032B4C164900FED029 /* immunochap5 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED012B4C164700FED029 /* immunochap5 copy.html */; };
+		23D9ED042B4C164900FED029 /* immunochap5.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED022B4C164800FED029 /* immunochap5.html */; };
+		23D9ED072B4C166D00FED029 /* immunochap6 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED052B4C166C00FED029 /* immunochap6 copy.html */; };
+		23D9ED082B4C166D00FED029 /* immunochap6.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED062B4C166D00FED029 /* immunochap6.html */; };
+		23D9ED0B2B4C169100FED029 /* immunochap7 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED092B4C169000FED029 /* immunochap7 copy.html */; };
+		23D9ED0C2B4C169100FED029 /* immunochap7.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED0A2B4C169100FED029 /* immunochap7.html */; };
+		23D9ED0F2B4C16BA00FED029 /* immunochap8.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED0D2B4C16B900FED029 /* immunochap8.html */; };
+		23D9ED102B4C16BA00FED029 /* immunochap8 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED0E2B4C16B900FED029 /* immunochap8 copy.html */; };
+		23D9ED132B4C16D500FED029 /* immunochap9.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED112B4C16D400FED029 /* immunochap9.html */; };
+		23D9ED142B4C16D500FED029 /* immunochap9 copy.html in Resources */ = {isa = PBXBuildFile; fileRef = 23D9ED122B4C16D500FED029 /* immunochap9 copy.html */; };
 		23DFF0E9240D02B4001941C3 /* Platelets-Orange.html in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */; };
 		23DFF0EF240D0D69001941C3 /* platelets11a.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0EE240D0D68001941C3 /* platelets11a.png */; };
 		23DFF0F1240D12B4001941C3 /* platelets11b.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0F0240D12B4001941C3 /* platelets11b.png */; };
@@ -1976,6 +2234,264 @@
 		23C78B0025BEBF5E00920ADD /* iHemostasis copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iHemostasis copy-Info.plist"; path = "/Users/M01/Documents/Mobiles/versionned/iHemostasis copy-Info.plist"; sourceTree = "<absolute>"; };
 		23C78FB625BEC1B800920ADD /* iHemostasis copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iHemostasis copy2-Info.plist"; path = "/Users/M01/Documents/Mobiles/versionned/iHemostasis copy2-Info.plist"; sourceTree = "<absolute>"; };
 		23C78FCB25BEC86800920ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iHemostasis/Base.lproj/Main-iphone.storyboard"; sourceTree = "<group>"; };
+		23D9EABF2B4BD1EA00FED029 /* immunochap1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap1.html; sourceTree = "<group>"; };
+		23D9EAC02B4BD1EB00FED029 /* immunochap1 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap1 copy.html"; sourceTree = "<group>"; };
+		23D9EAE52B4BD5B400FED029 /* immuno13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno13.png; sourceTree = "<group>"; };
+		23D9EAE62B4BD5B500FED029 /* immuno14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno14.png; sourceTree = "<group>"; };
+		23D9EB072B4BDAA700FED029 /* immunotab11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunotab11.png; sourceTree = "<group>"; };
+		23D9EB092B4BDAC400FED029 /* immunofig11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunofig11.png; sourceTree = "<group>"; };
+		23D9EB0B2B4BE05100FED029 /* immuno15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno15.png; sourceTree = "<group>"; };
+		23D9EB0E2B4BE2F500FED029 /* immuno18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno18.png; sourceTree = "<group>"; };
+		23D9EB0F2B4BE2F500FED029 /* immuno19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno19.png; sourceTree = "<group>"; };
+		23D9EB122B4BE2F700FED029 /* immuno16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno16.png; sourceTree = "<group>"; };
+		23D9EB172B4BE2FB00FED029 /* immuno17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno17.png; sourceTree = "<group>"; };
+		23D9EB272B4BE53A00FED029 /* immuno24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno24.png; sourceTree = "<group>"; };
+		23D9EB282B4BE53B00FED029 /* immuno20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno20.png; sourceTree = "<group>"; };
+		23D9EB292B4BE53C00FED029 /* immuno21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno21.png; sourceTree = "<group>"; };
+		23D9EB2A2B4BE53C00FED029 /* immuno27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno27.png; sourceTree = "<group>"; };
+		23D9EB2B2B4BE53E00FED029 /* immuno22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno22.png; sourceTree = "<group>"; };
+		23D9EB2C2B4BE53F00FED029 /* immuno26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno26.png; sourceTree = "<group>"; };
+		23D9EB2D2B4BE54000FED029 /* immuno23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno23.png; sourceTree = "<group>"; };
+		23D9EB2E2B4BE54100FED029 /* immuno25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno25.png; sourceTree = "<group>"; };
+		23D9EB2F2B4BE54200FED029 /* immuno28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno28.png; sourceTree = "<group>"; };
+		23D9EB302B4BE54300FED029 /* immuno29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immuno29.png; sourceTree = "<group>"; };
+		23D9EB3B2B4BEA0200FED029 /* immunoc24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc24.png; sourceTree = "<group>"; };
+		23D9EB3C2B4BEA0300FED029 /* immunoc220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc220.png; sourceTree = "<group>"; };
+		23D9EB3D2B4BEA0300FED029 /* immunoc225.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc225.png; sourceTree = "<group>"; };
+		23D9EB3E2B4BEA0400FED029 /* immunoc23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc23.png; sourceTree = "<group>"; };
+		23D9EB3F2B4BEA0400FED029 /* immunoc212.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc212.png; sourceTree = "<group>"; };
+		23D9EB402B4BEA0500FED029 /* immunoc221.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc221.png; sourceTree = "<group>"; };
+		23D9EB412B4BEA0500FED029 /* immunoc211.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc211.png; sourceTree = "<group>"; };
+		23D9EB422B4BEA0600FED029 /* immunoc213.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc213.png; sourceTree = "<group>"; };
+		23D9EB432B4BEA0600FED029 /* immunoc223.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc223.png; sourceTree = "<group>"; };
+		23D9EB442B4BEA0600FED029 /* immunoc27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc27.png; sourceTree = "<group>"; };
+		23D9EB452B4BEA0700FED029 /* immunoc26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc26.png; sourceTree = "<group>"; };
+		23D9EB462B4BEA0800FED029 /* immunoc216.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc216.png; sourceTree = "<group>"; };
+		23D9EB472B4BEA0800FED029 /* immunoc214.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc214.png; sourceTree = "<group>"; };
+		23D9EB482B4BEA0800FED029 /* immunoc222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc222.png; sourceTree = "<group>"; };
+		23D9EB492B4BEA0900FED029 /* immunoc224.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc224.png; sourceTree = "<group>"; };
+		23D9EB4A2B4BEA0A00FED029 /* immunoc22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc22.png; sourceTree = "<group>"; };
+		23D9EB4B2B4BEA0A00FED029 /* immunoc215.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc215.png; sourceTree = "<group>"; };
+		23D9EB4C2B4BEA0B00FED029 /* immunoc28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc28.png; sourceTree = "<group>"; };
+		23D9EB4D2B4BEA0B00FED029 /* immunoc29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc29.png; sourceTree = "<group>"; };
+		23D9EB4E2B4BEA0C00FED029 /* immunoc217.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc217.png; sourceTree = "<group>"; };
+		23D9EB4F2B4BEA0C00FED029 /* immunoc25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc25.png; sourceTree = "<group>"; };
+		23D9EB502B4BEA0D00FED029 /* immunoc210.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc210.png; sourceTree = "<group>"; };
+		23D9EB512B4BEA0D00FED029 /* immunoc218.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc218.png; sourceTree = "<group>"; };
+		23D9EB522B4BEA0E00FED029 /* immunoc21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc21.png; sourceTree = "<group>"; };
+		23D9EB532B4BEA0E00FED029 /* immunoc219.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc219.png; sourceTree = "<group>"; };
+		23D9EB6D2B4BEA9E00FED029 /* immunoc2fig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc2fig2.png; sourceTree = "<group>"; };
+		23D9EB6E2B4BEA9E00FED029 /* immunoc2fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc2fig1.png; sourceTree = "<group>"; };
+		23D9EB6F2B4BEA9F00FED029 /* immunoc2fig3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc2fig3.png; sourceTree = "<group>"; };
+		23D9EB732B4BEFAE00FED029 /* immunoc318.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc318.png; sourceTree = "<group>"; };
+		23D9EB742B4BEFAE00FED029 /* immunoc333.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc333.png; sourceTree = "<group>"; };
+		23D9EB752B4BEFAF00FED029 /* immunoc329.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc329.png; sourceTree = "<group>"; };
+		23D9EB762B4BEFAF00FED029 /* immunoc36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc36.png; sourceTree = "<group>"; };
+		23D9EB772B4BEFB000FED029 /* immunoc326.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc326.png; sourceTree = "<group>"; };
+		23D9EB782B4BEFB000FED029 /* immunoc312.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc312.png; sourceTree = "<group>"; };
+		23D9EB792B4BEFB100FED029 /* immunoc330.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc330.png; sourceTree = "<group>"; };
+		23D9EB7A2B4BEFB200FED029 /* immunoc321.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc321.png; sourceTree = "<group>"; };
+		23D9EB7B2B4BEFB200FED029 /* immunoc32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc32.png; sourceTree = "<group>"; };
+		23D9EB7C2B4BEFB300FED029 /* immunoc320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc320.png; sourceTree = "<group>"; };
+		23D9EB7D2B4BEFB300FED029 /* immunoc310.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc310.png; sourceTree = "<group>"; };
+		23D9EB7E2B4BEFB400FED029 /* immunoc315.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc315.png; sourceTree = "<group>"; };
+		23D9EB7F2B4BEFB400FED029 /* immunoc313.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc313.png; sourceTree = "<group>"; };
+		23D9EB802B4BEFB500FED029 /* immunoc317.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc317.png; sourceTree = "<group>"; };
+		23D9EB812B4BEFB500FED029 /* immunoc325.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc325.png; sourceTree = "<group>"; };
+		23D9EB822B4BEFB600FED029 /* immunoc327.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc327.png; sourceTree = "<group>"; };
+		23D9EB832B4BEFB700FED029 /* immunoc35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc35.png; sourceTree = "<group>"; };
+		23D9EB842B4BEFB700FED029 /* immunoc311.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc311.png; sourceTree = "<group>"; };
+		23D9EB852B4BEFB800FED029 /* immunoc33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc33.png; sourceTree = "<group>"; };
+		23D9EB862B4BEFB900FED029 /* immunoc39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc39.png; sourceTree = "<group>"; };
+		23D9EB872B4BEFB900FED029 /* immunoc322.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc322.png; sourceTree = "<group>"; };
+		23D9EB882B4BEFBA00FED029 /* immunoc328.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc328.png; sourceTree = "<group>"; };
+		23D9EB892B4BEFBB00FED029 /* immunoc331.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc331.png; sourceTree = "<group>"; };
+		23D9EB8A2B4BEFBB00FED029 /* immunoc314.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc314.png; sourceTree = "<group>"; };
+		23D9EB8B2B4BEFBC00FED029 /* immunoc38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc38.png; sourceTree = "<group>"; };
+		23D9EB8C2B4BEFBC00FED029 /* immunoc31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc31.png; sourceTree = "<group>"; };
+		23D9EB8D2B4BEFBD00FED029 /* immunoc3fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc3fig1.png; sourceTree = "<group>"; };
+		23D9EB8E2B4BEFBE00FED029 /* immunoc319.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc319.png; sourceTree = "<group>"; };
+		23D9EB8F2B4BEFBE00FED029 /* immunoc323.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc323.png; sourceTree = "<group>"; };
+		23D9EB902B4BEFBE00FED029 /* immunoc334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc334.png; sourceTree = "<group>"; };
+		23D9EB912B4BEFBF00FED029 /* immunoc37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc37.png; sourceTree = "<group>"; };
+		23D9EB922B4BEFBF00FED029 /* immunoc316.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc316.png; sourceTree = "<group>"; };
+		23D9EB932B4BEFC000FED029 /* immunoc324.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc324.png; sourceTree = "<group>"; };
+		23D9EB942B4BEFC000FED029 /* immunoc332.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc332.png; sourceTree = "<group>"; };
+		23D9EB952B4BEFC100FED029 /* immunoc34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc34.png; sourceTree = "<group>"; };
+		23D9EBB92B4BF3DE00FED029 /* immunoc48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc48.png; sourceTree = "<group>"; };
+		23D9EBBA2B4BF3DE00FED029 /* immunoc49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc49.png; sourceTree = "<group>"; };
+		23D9EBBB2B4BF3DE00FED029 /* immunoc410.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc410.png; sourceTree = "<group>"; };
+		23D9EBBC2B4BF3DF00FED029 /* immunoc429.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc429.png; sourceTree = "<group>"; };
+		23D9EBBD2B4BF3E000FED029 /* immunoc46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc46.png; sourceTree = "<group>"; };
+		23D9EBBE2B4BF3E000FED029 /* immunoc43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc43.png; sourceTree = "<group>"; };
+		23D9EBBF2B4BF3E100FED029 /* immunoc42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc42.png; sourceTree = "<group>"; };
+		23D9EBC02B4BF3E100FED029 /* immunoc424.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc424.png; sourceTree = "<group>"; };
+		23D9EBC12B4BF3E200FED029 /* immunoc425.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc425.png; sourceTree = "<group>"; };
+		23D9EBC22B4BF3E200FED029 /* immunoc44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc44.png; sourceTree = "<group>"; };
+		23D9EBC32B4BF3E300FED029 /* immunoc4fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc4fig1.png; sourceTree = "<group>"; };
+		23D9EBC42B4BF3E300FED029 /* immunoc418.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc418.png; sourceTree = "<group>"; };
+		23D9EBC52B4BF3E300FED029 /* immunoc412.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc412.png; sourceTree = "<group>"; };
+		23D9EBC62B4BF3E400FED029 /* immunoc421.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc421.png; sourceTree = "<group>"; };
+		23D9EBC72B4BF3E400FED029 /* immunoc47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc47.png; sourceTree = "<group>"; };
+		23D9EBC82B4BF3E500FED029 /* immunoc411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc411.png; sourceTree = "<group>"; };
+		23D9EBC92B4BF3E600FED029 /* immunoc423.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc423.png; sourceTree = "<group>"; };
+		23D9EBCA2B4BF3E600FED029 /* immunoc414.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc414.png; sourceTree = "<group>"; };
+		23D9EBCB2B4BF3E700FED029 /* immunoc417.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc417.png; sourceTree = "<group>"; };
+		23D9EBCC2B4BF3E700FED029 /* immunoc419.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc419.png; sourceTree = "<group>"; };
+		23D9EBCD2B4BF3E800FED029 /* immunoc413.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc413.png; sourceTree = "<group>"; };
+		23D9EBCE2B4BF3E800FED029 /* immunoc427.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc427.png; sourceTree = "<group>"; };
+		23D9EBCF2B4BF3E900FED029 /* immunoc41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc41.png; sourceTree = "<group>"; };
+		23D9EBD02B4BF3E900FED029 /* immunoc415.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc415.png; sourceTree = "<group>"; };
+		23D9EBD12B4BF3EA00FED029 /* immunoc426.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc426.png; sourceTree = "<group>"; };
+		23D9EBD22B4BF3EA00FED029 /* immunoc416.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc416.png; sourceTree = "<group>"; };
+		23D9EBD32B4BF3EB00FED029 /* immunoc422.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc422.png; sourceTree = "<group>"; };
+		23D9EBD42B4BF3EB00FED029 /* immunoc420.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc420.png; sourceTree = "<group>"; };
+		23D9EBD52B4BF3EC00FED029 /* immunoc428.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc428.png; sourceTree = "<group>"; };
+		23D9EBD62B4BF3EC00FED029 /* immunoc4fig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc4fig2.png; sourceTree = "<group>"; };
+		23D9EBD72B4BF3ED00FED029 /* immunoc45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc45.png; sourceTree = "<group>"; };
+		23D9EBF72B4C004B00FED029 /* immunoc510.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc510.png; sourceTree = "<group>"; };
+		23D9EBF82B4C004C00FED029 /* immunoc514.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc514.png; sourceTree = "<group>"; };
+		23D9EBF92B4C004C00FED029 /* immunoc512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc512.png; sourceTree = "<group>"; };
+		23D9EBFA2B4C004D00FED029 /* immunoc59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc59.png; sourceTree = "<group>"; };
+		23D9EBFB2B4C004E00FED029 /* immunoc57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc57.png; sourceTree = "<group>"; };
+		23D9EBFC2B4C004E00FED029 /* immunoc53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc53.png; sourceTree = "<group>"; };
+		23D9EBFD2B4C004F00FED029 /* immunoc5fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc5fig1.png; sourceTree = "<group>"; };
+		23D9EBFE2B4C004F00FED029 /* immunoc5tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc5tab1.png; sourceTree = "<group>"; };
+		23D9EBFF2B4C004F00FED029 /* immunoc56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc56.png; sourceTree = "<group>"; };
+		23D9EC002B4C005000FED029 /* immunoc54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc54.png; sourceTree = "<group>"; };
+		23D9EC012B4C005100FED029 /* immunoc511.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc511.png; sourceTree = "<group>"; };
+		23D9EC022B4C005100FED029 /* immunoc513.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc513.png; sourceTree = "<group>"; };
+		23D9EC032B4C005200FED029 /* immunoc515.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc515.png; sourceTree = "<group>"; };
+		23D9EC042B4C005200FED029 /* immunoc516.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc516.png; sourceTree = "<group>"; };
+		23D9EC052B4C005300FED029 /* immunoc52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc52.png; sourceTree = "<group>"; };
+		23D9EC062B4C005300FED029 /* immunoc58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc58.png; sourceTree = "<group>"; };
+		23D9EC072B4C005400FED029 /* immunoc51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc51.png; sourceTree = "<group>"; };
+		23D9EC082B4C005400FED029 /* immunoc55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc55.png; sourceTree = "<group>"; };
+		23D9EC1B2B4C03C500FED029 /* immunoc66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc66.png; sourceTree = "<group>"; };
+		23D9EC1C2B4C03C500FED029 /* immunoc61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc61.png; sourceTree = "<group>"; };
+		23D9EC1D2B4C03C600FED029 /* immunoc65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc65.png; sourceTree = "<group>"; };
+		23D9EC1E2B4C03C600FED029 /* immunoc611.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc611.png; sourceTree = "<group>"; };
+		23D9EC1F2B4C03C700FED029 /* immunoc615.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc615.png; sourceTree = "<group>"; };
+		23D9EC202B4C03C800FED029 /* immunoc620.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc620.png; sourceTree = "<group>"; };
+		23D9EC212B4C03C800FED029 /* immunoc69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc69.png; sourceTree = "<group>"; };
+		23D9EC222B4C03C900FED029 /* immunoc6fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc6fig1.png; sourceTree = "<group>"; };
+		23D9EC232B4C03C900FED029 /* immunoc64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc64.png; sourceTree = "<group>"; };
+		23D9EC242B4C03CA00FED029 /* immunoc617.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc617.png; sourceTree = "<group>"; };
+		23D9EC252B4C03CA00FED029 /* immunoc67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc67.png; sourceTree = "<group>"; };
+		23D9EC262B4C03CB00FED029 /* immunoc6tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc6tab2.png; sourceTree = "<group>"; };
+		23D9EC272B4C03CC00FED029 /* immunoc613.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc613.png; sourceTree = "<group>"; };
+		23D9EC282B4C03CD00FED029 /* immunoc616.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc616.png; sourceTree = "<group>"; };
+		23D9EC292B4C03CD00FED029 /* immunoc68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc68.png; sourceTree = "<group>"; };
+		23D9EC2A2B4C03CE00FED029 /* immunoc619.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc619.png; sourceTree = "<group>"; };
+		23D9EC2B2B4C03CE00FED029 /* immunoc62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc62.png; sourceTree = "<group>"; };
+		23D9EC2C2B4C03CF00FED029 /* immunoc63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc63.png; sourceTree = "<group>"; };
+		23D9EC2D2B4C03D000FED029 /* immunoc6tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc6tab1.png; sourceTree = "<group>"; };
+		23D9EC2E2B4C03D000FED029 /* immunoc610.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc610.png; sourceTree = "<group>"; };
+		23D9EC2F2B4C03D100FED029 /* immunoc614.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc614.png; sourceTree = "<group>"; };
+		23D9EC302B4C03D200FED029 /* immunoc618.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc618.png; sourceTree = "<group>"; };
+		23D9EC312B4C03D200FED029 /* immunoc612.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc612.png; sourceTree = "<group>"; };
+		23D9EC492B4C076B00FED029 /* immunoc720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc720.png; sourceTree = "<group>"; };
+		23D9EC4A2B4C076C00FED029 /* immunoc78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc78.png; sourceTree = "<group>"; };
+		23D9EC4B2B4C076C00FED029 /* immunoc77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc77.png; sourceTree = "<group>"; };
+		23D9EC4C2B4C076D00FED029 /* immunoc717.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc717.png; sourceTree = "<group>"; };
+		23D9EC4D2B4C076E00FED029 /* immunoc718.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc718.png; sourceTree = "<group>"; };
+		23D9EC4E2B4C076E00FED029 /* immunoc715.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc715.png; sourceTree = "<group>"; };
+		23D9EC4F2B4C076F00FED029 /* immunoc76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc76.png; sourceTree = "<group>"; };
+		23D9EC502B4C077000FED029 /* immunoc710.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc710.png; sourceTree = "<group>"; };
+		23D9EC512B4C077000FED029 /* immunoc719.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc719.png; sourceTree = "<group>"; };
+		23D9EC522B4C077100FED029 /* immunoc711.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc711.png; sourceTree = "<group>"; };
+		23D9EC532B4C077300FED029 /* immunoc7fig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig2.png; sourceTree = "<group>"; };
+		23D9EC542B4C077300FED029 /* immunoc75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc75.png; sourceTree = "<group>"; };
+		23D9EC552B4C077400FED029 /* immunoc7fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig1.png; sourceTree = "<group>"; };
+		23D9EC562B4C077400FED029 /* immunoc7fig6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig6.png; sourceTree = "<group>"; };
+		23D9EC572B4C077500FED029 /* immunoc716.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc716.png; sourceTree = "<group>"; };
+		23D9EC582B4C077600FED029 /* immunoc72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc72.png; sourceTree = "<group>"; };
+		23D9EC592B4C077700FED029 /* immunoc73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc73.png; sourceTree = "<group>"; };
+		23D9EC5A2B4C077700FED029 /* immunoc7fig4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig4.png; sourceTree = "<group>"; };
+		23D9EC5B2B4C077800FED029 /* immunoc74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc74.png; sourceTree = "<group>"; };
+		23D9EC5C2B4C077800FED029 /* immunoc713.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc713.png; sourceTree = "<group>"; };
+		23D9EC5D2B4C077900FED029 /* immunoc7fig5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig5.png; sourceTree = "<group>"; };
+		23D9EC5E2B4C077900FED029 /* immunoc714.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc714.png; sourceTree = "<group>"; };
+		23D9EC5F2B4C077A00FED029 /* immunoc7fig3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc7fig3.png; sourceTree = "<group>"; };
+		23D9EC602B4C077B00FED029 /* immunoc712.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc712.png; sourceTree = "<group>"; };
+		23D9EC612B4C077B00FED029 /* immunoc71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc71.png; sourceTree = "<group>"; };
+		23D9EC622B4C077C00FED029 /* immunoc79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc79.png; sourceTree = "<group>"; };
+		23D9EC7D2B4C0B5B00FED029 /* immunoc84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc84.png; sourceTree = "<group>"; };
+		23D9EC7E2B4C0B5C00FED029 /* immunoc812.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc812.png; sourceTree = "<group>"; };
+		23D9EC7F2B4C0B5D00FED029 /* immunoc825.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc825.png; sourceTree = "<group>"; };
+		23D9EC802B4C0B5D00FED029 /* immunoc826.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc826.png; sourceTree = "<group>"; };
+		23D9EC812B4C0B5E00FED029 /* immunoc820.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc820.png; sourceTree = "<group>"; };
+		23D9EC822B4C0B5E00FED029 /* immunoc822.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc822.png; sourceTree = "<group>"; };
+		23D9EC832B4C0B5F00FED029 /* immunoc8fig3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc8fig3.png; sourceTree = "<group>"; };
+		23D9EC842B4C0B6000FED029 /* immunoc817.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc817.png; sourceTree = "<group>"; };
+		23D9EC852B4C0B6000FED029 /* immunoc810.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc810.png; sourceTree = "<group>"; };
+		23D9EC862B4C0B6100FED029 /* immunoc813.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc813.png; sourceTree = "<group>"; };
+		23D9EC872B4C0B6100FED029 /* immunoc83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc83.png; sourceTree = "<group>"; };
+		23D9EC882B4C0B6200FED029 /* immunoc88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc88.png; sourceTree = "<group>"; };
+		23D9EC892B4C0B6200FED029 /* immunoc8fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc8fig1.png; sourceTree = "<group>"; };
+		23D9EC8A2B4C0B6300FED029 /* immunoc819.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc819.png; sourceTree = "<group>"; };
+		23D9EC8B2B4C0B6400FED029 /* immunoc823.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc823.png; sourceTree = "<group>"; };
+		23D9EC8C2B4C0B6400FED029 /* immunoc89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc89.png; sourceTree = "<group>"; };
+		23D9EC8D2B4C0B6500FED029 /* immunoc821.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc821.png; sourceTree = "<group>"; };
+		23D9EC8E2B4C0B6500FED029 /* immunoc82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc82.png; sourceTree = "<group>"; };
+		23D9EC8F2B4C0B6600FED029 /* immunoc8fig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc8fig2.png; sourceTree = "<group>"; };
+		23D9EC902B4C0B6600FED029 /* immunoc81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc81.png; sourceTree = "<group>"; };
+		23D9EC912B4C0B6700FED029 /* immunoc818.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc818.png; sourceTree = "<group>"; };
+		23D9EC922B4C0B6700FED029 /* immunoc814.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc814.png; sourceTree = "<group>"; };
+		23D9EC932B4C0B6800FED029 /* immunoc815.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc815.png; sourceTree = "<group>"; };
+		23D9EC942B4C0B6800FED029 /* immunoc87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc87.png; sourceTree = "<group>"; };
+		23D9EC952B4C0B6900FED029 /* immunoc85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc85.png; sourceTree = "<group>"; };
+		23D9EC962B4C0B6900FED029 /* immunoc824.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc824.png; sourceTree = "<group>"; };
+		23D9EC972B4C0B6A00FED029 /* immunoc828.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc828.png; sourceTree = "<group>"; };
+		23D9EC982B4C0B6A00FED029 /* immunoc811.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc811.png; sourceTree = "<group>"; };
+		23D9EC992B4C0B6B00FED029 /* immunoc86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc86.png; sourceTree = "<group>"; };
+		23D9EC9A2B4C0B6C00FED029 /* immunoc827.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc827.png; sourceTree = "<group>"; };
+		23D9EC9B2B4C0B6C00FED029 /* immunoc816.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc816.png; sourceTree = "<group>"; };
+		23D9ECBB2B4C0FD000FED029 /* immunoc92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc92.png; sourceTree = "<group>"; };
+		23D9ECBC2B4C0FD000FED029 /* immunoc96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc96.png; sourceTree = "<group>"; };
+		23D9ECBD2B4C0FD100FED029 /* immunoc914.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc914.png; sourceTree = "<group>"; };
+		23D9ECBE2B4C0FD200FED029 /* immunoc9fig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc9fig1.png; sourceTree = "<group>"; };
+		23D9ECBF2B4C0FD200FED029 /* immunoc916.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc916.png; sourceTree = "<group>"; };
+		23D9ECC02B4C0FD300FED029 /* immunoc918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc918.png; sourceTree = "<group>"; };
+		23D9ECC12B4C0FD400FED029 /* immunoc924.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc924.png; sourceTree = "<group>"; };
+		23D9ECC22B4C0FD400FED029 /* immunoc920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc920.png; sourceTree = "<group>"; };
+		23D9ECC32B4C0FD500FED029 /* immunoc93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc93.png; sourceTree = "<group>"; };
+		23D9ECC42B4C0FD500FED029 /* immunoc912.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc912.png; sourceTree = "<group>"; };
+		23D9ECC52B4C0FD600FED029 /* immunoc95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc95.png; sourceTree = "<group>"; };
+		23D9ECC62B4C0FD700FED029 /* immunoc921.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc921.png; sourceTree = "<group>"; };
+		23D9ECC72B4C0FD700FED029 /* immunoc913.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc913.png; sourceTree = "<group>"; };
+		23D9ECC82B4C0FD800FED029 /* immunoc919.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc919.png; sourceTree = "<group>"; };
+		23D9ECC92B4C0FD800FED029 /* immunoc915.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc915.png; sourceTree = "<group>"; };
+		23D9ECCA2B4C0FD900FED029 /* immunoc9tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc9tab1.png; sourceTree = "<group>"; };
+		23D9ECCB2B4C0FDA00FED029 /* immunoc910.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc910.png; sourceTree = "<group>"; };
+		23D9ECCC2B4C0FDA00FED029 /* immunoc926.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc926.png; sourceTree = "<group>"; };
+		23D9ECCD2B4C0FDB00FED029 /* immunoc911.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc911.png; sourceTree = "<group>"; };
+		23D9ECCE2B4C0FDB00FED029 /* immunoc917.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc917.png; sourceTree = "<group>"; };
+		23D9ECCF2B4C0FDC00FED029 /* immunoc922.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc922.png; sourceTree = "<group>"; };
+		23D9ECD02B4C0FDC00FED029 /* immunoc91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc91.png; sourceTree = "<group>"; };
+		23D9ECD12B4C0FDD00FED029 /* immunoc94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc94.png; sourceTree = "<group>"; };
+		23D9ECD22B4C0FDD00FED029 /* immunoc99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc99.png; sourceTree = "<group>"; };
+		23D9ECD32B4C0FDE00FED029 /* immunoc923.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc923.png; sourceTree = "<group>"; };
+		23D9ECD42B4C0FDE00FED029 /* immunoc927.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc927.png; sourceTree = "<group>"; };
+		23D9ECD52B4C0FDF00FED029 /* immunoc925.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc925.png; sourceTree = "<group>"; };
+		23D9ECD62B4C0FDF00FED029 /* immunoc97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc97.png; sourceTree = "<group>"; };
+		23D9ECD72B4C0FE000FED029 /* immunoc98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = immunoc98.png; sourceTree = "<group>"; };
+		23D9ECF52B4C15C400FED029 /* immunochap2 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap2 copy.html"; sourceTree = "<group>"; };
+		23D9ECF62B4C15C400FED029 /* immunochap2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap2.html; sourceTree = "<group>"; };
+		23D9ECF92B4C15ED00FED029 /* immunochap3 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap3 copy.html"; sourceTree = "<group>"; };
+		23D9ECFA2B4C15EE00FED029 /* immunochap3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap3.html; sourceTree = "<group>"; };
+		23D9ECFD2B4C162C00FED029 /* immunochap4 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap4 copy.html"; sourceTree = "<group>"; };
+		23D9ECFE2B4C162D00FED029 /* immunochap4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap4.html; sourceTree = "<group>"; };
+		23D9ED012B4C164700FED029 /* immunochap5 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap5 copy.html"; sourceTree = "<group>"; };
+		23D9ED022B4C164800FED029 /* immunochap5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap5.html; sourceTree = "<group>"; };
+		23D9ED052B4C166C00FED029 /* immunochap6 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap6 copy.html"; sourceTree = "<group>"; };
+		23D9ED062B4C166D00FED029 /* immunochap6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap6.html; sourceTree = "<group>"; };
+		23D9ED092B4C169000FED029 /* immunochap7 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap7 copy.html"; sourceTree = "<group>"; };
+		23D9ED0A2B4C169100FED029 /* immunochap7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap7.html; sourceTree = "<group>"; };
+		23D9ED0D2B4C16B900FED029 /* immunochap8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap8.html; sourceTree = "<group>"; };
+		23D9ED0E2B4C16B900FED029 /* immunochap8 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap8 copy.html"; sourceTree = "<group>"; };
+		23D9ED112B4C16D400FED029 /* immunochap9.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunochap9.html; sourceTree = "<group>"; };
+		23D9ED122B4C16D500FED029 /* immunochap9 copy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "immunochap9 copy.html"; sourceTree = "<group>"; };
 		23DFF0E8240D02B4001941C3 /* Platelets-Orange.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "Platelets-Orange.html"; sourceTree = "<group>"; };
 		23DFF0EE240D0D68001941C3 /* platelets11a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11a.png; path = platelets/platelets11a.png; sourceTree = SOURCE_ROOT; };
 		23DFF0F0240D12B4001941C3 /* platelets11b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = platelets11b.png; path = platelets/platelets11b.png; sourceTree = SOURCE_ROOT; };
@@ -3596,6 +4112,343 @@
 			name = Green2;
 			sourceTree = "<group>";
 		};
+		23D9EAB52B4BD00E00FED029 /* Immuno */ = {
+			isa = PBXGroup;
+			children = (
+				23D9EABE2B4BD0C100FED029 /* chap9 */,
+				23D9EABD2B4BD0B700FED029 /* chap8 */,
+				23D9EABC2B4BD0AA00FED029 /* chap7 */,
+				23D9EABB2B4BD0A100FED029 /* chap6 */,
+				23D9EABA2B4BD09600FED029 /* chap5 */,
+				23D9EAB92B4BD08B00FED029 /* chap4 */,
+				23D9EAB82B4BD08100FED029 /* chap3 */,
+				23D9EAB72B4BD07300FED029 /* chap2 */,
+				23D9EAB62B4BD03100FED029 /* chap1 */,
+			);
+			name = Immuno;
+			sourceTree = "<group>";
+		};
+		23D9EAB62B4BD03100FED029 /* chap1 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9EB282B4BE53B00FED029 /* immuno20.png */,
+				23D9EB292B4BE53C00FED029 /* immuno21.png */,
+				23D9EB2B2B4BE53E00FED029 /* immuno22.png */,
+				23D9EB2D2B4BE54000FED029 /* immuno23.png */,
+				23D9EB272B4BE53A00FED029 /* immuno24.png */,
+				23D9EB2E2B4BE54100FED029 /* immuno25.png */,
+				23D9EB2C2B4BE53F00FED029 /* immuno26.png */,
+				23D9EB2A2B4BE53C00FED029 /* immuno27.png */,
+				23D9EB2F2B4BE54200FED029 /* immuno28.png */,
+				23D9EB302B4BE54300FED029 /* immuno29.png */,
+				23D9EB122B4BE2F700FED029 /* immuno16.png */,
+				23D9EB172B4BE2FB00FED029 /* immuno17.png */,
+				23D9EB0E2B4BE2F500FED029 /* immuno18.png */,
+				23D9EB0F2B4BE2F500FED029 /* immuno19.png */,
+				23D9EB092B4BDAC400FED029 /* immunofig11.png */,
+				23D9EB072B4BDAA700FED029 /* immunotab11.png */,
+				23D9EB0B2B4BE05100FED029 /* immuno15.png */,
+				23D9EAE52B4BD5B400FED029 /* immuno13.png */,
+				23D9EAE62B4BD5B500FED029 /* immuno14.png */,
+				23D9EAC02B4BD1EB00FED029 /* immunochap1 copy.html */,
+				23D9EABF2B4BD1EA00FED029 /* immunochap1.html */,
+			);
+			name = chap1;
+			sourceTree = "<group>";
+		};
+		23D9EAB72B4BD07300FED029 /* chap2 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ECF52B4C15C400FED029 /* immunochap2 copy.html */,
+				23D9ECF62B4C15C400FED029 /* immunochap2.html */,
+				23D9EB6E2B4BEA9E00FED029 /* immunoc2fig1.png */,
+				23D9EB6D2B4BEA9E00FED029 /* immunoc2fig2.png */,
+				23D9EB6F2B4BEA9F00FED029 /* immunoc2fig3.png */,
+				23D9EB522B4BEA0E00FED029 /* immunoc21.png */,
+				23D9EB4A2B4BEA0A00FED029 /* immunoc22.png */,
+				23D9EB3E2B4BEA0400FED029 /* immunoc23.png */,
+				23D9EB3B2B4BEA0200FED029 /* immunoc24.png */,
+				23D9EB4F2B4BEA0C00FED029 /* immunoc25.png */,
+				23D9EB452B4BEA0700FED029 /* immunoc26.png */,
+				23D9EB442B4BEA0600FED029 /* immunoc27.png */,
+				23D9EB4C2B4BEA0B00FED029 /* immunoc28.png */,
+				23D9EB4D2B4BEA0B00FED029 /* immunoc29.png */,
+				23D9EB502B4BEA0D00FED029 /* immunoc210.png */,
+				23D9EB412B4BEA0500FED029 /* immunoc211.png */,
+				23D9EB3F2B4BEA0400FED029 /* immunoc212.png */,
+				23D9EB422B4BEA0600FED029 /* immunoc213.png */,
+				23D9EB472B4BEA0800FED029 /* immunoc214.png */,
+				23D9EB4B2B4BEA0A00FED029 /* immunoc215.png */,
+				23D9EB462B4BEA0800FED029 /* immunoc216.png */,
+				23D9EB4E2B4BEA0C00FED029 /* immunoc217.png */,
+				23D9EB512B4BEA0D00FED029 /* immunoc218.png */,
+				23D9EB532B4BEA0E00FED029 /* immunoc219.png */,
+				23D9EB3C2B4BEA0300FED029 /* immunoc220.png */,
+				23D9EB402B4BEA0500FED029 /* immunoc221.png */,
+				23D9EB482B4BEA0800FED029 /* immunoc222.png */,
+				23D9EB432B4BEA0600FED029 /* immunoc223.png */,
+				23D9EB492B4BEA0900FED029 /* immunoc224.png */,
+				23D9EB3D2B4BEA0300FED029 /* immunoc225.png */,
+			);
+			name = chap2;
+			sourceTree = "<group>";
+		};
+		23D9EAB82B4BD08100FED029 /* chap3 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ECF92B4C15ED00FED029 /* immunochap3 copy.html */,
+				23D9ECFA2B4C15EE00FED029 /* immunochap3.html */,
+				23D9EB8D2B4BEFBD00FED029 /* immunoc3fig1.png */,
+				23D9EB8C2B4BEFBC00FED029 /* immunoc31.png */,
+				23D9EB7B2B4BEFB200FED029 /* immunoc32.png */,
+				23D9EB852B4BEFB800FED029 /* immunoc33.png */,
+				23D9EB952B4BEFC100FED029 /* immunoc34.png */,
+				23D9EB832B4BEFB700FED029 /* immunoc35.png */,
+				23D9EB762B4BEFAF00FED029 /* immunoc36.png */,
+				23D9EB912B4BEFBF00FED029 /* immunoc37.png */,
+				23D9EB8B2B4BEFBC00FED029 /* immunoc38.png */,
+				23D9EB862B4BEFB900FED029 /* immunoc39.png */,
+				23D9EB7D2B4BEFB300FED029 /* immunoc310.png */,
+				23D9EB842B4BEFB700FED029 /* immunoc311.png */,
+				23D9EB782B4BEFB000FED029 /* immunoc312.png */,
+				23D9EB7F2B4BEFB400FED029 /* immunoc313.png */,
+				23D9EB8A2B4BEFBB00FED029 /* immunoc314.png */,
+				23D9EB7E2B4BEFB400FED029 /* immunoc315.png */,
+				23D9EB922B4BEFBF00FED029 /* immunoc316.png */,
+				23D9EB802B4BEFB500FED029 /* immunoc317.png */,
+				23D9EB732B4BEFAE00FED029 /* immunoc318.png */,
+				23D9EB8E2B4BEFBE00FED029 /* immunoc319.png */,
+				23D9EB7C2B4BEFB300FED029 /* immunoc320.png */,
+				23D9EB7A2B4BEFB200FED029 /* immunoc321.png */,
+				23D9EB872B4BEFB900FED029 /* immunoc322.png */,
+				23D9EB8F2B4BEFBE00FED029 /* immunoc323.png */,
+				23D9EB932B4BEFC000FED029 /* immunoc324.png */,
+				23D9EB812B4BEFB500FED029 /* immunoc325.png */,
+				23D9EB772B4BEFB000FED029 /* immunoc326.png */,
+				23D9EB822B4BEFB600FED029 /* immunoc327.png */,
+				23D9EB882B4BEFBA00FED029 /* immunoc328.png */,
+				23D9EB752B4BEFAF00FED029 /* immunoc329.png */,
+				23D9EB792B4BEFB100FED029 /* immunoc330.png */,
+				23D9EB892B4BEFBB00FED029 /* immunoc331.png */,
+				23D9EB942B4BEFC000FED029 /* immunoc332.png */,
+				23D9EB742B4BEFAE00FED029 /* immunoc333.png */,
+				23D9EB902B4BEFBE00FED029 /* immunoc334.png */,
+			);
+			name = chap3;
+			sourceTree = "<group>";
+		};
+		23D9EAB92B4BD08B00FED029 /* chap4 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ECFD2B4C162C00FED029 /* immunochap4 copy.html */,
+				23D9ECFE2B4C162D00FED029 /* immunochap4.html */,
+				23D9EBC32B4BF3E300FED029 /* immunoc4fig1.png */,
+				23D9EBD62B4BF3EC00FED029 /* immunoc4fig2.png */,
+				23D9EBCF2B4BF3E900FED029 /* immunoc41.png */,
+				23D9EBBF2B4BF3E100FED029 /* immunoc42.png */,
+				23D9EBBE2B4BF3E000FED029 /* immunoc43.png */,
+				23D9EBC22B4BF3E200FED029 /* immunoc44.png */,
+				23D9EBD72B4BF3ED00FED029 /* immunoc45.png */,
+				23D9EBBD2B4BF3E000FED029 /* immunoc46.png */,
+				23D9EBC72B4BF3E400FED029 /* immunoc47.png */,
+				23D9EBB92B4BF3DE00FED029 /* immunoc48.png */,
+				23D9EBBA2B4BF3DE00FED029 /* immunoc49.png */,
+				23D9EBBB2B4BF3DE00FED029 /* immunoc410.png */,
+				23D9EBC82B4BF3E500FED029 /* immunoc411.png */,
+				23D9EBC52B4BF3E300FED029 /* immunoc412.png */,
+				23D9EBCD2B4BF3E800FED029 /* immunoc413.png */,
+				23D9EBCA2B4BF3E600FED029 /* immunoc414.png */,
+				23D9EBD02B4BF3E900FED029 /* immunoc415.png */,
+				23D9EBD22B4BF3EA00FED029 /* immunoc416.png */,
+				23D9EBCB2B4BF3E700FED029 /* immunoc417.png */,
+				23D9EBC42B4BF3E300FED029 /* immunoc418.png */,
+				23D9EBCC2B4BF3E700FED029 /* immunoc419.png */,
+				23D9EBD42B4BF3EB00FED029 /* immunoc420.png */,
+				23D9EBC62B4BF3E400FED029 /* immunoc421.png */,
+				23D9EBD32B4BF3EB00FED029 /* immunoc422.png */,
+				23D9EBC92B4BF3E600FED029 /* immunoc423.png */,
+				23D9EBC02B4BF3E100FED029 /* immunoc424.png */,
+				23D9EBC12B4BF3E200FED029 /* immunoc425.png */,
+				23D9EBD12B4BF3EA00FED029 /* immunoc426.png */,
+				23D9EBCE2B4BF3E800FED029 /* immunoc427.png */,
+				23D9EBD52B4BF3EC00FED029 /* immunoc428.png */,
+				23D9EBBC2B4BF3DF00FED029 /* immunoc429.png */,
+			);
+			name = chap4;
+			sourceTree = "<group>";
+		};
+		23D9EABA2B4BD09600FED029 /* chap5 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ED012B4C164700FED029 /* immunochap5 copy.html */,
+				23D9ED022B4C164800FED029 /* immunochap5.html */,
+				23D9EBFD2B4C004F00FED029 /* immunoc5fig1.png */,
+				23D9EBFE2B4C004F00FED029 /* immunoc5tab1.png */,
+				23D9EC072B4C005400FED029 /* immunoc51.png */,
+				23D9EC052B4C005300FED029 /* immunoc52.png */,
+				23D9EBFC2B4C004E00FED029 /* immunoc53.png */,
+				23D9EC002B4C005000FED029 /* immunoc54.png */,
+				23D9EC082B4C005400FED029 /* immunoc55.png */,
+				23D9EBFF2B4C004F00FED029 /* immunoc56.png */,
+				23D9EBFB2B4C004E00FED029 /* immunoc57.png */,
+				23D9EC062B4C005300FED029 /* immunoc58.png */,
+				23D9EBFA2B4C004D00FED029 /* immunoc59.png */,
+				23D9EBF72B4C004B00FED029 /* immunoc510.png */,
+				23D9EC012B4C005100FED029 /* immunoc511.png */,
+				23D9EBF92B4C004C00FED029 /* immunoc512.png */,
+				23D9EC022B4C005100FED029 /* immunoc513.png */,
+				23D9EBF82B4C004C00FED029 /* immunoc514.png */,
+				23D9EC032B4C005200FED029 /* immunoc515.png */,
+				23D9EC042B4C005200FED029 /* immunoc516.png */,
+			);
+			name = chap5;
+			sourceTree = "<group>";
+		};
+		23D9EABB2B4BD0A100FED029 /* chap6 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ED052B4C166C00FED029 /* immunochap6 copy.html */,
+				23D9ED062B4C166D00FED029 /* immunochap6.html */,
+				23D9EC222B4C03C900FED029 /* immunoc6fig1.png */,
+				23D9EC2D2B4C03D000FED029 /* immunoc6tab1.png */,
+				23D9EC262B4C03CB00FED029 /* immunoc6tab2.png */,
+				23D9EC1C2B4C03C500FED029 /* immunoc61.png */,
+				23D9EC2B2B4C03CE00FED029 /* immunoc62.png */,
+				23D9EC2C2B4C03CF00FED029 /* immunoc63.png */,
+				23D9EC232B4C03C900FED029 /* immunoc64.png */,
+				23D9EC1D2B4C03C600FED029 /* immunoc65.png */,
+				23D9EC1B2B4C03C500FED029 /* immunoc66.png */,
+				23D9EC252B4C03CA00FED029 /* immunoc67.png */,
+				23D9EC292B4C03CD00FED029 /* immunoc68.png */,
+				23D9EC212B4C03C800FED029 /* immunoc69.png */,
+				23D9EC2E2B4C03D000FED029 /* immunoc610.png */,
+				23D9EC1E2B4C03C600FED029 /* immunoc611.png */,
+				23D9EC312B4C03D200FED029 /* immunoc612.png */,
+				23D9EC272B4C03CC00FED029 /* immunoc613.png */,
+				23D9EC2F2B4C03D100FED029 /* immunoc614.png */,
+				23D9EC1F2B4C03C700FED029 /* immunoc615.png */,
+				23D9EC282B4C03CD00FED029 /* immunoc616.png */,
+				23D9EC242B4C03CA00FED029 /* immunoc617.png */,
+				23D9EC302B4C03D200FED029 /* immunoc618.png */,
+				23D9EC2A2B4C03CE00FED029 /* immunoc619.png */,
+				23D9EC202B4C03C800FED029 /* immunoc620.png */,
+			);
+			name = chap6;
+			sourceTree = "<group>";
+		};
+		23D9EABC2B4BD0AA00FED029 /* chap7 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ED092B4C169000FED029 /* immunochap7 copy.html */,
+				23D9ED0A2B4C169100FED029 /* immunochap7.html */,
+				23D9EC552B4C077400FED029 /* immunoc7fig1.png */,
+				23D9EC532B4C077300FED029 /* immunoc7fig2.png */,
+				23D9EC5F2B4C077A00FED029 /* immunoc7fig3.png */,
+				23D9EC5A2B4C077700FED029 /* immunoc7fig4.png */,
+				23D9EC5D2B4C077900FED029 /* immunoc7fig5.png */,
+				23D9EC562B4C077400FED029 /* immunoc7fig6.png */,
+				23D9EC612B4C077B00FED029 /* immunoc71.png */,
+				23D9EC582B4C077600FED029 /* immunoc72.png */,
+				23D9EC592B4C077700FED029 /* immunoc73.png */,
+				23D9EC5B2B4C077800FED029 /* immunoc74.png */,
+				23D9EC542B4C077300FED029 /* immunoc75.png */,
+				23D9EC4F2B4C076F00FED029 /* immunoc76.png */,
+				23D9EC4B2B4C076C00FED029 /* immunoc77.png */,
+				23D9EC4A2B4C076C00FED029 /* immunoc78.png */,
+				23D9EC622B4C077C00FED029 /* immunoc79.png */,
+				23D9EC502B4C077000FED029 /* immunoc710.png */,
+				23D9EC522B4C077100FED029 /* immunoc711.png */,
+				23D9EC602B4C077B00FED029 /* immunoc712.png */,
+				23D9EC5C2B4C077800FED029 /* immunoc713.png */,
+				23D9EC5E2B4C077900FED029 /* immunoc714.png */,
+				23D9EC4E2B4C076E00FED029 /* immunoc715.png */,
+				23D9EC572B4C077500FED029 /* immunoc716.png */,
+				23D9EC4C2B4C076D00FED029 /* immunoc717.png */,
+				23D9EC4D2B4C076E00FED029 /* immunoc718.png */,
+				23D9EC512B4C077000FED029 /* immunoc719.png */,
+				23D9EC492B4C076B00FED029 /* immunoc720.png */,
+			);
+			name = chap7;
+			sourceTree = "<group>";
+		};
+		23D9EABD2B4BD0B700FED029 /* chap8 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ED0E2B4C16B900FED029 /* immunochap8 copy.html */,
+				23D9ED0D2B4C16B900FED029 /* immunochap8.html */,
+				23D9EC892B4C0B6200FED029 /* immunoc8fig1.png */,
+				23D9EC8F2B4C0B6600FED029 /* immunoc8fig2.png */,
+				23D9EC832B4C0B5F00FED029 /* immunoc8fig3.png */,
+				23D9EC902B4C0B6600FED029 /* immunoc81.png */,
+				23D9EC8E2B4C0B6500FED029 /* immunoc82.png */,
+				23D9EC872B4C0B6100FED029 /* immunoc83.png */,
+				23D9EC7D2B4C0B5B00FED029 /* immunoc84.png */,
+				23D9EC952B4C0B6900FED029 /* immunoc85.png */,
+				23D9EC992B4C0B6B00FED029 /* immunoc86.png */,
+				23D9EC942B4C0B6800FED029 /* immunoc87.png */,
+				23D9EC882B4C0B6200FED029 /* immunoc88.png */,
+				23D9EC8C2B4C0B6400FED029 /* immunoc89.png */,
+				23D9EC852B4C0B6000FED029 /* immunoc810.png */,
+				23D9EC982B4C0B6A00FED029 /* immunoc811.png */,
+				23D9EC7E2B4C0B5C00FED029 /* immunoc812.png */,
+				23D9EC862B4C0B6100FED029 /* immunoc813.png */,
+				23D9EC922B4C0B6700FED029 /* immunoc814.png */,
+				23D9EC932B4C0B6800FED029 /* immunoc815.png */,
+				23D9EC9B2B4C0B6C00FED029 /* immunoc816.png */,
+				23D9EC842B4C0B6000FED029 /* immunoc817.png */,
+				23D9EC912B4C0B6700FED029 /* immunoc818.png */,
+				23D9EC8A2B4C0B6300FED029 /* immunoc819.png */,
+				23D9EC812B4C0B5E00FED029 /* immunoc820.png */,
+				23D9EC8D2B4C0B6500FED029 /* immunoc821.png */,
+				23D9EC822B4C0B5E00FED029 /* immunoc822.png */,
+				23D9EC8B2B4C0B6400FED029 /* immunoc823.png */,
+				23D9EC962B4C0B6900FED029 /* immunoc824.png */,
+				23D9EC7F2B4C0B5D00FED029 /* immunoc825.png */,
+				23D9EC802B4C0B5D00FED029 /* immunoc826.png */,
+				23D9EC9A2B4C0B6C00FED029 /* immunoc827.png */,
+				23D9EC972B4C0B6A00FED029 /* immunoc828.png */,
+			);
+			name = chap8;
+			sourceTree = "<group>";
+		};
+		23D9EABE2B4BD0C100FED029 /* chap9 */ = {
+			isa = PBXGroup;
+			children = (
+				23D9ED122B4C16D500FED029 /* immunochap9 copy.html */,
+				23D9ED112B4C16D400FED029 /* immunochap9.html */,
+				23D9ECBE2B4C0FD200FED029 /* immunoc9fig1.png */,
+				23D9ECCA2B4C0FD900FED029 /* immunoc9tab1.png */,
+				23D9ECD02B4C0FDC00FED029 /* immunoc91.png */,
+				23D9ECBB2B4C0FD000FED029 /* immunoc92.png */,
+				23D9ECC32B4C0FD500FED029 /* immunoc93.png */,
+				23D9ECD12B4C0FDD00FED029 /* immunoc94.png */,
+				23D9ECC52B4C0FD600FED029 /* immunoc95.png */,
+				23D9ECBC2B4C0FD000FED029 /* immunoc96.png */,
+				23D9ECD62B4C0FDF00FED029 /* immunoc97.png */,
+				23D9ECD72B4C0FE000FED029 /* immunoc98.png */,
+				23D9ECD22B4C0FDD00FED029 /* immunoc99.png */,
+				23D9ECCB2B4C0FDA00FED029 /* immunoc910.png */,
+				23D9ECCD2B4C0FDB00FED029 /* immunoc911.png */,
+				23D9ECC42B4C0FD500FED029 /* immunoc912.png */,
+				23D9ECC72B4C0FD700FED029 /* immunoc913.png */,
+				23D9ECBD2B4C0FD100FED029 /* immunoc914.png */,
+				23D9ECC92B4C0FD800FED029 /* immunoc915.png */,
+				23D9ECBF2B4C0FD200FED029 /* immunoc916.png */,
+				23D9ECCE2B4C0FDB00FED029 /* immunoc917.png */,
+				23D9ECC02B4C0FD300FED029 /* immunoc918.png */,
+				23D9ECC82B4C0FD800FED029 /* immunoc919.png */,
+				23D9ECC22B4C0FD400FED029 /* immunoc920.png */,
+				23D9ECC62B4C0FD700FED029 /* immunoc921.png */,
+				23D9ECCF2B4C0FDC00FED029 /* immunoc922.png */,
+				23D9ECD32B4C0FDE00FED029 /* immunoc923.png */,
+				23D9ECC12B4C0FD400FED029 /* immunoc924.png */,
+				23D9ECD52B4C0FDF00FED029 /* immunoc925.png */,
+				23D9ECCC2B4C0FDA00FED029 /* immunoc926.png */,
+				23D9ECD42B4C0FDE00FED029 /* immunoc927.png */,
+			);
+			name = chap9;
+			sourceTree = "<group>";
+		};
 		23DFF0E6240D0155001941C3 /* Platelets */ = {
 			isa = PBXGroup;
 			children = (
@@ -5144,6 +5997,7 @@
 		E7C7DB571D93C3BF00B81785 /* Practical Manual */ = {
 			isa = PBXGroup;
 			children = (
+				23D9EAB52B4BD00E00FED029 /* Immuno */,
 				234700FB2660E1A800390396 /* Livre 6 */,
 				23DFF0E6240D0155001941C3 /* Platelets */,
 				762BF90F2268CC3100431217 /* Bleeding */,
@@ -5286,6 +6140,7 @@
 				23FD6F0325D3C435001FCA19 /* B-blue copy.html in Resources */,
 				762BFA6E2269C8FE00431217 /* s71c.png in Resources */,
 				762BFAAF2269CAC100431217 /* s73k.png in Resources */,
+				23D9EBAD2B4BEFC100FED029 /* immunoc314.png in Resources */,
 				E7E61AB01DD08B110037AA88 /* chapter-5-part-1---ios_01.jpg in Resources */,
 				E7E61AC21DD08B110037AA88 /* chapter-5-part-2---ios_06.jpg in Resources */,
 				E7E038131DACF26C00A79471 /* chapter-2-orange-part-4_20.jpg in Resources */,
@@ -5295,6 +6150,7 @@
 				E7838BDD1C75F64200672CC1 /* CoagulationCascadeAnticoagulants.xib in Resources */,
 				2332DEF62664B6C6003845EE /* venous17.png in Resources */,
 				763409F72267A14E00B9EABE /* O-blue.html in Resources */,
+				23D9ECEA2B4C0FE100FED029 /* immunoc911.png in Resources */,
 				234156E4240F86D7007ABA4C /* platelets46f.png in Resources */,
 				2341571E240F92EA007ABA4C /* platelets53k.png in Resources */,
 				76340A212267A97600B9EABE /* S7_1.png in Resources */,
@@ -5317,6 +6173,7 @@
 				E7A717661E55DDFA00BD5C80 /* chapter-3-purple---part-3_18_01_01_.png in Resources */,
 				E7E61AB91DD08B110037AA88 /* chapter-5-part-1---ios_10.jpg in Resources */,
 				763409FF2267A1F300B9EABE /* S6_1.png in Resources */,
+				23D9EBEA2B4BF3ED00FED029 /* immunoc417.png in Resources */,
 				234D97D123A5784000537BC9 /* s62b.jpg in Resources */,
 				E7202FD11E5F2D560029187F /* chapter-3-purple---part-3_061.png in Resources */,
 				2332DF9D2664D8B2003845EE /* venous67.png in Resources */,
@@ -5338,18 +6195,23 @@
 				762BFAEB2269CECC00431217 /* s84d.png in Resources */,
 				E781D2431C31161600681379 /* Quizz.json in Resources */,
 				E7E61A261DD089200037AA88 /* chapter-3-purple---part-2_12.png in Resources */,
+				23D9EBDE2B4BF3ED00FED029 /* immunoc42.png in Resources */,
 				E7E619EC1DD0887C0037AA88 /* chapter-3-purple---part-2_04.png in Resources */,
+				23D9EC0D2B4C005400FED029 /* immunoc57.png in Resources */,
 				2332DF6A2664D04F003845EE /* venous59.png in Resources */,
 				E7E61A931DD08A280037AA88 /* chapter-4-part-2---ios_01.jpg in Resources */,
+				23D9EAE82B4BD5B500FED029 /* immuno14.png in Resources */,
 				239AD024241908B300935439 /* platelets53ksub.png in Resources */,
 				234156BA240F80B2007ABA4C /* platelets42p.png in Resources */,
 				2347016926612ABA00390396 /* livre6-red copy.html in Resources */,
 				23DFF171240E6DB5001941C3 /* platelets24e.png in Resources */,
 				23AA1CDC26650D3E00EDBEF8 /* venous915.png in Resources */,
+				23D9EB652B4BEA0F00FED029 /* immunoc28.png in Resources */,
 				762BF9392268EFDB00431217 /* s14a.png in Resources */,
 				763409F02267974800B9EABE /* Ref_S5_3.png in Resources */,
 				762BFACD2269CE3E00431217 /* s82b.png in Resources */,
 				7634097C2267888300B9EABE /* s3_28.png in Resources */,
+				23D9EB712B4BEA9F00FED029 /* immunoc2fig1.png in Resources */,
 				234156E1240F86D7007ABA4C /* platelets46b.png in Resources */,
 				23E3FFEF237973EA0082A8A8 /* 3.jpg in Resources */,
 				23415678240F73AA007ABA4C /* platelets32g.png in Resources */,
@@ -5359,7 +6221,9 @@
 				762BF95522699A5700431217 /* s21.png in Resources */,
 				234156B5240F80B2007ABA4C /* platelets42l.png in Resources */,
 				23AA1CB2266508F100EDBEF8 /* venous811.png in Resources */,
+				23D9EBA82B4BEFC100FED029 /* immunoc33.png in Resources */,
 				E7E037E81DACF26100A79471 /* chapter-2-orange-part-3---ios_11.jpg in Resources */,
+				23D9ECE22B4C0FE100FED029 /* immunoc95.png in Resources */,
 				2347011E2661298700390396 /* livre6-blue2.html in Resources */,
 				23AA1CD326650D3E00EDBEF8 /* venous93.png in Resources */,
 				762BF9E02269AF7100431217 /* s48a.png in Resources */,
@@ -5379,6 +6243,9 @@
 				239613CA25D6AA0500E2E65B /* CoagulationCascadeCoagulationCascade copy.xib in Resources */,
 				2361E6212379A3CB0083F118 /* 10.jpg in Resources */,
 				233ED0D12410C40D0073D3A9 /* platelets72f.png in Resources */,
+				23D9ECA32B4C0B6D00FED029 /* immunoc817.png in Resources */,
+				23D9EC362B4C03D200FED029 /* immunoc615.png in Resources */,
+				23D9EC702B4C077D00FED029 /* immunoc7fig6.png in Resources */,
 				E7BDA5901C47912A00A6DE9B /* BARMENOCFFMED.ttf in Resources */,
 				E70C7AF51DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_09.png in Resources */,
 				23AA1CAE266508F100EDBEF8 /* venous82.png in Resources */,
@@ -5392,8 +6259,10 @@
 				234156D3240F8575007ABA4C /* platelets45f.png in Resources */,
 				2332DF4E2664C90C003845EE /* venous45.png in Resources */,
 				76340A252267A99700B9EABE /* S7_2_2.png in Resources */,
+				23D9EC142B4C005400FED029 /* immunoc513.png in Resources */,
 				238DF06626661BA400A63143 /* tab61.png in Resources */,
 				23415719240F92EA007ABA4C /* platelets53b.png in Resources */,
+				23D9ECEB2B4C0FE100FED029 /* immunoc917.png in Resources */,
 				7634094B2267526C00B9EABE /* S2_45.png in Resources */,
 				76205256225F3C99003F8DE3 /* Screenshot 2018-11-27 13.02.50.png in Resources */,
 				E7E61AC71DD08CFB0037AA88 /* chapter-5-part-2---ios_05.jpg in Resources */,
@@ -5404,6 +6273,7 @@
 				23AA1D0E26651A9300EDBEF8 /* venousb8.png in Resources */,
 				762BF9982269A1F300431217 /* s22fig3.png in Resources */,
 				23FD6F4425D3C76E001FCA19 /* O-Marrown copy.html in Resources */,
+				23D9EB9E2B4BEFC100FED029 /* immunoc32.png in Resources */,
 				238DF04F266611C500A63143 /* tab21.png in Resources */,
 				E7E0382B1DACF27600A79471 /* chapter-2-orange-part-5---ios_08.jpg in Resources */,
 				E7E61A941DD08A280037AA88 /* chapter-4-part-2---ios_02.jpg in Resources */,
@@ -5413,6 +6283,7 @@
 				23AA1CF9266516DF00EDBEF8 /* venousa9.png in Resources */,
 				E7E61AC81DD08CFB0037AA88 /* chapter-5-part-2---ios_05-a.jpg in Resources */,
 				762BF9E12269AF7100431217 /* s48b.png in Resources */,
+				23D9EB602B4BEA0F00FED029 /* immunoc214.png in Resources */,
 				762BFA252269BF5300431217 /* B-blue.html in Resources */,
 				76340A2A2267A9BF00B9EABE /* S7_3_2.png in Resources */,
 				76340A3F2267AC8500B9EABE /* S7_7.png in Resources */,
@@ -5426,6 +6297,7 @@
 				762BFA362269C1EA00431217 /* s62d.png in Resources */,
 				2332DF172664BD75003845EE /* venous22.png in Resources */,
 				E7E037E11DACF26100A79471 /* chapter-2-orange-part-3---ios_04.jpg in Resources */,
+				23D9EB722B4BEA9F00FED029 /* immunoc2fig3.png in Resources */,
 				E7E61A441DD089200037AA88 /* chapter-3-purple---part-4_05.png in Resources */,
 				238DF04626660BA200A63143 /* tab13.png in Resources */,
 				23E3FFEC237973EA0082A8A8 /* 5.jpg in Resources */,
@@ -5434,6 +6306,7 @@
 				E7E61ABD1DD08B110037AA88 /* chapter-5-part-2---ios_01.jpg in Resources */,
 				7634099A22678A6900B9EABE /* Ref_S6_4.png in Resources */,
 				23DFF19A240E78DF001941C3 /* platelets26c.png in Resources */,
+				23D9EC322B4C03D200FED029 /* immunoc66.png in Resources */,
 				2361E62E2379A4C60083F118 /* 9.jpg in Resources */,
 				76340A562267AF9400B9EABE /* S8_4_3.png in Resources */,
 				E7E61A901DD08A280037AA88 /* chapter-4-part-1---ios_16.jpg in Resources */,
@@ -5452,31 +6325,39 @@
 				233ED1652410E4880073D3A9 /* platelets92c.png in Resources */,
 				E7E038101DACF26C00A79471 /* chapter-2-orange-part-4_17.jpg in Resources */,
 				2332DF692664D04F003845EE /* venous54.png in Resources */,
+				23D9EC342B4C03D200FED029 /* immunoc65.png in Resources */,
 				233ED0E52410C8FE0073D3A9 /* platelets74e.png in Resources */,
 				7620525F225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.41.png in Resources */,
 				23AA1C872665038700EDBEF8 /* venous715.png in Resources */,
 				2332DF572664C90C003845EE /* venous44.png in Resources */,
 				E70C7B081DCC985000E8A89F /* chapter-1-orange-part-2---IOS_02.jpg in Resources */,
 				23FD6F0825D3C44A001FCA19 /* B-green copy.html in Resources */,
+				23D9ED102B4C16BA00FED029 /* immunochap8 copy.html in Resources */,
 				23415709240F9052007ABA4C /* platelets52c.png in Resources */,
 				2334F4282419F906000CD3F8 /* platelets74h.png in Resources */,
 				23FD6F8325D3C8BB001FCA19 /* Platelets-purple copy.html in Resources */,
 				762BFA122269B6A100431217 /* s56b.png in Resources */,
+				23D9EB682B4BEA0F00FED029 /* immunoc25.png in Resources */,
 				2332DF532664C90C003845EE /* venous414.png in Resources */,
 				76340A5F2267AFF300B9EABE /* S8_5_2.png in Resources */,
 				2332DF102664BD75003845EE /* venous24.png in Resources */,
 				76340A4B2267AF7300B9EABE /* S8_3.png in Resources */,
 				763409FA2267A17100B9EABE /* O-purpleTwo.html in Resources */,
+				23D9EBDC2B4BF3ED00FED029 /* immunoc46.png in Resources */,
 				233ED15E2410E3790073D3A9 /* platelets91d.png in Resources */,
 				23EB421624161CB700EB2D66 /* platelets91esub.png in Resources */,
 				762BFA3B2269C24100431217 /* s63c.png in Resources */,
 				762BFA0A2269B65100431217 /* s55b.png in Resources */,
+				23D9ECA42B4C0B6D00FED029 /* immunoc810.png in Resources */,
 				762BF9E72269AFA800431217 /* s49 figs.png in Resources */,
 				76FCEEBA227BEE7F001179CC /* Quizz_11.json in Resources */,
+				23D9EB572B4BEA0F00FED029 /* immunoc23.png in Resources */,
+				23D9EC9E2B4C0B6D00FED029 /* immunoc825.png in Resources */,
 				23415692240F7C70007ABA4C /* platelets41b.png in Resources */,
 				76FCEEB6227B302C001179CC /* Quizz_9.json in Resources */,
 				762BF93E2268F08800431217 /* s16a.png in Resources */,
 				23FD6F8825D3C8CE001FCA19 /* Platelets-Purple2 copy.html in Resources */,
+				23D9EC3B2B4C03D200FED029 /* immunoc617.png in Resources */,
 				E7A717681E55DDFA00BD5C80 /* chapter-3-purple---part-3_18_01_03_.png in Resources */,
 				E7E61A881DD08A280037AA88 /* chapter-4-part-1---ios_08.jpg in Resources */,
 				23DFF181240E72E4001941C3 /* platelets25b.png in Resources */,
@@ -5487,10 +6368,13 @@
 				762BF9BD2269AC2000431217 /* s39.png in Resources */,
 				238DF04D266611C500A63143 /* tab22.png in Resources */,
 				762BFADD2269CE9D00431217 /* s83f.png in Resources */,
+				23D9EC482B4C03D200FED029 /* immunoc612.png in Resources */,
+				23D9EBA12B4BEFC100FED029 /* immunoc315.png in Resources */,
 				E7E61A5B1DD089AB0037AA88 /* chapter-4-brown_05.png in Resources */,
 				2347015A26612A9C00390396 /* livre6-purple copy.html in Resources */,
 				7634094F2267526C00B9EABE /* S2_41.png in Resources */,
 				76340A5D2267AFF300B9EABE /* S8_5_4.png in Resources */,
+				23D9ECE52B4C0FE100FED029 /* immunoc919.png in Resources */,
 				23415693240F7C70007ABA4C /* platelets41d.png in Resources */,
 				E7E61A991DD08A280037AA88 /* chapter-4-part-2---ios_07.jpg in Resources */,
 				76205270225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.22.png in Resources */,
@@ -5501,36 +6385,46 @@
 				2341571C240F92EA007ABA4C /* platelets53a.png in Resources */,
 				233ED17D2410E8D60073D3A9 /* platelets97b.png in Resources */,
 				23415734240F978C007ABA4C /* platelets61a.png in Resources */,
+				23D9EC0C2B4C005400FED029 /* immunoc59.png in Resources */,
 				2332DF562664C90C003845EE /* venous42.png in Resources */,
 				2332DF9F2664D8B2003845EE /* venous62.png in Resources */,
 				E70C7B0C1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_06.jpg in Resources */,
 				7634099322678A3500B9EABE /* s3_51.png in Resources */,
+				23D9EB6B2B4BEA0F00FED029 /* immunoc21.png in Resources */,
 				23DFF178240E6F7E001941C3 /* platelets23c.png in Resources */,
 				762BFA542269C80600431217 /* s66b.png in Resources */,
 				234156F6240F8A68007ABA4C /* platelets49a.png in Resources */,
 				762BF9BB2269AC0000431217 /* s38a.png in Resources */,
 				76340A532267AF9400B9EABE /* S8_4_6.png in Resources */,
+				23D9ECB52B4C0B6D00FED029 /* immunoc824.png in Resources */,
 				762BF92D2268EF9700431217 /* s13f.png in Resources */,
+				23D9EC172B4C005400FED029 /* immunoc52.png in Resources */,
 				23415752240F9F4E007ABA4C /* platelets65a.png in Resources */,
 				762BFAEA2269CECC00431217 /* s84b.png in Resources */,
 				762BF99D2269A91700431217 /* s31.png in Resources */,
 				2347017326612ACB00390396 /* livre6-purple2 copy.html in Resources */,
 				2341575A240FA1BF007ABA4C /* platelets66d.png in Resources */,
+				23D9EC0B2B4C005400FED029 /* immunoc512.png in Resources */,
 				E77CD03F1DA67FEF0033DE96 /* chapter-1-_04.png in Resources */,
 				E75252711C50CE26000CF33F /* QuickGuide8.pdf in Resources */,
+				23D9EB672B4BEA0F00FED029 /* immunoc217.png in Resources */,
 				E7E61A411DD089200037AA88 /* chapter-3-purple---part-4_02.png in Resources */,
 				762BF93A2268EFDB00431217 /* s14e.png in Resources */,
 				23415765240FA3C9007ABA4C /* platelets68d.png in Resources */,
 				23FD6F2B25D3C6D6001FCA19 /* Blue copy.html in Resources */,
 				23415757240FA1BF007ABA4C /* platelets66a.png in Resources */,
+				23D9EBE52B4BF3ED00FED029 /* immunoc421.png in Resources */,
 				23DFF1A1240E7AC6001941C3 /* Platelets-purple.html in Resources */,
 				E7E61A611DD089AB0037AA88 /* chapter-4-brown_10_02.jpg in Resources */,
+				23D9EB632B4BEA0F00FED029 /* immunoc22.png in Resources */,
 				762BFADC2269CE9D00431217 /* s83g.png in Resources */,
 				762BFAF72269CF7400431217 /* s83figs1.png in Resources */,
 				23AA1C952665038700EDBEF8 /* venous716.png in Resources */,
 				B4D0D14A1C55E6DA00E27F45 /* coagulation-cascade-5.png in Resources */,
 				2332DF362664C125003845EE /* venous38.png in Resources */,
+				23D9EBDB2B4BF3ED00FED029 /* immunoc429.png in Resources */,
 				E7838BDB1C75F40B00672CC1 /* CoagulationCascadeInhibitorsOfCoagulation.xib in Resources */,
+				23D9EC682B4C077C00FED029 /* immunoc715.png in Resources */,
 				762BF94E2268F29F00431217 /* s17d.png in Resources */,
 				E7E61AB11DD08B110037AA88 /* chapter-5-part-1---ios_02.jpg in Resources */,
 				2361E6222379A3CB0083F118 /* 15.jpg in Resources */,
@@ -5549,8 +6443,10 @@
 				238DF0362666054E00A63143 /* fig12.png in Resources */,
 				23EB420C24161B2200EB2D66 /* platelets72gsub.png in Resources */,
 				E7E61A451DD089200037AA88 /* chapter-3-purple---part-4_06.png in Resources */,
+				23D9EB082B4BDAA800FED029 /* immunotab11.png in Resources */,
 				23EB42042416180200EB2D66 /* platelets41bsub.png in Resources */,
 				2332DFA02664D8B2003845EE /* venous69.png in Resources */,
+				23D9EC0A2B4C005400FED029 /* immunoc514.png in Resources */,
 				E752528D1C50E386000CF33F /* III-NOAC pour APPS rev. FD 140521-def.pdf in Resources */,
 				762BF97A22699B4600431217 /* s24c.png in Resources */,
 				233ED0D82410C79C0073D3A9 /* platelets73a.png in Resources */,
@@ -5558,17 +6454,21 @@
 				E7063C8C1DD1A65200E38BDB /* chapter-3-part-5---ios_06.jpg in Resources */,
 				234156F0240F891E007ABA4C /* platelets47f.png in Resources */,
 				E752526C1C50CE26000CF33F /* QuickGuide3.pdf in Resources */,
+				23D9EC382B4C03D200FED029 /* immunoc69.png in Resources */,
 				23DFF149240E4BAB001941C3 /* platelets22b.png in Resources */,
 				2332DF9B2664D8B2003845EE /* venous61.png in Resources */,
+				23D9EC452B4C03D200FED029 /* immunoc610.png in Resources */,
 				76340A332267AA9F00B9EABE /* S7_6.png in Resources */,
 				23AA1CAF266508F100EDBEF8 /* venous816.png in Resources */,
 				E7E037CE1DACF25300A79471 /* chapter-2-orange-part-2---ios_12.jpg in Resources */,
 				E7063C871DD1A65200E38BDB /* chapter-3-part-5---ios_01.jpg in Resources */,
+				23D9ECE12B4C0FE100FED029 /* immunoc912.png in Resources */,
 				23AA1D1226651A9300EDBEF8 /* venousb7.png in Resources */,
 				23415698240F7C70007ABA4C /* platelets41f.png in Resources */,
 				238DF09226661CEB00A63143 /* tab10a.png in Resources */,
 				E70C7B131DCC985000E8A89F /* chapter-1-orange-part-2---IOS_13.jpg in Resources */,
 				76340941226751F900B9EABE /* s2_2.png in Resources */,
+				23D9EBEB2B4BF3ED00FED029 /* immunoc419.png in Resources */,
 				233ED1202410D9300073D3A9 /* platelets83s.png in Resources */,
 				762BF9192268EE4000431217 /* B-Orange.html in Resources */,
 				E7E619EE1DD0887C0037AA88 /* chapter-3-purple---part-2_06.png in Resources */,
@@ -5584,11 +6484,13 @@
 				763409BA2267928500B9EABE /* S4_3_4.png in Resources */,
 				762BFA482269C37A00431217 /* s63figs2.png in Resources */,
 				2332DF8B2664D063003845EE /* venous510.png in Resources */,
+				23D9EBB32B4BEFC100FED029 /* immunoc334.png in Resources */,
 				E7E619BD1DD086FE0037AA88 /* chapter-3-part-1---ios_03.jpg in Resources */,
 				7634098F226789C100B9EABE /* s3_43.png in Resources */,
 				23415701240F8DB4007ABA4C /* platelets51d.png in Resources */,
 				2347013C26612A1D00390396 /* livre6-purple2.html in Resources */,
 				762BF92F2268EF9700431217 /* s13c.png in Resources */,
+				23D9EC7C2B4C077D00FED029 /* immunoc79.png in Resources */,
 				76340953226771BA00B9EABE /* S2_51.png in Resources */,
 				2332DF852664D063003845EE /* venous522.png in Resources */,
 				23415694240F7C70007ABA4C /* platelets41e.png in Resources */,
@@ -5597,6 +6499,7 @@
 				233ED17B2410E8D60073D3A9 /* platelets96a.png in Resources */,
 				E79D14021DEEB90E0052803E /* chapter-5-part-1---ios_05.jpg in Resources */,
 				E7E038431DACF28200A79471 /* chapter-2-orange-part-6---ios_03.jpg in Resources */,
+				23D9EC092B4C005400FED029 /* immunoc510.png in Resources */,
 				E7E61A831DD08A280037AA88 /* chapter-4-part-1---ios_03.jpg in Resources */,
 				23AA1C842665038700EDBEF8 /* venous77.png in Resources */,
 				23DFF16E240E6DB5001941C3 /* platelets24a.png in Resources */,
@@ -5606,18 +6509,26 @@
 				234156C3240F8257007ABA4C /* platelets43a.png in Resources */,
 				7634097F2267896F00B9EABE /* s3_32.png in Resources */,
 				E7E037CF1DACF25300A79471 /* chapter-2-orange-part-2---ios_13.jpg in Resources */,
+				23D9EB6A2B4BEA0F00FED029 /* immunoc218.png in Resources */,
+				23D9EB542B4BEA0F00FED029 /* immunoc24.png in Resources */,
+				23D9EC672B4C077C00FED029 /* immunoc718.png in Resources */,
+				23D9ECE72B4C0FE100FED029 /* immunoc9tab1.png in Resources */,
 				23415718240F92EA007ABA4C /* platelets53i.png in Resources */,
 				233ED0DB2410C79C0073D3A9 /* platelets73d.png in Resources */,
 				762BFA642269C8FE00431217 /* s71d.png in Resources */,
 				B4D0D1491C55E6DA00E27F45 /* coagulation-cascade-4.png in Resources */,
+				23D9ECF82B4C15C500FED029 /* immunochap2.html in Resources */,
+				23D9EB692B4BEA0F00FED029 /* immunoc210.png in Resources */,
 				2332DEEC2664B6C6003845EE /* venous12.png in Resources */,
 				762BF97622699B4600431217 /* s24d.png in Resources */,
 				7634093F226751DE00B9EABE /* S2_1.png in Resources */,
 				23AA1CF4266516DF00EDBEF8 /* venousa4.png in Resources */,
+				23D9ECDA2B4C0FE100FED029 /* immunoc914.png in Resources */,
 				2347015526612A9200390396 /* livre6-blue2 copy.html in Resources */,
 				E7A7175A1E55B12A00BD5C80 /* VioletApp.html in Resources */,
 				2332DEF12664B6C6003845EE /* venous116.png in Resources */,
 				E7063C7E1DD1A65200E38BDB /* chapter-3-part-4---ios_04.jpg in Resources */,
+				23D9EB312B4BE54400FED029 /* immuno24.png in Resources */,
 				23AA1C8C2665038700EDBEF8 /* venous72.png in Resources */,
 				234156EE240F891E007ABA4C /* platelets47b.png in Resources */,
 				E7E61A5E1DD089AB0037AA88 /* chapter-4-brown_08.png in Resources */,
@@ -5626,21 +6537,25 @@
 				2349A984237A9C0000DE4BAD /* s13dImg.png in Resources */,
 				234156B4240F80B2007ABA4C /* platelets42q.png in Resources */,
 				238DF08126661C5D00A63143 /* tab82.png in Resources */,
+				23D9ECB22B4C0B6D00FED029 /* immunoc815.png in Resources */,
 				234156CF240F8575007ABA4C /* platelets45d.png in Resources */,
 				7634099422678A3500B9EABE /* s3_52.png in Resources */,
 				E7E61A331DD089200037AA88 /* chapter-3-purple---part-3_11.png in Resources */,
 				E7E038421DACF28200A79471 /* chapter-2-orange-part-6---ios_02.jpg in Resources */,
+				23D9ECDF2B4C0FE100FED029 /* immunoc920.png in Resources */,
 				E7A8CC3E1C6C879200CFB419 /* Anticoagulants.strings in Resources */,
 				762BFA142269B6A100431217 /* s56d.png in Resources */,
 				762BF9222268EF6B00431217 /* s12b.png in Resources */,
 				E7E038321DACF27600A79471 /* chapter-2-orange-part-5---ios_15.jpg in Resources */,
 				233ED0CE2410C40D0073D3A9 /* platelets72g.png in Resources */,
 				763409642267869100B9EABE /* O-Purple.html in Resources */,
+				23D9EB362B4BE54500FED029 /* immuno26.png in Resources */,
 				E7E619CF1DD086FE0037AA88 /* chapter-3-part-2---ios_09.jpg in Resources */,
 				234156E3240F86D7007ABA4C /* platelets46g.png in Resources */,
 				2332DF822664D063003845EE /* venous521.png in Resources */,
 				762BFA232269BE6E00431217 /* s55figs1.jpg in Resources */,
 				23DFF17E240E72E4001941C3 /* platelets25c.png in Resources */,
+				23D9EB1C2B4BE2FC00FED029 /* immuno19.png in Resources */,
 				2341571F240F92EA007ABA4C /* platelets53j.png in Resources */,
 				76340961226772C300B9EABE /* Ref_S8_2.png in Resources */,
 				234156DF240F86D7007ABA4C /* platelets46a.png in Resources */,
@@ -5649,21 +6564,26 @@
 				762BF97722699B4600431217 /* s24e.png in Resources */,
 				76205252225F3C99003F8DE3 /* Screenshot 2018-11-27 13.08.13.png in Resources */,
 				23AA1CDF26650D3E00EDBEF8 /* venous95.png in Resources */,
+				23D9EC742B4C077D00FED029 /* immunoc7fig4.png in Resources */,
 				E7E037CB1DACF25300A79471 /* chapter-2-orange-part-2---ios_09.jpg in Resources */,
 				23FD6F3025D3C6EC001FCA19 /* Brown copy.html in Resources */,
 				762BF9532269990300431217 /* B-LightBlue.html in Resources */,
 				2332DF342664C125003845EE /* venous39.png in Resources */,
 				76340A482267AF3B00B9EABE /* S8_2_1.png in Resources */,
+				23D9EBAC2B4BEFC100FED029 /* immunoc331.png in Resources */,
 				E7E61A641DD089AB0037AA88 /* chapter-4-brown_18.png in Resources */,
 				23AA1CD926650D3E00EDBEF8 /* venous918.png in Resources */,
 				23EB420E24161B4400EB2D66 /* platelets83tsub.png in Resources */,
 				234156B1240F80B2007ABA4C /* platelets42n.png in Resources */,
+				23D9EC192B4C005400FED029 /* immunoc51.png in Resources */,
+				23D9EB9C2B4BEFC100FED029 /* immunoc330.png in Resources */,
 				23AA1CD626650D3E00EDBEF8 /* venous96.png in Resources */,
 				23470132266129FC00390396 /* livre6-red.html in Resources */,
 				233ED13F2410DD8E0073D3A9 /* platelets85a.png in Resources */,
 				2341572F240F9592007ABA4C /* platelets55e.png in Resources */,
 				E77CD0A01DA691330033DE96 /* P-Red.html in Resources */,
 				E7E61A5A1DD089AB0037AA88 /* chapter-4-brown_04.png in Resources */,
+				23D9EC182B4C005400FED029 /* immunoc58.png in Resources */,
 				E72F508C1DDB42600069F105 /* chapter-3-part-4---ios_051.jpg in Resources */,
 				233ED1002410CE350073D3A9 /* platelets82e.png in Resources */,
 				762BFAEF2269CF3100431217 /* s85a.png in Resources */,
@@ -5672,8 +6592,10 @@
 				762BF96922699AE200431217 /* s23a.png in Resources */,
 				2332DF112664BD75003845EE /* venous212.png in Resources */,
 				76340A1F2267A5BF00B9EABE /* S6_4_3.png in Resources */,
+				23D9EB5B2B4BEA0F00FED029 /* immunoc213.png in Resources */,
 				763409332267335200B9EABE /* Ref_2.png in Resources */,
 				23DFF136240E3F6A001941C3 /* Platelets-LightBlue.html in Resources */,
+				23D9ED002B4C162D00FED029 /* immunochap4.html in Resources */,
 				762BFA342269C1EA00431217 /* s62b.png in Resources */,
 				762BFADA2269CE9D00431217 /* s83h.png in Resources */,
 				E7E449EF1DF6E07600544853 /* Abbreviations.pdf in Resources */,
@@ -5686,6 +6608,7 @@
 				E70C7B2A1DCCA17A00E8A89F /* Chapter-2_09.png in Resources */,
 				23AA1CF8266516DF00EDBEF8 /* venousa10.png in Resources */,
 				762BF9F62269B5D500431217 /* s53c.png in Resources */,
+				23D9ECD92B4C0FE100FED029 /* immunoc96.png in Resources */,
 				23415677240F73AA007ABA4C /* platelets32i.png in Resources */,
 				23FD6FA425D3C97F001FCA19 /* VioletImmu copy.html in Resources */,
 				763409A022678F6F00B9EABE /* Ref_S6_B.jpeg in Resources */,
@@ -5696,15 +6619,21 @@
 				E77CD0651DA68D3A0033DE96 /* Brown.html in Resources */,
 				763409CC226794F500B9EABE /* O-red.html in Resources */,
 				762BF9312268EF9700431217 /* s13b.png in Resources */,
+				23D9ECA82B4C0B6D00FED029 /* immunoc8fig1.png in Resources */,
+				23D9EC692B4C077C00FED029 /* immunoc76.png in Resources */,
 				76340A642267B1B600B9EABE /* S8_4_8.png in Resources */,
+				23D9EB642B4BEA0F00FED029 /* immunoc215.png in Resources */,
 				233ED1232410D9300073D3A9 /* platelets83j.png in Resources */,
 				23415764240FA3C9007ABA4C /* platelets68a.png in Resources */,
 				23FD6F3A25D3C726001FCA19 /* O-green copy.html in Resources */,
 				762BFA942269C9A200431217 /* s72b.png in Resources */,
 				23AA1C8D2665038700EDBEF8 /* venous76.png in Resources */,
 				763409AF2267923300B9EABE /* S4_2_3.png in Resources */,
+				23D9EC6E2B4C077D00FED029 /* immunoc75.png in Resources */,
+				23D9ECA12B4C0B6D00FED029 /* immunoc822.png in Resources */,
 				E7063C8A1DD1A65200E38BDB /* chapter-3-part-5---ios_04.jpg in Resources */,
 				762BF96222699A9000431217 /* s22a.png in Resources */,
+				23D9EC7B2B4C077D00FED029 /* immunoc71.png in Resources */,
 				233ED12D2410D9300073D3A9 /* platelets83b.png in Resources */,
 				762BF9BA2269AC0000431217 /* s38b.png in Resources */,
 				239613C625D6AA0400E2E65B /* CoagulationCascadeInhibitorsOfCoagulation copy.xib in Resources */,
@@ -5713,6 +6642,7 @@
 				E7E61A891DD08A280037AA88 /* chapter-4-part-1---ios_09.jpg in Resources */,
 				233ED1422410DD8E0073D3A9 /* platelets85f.png in Resources */,
 				762BF9E52269AF8700431217 /* s49 a.png in Resources */,
+				23D9EB9F2B4BEFC100FED029 /* immunoc320.png in Resources */,
 				763409BF2267928500B9EABE /* S4_3_5.png in Resources */,
 				762BFAAC2269CAC100431217 /* s73j.png in Resources */,
 				E7E0380A1DACF26C00A79471 /* chapter-2-orange-part-4_11.jpg in Resources */,
@@ -5721,6 +6651,7 @@
 				76FCEEB4227B1419001179CC /* Quizz_8.json in Resources */,
 				2341573F240F9C71007ABA4C /* platelets63a.png in Resources */,
 				2332DF702664D04F003845EE /* venous55.png in Resources */,
+				23D9ECA72B4C0B6D00FED029 /* immunoc88.png in Resources */,
 				23EB421224161BF700EB2D66 /* platelets83vsub.png in Resources */,
 				E7E619CB1DD086FE0037AA88 /* chapter-3-part-2---ios_05.jpg in Resources */,
 				238DF07826661BF600A63143 /* fig71.png in Resources */,
@@ -5738,6 +6669,7 @@
 				23415763240FA3C9007ABA4C /* platelets68b.png in Resources */,
 				762BFA692269C8FE00431217 /* s71h.png in Resources */,
 				2361E6282379A3CB0083F118 /* 13.jpg in Resources */,
+				23D9EBB82B4BEFC200FED029 /* immunoc34.png in Resources */,
 				762BF9DA2269AF3400431217 /* s46b.png in Resources */,
 				2332DF4F2664C90C003845EE /* venous416.png in Resources */,
 				23DFF199240E78DF001941C3 /* platelets26e.png in Resources */,
@@ -5751,11 +6683,15 @@
 				E7E0382D1DACF27600A79471 /* chapter-2-orange-part-5---ios_10.jpg in Resources */,
 				23DFF0F3240E1B51001941C3 /* platelets11c.png in Resources */,
 				23AA1C962665038700EDBEF8 /* venous74.png in Resources */,
+				23D9EC6C2B4C077D00FED029 /* immunoc711.png in Resources */,
 				2332DF9C2664D8B2003845EE /* venous64.png in Resources */,
 				762BFAAB2269CAC100431217 /* s73c.png in Resources */,
 				23AA1C862665038700EDBEF8 /* venous73.png in Resources */,
+				23D9EC162B4C005400FED029 /* immunoc516.png in Resources */,
 				762BF97E22699B4600431217 /* s24g.png in Resources */,
+				23D9EB9A2B4BEFC100FED029 /* immunoc326.png in Resources */,
 				762BFAB72269CAC100431217 /* s73i.png in Resources */,
+				23D9EBEF2B4BF3ED00FED029 /* immunoc415.png in Resources */,
 				233ED0F42410CC6F0073D3A9 /* platelets81a.png in Resources */,
 				23DFF18D240E77E8001941C3 /* platelets27a.png in Resources */,
 				E7E61A311DD089200037AA88 /* chapter-3-purple---part-3_09.png in Resources */,
@@ -5763,7 +6699,9 @@
 				2341574C240F9F4E007ABA4C /* platelets65c.png in Resources */,
 				233ED0E72410C9560073D3A9 /* platelets75a.png in Resources */,
 				E7E61A8B1DD08A280037AA88 /* chapter-4-part-1---ios_11.jpg in Resources */,
+				23D9EC412B4C03D200FED029 /* immunoc619.png in Resources */,
 				762BF9C72269AEC200431217 /* s49+1a.png in Resources */,
+				23D9ECB82B4C0B6D00FED029 /* immunoc86.png in Resources */,
 				762BFA902269C9A200431217 /* s72s.png in Resources */,
 				76340A492267AF3B00B9EABE /* S8_2_4.png in Resources */,
 				233ED11E2410D9300073D3A9 /* platelets83q.png in Resources */,
@@ -5779,10 +6717,13 @@
 				762BF9212268EF6B00431217 /* s12a.png in Resources */,
 				E7E619E91DD0887C0037AA88 /* chapter-3-purple---part-2_01.png in Resources */,
 				E7E619F31DD0887C0037AA88 /* chapter-3-purple-part-1_03.png in Resources */,
+				23D9EBE92B4BF3ED00FED029 /* immunoc414.png in Resources */,
 				762BFA8C2269C9A200431217 /* s72n.png in Resources */,
+				23D9EBA92B4BEFC100FED029 /* immunoc39.png in Resources */,
 				762BFA512269C7F400431217 /* s65c.png in Resources */,
 				23AA1CF2266516DF00EDBEF8 /* venousa3.png in Resources */,
 				76340A152267A2C000B9EABE /* S6_5.png in Resources */,
+				23D9EBB22B4BEFC100FED029 /* immunoc323.png in Resources */,
 				E70C7B0A1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_04.jpg in Resources */,
 				2332DF4C2664C90C003845EE /* venous48.png in Resources */,
 				E7E619BC1DD086FE0037AA88 /* chapter-3-part-1---ios_02.jpg in Resources */,
@@ -5807,22 +6748,28 @@
 				E7E619C21DD086FE0037AA88 /* chapter-3-part-1---ios_08.jpg in Resources */,
 				E7838BD31C75B39D00672CC1 /* CoagulationCascadeCoagulationCascade.xib in Resources */,
 				76340A182267A2D400B9EABE /* S6_6_2.png in Resources */,
+				23D9ECAE2B4C0B6D00FED029 /* immunoc8fig2.png in Resources */,
 				23DFF142240E4477001941C3 /* platelets21g.png in Resources */,
 				E7E037AE1DACF24700A79471 /* chapter-2-orange-part-1---ios_04.jpg in Resources */,
 				763409512267526C00B9EABE /* S2_42.png in Resources */,
+				23D9EC762B4C077D00FED029 /* immunoc713.png in Resources */,
 				762BF98622699C7100431217 /* s26a.png in Resources */,
 				E7E038251DACF27600A79471 /* chapter-2-orange-part-5---ios_02.jpg in Resources */,
 				234156B6240F80B2007ABA4C /* platelets42g.png in Resources */,
+				23D9ECEE2B4C0FE100FED029 /* immunoc94.png in Resources */,
 				E7E449F51DF6FA6A00544853 /* chapter-2-orange-part-4_131.jpg in Resources */,
 				763409802267896F00B9EABE /* s3_31.png in Resources */,
 				233ED1532410E0480073D3A9 /* platelets87a.png in Resources */,
 				763409F32267974800B9EABE /* Ref_S5_B.jpeg in Resources */,
 				762BFA552269C80600431217 /* s66a.png in Resources */,
+				23D9EBF52B4BF3ED00FED029 /* immunoc4fig2.png in Resources */,
 				23EB421A2416224000EB2D66 /* platelets83ssub.png in Resources */,
 				23FD6F7425D3C88C001FCA19 /* Platelets-LightBlue copy.html in Resources */,
 				763409BC2267928500B9EABE /* S4_3_1.png in Resources */,
 				76340A2D2267A9BF00B9EABE /* S7_3_1.png in Resources */,
 				E7E619C91DD086FE0037AA88 /* chapter-3-part-2---ios_03.jpg in Resources */,
+				23D9EB662B4BEA0F00FED029 /* immunoc29.png in Resources */,
+				23D9ECA02B4C0B6D00FED029 /* immunoc820.png in Resources */,
 				233ED15F2410E3790073D3A9 /* platelets91b.png in Resources */,
 				23AA1CAA266508F100EDBEF8 /* venous814.png in Resources */,
 				23AA1CD126650D3E00EDBEF8 /* venous92.png in Resources */,
@@ -5843,21 +6790,26 @@
 				233ED1192410D9300073D3A9 /* platelets83f.png in Resources */,
 				E781D2411C31161600681379 /* Quizz_5.json in Resources */,
 				238DF0342666054E00A63143 /* fig11.png in Resources */,
+				23D9ECE42B4C0FE100FED029 /* immunoc913.png in Resources */,
 				23DFF0FA240E2378001941C3 /* platelets12c.png in Resources */,
 				233ED0E42410C8FE0073D3A9 /* platelets74d.png in Resources */,
 				233ED0E12410C8FE0073D3A9 /* platelets74b.png in Resources */,
+				23D9EB382B4BE54500FED029 /* immuno25.png in Resources */,
 				238DF09B26661D0D00A63143 /* tab11b.png in Resources */,
 				762BF9C82269AEC200431217 /* s49+1c.png in Resources */,
 				762BFA882269C9A200431217 /* s72q.png in Resources */,
 				23AA1CFB266516DF00EDBEF8 /* venousa6.png in Resources */,
+				23D9EB5D2B4BEA0F00FED029 /* immunoc27.png in Resources */,
 				23AA1CDA26650D3E00EDBEF8 /* venous99.png in Resources */,
 				7634095D2267725B00B9EABE /* S2_71.png in Resources */,
+				23D9EB582B4BEA0F00FED029 /* immunoc212.png in Resources */,
 				762BFA6D2269C8FE00431217 /* s71k.png in Resources */,
 				233ED17E2410E8D60073D3A9 /* platelets97c.png in Resources */,
 				E70C7B291DCCA17A00E8A89F /* Chapter-2_08.png in Resources */,
 				E7E61ABC1DD08B110037AA88 /* chapter-5-part-1---ios_13.jpg in Resources */,
 				23FD6FD925D3CC22001FCA19 /* VioletLupus copy.html in Resources */,
 				E7E61ABF1DD08B110037AA88 /* chapter-5-part-2---ios_03.jpg in Resources */,
+				23D9ECA22B4C0B6D00FED029 /* immunoc8fig3.png in Resources */,
 				E72F50861DDB0F1C0069F105 /* chapter-2-orange-part-1---ios_061.jpg in Resources */,
 				E752526E1C50CE26000CF33F /* QuickGuide5.pdf in Resources */,
 				762BF9FD2269B61800431217 /* s54a.png in Resources */,
@@ -5865,7 +6817,10 @@
 				E7E619ED1DD0887C0037AA88 /* chapter-3-purple---part-2_05.png in Resources */,
 				E7E61A5F1DD089AB0037AA88 /* chapter-4-brown_09.png in Resources */,
 				762BF9372268EFDB00431217 /* s14b.png in Resources */,
+				23D9ECD82B4C0FE100FED029 /* immunoc92.png in Resources */,
+				23D9EC122B4C005400FED029 /* immunoc54.png in Resources */,
 				E7E619F81DD0887C0037AA88 /* chapter-3-purple-part-1_08.png in Resources */,
+				23D9EC722B4C077D00FED029 /* immunoc72.png in Resources */,
 				7634099922678A6900B9EABE /* Ref_S6_1.png in Resources */,
 				E7063C811DD1A65200E38BDB /* chapter-3-part-4---ios_07.jpg in Resources */,
 				233ED12C2410D9300073D3A9 /* platelets83a.png in Resources */,
@@ -5877,6 +6832,7 @@
 				7620526E225F3C99003F8DE3 /* Screenshot 2018-11-27 13.01.28.png in Resources */,
 				E7A8CC3C1C6C877F00CFB419 /* InhibitorsCoagulationPhase.strings in Resources */,
 				76205253225F3C99003F8DE3 /* Screenshot 2018-11-27 13.09.05.png in Resources */,
+				23D9EB622B4BEA0F00FED029 /* immunoc224.png in Resources */,
 				762BF9AB2269AB5400431217 /* s33c.png in Resources */,
 				E70C7B2B1DCCA17A00E8A89F /* Chapter-2_10.png in Resources */,
 				762BFA572269C87500431217 /* B-PurpleTwo.html in Resources */,
@@ -5887,6 +6843,7 @@
 				2332DF2E2664C125003845EE /* venous37.png in Resources */,
 				E7E038011DACF26C00A79471 /* chapter-2-orange-part-4_02.jpg in Resources */,
 				234156EB240F891E007ABA4C /* platelets47a.png in Resources */,
+				23D9EB562B4BEA0F00FED029 /* immunoc225.png in Resources */,
 				76205255225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.45.png in Resources */,
 				763409362267335200B9EABE /* Ref_3.png in Resources */,
 				762BFA4B2269C37A00431217 /* s64figs1.png in Resources */,
@@ -5897,14 +6854,17 @@
 				23DFF16F240E6DB5001941C3 /* platelets24d.png in Resources */,
 				762BF91C2268EF0400431217 /* s11b.png in Resources */,
 				233ED0F02410CA9A0073D3A9 /* Platelets-Green.html in Resources */,
+				23D9EBA32B4BEFC100FED029 /* immunoc317.png in Resources */,
 				E7E61A841DD08A280037AA88 /* chapter-4-part-1---ios_04.jpg in Resources */,
 				E7E61AB61DD08B110037AA88 /* chapter-5-part-1---ios_07.jpg in Resources */,
 				76340A1E2267A5BF00B9EABE /* S6_4_1.png in Resources */,
 				233ED1502410E0480073D3A9 /* platelets87f.png in Resources */,
 				234156BF240F80B2007ABA4C /* platelets42f.png in Resources */,
 				7620526A225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.20.png in Resources */,
+				23D9EB1B2B4BE2FC00FED029 /* immuno18.png in Resources */,
 				E7E037C41DACF25300A79471 /* chapter-2-orange-part-2---ios_02.jpg in Resources */,
 				23FD6FB825D3C9FD001FCA19 /* P-Blue copy.html in Resources */,
+				23D9EBAF2B4BEFC100FED029 /* immunoc31.png in Resources */,
 				233ED14E2410E0480073D3A9 /* platelets87c.png in Resources */,
 				E7E037AD1DACF24700A79471 /* chapter-2-orange-part-1---ios_03.jpg in Resources */,
 				76205268225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.03.png in Resources */,
@@ -5927,6 +6887,8 @@
 				23DFF19C240E78DF001941C3 /* platelets26d.png in Resources */,
 				E7E61A431DD089200037AA88 /* chapter-3-purple---part-4_04.png in Resources */,
 				E7E038261DACF27600A79471 /* chapter-2-orange-part-5---ios_03.jpg in Resources */,
+				23D9EC9F2B4C0B6D00FED029 /* immunoc826.png in Resources */,
+				23D9ECED2B4C0FE100FED029 /* immunoc91.png in Resources */,
 				233ED12B2410D9300073D3A9 /* platelets83v.png in Resources */,
 				2332DF502664C90C003845EE /* venous413.png in Resources */,
 				762BF9D72269AF1D00431217 /* s45.png in Resources */,
@@ -5946,15 +6908,20 @@
 				7634094E2267526C00B9EABE /* S2_47.png in Resources */,
 				762BF95E22699A9000431217 /* s22b.png in Resources */,
 				E75252601C50AAD6000CF33F /* Credits.html in Resources */,
+				23D9EB702B4BEA9F00FED029 /* immunoc2fig2.png in Resources */,
 				763409582267722700B9EABE /* S2_64.png in Resources */,
 				E7E038451DACF28200A79471 /* chapter-2-orange-part-6---ios_05.jpg in Resources */,
 				238DF07426661BF600A63143 /* tab73.png in Resources */,
 				23FD6F7E25D3C8AC001FCA19 /* Platelets-Orange copy.html in Resources */,
 				233ED0ED2410CA270073D3A9 /* platelets76c.png in Resources */,
 				762BFAB62269CAC100431217 /* s73e.png in Resources */,
+				23D9EAE72B4BD5B500FED029 /* immuno13.png in Resources */,
 				762BF96822699AE200431217 /* s23c.png in Resources */,
+				23D9ECB12B4C0B6D00FED029 /* immunoc814.png in Resources */,
 				E7E61A461DD089200037AA88 /* chapter-3-purple---part-4_07.png in Resources */,
 				234156C0240F80B2007ABA4C /* platelets42d.png in Resources */,
+				23D9ECE02B4C0FE100FED029 /* immunoc93.png in Resources */,
+				23D9EBB12B4BEFC100FED029 /* immunoc319.png in Resources */,
 				E7E037B01DACF24700A79471 /* chapter-2-orange-part-1---ios_06.jpg in Resources */,
 				234156BB240F80B2007ABA4C /* platelets42o.png in Resources */,
 				23415740240F9C71007ABA4C /* platelets64b.png in Resources */,
@@ -5964,12 +6931,14 @@
 				23FD6FB325D3C9E1001FCA19 /* P-Orange copy.html in Resources */,
 				E7E037CC1DACF25300A79471 /* chapter-2-orange-part-2---ios_10.jpg in Resources */,
 				763409E8226795D400B9EABE /* S5_3_3.png in Resources */,
+				23D9EBE32B4BF3ED00FED029 /* immunoc418.png in Resources */,
 				238DF07926661BF600A63143 /* tab72.png in Resources */,
 				76406067225E25350098124A /* Abbreviations_oral.pdf in Resources */,
 				E75252741C50D2C6000CF33F /* 11-12028 Fiche Paediatrics IPAD MaJ BD V3.pdf in Resources */,
 				E7E619CE1DD086FE0037AA88 /* chapter-3-part-2---ios_08.jpg in Resources */,
 				7620525D225F3C99003F8DE3 /* Screenshot 2018-11-27 13.05.51.png in Resources */,
 				E7E037E91DACF26100A79471 /* chapter-2-orange-part-3---ios_12.jpg in Resources */,
+				23D9EC7A2B4C077D00FED029 /* immunoc712.png in Resources */,
 				E7E037B41DACF24700A79471 /* chapter-2-orange-part-1---ios_10.jpg in Resources */,
 				762BFAAD2269CAC100431217 /* s73h.png in Resources */,
 				2332DF2C2664C125003845EE /* venous311.png in Resources */,
@@ -5977,13 +6946,17 @@
 				23190FA723A04EDC007B03F4 /* s24bImg.jpg in Resources */,
 				E77CD0301DA67A270033DE96 /* Orange.html in Resources */,
 				E7E61A281DD089200037AA88 /* chapter-3-purple---part-2_14.png in Resources */,
+				23D9ED042B4C164900FED029 /* immunochap5.html in Resources */,
 				2332DF2F2664C125003845EE /* venous310.png in Resources */,
 				23415721240F92EA007ABA4C /* platelets53f.png in Resources */,
+				23D9EAC22B4BD1EB00FED029 /* immunochap1 copy.html in Resources */,
 				E729775A1C6DF67500875519 /* logo_stago.png in Resources */,
 				E7E038481DACF28200A79471 /* chapter-2-orange-part-6---ios_08.jpg in Resources */,
+				23D9ECDB2B4C0FE100FED029 /* immunoc9fig1.png in Resources */,
 				23DFF185240E73FE001941C3 /* platelets25f.png in Resources */,
 				23FD6F3525D3C718001FCA19 /* O-blue copy.html in Resources */,
 				233ED11B2410D9300073D3A9 /* platelets83m.png in Resources */,
+				23D9EBE42B4BF3ED00FED029 /* immunoc412.png in Resources */,
 				E75252701C50CE26000CF33F /* QuickGuide7.pdf in Resources */,
 				23415665240F72E3007ABA4C /* platelets33a.png in Resources */,
 				2332DF192664BD75003845EE /* venous210.png in Resources */,
@@ -6003,6 +6976,7 @@
 				233ED1252410D9300073D3A9 /* platelets83r.png in Resources */,
 				762BF9D22269AEF300431217 /* s43c.png in Resources */,
 				234156B3240F80B2007ABA4C /* platelets42b.png in Resources */,
+				23D9EBDD2B4BF3ED00FED029 /* immunoc43.png in Resources */,
 				762BF96B22699AE200431217 /* s23d.png in Resources */,
 				23FD6F3F25D3C75C001FCA19 /* O-LightBlue copy.html in Resources */,
 				2341573E240F9C71007ABA4C /* platelets64a.png in Resources */,
@@ -6017,6 +6991,7 @@
 				B4D0D1461C55E6DA00E27F45 /* coagulation-cascade-1.png in Resources */,
 				E70095E71C1810F7008362B0 /* Assets.xcassets in Resources */,
 				762BFAB42269CAC100431217 /* s73t.png in Resources */,
+				23D9EC6B2B4C077C00FED029 /* immunoc719.png in Resources */,
 				762BFA872269C9A200431217 /* s72p.png in Resources */,
 				762BF9F42269B5D500431217 /* s53a.png in Resources */,
 				2332DF2B2664C125003845EE /* venous32.png in Resources */,
@@ -6027,13 +7002,16 @@
 				E7E037DE1DACF26100A79471 /* chapter-2-orange-part-3---ios_01.jpg in Resources */,
 				E7E61A291DD089200037AA88 /* chapter-3-purple---part-3_01.png in Resources */,
 				762BF92E2268EF9700431217 /* s13e.png in Resources */,
+				23D9EBB42B4BEFC100FED029 /* immunoc37.png in Resources */,
 				76340A522267AF9400B9EABE /* S8_4_5.png in Resources */,
 				2332DF982664D8B2003845EE /* venous66.png in Resources */,
 				2341576A240FA4BD007ABA4C /* platelets610b.png in Resources */,
+				23D9ED0B2B4C169100FED029 /* immunochap7 copy.html in Resources */,
 				E70C7AF21DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_06.png in Resources */,
 				E70C7AF31DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_07.png in Resources */,
 				238DF05D266618CF00A63143 /* tab51.png in Resources */,
 				763409C12267928500B9EABE /* S4_3_8.png in Resources */,
+				23D9EB332B4BE54400FED029 /* immuno21.png in Resources */,
 				E7E0384C1DACF28200A79471 /* chapter-2-orange-part-6---ios_12.jpg in Resources */,
 				233ED1222410D9300073D3A9 /* platelets83g.png in Resources */,
 				233ED17C2410E8D60073D3A9 /* platelets97a.png in Resources */,
@@ -6043,6 +7021,7 @@
 				762BFA412269C27B00431217 /* s64b.png in Resources */,
 				76340A372267AAE900B9EABE /* S7_8_3.png in Resources */,
 				E70C7B161DCC985000E8A89F /* chapter-1-orange-part-2---IOS_16.png in Resources */,
+				23D9EBA42B4BEFC100FED029 /* immunoc325.png in Resources */,
 				23DFF0F1240D12B4001941C3 /* platelets11b.png in Resources */,
 				233ED11A2410D9300073D3A9 /* platelets83l.png in Resources */,
 				234156AF240F80B2007ABA4C /* platelets42c.png in Resources */,
@@ -6061,6 +7040,7 @@
 				238DF06826661BA400A63143 /* tab64.png in Resources */,
 				234156B9240F80B2007ABA4C /* platelets42t.png in Resources */,
 				763409BD2267928500B9EABE /* S4_3_7.png in Resources */,
+				23D9EB962B4BEFC100FED029 /* immunoc318.png in Resources */,
 				2332DEEB2664B6C6003845EE /* venous13.png in Resources */,
 				23AA1D1026651A9300EDBEF8 /* venousb2.png in Resources */,
 				763409B12267923300B9EABE /* S4_2_4.png in Resources */,
@@ -6070,6 +7050,7 @@
 				E7E619F11DD0887C0037AA88 /* chapter-3-purple---part-2_09.png in Resources */,
 				233ED1292410D9300073D3A9 /* platelets83u.png in Resources */,
 				23DFF143240E4477001941C3 /* platelets21e.png in Resources */,
+				23D9EBAB2B4BEFC100FED029 /* immunoc328.png in Resources */,
 				762BFA2C2269C1DB00431217 /* s61a.png in Resources */,
 				23AA1D0B26651A9300EDBEF8 /* venousb5.png in Resources */,
 				E77CD0961DA6910A0033DE96 /* P-Blue-Darker.html in Resources */,
@@ -6077,9 +7058,11 @@
 				233ED1752410E7B00073D3A9 /* platelets95a.png in Resources */,
 				762BF91D2268EF0400431217 /* s11a.png in Resources */,
 				2332DF992664D8B2003845EE /* venous65.png in Resources */,
+				23D9ECAC2B4C0B6D00FED029 /* immunoc821.png in Resources */,
 				238DF08426661C5D00A63143 /* tab83.png in Resources */,
 				762BF9232268EF6B00431217 /* s12c.png in Resources */,
 				23E3FFED237973EA0082A8A8 /* 2.jpg in Resources */,
+				23D9ECE62B4C0FE100FED029 /* immunoc915.png in Resources */,
 				2332DF122664BD75003845EE /* venous23.png in Resources */,
 				233ED1342410DC170073D3A9 /* platelets84b.png in Resources */,
 				E752526D1C50CE26000CF33F /* QuickGuide4.pdf in Resources */,
@@ -6091,6 +7074,7 @@
 				E70C7B101DCC985000E8A89F /* chapter-1-orange-part-2---IOS_10.jpg in Resources */,
 				233ED1272410D9300073D3A9 /* platelets83p.png in Resources */,
 				763409A32267910E00B9EABE /* O-Marrown.html in Resources */,
+				23D9ECEF2B4C0FE100FED029 /* immunoc99.png in Resources */,
 				E72F50941DDB50730069F105 /* chapter-4-part-2---ios_061.jpg in Resources */,
 				2341572B240F9592007ABA4C /* platelets55f.png in Resources */,
 				233ED13E2410DD8E0073D3A9 /* platelets85c.png in Resources */,
@@ -6099,14 +7083,20 @@
 				23AA1CF7266516DF00EDBEF8 /* venousa8.png in Resources */,
 				233ED1352410DC170073D3A9 /* platelets84a.png in Resources */,
 				2332DF682664D04F003845EE /* venous52.png in Resources */,
+				23D9ECAD2B4C0B6D00FED029 /* immunoc82.png in Resources */,
 				E7E038091DACF26C00A79471 /* chapter-2-orange-part-4_10.jpg in Resources */,
+				23D9EC3E2B4C03D200FED029 /* immunoc613.png in Resources */,
 				E7A8CC3A1C6C83E900CFB419 /* FibrinFormationPhase.strings in Resources */,
+				23D9EBED2B4BF3ED00FED029 /* immunoc427.png in Resources */,
+				23D9EBF62B4BF3ED00FED029 /* immunoc45.png in Resources */,
+				23D9EB592B4BEA0F00FED029 /* immunoc221.png in Resources */,
 				763409D82267959400B9EABE /* S5_2_8.png in Resources */,
 				2332DF152664BD75003845EE /* venous27.png in Resources */,
 				23415695240F7C70007ABA4C /* platelets41a.png in Resources */,
 				E73585A61C63542F00A5B10A /* BARMENOCFFREG.ttf in Resources */,
 				E7E61A8D1DD08A280037AA88 /* chapter-4-part-1---ios_13.jpg in Resources */,
 				E7E61A8E1DD08A280037AA88 /* chapter-4-part-1---ios_14.jpg in Resources */,
+				23D9EB612B4BEA0F00FED029 /* immunoc222.png in Resources */,
 				762BF9EC2269B54000431217 /* s51a.png in Resources */,
 				762BFAED2269CECC00431217 /* s84a.png in Resources */,
 				7634099C22678A6900B9EABE /* Ref_S6_2.png in Resources */,
@@ -6126,10 +7116,12 @@
 				23C78FCC25BEC86900920ADD /* Main-iphone.storyboard in Resources */,
 				2332DF182664BD75003845EE /* venous25.png in Resources */,
 				76340A552267AF9400B9EABE /* S8_4_1.png in Resources */,
+				23D9ED072B4C166D00FED029 /* immunochap6 copy.html in Resources */,
 				E70C7B0B1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_05.jpg in Resources */,
 				E7E449F11DF6F72200544853 /* new-line.png in Resources */,
 				E781D23E1C31161600681379 /* Quizz_3.json in Resources */,
 				762BFA2D2269C1DB00431217 /* s61b.png in Resources */,
+				23D9EC332B4C03D200FED029 /* immunoc61.png in Resources */,
 				762BFAB82269CAC100431217 /* s73f.png in Resources */,
 				233ED14C2410E0480073D3A9 /* platelets87h.png in Resources */,
 				2347015F26612AA700390396 /* livre6-gray copy.html in Resources */,
@@ -6143,6 +7135,7 @@
 				763409F12267974800B9EABE /* Ref_S5_2.png in Resources */,
 				E7E038471DACF28200A79471 /* chapter-2-orange-part-6---ios_07.jpg in Resources */,
 				E7E037E61DACF26100A79471 /* chapter-2-orange-part-3---ios_09.jpg in Resources */,
+				23D9ECAB2B4C0B6D00FED029 /* immunoc89.png in Resources */,
 				76205264225F3C99003F8DE3 /* Screenshot 2018-11-27 13.02.58.png in Resources */,
 				762BF9E92269B4ED00431217 /* B-Red.html in Resources */,
 				23AA1CDB26650D3E00EDBEF8 /* venous910.png in Resources */,
@@ -6155,13 +7148,16 @@
 				23AA1C882665038700EDBEF8 /* venous719.png in Resources */,
 				E7838BD91C75F39000672CC1 /* CoagulationCascadeFibrinFormation.xib in Resources */,
 				762BF98F22699EC500431217 /* s28cd.png in Resources */,
+				23D9EBF42B4BF3ED00FED029 /* immunoc428.png in Resources */,
 				762BFABD2269CAC100431217 /* s73s.png in Resources */,
 				76340A612267AFF300B9EABE /* S8_5_3.png in Resources */,
 				763409E5226795D400B9EABE /* S5_3_2.png in Resources */,
 				23DFF186240E73FE001941C3 /* platelets25g.png in Resources */,
 				E7E037C81DACF25300A79471 /* chapter-2-orange-part-2---ios_06.jpg in Resources */,
 				762BFA112269B6A100431217 /* s56e.png in Resources */,
+				23D9ECDE2B4C0FE100FED029 /* immunoc924.png in Resources */,
 				E7063C901DD1A65200E38BDB /* chapter-3-part-5---ios_10.jpg in Resources */,
+				23D9EBA02B4BEFC100FED029 /* immunoc310.png in Resources */,
 				E781D23F1C31161600681379 /* Quizz_4.json in Resources */,
 				E72F50901DDB4DF90069F105 /* chapter-4-part-2---ios_051.jpg in Resources */,
 				E7E61A661DD089AB0037AA88 /* chapter-4-brown_20.png in Resources */,
@@ -6169,14 +7165,17 @@
 				763409C5226792D100B9EABE /* S4_4_2.png in Resources */,
 				E7063C861DD1A65200E38BDB /* chapter-3-part-4---ios_12.jpg in Resources */,
 				762BFA422269C27B00431217 /* s64c.png in Resources */,
+				23D9EBA72B4BEFC100FED029 /* immunoc311.png in Resources */,
 				23DFF188240E74BC001941C3 /* platelets25a.png in Resources */,
 				2334F42A2419FA7F000CD3F8 /* platelets76d.png in Resources */,
 				E7E61A971DD08A280037AA88 /* chapter-4-part-2---ios_05.jpg in Resources */,
 				2332DEEE2664B6C6003845EE /* venous15.png in Resources */,
+				23D9ED132B4C16D500FED029 /* immunochap9.html in Resources */,
 				E7E619CA1DD086FE0037AA88 /* chapter-3-part-2---ios_04.jpg in Resources */,
 				E77CD09A1DA6911A0033DE96 /* P-Brown.html in Resources */,
 				E752528B1C50E386000CF33F /* III-DIC and Fibrin Related Markers pour APPS rev. FD 140521-def.pdf in Resources */,
 				762BF96322699A9000431217 /* s22c.png in Resources */,
+				23D9ECE82B4C0FE100FED029 /* immunoc910.png in Resources */,
 				23DFF118240E2E7A001941C3 /* platelets16a.png in Resources */,
 				E70C7B221DCCA17A00E8A89F /* Chapter-2_01.png in Resources */,
 				238DF09326661CEB00A63143 /* fig10b.png in Resources */,
@@ -6184,15 +7183,20 @@
 				23FD6F1725D3C651001FCA19 /* B-Marrown copy.html in Resources */,
 				E7E61A301DD089200037AA88 /* chapter-3-purple---part-3_08.png in Resources */,
 				7620525A225F3C99003F8DE3 /* Screenshot 2018-11-27 13.06.53.png in Resources */,
+				23D9ECA92B4C0B6D00FED029 /* immunoc819.png in Resources */,
 				E7E037CD1DACF25300A79471 /* chapter-2-orange-part-2---ios_11.jpg in Resources */,
 				7620525E225F3C99003F8DE3 /* O-Orange.html in Resources */,
 				762BF9A32269A98400431217 /* s39+1b.png in Resources */,
 				762BFA4A2269C37A00431217 /* s63figs1.png in Resources */,
 				7634097A2267879A00B9EABE /* s3_27.png in Resources */,
 				23AA1CDD26650D3E00EDBEF8 /* venous98.png in Resources */,
+				23D9ECF02B4C0FE100FED029 /* immunoc923.png in Resources */,
+				23D9EC3D2B4C03D200FED029 /* immunoc6tab2.png in Resources */,
 				E70C7B141DCC985000E8A89F /* chapter-1-orange-part-2---IOS_14.jpg in Resources */,
+				23D9EC472B4C03D200FED029 /* immunoc618.png in Resources */,
 				23FD6F0D25D3C625001FCA19 /* B-PurpleTwo copy.html in Resources */,
 				23415671240F73AA007ABA4C /* platelets32b.png in Resources */,
+				23D9EC732B4C077D00FED029 /* immunoc73.png in Resources */,
 				762BFAE92269CECC00431217 /* s84c.png in Resources */,
 				762BF9F72269B5D500431217 /* s53d.png in Resources */,
 				E7063C881DD1A65200E38BDB /* chapter-3-part-5---ios_02.jpg in Resources */,
@@ -6204,6 +7208,7 @@
 				23415708240F9052007ABA4C /* platelets52a.png in Resources */,
 				762BFA852269C9A200431217 /* s72g.png in Resources */,
 				23415738240F990B007ABA4C /* platelets62a.png in Resources */,
+				23D9EBE02B4BF3ED00FED029 /* immunoc425.png in Resources */,
 				763409FD2267A18900B9EABE /* O-green.html in Resources */,
 				234156BC240F80B2007ABA4C /* platelets42i.png in Resources */,
 				E7E038281DACF27600A79471 /* chapter-2-orange-part-5---ios_05.jpg in Resources */,
@@ -6213,16 +7218,21 @@
 				23EB4208241619B400EB2D66 /* platelets65hsub.png in Resources */,
 				E7E037B21DACF24700A79471 /* chapter-2-orange-part-1---ios_08.jpg in Resources */,
 				2332DF322664C125003845EE /* venous33.png in Resources */,
+				23D9EBA62B4BEFC100FED029 /* immunoc35.png in Resources */,
 				76205266225F3C99003F8DE3 /* Screenshot 2018-11-27 13.06.16.png in Resources */,
 				E7E61A3F1DD089200037AA88 /* chapter-3-purple---part-3_23.png in Resources */,
 				E76FA77D1DB9F4A3008DF616 /* chapter-1-_12.png in Resources */,
 				762BF9FC2269B61800431217 /* s54c.png in Resources */,
 				E7E619EA1DD0887C0037AA88 /* chapter-3-purple---part-2_02.png in Resources */,
 				E7E61A251DD089200037AA88 /* chapter-3-purple---part-2_11.png in Resources */,
+				23D9EC752B4C077D00FED029 /* immunoc74.png in Resources */,
 				23AA1C942665038700EDBEF8 /* venous78.png in Resources */,
+				23D9EC642B4C077C00FED029 /* immunoc78.png in Resources */,
 				23AA1CE026650D3E00EDBEF8 /* venous94.png in Resources */,
+				23D9ECEC2B4C0FE100FED029 /* immunoc922.png in Resources */,
 				762BF9C12269AC9E00431217 /* s37c.png in Resources */,
 				E7E61AB81DD08B110037AA88 /* chapter-5-part-1---ios_09.jpg in Resources */,
+				23D9EC442B4C03D200FED029 /* immunoc6tab1.png in Resources */,
 				23DFF190240E77E8001941C3 /* platelets27b.png in Resources */,
 				762BFAF42269CF3B00431217 /* s86a.png in Resources */,
 				23DFF13E240E4477001941C3 /* platelets21c.png in Resources */,
@@ -6230,9 +7240,13 @@
 				23EB421C241625AE00EB2D66 /* platelets44a.png in Resources */,
 				23415697240F7C70007ABA4C /* platelets41c.png in Resources */,
 				2332DF6F2664D04F003845EE /* venous58.png in Resources */,
+				23D9EC0F2B4C005400FED029 /* immunoc5fig1.png in Resources */,
+				23D9EB0A2B4BDAC400FED029 /* immunofig11.png in Resources */,
 				233ED15D2410E3790073D3A9 /* platelets91a.png in Resources */,
 				23415720240F92EA007ABA4C /* platelets53g.png in Resources */,
+				23D9ECF22B4C0FE100FED029 /* immunoc925.png in Resources */,
 				23E3FFE9237973EA0082A8A8 /* 16.jpg in Resources */,
+				23D9EB6C2B4BEA0F00FED029 /* immunoc219.png in Resources */,
 				762BF97D22699B4600431217 /* s24f.png in Resources */,
 				2332DF6E2664D04F003845EE /* venous53.png in Resources */,
 				762BFA862269C9A200431217 /* s72e.png in Resources */,
@@ -6240,23 +7254,31 @@
 				762BFA672269C8FE00431217 /* s71j.png in Resources */,
 				76340A2F2267AA0000B9EABE /* S7_4.png in Resources */,
 				E70C7B0F1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_09.jpg in Resources */,
+				23D9EB972B4BEFC100FED029 /* immunoc333.png in Resources */,
 				E7E037B51DACF24700A79471 /* chapter-2-orange-part-1---ios_11.jpg in Resources */,
 				762BFABB2269CAC100431217 /* s73o.png in Resources */,
 				E7E038311DACF27600A79471 /* chapter-2-orange-part-5---ios_14.jpg in Resources */,
 				E7063C891DD1A65200E38BDB /* chapter-3-part-5---ios_03.jpg in Resources */,
+				23D9EBB62B4BEFC200FED029 /* immunoc324.png in Resources */,
 				23415675240F73AA007ABA4C /* platelets32a.png in Resources */,
 				E72F508A1DDB40C60069F105 /* chapter-3-part-4---ios_021.jpg in Resources */,
+				23D9ECBA2B4C0B6D00FED029 /* immunoc816.png in Resources */,
 				763409D72267959400B9EABE /* S5_2_2.png in Resources */,
 				2341567A240F73AA007ABA4C /* platelets32c.png in Resources */,
 				762BFA6F2269C8FE00431217 /* s71f.png in Resources */,
 				762BFAC52269CD9A00431217 /* B-green.html in Resources */,
+				23D9EBAA2B4BEFC100FED029 /* immunoc322.png in Resources */,
+				23D9EB9B2B4BEFC100FED029 /* immunoc312.png in Resources */,
+				23D9EBF32B4BF3ED00FED029 /* immunoc420.png in Resources */,
 				234156E0240F86D7007ABA4C /* platelets46e.png in Resources */,
 				76340A392267AAE900B9EABE /* S7_8_2.png in Resources */,
+				23D9EC1A2B4C005400FED029 /* immunoc55.png in Resources */,
 				E7E61A8F1DD08A280037AA88 /* chapter-4-part-1---ios_15.jpg in Resources */,
 				E7E038121DACF26C00A79471 /* chapter-2-orange-part-4_19.jpg in Resources */,
 				762BFAAE2269CAC100431217 /* s73p.png in Resources */,
 				E7E61A3B1DD089200037AA88 /* chapter-3-purple---part-3_19.png in Resources */,
 				233ED1542410E0480073D3A9 /* platelets87e.png in Resources */,
+				23D9ECF32B4C0FE100FED029 /* immunoc97.png in Resources */,
 				E7E038071DACF26C00A79471 /* chapter-2-orange-part-4_08.jpg in Resources */,
 				E7E61A371DD089200037AA88 /* chapter-3-purple---part-3_15.png in Resources */,
 				233ED0FD2410CE350073D3A9 /* platelets82b.png in Resources */,
@@ -6270,19 +7292,24 @@
 				E70C7AF01DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_04.png in Resources */,
 				234156B8240F80B2007ABA4C /* platelets42a.png in Resources */,
 				762BFA952269C9A200431217 /* s72m.png in Resources */,
+				23D9EC132B4C005400FED029 /* immunoc511.png in Resources */,
 				2341576B240FA4BD007ABA4C /* platelets69a.png in Resources */,
+				23D9EC662B4C077C00FED029 /* immunoc717.png in Resources */,
 				23AA1D1126651A9300EDBEF8 /* venousb10.png in Resources */,
 				E7E619F01DD0887C0037AA88 /* chapter-3-purple---part-2_08.png in Resources */,
 				762BFA2B2269C1DB00431217 /* s61d.png in Resources */,
 				2332DEFB2664B6C6003845EE /* venous112.png in Resources */,
 				23DFF0FD240E2378001941C3 /* platelets12e.png in Resources */,
+				23D9EC3A2B4C03D200FED029 /* immunoc64.png in Resources */,
 				762BFA6C2269C8FE00431217 /* s71e.png in Resources */,
+				23D9EC352B4C03D200FED029 /* immunoc611.png in Resources */,
 				E70D18091DCB0E3C0084747A /* jquery.mobile-1.4.5.min.js in Resources */,
 				76340A472267AF3B00B9EABE /* S8_2_3.png in Resources */,
 				23FD6F5B25D3C7F5001FCA19 /* O-red copy.html in Resources */,
 				23AA1C852665038700EDBEF8 /* venous714.png in Resources */,
 				23AA1D0F26651A9300EDBEF8 /* venousb6.png in Resources */,
 				E7527B691C28015A0086F19E /* CoagCascPrimaryHaemostasis.xcassets in Resources */,
+				23D9EBD92B4BF3ED00FED029 /* immunoc49.png in Resources */,
 				233ED1262410D9300073D3A9 /* platelets83o.png in Resources */,
 				76340960226772C300B9EABE /* Ref_S8_1.png in Resources */,
 				233ED0F52410CC6F0073D3A9 /* platelets81b.png in Resources */,
@@ -6295,6 +7322,7 @@
 				2332DF9E2664D8B2003845EE /* venous68.png in Resources */,
 				763409F42267974800B9EABE /* Ref_S5_1.png in Resources */,
 				23AA1CF3266516DF00EDBEF8 /* venousa11.png in Resources */,
+				23D9EC772B4C077D00FED029 /* immunoc7fig5.png in Resources */,
 				2347017826612AD500390396 /* livre6-green copy.html in Resources */,
 				762BF97B22699B4600431217 /* s24h.png in Resources */,
 				2332DF832664D063003845EE /* venous520.png in Resources */,
@@ -6302,6 +7330,7 @@
 				23415750240F9F4E007ABA4C /* platelets65g.png in Resources */,
 				E70C7B241DCCA17A00E8A89F /* Chapter-2_03.png in Resources */,
 				762BFA932269C9A200431217 /* s72k.png in Resources */,
+				23D9EB3A2B4BE54500FED029 /* immuno29.png in Resources */,
 				23AA1CB4266508F100EDBEF8 /* venous815.png in Resources */,
 				23415717240F92EA007ABA4C /* platelets53h.png in Resources */,
 				23DFF0F9240E2378001941C3 /* platelets12a.png in Resources */,
@@ -6314,6 +7343,9 @@
 				E70C7B251DCCA17A00E8A89F /* Chapter-2_04.png in Resources */,
 				762BF9472268F0F100431217 /* s15e.png in Resources */,
 				23DFF112240E2CCC001941C3 /* platelets15f.png in Resources */,
+				23D9EB242B4BE2FC00FED029 /* immuno17.png in Resources */,
+				23D9EC652B4C077C00FED029 /* immunoc77.png in Resources */,
+				23D9EBDF2B4BF3ED00FED029 /* immunoc424.png in Resources */,
 				762BF9D52269AF1000431217 /* s44.png in Resources */,
 				763409CA226794E600B9EABE /* S5_1.png in Resources */,
 				E70C7B151DCC985000E8A89F /* chapter-1-orange-part-2---IOS_15.jpg in Resources */,
@@ -6326,6 +7358,7 @@
 				E7E61A9A1DD08A280037AA88 /* chapter-4-part-2---ios_08.jpg in Resources */,
 				233ED12E2410D9300073D3A9 /* platelets83i.png in Resources */,
 				233ED1402410DD8E0073D3A9 /* platelets85e.png in Resources */,
+				23D9EC392B4C03D200FED029 /* immunoc6fig1.png in Resources */,
 				762BF9A52269A98E00431217 /* s32.png in Resources */,
 				233ED1662410E4880073D3A9 /* platelets92a.png in Resources */,
 				E77CD04B1DA68AEC0033DE96 /* Blue.html in Resources */,
@@ -6335,24 +7368,32 @@
 				E7FF69AB1DDB78A500A165FF /* chapter-3-purple-part-1_04.png in Resources */,
 				762BF9462268F0F100431217 /* s15d.png in Resources */,
 				E7941E661E43573000248DDD /* chapter-2-orange-part-4_05.jpg in Resources */,
+				23D9EB5A2B4BEA0F00FED029 /* immunoc211.png in Resources */,
 				2341575C240FA245007ABA4C /* platelets67a.png in Resources */,
 				23EB4200241616C600EB2D66 /* platelets21gsub.png in Resources */,
 				76340A192267A2D400B9EABE /* S6_6_1.png in Resources */,
+				23D9EC372B4C03D200FED029 /* immunoc620.png in Resources */,
 				E7E619F91DD0887C0037AA88 /* chapter-3-purple-part-1_09.png in Resources */,
+				23D9EC152B4C005400FED029 /* immunoc515.png in Resources */,
 				233ED0EC2410CA270073D3A9 /* platelets76a.png in Resources */,
 				E7E61ABA1DD08B110037AA88 /* chapter-5-part-1---ios_11.jpg in Resources */,
 				763409342267335200B9EABE /* Ref_1.png in Resources */,
 				2347016426612AAF00390396 /* livre6-gray2 copy.html in Resources */,
+				23D9EB992B4BEFC100FED029 /* immunoc36.png in Resources */,
 				23415679240F73AA007ABA4C /* platelets33a.png in Resources */,
 				7634098A226789C100B9EABE /* s3_46.png in Resources */,
 				E7A717581E55B11E00BD5C80 /* VioletImmu.html in Resources */,
 				23DFF12A240E38CD001941C3 /* platelets19b.png in Resources */,
+				23D9ECF42B4C0FE100FED029 /* immunoc98.png in Resources */,
 				E77CD09C1DA691210033DE96 /* P-Orange.html in Resources */,
 				762BFAB32269CAC100431217 /* s73r.png in Resources */,
+				23D9EBE72B4BF3ED00FED029 /* immunoc411.png in Resources */,
 				762BF9482268F0F100431217 /* s15b.png in Resources */,
 				76205261225F3C99003F8DE3 /* Screenshot 2018-11-27 13.04.05.png in Resources */,
 				E7E61AB31DD08B110037AA88 /* chapter-5-part-1---ios_04.jpg in Resources */,
+				23D9EC102B4C005400FED029 /* immunoc5tab1.png in Resources */,
 				233ED0CD2410C40D0073D3A9 /* platelets72e.png in Resources */,
+				23D9ECB32B4C0B6D00FED029 /* immunoc87.png in Resources */,
 				76340A072267A21E00B9EABE /* S6_2_1.png in Resources */,
 				762BFA832269C9A200431217 /* s72l.png in Resources */,
 				23415702240F8DB4007ABA4C /* platelets51e.png in Resources */,
@@ -6363,20 +7404,27 @@
 				E7E0380B1DACF26C00A79471 /* chapter-2-orange-part-4_12.jpg in Resources */,
 				763409D62267959400B9EABE /* S5_2_7.png in Resources */,
 				E77CD0331DA67A6A0033DE96 /* chapter-1-_01.png in Resources */,
+				23D9ECB72B4C0B6D00FED029 /* immunoc811.png in Resources */,
+				23D9ECFC2B4C15EE00FED029 /* immunochap3.html in Resources */,
 				238DF0392666054E00A63143 /* fig15.png in Resources */,
 				E752526A1C50CE26000CF33F /* QuickGuide1.pdf in Resources */,
 				762BF92B2268EF9700431217 /* s13d.png in Resources */,
+				23D9EC6A2B4C077C00FED029 /* immunoc710.png in Resources */,
 				23FD6F2125D3C680001FCA19 /* B-LightBlue copy.html in Resources */,
+				23D9EB5E2B4BEA0F00FED029 /* immunoc26.png in Resources */,
 				23FD6FAE25D3C9D6001FCA19 /* P-Brown copy.html in Resources */,
 				E7E038271DACF27600A79471 /* chapter-2-orange-part-5---ios_04.jpg in Resources */,
 				762BF9A12269A98400431217 /* s39+1c.png in Resources */,
 				2332DF5A2664C90C003845EE /* venous410.png in Resources */,
 				E7E038001DACF26C00A79471 /* chapter-2-orange-part-4_01.jpg in Resources */,
+				23D9EBE22B4BF3ED00FED029 /* immunoc4fig1.png in Resources */,
+				23D9EB372B4BE54500FED029 /* immuno23.png in Resources */,
 				763409C6226792D100B9EABE /* S4_4_1.png in Resources */,
 				762BFA352269C1EA00431217 /* s62c.png in Resources */,
 				7620526D225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.59.png in Resources */,
 				233ED1182410D9300073D3A9 /* platelets83w.png in Resources */,
 				23FD6F7925D3C898001FCA19 /* Platelets-Marrown copy.html in Resources */,
+				23D9EBE12B4BF3ED00FED029 /* immunoc44.png in Resources */,
 				762BFAC92269CE3300431217 /* s81a.png in Resources */,
 				763409E7226795D400B9EABE /* S5_3_1.png in Resources */,
 				E7E038291DACF27600A79471 /* chapter-2-orange-part-5---ios_06.jpg in Resources */,
@@ -6401,6 +7449,8 @@
 				234156DD240F86D7007ABA4C /* platelets46c.png in Resources */,
 				233ED16D2410E5780073D3A9 /* platelets93b.png in Resources */,
 				E7E037C71DACF25300A79471 /* chapter-2-orange-part-2---ios_05.jpg in Resources */,
+				23D9ECFB2B4C15EE00FED029 /* immunochap3 copy.html in Resources */,
+				23D9EBD82B4BF3ED00FED029 /* immunoc48.png in Resources */,
 				23415686240F77B6007ABA4C /* platelets36a.png in Resources */,
 				2341571A240F92EA007ABA4C /* platelets53c.png in Resources */,
 				762BFA3C2269C24100431217 /* s63a.png in Resources */,
@@ -6415,6 +7465,7 @@
 				233ED0CF2410C40D0073D3A9 /* platelets72a.png in Resources */,
 				763409772267879A00B9EABE /* S3_22.png in Resources */,
 				23470123266129AA00390396 /* livre6-purple.html in Resources */,
+				23D9EB392B4BE54500FED029 /* immuno28.png in Resources */,
 				762BF97F22699B4600431217 /* s24a.png in Resources */,
 				23E3FFEB237973EA0082A8A8 /* 7.jpg in Resources */,
 				23AA1CFA266516DF00EDBEF8 /* venousa12.png in Resources */,
@@ -6433,13 +7484,17 @@
 				763409762267879A00B9EABE /* s3_25.png in Resources */,
 				2332DF892664D063003845EE /* venous518.png in Resources */,
 				763409432267523300B9EABE /* S2_3.png in Resources */,
+				23D9ECB42B4C0B6D00FED029 /* immunoc85.png in Resources */,
+				23D9ED0F2B4C16BA00FED029 /* immunochap8.html in Resources */,
 				763409682267874600B9EABE /* s3_12.png in Resources */,
 				2341574A240F9F4E007ABA4C /* platelets65e.png in Resources */,
+				23D9EC782B4C077D00FED029 /* immunoc714.png in Resources */,
 				23DFF19B240E78DF001941C3 /* platelets26a.png in Resources */,
 				238DF07726661BF600A63143 /* tab75.png in Resources */,
 				2347017D26612ADE00390396 /* livre6-green2 copy.html in Resources */,
 				239613C925D6AA0500E2E65B /* CoagulationCascadeAnticoagulants copy.xib in Resources */,
 				E72977581C6DF56200875519 /* separateur-rouge.png in Resources */,
+				23D9ED0C2B4C169100FED029 /* immunochap7.html in Resources */,
 				234156BE240F80B2007ABA4C /* platelets42m.png in Resources */,
 				762BFA192269B72800431217 /* s57c.png in Resources */,
 				233ED11D2410D9300073D3A9 /* platelets83c.png in Resources */,
@@ -6448,14 +7503,17 @@
 				E7E619F51DD0887C0037AA88 /* chapter-3-purple-part-1_05.png in Resources */,
 				762BFA152269B6A100431217 /* s56a.png in Resources */,
 				E7063C8F1DD1A65200E38BDB /* chapter-3-part-5---ios_09.jpg in Resources */,
+				23D9EBA22B4BEFC100FED029 /* immunoc313.png in Resources */,
 				234156AE240F80B2007ABA4C /* platelets42h.png in Resources */,
 				762BF9452268F0F100431217 /* s15a.png in Resources */,
 				E7E038301DACF27600A79471 /* chapter-2-orange-part-5---ios_13.jpg in Resources */,
+				23D9ECF12B4C0FE100FED029 /* immunoc927.png in Resources */,
 				E70C7AF41DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_08.png in Resources */,
 				2341572E240F9592007ABA4C /* platelets55b.png in Resources */,
 				76205269225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.30.png in Resources */,
 				23DFF0FB240E2378001941C3 /* platelets12d.png in Resources */,
 				E70C7B0E1DCC985000E8A89F /* chapter-1-orange-part-2---IOS_08.jpg in Resources */,
+				23D9EBAE2B4BEFC100FED029 /* immunoc38.png in Resources */,
 				E7E61A361DD089200037AA88 /* chapter-3-purple---part-3_14.png in Resources */,
 				E7E61A601DD089AB0037AA88 /* chapter-4-brown_10_01.jpg in Resources */,
 				23FD6F4925D3C784001FCA19 /* O-Orange copy.html in Resources */,
@@ -6473,35 +7531,59 @@
 				76340989226789C100B9EABE /* s3_41.png in Resources */,
 				E7063C801DD1A65200E38BDB /* chapter-3-part-4---ios_06.jpg in Resources */,
 				23DFF0EF240D0D69001941C3 /* platelets11a.png in Resources */,
+				23D9EB342B4BE54400FED029 /* immuno27.png in Resources */,
 				76340A312267AA7A00B9EABE /* S7_5.png in Resources */,
+				23D9EB982B4BEFC100FED029 /* immunoc329.png in Resources */,
+				23D9ECFF2B4C162D00FED029 /* immunochap4 copy.html in Resources */,
 				762BF98122699BB600431217 /* s25.png in Resources */,
 				762BFA922269C9A200431217 /* s72h.png in Resources */,
 				E7E61A391DD089200037AA88 /* chapter-3-purple---part-3_17.png in Resources */,
+				23D9EC6F2B4C077D00FED029 /* immunoc7fig1.png in Resources */,
 				23EB42022416173200EB2D66 /* platelets24esub.png in Resources */,
 				762BFA682269C8FE00431217 /* s71b.png in Resources */,
+				23D9EBEE2B4BF3ED00FED029 /* immunoc41.png in Resources */,
+				23D9EC712B4C077D00FED029 /* immunoc716.png in Resources */,
 				233ED0D92410C79C0073D3A9 /* platelets73b.png in Resources */,
+				23D9ECA62B4C0B6D00FED029 /* immunoc83.png in Resources */,
 				762BF98522699C7100431217 /* s26c.png in Resources */,
 				763409D92267959400B9EABE /* S5_2_6.png in Resources */,
+				23D9EBB52B4BEFC100FED029 /* immunoc316.png in Resources */,
 				23FD6FA925D3C9C4001FCA19 /* P-Blue-Darker copy.html in Resources */,
 				E7E61A3C1DD089200037AA88 /* chapter-3-purple---part-3_20.png in Resources */,
+				23D9ECE92B4C0FE100FED029 /* immunoc926.png in Resources */,
+				23D9EC632B4C077C00FED029 /* immunoc720.png in Resources */,
 				23FD6F1225D3C638001FCA19 /* B-Red copy.html in Resources */,
+				23D9EB5F2B4BEA0F00FED029 /* immunoc216.png in Resources */,
 				23AA1CAB266508F100EDBEF8 /* venous86.png in Resources */,
 				762BF99B2269A8A500431217 /* B-Purple.html in Resources */,
+				23D9EC112B4C005400FED029 /* immunoc56.png in Resources */,
+				23D9EB352B4BE54400FED029 /* immuno22.png in Resources */,
 				23AA1CD526650D3E00EDBEF8 /* venous916.png in Resources */,
+				23D9EC432B4C03D200FED029 /* immunoc63.png in Resources */,
+				23D9EBF12B4BF3ED00FED029 /* immunoc416.png in Resources */,
+				23D9EC402B4C03D200FED029 /* immunoc68.png in Resources */,
 				23DFF108240E2B27001941C3 /* platelets14a.png in Resources */,
+				23D9ECDC2B4C0FE100FED029 /* immunoc916.png in Resources */,
 				23FD6F1C25D3C666001FCA19 /* B-Purple copy.html in Resources */,
 				E70C7B091DCC985000E8A89F /* chapter-1-orange-part-2---IOS_03.jpg in Resources */,
 				E7E037AC1DACF24700A79471 /* chapter-2-orange-part-1---ios_02.jpg in Resources */,
+				23D9EBE62B4BF3ED00FED029 /* immunoc47.png in Resources */,
 				E7E0384B1DACF28200A79471 /* chapter-2-orange-part-6---ios_11.jpg in Resources */,
 				762BFA3D2269C24100431217 /* s63b.png in Resources */,
+				23D9EBF22B4BF3ED00FED029 /* immunoc422.png in Resources */,
 				763409592267722700B9EABE /* S2_62.png in Resources */,
+				23D9ECE32B4C0FE100FED029 /* immunoc921.png in Resources */,
 				E7E0380E1DACF26C00A79471 /* chapter-2-orange-part-4_15.jpg in Resources */,
+				23D9EB0C2B4BE05100FED029 /* immuno15.png in Resources */,
 				7634098B226789C100B9EABE /* s3_42.png in Resources */,
 				762BFA062269B65100431217 /* s55c.png in Resources */,
+				23D9ED082B4C166D00FED029 /* immunochap6.html in Resources */,
+				23D9EC462B4C03D200FED029 /* immunoc614.png in Resources */,
 				2334F42E2419FCEA000CD3F8 /* platelets73e.png in Resources */,
 				23E3FFF0237973EA0082A8A8 /* 17.jpg in Resources */,
 				E7E037EA1DACF26100A79471 /* chapter-2-orange-part-3---ios_13.jpg in Resources */,
 				238DF0552666159300A63143 /* fig31.png in Resources */,
+				23D9EBE82B4BF3ED00FED029 /* immunoc423.png in Resources */,
 				762BF9992269A1F300431217 /* s22fig1.png in Resources */,
 				2334F42C2419FC3F000CD3F8 /* platelets81d.png in Resources */,
 				E7E61A3D1DD089200037AA88 /* chapter-3-purple---part-3_21.png in Resources */,
@@ -6536,6 +7618,7 @@
 				E70C7B231DCCA17A00E8A89F /* Chapter-2_02.png in Resources */,
 				23E3FFE8237973EA0082A8A8 /* 4.jpg in Resources */,
 				E7E038081DACF26C00A79471 /* chapter-2-orange-part-4_09.jpg in Resources */,
+				23D9EBA52B4BEFC100FED029 /* immunoc327.png in Resources */,
 				762BFA1B2269B72800431217 /* s57b.png in Resources */,
 				E70C7AE21DCC752300E8A89F /* chapter-1-_05.png in Resources */,
 				E7E61A851DD08A280037AA88 /* chapter-4-part-1---ios_05.jpg in Resources */,
@@ -6549,14 +7632,17 @@
 				E7E619EB1DD0887C0037AA88 /* chapter-3-purple---part-2_03.png in Resources */,
 				238DF07526661BF600A63143 /* tab71.png in Resources */,
 				762BF9AD2269AB7500431217 /* s34a.png in Resources */,
+				23D9EBB72B4BEFC200FED029 /* immunoc332.png in Resources */,
 				238DF07626661BF600A63143 /* tab74.png in Resources */,
 				E70C7AEF1DCC975200E8A89F /* D-_Work_IHemostatis_2016_Android_PDF-3_chapter-1-orange-part-1---IOS_03.png in Resources */,
+				23D9EC792B4C077D00FED029 /* immunoc7fig3.png in Resources */,
 				E7063C7B1DD1A65200E38BDB /* chapter-3-part-4---ios_01.jpg in Resources */,
 				E7E619FE1DD0887C0037AA88 /* chapter-3-purple-part-1_14.png in Resources */,
 				7634093A2267362700B9EABE /* goToFigure.png in Resources */,
 				7634095A2267722700B9EABE /* S2_61.png in Resources */,
 				762BFAB52269CAC100431217 /* s73b.png in Resources */,
 				762BF98D22699EC500431217 /* s28cb.png in Resources */,
+				23D9ECB02B4C0B6D00FED029 /* immunoc818.png in Resources */,
 				762BFABE2269CAC100431217 /* s73m.png in Resources */,
 				23415676240F73AA007ABA4C /* platelets32e.png in Resources */,
 				23DFF133240E3DCA001941C3 /* platelets19e.png in Resources */,
@@ -6567,8 +7653,10 @@
 				233ED0EB2410CA270073D3A9 /* platelets76b.png in Resources */,
 				E7838BCF1C734AC700672CC1 /* logo-kdsante.png in Resources */,
 				238DF0382666054E00A63143 /* fig13.png in Resources */,
+				23D9EB9D2B4BEFC100FED029 /* immunoc321.png in Resources */,
 				23DFF120240E312A001941C3 /* platelets17c.png in Resources */,
 				E7E61A8C1DD08A280037AA88 /* chapter-4-part-1---ios_12.jpg in Resources */,
+				23D9EB5C2B4BEA0F00FED029 /* immunoc223.png in Resources */,
 				7620526B225F3C99003F8DE3 /* Screenshot 2018-11-27 13.07.11.png in Resources */,
 				2336866423851AFE00A96B7C /* s84d2.png in Resources */,
 				762BFA332269C1EA00431217 /* s62a.png in Resources */,
@@ -6585,6 +7673,7 @@
 				E7E61A2C1DD089200037AA88 /* chapter-3-purple---part-3_04.png in Resources */,
 				E7063C841DD1A65200E38BDB /* chapter-3-part-4---ios_10.jpg in Resources */,
 				E7E61A271DD089200037AA88 /* chapter-3-purple---part-2_13.png in Resources */,
+				23D9EB322B4BE54400FED029 /* immuno20.png in Resources */,
 				2334F4262419F906000CD3F8 /* platelets74g.png in Resources */,
 				23415751240F9F4E007ABA4C /* platelets65h.png in Resources */,
 				E7E619D01DD086FE0037AA88 /* chapter-3-part-2---ios_10.jpg in Resources */,
@@ -6603,23 +7692,30 @@
 				E7E61A861DD08A280037AA88 /* chapter-4-part-1---ios_06.jpg in Resources */,
 				E7E61A871DD08A280037AA88 /* chapter-4-part-1---ios_07.jpg in Resources */,
 				E711A8CA1C648BF20072A65D /* PrimaryHaemostasisPhase.strings in Resources */,
+				23D9ECAA2B4C0B6D00FED029 /* immunoc823.png in Resources */,
 				E7063C8E1DD1A65200E38BDB /* chapter-3-part-5---ios_08.jpg in Resources */,
 				2332DF5B2664C90C003845EE /* venous43.png in Resources */,
 				233ED1242410D9300073D3A9 /* platelets83t.png in Resources */,
 				762BFAEC2269CECC00431217 /* s84f.png in Resources */,
+				23D9EBEC2B4BF3ED00FED029 /* immunoc413.png in Resources */,
 				23415664240F72E3007ABA4C /* platelets33b.png in Resources */,
 				E7E61AB51DD08B110037AA88 /* chapter-5-part-1---ios_06.jpg in Resources */,
+				23D9ECA52B4C0B6D00FED029 /* immunoc813.png in Resources */,
+				23D9EC6D2B4C077D00FED029 /* immunoc7fig2.png in Resources */,
 				2341571B240F92EA007ABA4C /* platelets53e.png in Resources */,
 				763409A7226791A000B9EABE /* S4_1.png in Resources */,
 				763409BB2267928500B9EABE /* S4_3_3.png in Resources */,
 				2332DF6C2664D04F003845EE /* venous56.png in Resources */,
 				23415674240F73AA007ABA4C /* platelets32f.png in Resources */,
+				23D9EC422B4C03D200FED029 /* immunoc62.png in Resources */,
+				23D9EB552B4BEA0F00FED029 /* immunoc220.png in Resources */,
 				E7E449F71DF6FF9900544853 /* chapter-3-part-4---ios_05.jpg in Resources */,
 				233ED1362410DC170073D3A9 /* platelets84c.png in Resources */,
 				233ED1712410E6620073D3A9 /* platelets94b.png in Resources */,
 				234156D4240F8575007ABA4C /* platelets45a.png in Resources */,
 				E70095E51C1810F6008362B0 /* Main.storyboard in Resources */,
 				2347013726612A0A00390396 /* livre6-blue3.html in Resources */,
+				23D9EBB02B4BEFC100FED029 /* immunoc3fig1.png in Resources */,
 				234156F5240F8A68007ABA4C /* platelets49b.png in Resources */,
 				23DFF123240E312A001941C3 /* platelets17a.png in Resources */,
 				E70C7AE01DCC73B300E8A89F /* chapter-1-_10.png in Resources */,
@@ -6628,14 +7724,17 @@
 				762BFADE2269CE9D00431217 /* s83i.png in Resources */,
 				23DFF107240E2B27001941C3 /* platelets14c.png in Resources */,
 				E70C7B111DCC985000E8A89F /* chapter-1-orange-part-2---IOS_11.jpg in Resources */,
+				23D9ECB92B4C0B6D00FED029 /* immunoc827.png in Resources */,
 				233ED11C2410D9300073D3A9 /* platelets83n.png in Resources */,
 				2361E61F2379A3CB0083F118 /* 11.jpg in Resources */,
 				762BFA6A2269C8FE00431217 /* s71g.png in Resources */,
 				76340A092267A21E00B9EABE /* S6_2_4.png in Resources */,
+				23D9ECDD2B4C0FE100FED029 /* immunoc918.png in Resources */,
 				23DFF122240E312A001941C3 /* platelets18a.png in Resources */,
 				23EB42192416224000EB2D66 /* platelets81csub.png in Resources */,
 				23415758240FA1BF007ABA4C /* platelets66c.png in Resources */,
 				7620525C225F3C99003F8DE3 /* Screenshot 2018-11-27 13.01.42.png in Resources */,
+				23D9ECF72B4C15C500FED029 /* immunochap2 copy.html in Resources */,
 				2341572C240F9592007ABA4C /* platelets55c.png in Resources */,
 				762BFA432269C27B00431217 /* s64a.png in Resources */,
 				2332DF862664D063003845EE /* venous516.png in Resources */,
@@ -6649,8 +7748,11 @@
 				2341567B240F73AA007ABA4C /* platelets32d.png in Resources */,
 				23DFF140240E4477001941C3 /* platelets21d.png in Resources */,
 				762BF9FE2269B61800431217 /* s54d.png in Resources */,
+				23D9EBF02B4BF3ED00FED029 /* immunoc426.png in Resources */,
 				763409752267879A00B9EABE /* s3_29.png in Resources */,
+				23D9EC3C2B4C03D200FED029 /* immunoc67.png in Resources */,
 				762BFAB22269CAC100431217 /* s73q.png in Resources */,
+				23D9EBDA2B4BF3ED00FED029 /* immunoc410.png in Resources */,
 				23DFF12B240E38CD001941C3 /* platelets19a.png in Resources */,
 				762BFAF32269CF3B00431217 /* s86b.png in Resources */,
 				762BF98E22699EC500431217 /* s28cc.png in Resources */,
@@ -6670,18 +7772,25 @@
 				23415684240F77B6007ABA4C /* platelets36d.png in Resources */,
 				762BFADB2269CE9D00431217 /* s83e.png in Resources */,
 				23AA1CB5266508F100EDBEF8 /* venous84.png in Resources */,
+				23D9EC3F2B4C03D200FED029 /* immunoc616.png in Resources */,
 				234156D1240F8575007ABA4C /* platelets45c.png in Resources */,
+				23D9EB1F2B4BE2FC00FED029 /* immuno16.png in Resources */,
 				762BF94F2268F29F00431217 /* s17b.png in Resources */,
 				763409F22267974800B9EABE /* Ref_S5_A.jpeg in Resources */,
 				762BFA6B2269C8FE00431217 /* s71i.png in Resources */,
+				23D9EC9D2B4C0B6D00FED029 /* immunoc812.png in Resources */,
+				23D9EAC12B4BD1EB00FED029 /* immunochap1.html in Resources */,
 				762BF9302268EF9700431217 /* s13a.png in Resources */,
+				23D9EC0E2B4C005400FED029 /* immunoc53.png in Resources */,
 				76340A1D2267A5BF00B9EABE /* S6_4_2.png in Resources */,
 				E7838BD71C75F30F00672CC1 /* CoagulationCascadePrimaryHaemostasis.xib in Resources */,
 				23AA1D0D26651A9300EDBEF8 /* venousb1.png in Resources */,
 				23AA1CDE26650D3E00EDBEF8 /* venous912.png in Resources */,
 				234156DE240F86D7007ABA4C /* platelets46h.png in Resources */,
 				E7E0382F1DACF27600A79471 /* chapter-2-orange-part-5---ios_12.jpg in Resources */,
+				23D9ED032B4C164900FED029 /* immunochap5 copy.html in Resources */,
 				763409BE2267928500B9EABE /* S4_3_6.png in Resources */,
+				23D9EC9C2B4C0B6D00FED029 /* immunoc84.png in Resources */,
 				23DFF170240E6DB5001941C3 /* platelets24c.png in Resources */,
 				233ED0FC2410CE350073D3A9 /* platelets82c.png in Resources */,
 				E7E61A921DD08A280037AA88 /* chapter-4-part-1---ios_18.jpg in Resources */,
@@ -6690,7 +7799,9 @@
 				2332DF0F2664BD75003845EE /* venous28.png in Resources */,
 				233ED0DA2410C79C0073D3A9 /* platelets73c.png in Resources */,
 				762BFA492269C37A00431217 /* s61figs1.png in Resources */,
+				23D9ECAF2B4C0B6D00FED029 /* immunoc81.png in Resources */,
 				E7E037E71DACF26100A79471 /* chapter-2-orange-part-3---ios_10.jpg in Resources */,
+				23D9ECB62B4C0B6D00FED029 /* immunoc828.png in Resources */,
 				76340A0D2267A26700B9EABE /* S6_3_1.png in Resources */,
 				23AA1CB3266508F100EDBEF8 /* venous81.png in Resources */,
 				E7E61AC41DD08B110037AA88 /* chapter-5-part-2---ios_08.jpg in Resources */,
@@ -6702,6 +7813,7 @@
 				E7E61A811DD08A280037AA88 /* chapter-4-part-1---ios_01.jpg in Resources */,
 				762BFAC82269CE3300431217 /* s81b.png in Resources */,
 				E77CD0461DA67FEF0033DE96 /* chapter-1-_11.png in Resources */,
+				23D9ED142B4C16D500FED029 /* immunochap9 copy.html in Resources */,
 				E7E037E41DACF26100A79471 /* chapter-2-orange-part-3---ios_07.jpg in Resources */,
 				762BFABC2269CAC100431217 /* s73d.png in Resources */,
 				E77CD0481DA684B50033DE96 /* chapter-1-_02.png in Resources */,

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="EXK-48-cko">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -248,7 +248,7 @@
                                         <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="y7r-Lw-5MK" rowHeight="105" style="IBUITableViewCellStyleDefault" id="SVp-yr-Dkg">
-                                                <rect key="frame" x="0.0" y="44.5" width="298" height="105"/>
+                                                <rect key="frame" x="0.0" y="50" width="298" height="105"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SVp-yr-Dkg" id="lKu-eS-xyC">
                                                     <rect key="frame" x="0.0" y="0.0" width="298" height="105"/>
@@ -563,6 +563,57 @@
                                 <rect key="frame" x="0.0" y="4" width="1366" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gcw-0m-KFs" userLabel="View Eight">
+                                        <rect key="frame" x="20" y="965" width="281" height="470"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hj1-TS-Zhc">
+                                                <rect key="frame" x="0.0" y="274" width="281" height="136"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immunothrombosis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu2-KA-GBg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281" height="38"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.74117648599999997" green="0.15294118230000001" blue="0.086274512110000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cMs-Ph-Rtn">
+                                                        <rect key="frame" x="10" y="36" width="263" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Nicola J.Mutch-Simon A.-Alice A.-Frederik D.-Laura C .-Milan H.-Craig N.- Kimberly M.-James D.-Karlheinz P.- Roger J.S- Jule R.-Jeremy S.-Waltraud C.- Maneesha S.- Claire S.- Sara Z.-Johannes Z.</string>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVj-Mc-5gY">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34945700349999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Immunothrombosis" translatesAutoresizingMaskIntoConstraints="NO" id="ASm-Pu-m1B">
+                                                <rect key="frame" x="75" y="48" width="132" height="188"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQw-ye-3GY" userLabel="Button Six">
+                                                <rect key="frame" x="0.0" y="0.0" width="281" height="470"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <connections>
+                                                    <action selector="buttonActionWithTarget:" destination="MnQ-QI-g2V" eventType="touchUpInside" id="Qs1-rI-l5J"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Order it from Stago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xc4-6r-Kf6">
+                                                <rect key="frame" x="0.0" y="407" width="281" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQy-2N-9JB">
                                         <rect key="frame" x="20" y="20" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -776,7 +827,7 @@ Alfonso Tafur - Jeffrey I. Weitz</string>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-w6-yvK">
-                                        <rect key="frame" x="20" y="965" width="281" height="470"/>
+                                        <rect key="frame" x="396" y="965" width="281" height="470"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icone Appli Scores" translatesAutoresizingMaskIntoConstraints="NO" id="smb-gQ-FKj">
@@ -917,6 +968,7 @@ Matthew T. Rondina</string>
                     </view>
                     <navigationItem key="navigationItem" id="4su-x1-yjs"/>
                     <connections>
+                        <outlet property="buttonEight" destination="lQw-ye-3GY" id="g8x-Jt-D15"/>
                         <outlet property="buttonFive" destination="VQY-wF-zKy" id="Nvh-VL-zTK"/>
                         <outlet property="buttonFour" destination="51b-m6-W3R" id="KlH-Er-lIe"/>
                         <outlet property="buttonOne" destination="TJZ-3l-nOD" id="kTp-jq-YHZ"/>
@@ -932,6 +984,7 @@ Matthew T. Rondina</string>
                         <outlet property="labelThree" destination="bsI-5L-719" id="vm4-mQ-DIY"/>
                         <outlet property="labelTwo" destination="dAB-81-Hw4" id="Zt4-E6-IJP"/>
                         <outlet property="scrollView" destination="E08-qP-Ap5" id="itl-sP-IdU"/>
+                        <outlet property="viewEight" destination="gcw-0m-KFs" id="ZRB-iQ-RFP"/>
                         <outlet property="viewFive" destination="LnK-HN-49Z" id="xCe-rP-ydi"/>
                         <outlet property="viewFour" destination="RQg-1N-WWJ" id="mgq-r3-m0a"/>
                         <outlet property="viewOne" destination="NQy-2N-9JB" id="mno-jt-cTO"/>
@@ -1019,7 +1072,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="73" id="v65-iy-4cF" customClass="ClinicalCasesQuizzViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="1366" height="73"/>
+                                                <rect key="frame" x="0.0" y="50" width="1366" height="73"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v65-iy-4cF" id="C24-Az-l1D">
                                                     <rect key="frame" x="0.0" y="0.0" width="1366" height="73"/>
@@ -1070,7 +1123,7 @@ Matthew T. Rondina</string>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" rowHeight="122" id="M17-Yp-Jvu" customClass="ClinicalCasesQuizzResponseSummaryViewCell" customModule="iHemostasis" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="1366" height="122"/>
+                                                <rect key="frame" x="0.0" y="50" width="1366" height="122"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M17-Yp-Jvu" id="G6g-lp-s6B">
                                                     <rect key="frame" x="0.0" y="0.0" width="1366" height="122"/>
@@ -1343,7 +1396,7 @@ Matthew T. Rondina</string>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="S90-ob-Duc" rowHeight="82" style="IBUITableViewCellStyleDefault" id="8fV-qs-xmD">
-                                        <rect key="frame" x="0.0" y="44.5" width="768" height="82"/>
+                                        <rect key="frame" x="0.0" y="50" width="768" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.65000000000000002" contentMode="center" tableViewCell="8fV-qs-xmD" id="Ym5-Wc-Uod">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="82"/>
@@ -1418,7 +1471,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="uBT-AZ-aXQ" detailTextLabel="Aqe-cd-GS1" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BLB-yU-0kk">
-                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="50" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLB-yU-0kk" id="nNh-pm-FdF">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1512,7 +1565,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="yIO-hf-eW5" detailTextLabel="aus-zH-EJR" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="BTR-3H-fZa">
-                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="50" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BTR-3H-fZa" id="PVy-RM-w9S">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1601,7 +1654,7 @@ Matthew T. Rondina</string>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCellIdentifier" textLabel="Aki-LK-t1u" detailTextLabel="LBK-o4-lEm" rowHeight="122" style="IBUITableViewCellStyleSubtitle" id="Jqk-f1-nLa">
-                                        <rect key="frame" x="0.0" y="44.5" width="259" height="122"/>
+                                        <rect key="frame" x="0.0" y="50" width="259" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jqk-f1-nLa" id="f8U-jc-doV">
                                             <rect key="frame" x="0.0" y="0.0" width="259" height="122"/>
@@ -1939,6 +1992,7 @@ Matthew T. Rondina</string>
         <image name="CoagulationCascade" width="53" height="34.5"/>
         <image name="Disclaimer" width="31.5" height="31.5"/>
         <image name="Icone Appli Scores" width="548" height="799"/>
+        <image name="Immunothrombosis" width="444" height="642"/>
         <image name="Parenteral-anticoagulants" width="132" height="188"/>
         <image name="Platelets" width="589" height="846"/>
         <image name="PracticalManual" width="53" height="40"/>

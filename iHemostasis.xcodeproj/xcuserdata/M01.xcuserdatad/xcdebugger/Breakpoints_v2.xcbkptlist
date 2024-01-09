@@ -82,10 +82,10 @@
             filePath = "iHemostasis/PracticalManualChapterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "662"
-            endingLineNumber = "662"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "759"
+            endingLineNumber = "759"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -98,10 +98,10 @@
             filePath = "iHemostasis/PracticalManualChapterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "631"
-            endingLineNumber = "631"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "728"
+            endingLineNumber = "728"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -177,8 +177,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -209,8 +209,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "186"
-            endingLineNumber = "186"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -225,8 +225,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -241,8 +241,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -257,8 +257,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -273,8 +273,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "setupUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -289,8 +289,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
             landmarkName = "reloadUI(size:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -369,8 +369,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "buttonAction(target:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -385,8 +385,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
             landmarkName = "buttonAction(target:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -401,8 +401,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
             landmarkName = "buttonAction(target:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -417,8 +417,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
             landmarkName = "buttonAction(target:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -433,8 +433,8 @@
             filePath = "iHemostasis/PracticalManualViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
             landmarkName = "buttonAction(target:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -753,10 +753,10 @@
             filePath = "iHemostasis/PracticalManualDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
             landmarkName = "webViewDidFinishLoad(_:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -769,10 +769,10 @@
             filePath = "iHemostasis/PracticalManualDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
             landmarkName = "webViewDidFinishLoad(_:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -785,26 +785,26 @@
             filePath = "iHemostasis/PracticalManualDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
             landmarkName = "webViewDidFinishLoad(_:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4ADA6172-0AA3-44F2-A276-8E25A97CE719"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iHemostasis/PracticalManualDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "246"
-            endingLineNumber = "246"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
             landmarkName = "webView(_:didFinish:)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1028,6 +1028,22 @@
             startingLineNumber = "748"
             endingLineNumber = "748"
             landmarkName = "reloadPhaseInfos()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8808105-0225-4EF0-BD9E-4A29A1A3A260"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iHemostasis/PracticalManualDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -38,6 +38,7 @@ public class Utils {
         case BleedingDisorders
         case Platelets
         case Livre6
+        case Immuno
     }
     
     // Creates a UIColor from a Hex string.

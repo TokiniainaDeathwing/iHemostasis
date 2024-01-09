@@ -505,6 +505,103 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
         ["title" : "Summary"],
         ["title" : "References"],
     ]
+    
+    
+    //Livre 7 Immuno
+
+    var livre7chap1 = [
+        ["title" : "Prologue", "filename" : "immunochap1"],
+        ["title" : "Introduction"],
+        ["title" : "Platelets, Hemostasis, and Immunothrombosis"],
+        ["title" : "Platelets and Host Immunity"],
+        ["title" : "Platelet-Mediated Immune Modulation"],
+        ["title" : "Platelet-Mediated Pathogen Detection and Clearance"],
+        ["title" : "Clinical Perspective and Summary"],
+        ["title" : "References"]
+        
+    ]
+    var livre7chap2 = [
+        ["title" : "DAMPs and PAMPs release during infection", "filename" : "immunochap2"],
+        ["title" : "Dual role of immunothrombosis: bacterial killing versus thrombosis and organ damage"],
+        ["title" : "DAMPs as major triggers of platelet activation"],
+        ["title" : "Comorbidities and platelet response to DAMPs and PAMPs"],
+        ["title" : "Conclusion and future perspectives"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+ 
+    ]
+    var livre7chap3 = [
+        ["title" : "Endothelial dysfunction and immunothrombosis", "filename" : "immunochap3"],
+        ["title" : "Endothelial cell activation and leukocyte recruitment"],
+        ["title" : "Dysregulation of endogenous endothelial anticoagulant pathways"],
+        ["title" : "Dual role of coagulation protease signalling in modulating endothelial function"],
+        ["title" : "The role of NETosis in endothelial injury"],
+        ["title" : "Endothelial VWF release – bystander or pro-inflammatory agent?","class":"Endo"],
+        ["title" : "Vascular inflammation impairs endothelial fibrinolytic activity"],
+        ["title" : "Endothelial injury in acute inflammatory disease"],
+        ["title" : "Conclusions"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+       
+    ]
+    var livre7chap4 = [
+        ["title" : "Fibrinolysis", "filename" : "immunochap4"],
+        ["title" : "Platelets"],
+        ["title" : "Monocyte/Macrophages"],
+        ["title" : "Neutrophils"],
+        ["title" : "Endothelium"],
+        ["title" : "Fibrinolytic dysregulation during infection"],
+        ["title" : "Targeting the fibrinolytic pathway for infection and immune modulation"],
+        ["title" : "Summary"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+    ]
+    var livre7chap5 = [
+        ["title" : "Introduction", "filename" : "immunochap5"],
+        ["title" : "Inflammation and CRP"],    ["title" : "CRP structure and function"],
+        ["title" : "CRP, immunothrombosis and COVID-19"],
+        ["title" : "CRP and atherothrombosis"],
+        ["title" : "CRP and VTE"],
+        ["title" : "CRP and cancer-associated thrombosis (CAT)"],
+        ["title" : "Summary and perspectives"],
+        ["title" : "References"],
+    ]
+    var livre7chap6 = [
+        ["title" : "Introduction", "filename" : "immunochap6"],
+        ["title" : "Immunothrombotic pathways contributing to COVID-19 pathophysiology"],
+        ["title" : "Clinical interventions targeting immunothrombosis in COVID-19"],
+        ["title" : "Persistent immunothrombosis in Long-COVID"],
+        ["title" : "Perspectives"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+    ]
+    var livre7chap7 = [
+        ["title" : "Overview", "filename" : "immunochap7"],
+        ["title" : "Pathology of Sepsis"],
+        ["title" : "Definition and assessment of sepsis"],
+        ["title" : "Mechanisms of prothrombotic processes in sepsis"],
+        ["title" : "Mechanisms of immunothrombosis in sepsis"],
+        ["title" : "Immunothrombotic and haemostatic dysregulations at later stages of sepsis"],
+        ["title" : "Treatment options of haemostatic complications in sepsis"],
+        ["title" : "Key points"],
+        ["title" : "References"],
+    ]
+    var livre7chap8 = [
+        ["title" : "Introduction to NETs and their function", "filename" : "immunochap8"],
+        ["title" : "Methodologies used to study NETs"],
+        ["title" : "NETs and thrombosis"],
+        ["title" : "References"],
+       
+    ]
+    var livre7chap9 = [
+        ["title" : "Aims", "filename" : "immunochap9"],
+        ["title" : "Introduction"],
+        ["title" : "Current tests for immunothrombosis"],
+        ["title" : "Specific haemostatic tests"],
+        ["title" : "The future in testing for global immunothrombosis"],
+        ["title" : "References"],
+    ]
+    
     @IBOutlet var collectionView : UICollectionView!
     
     
@@ -812,6 +909,32 @@ class PracticalManualChapterViewController: ParentViewController, UICollectionVi
                     practicalManualDetailViewController.contextMenuPointer = livre6chap11
                 default:
                     practicalManualDetailViewController.contextMenuPointer = livre6chap1
+            }
+            
+            
+        }
+        else if(self.practicalManualType == Utils.PracticalManualType.Immuno){
+            switch indexPath.row{
+                case 0:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap1
+                case 1:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap2
+                case 2:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap3
+                case 3:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap4
+                case 4:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap5
+                case 5:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap6
+                case 6:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap7
+                case 7:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap8
+                case 8:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap9
+                default:
+                    practicalManualDetailViewController.contextMenuPointer = livre7chap1
             }
             
             

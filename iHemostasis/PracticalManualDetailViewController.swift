@@ -155,10 +155,14 @@ class PracticalManualDetailViewController: ParentViewController, UITableViewDele
     func onItemSelection(index: Int) {
         let contextMenuItem = contextMenuPointer[index]
         let title = contextMenuItem["title"]
+        var page = title
+        if(contextMenuItem["class"] != nil){
+            page = contextMenuItem["class"]
+        }
         if(UIDevice.current.userInterfaceIdiom == .pad){
-            webView?.evaluateJavaScript("loadPage(\"" + ((title! )) + "\");")
+            webView?.evaluateJavaScript("loadPage(\"" + ((page! )) + "\");")
         }else{
-            webView?.evaluateJavaScript("loadPage2(\"" + ((title! )) + "\");")
+            webView?.evaluateJavaScript("loadPage2(\"" + ((page! )) + "\");")
         }
         webView?.evaluateJavaScript( "scrollTo(0, 0);")
       //  webView?.stringByEvaluatingJavaScript(from: "loadPage(\"" + ((title! )) + "\");")
