@@ -28,6 +28,13 @@
             left: 0;
             margin-left: 20px;
         }
+        p img.gotofigtop{
+            width: 70px;
+            height 70px;
+            position: absolute;
+            top: 25px;
+            right: 40px;
+        }
     </style>
     <script type="text/javascript" src="jsNode.js"></script>
     <body onload="initSwipe();">
@@ -35,9 +42,15 @@
           
             <p class="Fibrinolysis">
                 <img class="android"  src="immunoc41.png">
+                    <img   class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
             </p>
+            <p class="Figure1">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Fibrinolysis')">
+                          <img class="android"  src="immunoc4fig1.png">
+           </p>
             <p class="Fibrinolysis">
                 <img class="android"  src="immunoc42.png">
+                    <img   class="gotofig android" src="goToFigure.png" onclick="loadFigure('Figure1')">
             </p>
             <p class="Fibrinolysis">
                 <img class="android"  src="immunoc43.png">
@@ -77,7 +90,12 @@
             </p>
             <p class="Fibrinolytic dysregulation during infection">
                 <img class="android"  src="immunoc415.png">
+                    <img   class="gotofigtop android" src="goToFigure.png" onclick="loadFigure('Figure2')">
             </p>
+            <p class="Figure2">
+                          <img class="exitfig android" src="exitFigure.png" onclick="loadPage('Fibrinolytic dysregulation during infection')">
+                          <img class="android"  src="immunoc4fig2.png">
+           </p>
             <p class="Fibrinolytic dysregulation during infection">
                 <img class="android"  src="immunoc416.png">
             </p>
